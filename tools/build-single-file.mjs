@@ -26,6 +26,7 @@ const scriptFiles = [
   "data/waterfall.js",
   "data/paint-it-black.js",
   "data/sweet-home-alabama.js",
+  "data/the-boys-of-summer.js",
   "data/tone-settings.js",
   "data/library-metadata.js",
   "data/academy-data.js",
@@ -55,6 +56,7 @@ const embeddedImages = [
   ,"paint-it-black-riffs.png"
   ,"sweet-home-alabama-intro-tab.png"
   ,"sweet-home-alabama-verse-tab.png"
+  ,"the-boys-of-summer-riff.png"
 ];
 
 let javascript = scriptFiles
