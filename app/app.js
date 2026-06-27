@@ -1,15 +1,10 @@
 const storageKey = "guitar-room-songbook";
-const academyUserIdKey = "guitar-hero-academy-user-id";
-const legacyAcademyMigrationKey = "guitar-hero-academy-rob-migration-complete";
-const legacyAcademyUserId = "rob";
-const academyUserProfile = getAcademyUserProfile();
-const academyUserId = academyUserProfile.userId;
+const academyUserId = "rob";
 const initialRoute = parseRoute();
 registerServiceWorker();
 const academyProgressService = createAcademyProgressService({
   supabase: createSupabaseClient(readSupabaseConfig()),
   userId: academyUserId,
-  legacyUserId: academyUserProfile.needsLegacyMigration ? legacyAcademyUserId : null,
   isOnline: () => state.isOnline
 });
 const state = {
@@ -276,31 +271,6 @@ function readSupabaseConfig() {
   };
 }
 
-function getAcademyUserProfile() {
-  let userId = localStorage.getItem(academyUserIdKey);
-  if (!userId) {
-    userId = generateUuid();
-    localStorage.setItem(academyUserIdKey, userId);
-  }
-  return {
-    userId,
-    needsLegacyMigration: localStorage.getItem(legacyAcademyMigrationKey) !== "true"
-  };
-}
-
-function generateUuid() {
-  if (globalThis.crypto?.randomUUID) return globalThis.crypto.randomUUID();
-  return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (char) => {
-    const value = Math.random() * 16 | 0;
-    const nibble = char === "x" ? value : (value & 0x3) | 0x8;
-    return nibble.toString(16);
-  });
-}
-
-function markLegacyAcademyMigrationComplete() {
-  localStorage.setItem(legacyAcademyMigrationKey, "true");
-}
-
 function registerServiceWorker() {
   if (!("serviceWorker" in navigator)) return;
   if (!["http:", "https:"].includes(location.protocol)) return;
@@ -341,7 +311,7 @@ function createSupabaseClient({ url, anonKey }) {
   };
 }
 
-function createAcademyProgressService({ supabase, userId, legacyUserId, isOnline }) {
+function createAcademyProgressService({ supabase, userId, isOnline }) {
   const resumeLocationKey = "__resume_learning";
   const journalDataKey = "__journal_data";
   const progress = emptyProgress();
@@ -384,28 +354,17 @@ function createAcademyProgressService({ supabase, userId, legacyUserId, isOnline
 
   async function load() {
     if (!supabase.configured) {
-      return { configured: false, progress: snapshot(), error: supabase.setupMessage, legacyMigrationComplete: false };
+      return { configured: false, progress: snapshot(), error: supabase.setupMessage };
     }
     if (!isOnline()) {
-      return { configured: true, progress: snapshot(), error: "", legacyMigrationComplete: false };
+      return { configured: true, progress: snapshot(), error: "" };
     }
     const rows = await supabase.request(`academy_progress?user_id=eq.${encodeURIComponent(userId)}&select=*&limit=1`);
     const row = Array.isArray(rows) ? rows[0] : null;
-    let legacyMigrationComplete = false;
-    if (row) {
-      applyRow(row);
-      legacyMigrationComplete = Boolean(legacyUserId);
-    }
-    if (!row && legacyUserId && legacyUserId !== userId) {
-      const legacyRows = await supabase.request(`academy_progress?user_id=eq.${encodeURIComponent(legacyUserId)}&select=*&limit=1`);
-      const legacyRow = Array.isArray(legacyRows) ? legacyRows[0] : null;
-      if (legacyRow) applyRow(legacyRow);
-      await save();
-      legacyMigrationComplete = true;
-    }
-    if (!row && !legacyMigrationComplete) await save();
+    if (row) applyRow(row);
+    if (!row) await save();
     pendingChanges = false;
-    return { configured: true, progress: snapshot(), error: "", legacyMigrationComplete };
+    return { configured: true, progress: snapshot(), error: "" };
   }
 
   async function save() {
@@ -520,7 +479,6 @@ async function initializeAcademyProgress() {
   try {
     const result = await academyProgressService.load();
     state.academyProgressError = result.error || "";
-    if (result.legacyMigrationComplete) markLegacyAcademyMigrationComplete();
     if (result.progress.activeMissionId && !Object.values(initialRoute.ids).some(Boolean)) {
       state.selectedMissionId = result.progress.activeMissionId;
       state.selectedLessonId = null;
