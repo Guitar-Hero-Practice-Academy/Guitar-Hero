@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f1ea">
+    <title>Guitar Hero</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231e6f5c'/%3E%3Cpath d='M19 44c-4.4 0-8-3.6-8-8s3.6-8 8-8c1.8 0 3.4.6 4.8 1.6l8.6-8.6c-1-1.4-1.6-3-1.6-4.8 0-4.4 3.6-8 8-8s8 3.6 8 8c0 1.8-.6 3.4-1.6 4.8l3.8 3.8c1.4-1 3-1.6 4.8-1.6 4.4 0 8 3.6 8 8s-3.6 8-8 8c-1.8 0-3.4-.6-4.8-1.6l-3.8 3.8c1 1.4 1.6 3 1.6 4.8 0 4.4-3.6 8-8 8s-8-3.6-8-8c0-1.8.6-3.4 1.6-4.8l-8.6-8.6c-1.4 1-3 1.6-4.8 1.6Z' fill='%23fffdf8'/%3E%3C/svg%3E">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="launch-view" id="launchView" aria-label="Guitar Hero launch">
+      <section class="launch-grid">
+        <article class="launch-card">
+          <div>
+            <h1>Practice Academy</h1>
+            <p class="launch-subtitle">Learn guitar through a structured mastery-based program.</p>
+            <div class="launch-description">
+              <p>Every lesson has a purpose.</p>
+              <p>Learn one skill at a time.</p>
+              <p>Master it.</p>
+              <p>Then move on.</p>
+            </div>
+          </div>
+          <button id="academyContinue" class="launch-button">Continue</button>
+        </article>
+
+        <article class="launch-card">
+          <div>
+            <h1>Song Library</h1>
+            <p class="launch-subtitle">Browse songs, tabs and chords.</p>
+            <div class="launch-description">
+              <p>Practice songs whenever you like.</p>
+              <p>Songs are separate from the structured academy.</p>
+            </div>
+          </div>
+          <button id="libraryOpen" class="launch-button">Open Library</button>
+        </article>
+      </section>
+    </main>
+
+    <main class="academy-view" id="academyView" aria-label="Practice Academy">
+      <header class="academy-header">
+        <div>
+          <p class="eyebrow">Practice Academy</p>
+          <h1>Welcome back, Rob.</h1>
+          <p class="academy-subtitle" id="dashboardMissionSubtitle"></p>
+        </div>
+        <div class="header-actions">
+          <button id="academyHomeButton">Home</button>
+          <button id="academyLibraryButton">Song Library</button>
+        </div>
+      </header>
+
+      <section class="academy-dashboard" aria-label="Practice Academy dashboard">
+        <article class="academy-card resume-card hidden" id="resumeLearningCard">
+          <div>
+            <p class="eyebrow">Resume Learning</p>
+            <h2 id="resumeLearningTitle"></h2>
+            <p id="resumeLearningDescription"></p>
+          </div>
+          <button id="resumeLearningButton">Resume Learning</button>
+        </article>
+
+        <article class="academy-card mission-card">
+          <div>
+            <p class="eyebrow">Current Mission</p>
+            <h2 id="dashboardMissionTitle"></h2>
+            <p id="dashboardMissionDescription"></p>
+          </div>
+          <div class="mission-progress" aria-label="Academy progress">
+            <div class="progress-line">
+              <span>Current Phase</span>
+              <strong id="dashboardCurrentPhase"></strong>
+            </div>
+            <div class="progress-line">
+              <span>Overall Academy Progress</span>
+              <strong id="dashboardOverallProgress"></strong>
+            </div>
+            <div class="progress-track"><span id="dashboardOverallProgressBar" style="width: 0%"></span></div>
+          </div>
+          <div class="mission-progress" aria-label="Mission progress">
+            <div class="progress-line">
+              <span>Progress</span>
+              <strong id="dashboardMissionProgress">0%</strong>
+            </div>
+            <div class="progress-track"><span id="dashboardMissionProgressBar" style="width: 0%"></span></div>
+            <div class="status-pill" id="dashboardMissionStatus">Status: Not started</div>
+            <div class="status-pill" id="dashboardMissionEstimate"></div>
+          </div>
+          <div class="next-step-note">
+            <strong>Next step</strong>
+            <span id="dashboardNextStep"></span>
+          </div>
+          <div class="sync-row">
+            <div id="academySyncStatus" class="sync-status" aria-live="polite"></div>
+            <button id="syncNowButton" class="hidden">Sync now</button>
+          </div>
+          <div class="progress-transfer">
+            <button id="exportProgressButton">Export Progress</button>
+            <label class="import-button">
+              Import Progress
+              <input id="importProgressInput" type="file" accept="application/json">
+            </label>
+            <p id="progressTransferStatus" class="completion-message" aria-live="polite"></p>
+          </div>
+          <button class="launch-button" id="continueMissionButton">Continue Mission</button>
+          <button id="resetAcademyProgressButton">Reset Progress</button>
+        </article>
+
+        <article class="academy-card roadmap-card">
+          <div>
+            <p class="eyebrow">Curriculum Roadmap</p>
+            <h2>Guitar Coach</h2>
+          </div>
+          <div id="academyRoadmap" class="roadmap-list"></div>
+        </article>
+      </section>
+    </main>
+
+    <main class="mission-brief-view" id="missionBriefView" aria-label="Mission Brief">
+      <header class="academy-header">
+        <div>
+          <p class="eyebrow">Mission Brief</p>
+          <h1 id="missionBriefTitle"></h1>
+          <p id="missionBriefSubtitle" class="academy-subtitle"></p>
+        </div>
+        <div class="header-actions">
+          <button id="missionBackButton">Dashboard</button>
+          <button id="missionLibraryButton">Song Library</button>
+        </div>
+      </header>
+
+      <section class="mission-brief-layout">
+        <article class="academy-card mission-overview-card">
+          <div class="card-head">
+            <div>
+              <p class="eyebrow">Estimated Completion</p>
+              <h2 id="missionEstimatedCompletion"></h2>
+            </div>
+            <span class="status-pill" id="missionStatus"></span>
+          </div>
+          <div class="brief-section">
+            <h3>Mission Objective</h3>
+            <p id="missionObjective"></p>
+          </div>
+          <div class="brief-section">
+            <h3>Why This Matters</h3>
+            <p id="missionWhyItMatters"></p>
+          </div>
+          <button class="launch-button" id="startLessonButton">Start Lesson 1</button>
+        </article>
+
+        <article class="academy-card outcomes-card">
+          <p class="eyebrow">What You Will Learn</p>
+          <h2>What You Will Learn</h2>
+          <ul id="missionObjectives" class="check-list"></ul>
+        </article>
+
+        <article class="academy-card skills-card">
+          <p class="eyebrow">Skills You'll Develop</p>
+          <h2>Skills You'll Develop</h2>
+          <div id="missionSkills" class="skill-chip-list"></div>
+        </article>
+
+        <article class="academy-card connected-songs-card">
+          <p class="eyebrow">Songs You'll Unlock</p>
+          <h2>Songs You'll Unlock</h2>
+          <div id="missionConnectedSongs" class="connected-song-list"></div>
+        </article>
+
+        <article class="academy-card success-card">
+          <p class="eyebrow">Mission Success Criteria</p>
+          <h2>By the end of this mission you should be able to:</h2>
+          <ul id="missionSuccessCriteria" class="check-list"></ul>
+          <button id="missionSecondaryBackButton">Back to Dashboard</button>
+        </article>
+      </section>
+    </main>
+
+    <main class="lesson-view" id="lessonView" aria-label="Lesson">
+      <header class="academy-header">
+        <div>
+          <p class="eyebrow" id="lessonMissionName"></p>
+          <h1 id="lessonTitle"></h1>
+          <p class="academy-subtitle" id="lessonMeta"></p>
+        </div>
+        <div class="header-actions">
+          <button id="lessonBackButton">Back to Mission Brief</button>
+          <button id="finishLessonButton" disabled>Finish Lesson</button>
+        </div>
+      </header>
+
+      <section class="lesson-layout">
+        <article class="academy-card lesson-intro-card">
+          <p class="eyebrow">Why This Lesson Matters</p>
+          <h2>Why This Lesson Matters</h2>
+          <p id="lessonWhyThisLesson"></p>
+        </article>
+
+        <article class="academy-card lesson-objective-card">
+          <p class="eyebrow">Lesson Objective</p>
+          <h2 id="lessonObjectiveHeading"></h2>
+          <p id="lessonObjective"></p>
+        </article>
+
+        <article class="academy-card lesson-exercises-card">
+          <p class="eyebrow">Exercise List</p>
+          <h2>Exercises</h2>
+          <div class="lesson-progress-summary" aria-label="Lesson exercise progress">
+            <div class="progress-line">
+              <span>Lesson progress</span>
+              <strong id="lessonExerciseProgress"></strong>
+            </div>
+            <div class="progress-track"><span id="lessonExerciseProgressBar"></span></div>
+          </div>
+          <div id="lessonExercises" class="exercise-card-list"></div>
+        </article>
+
+        <article class="academy-card lesson-checkpoint-card">
+          <p class="eyebrow">Checkpoint Preview</p>
+          <h2 id="lessonCheckpointTitle"></h2>
+          <ul id="lessonCheckpointRequirements" class="check-list"></ul>
+          <button id="startCheckpointButton">Start Checkpoint</button>
+        </article>
+      </section>
+    </main>
+
+    <main class="exercise-view" id="exerciseView" aria-label="Exercise Detail">
+      <header class="academy-header">
+        <div>
+          <p class="eyebrow" id="exerciseLessonName"></p>
+          <h1 id="exerciseTitle"></h1>
+          <p class="academy-subtitle" id="exerciseMeta"></p>
+        </div>
+        <div class="header-actions">
+          <button id="exerciseBackButton">Back to Lesson</button>
+          <button id="nextExerciseButton">Next Exercise</button>
+        </div>
+      </header>
+
+      <section class="exercise-layout">
+        <article class="academy-card exercise-why-card">
+          <p class="eyebrow">Why This Exercise Matters</p>
+          <h2>Why This Exercise Matters</h2>
+          <p id="exerciseObjective"></p>
+        </article>
+
+        <article class="academy-card exercise-instructions-card">
+          <p class="eyebrow">Instructions</p>
+          <h2>Instructions</h2>
+          <ol id="exerciseInstructions" class="numbered-list"></ol>
+        </article>
+
+        <article class="academy-card exercise-pass-card">
+          <p class="eyebrow">Pass Criteria</p>
+          <h2>Pass Criteria</h2>
+          <p id="exercisePassCriteria"></p>
+        </article>
+
+        <article class="academy-card exercise-controls-card">
+          <p class="eyebrow">Practice Controls</p>
+          <h2>Practice Controls</h2>
+          <div class="practice-control-row">
+            <button id="startTimerButton">Start Timer</button>
+            <button id="markExerciseCompleteButton">Mark Complete</button>
+          </div>
+          <div id="exerciseCompletionStatus" class="completion-message" aria-live="polite"></div>
+        </article>
+      </section>
+    </main>
+
+    <main class="checkpoint-view" id="checkpointView" aria-label="Checkpoint">
+      <header class="academy-header">
+        <div>
+          <p class="eyebrow">Checkpoint</p>
+          <h1 id="checkpointTitle"></h1>
+          <p class="academy-subtitle" id="checkpointLessonTitle"></p>
+        </div>
+        <div class="header-actions">
+          <button id="checkpointBackButton">Back to Lesson</button>
+          <button id="checkpointDashboardButton">Return to Dashboard</button>
+        </div>
+      </header>
+
+      <section class="checkpoint-layout">
+        <article class="academy-card checkpoint-purpose-card">
+          <p class="eyebrow">Purpose</p>
+          <h2>Purpose</h2>
+          <p id="checkpointPurpose"></p>
+        </article>
+
+        <article class="academy-card checkpoint-requirements-card">
+          <p class="eyebrow">Requirements</p>
+          <h2>Requirements</h2>
+          <ul id="checkpointRequirements" class="check-list"></ul>
+        </article>
+
+        <article class="academy-card checkpoint-assessment-card">
+          <p class="eyebrow">Self Assessment</p>
+          <h2>Self Assessment</h2>
+          <div class="assessment-options" aria-label="Self assessment options">
+            <button type="button" data-assessment="not-yet">Not yet</button>
+            <button type="button" data-assessment="almost">Almost</button>
+            <button type="button" data-assessment="passed">Passed</button>
+          </div>
+          <p id="checkpointSuccessMessage" class="completion-message" aria-live="polite"></p>
+        </article>
+      </section>
+    </main>
+
+    <div class="app-shell">
+      <button class="sidebar-toggle" id="sidebarToggle" title="Hide sidebars" aria-label="Hide sidebars">«</button>
+      <aside class="artist-library" aria-label="Artists">
+        <div class="brand-block">
+          <p class="eyebrow">Guitar Hero</p>
+          <h1>Guitar Hero</h1>
+        </div>
+        <p class="sidebar-label">Artists</p>
+        <nav id="artistList" class="artist-list"></nav>
+      </aside>
+
+      <aside class="library" aria-label="Song library">
+        <div class="library-header">
+          <div>
+            <p class="eyebrow">Library</p>
+            <h1 id="libraryArtist">Songs</h1>
+          </div>
+          <div class="library-header-actions">
+            <button id="libraryHomeButton">Home</button>
+            <button class="icon-button" id="fullscreenButton" title="Full screen" aria-label="Full screen">⛶</button>
+          </div>
+        </div>
+
+        <label class="search">
+          <span>Search</span>
+          <input id="songSearch" type="search" placeholder="Song or album">
+        </label>
+
+        <nav id="songList" class="song-list"></nav>
+      </aside>
+
+      <main class="practice-view">
+        <header class="song-header">
+          <div class="song-summary">
+            <p id="artistName" class="song-artist"></p>
+            <h2 id="songTitle"></h2>
+            <div id="songMeta" class="meta-row"></div>
+          </div>
+          <div class="header-actions">
+            <button id="setupToggle" title="Hide amp setup and chords" aria-label="Hide amp setup and chords">Hide setup</button>
+            <a id="videoLink" class="button-link" href="#" target="_blank" rel="noreferrer">Video</a>
+          </div>
+        </header>
+
+        <section class="tone-strip" aria-label="Amp and pedal settings">
+          <div class="tone-heading">
+            <span class="eyebrow">Tone Setup</span>
+            <small>Fender Blues DeVille 410 + BOSS SD-1</small>
+          </div>
+          <div id="toneSettings" class="tone-settings"></div>
+        </section>
+
+        <section class="chord-strip" aria-label="Chord shapes">
+          <div id="chordGrid" class="chord-grid"></div>
+        </section>
+
+        <section class="stage">
+          <article class="chart-panel" aria-label="Song chart">
+            <div id="chartDisplay" class="chart-display"></div>
+            <textarea id="chartEditor" class="chart-editor hidden" spellcheck="false"></textarea>
+          </article>
+
+          <aside class="strum-panel" aria-label="Strumming patterns">
+            <div class="panel-head">
+              <h3>Strumming</h3>
+              <div class="font-controls">
+                <button id="fontDown" title="Smaller text" aria-label="Smaller text">A-</button>
+                <button id="fontUp" title="Larger text" aria-label="Larger text">A+</button>
+              </div>
+            </div>
+            <div id="strumDisplay" class="strum-display"></div>
+          </aside>
+        </section>
+      </main>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="data/songs.js"></script>
+    <script src="data/cigarettes-chart.js"></script>
+    <script src="data/cast-no-shadow-chart.js"></script>
+    <script src="data/cast-no-shadow-order.js"></script>
+    <script src="data/oasis-more-songs.js"></script>
+    <script src="data/champagne-supernova-chart.js"></script>
+    <script src="data/little-by-little.js"></script>
+    <script src="data/black-betty.js"></script>
+    <script src="data/carry-on-wayward-son.js"></script>
+    <script src="data/rock-n-roll-star.js"></script>
+    <script src="data/rock-n-roll-star-chart.js"></script>
+    <script src="data/live-forever.js"></script>
+    <script src="data/listen-up.js"></script>
+    <script src="data/round-are-way.js"></script>
+    <script src="data/waterfall.js"></script>
+    <script src="data/paint-it-black.js"></script>
+    <script src="data/sweet-home-alabama.js"></script>
+    <script src="data/tone-settings.js"></script>
+    <script src="data/library-metadata.js"></script>
+    <script src="data/academy-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
