@@ -37,6 +37,7 @@ body {
   background: var(--bg);
   color: var(--ink);
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  overflow-x: hidden;
 }
 
 button,
@@ -133,6 +134,7 @@ button:hover,
 
 .academy-view,
 .academy-roadmap-view,
+.module-lessons-view,
 .mission-brief-view,
 .lesson-view,
 .exercise-view,
@@ -142,8 +144,8 @@ button:hover,
   min-height: calc(100vh - 4.4rem);
   display: grid;
   align-content: start;
-  gap: 1rem;
-  padding: clamp(1rem, 2vw, 1.5rem);
+  gap: 0.75rem;
+  padding: clamp(0.55rem, 1vw, 1rem);
 }
 
 .top-nav {
@@ -153,9 +155,10 @@ button:hover,
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 1rem;
-  min-height: 4.4rem;
-  padding: 0.75rem clamp(1rem, 2vw, 1.5rem);
+  min-height: 3.8rem;
+  padding: 0.55rem clamp(0.75rem, 1.5vw, 1rem);
   border-bottom: 1px solid var(--line);
   background: rgba(244, 241, 234, 0.96);
   backdrop-filter: blur(12px);
@@ -187,6 +190,7 @@ button:hover,
   justify-content: flex-end;
   gap: 0.45rem;
   flex-wrap: wrap;
+  min-width: 0;
 }
 
 .top-nav-actions button {
@@ -206,23 +210,29 @@ button:hover,
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 1rem;
-  padding: 0.9rem 1rem;
+  padding: 0.75rem 0.9rem;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--panel);
   box-shadow: var(--shadow);
 }
 
+.academy-header > div:first-child {
+  min-width: min(100%, 24rem);
+  flex: 1 1 34rem;
+}
+
 .academy-header h1 {
-  font-size: clamp(2rem, 4vw, 4rem);
+  font-size: clamp(1.7rem, 3.2vw, 3.25rem);
   line-height: 1;
 }
 
 .academy-subtitle {
-  margin: 0.5rem 0 0;
+  margin: 0.35rem 0 0;
   color: var(--accent-dark);
-  font-size: clamp(1rem, 1.6vw, 1.25rem);
+  font-size: clamp(0.95rem, 1.25vw, 1.1rem);
   font-weight: 800;
 }
 
@@ -237,13 +247,13 @@ button:hover,
 }
 
 .academy-dashboard {
-  grid-template-columns: minmax(0, 820px);
+  grid-template-columns: minmax(0, min(100%, 1280px));
   justify-content: center;
   align-items: start;
 }
 
 .settings-layout {
-  grid-template-columns: minmax(0, 820px);
+  grid-template-columns: minmax(0, min(100%, 1120px));
   justify-content: center;
 }
 
@@ -258,7 +268,7 @@ button:hover,
   display: grid;
   gap: 1rem;
   align-content: start;
-  padding: clamp(1rem, 2vw, 1.5rem);
+  padding: clamp(0.85rem, 1.35vw, 1.2rem);
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--panel);
@@ -288,14 +298,14 @@ button:hover,
 }
 
 .roadmap-card {
-  gap: 1.2rem;
+  gap: 0.9rem;
 }
 
 .roadmap-list,
 .roadmap-phase,
 .roadmap-missions {
   display: grid;
-  gap: 0.75rem;
+  gap: 0.6rem;
 }
 
 .roadmap-phase {
@@ -318,13 +328,13 @@ button:hover,
 }
 
 .roadmap-missions {
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
 }
 
 .roadmap-mission {
   display: grid;
   gap: 0.35rem;
-  min-height: 6.2rem;
+  min-height: 5.4rem;
   text-align: left;
   background: #f8f3ea;
 }
@@ -384,6 +394,15 @@ button:hover,
 .progress-stat-grid strong {
   color: var(--accent-dark);
   font-size: 1.25rem;
+}
+
+.progress-stat-grid .wide-stat {
+  grid-column: 1 / -1;
+}
+
+.progress-stat-grid .wide-stat strong {
+  font-size: 0.95rem;
+  line-height: 1.35;
 }
 
 .next-step-note {
@@ -583,15 +602,15 @@ button:hover,
 
 .exercise-card-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.65rem;
 }
 
 .exercise-card {
   display: grid;
-  gap: 0.85rem;
+  gap: 0.65rem;
   align-content: start;
-  padding: 0.95rem;
+  padding: 0.8rem;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #f8f3ea;
@@ -608,6 +627,34 @@ button:hover,
 
 .exercise-card p {
   margin-top: 0.35rem;
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+.lesson-select-card {
+  width: 100%;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.lesson-select-card.complete {
+  border-color: var(--accent-dark);
+  background: #d8e5dc;
+}
+
+.lesson-select-card.complete strong,
+.lesson-select-card.complete .exercise-meta-row {
+  color: var(--accent-dark);
+}
+
+.lesson-select-card.pending {
+  background: #fbf7ee;
+}
+
+.lesson-select-card:hover {
+  border-color: var(--accent);
+  background: #fffdf8;
 }
 
 .exercise-meta {
@@ -653,7 +700,7 @@ button:hover,
 .exercise-main-column,
 .exercise-side-column {
   display: grid;
-  gap: 1rem;
+  gap: 0.75rem;
 }
 
 .exercise-side-column {
@@ -712,24 +759,24 @@ textarea,
 .practice-control-row {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.65rem;
+  gap: 0.5rem;
 }
 
 .practice-control-row button {
-  min-height: 3.4rem;
+  min-height: 2.9rem;
   font-weight: 900;
 }
 
 .timer-display {
   display: grid;
   place-items: center;
-  min-height: 6.5rem;
+  min-height: 4.9rem;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #f8f3ea;
   color: var(--accent-dark);
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-  font-size: clamp(2.4rem, 5vw, 4.4rem);
+  font-size: clamp(2.2rem, 3.8vw, 3.6rem);
   font-weight: 900;
   line-height: 1;
 }
@@ -737,8 +784,8 @@ textarea,
 .metronome-display {
   display: grid;
   justify-items: center;
-  gap: 0.8rem;
-  padding: 1rem;
+  gap: 0.6rem;
+  padding: 0.8rem;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #f8f3ea;
@@ -750,8 +797,8 @@ textarea,
 }
 
 .metronome-pulse {
-  width: 3.2rem;
-  height: 3.2rem;
+  width: 2.6rem;
+  height: 2.6rem;
   border: 2px solid var(--accent);
   border-radius: 999px;
   background: #fffdf8;
@@ -993,6 +1040,7 @@ textarea,
 .view-home .app-shell,
 .view-home .academy-view,
 .view-home .academy-roadmap-view,
+.view-home .module-lessons-view,
 .view-home .mission-brief-view,
 .view-home .lesson-view,
 .view-home .exercise-view,
@@ -1003,6 +1051,7 @@ textarea,
 .view-library .launch-view,
 .view-library .academy-view,
 .view-library .academy-roadmap-view,
+.view-library .module-lessons-view,
 .view-library .mission-brief-view,
 .view-library .lesson-view,
 .view-library .exercise-view,
@@ -1012,6 +1061,7 @@ textarea,
 .view-academy .launch-view,
 .view-academy .app-shell,
 .view-academy .academy-roadmap-view,
+.view-academy .module-lessons-view,
 .view-academy .mission-brief-view,
 .view-academy .lesson-view,
 .view-academy .exercise-view,
@@ -1020,6 +1070,7 @@ textarea,
 .view-academy .settings-view,
 .view-academy-roadmap .launch-view,
 .view-academy-roadmap .academy-view,
+.view-academy-roadmap .module-lessons-view,
 .view-academy-roadmap .mission-brief-view,
 .view-academy-roadmap .lesson-view,
 .view-academy-roadmap .exercise-view,
@@ -1027,9 +1078,20 @@ textarea,
 .view-academy-roadmap .notes-view,
 .view-academy-roadmap .settings-view,
 .view-academy-roadmap .app-shell,
+.view-module-lessons .launch-view,
+.view-module-lessons .academy-view,
+.view-module-lessons .academy-roadmap-view,
+.view-module-lessons .mission-brief-view,
+.view-module-lessons .lesson-view,
+.view-module-lessons .exercise-view,
+.view-module-lessons .checkpoint-view,
+.view-module-lessons .notes-view,
+.view-module-lessons .settings-view,
+.view-module-lessons .app-shell,
 .view-mission .launch-view,
 .view-mission .academy-view,
 .view-mission .academy-roadmap-view,
+.view-mission .module-lessons-view,
 .view-mission .lesson-view,
 .view-mission .exercise-view,
 .view-mission .checkpoint-view,
@@ -1039,6 +1101,7 @@ textarea,
 .view-lesson .launch-view,
 .view-lesson .academy-view,
 .view-lesson .academy-roadmap-view,
+.view-lesson .module-lessons-view,
 .view-lesson .mission-brief-view,
 .view-lesson .exercise-view,
 .view-lesson .checkpoint-view,
@@ -1048,6 +1111,7 @@ textarea,
 .view-exercise .launch-view,
 .view-exercise .academy-view,
 .view-exercise .academy-roadmap-view,
+.view-exercise .module-lessons-view,
 .view-exercise .mission-brief-view,
 .view-exercise .lesson-view,
 .view-exercise .checkpoint-view,
@@ -1057,6 +1121,7 @@ textarea,
 .view-checkpoint .launch-view,
 .view-checkpoint .academy-view,
 .view-checkpoint .academy-roadmap-view,
+.view-checkpoint .module-lessons-view,
 .view-checkpoint .mission-brief-view,
 .view-checkpoint .lesson-view,
 .view-checkpoint .exercise-view,
@@ -1066,6 +1131,7 @@ textarea,
 .view-notes .launch-view,
 .view-notes .academy-view,
 .view-notes .academy-roadmap-view,
+.view-notes .module-lessons-view,
 .view-notes .mission-brief-view,
 .view-notes .lesson-view,
 .view-notes .exercise-view,
@@ -1075,6 +1141,7 @@ textarea,
 .view-settings .launch-view,
 .view-settings .academy-view,
 .view-settings .academy-roadmap-view,
+.view-settings .module-lessons-view,
 .view-settings .mission-brief-view,
 .view-settings .lesson-view,
 .view-settings .exercise-view,
@@ -1113,16 +1180,36 @@ textarea,
 }
 
 .sidebars-collapsed .app-shell {
-  grid-template-columns: minmax(0, 1fr);
+  grid-template-columns: 2.75rem minmax(0, 1fr);
 }
 
-.sidebars-collapsed .artist-library,
 .sidebars-collapsed .library {
   display: none;
 }
 
+.sidebars-collapsed .artist-library {
+  display: flex;
+  min-height: 100vh;
+  max-height: none;
+  padding: 0;
+  overflow: visible;
+}
+
+.sidebars-collapsed .artist-library .brand-block {
+  min-height: 100vh;
+  padding: 0;
+  width: 2.75rem;
+}
+
+.sidebars-collapsed .artist-library .brand-block .eyebrow,
+.sidebars-collapsed .artist-library .brand-block h1,
+.sidebars-collapsed .artist-library .sidebar-label,
+.sidebars-collapsed .artist-library .artist-list {
+  display: none;
+}
+
 .sidebars-collapsed .practice-view {
-  grid-column: 1;
+  grid-column: 2;
 }
 
 .artist-library,
@@ -1304,6 +1391,12 @@ h3 {
   align-items: center;
   gap: 0.45rem;
   flex-wrap: wrap;
+}
+
+.header-actions {
+  justify-content: flex-end;
+  flex: 1 1 18rem;
+  min-width: min(100%, 16rem);
 }
 
 .library-actions {
@@ -1836,6 +1929,7 @@ h3 {
         <small id="globalSyncStatus">Sync</small>
       </div>
       <div class="top-nav-actions">
+        <button id="navHomeButton">Home</button>
         <button id="navDashboardButton">Dashboard</button>
         <button id="navAcademyButton">Modules</button>
         <button id="navNotesButton">Practice Notes</button>
@@ -1939,6 +2033,30 @@ h3 {
       </section>
     </main>
 
+    <main class="module-lessons-view" id="moduleLessonsView" aria-label="Module lessons">
+      <header class="academy-header">
+        <div>
+          <p class="eyebrow">Lessons</p>
+          <h1 id="moduleLessonsTitle"></h1>
+          <p id="moduleLessonsSubtitle" class="academy-subtitle"></p>
+        </div>
+        <div class="header-actions">
+          <button id="moduleLessonsDashboardButton">Dashboard</button>
+          <button id="moduleOverviewButton">Module Overview</button>
+          <button id="moduleLessonsBackButton">Back to Modules</button>
+        </div>
+      </header>
+      <section class="academy-dashboard" aria-label="Module lessons">
+        <article class="academy-card lesson-selector-card">
+          <div>
+            <p class="eyebrow">Lessons</p>
+            <h2>Choose a lesson</h2>
+          </div>
+          <div id="moduleLessonList" class="exercise-card-list"></div>
+        </article>
+      </section>
+    </main>
+
     <main class="mission-brief-view" id="missionBriefView" aria-label="Module">
       <header class="academy-header">
         <div>
@@ -1948,6 +2066,7 @@ h3 {
         </div>
         <div class="header-actions">
           <button id="missionHomeButton">Dashboard</button>
+          <button id="missionLessonsButton">Lessons</button>
           <button id="missionBackButton">Back to Modules</button>
         </div>
       </header>
@@ -2008,7 +2127,8 @@ h3 {
         </div>
         <div class="header-actions">
           <button id="lessonHomeButton">Dashboard</button>
-          <button id="lessonBackButton">Back to Module</button>
+          <button id="lessonLessonsButton">Lessons</button>
+          <button id="lessonBackButton">Back to Modules</button>
           <button id="finishLessonButton" disabled>Finish Lesson</button>
         </div>
       </header>
@@ -5461,10 +5581,10 @@ const missionOneLessonBlueprints = [
   { id: "lesson-open-chords-3", lessonNumber: 3, title: "Efficient Chord Changes" },
   { id: "lesson-open-chords-4", lessonNumber: 4, title: "Adding D Major" },
   { id: "lesson-open-chords-5", lessonNumber: 5, title: "Three-Chord Movement" },
-  { id: "lesson-open-chords-6", lessonNumber: 6, title: "Changing Chords Smoothly" },
-  { id: "lesson-open-chords-7", lessonNumber: 7, title: "Rhythm and Timing" },
-  { id: "lesson-open-chords-8", lessonNumber: 8, title: "Basic Strumming Patterns" },
-  { id: "lesson-open-chords-9", lessonNumber: 9, title: "Playing Your First Songs" }
+  { id: "lesson-open-chords-6", lessonNumber: 6, title: "Rhythm and Timing" },
+  { id: "lesson-open-chords-7", lessonNumber: 7, title: "Basic Strumming Patterns" },
+  { id: "lesson-open-chords-8", lessonNumber: 8, title: "Cleaner Sound and Muting" },
+  { id: "lesson-open-chords-9", lessonNumber: 9, title: "Making Music" }
 ];
 
 const missionOneLessonIds = missionOneLessonBlueprints.map((lesson) => lesson.id);
@@ -6968,6 +7088,766 @@ upsertAcademyItem("checkpoints", {
   completed: false
 });
 
+const moduleOneRemainingLessons = [
+  {
+    lesson: {
+      id: "lesson-open-chords-6",
+      missionId: "mission-open-chord-foundations",
+      lessonNumber: 6,
+      title: "Rhythm and Timing",
+      description: "Develop steady timing while changing between open chords.",
+      objectiveHeading: "Lesson Goal",
+      objective: "Develop steady timing while changing between open chords.",
+      whyThisLesson: "Good rhythm matters more than perfect chords. A missed note is recoverable, but stopping the beat makes the song fall apart. This lesson teaches Rob to keep time even when his fretting hand is still catching up.",
+      estimatedMinutes: 35,
+      skillIds: ["skill-rhythm", "skill-timing", "skill-chord-changes", "skill-strumming"],
+      missionContext: "This lesson makes the beat the priority while G, C and D changes continue developing.",
+      why: "Good rhythm matters more than perfect chords. A missed note is recoverable, but stopping the beat makes the song fall apart.",
+      watch: {
+        title: "How to keep the beat while changing chords",
+        provider: "YouTube",
+        url: "",
+        note: "Add a video later showing steady downstrokes and recovery at 60 BPM.",
+        mediaLinks: []
+      },
+      listen: {
+        title: "Teach Rob to listen for",
+        items: ["steady counting", "the strumming hand stopping", "rushing into beat 1", "volume changes that break timing", "recovery after mistakes"]
+      },
+      coachNotes: [
+        "Your strumming hand is the engine.",
+        "Keep it moving.",
+        "If your fretting hand makes a mistake, recover on the next beat instead of stopping."
+      ],
+      definitionOfDone: [
+        "Rob can count 1-2-3-4 steadily.",
+        "Rob can strum downstrokes at 60 BPM.",
+        "Rob can change between G, C and D without stopping the rhythm.",
+        "Rob can recover from mistakes without restarting."
+      ],
+      commonMistakes: ["Stopping to fix fingers.", "Losing the count.", "Freezing the strumming hand.", "Starting again after every mistake."],
+      performanceTest: {
+        title: "Keep the Beat",
+        requirements: [
+          "Rob can count 1-2-3-4 steadily",
+          "Rob can strum downstrokes at 60 BPM",
+          "Rob can change between G, C and D without stopping the rhythm",
+          "Rob can recover from mistakes without restarting"
+        ],
+        passRule: "Pass if Rob can keep a steady beat at 60 BPM while changing between G, C and D and recovering naturally from mistakes."
+      },
+      practiceJournal: [
+        "Did rhythm or chord accuracy break down first?",
+        "Which chord change interrupted the beat most?",
+        "Did counting out loud help?",
+        "What should be reviewed next time?"
+      ]
+    },
+    exercises: [
+      {
+        id: "exercise-open-chords-6-beat-awareness",
+        title: "Beat Awareness",
+        purpose: "Learn to feel the beat before playing.",
+        objective: "Count steadily without rushing.",
+        instructionSteps: ["Start the metronome at 60 BPM.", "Do not play yet.", "Count out loud: 1, 2, 3, 4.", "Tap your foot with each beat.", "Keep counting until it feels steady."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "You can count 1-2-3-4 steadily for one minute.",
+        definitionOfDone: "You can count 1-2-3-4 steadily for one minute.",
+        commonMistakes: ["Rushing the count", "Losing focus", "Starting guitar before feeling the beat"],
+        chordNames: [],
+        skillIds: ["skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-6-muted-string-downstrokes",
+        title: "Muted String Downstrokes",
+        purpose: "Isolate the strumming hand.",
+        objective: "Strum evenly without worrying about chords.",
+        instructionSteps: ["Lightly mute the strings with your fretting hand.", "Strum down once per beat.", "Listen for even volume.", "Keep the wrist loose."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "One minute of steady downstrokes without speeding up.",
+        definitionOfDone: "One minute of steady downstrokes without speeding up.",
+        commonMistakes: ["Locking the wrist", "Hitting too hard", "Strumming unevenly"],
+        chordNames: [],
+        skillIds: ["skill-rhythm", "skill-strumming", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-6-g-chord-timing",
+        title: "G Chord Timing",
+        purpose: "Apply timing to one clean chord.",
+        objective: "Keep a steady beat on G.",
+        instructionSteps: ["Form G major.", "Strum down once per beat.", "Keep counting 1-2-3-4.", "If the chord buzzes, keep the rhythm going and adjust."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "One minute of steady G downstrokes.",
+        definitionOfDone: "One minute of steady G downstrokes.",
+        commonMistakes: ["Stopping to fix fingers", "Losing the count", "Changing volume randomly"],
+        chordNames: ["G"],
+        skillIds: ["skill-open-chords", "skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-6-c-chord-timing",
+        title: "C Chord Timing",
+        purpose: "Apply timing to a harder chord.",
+        objective: "Keep rhythm while playing C.",
+        instructionSteps: ["Form C major.", "Start from the A string.", "Strum once per beat.", "Keep the rhythm steady."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "One minute of steady C downstrokes.",
+        definitionOfDone: "One minute of steady C downstrokes.",
+        commonMistakes: ["Hitting the low E string", "Muting the open G string", "Slowing down when checking fingers"],
+        chordNames: ["C"],
+        skillIds: ["skill-open-chords", "skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-6-four-beat-g-to-c",
+        title: "Four Beat G to C",
+        purpose: "Combine timing with chord changes.",
+        objective: "Change chords without stopping the beat.",
+        instructionSteps: ["Play G for four beats.", "Change to C for four beats.", "Keep counting out loud.", "If the change is messy, continue."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Three clean cycles without stopping.",
+        definitionOfDone: "Three clean cycles without stopping.",
+        commonMistakes: ["Pausing between chords", "Looking at both hands at once", "Losing beat 1"],
+        chordNames: ["G", "C"],
+        skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-6-four-beat-g-to-d",
+        title: "Four Beat G to D",
+        purpose: "Practise timing with D major.",
+        objective: "Move from G to D while keeping the beat.",
+        instructionSteps: ["Play G for four beats.", "Change to D for four beats.", "Keep the strumming hand moving."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Three cycles with mostly clean timing.",
+        definitionOfDone: "Three cycles with mostly clean timing.",
+        commonMistakes: ["Hitting the low E on D", "Rushing the change", "Freezing the strumming hand"],
+        chordNames: ["G", "D"],
+        skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-6-timing-recovery-drill",
+        title: "Timing Recovery Drill",
+        purpose: "Learn to recover from mistakes.",
+        objective: "Continue the rhythm after errors.",
+        instructionSteps: ["Play G, C and D in any order.", "If a chord is wrong, do not stop.", "Fix it on the next pass."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "You keep rhythm for two minutes without restarting.",
+        definitionOfDone: "You keep rhythm for two minutes without restarting.",
+        commonMistakes: ["Starting again after every mistake", "Getting frustrated", "Forgetting the beat matters most"],
+        chordNames: ["G", "C", "D"],
+        skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-open-chords-6",
+      title: "Keep the Beat",
+      purpose: "Check that Rob can keep the rhythm moving while changing between open chords.",
+      requirements: [
+        "Rob can count 1-2-3-4 steadily",
+        "Rob can strum downstrokes at 60 BPM",
+        "Rob can change between G, C and D without stopping the rhythm",
+        "Rob can recover from mistakes without restarting"
+      ],
+      passRule: "Pass if Rob can keep a steady beat at 60 BPM while changing between G, C and D and recovering naturally from mistakes."
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-open-chords-7",
+      missionId: "mission-open-chord-foundations",
+      lessonNumber: 7,
+      title: "Basic Strumming Patterns",
+      description: "Learn simple strumming patterns while keeping timing steady.",
+      objectiveHeading: "Lesson Goal",
+      objective: "Learn simple strumming patterns while keeping timing steady.",
+      whyThisLesson: "Strumming is what turns chords into music. The same chords can feel completely different depending on the rhythm of the right hand.",
+      estimatedMinutes: 35,
+      skillIds: ["skill-strumming", "skill-rhythm", "skill-timing", "skill-chord-changes"],
+      missionContext: "This lesson adds simple right-hand patterns to the open chords already learned.",
+      why: "Strumming is what turns chords into music. The same chords can feel completely different depending on the rhythm of the right hand.",
+      watch: {
+        title: "How simple strumming patterns work",
+        provider: "YouTube",
+        url: "",
+        note: "Add a video later showing downstrokes, upstrokes and relaxed pick motion.",
+        mediaLinks: []
+      },
+      listen: {
+        title: "Teach Rob to listen for",
+        items: ["even downstrokes", "awkward upstrokes", "speeding up", "pick angle changes", "right-hand tension"]
+      },
+      coachNotes: [
+        "Do not try to make the pattern fancy.",
+        "A simple pattern played evenly sounds better than a complicated pattern played badly."
+      ],
+      definitionOfDone: [
+        "Rob can play steady downstrokes.",
+        "Rob can add simple upstrokes.",
+        "Rob can keep timing through G, C and D.",
+        "Rob can hear how pick angle changes sound."
+      ],
+      commonMistakes: ["Strumming too hard.", "Tensing the wrist.", "Digging too deep on the upstroke.", "Focusing only on speed."],
+      performanceTest: {
+        title: "First Strumming Patterns",
+        requirements: [
+          "Rob can play steady downstrokes",
+          "Rob can add simple upstrokes",
+          "Rob can keep timing through G, C and D",
+          "Rob can hear how pick angle changes sound"
+        ],
+        passRule: "Pass if Rob can play simple strumming patterns evenly while keeping time through G, C and D."
+      },
+      practiceJournal: [
+        "Which pattern felt most natural?",
+        "Did the upstroke feel awkward?",
+        "Did pick angle change the sound?",
+        "What should be practised again?"
+      ]
+    },
+    exercises: [
+      {
+        id: "exercise-open-chords-7-downstrokes-only",
+        title: "Downstrokes Only",
+        purpose: "Establish a reliable strumming base.",
+        objective: "Play steady downstrokes on beat.",
+        instructionSteps: ["Choose G major.", "Strum down once per beat.", "Count 1-2-3-4.", "Keep the wrist loose."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "One minute of steady downstrokes.",
+        definitionOfDone: "One minute of steady downstrokes.",
+        commonMistakes: ["Strumming too hard", "Tensing the wrist", "Losing the count"],
+        chordNames: ["G"],
+        skillIds: ["skill-strumming", "skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-7-down-down-down-down",
+        title: "Down Down Down Down Pattern",
+        purpose: "Build confidence with a full bar pattern.",
+        objective: "Strum every beat evenly.",
+        instructionSteps: ["Play G for one bar.", "Play C for one bar.", "Use four downstrokes per bar."],
+        durationMinutes: 5,
+        tempo: "70 BPM",
+        passCriteria: "Complete five clean G to C cycles.",
+        definitionOfDone: "Complete five clean G to C cycles.",
+        commonMistakes: ["Pausing at chord changes", "Uneven volume", "Speeding up"],
+        chordNames: ["G", "C"],
+        skillIds: ["skill-strumming", "skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-7-down-down-up",
+        title: "Down Down Up Pattern",
+        purpose: "Introduce upstrokes.",
+        objective: "Add an upstroke without losing timing.",
+        instructionSteps: ["Mute the strings first.", "Play: down, down, up.", "Keep the motion relaxed.", "Then try it on G."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Pattern feels controlled and even.",
+        definitionOfDone: "Pattern feels controlled and even.",
+        commonMistakes: ["Digging too deep on the upstroke", "Flicking from the elbow", "Tensing the pick hand"],
+        chordNames: ["G"],
+        skillIds: ["skill-strumming", "skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-7-down-down-up-g-c",
+        title: "Down Down Up on G and C",
+        purpose: "Apply the new pattern to chord changes.",
+        objective: "Keep the pattern going through chord changes.",
+        instructionSteps: ["Play G using down, down, up.", "Change to C.", "Repeat slowly."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Several cycles without losing the pattern.",
+        definitionOfDone: "Several cycles without losing the pattern.",
+        commonMistakes: ["Stopping the right hand", "Changing too late", "Overthinking the upstroke"],
+        chordNames: ["G", "C"],
+        skillIds: ["skill-strumming", "skill-chord-changes", "skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-7-quiet-and-loud-strumming",
+        title: "Quiet and Loud Strumming",
+        purpose: "Develop control over dynamics.",
+        objective: "Change volume without changing tempo.",
+        instructionSteps: ["Play G softly for one bar.", "Play G louder for one bar.", "Repeat with C and D."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Volume changes while tempo stays steady.",
+        definitionOfDone: "Volume changes while tempo stays steady.",
+        commonMistakes: ["Speeding up when playing louder", "Hitting too hard", "Losing accuracy"],
+        chordNames: ["G", "C", "D"],
+        skillIds: ["skill-strumming", "skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-7-pick-angle-experiment",
+        title: "Pick Angle Experiment",
+        purpose: "Understand why strums sound different.",
+        objective: "Notice how pick angle affects tone.",
+        instructionSteps: ["Strum G with the pick flat.", "Strum G with the pick slightly angled.", "Try soft and firm grip.", "Notice what sounds smoother."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Rob can describe which pick angle sounds best.",
+        definitionOfDone: "Rob can describe which pick angle sounds best.",
+        commonMistakes: ["Holding the pick too tightly", "Digging too deep into the strings", "Ignoring tone differences"],
+        chordNames: ["G"],
+        skillIds: ["skill-strumming"]
+      },
+      {
+        id: "exercise-open-chords-7-pattern-choice-practice",
+        title: "Pattern Choice Practice",
+        purpose: "Choose the right pattern for the moment.",
+        objective: "Compare two simple patterns.",
+        instructionSteps: ["Play G-C-D-G with downstrokes only.", "Then play the same progression with down, down, up.", "Notice which feels more musical."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Rob can play both patterns slowly.",
+        definitionOfDone: "Rob can play both patterns slowly.",
+        commonMistakes: ["Changing pattern before comfortable", "Losing timing", "Focusing only on speed"],
+        chordNames: ["G", "C", "D"],
+        skillIds: ["skill-strumming", "skill-rhythm", "skill-timing"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-open-chords-7",
+      title: "First Strumming Patterns",
+      purpose: "Check that Rob can play simple strumming patterns evenly while keeping time.",
+      requirements: [
+        "Rob can play steady downstrokes",
+        "Rob can add simple upstrokes",
+        "Rob can keep timing through G, C and D",
+        "Rob can hear how pick angle changes sound"
+      ],
+      passRule: "Pass if Rob can play simple strumming patterns evenly while keeping time through G, C and D."
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-open-chords-8",
+      missionId: "mission-open-chord-foundations",
+      lessonNumber: 8,
+      title: "Cleaner Sound and Muting",
+      description: "Learn how to reduce unwanted string noise and make open chords sound cleaner.",
+      objectiveHeading: "Lesson Goal",
+      objective: "Learn how to reduce unwanted string noise and make open chords sound cleaner.",
+      whyThisLesson: "As playing improves, noise becomes more noticeable. Cleaner sound comes from controlling what should ring and what should stay quiet.",
+      estimatedMinutes: 35,
+      skillIds: ["skill-open-chords", "skill-muting", "skill-strumming", "skill-timing"],
+      missionContext: "This lesson helps the same open chords sound cleaner by controlling unwanted strings.",
+      why: "As playing improves, noise becomes more noticeable. Cleaner sound comes from controlling what should ring and what should stay quiet.",
+      watch: {
+        title: "How clean open chord muting works",
+        provider: "YouTube",
+        url: "",
+        note: "Add a video later showing string targeting and simple touch muting.",
+        mediaLinks: []
+      },
+      listen: {
+        title: "Teach Rob to listen for",
+        items: ["extra low strings", "muddy bass notes", "muted notes that should ring", "wide strumming motion", "clean versus messy chord sound"]
+      },
+      coachNotes: [
+        "Muting is not only for advanced players.",
+        "Even simple open chords need control.",
+        "The goal is not silence everywhere - it is letting the right strings ring."
+      ],
+      definitionOfDone: [
+        "Rob can identify which strings belong in G, C and D.",
+        "Rob can avoid unwanted bass strings.",
+        "Rob can reduce unwanted noise.",
+        "Rob can hear the difference between clean and messy strumming."
+      ],
+      commonMistakes: ["Treating every chord as six strings.", "Ignoring muted strings.", "Swinging too widely.", "Assuming all extra strings sound fine."],
+      performanceTest: {
+        title: "Cleaner Open Chords",
+        requirements: [
+          "Rob can identify which strings belong in G, C and D",
+          "Rob can avoid unwanted bass strings",
+          "Rob can reduce unwanted noise",
+          "Rob can hear the difference between clean and messy strumming"
+        ],
+        passRule: "Pass if Rob can control which strings ring in G, C and D and hear the difference between clean and messy strumming."
+      },
+      practiceJournal: [
+        "Which chord was hardest to control?",
+        "Did unwanted bass strings appear?",
+        "Did aiming the pick help?",
+        "What should be reviewed before playing songs?"
+      ]
+    },
+    exercises: [
+      {
+        id: "exercise-open-chords-8-what-should-ring",
+        title: "What Should Ring?",
+        purpose: "Understand intentional string choice.",
+        objective: "Know which strings belong in each chord.",
+        instructionSteps: ["Play G and notice all six strings ring.", "Play C and avoid the low E string.", "Play D and avoid the low E and A strings.", "Say out loud which strings belong."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Rob can name which strings to play for G, C and D.",
+        definitionOfDone: "Rob can name which strings to play for G, C and D.",
+        commonMistakes: ["Treating every chord as six strings", "Ignoring muted strings", "Not listening to the bass note"],
+        chordNames: ["G", "C", "D"],
+        skillIds: ["skill-open-chords", "skill-muting"]
+      },
+      {
+        id: "exercise-open-chords-8-c-low-e-avoidance",
+        title: "C Major Low E Avoidance",
+        purpose: "Avoid unwanted bass notes.",
+        objective: "Play C without hitting low E.",
+        instructionSteps: ["Form C.", "Slowly strum from the A string.", "Stop if the low E rings.", "Repeat until the target feels natural."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "C rings without the low E.",
+        definitionOfDone: "C rings without the low E.",
+        commonMistakes: ["Starting the strum too high", "Swinging too widely", "Not aiming the pick"],
+        chordNames: ["C"],
+        skillIds: ["skill-open-chords", "skill-muting", "skill-strumming"]
+      },
+      {
+        id: "exercise-open-chords-8-d-string-targeting",
+        title: "D Major String Targeting",
+        purpose: "Develop accuracy with smaller chord shapes.",
+        objective: "Strum D from the D string.",
+        instructionSteps: ["Form D.", "Aim the pick at the D string.", "Strum only D, G, B and high E.", "Repeat slowly."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "D sounds clear without low string noise.",
+        definitionOfDone: "D sounds clear without low string noise.",
+        commonMistakes: ["Hitting A or low E", "Strumming too aggressively", "Not aiming before the stroke"],
+        chordNames: ["D"],
+        skillIds: ["skill-open-chords", "skill-muting", "skill-strumming"]
+      },
+      {
+        id: "exercise-open-chords-8-left-hand-touch-muting",
+        title: "Left-Hand Touch Muting",
+        purpose: "Learn gentle muting.",
+        objective: "Stop unwanted strings with light contact.",
+        instructionSteps: ["Form C.", "Let the tip of the ring finger lightly touch the low E if comfortable.", "Do not press it down.", "Strum and listen."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Unwanted string noise is reduced.",
+        definitionOfDone: "Unwanted string noise is reduced.",
+        commonMistakes: ["Pressing the muted string down", "Changing the chord shape too much", "Forcing an uncomfortable position"],
+        chordNames: ["C"],
+        skillIds: ["skill-muting", "skill-open-chords"]
+      },
+      {
+        id: "exercise-open-chords-8-right-hand-control",
+        title: "Right-Hand Control",
+        purpose: "Improve picking accuracy.",
+        objective: "Control where the strum begins.",
+        instructionSteps: ["Play G from low E.", "Play C from A.", "Play D from D.", "Repeat slowly."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Rob can start each chord from the correct string.",
+        definitionOfDone: "Rob can start each chord from the correct string.",
+        commonMistakes: ["Using the same strum for every chord", "Not looking before starting", "Swinging too wide"],
+        chordNames: ["G", "C", "D"],
+        skillIds: ["skill-strumming", "skill-muting"]
+      },
+      {
+        id: "exercise-open-chords-8-noise-check-progression",
+        title: "Noise Check Progression",
+        purpose: "Combine muting with chord changes.",
+        objective: "Play G-C-D while controlling unwanted strings.",
+        instructionSteps: ["Play G for four beats.", "Play C for four beats.", "Play D for four beats.", "Listen for extra low strings."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Progression sounds cleaner than at the start.",
+        definitionOfDone: "Progression sounds cleaner than at the start.",
+        commonMistakes: ["Ignoring bass strings", "Losing rhythm while aiming", "Overcorrecting and missing strings"],
+        chordNames: ["G", "C", "D"],
+        skillIds: ["skill-muting", "skill-chord-changes", "skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-8-clean-vs-messy-comparison",
+        title: "Clean vs Messy Comparison",
+        purpose: "Train the ear.",
+        objective: "Hear the difference between controlled and uncontrolled strumming.",
+        instructionSteps: ["Deliberately play C with the low E ringing.", "Then play it correctly.", "Do the same with D.", "Notice the difference."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Rob can hear when extra strings are ringing.",
+        definitionOfDone: "Rob can hear when extra strings are ringing.",
+        commonMistakes: ["Not exaggerating the contrast", "Assuming it all sounds the same", "Ignoring muddy bass notes"],
+        chordNames: ["C", "D"],
+        skillIds: ["skill-muting", "skill-open-chords"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-open-chords-8",
+      title: "Cleaner Open Chords",
+      purpose: "Check that Rob can control which strings ring and hear unwanted noise.",
+      requirements: [
+        "Rob can identify which strings belong in G, C and D",
+        "Rob can avoid unwanted bass strings",
+        "Rob can reduce unwanted noise",
+        "Rob can hear the difference between clean and messy strumming"
+      ],
+      passRule: "Pass if Rob can control which strings ring in G, C and D and hear the difference between clean and messy strumming."
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-open-chords-9",
+      missionId: "mission-open-chord-foundations",
+      lessonNumber: 9,
+      title: "Making Music",
+      description: "Bring together everything learned throughout Module 1 by playing complete songs using G, C and D major.",
+      objectiveHeading: "Lesson Goal",
+      objective: "Bring together everything learned throughout Module 1 by playing complete songs using G, C and D major.",
+      whyThisLesson: "Until now you have been practising individual skills. Today you begin combining them into real music. The goal is not perfection. The goal is to maintain rhythm, recover from mistakes and enjoy playing.",
+      estimatedMinutes: 35,
+      skillIds: ["skill-open-chords", "skill-chord-changes", "skill-rhythm", "skill-strumming", "skill-muting", "skill-song-performance"],
+      missionContext: "This final lesson brings the Module 1 foundations into complete songs.",
+      why: "Until now you have been practising individual skills. Today you begin combining them into real music.",
+      watch: {
+        title: "How to approach a first complete song",
+        provider: "YouTube",
+        url: "",
+        note: "Add a video later showing a complete G-C-D song performance with steady recovery.",
+        mediaLinks: []
+      },
+      listen: {
+        title: "Teach Rob to listen for",
+        items: ["steady rhythm through a whole song", "natural recovery", "clean chord starts", "strumming hand continuity", "enjoying the groove"]
+      },
+      coachNotes: [
+        "This is the first time you’ll spend more time making music than practising individual exercises.",
+        "If you make a mistake, keep going.",
+        "Most listeners notice rhythm long before they notice an occasional missed chord."
+      ],
+      definitionOfDone: [
+        "All three chords ring clearly.",
+        "G-C-D movement continues without stopping.",
+        "Featured song progressions feel comfortable.",
+        "Rob can play through both featured songs from beginning to end."
+      ],
+      commonMistakes: ["Restarting after every mistake.", "Chasing the recording speed.", "Skipping the warm-up.", "Stopping the strumming hand."],
+      performanceTest: {
+        title: "Module 1 Assessment",
+        requirements: [
+          "Build G major confidently",
+          "Build C major confidently",
+          "Build D major confidently",
+          "Play each chord cleanly",
+          "Change between G, C and D without stopping",
+          "Maintain steady rhythm at 60 BPM",
+          "Recover naturally from mistakes",
+          "Complete both featured songs from beginning to end"
+        ],
+        passRule: "Pass if the foundational Module 1 skills are reliable enough to continue into Module 2. If not, review exercises previously marked Needs More Practice."
+      },
+      practiceJournal: [
+        "Which song felt more natural?",
+        "Where did rhythm feel most solid?",
+        "Where did mistakes appear?",
+        "What should be reviewed before Module 2?"
+      ],
+      recommendedSongs: [
+        {
+          title: "Three Little Birds",
+          artist: "Bob Marley",
+          note: "Reinforces relaxed rhythm and steady G, C and D chord changes."
+        },
+        {
+          title: "Leaving on a Jet Plane",
+          artist: "John Denver",
+          note: "Develops confidence playing a complete song from beginning to end."
+        }
+      ],
+      featuredSongs: [
+        {
+          title: "Three Little Birds",
+          artist: "Bob Marley",
+          purpose: "Reinforce relaxed rhythm and steady chord changes.",
+          coachNotes: ["Focus on keeping time.", "Don’t chase the recording.", "Enjoy the groove."],
+          suggestedPractice: "Play through the song several times rather than restarting after mistakes."
+        },
+        {
+          title: "Leaving on a Jet Plane",
+          artist: "John Denver",
+          purpose: "Develop confidence playing a complete song from beginning to end.",
+          coachNotes: ["Listen for clean chord transitions.", "Keep your strumming hand moving.", "Finish the song even if mistakes occur."],
+          suggestedPractice: "Aim for a complete performance rather than perfection."
+        }
+      ]
+    },
+    exercises: [
+      {
+        id: "exercise-open-chords-9-module-warm-up",
+        title: "Module Warm-up",
+        purpose: "Reconnect with G, C and D.",
+        objective: "Play each chord cleanly before beginning songs.",
+        instructionSteps: ["Play G.", "Play C.", "Play D.", "Pick every string individually.", "Correct any muted notes."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "All three chords ring clearly.",
+        definitionOfDone: "All three chords ring clearly.",
+        commonMistakes: ["Rushing the warm-up", "Ignoring muted strings", "Starting songs before warming up"],
+        chordNames: ["G", "C", "D"],
+        skillIds: ["skill-open-chords"]
+      },
+      {
+        id: "exercise-open-chords-9-three-chord-flow",
+        title: "Three-Chord Flow",
+        purpose: "Reconnect with smooth chord changes.",
+        objective: "Play G to C to D continuously.",
+        instructionSteps: ["Use four beats per chord.", "Count aloud.", "Recover naturally from mistakes."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Complete several cycles without stopping.",
+        definitionOfDone: "Complete several cycles without stopping.",
+        commonMistakes: ["Stopping after mistakes", "Losing the count", "Rushing chord changes"],
+        chordNames: ["G", "C", "D"],
+        skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-9-song-preparation",
+        title: "Song Preparation",
+        purpose: "Prepare for complete songs.",
+        objective: "Play each featured song’s chord progression slowly before attempting the song.",
+        instructionSteps: ["Practise each progression.", "Focus on rhythm.", "Ignore speed."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Chord progression feels comfortable.",
+        definitionOfDone: "Chord progression feels comfortable.",
+        commonMistakes: ["Chasing recording speed", "Skipping slow preparation", "Stopping after small mistakes"],
+        chordNames: ["G", "C", "D"],
+        skillIds: ["skill-chord-changes", "skill-rhythm", "skill-song-performance"]
+      },
+      {
+        id: "exercise-open-chords-9-three-little-birds",
+        title: "Featured Song: Three Little Birds",
+        purpose: "Reinforce relaxed rhythm and steady chord changes.",
+        objective: "Play through the song several times rather than restarting after mistakes.",
+        instructionSteps: ["Use the G, C and D shapes from this module.", "Focus on keeping time.", "Do not chase the recording.", "Enjoy the groove.", "Keep going after mistakes."],
+        durationMinutes: 10,
+        tempo: "",
+        passCriteria: "Play through the song while keeping steady rhythm.",
+        definitionOfDone: "Play through the song while keeping steady rhythm.",
+        commonMistakes: ["Restarting after mistakes", "Trying to match the recording too soon", "Forgetting to enjoy the groove"],
+        chordNames: ["G", "C", "D"],
+        skillIds: ["skill-rhythm", "skill-strumming", "skill-song-performance"]
+      },
+      {
+        id: "exercise-open-chords-9-leaving-on-a-jet-plane",
+        title: "Featured Song: Leaving on a Jet Plane",
+        purpose: "Develop confidence playing a complete song from beginning to end.",
+        objective: "Aim for a complete performance rather than perfection.",
+        instructionSteps: ["Use the G, C and D shapes from this module.", "Listen for clean chord transitions.", "Keep your strumming hand moving.", "Finish the song even if mistakes occur."],
+        durationMinutes: 10,
+        tempo: "",
+        passCriteria: "Complete the song from beginning to end.",
+        definitionOfDone: "Complete the song from beginning to end.",
+        commonMistakes: ["Stopping the strumming hand", "Restarting after rough changes", "Focusing on perfection instead of completion"],
+        chordNames: ["G", "C", "D"],
+        skillIds: ["skill-chord-changes", "skill-rhythm", "skill-strumming", "skill-song-performance"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-open-chords-9",
+      title: "Module 1 Assessment",
+      purpose: "Confirm that the foundational skills are becoming reliable before moving into Module 2.",
+      requirements: [
+        "Build G major confidently",
+        "Build C major confidently",
+        "Build D major confidently",
+        "Play each chord cleanly",
+        "Change between G, C and D without stopping",
+        "Maintain steady rhythm at 60 BPM",
+        "Recover naturally from mistakes",
+        "Complete both featured songs from beginning to end"
+      ],
+      passRule: "Pass if the foundational Module 1 skills are reliable enough to continue into Module 2. If Needs More Practice is selected, review exercises previously marked Needs More Practice. Do not lock Module 2.",
+      moduleSummary: {
+        title: "Module 1 Complete",
+        message: "Congratulations. You now have the foundations required to begin playing rhythm guitar.",
+        preparingForNextModule: "In Module 2 you will build stronger rhythm skills, develop more natural strumming patterns and begin playing with greater confidence and consistency.",
+        skillsDeveloped: [
+          "Open chords",
+          "Clean fretting",
+          "Chord construction",
+          "Chord transitions",
+          "Basic rhythm",
+          "Basic strumming",
+          "String control",
+          "Playing complete songs"
+        ],
+        featuredSongsCompleted: ["Three Little Birds", "Leaving on a Jet Plane"]
+      }
+    }
+  }
+];
+
+moduleOneRemainingLessons.forEach(({ lesson, exercises, checkpoint }) => {
+  const exerciseIds = exercises.map((exercise) => exercise.id);
+  upsertAcademyItem("lessons", {
+    ...lesson,
+    exercises: exerciseIds,
+    checkpoint: checkpoint.id,
+    completed: false
+  });
+  exercises.forEach((exercise) => {
+    upsertAcademyItem("exercises", {
+      ...exercise,
+      lessonId: lesson.id,
+      instructions: exercise.instructionSteps.join(" "),
+      mediaLinks: [],
+      completed: false
+    });
+  });
+  upsertAcademyItem("checkpoints", {
+    ...checkpoint,
+    lessonId: lesson.id,
+    completed: false
+  });
+});
+
+upsertAcademyItem("missions", {
+  id: "mission-open-chord-foundations",
+  featuredSongs: [
+    {
+      title: "Three Little Birds",
+      artist: "Bob Marley",
+      explanation: "Reinforces relaxed rhythm and steady G, C and D chord changes."
+    },
+    {
+      title: "Leaving on a Jet Plane",
+      artist: "John Denver",
+      explanation: "Develops confidence playing a complete song from beginning to end."
+    }
+  ],
+  moduleAssessment: {
+    title: "Module 1 Assessment",
+    purpose: "Confirm that the foundational skills are becoming reliable before moving into Module 2.",
+    resultOptions: ["Pass", "Needs More Practice"],
+    needsMorePracticeRecommendation: "Review any exercises previously marked Needs More Practice. Module 2 is not locked."
+  },
+  moduleSummary: {
+    title: "Module 1 Complete",
+    message: "Congratulations. You now have the foundations required to begin playing rhythm guitar.",
+    preparingForNextModule: "In Module 2 you will build stronger rhythm skills, develop more natural strumming patterns and begin playing with greater confidence and consistency.",
+    skillsDeveloped: [
+      "Open chords",
+      "Clean fretting",
+      "Chord construction",
+      "Chord transitions",
+      "Basic rhythm",
+      "Basic strumming",
+      "String control",
+      "Playing complete songs"
+    ]
+  }
+});
+
+upsertAcademyItem("missions", {
+  id: "mission-rhythm-foundations",
+  prerequisiteMissionIds: []
+});
+
 const missionOneExerciseIds = missionOneLessonIds.flatMap((lessonId) => {
   const lesson = window.academyData.lessons.find((academyLesson) => academyLesson.id === lessonId);
   return lesson?.exercises || [];
@@ -7045,6 +7925,7 @@ const state = {
 };
 
 const els = {
+  navHomeButton: document.getElementById("navHomeButton"),
   navDashboardButton: document.getElementById("navDashboardButton"),
   navAcademyButton: document.getElementById("navAcademyButton"),
   navNotesButton: document.getElementById("navNotesButton"),
@@ -7075,17 +7956,25 @@ const els = {
   dashboardOverallProgressBar: document.getElementById("dashboardOverallProgressBar"),
   academyRoadmap: document.getElementById("academyRoadmap"),
   academyRoadmapBackButton: document.getElementById("academyRoadmapBackButton"),
+  moduleLessonsTitle: document.getElementById("moduleLessonsTitle"),
+  moduleLessonsSubtitle: document.getElementById("moduleLessonsSubtitle"),
+  moduleLessonList: document.getElementById("moduleLessonList"),
+  moduleLessonsDashboardButton: document.getElementById("moduleLessonsDashboardButton"),
+  moduleOverviewButton: document.getElementById("moduleOverviewButton"),
+  moduleLessonsBackButton: document.getElementById("moduleLessonsBackButton"),
   academySyncStatus: document.getElementById("academySyncStatus"),
   syncNowButton: document.getElementById("syncNowButton"),
   exportProgressButton: document.getElementById("exportProgressButton"),
   importProgressInput: document.getElementById("importProgressInput"),
   progressTransferStatus: document.getElementById("progressTransferStatus"),
   missionHomeButton: document.getElementById("missionHomeButton"),
+  missionLessonsButton: document.getElementById("missionLessonsButton"),
   missionBackButton: document.getElementById("missionBackButton"),
   missionLibraryButton: document.getElementById("missionLibraryButton"),
   missionSecondaryBackButton: document.getElementById("missionSecondaryBackButton"),
   startLessonButton: document.getElementById("startLessonButton"),
   lessonHomeButton: document.getElementById("lessonHomeButton"),
+  lessonLessonsButton: document.getElementById("lessonLessonsButton"),
   lessonMissionName: document.getElementById("lessonMissionName"),
   lessonTitle: document.getElementById("lessonTitle"),
   lessonMeta: document.getElementById("lessonMeta"),
@@ -7201,6 +8090,7 @@ applyView();
 render();
 initializeAcademyProgress();
 
+els.navHomeButton.addEventListener("click", () => setView("home"));
 els.navDashboardButton.addEventListener("click", () => setView("academy"));
 els.navAcademyButton.addEventListener("click", () => setView("academy-roadmap"));
 els.navNotesButton.addEventListener("click", () => setView("notes"));
@@ -7219,17 +8109,27 @@ els.academyRoadmap.addEventListener("click", (event) => {
   if (!button || button.disabled) return;
   state.selectedMissionId = button.dataset.missionId;
   setActiveMission(state.selectedMissionId).then(() => render());
-  setView("mission", state.selectedMissionId);
+  setView("module-lessons", state.selectedMissionId);
 });
 els.academyRoadmapBackButton.addEventListener("click", () => setView("academy"));
+els.moduleLessonsDashboardButton.addEventListener("click", () => setView("academy"));
+els.moduleOverviewButton.addEventListener("click", () => setView("mission", currentMission()?.id));
+els.moduleLessonsBackButton.addEventListener("click", () => setView("academy-roadmap"));
+els.moduleLessonList.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-lesson-id]");
+  if (!button) return;
+  setView("lesson", button.dataset.lessonId);
+});
 els.syncNowButton.addEventListener("click", syncPendingProgress);
 els.missionHomeButton.addEventListener("click", () => setView("academy"));
+els.missionLessonsButton.addEventListener("click", () => setView("module-lessons", currentMission()?.id));
 els.missionBackButton.addEventListener("click", () => setView("academy-roadmap"));
 els.missionLibraryButton?.addEventListener("click", () => setView("library"));
 els.missionSecondaryBackButton.addEventListener("click", () => setView("academy"));
 els.startLessonButton.addEventListener("click", () => setView("lesson", firstLessonForMission(currentMission())?.id));
 els.lessonHomeButton.addEventListener("click", () => setView("academy"));
-els.lessonBackButton.addEventListener("click", () => setView("mission", currentMissionForLesson()?.id));
+els.lessonLessonsButton.addEventListener("click", () => setView("module-lessons", currentMissionForLesson()?.id));
+els.lessonBackButton.addEventListener("click", () => setView("academy-roadmap"));
 els.lessonExercises.addEventListener("click", (event) => {
   const button = event.target.closest("[data-exercise-id]");
   if (!button) return;
@@ -7271,6 +8171,12 @@ els.continueNextLessonButton.addEventListener("click", continueToNextLesson);
 els.reviewExercisesButton.addEventListener("click", openFirstReviewExercise);
 els.summaryNotesButton.addEventListener("click", () => setView("notes"));
 els.summaryDashboardButton.addEventListener("click", () => setView("academy"));
+els.recommendedSongs?.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-song-id]");
+  if (!button) return;
+  state.selectedId = button.dataset.songId;
+  setView("library");
+});
 window.addEventListener("hashchange", () => {
   const route = parseRoute();
   syncStateFromRoute(route);
@@ -7302,7 +8208,7 @@ function setView(view, id = null) {
   state.view = view;
   updateSelectionForView(view, id);
   ensureAcademySelection();
-  persistRouteProgress({ view, ids: { missionId: view === "mission" ? selectedIdForView("mission") : null, lessonId: view === "lesson" ? selectedIdForView("lesson") : null, exerciseId: view === "exercise" ? selectedIdForView("exercise") : null, checkpointId: view === "checkpoint" ? selectedIdForView("checkpoint") : null } });
+  persistRouteProgress({ view, ids: { missionId: ["module-lessons", "mission"].includes(view) ? selectedIdForView(view) : null, lessonId: view === "lesson" ? selectedIdForView("lesson") : null, exerciseId: view === "exercise" ? selectedIdForView("exercise") : null, checkpointId: view === "checkpoint" ? selectedIdForView("checkpoint") : null } });
   location.hash = routeHashForView(view, id);
   applyView();
   render();
@@ -7312,6 +8218,7 @@ function applyView() {
   document.body.classList.toggle("view-home", state.view === "home");
   document.body.classList.toggle("view-academy", state.view === "academy");
   document.body.classList.toggle("view-academy-roadmap", state.view === "academy-roadmap");
+  document.body.classList.toggle("view-module-lessons", state.view === "module-lessons");
   document.body.classList.toggle("view-mission", state.view === "mission");
   document.body.classList.toggle("view-lesson", state.view === "lesson");
   document.body.classList.toggle("view-exercise", state.view === "exercise");
@@ -7323,6 +8230,11 @@ function applyView() {
   const activeButton = {
     academy: els.navDashboardButton,
     "academy-roadmap": els.navAcademyButton,
+    "module-lessons": els.navAcademyButton,
+    mission: els.navAcademyButton,
+    lesson: els.navAcademyButton,
+    exercise: els.navAcademyButton,
+    checkpoint: els.navAcademyButton,
     notes: els.navNotesButton,
     settings: els.navSettingsButton
   }[state.view];
@@ -7943,6 +8855,7 @@ function render() {
   renderProgressTransferStatus();
   renderResumeLearning();
   renderAcademyDashboard();
+  renderModuleLessons();
   renderMissionBrief();
   renderLesson();
   renderExerciseDetail();
@@ -7954,12 +8867,7 @@ function render() {
 }
 
 function continueMission() {
-  const target = resumeExerciseTarget();
-  if (target) {
-    setView("exercise", target.id);
-    return;
-  }
-  setView("mission", activeMission()?.id);
+  setView("module-lessons", activeMission()?.id);
 }
 
 function resumeLearning() {
@@ -8063,12 +8971,12 @@ function renderProgressTransferStatus() {
 
 function parseRoute() {
   const [view = "home", id = null] = location.hash.replace(/^#/, "").split("/");
-  const validViews = ["academy", "academy-roadmap", "mission", "lesson", "exercise", "checkpoint", "library", "notes", "settings"];
+  const validViews = ["academy", "academy-roadmap", "module-lessons", "mission", "lesson", "exercise", "checkpoint", "library", "notes", "settings"];
   const routeView = validViews.includes(view) ? view : "home";
   return {
     view: routeView,
     ids: {
-      missionId: routeView === "mission" ? id : null,
+      missionId: ["module-lessons", "mission"].includes(routeView) ? id : null,
       lessonId: routeView === "lesson" ? id : null,
       exerciseId: routeView === "exercise" ? id : null,
       checkpointId: routeView === "checkpoint" ? id : null
@@ -8094,7 +9002,7 @@ function syncStateFromRoute(route) {
 }
 
 function updateSelectionForView(view, id) {
-  if (view === "mission") {
+  if (["module-lessons", "mission"].includes(view)) {
     state.selectedMissionId = id || state.selectedMissionId;
     state.selectedLessonId = null;
     state.selectedExerciseId = null;
@@ -8112,12 +9020,13 @@ function updateSelectionForView(view, id) {
 function routeHashForView(view, id) {
   if (view === "home") return "";
   const selectedId = id || selectedIdForView(view);
-  return selectedId && ["mission", "lesson", "exercise", "checkpoint"].includes(view)
+  return selectedId && ["module-lessons", "mission", "lesson", "exercise", "checkpoint"].includes(view)
     ? `${view}/${selectedId}`
     : view;
 }
 
 function selectedIdForView(view) {
+  if (view === "module-lessons") return currentMission()?.id;
   if (view === "mission") return currentMission()?.id;
   if (view === "lesson") return currentLesson()?.id;
   if (view === "exercise") return currentExercise()?.id;
@@ -8439,6 +9348,47 @@ function renderRoadmapMission(mission) {
   `;
 }
 
+function renderModuleLessons() {
+  if (!els.moduleLessonList) return;
+  const mission = currentMission();
+  if (!mission) return;
+  const lessonsById = academyLessonsById();
+  const progress = getProgress();
+  const lessons = (mission.lessons || [])
+    .map((lessonId) => lessonsById.get(lessonId))
+    .filter(Boolean)
+    .sort((a, b) => Number(a.lessonNumber || 999) - Number(b.lessonNumber || 999));
+
+  els.moduleLessonsTitle.textContent = moduleLabel(mission);
+  els.moduleLessonsSubtitle.textContent = "Choose a lesson, review the module overview, or go back to Modules.";
+  els.moduleLessonList.innerHTML = lessons.map((lesson) => renderModuleLessonCard(lesson, progress)).join("");
+}
+
+function renderModuleLessonCard(lesson, progress) {
+  const exerciseIds = lesson.exercises || [];
+  const completed = exerciseIds.filter((exerciseId) => progress.completedExerciseIds.has(exerciseId)).length;
+  const total = exerciseIds.length;
+  const checkpointResult = lesson.checkpoint ? progress.checkpointResults.get(lesson.checkpoint) : "";
+  const complete = checkpointResult === "passed" || (total > 0 && completed === total);
+  const status = complete
+    ? "Complete"
+    : completed
+      ? `${completed} / ${total} exercises`
+      : "Not started";
+  return `
+    <button type="button" class="exercise-card lesson-select-card${complete ? " complete" : " pending"}" data-lesson-id="${escapeHtml(lesson.id)}">
+      <div>
+        <strong>Lesson ${escapeHtml(String(lesson.lessonNumber || ""))}: ${escapeHtml(lesson.title)}</strong>
+        <p>${escapeHtml(lesson.description || lesson.objective || "")}</p>
+      </div>
+      <div class="exercise-meta-row">
+        <span>${escapeHtml(status)}</span>
+        <span>${escapeHtml(String(lesson.estimatedMinutes || 0))} min</span>
+      </div>
+    </button>
+  `;
+}
+
 function renderMissionBrief() {
   const mission = currentMission();
   if (!mission) return;
@@ -8685,6 +9635,7 @@ async function saveCurrentLessonReflection() {
 function continueToNextLesson() {
   const nextLesson = nextLessonAfter(currentLesson());
   if (nextLesson) setView("lesson", nextLesson.id);
+  else setView("academy-roadmap");
 }
 
 function openFirstReviewExercise() {
@@ -8832,6 +9783,7 @@ function renderCheckpoint() {
   if (!lesson || !checkpoint) return;
   const progress = getProgress();
   const summary = lessonSummary(lesson);
+  const moduleSummary = checkpoint.moduleSummary || null;
 
   els.checkpointTitle.textContent = checkpoint.title;
   els.checkpointLessonTitle.textContent = `Related lesson: ${lesson.title}`;
@@ -8842,9 +9794,13 @@ function renderCheckpoint() {
     button.classList.toggle("selected", button.dataset.assessment === assessment);
   });
   els.checkpointSuccessMessage.textContent = assessment === "passed"
-    ? "Lesson complete. Summary is ready below."
+    ? moduleSummary
+      ? `${moduleSummary.title}. ${moduleSummary.message}`
+      : "Lesson complete. Summary is ready below."
     : assessment === "not-yet"
-      ? "Not yet. Review exercises marked Needs More Practice, then try again."
+      ? moduleSummary
+        ? "Needs more practice. Review exercises marked Needs More Practice, then return to this assessment."
+        : "Not yet. Review exercises marked Needs More Practice, then try again."
       : "";
   els.checkpointSuccessMessage.classList.toggle("complete", assessment === "passed");
   els.checkpointSuccessMessage.classList.toggle("review", assessment === "not-yet");
@@ -8854,9 +9810,16 @@ function renderCheckpoint() {
     <div><span>Needs More Practice</span><strong>${summary.reviewCount}</strong></div>
     <div><span>Notes Count</span><strong>${summary.notesCount}</strong></div>
     <div><span>Reflection Saved</span><strong>${summary.reflectionSaved ? "Yes" : "No"}</strong></div>
+    ${moduleSummary ? `
+      <div><span>Featured Songs Completed</span><strong>${summary.featuredSongsCompleted} / ${summary.featuredSongsTotal}</strong></div>
+      <div><span>Skills Developed</span><strong>${moduleSummary.skillsDeveloped.length}</strong></div>
+      <div class="wide-stat"><span>Skills</span><strong>${moduleSummary.skillsDeveloped.map(escapeHtml).join(", ")}</strong></div>
+      <div class="wide-stat"><span>Preparing for Module 2</span><strong>${escapeHtml(moduleSummary.preparingForNextModule)}</strong></div>
+    ` : ""}
   `;
   els.recommendedSongs.innerHTML = renderRecommendedSongs(recommendedSongsForLesson(lesson));
-  els.continueNextLessonButton.disabled = !nextLessonAfter(lesson);
+  els.continueNextLessonButton.textContent = moduleSummary ? "Continue to Module 2" : "Continue to next lesson";
+  els.continueNextLessonButton.disabled = !nextLessonAfter(lesson) && !moduleSummary;
   els.reviewExercisesButton.disabled = !summary.reviewCount;
 }
 
@@ -8866,9 +9829,11 @@ function lessonSummary(lesson) {
   const completed = exerciseIds.filter((exerciseId) => progress.completedExerciseIds.has(exerciseId)).length;
   const reviewCount = exerciseIds.filter((exerciseId) => progress.reviewExerciseIds.has(exerciseId)).length;
   const notesCount = exerciseIds.filter((exerciseId) => String(progress.exerciseNotes.get(exerciseId) || "").trim()).length;
+  const featuredSongIds = exerciseIds.filter((exerciseId) => academyExercisesById().get(exerciseId)?.title?.startsWith("Featured Song:"));
+  const featuredSongsCompleted = featuredSongIds.filter((exerciseId) => progress.completedExerciseIds.has(exerciseId)).length;
   const reflection = progress.lessonReflections.get(lesson.id) || {};
   const reflectionSaved = Object.values(reflection).some((value) => String(value || "").trim());
-  return { total: exerciseIds.length, completed, reviewCount, notesCount, reflectionSaved };
+  return { total: exerciseIds.length, completed, reviewCount, notesCount, reflectionSaved, featuredSongsCompleted, featuredSongsTotal: featuredSongIds.length };
 }
 
 function recommendedSongsForLesson(lesson) {
@@ -8888,6 +9853,7 @@ function recommendedSongsForLesson(lesson) {
     .map(({ song, matches }) => ({
       title: song.title,
       artist: song.artist,
+      songId: song.id,
       note: matches.length >= Math.min(2, lessonChordNames.size)
         ? `Recommended because it uses ${matches.join(" and ")}`
         : `Partial fit — rhythm may be harder; includes ${matches.join(" and ")}`
@@ -8906,6 +9872,7 @@ function recommendedSongsForLesson(lesson) {
     recommendations.push({
       title: librarySong?.title || suggestion.title,
       artist: librarySong?.artist || suggestion.artist,
+      songId: librarySong?.id || "",
       note: librarySong
         ? suggestion.note || "Recommended from this lesson."
         : `Suggested future addition — ${suggestion.note || "not in the song library yet."}`
@@ -8926,6 +9893,7 @@ function renderRecommendedSongs(recommendations) {
     <div class="connected-song-card">
       <strong>${escapeHtml(item.title)}</strong>
       <span>${escapeHtml(item.artist)} · ${escapeHtml(item.note)}</span>
+      ${item.songId ? `<button type="button" data-song-id="${escapeHtml(item.songId)}">Open song</button>` : ""}
     </div>
   `).join("");
 }

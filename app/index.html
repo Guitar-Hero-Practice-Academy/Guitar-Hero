@@ -16,6 +16,7 @@
         <small id="globalSyncStatus">Sync</small>
       </div>
       <div class="top-nav-actions">
+        <button id="navHomeButton">Home</button>
         <button id="navDashboardButton">Dashboard</button>
         <button id="navAcademyButton">Modules</button>
         <button id="navNotesButton">Practice Notes</button>
@@ -119,6 +120,30 @@
       </section>
     </main>
 
+    <main class="module-lessons-view" id="moduleLessonsView" aria-label="Module lessons">
+      <header class="academy-header">
+        <div>
+          <p class="eyebrow">Lessons</p>
+          <h1 id="moduleLessonsTitle"></h1>
+          <p id="moduleLessonsSubtitle" class="academy-subtitle"></p>
+        </div>
+        <div class="header-actions">
+          <button id="moduleLessonsDashboardButton">Dashboard</button>
+          <button id="moduleOverviewButton">Module Overview</button>
+          <button id="moduleLessonsBackButton">Back to Modules</button>
+        </div>
+      </header>
+      <section class="academy-dashboard" aria-label="Module lessons">
+        <article class="academy-card lesson-selector-card">
+          <div>
+            <p class="eyebrow">Lessons</p>
+            <h2>Choose a lesson</h2>
+          </div>
+          <div id="moduleLessonList" class="exercise-card-list"></div>
+        </article>
+      </section>
+    </main>
+
     <main class="mission-brief-view" id="missionBriefView" aria-label="Module">
       <header class="academy-header">
         <div>
@@ -128,6 +153,7 @@
         </div>
         <div class="header-actions">
           <button id="missionHomeButton">Dashboard</button>
+          <button id="missionLessonsButton">Lessons</button>
           <button id="missionBackButton">Back to Modules</button>
         </div>
       </header>
@@ -188,7 +214,8 @@
         </div>
         <div class="header-actions">
           <button id="lessonHomeButton">Dashboard</button>
-          <button id="lessonBackButton">Back to Module</button>
+          <button id="lessonLessonsButton">Lessons</button>
+          <button id="lessonBackButton">Back to Modules</button>
           <button id="finishLessonButton" disabled>Finish Lesson</button>
         </div>
       </header>

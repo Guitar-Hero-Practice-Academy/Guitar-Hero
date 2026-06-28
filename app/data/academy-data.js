@@ -625,10 +625,10 @@ const missionOneLessonBlueprints = [
   { id: "lesson-open-chords-3", lessonNumber: 3, title: "Efficient Chord Changes" },
   { id: "lesson-open-chords-4", lessonNumber: 4, title: "Adding D Major" },
   { id: "lesson-open-chords-5", lessonNumber: 5, title: "Three-Chord Movement" },
-  { id: "lesson-open-chords-6", lessonNumber: 6, title: "Changing Chords Smoothly" },
-  { id: "lesson-open-chords-7", lessonNumber: 7, title: "Rhythm and Timing" },
-  { id: "lesson-open-chords-8", lessonNumber: 8, title: "Basic Strumming Patterns" },
-  { id: "lesson-open-chords-9", lessonNumber: 9, title: "Playing Your First Songs" }
+  { id: "lesson-open-chords-6", lessonNumber: 6, title: "Rhythm and Timing" },
+  { id: "lesson-open-chords-7", lessonNumber: 7, title: "Basic Strumming Patterns" },
+  { id: "lesson-open-chords-8", lessonNumber: 8, title: "Cleaner Sound and Muting" },
+  { id: "lesson-open-chords-9", lessonNumber: 9, title: "Making Music" }
 ];
 
 const missionOneLessonIds = missionOneLessonBlueprints.map((lesson) => lesson.id);
@@ -2130,6 +2130,766 @@ upsertAcademyItem("checkpoints", {
   ],
   passRule: "Pass if Rob can move between G, C and D without stopping, keep rhythm steady, make mostly clean changes, and recover from mistakes instead of restarting.",
   completed: false
+});
+
+const moduleOneRemainingLessons = [
+  {
+    lesson: {
+      id: "lesson-open-chords-6",
+      missionId: "mission-open-chord-foundations",
+      lessonNumber: 6,
+      title: "Rhythm and Timing",
+      description: "Develop steady timing while changing between open chords.",
+      objectiveHeading: "Lesson Goal",
+      objective: "Develop steady timing while changing between open chords.",
+      whyThisLesson: "Good rhythm matters more than perfect chords. A missed note is recoverable, but stopping the beat makes the song fall apart. This lesson teaches Rob to keep time even when his fretting hand is still catching up.",
+      estimatedMinutes: 35,
+      skillIds: ["skill-rhythm", "skill-timing", "skill-chord-changes", "skill-strumming"],
+      missionContext: "This lesson makes the beat the priority while G, C and D changes continue developing.",
+      why: "Good rhythm matters more than perfect chords. A missed note is recoverable, but stopping the beat makes the song fall apart.",
+      watch: {
+        title: "How to keep the beat while changing chords",
+        provider: "YouTube",
+        url: "",
+        note: "Add a video later showing steady downstrokes and recovery at 60 BPM.",
+        mediaLinks: []
+      },
+      listen: {
+        title: "Teach Rob to listen for",
+        items: ["steady counting", "the strumming hand stopping", "rushing into beat 1", "volume changes that break timing", "recovery after mistakes"]
+      },
+      coachNotes: [
+        "Your strumming hand is the engine.",
+        "Keep it moving.",
+        "If your fretting hand makes a mistake, recover on the next beat instead of stopping."
+      ],
+      definitionOfDone: [
+        "Rob can count 1-2-3-4 steadily.",
+        "Rob can strum downstrokes at 60 BPM.",
+        "Rob can change between G, C and D without stopping the rhythm.",
+        "Rob can recover from mistakes without restarting."
+      ],
+      commonMistakes: ["Stopping to fix fingers.", "Losing the count.", "Freezing the strumming hand.", "Starting again after every mistake."],
+      performanceTest: {
+        title: "Keep the Beat",
+        requirements: [
+          "Rob can count 1-2-3-4 steadily",
+          "Rob can strum downstrokes at 60 BPM",
+          "Rob can change between G, C and D without stopping the rhythm",
+          "Rob can recover from mistakes without restarting"
+        ],
+        passRule: "Pass if Rob can keep a steady beat at 60 BPM while changing between G, C and D and recovering naturally from mistakes."
+      },
+      practiceJournal: [
+        "Did rhythm or chord accuracy break down first?",
+        "Which chord change interrupted the beat most?",
+        "Did counting out loud help?",
+        "What should be reviewed next time?"
+      ]
+    },
+    exercises: [
+      {
+        id: "exercise-open-chords-6-beat-awareness",
+        title: "Beat Awareness",
+        purpose: "Learn to feel the beat before playing.",
+        objective: "Count steadily without rushing.",
+        instructionSteps: ["Start the metronome at 60 BPM.", "Do not play yet.", "Count out loud: 1, 2, 3, 4.", "Tap your foot with each beat.", "Keep counting until it feels steady."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "You can count 1-2-3-4 steadily for one minute.",
+        definitionOfDone: "You can count 1-2-3-4 steadily for one minute.",
+        commonMistakes: ["Rushing the count", "Losing focus", "Starting guitar before feeling the beat"],
+        chordNames: [],
+        skillIds: ["skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-6-muted-string-downstrokes",
+        title: "Muted String Downstrokes",
+        purpose: "Isolate the strumming hand.",
+        objective: "Strum evenly without worrying about chords.",
+        instructionSteps: ["Lightly mute the strings with your fretting hand.", "Strum down once per beat.", "Listen for even volume.", "Keep the wrist loose."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "One minute of steady downstrokes without speeding up.",
+        definitionOfDone: "One minute of steady downstrokes without speeding up.",
+        commonMistakes: ["Locking the wrist", "Hitting too hard", "Strumming unevenly"],
+        chordNames: [],
+        skillIds: ["skill-rhythm", "skill-strumming", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-6-g-chord-timing",
+        title: "G Chord Timing",
+        purpose: "Apply timing to one clean chord.",
+        objective: "Keep a steady beat on G.",
+        instructionSteps: ["Form G major.", "Strum down once per beat.", "Keep counting 1-2-3-4.", "If the chord buzzes, keep the rhythm going and adjust."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "One minute of steady G downstrokes.",
+        definitionOfDone: "One minute of steady G downstrokes.",
+        commonMistakes: ["Stopping to fix fingers", "Losing the count", "Changing volume randomly"],
+        chordNames: ["G"],
+        skillIds: ["skill-open-chords", "skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-6-c-chord-timing",
+        title: "C Chord Timing",
+        purpose: "Apply timing to a harder chord.",
+        objective: "Keep rhythm while playing C.",
+        instructionSteps: ["Form C major.", "Start from the A string.", "Strum once per beat.", "Keep the rhythm steady."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "One minute of steady C downstrokes.",
+        definitionOfDone: "One minute of steady C downstrokes.",
+        commonMistakes: ["Hitting the low E string", "Muting the open G string", "Slowing down when checking fingers"],
+        chordNames: ["C"],
+        skillIds: ["skill-open-chords", "skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-6-four-beat-g-to-c",
+        title: "Four Beat G to C",
+        purpose: "Combine timing with chord changes.",
+        objective: "Change chords without stopping the beat.",
+        instructionSteps: ["Play G for four beats.", "Change to C for four beats.", "Keep counting out loud.", "If the change is messy, continue."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Three clean cycles without stopping.",
+        definitionOfDone: "Three clean cycles without stopping.",
+        commonMistakes: ["Pausing between chords", "Looking at both hands at once", "Losing beat 1"],
+        chordNames: ["G", "C"],
+        skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-6-four-beat-g-to-d",
+        title: "Four Beat G to D",
+        purpose: "Practise timing with D major.",
+        objective: "Move from G to D while keeping the beat.",
+        instructionSteps: ["Play G for four beats.", "Change to D for four beats.", "Keep the strumming hand moving."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Three cycles with mostly clean timing.",
+        definitionOfDone: "Three cycles with mostly clean timing.",
+        commonMistakes: ["Hitting the low E on D", "Rushing the change", "Freezing the strumming hand"],
+        chordNames: ["G", "D"],
+        skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-6-timing-recovery-drill",
+        title: "Timing Recovery Drill",
+        purpose: "Learn to recover from mistakes.",
+        objective: "Continue the rhythm after errors.",
+        instructionSteps: ["Play G, C and D in any order.", "If a chord is wrong, do not stop.", "Fix it on the next pass."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "You keep rhythm for two minutes without restarting.",
+        definitionOfDone: "You keep rhythm for two minutes without restarting.",
+        commonMistakes: ["Starting again after every mistake", "Getting frustrated", "Forgetting the beat matters most"],
+        chordNames: ["G", "C", "D"],
+        skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-open-chords-6",
+      title: "Keep the Beat",
+      purpose: "Check that Rob can keep the rhythm moving while changing between open chords.",
+      requirements: [
+        "Rob can count 1-2-3-4 steadily",
+        "Rob can strum downstrokes at 60 BPM",
+        "Rob can change between G, C and D without stopping the rhythm",
+        "Rob can recover from mistakes without restarting"
+      ],
+      passRule: "Pass if Rob can keep a steady beat at 60 BPM while changing between G, C and D and recovering naturally from mistakes."
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-open-chords-7",
+      missionId: "mission-open-chord-foundations",
+      lessonNumber: 7,
+      title: "Basic Strumming Patterns",
+      description: "Learn simple strumming patterns while keeping timing steady.",
+      objectiveHeading: "Lesson Goal",
+      objective: "Learn simple strumming patterns while keeping timing steady.",
+      whyThisLesson: "Strumming is what turns chords into music. The same chords can feel completely different depending on the rhythm of the right hand.",
+      estimatedMinutes: 35,
+      skillIds: ["skill-strumming", "skill-rhythm", "skill-timing", "skill-chord-changes"],
+      missionContext: "This lesson adds simple right-hand patterns to the open chords already learned.",
+      why: "Strumming is what turns chords into music. The same chords can feel completely different depending on the rhythm of the right hand.",
+      watch: {
+        title: "How simple strumming patterns work",
+        provider: "YouTube",
+        url: "",
+        note: "Add a video later showing downstrokes, upstrokes and relaxed pick motion.",
+        mediaLinks: []
+      },
+      listen: {
+        title: "Teach Rob to listen for",
+        items: ["even downstrokes", "awkward upstrokes", "speeding up", "pick angle changes", "right-hand tension"]
+      },
+      coachNotes: [
+        "Do not try to make the pattern fancy.",
+        "A simple pattern played evenly sounds better than a complicated pattern played badly."
+      ],
+      definitionOfDone: [
+        "Rob can play steady downstrokes.",
+        "Rob can add simple upstrokes.",
+        "Rob can keep timing through G, C and D.",
+        "Rob can hear how pick angle changes sound."
+      ],
+      commonMistakes: ["Strumming too hard.", "Tensing the wrist.", "Digging too deep on the upstroke.", "Focusing only on speed."],
+      performanceTest: {
+        title: "First Strumming Patterns",
+        requirements: [
+          "Rob can play steady downstrokes",
+          "Rob can add simple upstrokes",
+          "Rob can keep timing through G, C and D",
+          "Rob can hear how pick angle changes sound"
+        ],
+        passRule: "Pass if Rob can play simple strumming patterns evenly while keeping time through G, C and D."
+      },
+      practiceJournal: [
+        "Which pattern felt most natural?",
+        "Did the upstroke feel awkward?",
+        "Did pick angle change the sound?",
+        "What should be practised again?"
+      ]
+    },
+    exercises: [
+      {
+        id: "exercise-open-chords-7-downstrokes-only",
+        title: "Downstrokes Only",
+        purpose: "Establish a reliable strumming base.",
+        objective: "Play steady downstrokes on beat.",
+        instructionSteps: ["Choose G major.", "Strum down once per beat.", "Count 1-2-3-4.", "Keep the wrist loose."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "One minute of steady downstrokes.",
+        definitionOfDone: "One minute of steady downstrokes.",
+        commonMistakes: ["Strumming too hard", "Tensing the wrist", "Losing the count"],
+        chordNames: ["G"],
+        skillIds: ["skill-strumming", "skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-7-down-down-down-down",
+        title: "Down Down Down Down Pattern",
+        purpose: "Build confidence with a full bar pattern.",
+        objective: "Strum every beat evenly.",
+        instructionSteps: ["Play G for one bar.", "Play C for one bar.", "Use four downstrokes per bar."],
+        durationMinutes: 5,
+        tempo: "70 BPM",
+        passCriteria: "Complete five clean G to C cycles.",
+        definitionOfDone: "Complete five clean G to C cycles.",
+        commonMistakes: ["Pausing at chord changes", "Uneven volume", "Speeding up"],
+        chordNames: ["G", "C"],
+        skillIds: ["skill-strumming", "skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-7-down-down-up",
+        title: "Down Down Up Pattern",
+        purpose: "Introduce upstrokes.",
+        objective: "Add an upstroke without losing timing.",
+        instructionSteps: ["Mute the strings first.", "Play: down, down, up.", "Keep the motion relaxed.", "Then try it on G."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Pattern feels controlled and even.",
+        definitionOfDone: "Pattern feels controlled and even.",
+        commonMistakes: ["Digging too deep on the upstroke", "Flicking from the elbow", "Tensing the pick hand"],
+        chordNames: ["G"],
+        skillIds: ["skill-strumming", "skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-7-down-down-up-g-c",
+        title: "Down Down Up on G and C",
+        purpose: "Apply the new pattern to chord changes.",
+        objective: "Keep the pattern going through chord changes.",
+        instructionSteps: ["Play G using down, down, up.", "Change to C.", "Repeat slowly."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Several cycles without losing the pattern.",
+        definitionOfDone: "Several cycles without losing the pattern.",
+        commonMistakes: ["Stopping the right hand", "Changing too late", "Overthinking the upstroke"],
+        chordNames: ["G", "C"],
+        skillIds: ["skill-strumming", "skill-chord-changes", "skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-7-quiet-and-loud-strumming",
+        title: "Quiet and Loud Strumming",
+        purpose: "Develop control over dynamics.",
+        objective: "Change volume without changing tempo.",
+        instructionSteps: ["Play G softly for one bar.", "Play G louder for one bar.", "Repeat with C and D."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Volume changes while tempo stays steady.",
+        definitionOfDone: "Volume changes while tempo stays steady.",
+        commonMistakes: ["Speeding up when playing louder", "Hitting too hard", "Losing accuracy"],
+        chordNames: ["G", "C", "D"],
+        skillIds: ["skill-strumming", "skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-7-pick-angle-experiment",
+        title: "Pick Angle Experiment",
+        purpose: "Understand why strums sound different.",
+        objective: "Notice how pick angle affects tone.",
+        instructionSteps: ["Strum G with the pick flat.", "Strum G with the pick slightly angled.", "Try soft and firm grip.", "Notice what sounds smoother."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Rob can describe which pick angle sounds best.",
+        definitionOfDone: "Rob can describe which pick angle sounds best.",
+        commonMistakes: ["Holding the pick too tightly", "Digging too deep into the strings", "Ignoring tone differences"],
+        chordNames: ["G"],
+        skillIds: ["skill-strumming"]
+      },
+      {
+        id: "exercise-open-chords-7-pattern-choice-practice",
+        title: "Pattern Choice Practice",
+        purpose: "Choose the right pattern for the moment.",
+        objective: "Compare two simple patterns.",
+        instructionSteps: ["Play G-C-D-G with downstrokes only.", "Then play the same progression with down, down, up.", "Notice which feels more musical."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Rob can play both patterns slowly.",
+        definitionOfDone: "Rob can play both patterns slowly.",
+        commonMistakes: ["Changing pattern before comfortable", "Losing timing", "Focusing only on speed"],
+        chordNames: ["G", "C", "D"],
+        skillIds: ["skill-strumming", "skill-rhythm", "skill-timing"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-open-chords-7",
+      title: "First Strumming Patterns",
+      purpose: "Check that Rob can play simple strumming patterns evenly while keeping time.",
+      requirements: [
+        "Rob can play steady downstrokes",
+        "Rob can add simple upstrokes",
+        "Rob can keep timing through G, C and D",
+        "Rob can hear how pick angle changes sound"
+      ],
+      passRule: "Pass if Rob can play simple strumming patterns evenly while keeping time through G, C and D."
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-open-chords-8",
+      missionId: "mission-open-chord-foundations",
+      lessonNumber: 8,
+      title: "Cleaner Sound and Muting",
+      description: "Learn how to reduce unwanted string noise and make open chords sound cleaner.",
+      objectiveHeading: "Lesson Goal",
+      objective: "Learn how to reduce unwanted string noise and make open chords sound cleaner.",
+      whyThisLesson: "As playing improves, noise becomes more noticeable. Cleaner sound comes from controlling what should ring and what should stay quiet.",
+      estimatedMinutes: 35,
+      skillIds: ["skill-open-chords", "skill-muting", "skill-strumming", "skill-timing"],
+      missionContext: "This lesson helps the same open chords sound cleaner by controlling unwanted strings.",
+      why: "As playing improves, noise becomes more noticeable. Cleaner sound comes from controlling what should ring and what should stay quiet.",
+      watch: {
+        title: "How clean open chord muting works",
+        provider: "YouTube",
+        url: "",
+        note: "Add a video later showing string targeting and simple touch muting.",
+        mediaLinks: []
+      },
+      listen: {
+        title: "Teach Rob to listen for",
+        items: ["extra low strings", "muddy bass notes", "muted notes that should ring", "wide strumming motion", "clean versus messy chord sound"]
+      },
+      coachNotes: [
+        "Muting is not only for advanced players.",
+        "Even simple open chords need control.",
+        "The goal is not silence everywhere - it is letting the right strings ring."
+      ],
+      definitionOfDone: [
+        "Rob can identify which strings belong in G, C and D.",
+        "Rob can avoid unwanted bass strings.",
+        "Rob can reduce unwanted noise.",
+        "Rob can hear the difference between clean and messy strumming."
+      ],
+      commonMistakes: ["Treating every chord as six strings.", "Ignoring muted strings.", "Swinging too widely.", "Assuming all extra strings sound fine."],
+      performanceTest: {
+        title: "Cleaner Open Chords",
+        requirements: [
+          "Rob can identify which strings belong in G, C and D",
+          "Rob can avoid unwanted bass strings",
+          "Rob can reduce unwanted noise",
+          "Rob can hear the difference between clean and messy strumming"
+        ],
+        passRule: "Pass if Rob can control which strings ring in G, C and D and hear the difference between clean and messy strumming."
+      },
+      practiceJournal: [
+        "Which chord was hardest to control?",
+        "Did unwanted bass strings appear?",
+        "Did aiming the pick help?",
+        "What should be reviewed before playing songs?"
+      ]
+    },
+    exercises: [
+      {
+        id: "exercise-open-chords-8-what-should-ring",
+        title: "What Should Ring?",
+        purpose: "Understand intentional string choice.",
+        objective: "Know which strings belong in each chord.",
+        instructionSteps: ["Play G and notice all six strings ring.", "Play C and avoid the low E string.", "Play D and avoid the low E and A strings.", "Say out loud which strings belong."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Rob can name which strings to play for G, C and D.",
+        definitionOfDone: "Rob can name which strings to play for G, C and D.",
+        commonMistakes: ["Treating every chord as six strings", "Ignoring muted strings", "Not listening to the bass note"],
+        chordNames: ["G", "C", "D"],
+        skillIds: ["skill-open-chords", "skill-muting"]
+      },
+      {
+        id: "exercise-open-chords-8-c-low-e-avoidance",
+        title: "C Major Low E Avoidance",
+        purpose: "Avoid unwanted bass notes.",
+        objective: "Play C without hitting low E.",
+        instructionSteps: ["Form C.", "Slowly strum from the A string.", "Stop if the low E rings.", "Repeat until the target feels natural."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "C rings without the low E.",
+        definitionOfDone: "C rings without the low E.",
+        commonMistakes: ["Starting the strum too high", "Swinging too widely", "Not aiming the pick"],
+        chordNames: ["C"],
+        skillIds: ["skill-open-chords", "skill-muting", "skill-strumming"]
+      },
+      {
+        id: "exercise-open-chords-8-d-string-targeting",
+        title: "D Major String Targeting",
+        purpose: "Develop accuracy with smaller chord shapes.",
+        objective: "Strum D from the D string.",
+        instructionSteps: ["Form D.", "Aim the pick at the D string.", "Strum only D, G, B and high E.", "Repeat slowly."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "D sounds clear without low string noise.",
+        definitionOfDone: "D sounds clear without low string noise.",
+        commonMistakes: ["Hitting A or low E", "Strumming too aggressively", "Not aiming before the stroke"],
+        chordNames: ["D"],
+        skillIds: ["skill-open-chords", "skill-muting", "skill-strumming"]
+      },
+      {
+        id: "exercise-open-chords-8-left-hand-touch-muting",
+        title: "Left-Hand Touch Muting",
+        purpose: "Learn gentle muting.",
+        objective: "Stop unwanted strings with light contact.",
+        instructionSteps: ["Form C.", "Let the tip of the ring finger lightly touch the low E if comfortable.", "Do not press it down.", "Strum and listen."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Unwanted string noise is reduced.",
+        definitionOfDone: "Unwanted string noise is reduced.",
+        commonMistakes: ["Pressing the muted string down", "Changing the chord shape too much", "Forcing an uncomfortable position"],
+        chordNames: ["C"],
+        skillIds: ["skill-muting", "skill-open-chords"]
+      },
+      {
+        id: "exercise-open-chords-8-right-hand-control",
+        title: "Right-Hand Control",
+        purpose: "Improve picking accuracy.",
+        objective: "Control where the strum begins.",
+        instructionSteps: ["Play G from low E.", "Play C from A.", "Play D from D.", "Repeat slowly."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Rob can start each chord from the correct string.",
+        definitionOfDone: "Rob can start each chord from the correct string.",
+        commonMistakes: ["Using the same strum for every chord", "Not looking before starting", "Swinging too wide"],
+        chordNames: ["G", "C", "D"],
+        skillIds: ["skill-strumming", "skill-muting"]
+      },
+      {
+        id: "exercise-open-chords-8-noise-check-progression",
+        title: "Noise Check Progression",
+        purpose: "Combine muting with chord changes.",
+        objective: "Play G-C-D while controlling unwanted strings.",
+        instructionSteps: ["Play G for four beats.", "Play C for four beats.", "Play D for four beats.", "Listen for extra low strings."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Progression sounds cleaner than at the start.",
+        definitionOfDone: "Progression sounds cleaner than at the start.",
+        commonMistakes: ["Ignoring bass strings", "Losing rhythm while aiming", "Overcorrecting and missing strings"],
+        chordNames: ["G", "C", "D"],
+        skillIds: ["skill-muting", "skill-chord-changes", "skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-8-clean-vs-messy-comparison",
+        title: "Clean vs Messy Comparison",
+        purpose: "Train the ear.",
+        objective: "Hear the difference between controlled and uncontrolled strumming.",
+        instructionSteps: ["Deliberately play C with the low E ringing.", "Then play it correctly.", "Do the same with D.", "Notice the difference."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Rob can hear when extra strings are ringing.",
+        definitionOfDone: "Rob can hear when extra strings are ringing.",
+        commonMistakes: ["Not exaggerating the contrast", "Assuming it all sounds the same", "Ignoring muddy bass notes"],
+        chordNames: ["C", "D"],
+        skillIds: ["skill-muting", "skill-open-chords"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-open-chords-8",
+      title: "Cleaner Open Chords",
+      purpose: "Check that Rob can control which strings ring and hear unwanted noise.",
+      requirements: [
+        "Rob can identify which strings belong in G, C and D",
+        "Rob can avoid unwanted bass strings",
+        "Rob can reduce unwanted noise",
+        "Rob can hear the difference between clean and messy strumming"
+      ],
+      passRule: "Pass if Rob can control which strings ring in G, C and D and hear the difference between clean and messy strumming."
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-open-chords-9",
+      missionId: "mission-open-chord-foundations",
+      lessonNumber: 9,
+      title: "Making Music",
+      description: "Bring together everything learned throughout Module 1 by playing complete songs using G, C and D major.",
+      objectiveHeading: "Lesson Goal",
+      objective: "Bring together everything learned throughout Module 1 by playing complete songs using G, C and D major.",
+      whyThisLesson: "Until now you have been practising individual skills. Today you begin combining them into real music. The goal is not perfection. The goal is to maintain rhythm, recover from mistakes and enjoy playing.",
+      estimatedMinutes: 35,
+      skillIds: ["skill-open-chords", "skill-chord-changes", "skill-rhythm", "skill-strumming", "skill-muting", "skill-song-performance"],
+      missionContext: "This final lesson brings the Module 1 foundations into complete songs.",
+      why: "Until now you have been practising individual skills. Today you begin combining them into real music.",
+      watch: {
+        title: "How to approach a first complete song",
+        provider: "YouTube",
+        url: "",
+        note: "Add a video later showing a complete G-C-D song performance with steady recovery.",
+        mediaLinks: []
+      },
+      listen: {
+        title: "Teach Rob to listen for",
+        items: ["steady rhythm through a whole song", "natural recovery", "clean chord starts", "strumming hand continuity", "enjoying the groove"]
+      },
+      coachNotes: [
+        "This is the first time you’ll spend more time making music than practising individual exercises.",
+        "If you make a mistake, keep going.",
+        "Most listeners notice rhythm long before they notice an occasional missed chord."
+      ],
+      definitionOfDone: [
+        "All three chords ring clearly.",
+        "G-C-D movement continues without stopping.",
+        "Featured song progressions feel comfortable.",
+        "Rob can play through both featured songs from beginning to end."
+      ],
+      commonMistakes: ["Restarting after every mistake.", "Chasing the recording speed.", "Skipping the warm-up.", "Stopping the strumming hand."],
+      performanceTest: {
+        title: "Module 1 Assessment",
+        requirements: [
+          "Build G major confidently",
+          "Build C major confidently",
+          "Build D major confidently",
+          "Play each chord cleanly",
+          "Change between G, C and D without stopping",
+          "Maintain steady rhythm at 60 BPM",
+          "Recover naturally from mistakes",
+          "Complete both featured songs from beginning to end"
+        ],
+        passRule: "Pass if the foundational Module 1 skills are reliable enough to continue into Module 2. If not, review exercises previously marked Needs More Practice."
+      },
+      practiceJournal: [
+        "Which song felt more natural?",
+        "Where did rhythm feel most solid?",
+        "Where did mistakes appear?",
+        "What should be reviewed before Module 2?"
+      ],
+      recommendedSongs: [
+        {
+          title: "Three Little Birds",
+          artist: "Bob Marley",
+          note: "Reinforces relaxed rhythm and steady G, C and D chord changes."
+        },
+        {
+          title: "Leaving on a Jet Plane",
+          artist: "John Denver",
+          note: "Develops confidence playing a complete song from beginning to end."
+        }
+      ],
+      featuredSongs: [
+        {
+          title: "Three Little Birds",
+          artist: "Bob Marley",
+          purpose: "Reinforce relaxed rhythm and steady chord changes.",
+          coachNotes: ["Focus on keeping time.", "Don’t chase the recording.", "Enjoy the groove."],
+          suggestedPractice: "Play through the song several times rather than restarting after mistakes."
+        },
+        {
+          title: "Leaving on a Jet Plane",
+          artist: "John Denver",
+          purpose: "Develop confidence playing a complete song from beginning to end.",
+          coachNotes: ["Listen for clean chord transitions.", "Keep your strumming hand moving.", "Finish the song even if mistakes occur."],
+          suggestedPractice: "Aim for a complete performance rather than perfection."
+        }
+      ]
+    },
+    exercises: [
+      {
+        id: "exercise-open-chords-9-module-warm-up",
+        title: "Module Warm-up",
+        purpose: "Reconnect with G, C and D.",
+        objective: "Play each chord cleanly before beginning songs.",
+        instructionSteps: ["Play G.", "Play C.", "Play D.", "Pick every string individually.", "Correct any muted notes."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "All three chords ring clearly.",
+        definitionOfDone: "All three chords ring clearly.",
+        commonMistakes: ["Rushing the warm-up", "Ignoring muted strings", "Starting songs before warming up"],
+        chordNames: ["G", "C", "D"],
+        skillIds: ["skill-open-chords"]
+      },
+      {
+        id: "exercise-open-chords-9-three-chord-flow",
+        title: "Three-Chord Flow",
+        purpose: "Reconnect with smooth chord changes.",
+        objective: "Play G to C to D continuously.",
+        instructionSteps: ["Use four beats per chord.", "Count aloud.", "Recover naturally from mistakes."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Complete several cycles without stopping.",
+        definitionOfDone: "Complete several cycles without stopping.",
+        commonMistakes: ["Stopping after mistakes", "Losing the count", "Rushing chord changes"],
+        chordNames: ["G", "C", "D"],
+        skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+      },
+      {
+        id: "exercise-open-chords-9-song-preparation",
+        title: "Song Preparation",
+        purpose: "Prepare for complete songs.",
+        objective: "Play each featured song’s chord progression slowly before attempting the song.",
+        instructionSteps: ["Practise each progression.", "Focus on rhythm.", "Ignore speed."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Chord progression feels comfortable.",
+        definitionOfDone: "Chord progression feels comfortable.",
+        commonMistakes: ["Chasing recording speed", "Skipping slow preparation", "Stopping after small mistakes"],
+        chordNames: ["G", "C", "D"],
+        skillIds: ["skill-chord-changes", "skill-rhythm", "skill-song-performance"]
+      },
+      {
+        id: "exercise-open-chords-9-three-little-birds",
+        title: "Featured Song: Three Little Birds",
+        purpose: "Reinforce relaxed rhythm and steady chord changes.",
+        objective: "Play through the song several times rather than restarting after mistakes.",
+        instructionSteps: ["Use the G, C and D shapes from this module.", "Focus on keeping time.", "Do not chase the recording.", "Enjoy the groove.", "Keep going after mistakes."],
+        durationMinutes: 10,
+        tempo: "",
+        passCriteria: "Play through the song while keeping steady rhythm.",
+        definitionOfDone: "Play through the song while keeping steady rhythm.",
+        commonMistakes: ["Restarting after mistakes", "Trying to match the recording too soon", "Forgetting to enjoy the groove"],
+        chordNames: ["G", "C", "D"],
+        skillIds: ["skill-rhythm", "skill-strumming", "skill-song-performance"]
+      },
+      {
+        id: "exercise-open-chords-9-leaving-on-a-jet-plane",
+        title: "Featured Song: Leaving on a Jet Plane",
+        purpose: "Develop confidence playing a complete song from beginning to end.",
+        objective: "Aim for a complete performance rather than perfection.",
+        instructionSteps: ["Use the G, C and D shapes from this module.", "Listen for clean chord transitions.", "Keep your strumming hand moving.", "Finish the song even if mistakes occur."],
+        durationMinutes: 10,
+        tempo: "",
+        passCriteria: "Complete the song from beginning to end.",
+        definitionOfDone: "Complete the song from beginning to end.",
+        commonMistakes: ["Stopping the strumming hand", "Restarting after rough changes", "Focusing on perfection instead of completion"],
+        chordNames: ["G", "C", "D"],
+        skillIds: ["skill-chord-changes", "skill-rhythm", "skill-strumming", "skill-song-performance"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-open-chords-9",
+      title: "Module 1 Assessment",
+      purpose: "Confirm that the foundational skills are becoming reliable before moving into Module 2.",
+      requirements: [
+        "Build G major confidently",
+        "Build C major confidently",
+        "Build D major confidently",
+        "Play each chord cleanly",
+        "Change between G, C and D without stopping",
+        "Maintain steady rhythm at 60 BPM",
+        "Recover naturally from mistakes",
+        "Complete both featured songs from beginning to end"
+      ],
+      passRule: "Pass if the foundational Module 1 skills are reliable enough to continue into Module 2. If Needs More Practice is selected, review exercises previously marked Needs More Practice. Do not lock Module 2.",
+      moduleSummary: {
+        title: "Module 1 Complete",
+        message: "Congratulations. You now have the foundations required to begin playing rhythm guitar.",
+        preparingForNextModule: "In Module 2 you will build stronger rhythm skills, develop more natural strumming patterns and begin playing with greater confidence and consistency.",
+        skillsDeveloped: [
+          "Open chords",
+          "Clean fretting",
+          "Chord construction",
+          "Chord transitions",
+          "Basic rhythm",
+          "Basic strumming",
+          "String control",
+          "Playing complete songs"
+        ],
+        featuredSongsCompleted: ["Three Little Birds", "Leaving on a Jet Plane"]
+      }
+    }
+  }
+];
+
+moduleOneRemainingLessons.forEach(({ lesson, exercises, checkpoint }) => {
+  const exerciseIds = exercises.map((exercise) => exercise.id);
+  upsertAcademyItem("lessons", {
+    ...lesson,
+    exercises: exerciseIds,
+    checkpoint: checkpoint.id,
+    completed: false
+  });
+  exercises.forEach((exercise) => {
+    upsertAcademyItem("exercises", {
+      ...exercise,
+      lessonId: lesson.id,
+      instructions: exercise.instructionSteps.join(" "),
+      mediaLinks: [],
+      completed: false
+    });
+  });
+  upsertAcademyItem("checkpoints", {
+    ...checkpoint,
+    lessonId: lesson.id,
+    completed: false
+  });
+});
+
+upsertAcademyItem("missions", {
+  id: "mission-open-chord-foundations",
+  featuredSongs: [
+    {
+      title: "Three Little Birds",
+      artist: "Bob Marley",
+      explanation: "Reinforces relaxed rhythm and steady G, C and D chord changes."
+    },
+    {
+      title: "Leaving on a Jet Plane",
+      artist: "John Denver",
+      explanation: "Develops confidence playing a complete song from beginning to end."
+    }
+  ],
+  moduleAssessment: {
+    title: "Module 1 Assessment",
+    purpose: "Confirm that the foundational skills are becoming reliable before moving into Module 2.",
+    resultOptions: ["Pass", "Needs More Practice"],
+    needsMorePracticeRecommendation: "Review any exercises previously marked Needs More Practice. Module 2 is not locked."
+  },
+  moduleSummary: {
+    title: "Module 1 Complete",
+    message: "Congratulations. You now have the foundations required to begin playing rhythm guitar.",
+    preparingForNextModule: "In Module 2 you will build stronger rhythm skills, develop more natural strumming patterns and begin playing with greater confidence and consistency.",
+    skillsDeveloped: [
+      "Open chords",
+      "Clean fretting",
+      "Chord construction",
+      "Chord transitions",
+      "Basic rhythm",
+      "Basic strumming",
+      "String control",
+      "Playing complete songs"
+    ]
+  }
+});
+
+upsertAcademyItem("missions", {
+  id: "mission-rhythm-foundations",
+  prerequisiteMissionIds: []
 });
 
 const missionOneExerciseIds = missionOneLessonIds.flatMap((lessonId) => {

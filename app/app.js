@@ -46,6 +46,7 @@ const state = {
 };
 
 const els = {
+  navHomeButton: document.getElementById("navHomeButton"),
   navDashboardButton: document.getElementById("navDashboardButton"),
   navAcademyButton: document.getElementById("navAcademyButton"),
   navNotesButton: document.getElementById("navNotesButton"),
@@ -76,17 +77,25 @@ const els = {
   dashboardOverallProgressBar: document.getElementById("dashboardOverallProgressBar"),
   academyRoadmap: document.getElementById("academyRoadmap"),
   academyRoadmapBackButton: document.getElementById("academyRoadmapBackButton"),
+  moduleLessonsTitle: document.getElementById("moduleLessonsTitle"),
+  moduleLessonsSubtitle: document.getElementById("moduleLessonsSubtitle"),
+  moduleLessonList: document.getElementById("moduleLessonList"),
+  moduleLessonsDashboardButton: document.getElementById("moduleLessonsDashboardButton"),
+  moduleOverviewButton: document.getElementById("moduleOverviewButton"),
+  moduleLessonsBackButton: document.getElementById("moduleLessonsBackButton"),
   academySyncStatus: document.getElementById("academySyncStatus"),
   syncNowButton: document.getElementById("syncNowButton"),
   exportProgressButton: document.getElementById("exportProgressButton"),
   importProgressInput: document.getElementById("importProgressInput"),
   progressTransferStatus: document.getElementById("progressTransferStatus"),
   missionHomeButton: document.getElementById("missionHomeButton"),
+  missionLessonsButton: document.getElementById("missionLessonsButton"),
   missionBackButton: document.getElementById("missionBackButton"),
   missionLibraryButton: document.getElementById("missionLibraryButton"),
   missionSecondaryBackButton: document.getElementById("missionSecondaryBackButton"),
   startLessonButton: document.getElementById("startLessonButton"),
   lessonHomeButton: document.getElementById("lessonHomeButton"),
+  lessonLessonsButton: document.getElementById("lessonLessonsButton"),
   lessonMissionName: document.getElementById("lessonMissionName"),
   lessonTitle: document.getElementById("lessonTitle"),
   lessonMeta: document.getElementById("lessonMeta"),
@@ -202,6 +211,7 @@ applyView();
 render();
 initializeAcademyProgress();
 
+els.navHomeButton.addEventListener("click", () => setView("home"));
 els.navDashboardButton.addEventListener("click", () => setView("academy"));
 els.navAcademyButton.addEventListener("click", () => setView("academy-roadmap"));
 els.navNotesButton.addEventListener("click", () => setView("notes"));
@@ -220,17 +230,27 @@ els.academyRoadmap.addEventListener("click", (event) => {
   if (!button || button.disabled) return;
   state.selectedMissionId = button.dataset.missionId;
   setActiveMission(state.selectedMissionId).then(() => render());
-  setView("mission", state.selectedMissionId);
+  setView("module-lessons", state.selectedMissionId);
 });
 els.academyRoadmapBackButton.addEventListener("click", () => setView("academy"));
+els.moduleLessonsDashboardButton.addEventListener("click", () => setView("academy"));
+els.moduleOverviewButton.addEventListener("click", () => setView("mission", currentMission()?.id));
+els.moduleLessonsBackButton.addEventListener("click", () => setView("academy-roadmap"));
+els.moduleLessonList.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-lesson-id]");
+  if (!button) return;
+  setView("lesson", button.dataset.lessonId);
+});
 els.syncNowButton.addEventListener("click", syncPendingProgress);
 els.missionHomeButton.addEventListener("click", () => setView("academy"));
+els.missionLessonsButton.addEventListener("click", () => setView("module-lessons", currentMission()?.id));
 els.missionBackButton.addEventListener("click", () => setView("academy-roadmap"));
 els.missionLibraryButton?.addEventListener("click", () => setView("library"));
 els.missionSecondaryBackButton.addEventListener("click", () => setView("academy"));
 els.startLessonButton.addEventListener("click", () => setView("lesson", firstLessonForMission(currentMission())?.id));
 els.lessonHomeButton.addEventListener("click", () => setView("academy"));
-els.lessonBackButton.addEventListener("click", () => setView("mission", currentMissionForLesson()?.id));
+els.lessonLessonsButton.addEventListener("click", () => setView("module-lessons", currentMissionForLesson()?.id));
+els.lessonBackButton.addEventListener("click", () => setView("academy-roadmap"));
 els.lessonExercises.addEventListener("click", (event) => {
   const button = event.target.closest("[data-exercise-id]");
   if (!button) return;
@@ -272,6 +292,12 @@ els.continueNextLessonButton.addEventListener("click", continueToNextLesson);
 els.reviewExercisesButton.addEventListener("click", openFirstReviewExercise);
 els.summaryNotesButton.addEventListener("click", () => setView("notes"));
 els.summaryDashboardButton.addEventListener("click", () => setView("academy"));
+els.recommendedSongs?.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-song-id]");
+  if (!button) return;
+  state.selectedId = button.dataset.songId;
+  setView("library");
+});
 window.addEventListener("hashchange", () => {
   const route = parseRoute();
   syncStateFromRoute(route);
@@ -303,7 +329,7 @@ function setView(view, id = null) {
   state.view = view;
   updateSelectionForView(view, id);
   ensureAcademySelection();
-  persistRouteProgress({ view, ids: { missionId: view === "mission" ? selectedIdForView("mission") : null, lessonId: view === "lesson" ? selectedIdForView("lesson") : null, exerciseId: view === "exercise" ? selectedIdForView("exercise") : null, checkpointId: view === "checkpoint" ? selectedIdForView("checkpoint") : null } });
+  persistRouteProgress({ view, ids: { missionId: ["module-lessons", "mission"].includes(view) ? selectedIdForView(view) : null, lessonId: view === "lesson" ? selectedIdForView("lesson") : null, exerciseId: view === "exercise" ? selectedIdForView("exercise") : null, checkpointId: view === "checkpoint" ? selectedIdForView("checkpoint") : null } });
   location.hash = routeHashForView(view, id);
   applyView();
   render();
@@ -313,6 +339,7 @@ function applyView() {
   document.body.classList.toggle("view-home", state.view === "home");
   document.body.classList.toggle("view-academy", state.view === "academy");
   document.body.classList.toggle("view-academy-roadmap", state.view === "academy-roadmap");
+  document.body.classList.toggle("view-module-lessons", state.view === "module-lessons");
   document.body.classList.toggle("view-mission", state.view === "mission");
   document.body.classList.toggle("view-lesson", state.view === "lesson");
   document.body.classList.toggle("view-exercise", state.view === "exercise");
@@ -324,6 +351,11 @@ function applyView() {
   const activeButton = {
     academy: els.navDashboardButton,
     "academy-roadmap": els.navAcademyButton,
+    "module-lessons": els.navAcademyButton,
+    mission: els.navAcademyButton,
+    lesson: els.navAcademyButton,
+    exercise: els.navAcademyButton,
+    checkpoint: els.navAcademyButton,
     notes: els.navNotesButton,
     settings: els.navSettingsButton
   }[state.view];
@@ -944,6 +976,7 @@ function render() {
   renderProgressTransferStatus();
   renderResumeLearning();
   renderAcademyDashboard();
+  renderModuleLessons();
   renderMissionBrief();
   renderLesson();
   renderExerciseDetail();
@@ -955,12 +988,7 @@ function render() {
 }
 
 function continueMission() {
-  const target = resumeExerciseTarget();
-  if (target) {
-    setView("exercise", target.id);
-    return;
-  }
-  setView("mission", activeMission()?.id);
+  setView("module-lessons", activeMission()?.id);
 }
 
 function resumeLearning() {
@@ -1064,12 +1092,12 @@ function renderProgressTransferStatus() {
 
 function parseRoute() {
   const [view = "home", id = null] = location.hash.replace(/^#/, "").split("/");
-  const validViews = ["academy", "academy-roadmap", "mission", "lesson", "exercise", "checkpoint", "library", "notes", "settings"];
+  const validViews = ["academy", "academy-roadmap", "module-lessons", "mission", "lesson", "exercise", "checkpoint", "library", "notes", "settings"];
   const routeView = validViews.includes(view) ? view : "home";
   return {
     view: routeView,
     ids: {
-      missionId: routeView === "mission" ? id : null,
+      missionId: ["module-lessons", "mission"].includes(routeView) ? id : null,
       lessonId: routeView === "lesson" ? id : null,
       exerciseId: routeView === "exercise" ? id : null,
       checkpointId: routeView === "checkpoint" ? id : null
@@ -1095,7 +1123,7 @@ function syncStateFromRoute(route) {
 }
 
 function updateSelectionForView(view, id) {
-  if (view === "mission") {
+  if (["module-lessons", "mission"].includes(view)) {
     state.selectedMissionId = id || state.selectedMissionId;
     state.selectedLessonId = null;
     state.selectedExerciseId = null;
@@ -1113,12 +1141,13 @@ function updateSelectionForView(view, id) {
 function routeHashForView(view, id) {
   if (view === "home") return "";
   const selectedId = id || selectedIdForView(view);
-  return selectedId && ["mission", "lesson", "exercise", "checkpoint"].includes(view)
+  return selectedId && ["module-lessons", "mission", "lesson", "exercise", "checkpoint"].includes(view)
     ? `${view}/${selectedId}`
     : view;
 }
 
 function selectedIdForView(view) {
+  if (view === "module-lessons") return currentMission()?.id;
   if (view === "mission") return currentMission()?.id;
   if (view === "lesson") return currentLesson()?.id;
   if (view === "exercise") return currentExercise()?.id;
@@ -1440,6 +1469,47 @@ function renderRoadmapMission(mission) {
   `;
 }
 
+function renderModuleLessons() {
+  if (!els.moduleLessonList) return;
+  const mission = currentMission();
+  if (!mission) return;
+  const lessonsById = academyLessonsById();
+  const progress = getProgress();
+  const lessons = (mission.lessons || [])
+    .map((lessonId) => lessonsById.get(lessonId))
+    .filter(Boolean)
+    .sort((a, b) => Number(a.lessonNumber || 999) - Number(b.lessonNumber || 999));
+
+  els.moduleLessonsTitle.textContent = moduleLabel(mission);
+  els.moduleLessonsSubtitle.textContent = "Choose a lesson, review the module overview, or go back to Modules.";
+  els.moduleLessonList.innerHTML = lessons.map((lesson) => renderModuleLessonCard(lesson, progress)).join("");
+}
+
+function renderModuleLessonCard(lesson, progress) {
+  const exerciseIds = lesson.exercises || [];
+  const completed = exerciseIds.filter((exerciseId) => progress.completedExerciseIds.has(exerciseId)).length;
+  const total = exerciseIds.length;
+  const checkpointResult = lesson.checkpoint ? progress.checkpointResults.get(lesson.checkpoint) : "";
+  const complete = checkpointResult === "passed" || (total > 0 && completed === total);
+  const status = complete
+    ? "Complete"
+    : completed
+      ? `${completed} / ${total} exercises`
+      : "Not started";
+  return `
+    <button type="button" class="exercise-card lesson-select-card${complete ? " complete" : " pending"}" data-lesson-id="${escapeHtml(lesson.id)}">
+      <div>
+        <strong>Lesson ${escapeHtml(String(lesson.lessonNumber || ""))}: ${escapeHtml(lesson.title)}</strong>
+        <p>${escapeHtml(lesson.description || lesson.objective || "")}</p>
+      </div>
+      <div class="exercise-meta-row">
+        <span>${escapeHtml(status)}</span>
+        <span>${escapeHtml(String(lesson.estimatedMinutes || 0))} min</span>
+      </div>
+    </button>
+  `;
+}
+
 function renderMissionBrief() {
   const mission = currentMission();
   if (!mission) return;
@@ -1686,6 +1756,7 @@ async function saveCurrentLessonReflection() {
 function continueToNextLesson() {
   const nextLesson = nextLessonAfter(currentLesson());
   if (nextLesson) setView("lesson", nextLesson.id);
+  else setView("academy-roadmap");
 }
 
 function openFirstReviewExercise() {
@@ -1833,6 +1904,7 @@ function renderCheckpoint() {
   if (!lesson || !checkpoint) return;
   const progress = getProgress();
   const summary = lessonSummary(lesson);
+  const moduleSummary = checkpoint.moduleSummary || null;
 
   els.checkpointTitle.textContent = checkpoint.title;
   els.checkpointLessonTitle.textContent = `Related lesson: ${lesson.title}`;
@@ -1843,9 +1915,13 @@ function renderCheckpoint() {
     button.classList.toggle("selected", button.dataset.assessment === assessment);
   });
   els.checkpointSuccessMessage.textContent = assessment === "passed"
-    ? "Lesson complete. Summary is ready below."
+    ? moduleSummary
+      ? `${moduleSummary.title}. ${moduleSummary.message}`
+      : "Lesson complete. Summary is ready below."
     : assessment === "not-yet"
-      ? "Not yet. Review exercises marked Needs More Practice, then try again."
+      ? moduleSummary
+        ? "Needs more practice. Review exercises marked Needs More Practice, then return to this assessment."
+        : "Not yet. Review exercises marked Needs More Practice, then try again."
       : "";
   els.checkpointSuccessMessage.classList.toggle("complete", assessment === "passed");
   els.checkpointSuccessMessage.classList.toggle("review", assessment === "not-yet");
@@ -1855,9 +1931,16 @@ function renderCheckpoint() {
     <div><span>Needs More Practice</span><strong>${summary.reviewCount}</strong></div>
     <div><span>Notes Count</span><strong>${summary.notesCount}</strong></div>
     <div><span>Reflection Saved</span><strong>${summary.reflectionSaved ? "Yes" : "No"}</strong></div>
+    ${moduleSummary ? `
+      <div><span>Featured Songs Completed</span><strong>${summary.featuredSongsCompleted} / ${summary.featuredSongsTotal}</strong></div>
+      <div><span>Skills Developed</span><strong>${moduleSummary.skillsDeveloped.length}</strong></div>
+      <div class="wide-stat"><span>Skills</span><strong>${moduleSummary.skillsDeveloped.map(escapeHtml).join(", ")}</strong></div>
+      <div class="wide-stat"><span>Preparing for Module 2</span><strong>${escapeHtml(moduleSummary.preparingForNextModule)}</strong></div>
+    ` : ""}
   `;
   els.recommendedSongs.innerHTML = renderRecommendedSongs(recommendedSongsForLesson(lesson));
-  els.continueNextLessonButton.disabled = !nextLessonAfter(lesson);
+  els.continueNextLessonButton.textContent = moduleSummary ? "Continue to Module 2" : "Continue to next lesson";
+  els.continueNextLessonButton.disabled = !nextLessonAfter(lesson) && !moduleSummary;
   els.reviewExercisesButton.disabled = !summary.reviewCount;
 }
 
@@ -1867,9 +1950,11 @@ function lessonSummary(lesson) {
   const completed = exerciseIds.filter((exerciseId) => progress.completedExerciseIds.has(exerciseId)).length;
   const reviewCount = exerciseIds.filter((exerciseId) => progress.reviewExerciseIds.has(exerciseId)).length;
   const notesCount = exerciseIds.filter((exerciseId) => String(progress.exerciseNotes.get(exerciseId) || "").trim()).length;
+  const featuredSongIds = exerciseIds.filter((exerciseId) => academyExercisesById().get(exerciseId)?.title?.startsWith("Featured Song:"));
+  const featuredSongsCompleted = featuredSongIds.filter((exerciseId) => progress.completedExerciseIds.has(exerciseId)).length;
   const reflection = progress.lessonReflections.get(lesson.id) || {};
   const reflectionSaved = Object.values(reflection).some((value) => String(value || "").trim());
-  return { total: exerciseIds.length, completed, reviewCount, notesCount, reflectionSaved };
+  return { total: exerciseIds.length, completed, reviewCount, notesCount, reflectionSaved, featuredSongsCompleted, featuredSongsTotal: featuredSongIds.length };
 }
 
 function recommendedSongsForLesson(lesson) {
@@ -1889,6 +1974,7 @@ function recommendedSongsForLesson(lesson) {
     .map(({ song, matches }) => ({
       title: song.title,
       artist: song.artist,
+      songId: song.id,
       note: matches.length >= Math.min(2, lessonChordNames.size)
         ? `Recommended because it uses ${matches.join(" and ")}`
         : `Partial fit — rhythm may be harder; includes ${matches.join(" and ")}`
@@ -1907,6 +1993,7 @@ function recommendedSongsForLesson(lesson) {
     recommendations.push({
       title: librarySong?.title || suggestion.title,
       artist: librarySong?.artist || suggestion.artist,
+      songId: librarySong?.id || "",
       note: librarySong
         ? suggestion.note || "Recommended from this lesson."
         : `Suggested future addition — ${suggestion.note || "not in the song library yet."}`
@@ -1927,6 +2014,7 @@ function renderRecommendedSongs(recommendations) {
     <div class="connected-song-card">
       <strong>${escapeHtml(item.title)}</strong>
       <span>${escapeHtml(item.artist)} · ${escapeHtml(item.note)}</span>
+      ${item.songId ? `<button type="button" data-song-id="${escapeHtml(item.songId)}">Open song</button>` : ""}
     </div>
   `).join("");
 }
