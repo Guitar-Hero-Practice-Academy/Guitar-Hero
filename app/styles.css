@@ -122,15 +122,74 @@ button:hover,
 }
 
 .academy-view,
+.academy-roadmap-view,
 .mission-brief-view,
 .lesson-view,
 .exercise-view,
-.checkpoint-view {
-  min-height: 100vh;
+.checkpoint-view,
+.notes-view,
+.settings-view {
+  min-height: calc(100vh - 4.4rem);
   display: grid;
   align-content: start;
   gap: 1rem;
   padding: clamp(1rem, 2vw, 1.5rem);
+}
+
+.top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 4.4rem;
+  padding: 0.75rem clamp(1rem, 2vw, 1.5rem);
+  border-bottom: 1px solid var(--line);
+  background: rgba(244, 241, 234, 0.96);
+  backdrop-filter: blur(12px);
+}
+
+.top-nav-brand {
+  display: grid;
+  gap: 0.15rem;
+  color: var(--accent-dark);
+  font-weight: 900;
+}
+
+.top-nav-brand small {
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+
+.top-nav-brand small.ready {
+  color: var(--accent-dark);
+}
+
+.top-nav-brand small.error {
+  color: var(--warn);
+}
+
+.top-nav-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.top-nav-actions button {
+  min-height: 2.35rem;
+  padding: 0.4rem 0.65rem;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.top-nav-actions button.active {
+  border-color: var(--accent);
+  background: var(--accent-dark);
+  color: #fff;
 }
 
 .academy-header {
@@ -161,7 +220,8 @@ button:hover,
 .mission-brief-layout,
 .lesson-layout,
 .exercise-layout,
-.checkpoint-layout {
+.checkpoint-layout,
+.settings-layout {
   display: grid;
   gap: 1rem;
 }
@@ -169,8 +229,12 @@ button:hover,
 .academy-dashboard {
   grid-template-columns: minmax(0, 820px);
   justify-content: center;
-  align-items: center;
-  min-height: clamp(420px, 62vh, 720px);
+  align-items: start;
+}
+
+.settings-layout {
+  grid-template-columns: minmax(0, 820px);
+  justify-content: center;
 }
 
 .mission-brief-layout,
@@ -207,6 +271,10 @@ button:hover,
 
 .mission-card {
   min-height: 360px;
+}
+
+.settings-card {
+  min-height: auto;
 }
 
 .roadmap-card {
@@ -279,6 +347,33 @@ button:hover,
 .mission-progress {
   display: grid;
   gap: 0.55rem;
+}
+
+.progress-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.7rem;
+}
+
+.progress-stat-grid div {
+  display: grid;
+  gap: 0.25rem;
+  padding: 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8f3ea;
+}
+
+.progress-stat-grid span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.progress-stat-grid strong {
+  color: var(--accent-dark);
+  font-size: 1.25rem;
 }
 
 .next-step-note {
@@ -541,8 +636,19 @@ button:hover,
   text-transform: uppercase;
 }
 
-.exercise-instructions-card {
-  grid-row: span 2;
+.exercise-layout {
+  align-items: start;
+}
+
+.exercise-main-column,
+.exercise-side-column {
+  display: grid;
+  gap: 1rem;
+}
+
+.exercise-side-column {
+  position: sticky;
+  top: 1rem;
 }
 
 .numbered-list {
@@ -563,6 +669,36 @@ button:hover,
   font-weight: 900;
 }
 
+.reflection-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.reflection-grid label,
+.exercise-notes-card {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.reflection-grid label {
+  color: var(--accent-dark);
+  font-size: 0.86rem;
+  font-weight: 900;
+}
+
+textarea,
+.practice-notes-input {
+  width: 100%;
+  min-height: 7rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fffdf8;
+  color: var(--ink);
+  padding: 0.75rem;
+  resize: vertical;
+}
+
 .practice-control-row {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -574,10 +710,115 @@ button:hover,
   font-weight: 900;
 }
 
+.timer-display {
+  display: grid;
+  place-items: center;
+  min-height: 6.5rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8f3ea;
+  color: var(--accent-dark);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: clamp(2.4rem, 5vw, 4.4rem);
+  font-weight: 900;
+  line-height: 1;
+}
+
+.metronome-display {
+  display: grid;
+  justify-items: center;
+  gap: 0.8rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8f3ea;
+}
+
+.metronome-display strong {
+  color: var(--accent-dark);
+  font-size: 1.4rem;
+}
+
+.metronome-pulse {
+  width: 3.2rem;
+  height: 3.2rem;
+  border: 2px solid var(--accent);
+  border-radius: 999px;
+  background: #fffdf8;
+  transition: transform 80ms ease, background 80ms ease;
+}
+
+.metronome-pulse.pulse {
+  background: var(--accent);
+  transform: scale(1.12);
+}
+
+.exercise-chord-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.75rem;
+}
+
+.exercise-chord-card {
+  display: grid;
+  justify-items: center;
+  gap: 0.45rem;
+  padding: 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8f3ea;
+}
+
+.exercise-chord-card strong {
+  color: var(--ink);
+  font-size: 1.1rem;
+}
+
+.exercise-chord-diagram {
+  width: 104px;
+  height: 142px;
+}
+
+.exercise-chord-diagram line {
+  stroke: #4f4a43;
+  stroke-width: 1.5;
+}
+
+.exercise-chord-diagram .nut {
+  stroke-width: 4;
+}
+
+.exercise-chord-diagram circle {
+  fill: var(--accent);
+}
+
+.exercise-chord-diagram text {
+  text-anchor: middle;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-weight: 900;
+}
+
+.exercise-chord-diagram .string-state,
+.exercise-chord-diagram .finger {
+  fill: var(--ink);
+  font-size: 10px;
+}
+
+.exercise-chord-diagram .string-label {
+  fill: var(--muted);
+  font-size: 8px;
+}
+
 .complete-action {
   border-color: var(--accent);
   background: #e5f4ea;
   color: var(--accent-dark);
+}
+
+.review-action {
+  border-color: var(--warn);
+  background: #fff4e7;
+  color: var(--warn);
 }
 
 .completion-message {
@@ -594,6 +835,55 @@ button:hover,
 
 .completion-message.error {
   color: #9d261d;
+}
+
+.completion-message.review {
+  color: var(--warn);
+}
+
+.summary-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.notes-list {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.notes-group {
+  display: grid;
+  gap: 0.65rem;
+  padding: 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8f3ea;
+}
+
+.notes-group pre {
+  margin: 0;
+  white-space: pre-wrap;
+  color: var(--ink);
+  font-family: inherit;
+  line-height: 1.45;
+}
+
+.note-entry {
+  display: grid;
+  gap: 0.25rem;
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--line);
+}
+
+.note-entry p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.notes-search {
+  max-width: 36rem;
 }
 
 .checkpoint-requirements-card {
@@ -689,76 +979,127 @@ button:hover,
   font-size: 0.86rem;
 }
 
+.view-home .top-nav,
 .view-home .app-shell,
 .view-home .academy-view,
+.view-home .academy-roadmap-view,
 .view-home .mission-brief-view,
 .view-home .lesson-view,
 .view-home .exercise-view,
 .view-home .checkpoint-view,
+.view-home .notes-view,
+.view-home .settings-view,
+.view-library .top-nav,
 .view-library .launch-view,
 .view-library .academy-view,
+.view-library .academy-roadmap-view,
 .view-library .mission-brief-view,
 .view-library .lesson-view,
 .view-library .exercise-view,
 .view-library .checkpoint-view,
+.view-library .notes-view,
+.view-library .settings-view,
 .view-academy .launch-view,
 .view-academy .app-shell,
+.view-academy .academy-roadmap-view,
 .view-academy .mission-brief-view,
 .view-academy .lesson-view,
 .view-academy .exercise-view,
 .view-academy .checkpoint-view,
+.view-academy .notes-view,
+.view-academy .settings-view,
+.view-academy-roadmap .launch-view,
+.view-academy-roadmap .academy-view,
+.view-academy-roadmap .mission-brief-view,
+.view-academy-roadmap .lesson-view,
+.view-academy-roadmap .exercise-view,
+.view-academy-roadmap .checkpoint-view,
+.view-academy-roadmap .notes-view,
+.view-academy-roadmap .settings-view,
+.view-academy-roadmap .app-shell,
 .view-mission .launch-view,
 .view-mission .academy-view,
+.view-mission .academy-roadmap-view,
 .view-mission .lesson-view,
 .view-mission .exercise-view,
 .view-mission .checkpoint-view,
+.view-mission .notes-view,
+.view-mission .settings-view,
 .view-mission .app-shell,
 .view-lesson .launch-view,
 .view-lesson .academy-view,
+.view-lesson .academy-roadmap-view,
 .view-lesson .mission-brief-view,
 .view-lesson .exercise-view,
 .view-lesson .checkpoint-view,
+.view-lesson .notes-view,
+.view-lesson .settings-view,
 .view-lesson .app-shell,
 .view-exercise .launch-view,
 .view-exercise .academy-view,
+.view-exercise .academy-roadmap-view,
 .view-exercise .mission-brief-view,
 .view-exercise .lesson-view,
 .view-exercise .checkpoint-view,
+.view-exercise .notes-view,
+.view-exercise .settings-view,
 .view-exercise .app-shell,
 .view-checkpoint .launch-view,
 .view-checkpoint .academy-view,
+.view-checkpoint .academy-roadmap-view,
 .view-checkpoint .mission-brief-view,
 .view-checkpoint .lesson-view,
 .view-checkpoint .exercise-view,
-.view-checkpoint .app-shell {
+.view-checkpoint .notes-view,
+.view-checkpoint .settings-view,
+.view-checkpoint .app-shell,
+.view-notes .launch-view,
+.view-notes .academy-view,
+.view-notes .academy-roadmap-view,
+.view-notes .mission-brief-view,
+.view-notes .lesson-view,
+.view-notes .exercise-view,
+.view-notes .checkpoint-view,
+.view-notes .settings-view,
+.view-notes .app-shell,
+.view-settings .launch-view,
+.view-settings .academy-view,
+.view-settings .academy-roadmap-view,
+.view-settings .mission-brief-view,
+.view-settings .lesson-view,
+.view-settings .exercise-view,
+.view-settings .checkpoint-view,
+.view-settings .notes-view,
+.view-settings .app-shell {
   display: none;
 }
 
 .app-shell {
-  position: relative;
   display: grid;
   grid-template-columns: repeat(2, var(--sidebar-width)) minmax(0, 1fr);
   min-height: 100vh;
 }
 
 .sidebar-toggle {
-  position: fixed;
-  z-index: 20;
-  top: 0.9rem;
-  left: calc((var(--sidebar-width) * 2) - 1px);
+  position: absolute;
+  top: 0.15rem;
+  right: 0.25rem;
   width: 2rem;
   height: 2.5rem;
   padding: 0;
-  border-radius: 0 6px 6px 0;
-  border-left: 0;
+  border-radius: 6px;
   background: #ded6c9;
-  box-shadow: 3px 4px 12px rgba(45, 35, 22, 0.12);
   font-size: 1.15rem;
   font-weight: 900;
 }
 
 .sidebars-collapsed .sidebar-toggle {
+  position: fixed;
+  top: 0.9rem;
   left: 0;
+  right: auto;
+  border-radius: 0 6px 6px 0;
+  box-shadow: 3px 4px 12px rgba(45, 35, 22, 0.12);
 }
 
 .sidebars-collapsed .app-shell {
@@ -791,6 +1132,7 @@ button:hover,
 }
 
 .brand-block {
+  position: relative;
   padding: 0.15rem 0.3rem 0.65rem;
   border-bottom: 1px solid rgba(25, 25, 25, 0.12);
 }
@@ -1302,6 +1644,15 @@ h3 {
     --sidebar-width: 50vw;
   }
 
+  .top-nav {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .top-nav-actions {
+    justify-content: flex-start;
+  }
+
   .launch-grid {
     grid-template-columns: 1fr;
   }
@@ -1318,20 +1669,24 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .exercise-side-column {
+    position: static;
+  }
+
   .assessment-options {
+    grid-template-columns: 1fr;
+  }
+
+  .progress-stat-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .reflection-grid {
     grid-template-columns: 1fr;
   }
 
   .app-shell {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .sidebar-toggle {
-    right: 0;
-    left: auto;
-    border-right: 0;
-    border-left: 1px solid var(--line);
-    border-radius: 6px 0 0 6px;
   }
 
   .sidebars-collapsed .sidebar-toggle {

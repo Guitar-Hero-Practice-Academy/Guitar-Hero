@@ -132,15 +132,74 @@ button:hover,
 }
 
 .academy-view,
+.academy-roadmap-view,
 .mission-brief-view,
 .lesson-view,
 .exercise-view,
-.checkpoint-view {
-  min-height: 100vh;
+.checkpoint-view,
+.notes-view,
+.settings-view {
+  min-height: calc(100vh - 4.4rem);
   display: grid;
   align-content: start;
   gap: 1rem;
   padding: clamp(1rem, 2vw, 1.5rem);
+}
+
+.top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 4.4rem;
+  padding: 0.75rem clamp(1rem, 2vw, 1.5rem);
+  border-bottom: 1px solid var(--line);
+  background: rgba(244, 241, 234, 0.96);
+  backdrop-filter: blur(12px);
+}
+
+.top-nav-brand {
+  display: grid;
+  gap: 0.15rem;
+  color: var(--accent-dark);
+  font-weight: 900;
+}
+
+.top-nav-brand small {
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+
+.top-nav-brand small.ready {
+  color: var(--accent-dark);
+}
+
+.top-nav-brand small.error {
+  color: var(--warn);
+}
+
+.top-nav-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.top-nav-actions button {
+  min-height: 2.35rem;
+  padding: 0.4rem 0.65rem;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.top-nav-actions button.active {
+  border-color: var(--accent);
+  background: var(--accent-dark);
+  color: #fff;
 }
 
 .academy-header {
@@ -171,7 +230,8 @@ button:hover,
 .mission-brief-layout,
 .lesson-layout,
 .exercise-layout,
-.checkpoint-layout {
+.checkpoint-layout,
+.settings-layout {
   display: grid;
   gap: 1rem;
 }
@@ -179,8 +239,12 @@ button:hover,
 .academy-dashboard {
   grid-template-columns: minmax(0, 820px);
   justify-content: center;
-  align-items: center;
-  min-height: clamp(420px, 62vh, 720px);
+  align-items: start;
+}
+
+.settings-layout {
+  grid-template-columns: minmax(0, 820px);
+  justify-content: center;
 }
 
 .mission-brief-layout,
@@ -217,6 +281,10 @@ button:hover,
 
 .mission-card {
   min-height: 360px;
+}
+
+.settings-card {
+  min-height: auto;
 }
 
 .roadmap-card {
@@ -289,6 +357,33 @@ button:hover,
 .mission-progress {
   display: grid;
   gap: 0.55rem;
+}
+
+.progress-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.7rem;
+}
+
+.progress-stat-grid div {
+  display: grid;
+  gap: 0.25rem;
+  padding: 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8f3ea;
+}
+
+.progress-stat-grid span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.progress-stat-grid strong {
+  color: var(--accent-dark);
+  font-size: 1.25rem;
 }
 
 .next-step-note {
@@ -551,8 +646,19 @@ button:hover,
   text-transform: uppercase;
 }
 
-.exercise-instructions-card {
-  grid-row: span 2;
+.exercise-layout {
+  align-items: start;
+}
+
+.exercise-main-column,
+.exercise-side-column {
+  display: grid;
+  gap: 1rem;
+}
+
+.exercise-side-column {
+  position: sticky;
+  top: 1rem;
 }
 
 .numbered-list {
@@ -573,6 +679,36 @@ button:hover,
   font-weight: 900;
 }
 
+.reflection-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.reflection-grid label,
+.exercise-notes-card {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.reflection-grid label {
+  color: var(--accent-dark);
+  font-size: 0.86rem;
+  font-weight: 900;
+}
+
+textarea,
+.practice-notes-input {
+  width: 100%;
+  min-height: 7rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fffdf8;
+  color: var(--ink);
+  padding: 0.75rem;
+  resize: vertical;
+}
+
 .practice-control-row {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -584,10 +720,115 @@ button:hover,
   font-weight: 900;
 }
 
+.timer-display {
+  display: grid;
+  place-items: center;
+  min-height: 6.5rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8f3ea;
+  color: var(--accent-dark);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: clamp(2.4rem, 5vw, 4.4rem);
+  font-weight: 900;
+  line-height: 1;
+}
+
+.metronome-display {
+  display: grid;
+  justify-items: center;
+  gap: 0.8rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8f3ea;
+}
+
+.metronome-display strong {
+  color: var(--accent-dark);
+  font-size: 1.4rem;
+}
+
+.metronome-pulse {
+  width: 3.2rem;
+  height: 3.2rem;
+  border: 2px solid var(--accent);
+  border-radius: 999px;
+  background: #fffdf8;
+  transition: transform 80ms ease, background 80ms ease;
+}
+
+.metronome-pulse.pulse {
+  background: var(--accent);
+  transform: scale(1.12);
+}
+
+.exercise-chord-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.75rem;
+}
+
+.exercise-chord-card {
+  display: grid;
+  justify-items: center;
+  gap: 0.45rem;
+  padding: 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8f3ea;
+}
+
+.exercise-chord-card strong {
+  color: var(--ink);
+  font-size: 1.1rem;
+}
+
+.exercise-chord-diagram {
+  width: 104px;
+  height: 142px;
+}
+
+.exercise-chord-diagram line {
+  stroke: #4f4a43;
+  stroke-width: 1.5;
+}
+
+.exercise-chord-diagram .nut {
+  stroke-width: 4;
+}
+
+.exercise-chord-diagram circle {
+  fill: var(--accent);
+}
+
+.exercise-chord-diagram text {
+  text-anchor: middle;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-weight: 900;
+}
+
+.exercise-chord-diagram .string-state,
+.exercise-chord-diagram .finger {
+  fill: var(--ink);
+  font-size: 10px;
+}
+
+.exercise-chord-diagram .string-label {
+  fill: var(--muted);
+  font-size: 8px;
+}
+
 .complete-action {
   border-color: var(--accent);
   background: #e5f4ea;
   color: var(--accent-dark);
+}
+
+.review-action {
+  border-color: var(--warn);
+  background: #fff4e7;
+  color: var(--warn);
 }
 
 .completion-message {
@@ -604,6 +845,55 @@ button:hover,
 
 .completion-message.error {
   color: #9d261d;
+}
+
+.completion-message.review {
+  color: var(--warn);
+}
+
+.summary-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.notes-list {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.notes-group {
+  display: grid;
+  gap: 0.65rem;
+  padding: 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8f3ea;
+}
+
+.notes-group pre {
+  margin: 0;
+  white-space: pre-wrap;
+  color: var(--ink);
+  font-family: inherit;
+  line-height: 1.45;
+}
+
+.note-entry {
+  display: grid;
+  gap: 0.25rem;
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--line);
+}
+
+.note-entry p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.notes-search {
+  max-width: 36rem;
 }
 
 .checkpoint-requirements-card {
@@ -699,76 +989,127 @@ button:hover,
   font-size: 0.86rem;
 }
 
+.view-home .top-nav,
 .view-home .app-shell,
 .view-home .academy-view,
+.view-home .academy-roadmap-view,
 .view-home .mission-brief-view,
 .view-home .lesson-view,
 .view-home .exercise-view,
 .view-home .checkpoint-view,
+.view-home .notes-view,
+.view-home .settings-view,
+.view-library .top-nav,
 .view-library .launch-view,
 .view-library .academy-view,
+.view-library .academy-roadmap-view,
 .view-library .mission-brief-view,
 .view-library .lesson-view,
 .view-library .exercise-view,
 .view-library .checkpoint-view,
+.view-library .notes-view,
+.view-library .settings-view,
 .view-academy .launch-view,
 .view-academy .app-shell,
+.view-academy .academy-roadmap-view,
 .view-academy .mission-brief-view,
 .view-academy .lesson-view,
 .view-academy .exercise-view,
 .view-academy .checkpoint-view,
+.view-academy .notes-view,
+.view-academy .settings-view,
+.view-academy-roadmap .launch-view,
+.view-academy-roadmap .academy-view,
+.view-academy-roadmap .mission-brief-view,
+.view-academy-roadmap .lesson-view,
+.view-academy-roadmap .exercise-view,
+.view-academy-roadmap .checkpoint-view,
+.view-academy-roadmap .notes-view,
+.view-academy-roadmap .settings-view,
+.view-academy-roadmap .app-shell,
 .view-mission .launch-view,
 .view-mission .academy-view,
+.view-mission .academy-roadmap-view,
 .view-mission .lesson-view,
 .view-mission .exercise-view,
 .view-mission .checkpoint-view,
+.view-mission .notes-view,
+.view-mission .settings-view,
 .view-mission .app-shell,
 .view-lesson .launch-view,
 .view-lesson .academy-view,
+.view-lesson .academy-roadmap-view,
 .view-lesson .mission-brief-view,
 .view-lesson .exercise-view,
 .view-lesson .checkpoint-view,
+.view-lesson .notes-view,
+.view-lesson .settings-view,
 .view-lesson .app-shell,
 .view-exercise .launch-view,
 .view-exercise .academy-view,
+.view-exercise .academy-roadmap-view,
 .view-exercise .mission-brief-view,
 .view-exercise .lesson-view,
 .view-exercise .checkpoint-view,
+.view-exercise .notes-view,
+.view-exercise .settings-view,
 .view-exercise .app-shell,
 .view-checkpoint .launch-view,
 .view-checkpoint .academy-view,
+.view-checkpoint .academy-roadmap-view,
 .view-checkpoint .mission-brief-view,
 .view-checkpoint .lesson-view,
 .view-checkpoint .exercise-view,
-.view-checkpoint .app-shell {
+.view-checkpoint .notes-view,
+.view-checkpoint .settings-view,
+.view-checkpoint .app-shell,
+.view-notes .launch-view,
+.view-notes .academy-view,
+.view-notes .academy-roadmap-view,
+.view-notes .mission-brief-view,
+.view-notes .lesson-view,
+.view-notes .exercise-view,
+.view-notes .checkpoint-view,
+.view-notes .settings-view,
+.view-notes .app-shell,
+.view-settings .launch-view,
+.view-settings .academy-view,
+.view-settings .academy-roadmap-view,
+.view-settings .mission-brief-view,
+.view-settings .lesson-view,
+.view-settings .exercise-view,
+.view-settings .checkpoint-view,
+.view-settings .notes-view,
+.view-settings .app-shell {
   display: none;
 }
 
 .app-shell {
-  position: relative;
   display: grid;
   grid-template-columns: repeat(2, var(--sidebar-width)) minmax(0, 1fr);
   min-height: 100vh;
 }
 
 .sidebar-toggle {
-  position: fixed;
-  z-index: 20;
-  top: 0.9rem;
-  left: calc((var(--sidebar-width) * 2) - 1px);
+  position: absolute;
+  top: 0.15rem;
+  right: 0.25rem;
   width: 2rem;
   height: 2.5rem;
   padding: 0;
-  border-radius: 0 6px 6px 0;
-  border-left: 0;
+  border-radius: 6px;
   background: #ded6c9;
-  box-shadow: 3px 4px 12px rgba(45, 35, 22, 0.12);
   font-size: 1.15rem;
   font-weight: 900;
 }
 
 .sidebars-collapsed .sidebar-toggle {
+  position: fixed;
+  top: 0.9rem;
   left: 0;
+  right: auto;
+  border-radius: 0 6px 6px 0;
+  box-shadow: 3px 4px 12px rgba(45, 35, 22, 0.12);
 }
 
 .sidebars-collapsed .app-shell {
@@ -801,6 +1142,7 @@ button:hover,
 }
 
 .brand-block {
+  position: relative;
   padding: 0.15rem 0.3rem 0.65rem;
   border-bottom: 1px solid rgba(25, 25, 25, 0.12);
 }
@@ -1312,6 +1654,15 @@ h3 {
     --sidebar-width: 50vw;
   }
 
+  .top-nav {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .top-nav-actions {
+    justify-content: flex-start;
+  }
+
   .launch-grid {
     grid-template-columns: 1fr;
   }
@@ -1328,20 +1679,24 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .exercise-side-column {
+    position: static;
+  }
+
   .assessment-options {
+    grid-template-columns: 1fr;
+  }
+
+  .progress-stat-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .reflection-grid {
     grid-template-columns: 1fr;
   }
 
   .app-shell {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .sidebar-toggle {
-    right: 0;
-    left: auto;
-    border-right: 0;
-    border-left: 1px solid var(--line);
-    border-radius: 6px 0 0 6px;
   }
 
   .sidebars-collapsed .sidebar-toggle {
@@ -1475,6 +1830,19 @@ h3 {
 </style>
   </head>
   <body>
+    <nav class="top-nav" aria-label="Main navigation">
+      <div class="top-nav-brand">
+        <span>Practice Academy</span>
+        <small id="globalSyncStatus">Sync</small>
+      </div>
+      <div class="top-nav-actions">
+        <button id="navDashboardButton">Dashboard</button>
+        <button id="navAcademyButton">Modules</button>
+        <button id="navNotesButton">Practice Notes</button>
+        <button id="navSettingsButton">Settings</button>
+      </div>
+    </nav>
+
     <main class="launch-view" id="launchView" aria-label="Guitar Hero launch">
       <section class="launch-grid">
         <article class="launch-card">
@@ -1512,88 +1880,75 @@ h3 {
           <h1>Welcome back, Rob.</h1>
           <p class="academy-subtitle" id="dashboardMissionSubtitle"></p>
         </div>
-        <div class="header-actions">
-          <button id="academyHomeButton">Home</button>
-          <button id="academyLibraryButton">Song Library</button>
-        </div>
       </header>
 
       <section class="academy-dashboard" aria-label="Practice Academy dashboard">
-        <article class="academy-card resume-card hidden" id="resumeLearningCard">
-          <div>
-            <p class="eyebrow">Resume Learning</p>
-            <h2 id="resumeLearningTitle"></h2>
-            <p id="resumeLearningDescription"></p>
-          </div>
-          <button id="resumeLearningButton">Resume Learning</button>
-        </article>
-
         <article class="academy-card mission-card">
           <div>
-            <p class="eyebrow">Current Mission</p>
+            <p class="eyebrow">Current Module</p>
             <h2 id="dashboardMissionTitle"></h2>
             <p id="dashboardMissionDescription"></p>
           </div>
-          <div class="mission-progress" aria-label="Academy progress">
+          <div class="mission-progress" aria-label="Module progress">
             <div class="progress-line">
-              <span>Current Phase</span>
-              <strong id="dashboardCurrentPhase"></strong>
-            </div>
-            <div class="progress-line">
-              <span>Overall Academy Progress</span>
-              <strong id="dashboardOverallProgress"></strong>
-            </div>
-            <div class="progress-track"><span id="dashboardOverallProgressBar" style="width: 0%"></span></div>
-          </div>
-          <div class="mission-progress" aria-label="Mission progress">
-            <div class="progress-line">
-              <span>Progress</span>
+              <span>Module Progress</span>
               <strong id="dashboardMissionProgress">0%</strong>
             </div>
             <div class="progress-track"><span id="dashboardMissionProgressBar" style="width: 0%"></span></div>
+            <div class="progress-stat-grid">
+              <div>
+                <span>Lessons Completed</span>
+                <strong id="dashboardLessonsCompleted">0 / 0</strong>
+              </div>
+              <div>
+                <span>Exercises Completed</span>
+                <strong id="dashboardExercisesCompleted">0 / 0</strong>
+              </div>
+            </div>
             <div class="status-pill" id="dashboardMissionStatus">Status: Not started</div>
             <div class="status-pill" id="dashboardMissionEstimate"></div>
           </div>
           <div class="next-step-note">
-            <strong>Next step</strong>
+            <strong>Recommended Review</strong>
             <span id="dashboardNextStep"></span>
           </div>
-          <div class="sync-row">
-            <div id="academySyncStatus" class="sync-status" aria-live="polite"></div>
-            <button id="syncNowButton" class="hidden">Sync now</button>
-          </div>
-          <div class="progress-transfer">
-            <button id="exportProgressButton">Export Progress</button>
-            <label class="import-button">
-              Import Progress
-              <input id="importProgressInput" type="file" accept="application/json">
-            </label>
-            <p id="progressTransferStatus" class="completion-message" aria-live="polite"></p>
-          </div>
-          <button class="launch-button" id="continueMissionButton">Continue Mission</button>
-          <button id="resetAcademyProgressButton">Reset Progress</button>
+          <button class="launch-button" id="continueMissionButton">Continue Learning</button>
         </article>
+      </section>
+    </main>
 
+    <main class="academy-roadmap-view" id="academyRoadmapView" aria-label="Practice Academy roadmap">
+      <header class="academy-header">
+        <div>
+          <p class="eyebrow">Practice Academy</p>
+          <h1>Modules</h1>
+          <p class="academy-subtitle">Choose an available module or review the module list.</p>
+        </div>
+        <div class="header-actions">
+          <button id="academyRoadmapBackButton">Back</button>
+        </div>
+      </header>
+      <section class="academy-dashboard" aria-label="Practice Academy modules">
         <article class="academy-card roadmap-card">
           <div>
-            <p class="eyebrow">Curriculum Roadmap</p>
-            <h2>Guitar Coach</h2>
+            <p class="eyebrow">Modules</p>
+            <h2>Modules</h2>
           </div>
           <div id="academyRoadmap" class="roadmap-list"></div>
         </article>
       </section>
     </main>
 
-    <main class="mission-brief-view" id="missionBriefView" aria-label="Mission Brief">
+    <main class="mission-brief-view" id="missionBriefView" aria-label="Module">
       <header class="academy-header">
         <div>
-          <p class="eyebrow">Mission Brief</p>
+          <p class="eyebrow">Module</p>
           <h1 id="missionBriefTitle"></h1>
           <p id="missionBriefSubtitle" class="academy-subtitle"></p>
         </div>
         <div class="header-actions">
-          <button id="missionBackButton">Dashboard</button>
-          <button id="missionLibraryButton">Song Library</button>
+          <button id="missionHomeButton">Dashboard</button>
+          <button id="missionBackButton">Back to Modules</button>
         </div>
       </header>
 
@@ -1607,7 +1962,7 @@ h3 {
             <span class="status-pill" id="missionStatus"></span>
           </div>
           <div class="brief-section">
-            <h3>Mission Objective</h3>
+            <h3>Module Objective</h3>
             <p id="missionObjective"></p>
           </div>
           <div class="brief-section">
@@ -1630,14 +1985,14 @@ h3 {
         </article>
 
         <article class="academy-card connected-songs-card">
-          <p class="eyebrow">Songs You'll Unlock</p>
-          <h2>Songs You'll Unlock</h2>
+          <p class="eyebrow">Connected Songs</p>
+          <h2>Connected Songs</h2>
           <div id="missionConnectedSongs" class="connected-song-list"></div>
         </article>
 
         <article class="academy-card success-card">
-          <p class="eyebrow">Mission Success Criteria</p>
-          <h2>By the end of this mission you should be able to:</h2>
+          <p class="eyebrow">Success Criteria</p>
+          <h2>By the end of this module you should be able to:</h2>
           <ul id="missionSuccessCriteria" class="check-list"></ul>
           <button id="missionSecondaryBackButton">Back to Dashboard</button>
         </article>
@@ -1652,7 +2007,8 @@ h3 {
           <p class="academy-subtitle" id="lessonMeta"></p>
         </div>
         <div class="header-actions">
-          <button id="lessonBackButton">Back to Mission Brief</button>
+          <button id="lessonHomeButton">Dashboard</button>
+          <button id="lessonBackButton">Back to Module</button>
           <button id="finishLessonButton" disabled>Finish Lesson</button>
         </div>
       </header>
@@ -1683,12 +2039,19 @@ h3 {
           <div id="lessonExercises" class="exercise-card-list"></div>
         </article>
 
-        <article class="academy-card lesson-checkpoint-card">
-          <p class="eyebrow">Checkpoint Preview</p>
-          <h2 id="lessonCheckpointTitle"></h2>
-          <ul id="lessonCheckpointRequirements" class="check-list"></ul>
-          <button id="startCheckpointButton">Start Checkpoint</button>
+        <article class="academy-card lesson-reflection-card">
+          <p class="eyebrow">Lesson Reflection</p>
+          <h2>Lesson Reflection</h2>
+          <div class="reflection-grid">
+            <label>What felt easiest?<textarea id="reflectionEasiest"></textarea></label>
+            <label>What needs more work?<textarea id="reflectionWork"></textarea></label>
+            <label>What did I notice?<textarea id="reflectionNotice"></textarea></label>
+            <label>What should I focus on next time?<textarea id="reflectionFocus"></textarea></label>
+          </div>
+          <button id="saveReflectionButton">Save Reflection</button>
+          <p id="reflectionStatus" class="completion-message" aria-live="polite"></p>
         </article>
+
       </section>
     </main>
 
@@ -1700,39 +2063,90 @@ h3 {
           <p class="academy-subtitle" id="exerciseMeta"></p>
         </div>
         <div class="header-actions">
+          <button id="exerciseHomeButton">Dashboard</button>
           <button id="exerciseBackButton">Back to Lesson</button>
           <button id="nextExerciseButton">Next Exercise</button>
         </div>
       </header>
 
       <section class="exercise-layout">
-        <article class="academy-card exercise-why-card">
-          <p class="eyebrow">Why This Exercise Matters</p>
-          <h2>Why This Exercise Matters</h2>
-          <p id="exerciseObjective"></p>
-        </article>
+        <div class="exercise-main-column">
+          <article class="academy-card exercise-why-card">
+            <p class="eyebrow">Purpose</p>
+            <h2>Why this matters</h2>
+            <p id="exerciseObjective"></p>
+          </article>
 
-        <article class="academy-card exercise-instructions-card">
-          <p class="eyebrow">Instructions</p>
-          <h2>Instructions</h2>
-          <ol id="exerciseInstructions" class="numbered-list"></ol>
-        </article>
+          <article class="academy-card exercise-instructions-card">
+            <p class="eyebrow">Instructions</p>
+            <h2>Instructions</h2>
+            <ol id="exerciseInstructions" class="numbered-list"></ol>
+          </article>
 
-        <article class="academy-card exercise-pass-card">
-          <p class="eyebrow">Pass Criteria</p>
-          <h2>Pass Criteria</h2>
-          <p id="exercisePassCriteria"></p>
-        </article>
+          <article class="academy-card exercise-pass-card">
+            <p class="eyebrow">Pass Criteria</p>
+            <h2>Pass Criteria / Definition of Done</h2>
+            <p id="exercisePassCriteria"></p>
+          </article>
 
-        <article class="academy-card exercise-controls-card">
-          <p class="eyebrow">Practice Controls</p>
-          <h2>Practice Controls</h2>
-          <div class="practice-control-row">
-            <button id="startTimerButton">Start Timer</button>
-            <button id="markExerciseCompleteButton">Mark Complete</button>
-          </div>
-          <div id="exerciseCompletionStatus" class="completion-message" aria-live="polite"></div>
-        </article>
+          <article class="academy-card exercise-mistakes-card hidden" id="exerciseMistakesCard">
+            <p class="eyebrow">Common Mistakes</p>
+            <h2>Common Mistakes</h2>
+            <ul id="exerciseCommonMistakes" class="check-list"></ul>
+          </article>
+
+          <article class="academy-card exercise-chords-card hidden" id="exerciseChordsCard">
+            <p class="eyebrow">Chord Diagrams</p>
+            <h2>Chord Diagrams</h2>
+            <div id="exerciseChordDiagrams" class="exercise-chord-grid"></div>
+          </article>
+        </div>
+
+        <aside class="exercise-side-column">
+          <article class="academy-card exercise-controls-card">
+            <p class="eyebrow">Practice Controls</p>
+            <h2>Practice Controls</h2>
+            <div id="exerciseTimerDisplay" class="timer-display">00:00</div>
+            <div class="practice-control-row">
+              <button id="startTimerButton">Start Timer</button>
+              <button id="pauseTimerButton">Pause</button>
+              <button id="resetTimerButton">Reset</button>
+            </div>
+          </article>
+
+          <article class="academy-card metronome-card hidden" id="metronomeCard">
+            <p class="eyebrow">Metronome</p>
+            <h2>Metronome</h2>
+            <div class="metronome-display">
+              <strong id="metronomeBpm">-- BPM</strong>
+              <span id="metronomePulse" class="metronome-pulse" aria-hidden="true"></span>
+            </div>
+            <div class="practice-control-row">
+              <button id="startMetronomeButton">Start</button>
+              <button id="pauseMetronomeButton">Pause</button>
+              <button id="resetMetronomeButton">Reset</button>
+            </div>
+          </article>
+
+          <article class="academy-card exercise-assessment-card">
+            <p class="eyebrow">Self Assessment</p>
+            <h2>How did it go?</h2>
+            <div class="practice-control-row">
+              <button id="nailedItButton">Nailed It</button>
+              <button id="needsPracticeButton">Needs More Practice</button>
+            </div>
+            <button class="launch-button" id="exercisePrimaryActionButton">Next Exercise</button>
+            <div id="exerciseCompletionStatus" class="completion-message" aria-live="polite"></div>
+          </article>
+
+          <article class="academy-card exercise-notes-card">
+            <p class="eyebrow">Practice Notes</p>
+            <h2>Practice Notes</h2>
+            <textarea id="exerciseNotesInput" class="practice-notes-input" placeholder="What did you notice?"></textarea>
+            <button id="saveExerciseNotesButton">Save Notes</button>
+            <div id="exerciseNotesStatus" class="completion-message" aria-live="polite"></div>
+          </article>
+        </aside>
       </section>
     </main>
 
@@ -1744,6 +2158,7 @@ h3 {
           <p class="academy-subtitle" id="checkpointLessonTitle"></p>
         </div>
         <div class="header-actions">
+          <button id="checkpointHomeButton">Dashboard</button>
           <button id="checkpointBackButton">Back to Lesson</button>
           <button id="checkpointDashboardButton">Return to Dashboard</button>
         </div>
@@ -1763,22 +2178,98 @@ h3 {
         </article>
 
         <article class="academy-card checkpoint-assessment-card">
-          <p class="eyebrow">Self Assessment</p>
-          <h2>Self Assessment</h2>
-          <div class="assessment-options" aria-label="Self assessment options">
-            <button type="button" data-assessment="not-yet">Not yet</button>
-            <button type="button" data-assessment="almost">Almost</button>
-            <button type="button" data-assessment="passed">Passed</button>
+          <p class="eyebrow">Lesson Complete?</p>
+          <h2>Lesson Complete?</h2>
+          <div class="assessment-options" aria-label="Lesson completion options">
+            <button type="button" data-assessment="passed">Yes</button>
+            <button type="button" data-assessment="not-yet">Not Yet</button>
           </div>
           <p id="checkpointSuccessMessage" class="completion-message" aria-live="polite"></p>
+        </article>
+
+        <article class="academy-card lesson-summary-card hidden" id="lessonSummaryCard">
+          <p class="eyebrow">Lesson Complete Summary</p>
+          <h2>Summary</h2>
+          <div id="lessonSummaryStats" class="progress-stat-grid"></div>
+          <div class="brief-section">
+            <h3>Recommended Songs</h3>
+            <div id="recommendedSongs" class="connected-song-list"></div>
+          </div>
+          <div class="summary-actions">
+            <button id="continueNextLessonButton">Continue to next lesson</button>
+            <button id="reviewExercisesButton">Review recommended exercises</button>
+            <button id="summaryNotesButton">Practice Notes</button>
+            <button id="summaryDashboardButton">Dashboard</button>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <main class="notes-view" id="notesView" aria-label="Practice Notes">
+      <header class="academy-header">
+        <div>
+          <p class="eyebrow">Practice Notes</p>
+          <h1>Practice Notes</h1>
+          <p class="academy-subtitle">Exercise notes and lesson reflections.</p>
+        </div>
+        <div class="header-actions">
+          <button id="notesBackButton">Back</button>
+        </div>
+      </header>
+      <section class="settings-layout">
+        <article class="academy-card">
+          <label class="search notes-search">
+            <span>Search notes</span>
+            <input id="notesSearchInput" type="search" placeholder="Module, lesson, exercise, or note">
+          </label>
+          <div class="progress-transfer">
+            <button id="copyCoachingSummaryButton">Copy for AI</button>
+          </div>
+          <p id="coachingSummaryStatus" class="completion-message" aria-live="polite"></p>
+          <div id="practiceNotesList" class="notes-list"></div>
+        </article>
+      </section>
+    </main>
+
+    <main class="settings-view" id="settingsView" aria-label="Settings">
+      <header class="academy-header">
+        <div>
+          <p class="eyebrow">Settings</p>
+          <h1>Settings</h1>
+          <p class="academy-subtitle">Progress tools and sync details.</p>
+        </div>
+        <div class="header-actions">
+          <button id="settingsBackButton">Back</button>
+        </div>
+      </header>
+      <section class="settings-layout">
+        <article class="academy-card settings-card">
+          <div>
+            <p class="eyebrow">Sync</p>
+            <h2>Sync status</h2>
+          </div>
+          <div class="sync-row">
+            <div id="academySyncStatus" class="sync-status" aria-live="polite"></div>
+            <button id="syncNowButton" class="hidden">Sync now</button>
+          </div>
+        </article>
+        <article class="academy-card settings-card">
+          <div>
+            <p class="eyebrow">Progress</p>
+            <h2>Learning progress</h2>
+          </div>
+          <div class="progress-transfer">
+            <button id="resetAcademyProgressButton">Reset learning progress</button>
+            <p id="progressTransferStatus" class="completion-message" aria-live="polite"></p>
+          </div>
         </article>
       </section>
     </main>
 
     <div class="app-shell">
-      <button class="sidebar-toggle" id="sidebarToggle" title="Hide sidebars" aria-label="Hide sidebars">«</button>
       <aside class="artist-library" aria-label="Artists">
         <div class="brand-block">
+          <button class="sidebar-toggle" id="sidebarToggle" title="Hide sidebars" aria-label="Hide sidebars">«</button>
           <p class="eyebrow">Guitar Hero</p>
           <h1>Guitar Hero</h1>
         </div>
@@ -1793,7 +2284,6 @@ h3 {
             <h1 id="libraryArtist">Songs</h1>
           </div>
           <div class="library-header-actions">
-            <button id="libraryHomeButton">Home</button>
             <button class="icon-button" id="fullscreenButton" title="Full screen" aria-label="Full screen">⛶</button>
           </div>
         </div>
@@ -1814,6 +2304,7 @@ h3 {
             <div id="songMeta" class="meta-row"></div>
           </div>
           <div class="header-actions">
+            <button id="libraryHomeButton">Home</button>
             <button id="setupToggle" title="Hide amp setup and chords" aria-label="Hide amp setup and chords">Hide setup</button>
             <a id="videoLink" class="button-link" href="#" target="_blank" rel="noreferrer">Video</a>
           </div>
@@ -4344,6 +4835,28 @@ window.initialSongs.forEach((song) => {
 
 /* data/academy-data.js */
 window.academyData = {
+  chordDiagrams: [
+    {
+      name: "G",
+      frets: [3, 2, 0, 0, 0, 3],
+      fingers: ["2", "1", "", "", "", "3"]
+    },
+    {
+      name: "C",
+      frets: ["x", 3, 2, 0, 1, 0],
+      fingers: ["", "3", "2", "", "1", ""]
+    },
+    {
+      name: "D",
+      frets: ["x", "x", 0, 2, 3, 2],
+      fingers: ["", "", "", "1", "3", "2"]
+    },
+    {
+      name: "Em",
+      frets: [0, 2, 2, 0, 0, 0],
+      fingers: ["", "2", "3", "", "", ""]
+    }
+  ],
   phases: [
     {
       id: "phase-1-foundations",
@@ -4530,12 +5043,12 @@ window.academyData = {
       id: "mission-open-chord-foundations",
       phaseId: "phase-1-foundations",
       title: "Open Chord Foundations",
-      subtitle: "Your first mission is to become confident with the essential open chords.",
+      subtitle: "Your first module is to become confident with the essential open chords.",
       dashboardSubtitle: "Become fluent with open chords.",
       description: "Build clean chord changes, steady rhythm, and confidence with the most common beginner chords.",
       whyItMatters: "Open chords are the foundation of rhythm guitar. If you can change between them cleanly and keep steady timing, hundreds of songs become playable.",
       estimatedSessions: "7-10 practice sessions",
-      nextStep: "Read the mission brief and begin Lesson 1.",
+      nextStep: "Read the module overview and begin Lesson 1.",
       skillIds: [
         "skill-open-chords",
         "skill-chord-changes",
@@ -4603,7 +5116,7 @@ window.academyData = {
       lessonNumber: 2,
       title: "Adding D Major To The Pattern",
       description: "Introduce D major and build the common G-C-D movement used in many songs.",
-      whyThisLesson: "G, C, and D form one of the most useful open chord families. Getting comfortable with them unlocks a lot of rhythm guitar.",
+      whyThisLesson: "G, C, and D form one of the most useful open chord families. Getting comfortable with them opens up a lot of rhythm guitar.",
       estimatedMinutes: 45,
       skillIds: [
         "skill-open-chords",
@@ -4856,7 +5369,7 @@ const guitarCoachRoadmap = [
     phaseDescription: "Develop lead-guitar vocabulary, expression, and simple improvisation.",
     missions: [
       { title: "Lead Guitar Fundamentals", skillsDeveloped: ["Lead Guitar", "Pentatonic Scales", "Picking Accuracy"] },
-      { title: "Expressive Playing", description: "Placeholder mission for bends, vibrato, slides, hammer-ons and pull-offs.", skillsDeveloped: ["Bends", "Vibrato", "Slides", "Hammer-ons", "Pull-offs"] },
+      { title: "Expressive Playing", description: "Placeholder module for bends, vibrato, slides, hammer-ons and pull-offs.", skillsDeveloped: ["Bends", "Vibrato", "Slides", "Hammer-ons", "Pull-offs"] },
       { title: "Improvisation", skillsDeveloped: ["Improvisation", "Pentatonic Scales", "Timing"] },
       { title: "Playing Over Chord Progressions", skillsDeveloped: ["Chord Progressions", "Improvisation", "Timing"] }
     ]
@@ -4901,10 +5414,10 @@ roadmapMissionDefinitions.forEach((missionDefinition, index) => {
     id,
     phaseId: missionDefinition.phaseId,
     title: missionDefinition.title,
-    subtitle: missionDefinition.description || `Placeholder mission for ${missionDefinition.title}.`,
+    subtitle: missionDefinition.description || `Placeholder module for ${missionDefinition.title}.`,
     dashboardSubtitle: missionDefinition.title,
-    description: missionDefinition.description || `Placeholder mission for ${missionDefinition.title}.`,
-    whyItMatters: missionDefinition.description || `Placeholder mission for ${missionDefinition.title}.`,
+    description: missionDefinition.description || `Placeholder module for ${missionDefinition.title}.`,
+    whyItMatters: missionDefinition.description || `Placeholder module for ${missionDefinition.title}.`,
     estimatedSessions: "TBD",
     estimatedPracticeHours: "TBD",
     prerequisiteMissionIds: previousMissionId ? [previousMissionId] : [],
@@ -4945,9 +5458,9 @@ roadmapMissionDefinitions.forEach((missionDefinition, index) => {
 const missionOneLessonBlueprints = [
   { id: "lesson-open-chords-1", lessonNumber: 1, title: "Why Chord Changes Matter" },
   { id: "lesson-open-chords-2", lessonNumber: 2, title: "Building Perfect Chords" },
-  { id: "lesson-open-chords-3", lessonNumber: 3, title: "G Major Mastery" },
-  { id: "lesson-open-chords-4", lessonNumber: 4, title: "C Major Mastery" },
-  { id: "lesson-open-chords-5", lessonNumber: 5, title: "D Major and Em Mastery" },
+  { id: "lesson-open-chords-3", lessonNumber: 3, title: "Efficient Chord Changes" },
+  { id: "lesson-open-chords-4", lessonNumber: 4, title: "Adding D Major" },
+  { id: "lesson-open-chords-5", lessonNumber: 5, title: "Three-Chord Movement" },
   { id: "lesson-open-chords-6", lessonNumber: 6, title: "Changing Chords Smoothly" },
   { id: "lesson-open-chords-7", lessonNumber: 7, title: "Rhythm and Timing" },
   { id: "lesson-open-chords-8", lessonNumber: 8, title: "Basic Strumming Patterns" },
@@ -4966,7 +5479,7 @@ if (missionOne) {
     performance: {
       id: "performance-open-chord-foundations",
       missionId: "mission-open-chord-foundations",
-      title: "Mission Performance: Open Chord Foundations",
+      title: "Module Performance: Open Chord Foundations",
       performanceTitle: "Open Chord Foundations",
       performanceDescription: "Placeholder performance description.",
       performanceCriteria: [
@@ -4986,7 +5499,7 @@ missionOneLessonBlueprints.forEach((blueprint) => {
   const placeholderExerciseId = `exercise-${blueprint.id.replace(/^lesson-/, "")}-placeholder`;
   const placeholderCheckpointId = `checkpoint-${blueprint.id.replace(/^lesson-/, "")}`;
   const lessonStructure = {
-    missionContext: "Placeholder mission context.",
+    missionContext: "Placeholder module context.",
     why: "Placeholder why.",
     watch: {
       title: "Placeholder watch item.",
@@ -5204,6 +5717,7 @@ upsertAcademyItem("lessons", {
       "Pressing too far from the fret",
       "Squeezing too hard"
     ],
+    chordNames: ["G"],
     skillIds: ["skill-open-chords"]
   },
   {
@@ -5227,6 +5741,7 @@ upsertAcademyItem("lessons", {
       "Muting the open G string",
       "Collapsing the index finger"
     ],
+    chordNames: ["C"],
     skillIds: ["skill-open-chords"]
   },
   {
@@ -5251,6 +5766,7 @@ upsertAcademyItem("lessons", {
       "Looking only after the chord is wrong",
       "Trying to move too fast"
     ],
+    chordNames: ["G", "C"],
     skillIds: ["skill-chord-changes"]
   },
   {
@@ -5275,6 +5791,7 @@ upsertAcademyItem("lessons", {
       "Rushing the change",
       "Strumming before the fingers are ready"
     ],
+    chordNames: ["G", "C"],
     skillIds: ["skill-chord-changes", "skill-timing"]
   },
   {
@@ -5298,6 +5815,7 @@ upsertAcademyItem("lessons", {
       "Changing pick angle randomly",
       "Stopping the hand during chord changes"
     ],
+    chordNames: ["G", "C"],
     skillIds: ["skill-rhythm", "skill-strumming", "skill-timing"]
   },
   {
@@ -5317,6 +5835,7 @@ upsertAcademyItem("lessons", {
     passCriteria: "Complete five minutes of relaxed playing.",
     definitionOfDone: "Complete five minutes of relaxed playing.",
     commonMistakes: [],
+    chordNames: ["G", "C"],
     skillIds: ["skill-open-chords", "skill-rhythm", "skill-strumming"]
   }
 ].forEach((exercise) => {
@@ -5342,6 +5861,1110 @@ upsertAcademyItem("checkpoints", {
     "Can strum downstrokes for one minute without stopping"
   ],
   passRule: "Pass if the changes are mostly clean and steady. Do not require perfection.",
+  completed: false
+});
+
+const lessonTwoExerciseIds = [
+  "exercise-open-chords-2-finger-tip-placement",
+  "exercise-open-chords-2-fret-position-check",
+  "exercise-open-chords-2-string-clearance-drill",
+  "exercise-open-chords-2-minimum-pressure-drill",
+  "exercise-open-chords-2-build-g-slowly",
+  "exercise-open-chords-2-build-c-slowly",
+  "exercise-open-chords-2-chord-quality-check"
+];
+
+upsertAcademyItem("lessons", {
+  id: "lesson-open-chords-2",
+  missionId: "mission-open-chord-foundations",
+  lessonNumber: 2,
+  title: "Building Perfect Chords",
+  description: "A good chord is not about squeezing harder. It is about placing each finger accurately, using only enough pressure, and making sure every string has room to ring. This lesson teaches the basic mechanics of clean fretting.",
+  objectiveHeading: "Lesson Objective",
+  objective: "Learn how to build clean open chords by focusing on finger placement, pressure, string clearance, and listening.",
+  whyThisLesson: "If your chords buzz, sound dull, or have missing notes, songs will never sound right no matter how well you strum. Clean chords are the foundation of rhythm guitar.",
+  estimatedMinutes: 35,
+  skillIds: [
+    "skill-open-chords",
+    "skill-chord-changes",
+    "skill-timing"
+  ],
+  exercises: lessonTwoExerciseIds,
+  checkpoint: "checkpoint-open-chords-2",
+  completed: false,
+  missionContext: "This lesson builds the mechanics behind clean open chords: accurate fingertip placement, relaxed pressure, string clearance, and careful listening.",
+  why: "If your chords buzz, sound dull, or have missing notes, songs will never sound right no matter how well you strum. Clean chords are the foundation of rhythm guitar.",
+  watch: {
+    title: "How clean fretting works",
+    provider: "YouTube",
+    url: "",
+    note: "Add a video later showing fingertip placement and string clearance.",
+    mediaLinks: []
+  },
+  listen: {
+    title: "Teach Rob to listen for",
+    items: [
+      "buzzing notes",
+      "muted neighbouring strings",
+      "uneven chord volume",
+      "excess hand pressure",
+      "notes that go dull after the first pick"
+    ]
+  },
+  coachNotes: [
+    "Most beginners press too hard and flatten their fingers.",
+    "Your goal is not force. Your goal is accuracy.",
+    "Move one finger at a time and listen before adding speed.",
+    "If a note does not ring, adjust placement before adding pressure."
+  ],
+  definitionOfDone: [
+    "Can fret a note close behind the fret.",
+    "Can identify a muted string.",
+    "Can build G slowly and cleanly.",
+    "Can build C slowly and cleanly."
+  ],
+  commonMistakes: [
+    "Pressing harder instead of adjusting finger placement.",
+    "Letting fingers flatten across neighbouring strings.",
+    "Strumming over muted strings without checking them.",
+    "Holding tension in the fretting hand."
+  ],
+  performanceTest: {
+    title: "Clean Chord Construction",
+    requirements: [
+      "Can explain that clean chords come from placement, not force",
+      "Can fret a note close behind the fret",
+      "Can identify a muted string",
+      "Can build G slowly and cleanly",
+      "Can build C slowly and cleanly"
+    ],
+    passRule: "Pass if Rob can build G and C slowly with mostly clean notes and can identify what causes buzzing or muting."
+  },
+  practiceJournal: [
+    "Which chord felt easier today?",
+    "Which string muted most often?",
+    "Did pressing harder help, or did placement matter more?",
+    "What should I focus on next time?"
+  ]
+});
+
+[
+  {
+    id: "exercise-open-chords-2-finger-tip-placement",
+    title: "Finger Tip Placement",
+    purpose: "Learn to fret notes with the fingertips rather than flat fingers.",
+    objective: "Place each finger so it presses the string cleanly without touching nearby strings.",
+    instructionSteps: [
+      "Choose one string.",
+      "Place your fingertip just behind the fret.",
+      "Press lightly.",
+      "Pick the string.",
+      "Move the finger slightly until the note rings clearly.",
+      "Repeat with each finger."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can make a clear note with each finger without buzzing.",
+    definitionOfDone: "You can make a clear note with each finger without buzzing.",
+    commonMistakes: [
+      "Pressing too far from the fret",
+      "Flattening the finger",
+      "Pressing harder instead of adjusting position"
+    ],
+    skillIds: ["skill-open-chords"]
+  },
+  {
+    id: "exercise-open-chords-2-fret-position-check",
+    title: "Fret Position Check",
+    purpose: "Learn where the finger should sit behind the fret.",
+    objective: "Hear the difference between poor placement and good placement.",
+    instructionSteps: [
+      "Place a finger in the middle of the fret space and pick the note.",
+      "Move it close behind the fret wire and pick again.",
+      "Notice which position sounds cleaner.",
+      "Repeat on several strings."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can identify the cleaner position by sound.",
+    definitionOfDone: "You can identify the cleaner position by sound.",
+    commonMistakes: [
+      "Sitting too far back in the fret space",
+      "Touching the fret wire directly",
+      "Using too much pressure"
+    ],
+    skillIds: ["skill-open-chords"]
+  },
+  {
+    id: "exercise-open-chords-2-string-clearance-drill",
+    title: "String Clearance Drill",
+    purpose: "Stop fingers from muting neighbouring strings.",
+    objective: "Keep fingers arched enough that nearby strings can ring.",
+    instructionSteps: [
+      "Form a simple chord shape.",
+      "Pick each string one at a time.",
+      "If a string is muted, check which finger is touching it.",
+      "Arch that finger slightly more.",
+      "Retest the string."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can identify which finger is causing a muted string and correct it.",
+    definitionOfDone: "You can identify which finger is causing a muted string and correct it.",
+    commonMistakes: [
+      "Collapsing the knuckle",
+      "Letting fingers lie flat",
+      "Not checking strings individually"
+    ],
+    chordNames: ["G", "C"],
+    skillIds: ["skill-open-chords"]
+  },
+  {
+    id: "exercise-open-chords-2-minimum-pressure-drill",
+    title: "Minimum Pressure Drill",
+    purpose: "Learn that clean chords do not require squeezing hard.",
+    objective: "Find the lightest pressure needed to make a note ring.",
+    instructionSteps: [
+      "Fret one note.",
+      "Start with very light pressure.",
+      "Pick the string.",
+      "Slowly increase pressure until the note rings cleanly.",
+      "Stop there.",
+      "Repeat on different strings."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can make notes ring clearly without excessive squeezing.",
+    definitionOfDone: "You can make notes ring clearly without excessive squeezing.",
+    commonMistakes: [
+      "Gripping the neck too hard",
+      "Tensing the shoulder",
+      "Pressing harder when placement is the real problem"
+    ],
+    skillIds: ["skill-open-chords"]
+  },
+  {
+    id: "exercise-open-chords-2-build-g-slowly",
+    title: "Build G Slowly",
+    purpose: "Apply clean chord mechanics to G major.",
+    objective: "Build the G chord one finger at a time.",
+    instructionSteps: [
+      "Place the first finger.",
+      "Pick the relevant string.",
+      "Add the second finger.",
+      "Pick again.",
+      "Add the remaining fingers.",
+      "Pick every string individually."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Your G chord rings clearly across all six strings.",
+    definitionOfDone: "Your G chord rings clearly across all six strings.",
+    commonMistakes: [
+      "Adding all fingers too quickly",
+      "Not checking individual strings",
+      "Muting the A or B string"
+    ],
+    chordNames: ["G"],
+    skillIds: ["skill-open-chords"]
+  },
+  {
+    id: "exercise-open-chords-2-build-c-slowly",
+    title: "Build C Slowly",
+    purpose: "Apply clean chord mechanics to C major.",
+    objective: "Build the C chord one finger at a time.",
+    instructionSteps: [
+      "Place the ring finger on the A string.",
+      "Place the middle finger on the D string.",
+      "Place the index finger on the B string.",
+      "Pick from the A string down.",
+      "Do not play the low E string."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Your C chord rings clearly across the correct five strings.",
+    definitionOfDone: "Your C chord rings clearly across the correct five strings.",
+    commonMistakes: [
+      "Hitting the low E string",
+      "Muting the open G string",
+      "Flattening the index finger"
+    ],
+    chordNames: ["C"],
+    skillIds: ["skill-open-chords"]
+  },
+  {
+    id: "exercise-open-chords-2-chord-quality-check",
+    title: "Chord Quality Check",
+    purpose: "Train your ear to judge whether a chord is clean.",
+    objective: "Listen for buzzing, muted notes, and uneven volume.",
+    instructionSteps: [
+      "Play G.",
+      "Pick each string individually.",
+      "Play C.",
+      "Pick each string individually.",
+      "Fix one problem at a time."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can hear whether the chord is clean and identify the problem string.",
+    definitionOfDone: "You can hear whether the chord is clean and identify the problem string.",
+    commonMistakes: [
+      "Strumming over problems",
+      "Fixing too many fingers at once",
+      "Ignoring muted strings"
+    ],
+    chordNames: ["G", "C"],
+    skillIds: ["skill-open-chords"]
+  }
+].forEach((exercise) => {
+  upsertAcademyItem("exercises", {
+    ...exercise,
+    lessonId: "lesson-open-chords-2",
+    instructions: exercise.instructionSteps.join(" "),
+    mediaLinks: [],
+    completed: false
+  });
+});
+
+upsertAcademyItem("checkpoints", {
+  id: "checkpoint-open-chords-2",
+  lessonId: "lesson-open-chords-2",
+  title: "Clean Chord Construction",
+  purpose: "Pass if Rob can build G and C slowly with mostly clean notes and can identify what causes buzzing or muting.",
+  requirements: [
+    "Can explain that clean chords come from placement, not force",
+    "Can fret a note close behind the fret",
+    "Can identify a muted string",
+    "Can build G slowly and cleanly",
+    "Can build C slowly and cleanly"
+  ],
+  passRule: "Pass if Rob can build G and C slowly with mostly clean notes and can identify what causes buzzing or muting.",
+  completed: false
+});
+
+const lessonThreeExerciseIds = [
+  "exercise-open-chords-3-slow-chord-preparation",
+  "exercise-open-chords-3-economy-of-motion",
+  "exercise-open-chords-3-silent-chord-changes",
+  "exercise-open-chords-3-four-beat-changes",
+  "exercise-open-chords-3-two-beat-changes",
+  "exercise-open-chords-3-one-beat-changes",
+  "exercise-open-chords-3-rhythm-review"
+];
+
+upsertAcademyItem("lessons", {
+  id: "lesson-open-chords-3",
+  missionId: "mission-open-chord-foundations",
+  lessonNumber: 3,
+  title: "Efficient Chord Changes",
+  description: "Develop smooth and economical movement between open chords without sacrificing accuracy.",
+  objectiveHeading: "Lesson Goal",
+  objective: "Develop smooth and economical movement between open chords without sacrificing accuracy.",
+  whyThisLesson: "Most beginners know the chord shapes but lose time moving between them. Good rhythm comes from preparing the next chord early and moving only the fingers that need to move.",
+  estimatedMinutes: 35,
+  skillIds: [
+    "skill-open-chords",
+    "skill-chord-changes",
+    "skill-rhythm",
+    "skill-timing"
+  ],
+  exercises: lessonThreeExerciseIds,
+  checkpoint: "checkpoint-open-chords-3",
+  completed: false,
+  missionContext: "This lesson develops smooth, economical movement between G and C without sacrificing accuracy.",
+  why: "Most beginners know the chord shapes but lose time moving between them. Good rhythm comes from preparing the next chord early and moving only the fingers that need to move.",
+  watch: {
+    title: "How efficient chord changes work",
+    provider: "YouTube",
+    url: "",
+    note: "Add a video later showing slow, economical G to C movement.",
+    mediaLinks: []
+  },
+  listen: {
+    title: "Teach Rob to listen for",
+    items: [
+      "pauses before chord changes",
+      "late chord landings",
+      "uneven rhythm",
+      "tension during the change",
+      "extra finger movement"
+    ]
+  },
+  coachNotes: [
+    "Don’t chase speed today.",
+    "Smooth movements naturally become fast.",
+    "Every unnecessary movement is something you’ll have to unlearn later.",
+    "Prepare the next chord before you need it."
+  ],
+  definitionOfDone: [
+    "G and C changes are mostly clean.",
+    "Finger movement is controlled.",
+    "Rhythm remains steady.",
+    "You no longer pause before every change."
+  ],
+  commonMistakes: [
+    "Rushing the change.",
+    "Lifting fingers too high.",
+    "Pulling the whole hand away from the neck.",
+    "Pausing before every chord change."
+  ],
+  performanceTest: {
+    title: "Efficient Chord Changes",
+    requirements: [
+      "G and C changes are mostly clean",
+      "Finger movement is controlled",
+      "Rhythm remains steady",
+      "You no longer pause before every change"
+    ],
+    passRule: "Pass if G and C changes are mostly clean, finger movement is controlled, rhythm remains steady, and Rob no longer pauses before every change."
+  },
+  practiceJournal: [
+    "Which chord change felt harder?",
+    "Which finger moved the most?",
+    "Did you stay relaxed?",
+    "What should you focus on before Lesson 4?"
+  ]
+});
+
+[
+  {
+    id: "exercise-open-chords-3-slow-chord-preparation",
+    title: "Slow Chord Preparation",
+    purpose: "Learn to prepare the next chord before you need it.",
+    objective: "Plan the next chord shape before moving.",
+    instructionSteps: [
+      "Form a G chord.",
+      "Look at the C chord.",
+      "Without moving yet, identify where every finger will go.",
+      "Move slowly into C.",
+      "Repeat."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can move without hesitation.",
+    definitionOfDone: "You can move without hesitation.",
+    commonMistakes: [
+      "Rushing",
+      "Looking at one finger at a time",
+      "Guessing finger positions"
+    ],
+    chordNames: ["G", "C"],
+    skillIds: ["skill-chord-changes"]
+  },
+  {
+    id: "exercise-open-chords-3-economy-of-motion",
+    title: "Economy of Motion",
+    purpose: "Reduce unnecessary finger movement.",
+    objective: "Keep each finger close to the strings during G to C changes.",
+    instructionSteps: [
+      "Alternate G and C.",
+      "Watch how high your fingers lift.",
+      "Keep every finger as close to the strings as possible.",
+      "Repeat slowly."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Finger movement becomes smaller and more controlled.",
+    definitionOfDone: "Finger movement becomes smaller and more controlled.",
+    commonMistakes: [
+      "Lifting fingers too high",
+      "Pulling the whole hand away from the neck"
+    ],
+    chordNames: ["G", "C"],
+    skillIds: ["skill-chord-changes"]
+  },
+  {
+    id: "exercise-open-chords-3-silent-chord-changes",
+    title: "Silent Chord Changes",
+    purpose: "Practise changing chords without strumming.",
+    objective: "Build the new chord shape accurately before playing it.",
+    instructionSteps: [
+      "Change G to C.",
+      "Pause.",
+      "Check every finger.",
+      "Repeat.",
+      "Don’t strum until the shape is correct."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can consistently build the new chord before playing.",
+    definitionOfDone: "You can consistently build the new chord before playing.",
+    commonMistakes: [
+      "Strumming before the shape is ready",
+      "Skipping the finger check",
+      "Letting the hand tense up"
+    ],
+    chordNames: ["G", "C"],
+    skillIds: ["skill-chord-changes"]
+  },
+  {
+    id: "exercise-open-chords-3-four-beat-changes",
+    title: "Four Beat Changes",
+    purpose: "Introduce rhythm while maintaining clean transitions.",
+    objective: "Stay in time while changing G to C every four beats.",
+    instructionSteps: [
+      "Strum G for four beats.",
+      "Change to C.",
+      "Strum C for four beats.",
+      "Repeat."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "You stay in time while changing chords.",
+    definitionOfDone: "You stay in time while changing chords.",
+    commonMistakes: [
+      "Pausing during the change",
+      "Rushing into C",
+      "Letting the strumming hand stop"
+    ],
+    chordNames: ["G", "C"],
+    skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+  },
+  {
+    id: "exercise-open-chords-3-two-beat-changes",
+    title: "Two Beat Changes",
+    purpose: "Increase transition speed.",
+    objective: "Change between G and C every two beats while staying clean.",
+    instructionSteps: [
+      "Play G for two beats.",
+      "Play C for two beats.",
+      "Continue."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Changes remain mostly clean.",
+    definitionOfDone: "Changes remain mostly clean.",
+    commonMistakes: [
+      "Sacrificing clean sound for speed",
+      "Moving the whole hand too far",
+      "Losing the beat"
+    ],
+    chordNames: ["G", "C"],
+    skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+  },
+  {
+    id: "exercise-open-chords-3-one-beat-changes",
+    title: "One Beat Changes",
+    purpose: "Build confidence changing chords every bar.",
+    objective: "Alternate G and C every beat while keeping accuracy.",
+    instructionSteps: [
+      "Alternate G and C every beat.",
+      "Slow down if accuracy drops."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Maintain rhythm with mostly clean chord changes.",
+    definitionOfDone: "Maintain rhythm with mostly clean chord changes.",
+    commonMistakes: [
+      "Chasing speed",
+      "Letting accuracy collapse",
+      "Tensing the fretting hand"
+    ],
+    chordNames: ["G", "C"],
+    skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+  },
+  {
+    id: "exercise-open-chords-3-rhythm-review",
+    title: "Rhythm Review",
+    purpose: "Combine all previous exercises into continuous playing.",
+    objective: "Play continuously while maintaining relaxed hands, clean chords, steady rhythm, and minimal finger movement.",
+    instructionSteps: [
+      "Play G and C continuously for five minutes.",
+      "Maintain relaxed hands.",
+      "Keep chords clean.",
+      "Keep rhythm steady.",
+      "Use minimal finger movement."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Play G and C continuously for five minutes with relaxed hands, clean chords, steady rhythm, and minimal finger movement.",
+    definitionOfDone: "Play G and C continuously for five minutes with relaxed hands, clean chords, steady rhythm, and minimal finger movement.",
+    commonMistakes: [
+      "Forgetting to stay relaxed",
+      "Letting rhythm drift",
+      "Letting fingers fly away from the strings"
+    ],
+    chordNames: ["G", "C"],
+    skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+  }
+].forEach((exercise) => {
+  upsertAcademyItem("exercises", {
+    ...exercise,
+    lessonId: "lesson-open-chords-3",
+    instructions: exercise.instructionSteps.join(" "),
+    mediaLinks: [],
+    completed: false
+  });
+});
+
+upsertAcademyItem("checkpoints", {
+  id: "checkpoint-open-chords-3",
+  lessonId: "lesson-open-chords-3",
+  title: "Efficient Chord Changes",
+  purpose: "Pass if G and C changes are mostly clean, finger movement is controlled, rhythm remains steady, and Rob no longer pauses before every change.",
+  requirements: [
+    "G and C changes are mostly clean",
+    "Finger movement is controlled",
+    "Rhythm remains steady",
+    "You no longer pause before every change"
+  ],
+  passRule: "Pass if G and C changes are mostly clean, finger movement is controlled, rhythm remains steady, and Rob no longer pauses before every change.",
+  completed: false
+});
+
+const lessonFourExerciseIds = [
+  "exercise-open-chords-4-learning-d-major-shape",
+  "exercise-open-chords-4-d-major-string-check",
+  "exercise-open-chords-4-build-d-slowly",
+  "exercise-open-chords-4-g-to-d-changes",
+  "exercise-open-chords-4-c-to-d-changes",
+  "exercise-open-chords-4-random-chord-builder",
+  "exercise-open-chords-4-clean-chord-review"
+];
+
+upsertAcademyItem("lessons", {
+  id: "lesson-open-chords-4",
+  missionId: "mission-open-chord-foundations",
+  lessonNumber: 4,
+  title: "Adding D Major",
+  description: "Learn the D major chord and integrate it smoothly with the G and C chords already learned.",
+  objectiveHeading: "Lesson Goal",
+  objective: "Learn the D major chord and integrate it smoothly with the G and C chords already learned.",
+  whyThisLesson: "Adding D major completes one of the most common beginner chord groups. Thousands of songs rely on G, C and D. Today’s goal is not speed — it is building a clean, reliable D major chord and learning how it fits into your existing playing.",
+  estimatedMinutes: 35,
+  skillIds: [
+    "skill-open-chords",
+    "skill-chord-changes",
+    "skill-rhythm",
+    "skill-timing"
+  ],
+  exercises: lessonFourExerciseIds,
+  checkpoint: "checkpoint-open-chords-4",
+  completed: false,
+  missionContext: "This lesson adds D major to the G and C chords already learned.",
+  why: "Adding D major completes one of the most common beginner chord groups. Thousands of songs rely on G, C and D.",
+  watch: {
+    title: "How D major fits with G and C",
+    provider: "YouTube",
+    url: "",
+    note: "Add a video later showing D major fingering and G-C-D movement.",
+    mediaLinks: []
+  },
+  listen: {
+    title: "Teach Rob to listen for",
+    items: [
+      "buzzing on the high strings",
+      "accidentally hitting the low E string",
+      "muted notes inside the D chord",
+      "late changes into D",
+      "loss of rhythm during G to D or C to D"
+    ]
+  },
+  coachNotes: [
+    "D major is a small chord shape, which means precision matters.",
+    "If something buzzes, don’t squeeze harder.",
+    "Identify which finger is causing the problem and adjust its position."
+  ],
+  definitionOfDone: [
+    "D major rings clearly.",
+    "G, C and D can all be built confidently.",
+    "Chord changes remain mostly clean.",
+    "You understand which strings should and should not be played."
+  ],
+  commonMistakes: [
+    "Fingers too flat.",
+    "Touching neighbouring strings.",
+    "Forgetting that the low E string is not played.",
+    "Moving the whole hand instead of one finger."
+  ],
+  performanceTest: {
+    title: "D Major Foundations",
+    requirements: [
+      "D major rings clearly",
+      "G, C and D can all be built confidently",
+      "Chord changes remain mostly clean",
+      "You understand which strings should and should not be played"
+    ],
+    passRule: "Pass if D major rings clearly, G, C and D can all be built confidently, chord changes remain mostly clean, and Rob understands correct string selection."
+  },
+  practiceJournal: [
+    "What felt different about D major?",
+    "Which transition was hardest?",
+    "Which string buzzed most often?",
+    "What will you focus on before the next lesson?"
+  ]
+});
+
+[
+  {
+    id: "exercise-open-chords-4-learning-d-major-shape",
+    title: "Learning the D Major Shape",
+    purpose: "Learn the D major fingering accurately.",
+    objective: "Build the D major chord from memory.",
+    instructionSteps: [
+      "Study the D major chord diagram.",
+      "Place one finger at a time.",
+      "Pause after placing each finger.",
+      "When complete, check each finger before strumming."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can build D major without looking at the diagram.",
+    definitionOfDone: "You can build D major without looking at the diagram.",
+    commonMistakes: [
+      "Fingers too flat",
+      "Touching neighbouring strings",
+      "Forgetting that the low E string is not played"
+    ],
+    chordNames: ["D"],
+    skillIds: ["skill-open-chords"]
+  },
+  {
+    id: "exercise-open-chords-4-d-major-string-check",
+    title: "D Major String Check",
+    purpose: "Check every string individually.",
+    objective: "Identify muted or buzzing strings.",
+    instructionSteps: [
+      "Form D major.",
+      "Pick each string individually.",
+      "If one buzzes, identify the finger causing it.",
+      "Correct only that finger.",
+      "Repeat."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "All intended strings ring clearly.",
+    definitionOfDone: "All intended strings ring clearly.",
+    commonMistakes: [
+      "Strumming without checking individual strings",
+      "Accidentally hitting the low E string",
+      "Moving the whole hand instead of one finger"
+    ],
+    chordNames: ["D"],
+    skillIds: ["skill-open-chords"]
+  },
+  {
+    id: "exercise-open-chords-4-build-d-slowly",
+    title: "Build D Slowly",
+    purpose: "Develop accurate finger placement.",
+    objective: "Build the chord with control.",
+    instructionSteps: [
+      "Place the first finger.",
+      "Check the note.",
+      "Add the second finger.",
+      "Check again.",
+      "Add the third finger.",
+      "Play each string."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can consistently build a clean D chord.",
+    definitionOfDone: "You can consistently build a clean D chord.",
+    commonMistakes: [
+      "Trying to place all fingers together",
+      "Looking away before checking the strings",
+      "Rushing"
+    ],
+    chordNames: ["D"],
+    skillIds: ["skill-open-chords"]
+  },
+  {
+    id: "exercise-open-chords-4-g-to-d-changes",
+    title: "G to D Changes",
+    purpose: "Introduce movement between familiar and new chords.",
+    objective: "Maintain rhythm while changing chords.",
+    instructionSteps: [
+      "Play G for four beats.",
+      "Change to D.",
+      "Repeat."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Mostly clean transitions while staying in time.",
+    definitionOfDone: "Mostly clean transitions while staying in time.",
+    commonMistakes: [
+      "Lifting fingers too high",
+      "Pausing before changing",
+      "Losing the beat"
+    ],
+    chordNames: ["G", "D"],
+    skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+  },
+  {
+    id: "exercise-open-chords-4-c-to-d-changes",
+    title: "C to D Changes",
+    purpose: "Develop another common chord transition.",
+    objective: "Move efficiently between C and D.",
+    instructionSteps: [
+      "Play four beats of C.",
+      "Play four beats of D.",
+      "Continue at 60 BPM."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Smooth transitions with mostly clean chords.",
+    definitionOfDone: "Smooth transitions with mostly clean chords.",
+    commonMistakes: [
+      "Watching only one finger",
+      "Moving too quickly",
+      "Forgetting correct string selection"
+    ],
+    chordNames: ["C", "D"],
+    skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+  },
+  {
+    id: "exercise-open-chords-4-random-chord-builder",
+    title: "Random Chord Builder",
+    purpose: "Improve chord recall.",
+    objective: "Build G, C or D on command.",
+    instructionSteps: [
+      "Randomly choose G, C or D.",
+      "Build the chord.",
+      "Check every string.",
+      "Repeat."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "All three chords can be built confidently.",
+    definitionOfDone: "All three chords can be built confidently.",
+    commonMistakes: [
+      "Hesitation",
+      "Incorrect finger order",
+      "Rushing into the next chord"
+    ],
+    chordNames: ["G", "C", "D"],
+    skillIds: ["skill-open-chords", "skill-chord-changes"]
+  },
+  {
+    id: "exercise-open-chords-4-clean-chord-review",
+    title: "Clean Chord Review",
+    purpose: "Consolidate today’s learning.",
+    objective: "Play G, C and D with consistent quality.",
+    instructionSteps: [
+      "Alternate between all three chords slowly.",
+      "Check every string.",
+      "Fix one problem at a time.",
+      "Keep the movement relaxed."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Each chord sounds clean and confident.",
+    definitionOfDone: "Each chord sounds clean and confident.",
+    commonMistakes: [
+      "Ignoring string selection",
+      "Strumming over muted notes",
+      "Rushing the review"
+    ],
+    chordNames: ["G", "C", "D"],
+    skillIds: ["skill-open-chords", "skill-chord-changes"]
+  }
+].forEach((exercise) => {
+  upsertAcademyItem("exercises", {
+    ...exercise,
+    lessonId: "lesson-open-chords-4",
+    instructions: exercise.instructionSteps.join(" "),
+    mediaLinks: [],
+    completed: false
+  });
+});
+
+upsertAcademyItem("checkpoints", {
+  id: "checkpoint-open-chords-4",
+  lessonId: "lesson-open-chords-4",
+  title: "D Major Foundations",
+  purpose: "Pass if D major rings clearly, G, C and D can all be built confidently, chord changes remain mostly clean, and Rob understands correct string selection.",
+  requirements: [
+    "D major rings clearly",
+    "G, C and D can all be built confidently",
+    "Chord changes remain mostly clean",
+    "You understand which strings should and should not be played"
+  ],
+  passRule: "Pass if D major rings clearly, G, C and D can all be built confidently, chord changes remain mostly clean, and Rob understands correct string selection.",
+  completed: false
+});
+
+const lessonFiveExerciseIds = [
+  "exercise-open-chords-5-three-chord-warm-up",
+  "exercise-open-chords-5-four-beat-progression",
+  "exercise-open-chords-5-two-beat-progression",
+  "exercise-open-chords-5-one-beat-progression",
+  "exercise-open-chords-5-recovery-practice",
+  "exercise-open-chords-5-dynamic-control",
+  "exercise-open-chords-5-continuous-performance"
+];
+
+upsertAcademyItem("lessons", {
+  id: "lesson-open-chords-5",
+  missionId: "mission-open-chord-foundations",
+  lessonNumber: 5,
+  title: "Three-Chord Movement",
+  description: "Develop smooth movement between G, C and D while maintaining steady rhythm.",
+  objectiveHeading: "Lesson Goal",
+  objective: "Develop smooth movement between G, C and D while maintaining steady rhythm.",
+  whyThisLesson: "Knowing chord shapes isn’t enough. Songs require continuous movement between chords while keeping time. Today you’ll begin playing like a rhythm guitarist instead of practising isolated chords.",
+  estimatedMinutes: 35,
+  skillIds: [
+    "skill-open-chords",
+    "skill-chord-changes",
+    "skill-rhythm",
+    "skill-strumming",
+    "skill-timing",
+    "skill-song-performance"
+  ],
+  exercises: lessonFiveExerciseIds,
+  checkpoint: "checkpoint-open-chords-5",
+  completed: false,
+  missionContext: "This lesson turns G, C and D into continuous rhythm guitar movement.",
+  why: "Knowing chord shapes isn’t enough. Songs require continuous movement between chords while keeping time.",
+  watch: {
+    title: "How three-chord rhythm movement works",
+    provider: "YouTube",
+    url: "",
+    note: "Add a video later showing G-C-D movement with recovery from mistakes.",
+    mediaLinks: []
+  },
+  listen: {
+    title: "Teach Rob to listen for",
+    items: [
+      "steady pulse",
+      "smooth transitions",
+      "recovery after mistakes",
+      "volume changes that do not disturb timing",
+      "chords that land late"
+    ]
+  },
+  coachNotes: [
+    "Mistakes happen.",
+    "Your job is not to stop them — your job is to recover without stopping the rhythm.",
+    "Keep the beat moving even when the chord is imperfect."
+  ],
+  definitionOfDone: [
+    "You can move between G, C and D without stopping.",
+    "Rhythm remains steady.",
+    "Most chord changes are clean.",
+    "You recover from mistakes instead of restarting."
+  ],
+  commonMistakes: [
+    "Stopping immediately after a mistake.",
+    "Restarting every mistake.",
+    "Letting volume changes affect rhythm.",
+    "Starting too fast."
+  ],
+  performanceTest: {
+    title: "Three-Chord Performance",
+    requirements: [
+      "You can move between G, C and D without stopping",
+      "Rhythm remains steady",
+      "Most chord changes are clean",
+      "You recover from mistakes instead of restarting"
+    ],
+    passRule: "Pass if Rob can move between G, C and D without stopping, keep rhythm steady, make mostly clean changes, and recover from mistakes instead of restarting."
+  },
+  practiceJournal: [
+    "Which transition now feels easiest?",
+    "Which still needs work?",
+    "Did you recover from mistakes more naturally today?",
+    "What would you like to improve before the next lesson?"
+  ],
+  recommendedSongs: [
+    {
+      title: "Wild Thing",
+      artist: "The Troggs",
+      note: "Excellent for repeated G-C-D movement."
+    },
+    {
+      title: "La Bamba",
+      artist: "Ritchie Valens",
+      note: "Simple, repetitive three-chord progression."
+    },
+    {
+      title: "Leaving on a Jet Plane",
+      artist: "John Denver",
+      note: "Reinforces smooth open chord transitions."
+    }
+  ]
+});
+
+[
+  {
+    id: "exercise-open-chords-5-three-chord-warm-up",
+    title: "Three-Chord Warm-up",
+    purpose: "Reconnect with all three chords.",
+    objective: "Play each chord cleanly.",
+    instructionSteps: [
+      "Play G, C and D individually.",
+      "Check every string before moving on."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "All three chords sound clean.",
+    definitionOfDone: "All three chords sound clean.",
+    commonMistakes: [
+      "Rushing",
+      "Ignoring muted strings",
+      "Starting too fast"
+    ],
+    chordNames: ["G", "C", "D"],
+    skillIds: ["skill-open-chords", "skill-timing"]
+  },
+  {
+    id: "exercise-open-chords-5-four-beat-progression",
+    title: "Four Beat Progression",
+    purpose: "Build confidence changing between all three chords.",
+    objective: "Maintain rhythm.",
+    instructionSteps: [
+      "Play G, C, D, then G.",
+      "Use four beats for each chord.",
+      "Complete several cycles without stopping."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Complete several cycles without stopping.",
+    definitionOfDone: "Complete several cycles without stopping.",
+    commonMistakes: [
+      "Stopping between chords",
+      "Rushing D",
+      "Forgetting to recover after mistakes"
+    ],
+    chordNames: ["G", "C", "D"],
+    skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+  },
+  {
+    id: "exercise-open-chords-5-two-beat-progression",
+    title: "Two Beat Progression",
+    purpose: "Increase transition speed.",
+    objective: "Reduce hesitation.",
+    instructionSteps: [
+      "Play the same G, C, D, G progression.",
+      "Use two beats per chord.",
+      "Stay relaxed and in time."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Remain in time with mostly clean changes.",
+    definitionOfDone: "Remain in time with mostly clean changes.",
+    commonMistakes: [
+      "Tensing up",
+      "Losing the beat",
+      "Moving before the next chord is prepared"
+    ],
+    chordNames: ["G", "C", "D"],
+    skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+  },
+  {
+    id: "exercise-open-chords-5-one-beat-progression",
+    title: "One Beat Progression",
+    purpose: "Develop efficient chord movement.",
+    objective: "Change chords every beat.",
+    instructionSteps: [
+      "Continue the G, C, D, G progression.",
+      "Change chords every beat.",
+      "Keep relaxed hands."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Maintain rhythm even if every change isn’t perfect.",
+    definitionOfDone: "Maintain rhythm even if every change isn’t perfect.",
+    commonMistakes: [
+      "Expecting perfection",
+      "Stopping after a rough chord",
+      "Letting the strumming hand freeze"
+    ],
+    chordNames: ["G", "C", "D"],
+    skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+  },
+  {
+    id: "exercise-open-chords-5-recovery-practice",
+    title: "Recovery Practice",
+    purpose: "Learn to continue after mistakes.",
+    objective: "Never stop the rhythm.",
+    instructionSteps: [
+      "If a chord is wrong, continue strumming.",
+      "Correct it during the next change.",
+      "Do not restart the progression."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Recover naturally without restarting.",
+    definitionOfDone: "Recover naturally without restarting.",
+    commonMistakes: [
+      "Stopping immediately",
+      "Looking frustrated",
+      "Restarting every mistake"
+    ],
+    chordNames: ["G", "C", "D"],
+    skillIds: ["skill-rhythm", "skill-song-performance"]
+  },
+  {
+    id: "exercise-open-chords-5-dynamic-control",
+    title: "Dynamic Control",
+    purpose: "Develop control over volume.",
+    objective: "Maintain rhythm while changing dynamics.",
+    instructionSteps: [
+      "Play the G, C, D, G progression softly.",
+      "Play it at medium volume.",
+      "Play it loudly.",
+      "Return to medium volume.",
+      "Keep steady timing."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Volume changes without affecting rhythm.",
+    definitionOfDone: "Volume changes without affecting rhythm.",
+    commonMistakes: [
+      "Speeding up when playing louder",
+      "Losing clarity when playing softly",
+      "Changing volume with tension"
+    ],
+    chordNames: ["G", "C", "D"],
+    skillIds: ["skill-rhythm", "skill-strumming", "skill-timing"]
+  },
+  {
+    id: "exercise-open-chords-5-continuous-performance",
+    title: "Continuous Performance",
+    purpose: "Bring today’s skills together.",
+    objective: "Play continuously for five minutes.",
+    instructionSteps: [
+      "Continue moving between G, C and D.",
+      "Stay relaxed.",
+      "Keep the beat.",
+      "Recover from mistakes.",
+      "Focus on enjoying the movement rather than perfection."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Five minutes of continuous playing with confident recovery from mistakes.",
+    definitionOfDone: "Five minutes of continuous playing with confident recovery from mistakes.",
+    commonMistakes: [
+      "Restarting after mistakes",
+      "Forgetting to breathe",
+      "Chasing perfection instead of continuity"
+    ],
+    chordNames: ["G", "C", "D"],
+    skillIds: ["skill-chord-changes", "skill-rhythm", "skill-strumming", "skill-timing", "skill-song-performance"]
+  }
+].forEach((exercise) => {
+  upsertAcademyItem("exercises", {
+    ...exercise,
+    lessonId: "lesson-open-chords-5",
+    instructions: exercise.instructionSteps.join(" "),
+    mediaLinks: [],
+    completed: false
+  });
+});
+
+upsertAcademyItem("checkpoints", {
+  id: "checkpoint-open-chords-5",
+  lessonId: "lesson-open-chords-5",
+  title: "Three-Chord Performance",
+  purpose: "Pass if Rob can move between G, C and D without stopping, keep rhythm steady, make mostly clean changes, and recover from mistakes instead of restarting.",
+  requirements: [
+    "You can move between G, C and D without stopping",
+    "Rhythm remains steady",
+    "Most chord changes are clean",
+    "You recover from mistakes instead of restarting"
+  ],
+  passRule: "Pass if Rob can move between G, C and D without stopping, keep rhythm steady, make mostly clean changes, and recover from mistakes instead of restarting.",
   completed: false
 });
 
@@ -5376,7 +6999,11 @@ function upsertAcademyItem(collection, item) {
 /* app.js */
 const storageKey = "guitar-room-songbook";
 const academyUserId = "rob";
-const initialRoute = parseRoute();
+const initialRoute = {
+  view: "home",
+  ids: { missionId: null, lessonId: null, exerciseId: null, checkpointId: null }
+};
+if (location.hash) history.replaceState(null, "", `${location.pathname}${location.search}`);
 registerServiceWorker();
 const academyProgressService = createAcademyProgressService({
   supabase: createSupabaseClient(readSupabaseConfig()),
@@ -5401,10 +7028,28 @@ const state = {
   academyProgressError: "",
   progressTransferMessage: "",
   progressTransferError: false,
+  exerciseNotesMessage: "",
+  reflectionMessage: "",
+  coachingSummaryMessage: "",
+  timerExerciseId: null,
+  timerRemainingSeconds: 0,
+  timerRunning: false,
+  timerInterval: null,
+  metronomeExerciseId: null,
+  metronomeBpm: null,
+  metronomeRunning: false,
+  metronomeInterval: null,
+  metronomeAudioContext: null,
+  metronomePulseOn: false,
   chartSize: Number(localStorage.getItem("guitar-room-chart-size")) || 17
 };
 
 const els = {
+  navDashboardButton: document.getElementById("navDashboardButton"),
+  navAcademyButton: document.getElementById("navAcademyButton"),
+  navNotesButton: document.getElementById("navNotesButton"),
+  navSettingsButton: document.getElementById("navSettingsButton"),
+  globalSyncStatus: document.getElementById("globalSyncStatus"),
   academyContinue: document.getElementById("academyContinue"),
   libraryOpen: document.getElementById("libraryOpen"),
   academyHomeButton: document.getElementById("academyHomeButton"),
@@ -5422,20 +7067,25 @@ const els = {
   dashboardMissionProgressBar: document.getElementById("dashboardMissionProgressBar"),
   dashboardMissionStatus: document.getElementById("dashboardMissionStatus"),
   dashboardMissionEstimate: document.getElementById("dashboardMissionEstimate"),
+  dashboardLessonsCompleted: document.getElementById("dashboardLessonsCompleted"),
+  dashboardExercisesCompleted: document.getElementById("dashboardExercisesCompleted"),
   dashboardNextStep: document.getElementById("dashboardNextStep"),
   dashboardCurrentPhase: document.getElementById("dashboardCurrentPhase"),
   dashboardOverallProgress: document.getElementById("dashboardOverallProgress"),
   dashboardOverallProgressBar: document.getElementById("dashboardOverallProgressBar"),
   academyRoadmap: document.getElementById("academyRoadmap"),
+  academyRoadmapBackButton: document.getElementById("academyRoadmapBackButton"),
   academySyncStatus: document.getElementById("academySyncStatus"),
   syncNowButton: document.getElementById("syncNowButton"),
   exportProgressButton: document.getElementById("exportProgressButton"),
   importProgressInput: document.getElementById("importProgressInput"),
   progressTransferStatus: document.getElementById("progressTransferStatus"),
+  missionHomeButton: document.getElementById("missionHomeButton"),
   missionBackButton: document.getElementById("missionBackButton"),
   missionLibraryButton: document.getElementById("missionLibraryButton"),
   missionSecondaryBackButton: document.getElementById("missionSecondaryBackButton"),
   startLessonButton: document.getElementById("startLessonButton"),
+  lessonHomeButton: document.getElementById("lessonHomeButton"),
   lessonMissionName: document.getElementById("lessonMissionName"),
   lessonTitle: document.getElementById("lessonTitle"),
   lessonMeta: document.getElementById("lessonMeta"),
@@ -5445,29 +7095,65 @@ const els = {
   lessonExerciseProgress: document.getElementById("lessonExerciseProgress"),
   lessonExerciseProgressBar: document.getElementById("lessonExerciseProgressBar"),
   lessonExercises: document.getElementById("lessonExercises"),
-  lessonCheckpointTitle: document.getElementById("lessonCheckpointTitle"),
-  lessonCheckpointRequirements: document.getElementById("lessonCheckpointRequirements"),
+  reflectionEasiest: document.getElementById("reflectionEasiest"),
+  reflectionWork: document.getElementById("reflectionWork"),
+  reflectionNotice: document.getElementById("reflectionNotice"),
+  reflectionFocus: document.getElementById("reflectionFocus"),
+  saveReflectionButton: document.getElementById("saveReflectionButton"),
+  reflectionStatus: document.getElementById("reflectionStatus"),
   lessonBackButton: document.getElementById("lessonBackButton"),
   finishLessonButton: document.getElementById("finishLessonButton"),
-  startCheckpointButton: document.getElementById("startCheckpointButton"),
+  exerciseHomeButton: document.getElementById("exerciseHomeButton"),
   exerciseLessonName: document.getElementById("exerciseLessonName"),
   exerciseTitle: document.getElementById("exerciseTitle"),
   exerciseMeta: document.getElementById("exerciseMeta"),
   exerciseObjective: document.getElementById("exerciseObjective"),
   exerciseInstructions: document.getElementById("exerciseInstructions"),
   exercisePassCriteria: document.getElementById("exercisePassCriteria"),
+  exerciseMistakesCard: document.getElementById("exerciseMistakesCard"),
+  exerciseCommonMistakes: document.getElementById("exerciseCommonMistakes"),
+  exerciseChordsCard: document.getElementById("exerciseChordsCard"),
+  exerciseChordDiagrams: document.getElementById("exerciseChordDiagrams"),
   exerciseBackButton: document.getElementById("exerciseBackButton"),
   nextExerciseButton: document.getElementById("nextExerciseButton"),
+  exerciseTimerDisplay: document.getElementById("exerciseTimerDisplay"),
   startTimerButton: document.getElementById("startTimerButton"),
-  markExerciseCompleteButton: document.getElementById("markExerciseCompleteButton"),
+  pauseTimerButton: document.getElementById("pauseTimerButton"),
+  resetTimerButton: document.getElementById("resetTimerButton"),
+  metronomeCard: document.getElementById("metronomeCard"),
+  metronomeBpm: document.getElementById("metronomeBpm"),
+  metronomePulse: document.getElementById("metronomePulse"),
+  startMetronomeButton: document.getElementById("startMetronomeButton"),
+  pauseMetronomeButton: document.getElementById("pauseMetronomeButton"),
+  resetMetronomeButton: document.getElementById("resetMetronomeButton"),
+  nailedItButton: document.getElementById("nailedItButton"),
+  needsPracticeButton: document.getElementById("needsPracticeButton"),
+  exercisePrimaryActionButton: document.getElementById("exercisePrimaryActionButton"),
   exerciseCompletionStatus: document.getElementById("exerciseCompletionStatus"),
+  exerciseNotesInput: document.getElementById("exerciseNotesInput"),
+  saveExerciseNotesButton: document.getElementById("saveExerciseNotesButton"),
+  exerciseNotesStatus: document.getElementById("exerciseNotesStatus"),
   checkpointTitle: document.getElementById("checkpointTitle"),
   checkpointLessonTitle: document.getElementById("checkpointLessonTitle"),
   checkpointPurpose: document.getElementById("checkpointPurpose"),
   checkpointRequirements: document.getElementById("checkpointRequirements"),
   checkpointSuccessMessage: document.getElementById("checkpointSuccessMessage"),
+  lessonSummaryCard: document.getElementById("lessonSummaryCard"),
+  lessonSummaryStats: document.getElementById("lessonSummaryStats"),
+  recommendedSongs: document.getElementById("recommendedSongs"),
+  continueNextLessonButton: document.getElementById("continueNextLessonButton"),
+  reviewExercisesButton: document.getElementById("reviewExercisesButton"),
+  summaryNotesButton: document.getElementById("summaryNotesButton"),
+  summaryDashboardButton: document.getElementById("summaryDashboardButton"),
+  checkpointHomeButton: document.getElementById("checkpointHomeButton"),
   checkpointBackButton: document.getElementById("checkpointBackButton"),
   checkpointDashboardButton: document.getElementById("checkpointDashboardButton"),
+  notesBackButton: document.getElementById("notesBackButton"),
+  notesSearchInput: document.getElementById("notesSearchInput"),
+  copyCoachingSummaryButton: document.getElementById("copyCoachingSummaryButton"),
+  coachingSummaryStatus: document.getElementById("coachingSummaryStatus"),
+  practiceNotesList: document.getElementById("practiceNotesList"),
+  settingsBackButton: document.getElementById("settingsBackButton"),
   missionBriefTitle: document.getElementById("missionBriefTitle"),
   missionBriefSubtitle: document.getElementById("missionBriefSubtitle"),
   missionEstimatedCompletion: document.getElementById("missionEstimatedCompletion"),
@@ -5515,15 +7201,19 @@ applyView();
 render();
 initializeAcademyProgress();
 
+els.navDashboardButton.addEventListener("click", () => setView("academy"));
+els.navAcademyButton.addEventListener("click", () => setView("academy-roadmap"));
+els.navNotesButton.addEventListener("click", () => setView("notes"));
+els.navSettingsButton.addEventListener("click", () => setView("settings"));
 els.academyContinue.addEventListener("click", () => setView("academy"));
 els.libraryOpen.addEventListener("click", () => setView("library"));
-els.academyHomeButton.addEventListener("click", () => setView("home"));
-els.academyLibraryButton.addEventListener("click", () => setView("library"));
+els.academyHomeButton?.addEventListener("click", () => setView("academy"));
+els.academyLibraryButton?.addEventListener("click", () => setView("library"));
 els.continueMissionButton.addEventListener("click", continueMission);
-els.resumeLearningButton.addEventListener("click", resumeLearning);
+els.resumeLearningButton?.addEventListener("click", resumeLearning);
 els.resetAcademyProgressButton.addEventListener("click", resetAcademyProgress);
-els.exportProgressButton.addEventListener("click", exportProgress);
-els.importProgressInput.addEventListener("change", importProgress);
+els.exportProgressButton?.addEventListener("click", exportProgress);
+els.importProgressInput?.addEventListener("change", importProgress);
 els.academyRoadmap.addEventListener("click", (event) => {
   const button = event.target.closest("[data-mission-id]");
   if (!button || button.disabled) return;
@@ -5531,34 +7221,56 @@ els.academyRoadmap.addEventListener("click", (event) => {
   setActiveMission(state.selectedMissionId).then(() => render());
   setView("mission", state.selectedMissionId);
 });
+els.academyRoadmapBackButton.addEventListener("click", () => setView("academy"));
 els.syncNowButton.addEventListener("click", syncPendingProgress);
-els.missionBackButton.addEventListener("click", () => setView("academy"));
-els.missionLibraryButton.addEventListener("click", () => setView("library"));
+els.missionHomeButton.addEventListener("click", () => setView("academy"));
+els.missionBackButton.addEventListener("click", () => setView("academy-roadmap"));
+els.missionLibraryButton?.addEventListener("click", () => setView("library"));
 els.missionSecondaryBackButton.addEventListener("click", () => setView("academy"));
 els.startLessonButton.addEventListener("click", () => setView("lesson", firstLessonForMission(currentMission())?.id));
+els.lessonHomeButton.addEventListener("click", () => setView("academy"));
 els.lessonBackButton.addEventListener("click", () => setView("mission", currentMissionForLesson()?.id));
-els.startCheckpointButton.addEventListener("click", () => setView("checkpoint", currentCheckpoint()?.id));
 els.lessonExercises.addEventListener("click", (event) => {
   const button = event.target.closest("[data-exercise-id]");
   if (!button) return;
   state.selectedExerciseId = button.dataset.exerciseId;
   setView("exercise");
 });
+els.saveReflectionButton.addEventListener("click", saveCurrentLessonReflection);
+els.exerciseHomeButton.addEventListener("click", () => setView("academy"));
 els.exerciseBackButton.addEventListener("click", () => setView("lesson", currentLesson()?.id));
 els.nextExerciseButton.addEventListener("click", goToNextExercise);
-els.startTimerButton.addEventListener("click", () => setView("exercise"));
-els.markExerciseCompleteButton.addEventListener("click", markCurrentExerciseComplete);
+els.startTimerButton.addEventListener("click", startExerciseTimer);
+els.pauseTimerButton.addEventListener("click", pauseExerciseTimer);
+els.resetTimerButton.addEventListener("click", resetExerciseTimer);
+els.startMetronomeButton.addEventListener("click", startMetronome);
+els.pauseMetronomeButton.addEventListener("click", pauseMetronome);
+els.resetMetronomeButton.addEventListener("click", resetMetronome);
+els.nailedItButton.addEventListener("click", markCurrentExerciseNailed);
+els.needsPracticeButton.addEventListener("click", markCurrentExerciseNeedsPractice);
+els.exercisePrimaryActionButton.addEventListener("click", goToNextExercise);
+els.saveExerciseNotesButton.addEventListener("click", saveCurrentExerciseNotes);
 document.querySelector(".assessment-options").addEventListener("click", async (event) => {
   const button = event.target.closest("[data-assessment]");
   if (!button) return;
   const checkpoint = currentCheckpoint();
   if (!checkpoint) return;
   await saveCheckpointResult(checkpoint.id, button.dataset.assessment);
+  if (button.dataset.assessment === "passed") await markLessonComplete(currentLesson()?.id);
   render();
 });
+els.checkpointHomeButton.addEventListener("click", () => setView("academy"));
 els.checkpointBackButton.addEventListener("click", () => setView("lesson", currentLesson()?.id));
 els.checkpointDashboardButton.addEventListener("click", () => setView("academy"));
+els.notesBackButton.addEventListener("click", () => setView("academy"));
+els.settingsBackButton.addEventListener("click", () => setView("academy"));
 els.libraryHomeButton.addEventListener("click", () => setView("home"));
+els.notesSearchInput.addEventListener("input", renderPracticeNotesPage);
+els.copyCoachingSummaryButton.addEventListener("click", copyCoachingSummary);
+els.continueNextLessonButton.addEventListener("click", continueToNextLesson);
+els.reviewExercisesButton.addEventListener("click", openFirstReviewExercise);
+els.summaryNotesButton.addEventListener("click", () => setView("notes"));
+els.summaryDashboardButton.addEventListener("click", () => setView("academy"));
 window.addEventListener("hashchange", () => {
   const route = parseRoute();
   syncStateFromRoute(route);
@@ -5583,6 +7295,10 @@ els.fontDown.addEventListener("click", () => changeChartSize(-1));
 els.fontUp.addEventListener("click", () => changeChartSize(1));
 
 function setView(view, id = null) {
+  if (view !== "exercise") {
+    pauseExerciseTimer();
+    pauseMetronome();
+  }
   state.view = view;
   updateSelectionForView(view, id);
   ensureAcademySelection();
@@ -5595,11 +7311,22 @@ function setView(view, id = null) {
 function applyView() {
   document.body.classList.toggle("view-home", state.view === "home");
   document.body.classList.toggle("view-academy", state.view === "academy");
+  document.body.classList.toggle("view-academy-roadmap", state.view === "academy-roadmap");
   document.body.classList.toggle("view-mission", state.view === "mission");
   document.body.classList.toggle("view-lesson", state.view === "lesson");
   document.body.classList.toggle("view-exercise", state.view === "exercise");
   document.body.classList.toggle("view-checkpoint", state.view === "checkpoint");
+  document.body.classList.toggle("view-notes", state.view === "notes");
+  document.body.classList.toggle("view-settings", state.view === "settings");
   document.body.classList.toggle("view-library", state.view === "library");
+  document.querySelectorAll(".top-nav-actions button").forEach((button) => button.classList.remove("active"));
+  const activeButton = {
+    academy: els.navDashboardButton,
+    "academy-roadmap": els.navAcademyButton,
+    notes: els.navNotesButton,
+    settings: els.navSettingsButton
+  }[state.view];
+  activeButton?.classList.add("active");
 }
 
 function loadSongs() {
@@ -5690,6 +7417,10 @@ function createSupabaseClient({ url, anonKey }) {
 function createAcademyProgressService({ supabase, userId, isOnline }) {
   const resumeLocationKey = "__resume_learning";
   const journalDataKey = "__journal_data";
+  const reviewExerciseIdsKey = "__review_exercise_ids";
+  const exerciseNotesKey = "__exercise_notes";
+  const lessonReflectionsKey = "__lesson_reflections";
+  const completedLessonIdsKey = "__completed_lesson_ids";
   const progress = emptyProgress();
   let pendingChanges = false;
 
@@ -5699,7 +7430,12 @@ function createAcademyProgressService({ supabase, userId, isOnline }) {
       completedExerciseIds: new Set(progress.completedExerciseIds),
       checkpointResults: new Map(progress.checkpointResults),
       journalData: new Map(progress.journalData),
-      currentLocation: progress.currentLocation ? { ...progress.currentLocation } : null
+      reviewExerciseIds: new Set(progress.reviewExerciseIds),
+      exerciseNotes: new Map(progress.exerciseNotes),
+      lessonReflections: new Map(progress.lessonReflections),
+      completedLessonIds: new Set(progress.completedLessonIds),
+      currentLocation: progress.currentLocation ? { ...progress.currentLocation } : null,
+      updatedAt: progress.updatedAt
     };
   }
 
@@ -5709,14 +7445,24 @@ function createAcademyProgressService({ supabase, userId, isOnline }) {
     progress.completedExerciseIds = new Set(Array.isArray(row?.completed_exercise_ids) ? row.completed_exercise_ids : []);
     progress.currentLocation = checkpointResults[resumeLocationKey] || null;
     progress.journalData = new Map(Object.entries(checkpointResults[journalDataKey] || {}));
-    const entries = Object.entries(checkpointResults).filter(([key]) => ![resumeLocationKey, journalDataKey].includes(key));
+    progress.reviewExerciseIds = new Set(Array.isArray(checkpointResults[reviewExerciseIdsKey]) ? checkpointResults[reviewExerciseIdsKey] : []);
+    progress.exerciseNotes = new Map(Object.entries(checkpointResults[exerciseNotesKey] || {}));
+    progress.lessonReflections = new Map(Object.entries(checkpointResults[lessonReflectionsKey] || {}));
+    progress.completedLessonIds = new Set(Array.isArray(checkpointResults[completedLessonIdsKey]) ? checkpointResults[completedLessonIdsKey] : []);
+    const internalKeys = [resumeLocationKey, journalDataKey, reviewExerciseIdsKey, exerciseNotesKey, lessonReflectionsKey, completedLessonIdsKey];
+    const entries = Object.entries(checkpointResults).filter(([key]) => !internalKeys.includes(key));
     progress.checkpointResults = new Map(entries);
+    progress.updatedAt = row?.updated_at || null;
   }
 
   function checkpointResultsPayload() {
     const payload = Object.fromEntries(progress.checkpointResults);
     if (progress.currentLocation) payload[resumeLocationKey] = progress.currentLocation;
     if (progress.journalData.size) payload[journalDataKey] = Object.fromEntries(progress.journalData);
+    if (progress.reviewExerciseIds.size) payload[reviewExerciseIdsKey] = Array.from(progress.reviewExerciseIds);
+    if (progress.exerciseNotes.size) payload[exerciseNotesKey] = Object.fromEntries(progress.exerciseNotes);
+    if (progress.lessonReflections.size) payload[lessonReflectionsKey] = Object.fromEntries(progress.lessonReflections);
+    if (progress.completedLessonIds.size) payload[completedLessonIdsKey] = Array.from(progress.completedLessonIds);
     return payload;
   }
 
@@ -5725,7 +7471,12 @@ function createAcademyProgressService({ supabase, userId, isOnline }) {
     progress.completedExerciseIds = new Set(importedProgress.completedExerciseIds || []);
     progress.checkpointResults = new Map(Object.entries(importedProgress.checkpointResults || {}));
     progress.journalData = new Map(Object.entries(importedProgress.journalData || {}));
+    progress.reviewExerciseIds = new Set(importedProgress.reviewExerciseIds || []);
+    progress.exerciseNotes = new Map(Object.entries(importedProgress.exerciseNotes || {}));
+    progress.lessonReflections = new Map(Object.entries(importedProgress.lessonReflections || {}));
+    progress.completedLessonIds = new Set(importedProgress.completedLessonIds || []);
     progress.currentLocation = importedProgress.currentLocation ? { ...importedProgress.currentLocation } : null;
+    progress.updatedAt = new Date().toISOString();
   }
 
   async function load() {
@@ -5802,6 +7553,7 @@ function createAcademyProgressService({ supabase, userId, isOnline }) {
     },
     async markExerciseComplete(exerciseId) {
       progress.completedExerciseIds.add(exerciseId);
+      progress.reviewExerciseIds.delete(exerciseId);
       return persistOrQueue();
     },
     async unmarkExerciseComplete(exerciseId) {
@@ -5810,6 +7562,33 @@ function createAcademyProgressService({ supabase, userId, isOnline }) {
     },
     getCompletedExercises() {
       return new Set(progress.completedExerciseIds);
+    },
+    async markExerciseForReview(exerciseId) {
+      progress.completedExerciseIds.delete(exerciseId);
+      progress.reviewExerciseIds.add(exerciseId);
+      return persistOrQueue();
+    },
+    async clearExerciseReview(exerciseId) {
+      progress.reviewExerciseIds.delete(exerciseId);
+      return persistOrQueue();
+    },
+    getReviewExercises() {
+      return new Set(progress.reviewExerciseIds);
+    },
+    async saveExerciseNote(exerciseId, note) {
+      const trimmed = String(note || "").trim();
+      if (trimmed) progress.exerciseNotes.set(exerciseId, trimmed);
+      else progress.exerciseNotes.delete(exerciseId);
+      return persistOrQueue();
+    },
+    async saveLessonReflection(lessonId, reflection) {
+      progress.lessonReflections.set(lessonId, reflection || {});
+      return persistOrQueue();
+    },
+    async markLessonComplete(lessonId) {
+      if (!lessonId) return snapshot();
+      progress.completedLessonIds.add(lessonId);
+      return persistOrQueue();
     },
     async saveCheckpointResult(checkpointId, result) {
       progress.checkpointResults.set(checkpointId, result);
@@ -5823,6 +7602,10 @@ function createAcademyProgressService({ supabase, userId, isOnline }) {
       progress.completedExerciseIds.clear();
       progress.checkpointResults.clear();
       progress.journalData.clear();
+      progress.reviewExerciseIds.clear();
+      progress.exerciseNotes.clear();
+      progress.lessonReflections.clear();
+      progress.completedLessonIds.clear();
       progress.currentLocation = null;
       return persistOrQueue();
     },
@@ -5844,7 +7627,12 @@ function emptyProgress() {
     completedExerciseIds: new Set(),
     checkpointResults: new Map(),
     journalData: new Map(),
-    currentLocation: null
+    reviewExerciseIds: new Set(),
+    exerciseNotes: new Map(),
+    lessonReflections: new Map(),
+    completedLessonIds: new Set(),
+    currentLocation: null,
+    updatedAt: null
   };
 }
 
@@ -5855,13 +7643,13 @@ async function initializeAcademyProgress() {
   try {
     const result = await academyProgressService.load();
     state.academyProgressError = result.error || "";
-    if (result.progress.activeMissionId && !Object.values(initialRoute.ids).some(Boolean)) {
+    if (result.progress.activeMissionId) {
       state.selectedMissionId = result.progress.activeMissionId;
       state.selectedLessonId = null;
       state.selectedExerciseId = null;
       state.selectedCheckpointId = null;
     }
-    if (result.progress.currentLocation && !Object.values(initialRoute.ids).some(Boolean)) {
+    if (result.progress.currentLocation && Object.values(initialRoute.ids).some(Boolean)) {
       state.selectedMissionId = result.progress.currentLocation.missionId || state.selectedMissionId;
       state.selectedLessonId = result.progress.currentLocation.lessonId || null;
       state.selectedExerciseId = result.progress.currentLocation.exerciseId || null;
@@ -5920,6 +7708,26 @@ async function unmarkExerciseComplete(exerciseId) {
 
 function getCompletedExercises() {
   return academyProgressService.getCompletedExercises();
+}
+
+async function markExerciseForReview(exerciseId) {
+  return runProgressSave(() => academyProgressService.markExerciseForReview(exerciseId));
+}
+
+function getReviewExercises() {
+  return academyProgressService.getReviewExercises();
+}
+
+async function saveExerciseNote(exerciseId, note) {
+  return runProgressSave(() => academyProgressService.saveExerciseNote(exerciseId, note));
+}
+
+async function saveLessonReflection(lessonId, reflection) {
+  return runProgressSave(() => academyProgressService.saveLessonReflection(lessonId, reflection));
+}
+
+async function markLessonComplete(lessonId) {
+  return runProgressSave(() => academyProgressService.markLessonComplete(lessonId));
 }
 
 async function saveCheckpointResult(checkpointId, result) {
@@ -6044,6 +7852,10 @@ function serializeProgressForExport() {
     currentLessonId: progress.currentLocation?.lessonId || null,
     currentExerciseId: progress.currentLocation?.exerciseId || null,
     completedExerciseIds: Array.from(progress.completedExerciseIds),
+    reviewExerciseIds: Array.from(progress.reviewExerciseIds || []),
+    exerciseNotes: Object.fromEntries(progress.exerciseNotes || new Map()),
+    lessonReflections: Object.fromEntries(progress.lessonReflections || new Map()),
+    completedLessonIds: Array.from(progress.completedLessonIds || []),
     checkpointResults: Object.fromEntries(progress.checkpointResults),
     journalData: Object.fromEntries(progress.journalData || new Map())
   };
@@ -6054,12 +7866,20 @@ function validateImportedProgress(imported) {
   const activeMissionId = nullableString(imported.activeMissionId ?? imported.currentMissionId, "activeMissionId");
   const currentLocation = validateCurrentLocation(imported.currentLocation, imported);
   const completedExerciseIds = validateStringArray(imported.completedExerciseIds, "completedExerciseIds");
+  const reviewExerciseIds = validateStringArray(imported.reviewExerciseIds || [], "reviewExerciseIds");
+  const exerciseNotes = validatePlainObject(imported.exerciseNotes || {}, "exerciseNotes");
+  const lessonReflections = validatePlainObject(imported.lessonReflections || {}, "lessonReflections");
+  const completedLessonIds = validateStringArray(imported.completedLessonIds || [], "completedLessonIds");
   const checkpointResults = validatePlainObject(imported.checkpointResults || {}, "checkpointResults");
   const journalData = validatePlainObject(imported.journalData || {}, "journalData");
   return {
     activeMissionId: currentLocation?.missionId || activeMissionId,
     currentLocation,
     completedExerciseIds,
+    reviewExerciseIds,
+    exerciseNotes,
+    lessonReflections,
+    completedLessonIds,
     checkpointResults,
     journalData
   };
@@ -6127,6 +7947,7 @@ function render() {
   renderLesson();
   renderExerciseDetail();
   renderCheckpoint();
+  renderPracticeNotesPage();
   renderArtistList();
   renderSongList();
   renderSong();
@@ -6148,13 +7969,20 @@ function resumeLearning() {
 }
 
 function renderResumeLearning() {
+  if (!els.resumeLearningCard) return;
   const target = resumeExerciseTarget();
-  els.resumeLearningCard.classList.toggle("hidden", !target);
-  if (!target) return;
+  els.resumeLearningCard.classList.remove("hidden");
+  if (!target) {
+    els.resumeLearningTitle.textContent = "No saved exercise yet";
+    els.resumeLearningDescription.textContent = "Start the current module when you are ready.";
+    els.resumeLearningButton.disabled = true;
+    return;
+  }
   const lesson = academyLessonsById().get(target.lessonId);
   const mission = academyById("missions").get(lesson?.missionId) || activeMission();
   els.resumeLearningTitle.textContent = target.title;
-  els.resumeLearningDescription.textContent = `${mission?.title || "Current mission"} · ${lesson?.title || "Current lesson"}`;
+  els.resumeLearningDescription.textContent = `${moduleLabel(mission)} · ${lesson?.title || "Current lesson"}`;
+  els.resumeLearningButton.disabled = false;
 }
 
 function renderAcademySyncStatus() {
@@ -6164,9 +7992,10 @@ function renderAcademySyncStatus() {
   const pending = hasPendingProgressChanges();
   const progressUnavailable = !configured || state.academyProgressLoading || saving;
   els.resetAcademyProgressButton.disabled = !configured || state.academyProgressLoading || saving;
-  els.exportProgressButton.disabled = state.academyProgressLoading || saving;
-  els.importProgressInput.disabled = !configured || state.academyProgressLoading || saving;
-  els.markExerciseCompleteButton.disabled = !configured || state.academyProgressLoading || saving;
+  if (els.exportProgressButton) els.exportProgressButton.disabled = state.academyProgressLoading || saving;
+  if (els.importProgressInput) els.importProgressInput.disabled = !configured || state.academyProgressLoading || saving;
+  els.nailedItButton.disabled = !configured || state.academyProgressLoading || saving;
+  els.needsPracticeButton.disabled = !configured || state.academyProgressLoading || saving;
   els.syncNowButton.classList.toggle("hidden", !pending);
   els.syncNowButton.disabled = !state.isOnline || progressUnavailable;
   document.querySelectorAll("[data-assessment]").forEach((button) => {
@@ -6174,34 +8003,55 @@ function renderAcademySyncStatus() {
   });
   els.academySyncStatus.classList.toggle("error", !configured || Boolean(state.academyProgressError));
   els.academySyncStatus.classList.toggle("ready", configured && state.isOnline && !pending && !state.academyProgressLoading && !saving && !state.academyProgressError);
+  els.globalSyncStatus.classList.toggle("error", !configured || Boolean(state.academyProgressError));
+  els.globalSyncStatus.classList.toggle("ready", configured && state.isOnline && !pending && !state.academyProgressLoading && !saving && !state.academyProgressError);
   if (state.academyProgressLoading) {
     els.academySyncStatus.textContent = configured ? "Saving..." : "Error syncing";
+    els.globalSyncStatus.textContent = configured ? "Saving..." : "Sync error";
     return;
   }
   if (saving) {
     els.academySyncStatus.textContent = "Saving...";
+    els.globalSyncStatus.textContent = "Saving...";
     return;
   }
   if (!state.isOnline) {
     els.academySyncStatus.textContent = pending ? "Offline · Unsynced changes" : "Offline";
+    els.globalSyncStatus.textContent = pending ? "Unsynced" : "Offline";
     return;
   }
   if (pending) {
     els.academySyncStatus.textContent = "Unsynced changes";
+    els.globalSyncStatus.textContent = "Unsynced";
     return;
   }
   if (state.academyProgressError) {
     els.academySyncStatus.textContent = "Sync error";
     els.academySyncStatus.title = state.academyProgressError;
+    els.globalSyncStatus.textContent = "Sync error";
+    els.globalSyncStatus.title = state.academyProgressError;
     return;
   }
   els.academySyncStatus.title = "";
+  els.globalSyncStatus.title = "";
   if (!configured) {
     els.academySyncStatus.textContent = "Sync error";
     els.academySyncStatus.title = academyProgressService.setupMessage;
+    els.globalSyncStatus.textContent = "Sync error";
+    els.globalSyncStatus.title = academyProgressService.setupMessage;
     return;
   }
-  els.academySyncStatus.textContent = "Online / Synced";
+  const progress = getProgress();
+  els.academySyncStatus.textContent = progress.updatedAt
+    ? `Online / Synced · Last synced ${formatLastSynced(progress.updatedAt)}`
+    : "Online / Synced";
+  els.globalSyncStatus.textContent = "Synced";
+}
+
+function formatLastSynced(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "recently";
+  return date.toLocaleString([], { dateStyle: "medium", timeStyle: "short" });
 }
 
 function renderProgressTransferStatus() {
@@ -6213,7 +8063,7 @@ function renderProgressTransferStatus() {
 
 function parseRoute() {
   const [view = "home", id = null] = location.hash.replace(/^#/, "").split("/");
-  const validViews = ["academy", "mission", "lesson", "exercise", "checkpoint", "library"];
+  const validViews = ["academy", "academy-roadmap", "mission", "lesson", "exercise", "checkpoint", "library", "notes", "settings"];
   const routeView = validViews.includes(view) ? view : "home";
   return {
     view: routeView,
@@ -6447,37 +8297,66 @@ function renderAcademyDashboard() {
   state.selectedMissionId = state.selectedMissionId || mission.id;
   const progress = missionProgress(mission);
   const phase = currentPhaseForMission(mission);
-  const overall = academyProgress();
-  els.dashboardMissionSubtitle.textContent = `Current mission: ${mission.dashboardSubtitle || mission.title}`;
-  els.dashboardMissionTitle.textContent = mission.title;
+  els.dashboardMissionSubtitle.textContent = `Current Module: ${moduleLabel(mission)}`;
+  els.dashboardMissionTitle.textContent = moduleLabel(mission);
   els.dashboardMissionDescription.textContent = mission.description;
-  els.dashboardCurrentPhase.textContent = phase?.title || "No phase selected";
-  els.dashboardOverallProgress.textContent = `${overall.percent}%`;
-  els.dashboardOverallProgressBar.style.width = `${overall.percent}%`;
   els.dashboardMissionProgress.textContent = `${progress.percent}%`;
   els.dashboardMissionProgressBar.style.width = `${progress.percent}%`;
-  els.dashboardMissionStatus.textContent = `Status: ${isMissionComplete(mission) ? "Completed" : progress.completed ? "In progress" : "Not started"}`;
+  els.dashboardLessonsCompleted.textContent = `${progress.completedLessons} / ${progress.totalLessons}`;
+  els.dashboardExercisesCompleted.textContent = `${progress.completed} / ${progress.total}`;
+  els.dashboardMissionStatus.textContent = `Status: ${isMissionComplete(mission) ? "Completed" : progress.completed > 0 ? "In progress" : "Not started"}`;
   els.dashboardMissionEstimate.textContent = mission.estimatedPracticeHours
     ? `Estimated practice: ${mission.estimatedPracticeHours}`
     : `Estimated completion: ${mission.estimatedSessions || "TBD"}`;
-  els.dashboardNextStep.textContent = mission.nextStep || "";
+  els.dashboardNextStep.textContent = recommendedReviewText(mission, progress);
   renderAcademyRoadmap();
 }
 
 function missionProgress(mission) {
   const progress = getProgress();
   const lessonIds = mission?.lessons || [];
-  const lessonExercises = lessonIds
+  const lessons = lessonIds
     .map((lessonId) => academyLessonsById().get(lessonId))
-    .filter(Boolean)
-    .flatMap((lesson) => lesson.exercises || []);
+    .filter(Boolean);
+  const lessonExercises = lessons.flatMap((lesson) => lesson.exercises || []);
   const completed = lessonExercises.filter((exerciseId) => progress.completedExerciseIds.has(exerciseId)).length;
   const total = lessonExercises.length;
+  const completedLessons = lessons.filter((lesson) =>
+    (lesson.exercises || []).length && (lesson.exercises || []).every((exerciseId) => progress.completedExerciseIds.has(exerciseId))
+  ).length;
   return {
     completed,
     total,
+    completedLessons,
+    totalLessons: lessons.length,
+    reviewExerciseIds: new Set(progress.reviewExerciseIds),
     percent: total ? Math.round((completed / total) * 100) : 0
   };
+}
+
+function moduleLabel(mission) {
+  if (!mission) return "Current Module";
+  const number = missionOrder().findIndex((item) => item.id === mission.id) + 1;
+  return number > 0 ? `Module ${number}: ${mission.title}` : mission.title;
+}
+
+function recommendedReviewText(mission, progress) {
+  const reviewTitles = Array.from(progress.reviewExerciseIds || [])
+    .map((exerciseId) => academyExercisesById().get(exerciseId))
+    .filter((exercise) => exercise && currentMissionForExercise(exercise)?.id === mission?.id)
+    .slice(0, 3)
+    .map((exercise) => exercise.title);
+  if (reviewTitles.length) return `Review: ${reviewTitles.join(", ")}.`;
+  if (!progress.completed) return mission.nextStep || "Read the module brief and begin Lesson 1.";
+  const resumeTarget = resumeExerciseTarget();
+  if (resumeTarget) return `Review ${resumeTarget.title} next.`;
+  if (progress.percent >= 100) return "Review the checkpoint criteria and keep the module fresh.";
+  return mission.nextStep || "Review the next unfinished exercise.";
+}
+
+function currentMissionForExercise(exercise) {
+  const lesson = academyLessonsById().get(exercise?.lessonId);
+  return academyById("missions").get(lesson?.missionId) || null;
 }
 
 function academyProgress() {
@@ -6545,8 +8424,8 @@ function renderRoadmapMission(mission) {
   const status = complete
     ? "Complete"
     : unlocked
-      ? "Unlocked"
-      : `Locked: requires ${prerequisiteText(mission)}`;
+      ? "Available"
+      : `Requires ${prerequisiteText(mission)}`;
   return `
     <button
       type="button"
@@ -6554,7 +8433,7 @@ function renderRoadmapMission(mission) {
       data-mission-id="${escapeHtml(mission.id)}"
       ${unlocked ? "" : "disabled"}
     >
-      <strong>${escapeHtml(mission.title)}</strong>
+      <strong>${escapeHtml(moduleLabel(mission))}</strong>
       <span>${escapeHtml(status)}</span>
     </button>
   `;
@@ -6571,7 +8450,7 @@ function renderMissionBrief() {
     ? skills.map((skill) => skill.title)
     : mission.skillsDeveloped || [];
 
-  els.missionBriefTitle.textContent = mission.title;
+  els.missionBriefTitle.textContent = moduleLabel(mission);
   els.missionBriefSubtitle.textContent = mission.subtitle || "";
   els.missionEstimatedCompletion.textContent = mission.estimatedPracticeHours || mission.estimatedSessions || "TBD";
   els.missionStatus.textContent = mission.completed ? "Completed" : "Not started";
@@ -6591,13 +8470,12 @@ function renderLesson() {
   const lesson = currentLesson();
   if (!mission || !lesson) return;
   const exercisesById = academyExercisesById();
-  const checkpoint = academyCheckpointsById().get(lesson.checkpoint);
   const exercises = (lesson.exercises || [])
     .map((exerciseId) => exercisesById.get(exerciseId))
     .filter(Boolean);
   const progress = getProgress();
 
-  els.lessonMissionName.textContent = `Mission: ${mission.title}`;
+  els.lessonMissionName.textContent = moduleLabel(mission);
   els.lessonTitle.textContent = lesson.title;
   els.lessonMeta.textContent = `Lesson ${lesson.lessonNumber} · Estimated time: ${lesson.estimatedMinutes} minutes`;
   els.lessonWhyThisLesson.textContent = lesson.whyThisLesson;
@@ -6610,9 +8488,18 @@ function renderLesson() {
   els.lessonExercises.innerHTML = exercises
     .map((exercise) => renderExerciseCard(exercise))
     .join("");
-  els.lessonCheckpointTitle.textContent = checkpoint?.title || "";
-  els.lessonCheckpointRequirements.innerHTML = renderListItems(checkpoint?.requirements);
-  els.startCheckpointButton.disabled = !checkpoint;
+  renderLessonReflection(lesson);
+}
+
+function renderLessonReflection(lesson = currentLesson()) {
+  if (!lesson || !els.reflectionEasiest) return;
+  const reflection = getProgress().lessonReflections.get(lesson.id) || {};
+  els.reflectionEasiest.value = reflection.easiest || "";
+  els.reflectionWork.value = reflection.work || "";
+  els.reflectionNotice.value = reflection.notice || "";
+  els.reflectionFocus.value = reflection.focus || "";
+  els.reflectionStatus.textContent = state.reflectionMessage;
+  els.reflectionStatus.classList.toggle("complete", Boolean(state.reflectionMessage));
 }
 
 function renderExerciseDetail() {
@@ -6624,6 +8511,12 @@ function renderExerciseDetail() {
   const exerciseIndex = (lesson.exercises || []).indexOf(exercise.id);
   const isLastExercise = exerciseIndex === (lesson.exercises || []).length - 1;
   const progress = getProgress();
+  const completed = progress.completedExerciseIds.has(exercise.id);
+  const needsReview = progress.reviewExerciseIds?.has(exercise.id);
+  const nextActionLabel = isLastExercise ? "Go to Checkpoint" : "Next Exercise";
+  const commonMistakes = exercise.commonMistakes || [];
+  const chordDiagrams = chordDiagramsForExercise(exercise);
+  const bpm = exerciseBpm(exercise);
 
   els.exerciseLessonName.textContent = `${mission.title} · ${lesson.title}`;
   els.exerciseTitle.textContent = exercise.title;
@@ -6632,17 +8525,103 @@ function renderExerciseDetail() {
     `Duration: ${exercise.durationMinutes} minutes`,
     exercise.tempo ? `Tempo: ${exercise.tempo}` : ""
   ].filter(Boolean).join(" · ");
-  els.exerciseObjective.textContent = exercise.objective;
+  els.exerciseObjective.textContent = exercise.purpose
+    ? `${exercise.purpose} ${exercise.objective}`
+    : exercise.objective;
   els.exerciseInstructions.innerHTML = steps
     .map((step) => `<li>${escapeHtml(step)}</li>`)
     .join("");
-  els.exercisePassCriteria.textContent = exercise.passCriteria;
-  const completed = progress.completedExerciseIds.has(exercise.id);
-  els.markExerciseCompleteButton.textContent = completed ? "Completed" : "Mark Complete";
-  els.markExerciseCompleteButton.classList.toggle("complete-action", completed);
-  els.exerciseCompletionStatus.textContent = completed ? "Exercise complete for this session." : "Not complete yet.";
+  els.exercisePassCriteria.textContent = exercise.definitionOfDone && exercise.definitionOfDone !== exercise.passCriteria
+    ? `${exercise.passCriteria} Definition of Done: ${exercise.definitionOfDone}`
+    : exercise.passCriteria;
+  els.exerciseMistakesCard.classList.toggle("hidden", !commonMistakes.length);
+  els.exerciseCommonMistakes.innerHTML = renderListItems(commonMistakes);
+  els.exerciseChordsCard.classList.toggle("hidden", !chordDiagrams.length);
+  els.exerciseChordDiagrams.innerHTML = chordDiagrams.map((chord) => renderExerciseChordDiagram(chord)).join("");
+  els.metronomeCard.classList.toggle("hidden", !bpm);
+  els.metronomeBpm.textContent = bpm ? `${bpm} BPM` : "-- BPM";
+  els.nailedItButton.classList.toggle("complete-action", completed);
+  els.needsPracticeButton.classList.toggle("review-action", needsReview);
+  els.exercisePrimaryActionButton.textContent = nextActionLabel;
+  els.exercisePrimaryActionButton.disabled = !completed && !needsReview;
+  els.exerciseCompletionStatus.textContent = completed
+    ? "Marked: Nailed It."
+    : needsReview
+      ? "Marked for Recommended Review."
+      : "Choose Nailed It or Needs More Practice when you finish.";
   els.exerciseCompletionStatus.classList.toggle("complete", completed);
-  els.nextExerciseButton.disabled = isLastExercise;
+  els.exerciseCompletionStatus.classList.toggle("review", needsReview && !completed);
+  els.exerciseNotesInput.value = getProgress().exerciseNotes.get(exercise.id) || "";
+  els.exerciseNotesStatus.textContent = state.exerciseNotesMessage;
+  els.exerciseNotesStatus.classList.toggle("complete", Boolean(state.exerciseNotesMessage));
+  els.nextExerciseButton.textContent = nextActionLabel;
+  els.nextExerciseButton.disabled = false;
+  syncTimerToExercise(exercise);
+  syncMetronomeToExercise(exercise);
+  renderTimerDisplay();
+  renderMetronomeDisplay();
+}
+
+function exerciseBpm(exercise) {
+  const match = String(exercise?.tempo || "").match(/(\d{2,3})\s*BPM/i);
+  return match ? Number(match[1]) : null;
+}
+
+function chordDiagramsForExercise(exercise) {
+  const chordNames = exercise.chordNames?.length ? exercise.chordNames : inferredExerciseChordNames(exercise);
+  const diagramsByName = new Map((window.academyData?.chordDiagrams || []).map((chord) => [chord.name, chord]));
+  return chordNames.map((name) => diagramsByName.get(name)).filter(Boolean);
+}
+
+function inferredExerciseChordNames(exercise) {
+  const text = [
+    exercise.title,
+    exercise.objective,
+    exercise.instructions,
+    ...(exercise.instructionSteps || [])
+  ].join(" ");
+  return ["G", "C", "D", "Em"].filter((name) => new RegExp(`\\b${name.replace(/[.*+?^${}()|[\]\\]/g, "\\</body>")}\\b`).test(text));
+}
+
+function renderExerciseChordDiagram(chord) {
+  const strings = ["E", "A", "D", "G", "B", "e"];
+  const frets = chord.frets || [];
+  const fingers = chord.fingers || [];
+  const maxFret = Math.max(3, ...frets.filter((fret) => Number.isFinite(Number(fret))).map(Number));
+  const width = 104;
+  const height = 142;
+  const left = 18;
+  const top = 28;
+  const stringGap = 13;
+  const fretGap = 18;
+  const stringLines = strings.map((_, index) => {
+    const x = left + index * stringGap;
+    return `<line x1="${x}" y1="${top}" x2="${x}" y2="${top + maxFret * fretGap}" />`;
+  }).join("");
+  const fretLines = Array.from({ length: maxFret + 1 }, (_, index) => {
+    const y = top + index * fretGap;
+    return `<line x1="${left}" y1="${y}" x2="${left + 5 * stringGap}" y2="${y}" class="${index === 0 ? "nut" : ""}" />`;
+  }).join("");
+  const markers = frets.map((fret, index) => {
+    const x = left + index * stringGap;
+    if (fret === "x") return `<text x="${x}" y="18" class="string-state">x</text>`;
+    if (Number(fret) === 0) return `<text x="${x}" y="18" class="string-state">o</text>`;
+    const y = top + (Number(fret) - 0.5) * fretGap;
+    const finger = fingers[index] || "";
+    return `<g><circle cx="${x}" cy="${y}" r="5.2" /><text x="${x}" y="${height - 20}" class="finger">${escapeHtml(finger)}</text></g>`;
+  }).join("");
+  const stringLabels = strings.map((stringName, index) => {
+    const x = left + index * stringGap;
+    return `<text x="${x}" y="${height - 5}" class="string-label">${stringName}</text>`;
+  }).join("");
+  return `
+    <div class="exercise-chord-card">
+      <strong>${escapeHtml(chord.name)}</strong>
+      <svg class="exercise-chord-diagram" viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeHtml(chord.name)} chord diagram">
+        <g class="fretboard">${stringLines}${fretLines}${markers}${stringLabels}</g>
+      </svg>
+    </div>
+  `;
 }
 
 function exerciseInstructionSteps(exercise) {
@@ -6660,23 +8639,199 @@ function goToNextExercise() {
   const exercise = currentExercise();
   if (!lesson?.exercises?.length || !exercise) return;
   const index = lesson.exercises.indexOf(exercise.id);
-  const nextIndex = Math.min(index + 1, lesson.exercises.length - 1);
-  state.selectedExerciseId = lesson.exercises[nextIndex];
+  if (index >= lesson.exercises.length - 1) {
+    setView("checkpoint", lesson.checkpoint);
+    return;
+  }
+  state.selectedExerciseId = lesson.exercises[index + 1];
   setView("exercise", state.selectedExerciseId);
-  renderExerciseDetail();
 }
 
-async function markCurrentExerciseComplete() {
+async function markCurrentExerciseNailed() {
   const exercise = currentExercise();
   if (!exercise) return;
   await markExerciseComplete(exercise.id);
   render();
 }
 
+async function markCurrentExerciseNeedsPractice() {
+  const exercise = currentExercise();
+  if (!exercise) return;
+  await markExerciseForReview(exercise.id);
+  render();
+}
+
+async function saveCurrentExerciseNotes() {
+  const exercise = currentExercise();
+  if (!exercise) return;
+  await saveExerciseNote(exercise.id, els.exerciseNotesInput.value);
+  state.exerciseNotesMessage = "Notes saved.";
+  render();
+}
+
+async function saveCurrentLessonReflection() {
+  const lesson = currentLesson();
+  if (!lesson) return;
+  await saveLessonReflection(lesson.id, {
+    easiest: els.reflectionEasiest.value,
+    work: els.reflectionWork.value,
+    notice: els.reflectionNotice.value,
+    focus: els.reflectionFocus.value
+  });
+  state.reflectionMessage = "Reflection saved.";
+  render();
+}
+
+function continueToNextLesson() {
+  const nextLesson = nextLessonAfter(currentLesson());
+  if (nextLesson) setView("lesson", nextLesson.id);
+}
+
+function openFirstReviewExercise() {
+  const lesson = currentLesson();
+  const reviewId = (lesson?.exercises || []).find((exerciseId) => getProgress().reviewExerciseIds.has(exerciseId));
+  if (reviewId) setView("exercise", reviewId);
+}
+
+function nextLessonAfter(lesson) {
+  const mission = currentMissionForLesson();
+  const lessonIds = mission?.lessons || [];
+  const index = lessonIds.indexOf(lesson?.id);
+  return index >= 0 ? academyLessonsById().get(lessonIds[index + 1]) || null : null;
+}
+
+function syncTimerToExercise(exercise) {
+  if (state.timerExerciseId === exercise.id) return;
+  pauseExerciseTimer();
+  state.timerExerciseId = exercise.id;
+  state.timerRemainingSeconds = Math.max(0, Number(exercise.durationMinutes || 0) * 60);
+}
+
+function startExerciseTimer() {
+  const exercise = currentExercise();
+  if (!exercise) return;
+  syncTimerToExercise(exercise);
+  if (state.timerRemainingSeconds <= 0) {
+    state.timerRemainingSeconds = Math.max(0, Number(exercise.durationMinutes || 0) * 60);
+  }
+  if (state.timerRunning || state.timerRemainingSeconds <= 0) {
+    renderTimerDisplay();
+    return;
+  }
+  state.timerRunning = true;
+  state.timerInterval = window.setInterval(() => {
+    state.timerRemainingSeconds = Math.max(0, state.timerRemainingSeconds - 1);
+    renderTimerDisplay();
+    if (state.timerRemainingSeconds <= 0) pauseExerciseTimer();
+  }, 1000);
+  renderTimerDisplay();
+}
+
+function pauseExerciseTimer() {
+  if (state.timerInterval) window.clearInterval(state.timerInterval);
+  state.timerInterval = null;
+  state.timerRunning = false;
+  renderTimerDisplay();
+}
+
+function resetExerciseTimer() {
+  const exercise = currentExercise();
+  pauseExerciseTimer();
+  state.timerExerciseId = exercise?.id || null;
+  state.timerRemainingSeconds = Math.max(0, Number(exercise?.durationMinutes || 0) * 60);
+  renderTimerDisplay();
+}
+
+function renderTimerDisplay() {
+  if (!els.exerciseTimerDisplay) return;
+  els.exerciseTimerDisplay.textContent = formatTimerSeconds(state.timerRemainingSeconds);
+  els.startTimerButton.textContent = state.timerRunning ? "Running" : "Start Timer";
+  els.pauseTimerButton.disabled = !state.timerRunning;
+}
+
+function formatTimerSeconds(totalSeconds) {
+  const safeSeconds = Math.max(0, Number(totalSeconds || 0));
+  const minutes = Math.floor(safeSeconds / 60);
+  const seconds = safeSeconds % 60;
+  return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+}
+
+function syncMetronomeToExercise(exercise) {
+  const bpm = exerciseBpm(exercise);
+  if (state.metronomeExerciseId === exercise.id && state.metronomeBpm === bpm) return;
+  pauseMetronome();
+  state.metronomeExerciseId = exercise.id;
+  state.metronomeBpm = bpm;
+  state.metronomePulseOn = false;
+}
+
+function startMetronome() {
+  const exercise = currentExercise();
+  if (!exercise) return;
+  syncMetronomeToExercise(exercise);
+  if (!state.metronomeBpm || state.metronomeRunning) {
+    renderMetronomeDisplay();
+    return;
+  }
+  state.metronomeRunning = true;
+  clickMetronome();
+  state.metronomeInterval = window.setInterval(clickMetronome, Math.round(60000 / state.metronomeBpm));
+  renderMetronomeDisplay();
+}
+
+function pauseMetronome() {
+  if (state.metronomeInterval) window.clearInterval(state.metronomeInterval);
+  state.metronomeInterval = null;
+  state.metronomeRunning = false;
+  renderMetronomeDisplay();
+}
+
+function resetMetronome() {
+  pauseMetronome();
+  const exercise = currentExercise();
+  state.metronomeExerciseId = exercise?.id || null;
+  state.metronomeBpm = exerciseBpm(exercise);
+  state.metronomePulseOn = false;
+  renderMetronomeDisplay();
+}
+
+function clickMetronome() {
+  const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+  if (!AudioContextClass || !state.metronomeBpm) return;
+  state.metronomeAudioContext = state.metronomeAudioContext || new AudioContextClass();
+  const context = state.metronomeAudioContext;
+  if (context.state === "suspended") context.resume();
+  const oscillator = context.createOscillator();
+  const gain = context.createGain();
+  oscillator.type = "square";
+  oscillator.frequency.setValueAtTime(880, context.currentTime);
+  gain.gain.setValueAtTime(0.0001, context.currentTime);
+  gain.gain.exponentialRampToValueAtTime(0.22, context.currentTime + 0.004);
+  gain.gain.exponentialRampToValueAtTime(0.0001, context.currentTime + 0.055);
+  oscillator.connect(gain);
+  gain.connect(context.destination);
+  oscillator.start(context.currentTime);
+  oscillator.stop(context.currentTime + 0.06);
+  state.metronomePulseOn = !state.metronomePulseOn;
+  renderMetronomeDisplay();
+}
+
+function renderMetronomeDisplay() {
+  if (!els.metronomePulse) return;
+  const hasBpm = Boolean(state.metronomeBpm);
+  els.startMetronomeButton.textContent = state.metronomeRunning ? "Running" : "Start";
+  els.startMetronomeButton.disabled = !hasBpm;
+  els.pauseMetronomeButton.disabled = !state.metronomeRunning;
+  els.resetMetronomeButton.disabled = !hasBpm;
+  els.metronomePulse.classList.toggle("pulse", state.metronomePulseOn);
+}
+
 function renderCheckpoint() {
   const lesson = currentLesson();
   const checkpoint = currentCheckpoint();
   if (!lesson || !checkpoint) return;
+  const progress = getProgress();
+  const summary = lessonSummary(lesson);
 
   els.checkpointTitle.textContent = checkpoint.title;
   els.checkpointLessonTitle.textContent = `Related lesson: ${lesson.title}`;
@@ -6687,9 +8842,197 @@ function renderCheckpoint() {
     button.classList.toggle("selected", button.dataset.assessment === assessment);
   });
   els.checkpointSuccessMessage.textContent = assessment === "passed"
-    ? "Checkpoint passed. You are ready to continue."
-    : "";
+    ? "Lesson complete. Summary is ready below."
+    : assessment === "not-yet"
+      ? "Not yet. Review exercises marked Needs More Practice, then try again."
+      : "";
   els.checkpointSuccessMessage.classList.toggle("complete", assessment === "passed");
+  els.checkpointSuccessMessage.classList.toggle("review", assessment === "not-yet");
+  els.lessonSummaryCard.classList.toggle("hidden", assessment !== "passed");
+  els.lessonSummaryStats.innerHTML = `
+    <div><span>Exercises Completed</span><strong>${summary.completed} / ${summary.total}</strong></div>
+    <div><span>Needs More Practice</span><strong>${summary.reviewCount}</strong></div>
+    <div><span>Notes Count</span><strong>${summary.notesCount}</strong></div>
+    <div><span>Reflection Saved</span><strong>${summary.reflectionSaved ? "Yes" : "No"}</strong></div>
+  `;
+  els.recommendedSongs.innerHTML = renderRecommendedSongs(recommendedSongsForLesson(lesson));
+  els.continueNextLessonButton.disabled = !nextLessonAfter(lesson);
+  els.reviewExercisesButton.disabled = !summary.reviewCount;
+}
+
+function lessonSummary(lesson) {
+  const progress = getProgress();
+  const exerciseIds = lesson.exercises || [];
+  const completed = exerciseIds.filter((exerciseId) => progress.completedExerciseIds.has(exerciseId)).length;
+  const reviewCount = exerciseIds.filter((exerciseId) => progress.reviewExerciseIds.has(exerciseId)).length;
+  const notesCount = exerciseIds.filter((exerciseId) => String(progress.exerciseNotes.get(exerciseId) || "").trim()).length;
+  const reflection = progress.lessonReflections.get(lesson.id) || {};
+  const reflectionSaved = Object.values(reflection).some((value) => String(value || "").trim());
+  return { total: exerciseIds.length, completed, reviewCount, notesCount, reflectionSaved };
+}
+
+function recommendedSongsForLesson(lesson) {
+  const lessonChordNames = new Set((lesson.exercises || [])
+    .map((exerciseId) => academyExercisesById().get(exerciseId))
+    .filter(Boolean)
+    .flatMap((exercise) => exercise.chordNames || inferredExerciseChordNames(exercise)));
+  const recommendations = lessonChordNames.size ? state.songs
+    .map((song) => {
+      const songChords = new Set((song.chords || []).map((chord) => chord.name));
+      const matches = Array.from(lessonChordNames).filter((name) => songChords.has(name));
+      return { song, matches };
+    })
+    .filter((item) => item.matches.length)
+    .sort((a, b) => b.matches.length - a.matches.length)
+    .slice(0, 5)
+    .map(({ song, matches }) => ({
+      title: song.title,
+      artist: song.artist,
+      note: matches.length >= Math.min(2, lessonChordNames.size)
+        ? `Recommended because it uses ${matches.join(" and ")}`
+        : `Partial fit — rhythm may be harder; includes ${matches.join(" and ")}`
+    })) : [];
+
+  (lesson.recommendedSongs || []).forEach((suggestion) => {
+    const existingIndex = recommendations.findIndex((item) => sameSong(item, suggestion));
+    if (existingIndex >= 0) {
+      recommendations[existingIndex].note = suggestion.note
+        ? `${recommendations[existingIndex].note}. ${suggestion.note}`
+        : recommendations[existingIndex].note;
+      return;
+    }
+
+    const librarySong = state.songs.find((song) => sameSong(song, suggestion));
+    recommendations.push({
+      title: librarySong?.title || suggestion.title,
+      artist: librarySong?.artist || suggestion.artist,
+      note: librarySong
+        ? suggestion.note || "Recommended from this lesson."
+        : `Suggested future addition — ${suggestion.note || "not in the song library yet."}`
+    });
+  });
+
+  return recommendations;
+}
+
+function sameSong(song, candidate) {
+  return String(song.title || "").toLowerCase() === String(candidate.title || "").toLowerCase()
+    && String(song.artist || "").toLowerCase() === String(candidate.artist || "").toLowerCase();
+}
+
+function renderRecommendedSongs(recommendations) {
+  if (!recommendations.length) return `<div class="connected-song-card"><strong>No song matches yet</strong><span>Add more song chord data to improve recommendations.</span></div>`;
+  return recommendations.map((item) => `
+    <div class="connected-song-card">
+      <strong>${escapeHtml(item.title)}</strong>
+      <span>${escapeHtml(item.artist)} · ${escapeHtml(item.note)}</span>
+    </div>
+  `).join("");
+}
+
+function renderPracticeNotesPage() {
+  if (!els.practiceNotesList) return;
+  const query = String(els.notesSearchInput?.value || "").trim().toLowerCase();
+  const progress = getProgress();
+  const noteRows = [];
+  missionOrder().forEach((mission) => {
+    (mission.lessons || []).forEach((lessonId) => {
+      const lesson = academyLessonsById().get(lessonId);
+      if (!lesson) return;
+      const reflection = progress.lessonReflections.get(lesson.id);
+      const reflectionText = reflection ? Object.entries(reflection)
+        .filter(([, value]) => String(value || "").trim())
+        .map(([key, value]) => `${reflectionPromptLabel(key)}: ${value}`)
+        .join("\n") : "";
+      const exerciseNotes = (lesson.exercises || [])
+        .map((exerciseId) => ({ exercise: academyExercisesById().get(exerciseId), note: progress.exerciseNotes.get(exerciseId) }))
+        .filter((item) => item.exercise && String(item.note || "").trim());
+      if (!reflectionText && !exerciseNotes.length) return;
+      const searchable = [mission.title, lesson.title, reflectionText, ...exerciseNotes.flatMap((item) => [item.exercise.title, item.note])].join(" ").toLowerCase();
+      if (query && !searchable.includes(query)) return;
+      noteRows.push({ mission, lesson, reflectionText, exerciseNotes });
+    });
+  });
+  els.coachingSummaryStatus.textContent = state.coachingSummaryMessage;
+  els.coachingSummaryStatus.classList.toggle("complete", Boolean(state.coachingSummaryMessage));
+  els.practiceNotesList.innerHTML = noteRows.length
+    ? noteRows.map(renderPracticeNoteGroup).join("")
+    : `<div class="connected-song-card"><strong>No notes yet</strong><span>Save notes from an exercise or lesson reflection.</span></div>`;
+}
+
+function renderPracticeNoteGroup(group) {
+  return `
+    <article class="notes-group">
+      <p class="eyebrow">${escapeHtml(moduleLabel(group.mission))}</p>
+      <h3>${escapeHtml(group.lesson.title)}</h3>
+      ${group.reflectionText ? `<pre>${escapeHtml(group.reflectionText)}</pre>` : ""}
+      ${group.exerciseNotes.map(({ exercise, note }) => `
+        <div class="note-entry">
+          <strong>${escapeHtml(exercise.title)}</strong>
+          <p>${escapeHtml(note)}</p>
+        </div>
+      `).join("")}
+    </article>
+  `;
+}
+
+function reflectionPromptLabel(key) {
+  return {
+    easiest: "What felt easiest?",
+    work: "What needs more work?",
+    notice: "What did I notice?",
+    focus: "What should I focus on next time?"
+  }[key] || key;
+}
+
+async function copyCoachingSummary() {
+  const markdown = coachingSummaryMarkdown();
+  try {
+    await navigator.clipboard.writeText(markdown);
+    state.coachingSummaryMessage = "Coaching summary copied.";
+  } catch {
+    const blob = new Blob([markdown], { type: "text/markdown" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `guitar-coaching-summary-${todayIsoDate()}.md`;
+    link.click();
+    URL.revokeObjectURL(url);
+    state.coachingSummaryMessage = "Coaching summary downloaded.";
+  }
+  renderPracticeNotesPage();
+}
+
+function coachingSummaryMarkdown() {
+  const progress = getProgress();
+  const mission = activeMission();
+  const lesson = currentLesson();
+  const completedExercises = Array.from(progress.completedExerciseIds).map((id) => academyExercisesById().get(id)).filter(Boolean);
+  const reviewExercises = Array.from(progress.reviewExerciseIds).map((id) => academyExercisesById().get(id)).filter(Boolean);
+  const notes = Array.from(progress.exerciseNotes.entries()).map(([id, note]) => ({ exercise: academyExercisesById().get(id), note })).filter((item) => item.exercise);
+  const reflections = Array.from(progress.lessonReflections.entries()).map(([id, reflection]) => ({ lesson: academyLessonsById().get(id), reflection })).filter((item) => item.lesson);
+  const checkpointResults = Array.from(progress.checkpointResults.entries()).map(([id, result]) => ({ checkpoint: academyCheckpointsById().get(id), result })).filter((item) => item.checkpoint);
+  return [
+    "# Guitar Hero Coaching Summary",
+    "",
+    `Current module: ${moduleLabel(mission)}`,
+    `Current lesson: ${lesson?.title || "None selected"}`,
+    "",
+    "## Completed Exercises",
+    completedExercises.length ? completedExercises.map((exercise) => `- ${exercise.title}`).join("\n") : "- None yet",
+    "",
+    "## Exercises Needing Review",
+    reviewExercises.length ? reviewExercises.map((exercise) => `- ${exercise.title}`).join("\n") : "- None",
+    "",
+    "## Exercise Notes",
+    notes.length ? notes.map(({ exercise, note }) => `### ${exercise.title}\n${note}`).join("\n\n") : "- None",
+    "",
+    "## Lesson Reflections",
+    reflections.length ? reflections.map(({ lesson, reflection }) => `### ${lesson.title}\n${Object.entries(reflection).map(([key, value]) => `- ${reflectionPromptLabel(key)} ${value || ""}`).join("\n")}`).join("\n\n") : "- None",
+    "",
+    "## Checkpoint Results",
+    checkpointResults.length ? checkpointResults.map(({ checkpoint, result }) => `- ${checkpoint.title}: ${result}`).join("\n") : "- None"
+  ].join("\n");
 }
 
 function renderListItems(items = []) {

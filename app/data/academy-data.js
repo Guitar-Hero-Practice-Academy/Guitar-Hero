@@ -1,4 +1,26 @@
 window.academyData = {
+  chordDiagrams: [
+    {
+      name: "G",
+      frets: [3, 2, 0, 0, 0, 3],
+      fingers: ["2", "1", "", "", "", "3"]
+    },
+    {
+      name: "C",
+      frets: ["x", 3, 2, 0, 1, 0],
+      fingers: ["", "3", "2", "", "1", ""]
+    },
+    {
+      name: "D",
+      frets: ["x", "x", 0, 2, 3, 2],
+      fingers: ["", "", "", "1", "3", "2"]
+    },
+    {
+      name: "Em",
+      frets: [0, 2, 2, 0, 0, 0],
+      fingers: ["", "2", "3", "", "", ""]
+    }
+  ],
   phases: [
     {
       id: "phase-1-foundations",
@@ -185,12 +207,12 @@ window.academyData = {
       id: "mission-open-chord-foundations",
       phaseId: "phase-1-foundations",
       title: "Open Chord Foundations",
-      subtitle: "Your first mission is to become confident with the essential open chords.",
+      subtitle: "Your first module is to become confident with the essential open chords.",
       dashboardSubtitle: "Become fluent with open chords.",
       description: "Build clean chord changes, steady rhythm, and confidence with the most common beginner chords.",
       whyItMatters: "Open chords are the foundation of rhythm guitar. If you can change between them cleanly and keep steady timing, hundreds of songs become playable.",
       estimatedSessions: "7-10 practice sessions",
-      nextStep: "Read the mission brief and begin Lesson 1.",
+      nextStep: "Read the module overview and begin Lesson 1.",
       skillIds: [
         "skill-open-chords",
         "skill-chord-changes",
@@ -258,7 +280,7 @@ window.academyData = {
       lessonNumber: 2,
       title: "Adding D Major To The Pattern",
       description: "Introduce D major and build the common G-C-D movement used in many songs.",
-      whyThisLesson: "G, C, and D form one of the most useful open chord families. Getting comfortable with them unlocks a lot of rhythm guitar.",
+      whyThisLesson: "G, C, and D form one of the most useful open chord families. Getting comfortable with them opens up a lot of rhythm guitar.",
       estimatedMinutes: 45,
       skillIds: [
         "skill-open-chords",
@@ -511,7 +533,7 @@ const guitarCoachRoadmap = [
     phaseDescription: "Develop lead-guitar vocabulary, expression, and simple improvisation.",
     missions: [
       { title: "Lead Guitar Fundamentals", skillsDeveloped: ["Lead Guitar", "Pentatonic Scales", "Picking Accuracy"] },
-      { title: "Expressive Playing", description: "Placeholder mission for bends, vibrato, slides, hammer-ons and pull-offs.", skillsDeveloped: ["Bends", "Vibrato", "Slides", "Hammer-ons", "Pull-offs"] },
+      { title: "Expressive Playing", description: "Placeholder module for bends, vibrato, slides, hammer-ons and pull-offs.", skillsDeveloped: ["Bends", "Vibrato", "Slides", "Hammer-ons", "Pull-offs"] },
       { title: "Improvisation", skillsDeveloped: ["Improvisation", "Pentatonic Scales", "Timing"] },
       { title: "Playing Over Chord Progressions", skillsDeveloped: ["Chord Progressions", "Improvisation", "Timing"] }
     ]
@@ -556,10 +578,10 @@ roadmapMissionDefinitions.forEach((missionDefinition, index) => {
     id,
     phaseId: missionDefinition.phaseId,
     title: missionDefinition.title,
-    subtitle: missionDefinition.description || `Placeholder mission for ${missionDefinition.title}.`,
+    subtitle: missionDefinition.description || `Placeholder module for ${missionDefinition.title}.`,
     dashboardSubtitle: missionDefinition.title,
-    description: missionDefinition.description || `Placeholder mission for ${missionDefinition.title}.`,
-    whyItMatters: missionDefinition.description || `Placeholder mission for ${missionDefinition.title}.`,
+    description: missionDefinition.description || `Placeholder module for ${missionDefinition.title}.`,
+    whyItMatters: missionDefinition.description || `Placeholder module for ${missionDefinition.title}.`,
     estimatedSessions: "TBD",
     estimatedPracticeHours: "TBD",
     prerequisiteMissionIds: previousMissionId ? [previousMissionId] : [],
@@ -600,9 +622,9 @@ roadmapMissionDefinitions.forEach((missionDefinition, index) => {
 const missionOneLessonBlueprints = [
   { id: "lesson-open-chords-1", lessonNumber: 1, title: "Why Chord Changes Matter" },
   { id: "lesson-open-chords-2", lessonNumber: 2, title: "Building Perfect Chords" },
-  { id: "lesson-open-chords-3", lessonNumber: 3, title: "G Major Mastery" },
-  { id: "lesson-open-chords-4", lessonNumber: 4, title: "C Major Mastery" },
-  { id: "lesson-open-chords-5", lessonNumber: 5, title: "D Major and Em Mastery" },
+  { id: "lesson-open-chords-3", lessonNumber: 3, title: "Efficient Chord Changes" },
+  { id: "lesson-open-chords-4", lessonNumber: 4, title: "Adding D Major" },
+  { id: "lesson-open-chords-5", lessonNumber: 5, title: "Three-Chord Movement" },
   { id: "lesson-open-chords-6", lessonNumber: 6, title: "Changing Chords Smoothly" },
   { id: "lesson-open-chords-7", lessonNumber: 7, title: "Rhythm and Timing" },
   { id: "lesson-open-chords-8", lessonNumber: 8, title: "Basic Strumming Patterns" },
@@ -621,7 +643,7 @@ if (missionOne) {
     performance: {
       id: "performance-open-chord-foundations",
       missionId: "mission-open-chord-foundations",
-      title: "Mission Performance: Open Chord Foundations",
+      title: "Module Performance: Open Chord Foundations",
       performanceTitle: "Open Chord Foundations",
       performanceDescription: "Placeholder performance description.",
       performanceCriteria: [
@@ -641,7 +663,7 @@ missionOneLessonBlueprints.forEach((blueprint) => {
   const placeholderExerciseId = `exercise-${blueprint.id.replace(/^lesson-/, "")}-placeholder`;
   const placeholderCheckpointId = `checkpoint-${blueprint.id.replace(/^lesson-/, "")}`;
   const lessonStructure = {
-    missionContext: "Placeholder mission context.",
+    missionContext: "Placeholder module context.",
     why: "Placeholder why.",
     watch: {
       title: "Placeholder watch item.",
@@ -859,6 +881,7 @@ upsertAcademyItem("lessons", {
       "Pressing too far from the fret",
       "Squeezing too hard"
     ],
+    chordNames: ["G"],
     skillIds: ["skill-open-chords"]
   },
   {
@@ -882,6 +905,7 @@ upsertAcademyItem("lessons", {
       "Muting the open G string",
       "Collapsing the index finger"
     ],
+    chordNames: ["C"],
     skillIds: ["skill-open-chords"]
   },
   {
@@ -906,6 +930,7 @@ upsertAcademyItem("lessons", {
       "Looking only after the chord is wrong",
       "Trying to move too fast"
     ],
+    chordNames: ["G", "C"],
     skillIds: ["skill-chord-changes"]
   },
   {
@@ -930,6 +955,7 @@ upsertAcademyItem("lessons", {
       "Rushing the change",
       "Strumming before the fingers are ready"
     ],
+    chordNames: ["G", "C"],
     skillIds: ["skill-chord-changes", "skill-timing"]
   },
   {
@@ -953,6 +979,7 @@ upsertAcademyItem("lessons", {
       "Changing pick angle randomly",
       "Stopping the hand during chord changes"
     ],
+    chordNames: ["G", "C"],
     skillIds: ["skill-rhythm", "skill-strumming", "skill-timing"]
   },
   {
@@ -972,6 +999,7 @@ upsertAcademyItem("lessons", {
     passCriteria: "Complete five minutes of relaxed playing.",
     definitionOfDone: "Complete five minutes of relaxed playing.",
     commonMistakes: [],
+    chordNames: ["G", "C"],
     skillIds: ["skill-open-chords", "skill-rhythm", "skill-strumming"]
   }
 ].forEach((exercise) => {
@@ -997,6 +1025,1110 @@ upsertAcademyItem("checkpoints", {
     "Can strum downstrokes for one minute without stopping"
   ],
   passRule: "Pass if the changes are mostly clean and steady. Do not require perfection.",
+  completed: false
+});
+
+const lessonTwoExerciseIds = [
+  "exercise-open-chords-2-finger-tip-placement",
+  "exercise-open-chords-2-fret-position-check",
+  "exercise-open-chords-2-string-clearance-drill",
+  "exercise-open-chords-2-minimum-pressure-drill",
+  "exercise-open-chords-2-build-g-slowly",
+  "exercise-open-chords-2-build-c-slowly",
+  "exercise-open-chords-2-chord-quality-check"
+];
+
+upsertAcademyItem("lessons", {
+  id: "lesson-open-chords-2",
+  missionId: "mission-open-chord-foundations",
+  lessonNumber: 2,
+  title: "Building Perfect Chords",
+  description: "A good chord is not about squeezing harder. It is about placing each finger accurately, using only enough pressure, and making sure every string has room to ring. This lesson teaches the basic mechanics of clean fretting.",
+  objectiveHeading: "Lesson Objective",
+  objective: "Learn how to build clean open chords by focusing on finger placement, pressure, string clearance, and listening.",
+  whyThisLesson: "If your chords buzz, sound dull, or have missing notes, songs will never sound right no matter how well you strum. Clean chords are the foundation of rhythm guitar.",
+  estimatedMinutes: 35,
+  skillIds: [
+    "skill-open-chords",
+    "skill-chord-changes",
+    "skill-timing"
+  ],
+  exercises: lessonTwoExerciseIds,
+  checkpoint: "checkpoint-open-chords-2",
+  completed: false,
+  missionContext: "This lesson builds the mechanics behind clean open chords: accurate fingertip placement, relaxed pressure, string clearance, and careful listening.",
+  why: "If your chords buzz, sound dull, or have missing notes, songs will never sound right no matter how well you strum. Clean chords are the foundation of rhythm guitar.",
+  watch: {
+    title: "How clean fretting works",
+    provider: "YouTube",
+    url: "",
+    note: "Add a video later showing fingertip placement and string clearance.",
+    mediaLinks: []
+  },
+  listen: {
+    title: "Teach Rob to listen for",
+    items: [
+      "buzzing notes",
+      "muted neighbouring strings",
+      "uneven chord volume",
+      "excess hand pressure",
+      "notes that go dull after the first pick"
+    ]
+  },
+  coachNotes: [
+    "Most beginners press too hard and flatten their fingers.",
+    "Your goal is not force. Your goal is accuracy.",
+    "Move one finger at a time and listen before adding speed.",
+    "If a note does not ring, adjust placement before adding pressure."
+  ],
+  definitionOfDone: [
+    "Can fret a note close behind the fret.",
+    "Can identify a muted string.",
+    "Can build G slowly and cleanly.",
+    "Can build C slowly and cleanly."
+  ],
+  commonMistakes: [
+    "Pressing harder instead of adjusting finger placement.",
+    "Letting fingers flatten across neighbouring strings.",
+    "Strumming over muted strings without checking them.",
+    "Holding tension in the fretting hand."
+  ],
+  performanceTest: {
+    title: "Clean Chord Construction",
+    requirements: [
+      "Can explain that clean chords come from placement, not force",
+      "Can fret a note close behind the fret",
+      "Can identify a muted string",
+      "Can build G slowly and cleanly",
+      "Can build C slowly and cleanly"
+    ],
+    passRule: "Pass if Rob can build G and C slowly with mostly clean notes and can identify what causes buzzing or muting."
+  },
+  practiceJournal: [
+    "Which chord felt easier today?",
+    "Which string muted most often?",
+    "Did pressing harder help, or did placement matter more?",
+    "What should I focus on next time?"
+  ]
+});
+
+[
+  {
+    id: "exercise-open-chords-2-finger-tip-placement",
+    title: "Finger Tip Placement",
+    purpose: "Learn to fret notes with the fingertips rather than flat fingers.",
+    objective: "Place each finger so it presses the string cleanly without touching nearby strings.",
+    instructionSteps: [
+      "Choose one string.",
+      "Place your fingertip just behind the fret.",
+      "Press lightly.",
+      "Pick the string.",
+      "Move the finger slightly until the note rings clearly.",
+      "Repeat with each finger."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can make a clear note with each finger without buzzing.",
+    definitionOfDone: "You can make a clear note with each finger without buzzing.",
+    commonMistakes: [
+      "Pressing too far from the fret",
+      "Flattening the finger",
+      "Pressing harder instead of adjusting position"
+    ],
+    skillIds: ["skill-open-chords"]
+  },
+  {
+    id: "exercise-open-chords-2-fret-position-check",
+    title: "Fret Position Check",
+    purpose: "Learn where the finger should sit behind the fret.",
+    objective: "Hear the difference between poor placement and good placement.",
+    instructionSteps: [
+      "Place a finger in the middle of the fret space and pick the note.",
+      "Move it close behind the fret wire and pick again.",
+      "Notice which position sounds cleaner.",
+      "Repeat on several strings."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can identify the cleaner position by sound.",
+    definitionOfDone: "You can identify the cleaner position by sound.",
+    commonMistakes: [
+      "Sitting too far back in the fret space",
+      "Touching the fret wire directly",
+      "Using too much pressure"
+    ],
+    skillIds: ["skill-open-chords"]
+  },
+  {
+    id: "exercise-open-chords-2-string-clearance-drill",
+    title: "String Clearance Drill",
+    purpose: "Stop fingers from muting neighbouring strings.",
+    objective: "Keep fingers arched enough that nearby strings can ring.",
+    instructionSteps: [
+      "Form a simple chord shape.",
+      "Pick each string one at a time.",
+      "If a string is muted, check which finger is touching it.",
+      "Arch that finger slightly more.",
+      "Retest the string."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can identify which finger is causing a muted string and correct it.",
+    definitionOfDone: "You can identify which finger is causing a muted string and correct it.",
+    commonMistakes: [
+      "Collapsing the knuckle",
+      "Letting fingers lie flat",
+      "Not checking strings individually"
+    ],
+    chordNames: ["G", "C"],
+    skillIds: ["skill-open-chords"]
+  },
+  {
+    id: "exercise-open-chords-2-minimum-pressure-drill",
+    title: "Minimum Pressure Drill",
+    purpose: "Learn that clean chords do not require squeezing hard.",
+    objective: "Find the lightest pressure needed to make a note ring.",
+    instructionSteps: [
+      "Fret one note.",
+      "Start with very light pressure.",
+      "Pick the string.",
+      "Slowly increase pressure until the note rings cleanly.",
+      "Stop there.",
+      "Repeat on different strings."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can make notes ring clearly without excessive squeezing.",
+    definitionOfDone: "You can make notes ring clearly without excessive squeezing.",
+    commonMistakes: [
+      "Gripping the neck too hard",
+      "Tensing the shoulder",
+      "Pressing harder when placement is the real problem"
+    ],
+    skillIds: ["skill-open-chords"]
+  },
+  {
+    id: "exercise-open-chords-2-build-g-slowly",
+    title: "Build G Slowly",
+    purpose: "Apply clean chord mechanics to G major.",
+    objective: "Build the G chord one finger at a time.",
+    instructionSteps: [
+      "Place the first finger.",
+      "Pick the relevant string.",
+      "Add the second finger.",
+      "Pick again.",
+      "Add the remaining fingers.",
+      "Pick every string individually."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Your G chord rings clearly across all six strings.",
+    definitionOfDone: "Your G chord rings clearly across all six strings.",
+    commonMistakes: [
+      "Adding all fingers too quickly",
+      "Not checking individual strings",
+      "Muting the A or B string"
+    ],
+    chordNames: ["G"],
+    skillIds: ["skill-open-chords"]
+  },
+  {
+    id: "exercise-open-chords-2-build-c-slowly",
+    title: "Build C Slowly",
+    purpose: "Apply clean chord mechanics to C major.",
+    objective: "Build the C chord one finger at a time.",
+    instructionSteps: [
+      "Place the ring finger on the A string.",
+      "Place the middle finger on the D string.",
+      "Place the index finger on the B string.",
+      "Pick from the A string down.",
+      "Do not play the low E string."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Your C chord rings clearly across the correct five strings.",
+    definitionOfDone: "Your C chord rings clearly across the correct five strings.",
+    commonMistakes: [
+      "Hitting the low E string",
+      "Muting the open G string",
+      "Flattening the index finger"
+    ],
+    chordNames: ["C"],
+    skillIds: ["skill-open-chords"]
+  },
+  {
+    id: "exercise-open-chords-2-chord-quality-check",
+    title: "Chord Quality Check",
+    purpose: "Train your ear to judge whether a chord is clean.",
+    objective: "Listen for buzzing, muted notes, and uneven volume.",
+    instructionSteps: [
+      "Play G.",
+      "Pick each string individually.",
+      "Play C.",
+      "Pick each string individually.",
+      "Fix one problem at a time."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can hear whether the chord is clean and identify the problem string.",
+    definitionOfDone: "You can hear whether the chord is clean and identify the problem string.",
+    commonMistakes: [
+      "Strumming over problems",
+      "Fixing too many fingers at once",
+      "Ignoring muted strings"
+    ],
+    chordNames: ["G", "C"],
+    skillIds: ["skill-open-chords"]
+  }
+].forEach((exercise) => {
+  upsertAcademyItem("exercises", {
+    ...exercise,
+    lessonId: "lesson-open-chords-2",
+    instructions: exercise.instructionSteps.join(" "),
+    mediaLinks: [],
+    completed: false
+  });
+});
+
+upsertAcademyItem("checkpoints", {
+  id: "checkpoint-open-chords-2",
+  lessonId: "lesson-open-chords-2",
+  title: "Clean Chord Construction",
+  purpose: "Pass if Rob can build G and C slowly with mostly clean notes and can identify what causes buzzing or muting.",
+  requirements: [
+    "Can explain that clean chords come from placement, not force",
+    "Can fret a note close behind the fret",
+    "Can identify a muted string",
+    "Can build G slowly and cleanly",
+    "Can build C slowly and cleanly"
+  ],
+  passRule: "Pass if Rob can build G and C slowly with mostly clean notes and can identify what causes buzzing or muting.",
+  completed: false
+});
+
+const lessonThreeExerciseIds = [
+  "exercise-open-chords-3-slow-chord-preparation",
+  "exercise-open-chords-3-economy-of-motion",
+  "exercise-open-chords-3-silent-chord-changes",
+  "exercise-open-chords-3-four-beat-changes",
+  "exercise-open-chords-3-two-beat-changes",
+  "exercise-open-chords-3-one-beat-changes",
+  "exercise-open-chords-3-rhythm-review"
+];
+
+upsertAcademyItem("lessons", {
+  id: "lesson-open-chords-3",
+  missionId: "mission-open-chord-foundations",
+  lessonNumber: 3,
+  title: "Efficient Chord Changes",
+  description: "Develop smooth and economical movement between open chords without sacrificing accuracy.",
+  objectiveHeading: "Lesson Goal",
+  objective: "Develop smooth and economical movement between open chords without sacrificing accuracy.",
+  whyThisLesson: "Most beginners know the chord shapes but lose time moving between them. Good rhythm comes from preparing the next chord early and moving only the fingers that need to move.",
+  estimatedMinutes: 35,
+  skillIds: [
+    "skill-open-chords",
+    "skill-chord-changes",
+    "skill-rhythm",
+    "skill-timing"
+  ],
+  exercises: lessonThreeExerciseIds,
+  checkpoint: "checkpoint-open-chords-3",
+  completed: false,
+  missionContext: "This lesson develops smooth, economical movement between G and C without sacrificing accuracy.",
+  why: "Most beginners know the chord shapes but lose time moving between them. Good rhythm comes from preparing the next chord early and moving only the fingers that need to move.",
+  watch: {
+    title: "How efficient chord changes work",
+    provider: "YouTube",
+    url: "",
+    note: "Add a video later showing slow, economical G to C movement.",
+    mediaLinks: []
+  },
+  listen: {
+    title: "Teach Rob to listen for",
+    items: [
+      "pauses before chord changes",
+      "late chord landings",
+      "uneven rhythm",
+      "tension during the change",
+      "extra finger movement"
+    ]
+  },
+  coachNotes: [
+    "Don’t chase speed today.",
+    "Smooth movements naturally become fast.",
+    "Every unnecessary movement is something you’ll have to unlearn later.",
+    "Prepare the next chord before you need it."
+  ],
+  definitionOfDone: [
+    "G and C changes are mostly clean.",
+    "Finger movement is controlled.",
+    "Rhythm remains steady.",
+    "You no longer pause before every change."
+  ],
+  commonMistakes: [
+    "Rushing the change.",
+    "Lifting fingers too high.",
+    "Pulling the whole hand away from the neck.",
+    "Pausing before every chord change."
+  ],
+  performanceTest: {
+    title: "Efficient Chord Changes",
+    requirements: [
+      "G and C changes are mostly clean",
+      "Finger movement is controlled",
+      "Rhythm remains steady",
+      "You no longer pause before every change"
+    ],
+    passRule: "Pass if G and C changes are mostly clean, finger movement is controlled, rhythm remains steady, and Rob no longer pauses before every change."
+  },
+  practiceJournal: [
+    "Which chord change felt harder?",
+    "Which finger moved the most?",
+    "Did you stay relaxed?",
+    "What should you focus on before Lesson 4?"
+  ]
+});
+
+[
+  {
+    id: "exercise-open-chords-3-slow-chord-preparation",
+    title: "Slow Chord Preparation",
+    purpose: "Learn to prepare the next chord before you need it.",
+    objective: "Plan the next chord shape before moving.",
+    instructionSteps: [
+      "Form a G chord.",
+      "Look at the C chord.",
+      "Without moving yet, identify where every finger will go.",
+      "Move slowly into C.",
+      "Repeat."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can move without hesitation.",
+    definitionOfDone: "You can move without hesitation.",
+    commonMistakes: [
+      "Rushing",
+      "Looking at one finger at a time",
+      "Guessing finger positions"
+    ],
+    chordNames: ["G", "C"],
+    skillIds: ["skill-chord-changes"]
+  },
+  {
+    id: "exercise-open-chords-3-economy-of-motion",
+    title: "Economy of Motion",
+    purpose: "Reduce unnecessary finger movement.",
+    objective: "Keep each finger close to the strings during G to C changes.",
+    instructionSteps: [
+      "Alternate G and C.",
+      "Watch how high your fingers lift.",
+      "Keep every finger as close to the strings as possible.",
+      "Repeat slowly."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Finger movement becomes smaller and more controlled.",
+    definitionOfDone: "Finger movement becomes smaller and more controlled.",
+    commonMistakes: [
+      "Lifting fingers too high",
+      "Pulling the whole hand away from the neck"
+    ],
+    chordNames: ["G", "C"],
+    skillIds: ["skill-chord-changes"]
+  },
+  {
+    id: "exercise-open-chords-3-silent-chord-changes",
+    title: "Silent Chord Changes",
+    purpose: "Practise changing chords without strumming.",
+    objective: "Build the new chord shape accurately before playing it.",
+    instructionSteps: [
+      "Change G to C.",
+      "Pause.",
+      "Check every finger.",
+      "Repeat.",
+      "Don’t strum until the shape is correct."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can consistently build the new chord before playing.",
+    definitionOfDone: "You can consistently build the new chord before playing.",
+    commonMistakes: [
+      "Strumming before the shape is ready",
+      "Skipping the finger check",
+      "Letting the hand tense up"
+    ],
+    chordNames: ["G", "C"],
+    skillIds: ["skill-chord-changes"]
+  },
+  {
+    id: "exercise-open-chords-3-four-beat-changes",
+    title: "Four Beat Changes",
+    purpose: "Introduce rhythm while maintaining clean transitions.",
+    objective: "Stay in time while changing G to C every four beats.",
+    instructionSteps: [
+      "Strum G for four beats.",
+      "Change to C.",
+      "Strum C for four beats.",
+      "Repeat."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "You stay in time while changing chords.",
+    definitionOfDone: "You stay in time while changing chords.",
+    commonMistakes: [
+      "Pausing during the change",
+      "Rushing into C",
+      "Letting the strumming hand stop"
+    ],
+    chordNames: ["G", "C"],
+    skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+  },
+  {
+    id: "exercise-open-chords-3-two-beat-changes",
+    title: "Two Beat Changes",
+    purpose: "Increase transition speed.",
+    objective: "Change between G and C every two beats while staying clean.",
+    instructionSteps: [
+      "Play G for two beats.",
+      "Play C for two beats.",
+      "Continue."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Changes remain mostly clean.",
+    definitionOfDone: "Changes remain mostly clean.",
+    commonMistakes: [
+      "Sacrificing clean sound for speed",
+      "Moving the whole hand too far",
+      "Losing the beat"
+    ],
+    chordNames: ["G", "C"],
+    skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+  },
+  {
+    id: "exercise-open-chords-3-one-beat-changes",
+    title: "One Beat Changes",
+    purpose: "Build confidence changing chords every bar.",
+    objective: "Alternate G and C every beat while keeping accuracy.",
+    instructionSteps: [
+      "Alternate G and C every beat.",
+      "Slow down if accuracy drops."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Maintain rhythm with mostly clean chord changes.",
+    definitionOfDone: "Maintain rhythm with mostly clean chord changes.",
+    commonMistakes: [
+      "Chasing speed",
+      "Letting accuracy collapse",
+      "Tensing the fretting hand"
+    ],
+    chordNames: ["G", "C"],
+    skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+  },
+  {
+    id: "exercise-open-chords-3-rhythm-review",
+    title: "Rhythm Review",
+    purpose: "Combine all previous exercises into continuous playing.",
+    objective: "Play continuously while maintaining relaxed hands, clean chords, steady rhythm, and minimal finger movement.",
+    instructionSteps: [
+      "Play G and C continuously for five minutes.",
+      "Maintain relaxed hands.",
+      "Keep chords clean.",
+      "Keep rhythm steady.",
+      "Use minimal finger movement."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Play G and C continuously for five minutes with relaxed hands, clean chords, steady rhythm, and minimal finger movement.",
+    definitionOfDone: "Play G and C continuously for five minutes with relaxed hands, clean chords, steady rhythm, and minimal finger movement.",
+    commonMistakes: [
+      "Forgetting to stay relaxed",
+      "Letting rhythm drift",
+      "Letting fingers fly away from the strings"
+    ],
+    chordNames: ["G", "C"],
+    skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+  }
+].forEach((exercise) => {
+  upsertAcademyItem("exercises", {
+    ...exercise,
+    lessonId: "lesson-open-chords-3",
+    instructions: exercise.instructionSteps.join(" "),
+    mediaLinks: [],
+    completed: false
+  });
+});
+
+upsertAcademyItem("checkpoints", {
+  id: "checkpoint-open-chords-3",
+  lessonId: "lesson-open-chords-3",
+  title: "Efficient Chord Changes",
+  purpose: "Pass if G and C changes are mostly clean, finger movement is controlled, rhythm remains steady, and Rob no longer pauses before every change.",
+  requirements: [
+    "G and C changes are mostly clean",
+    "Finger movement is controlled",
+    "Rhythm remains steady",
+    "You no longer pause before every change"
+  ],
+  passRule: "Pass if G and C changes are mostly clean, finger movement is controlled, rhythm remains steady, and Rob no longer pauses before every change.",
+  completed: false
+});
+
+const lessonFourExerciseIds = [
+  "exercise-open-chords-4-learning-d-major-shape",
+  "exercise-open-chords-4-d-major-string-check",
+  "exercise-open-chords-4-build-d-slowly",
+  "exercise-open-chords-4-g-to-d-changes",
+  "exercise-open-chords-4-c-to-d-changes",
+  "exercise-open-chords-4-random-chord-builder",
+  "exercise-open-chords-4-clean-chord-review"
+];
+
+upsertAcademyItem("lessons", {
+  id: "lesson-open-chords-4",
+  missionId: "mission-open-chord-foundations",
+  lessonNumber: 4,
+  title: "Adding D Major",
+  description: "Learn the D major chord and integrate it smoothly with the G and C chords already learned.",
+  objectiveHeading: "Lesson Goal",
+  objective: "Learn the D major chord and integrate it smoothly with the G and C chords already learned.",
+  whyThisLesson: "Adding D major completes one of the most common beginner chord groups. Thousands of songs rely on G, C and D. Today’s goal is not speed — it is building a clean, reliable D major chord and learning how it fits into your existing playing.",
+  estimatedMinutes: 35,
+  skillIds: [
+    "skill-open-chords",
+    "skill-chord-changes",
+    "skill-rhythm",
+    "skill-timing"
+  ],
+  exercises: lessonFourExerciseIds,
+  checkpoint: "checkpoint-open-chords-4",
+  completed: false,
+  missionContext: "This lesson adds D major to the G and C chords already learned.",
+  why: "Adding D major completes one of the most common beginner chord groups. Thousands of songs rely on G, C and D.",
+  watch: {
+    title: "How D major fits with G and C",
+    provider: "YouTube",
+    url: "",
+    note: "Add a video later showing D major fingering and G-C-D movement.",
+    mediaLinks: []
+  },
+  listen: {
+    title: "Teach Rob to listen for",
+    items: [
+      "buzzing on the high strings",
+      "accidentally hitting the low E string",
+      "muted notes inside the D chord",
+      "late changes into D",
+      "loss of rhythm during G to D or C to D"
+    ]
+  },
+  coachNotes: [
+    "D major is a small chord shape, which means precision matters.",
+    "If something buzzes, don’t squeeze harder.",
+    "Identify which finger is causing the problem and adjust its position."
+  ],
+  definitionOfDone: [
+    "D major rings clearly.",
+    "G, C and D can all be built confidently.",
+    "Chord changes remain mostly clean.",
+    "You understand which strings should and should not be played."
+  ],
+  commonMistakes: [
+    "Fingers too flat.",
+    "Touching neighbouring strings.",
+    "Forgetting that the low E string is not played.",
+    "Moving the whole hand instead of one finger."
+  ],
+  performanceTest: {
+    title: "D Major Foundations",
+    requirements: [
+      "D major rings clearly",
+      "G, C and D can all be built confidently",
+      "Chord changes remain mostly clean",
+      "You understand which strings should and should not be played"
+    ],
+    passRule: "Pass if D major rings clearly, G, C and D can all be built confidently, chord changes remain mostly clean, and Rob understands correct string selection."
+  },
+  practiceJournal: [
+    "What felt different about D major?",
+    "Which transition was hardest?",
+    "Which string buzzed most often?",
+    "What will you focus on before the next lesson?"
+  ]
+});
+
+[
+  {
+    id: "exercise-open-chords-4-learning-d-major-shape",
+    title: "Learning the D Major Shape",
+    purpose: "Learn the D major fingering accurately.",
+    objective: "Build the D major chord from memory.",
+    instructionSteps: [
+      "Study the D major chord diagram.",
+      "Place one finger at a time.",
+      "Pause after placing each finger.",
+      "When complete, check each finger before strumming."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can build D major without looking at the diagram.",
+    definitionOfDone: "You can build D major without looking at the diagram.",
+    commonMistakes: [
+      "Fingers too flat",
+      "Touching neighbouring strings",
+      "Forgetting that the low E string is not played"
+    ],
+    chordNames: ["D"],
+    skillIds: ["skill-open-chords"]
+  },
+  {
+    id: "exercise-open-chords-4-d-major-string-check",
+    title: "D Major String Check",
+    purpose: "Check every string individually.",
+    objective: "Identify muted or buzzing strings.",
+    instructionSteps: [
+      "Form D major.",
+      "Pick each string individually.",
+      "If one buzzes, identify the finger causing it.",
+      "Correct only that finger.",
+      "Repeat."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "All intended strings ring clearly.",
+    definitionOfDone: "All intended strings ring clearly.",
+    commonMistakes: [
+      "Strumming without checking individual strings",
+      "Accidentally hitting the low E string",
+      "Moving the whole hand instead of one finger"
+    ],
+    chordNames: ["D"],
+    skillIds: ["skill-open-chords"]
+  },
+  {
+    id: "exercise-open-chords-4-build-d-slowly",
+    title: "Build D Slowly",
+    purpose: "Develop accurate finger placement.",
+    objective: "Build the chord with control.",
+    instructionSteps: [
+      "Place the first finger.",
+      "Check the note.",
+      "Add the second finger.",
+      "Check again.",
+      "Add the third finger.",
+      "Play each string."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can consistently build a clean D chord.",
+    definitionOfDone: "You can consistently build a clean D chord.",
+    commonMistakes: [
+      "Trying to place all fingers together",
+      "Looking away before checking the strings",
+      "Rushing"
+    ],
+    chordNames: ["D"],
+    skillIds: ["skill-open-chords"]
+  },
+  {
+    id: "exercise-open-chords-4-g-to-d-changes",
+    title: "G to D Changes",
+    purpose: "Introduce movement between familiar and new chords.",
+    objective: "Maintain rhythm while changing chords.",
+    instructionSteps: [
+      "Play G for four beats.",
+      "Change to D.",
+      "Repeat."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Mostly clean transitions while staying in time.",
+    definitionOfDone: "Mostly clean transitions while staying in time.",
+    commonMistakes: [
+      "Lifting fingers too high",
+      "Pausing before changing",
+      "Losing the beat"
+    ],
+    chordNames: ["G", "D"],
+    skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+  },
+  {
+    id: "exercise-open-chords-4-c-to-d-changes",
+    title: "C to D Changes",
+    purpose: "Develop another common chord transition.",
+    objective: "Move efficiently between C and D.",
+    instructionSteps: [
+      "Play four beats of C.",
+      "Play four beats of D.",
+      "Continue at 60 BPM."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Smooth transitions with mostly clean chords.",
+    definitionOfDone: "Smooth transitions with mostly clean chords.",
+    commonMistakes: [
+      "Watching only one finger",
+      "Moving too quickly",
+      "Forgetting correct string selection"
+    ],
+    chordNames: ["C", "D"],
+    skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+  },
+  {
+    id: "exercise-open-chords-4-random-chord-builder",
+    title: "Random Chord Builder",
+    purpose: "Improve chord recall.",
+    objective: "Build G, C or D on command.",
+    instructionSteps: [
+      "Randomly choose G, C or D.",
+      "Build the chord.",
+      "Check every string.",
+      "Repeat."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "All three chords can be built confidently.",
+    definitionOfDone: "All three chords can be built confidently.",
+    commonMistakes: [
+      "Hesitation",
+      "Incorrect finger order",
+      "Rushing into the next chord"
+    ],
+    chordNames: ["G", "C", "D"],
+    skillIds: ["skill-open-chords", "skill-chord-changes"]
+  },
+  {
+    id: "exercise-open-chords-4-clean-chord-review",
+    title: "Clean Chord Review",
+    purpose: "Consolidate today’s learning.",
+    objective: "Play G, C and D with consistent quality.",
+    instructionSteps: [
+      "Alternate between all three chords slowly.",
+      "Check every string.",
+      "Fix one problem at a time.",
+      "Keep the movement relaxed."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Each chord sounds clean and confident.",
+    definitionOfDone: "Each chord sounds clean and confident.",
+    commonMistakes: [
+      "Ignoring string selection",
+      "Strumming over muted notes",
+      "Rushing the review"
+    ],
+    chordNames: ["G", "C", "D"],
+    skillIds: ["skill-open-chords", "skill-chord-changes"]
+  }
+].forEach((exercise) => {
+  upsertAcademyItem("exercises", {
+    ...exercise,
+    lessonId: "lesson-open-chords-4",
+    instructions: exercise.instructionSteps.join(" "),
+    mediaLinks: [],
+    completed: false
+  });
+});
+
+upsertAcademyItem("checkpoints", {
+  id: "checkpoint-open-chords-4",
+  lessonId: "lesson-open-chords-4",
+  title: "D Major Foundations",
+  purpose: "Pass if D major rings clearly, G, C and D can all be built confidently, chord changes remain mostly clean, and Rob understands correct string selection.",
+  requirements: [
+    "D major rings clearly",
+    "G, C and D can all be built confidently",
+    "Chord changes remain mostly clean",
+    "You understand which strings should and should not be played"
+  ],
+  passRule: "Pass if D major rings clearly, G, C and D can all be built confidently, chord changes remain mostly clean, and Rob understands correct string selection.",
+  completed: false
+});
+
+const lessonFiveExerciseIds = [
+  "exercise-open-chords-5-three-chord-warm-up",
+  "exercise-open-chords-5-four-beat-progression",
+  "exercise-open-chords-5-two-beat-progression",
+  "exercise-open-chords-5-one-beat-progression",
+  "exercise-open-chords-5-recovery-practice",
+  "exercise-open-chords-5-dynamic-control",
+  "exercise-open-chords-5-continuous-performance"
+];
+
+upsertAcademyItem("lessons", {
+  id: "lesson-open-chords-5",
+  missionId: "mission-open-chord-foundations",
+  lessonNumber: 5,
+  title: "Three-Chord Movement",
+  description: "Develop smooth movement between G, C and D while maintaining steady rhythm.",
+  objectiveHeading: "Lesson Goal",
+  objective: "Develop smooth movement between G, C and D while maintaining steady rhythm.",
+  whyThisLesson: "Knowing chord shapes isn’t enough. Songs require continuous movement between chords while keeping time. Today you’ll begin playing like a rhythm guitarist instead of practising isolated chords.",
+  estimatedMinutes: 35,
+  skillIds: [
+    "skill-open-chords",
+    "skill-chord-changes",
+    "skill-rhythm",
+    "skill-strumming",
+    "skill-timing",
+    "skill-song-performance"
+  ],
+  exercises: lessonFiveExerciseIds,
+  checkpoint: "checkpoint-open-chords-5",
+  completed: false,
+  missionContext: "This lesson turns G, C and D into continuous rhythm guitar movement.",
+  why: "Knowing chord shapes isn’t enough. Songs require continuous movement between chords while keeping time.",
+  watch: {
+    title: "How three-chord rhythm movement works",
+    provider: "YouTube",
+    url: "",
+    note: "Add a video later showing G-C-D movement with recovery from mistakes.",
+    mediaLinks: []
+  },
+  listen: {
+    title: "Teach Rob to listen for",
+    items: [
+      "steady pulse",
+      "smooth transitions",
+      "recovery after mistakes",
+      "volume changes that do not disturb timing",
+      "chords that land late"
+    ]
+  },
+  coachNotes: [
+    "Mistakes happen.",
+    "Your job is not to stop them — your job is to recover without stopping the rhythm.",
+    "Keep the beat moving even when the chord is imperfect."
+  ],
+  definitionOfDone: [
+    "You can move between G, C and D without stopping.",
+    "Rhythm remains steady.",
+    "Most chord changes are clean.",
+    "You recover from mistakes instead of restarting."
+  ],
+  commonMistakes: [
+    "Stopping immediately after a mistake.",
+    "Restarting every mistake.",
+    "Letting volume changes affect rhythm.",
+    "Starting too fast."
+  ],
+  performanceTest: {
+    title: "Three-Chord Performance",
+    requirements: [
+      "You can move between G, C and D without stopping",
+      "Rhythm remains steady",
+      "Most chord changes are clean",
+      "You recover from mistakes instead of restarting"
+    ],
+    passRule: "Pass if Rob can move between G, C and D without stopping, keep rhythm steady, make mostly clean changes, and recover from mistakes instead of restarting."
+  },
+  practiceJournal: [
+    "Which transition now feels easiest?",
+    "Which still needs work?",
+    "Did you recover from mistakes more naturally today?",
+    "What would you like to improve before the next lesson?"
+  ],
+  recommendedSongs: [
+    {
+      title: "Wild Thing",
+      artist: "The Troggs",
+      note: "Excellent for repeated G-C-D movement."
+    },
+    {
+      title: "La Bamba",
+      artist: "Ritchie Valens",
+      note: "Simple, repetitive three-chord progression."
+    },
+    {
+      title: "Leaving on a Jet Plane",
+      artist: "John Denver",
+      note: "Reinforces smooth open chord transitions."
+    }
+  ]
+});
+
+[
+  {
+    id: "exercise-open-chords-5-three-chord-warm-up",
+    title: "Three-Chord Warm-up",
+    purpose: "Reconnect with all three chords.",
+    objective: "Play each chord cleanly.",
+    instructionSteps: [
+      "Play G, C and D individually.",
+      "Check every string before moving on."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "All three chords sound clean.",
+    definitionOfDone: "All three chords sound clean.",
+    commonMistakes: [
+      "Rushing",
+      "Ignoring muted strings",
+      "Starting too fast"
+    ],
+    chordNames: ["G", "C", "D"],
+    skillIds: ["skill-open-chords", "skill-timing"]
+  },
+  {
+    id: "exercise-open-chords-5-four-beat-progression",
+    title: "Four Beat Progression",
+    purpose: "Build confidence changing between all three chords.",
+    objective: "Maintain rhythm.",
+    instructionSteps: [
+      "Play G, C, D, then G.",
+      "Use four beats for each chord.",
+      "Complete several cycles without stopping."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Complete several cycles without stopping.",
+    definitionOfDone: "Complete several cycles without stopping.",
+    commonMistakes: [
+      "Stopping between chords",
+      "Rushing D",
+      "Forgetting to recover after mistakes"
+    ],
+    chordNames: ["G", "C", "D"],
+    skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+  },
+  {
+    id: "exercise-open-chords-5-two-beat-progression",
+    title: "Two Beat Progression",
+    purpose: "Increase transition speed.",
+    objective: "Reduce hesitation.",
+    instructionSteps: [
+      "Play the same G, C, D, G progression.",
+      "Use two beats per chord.",
+      "Stay relaxed and in time."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Remain in time with mostly clean changes.",
+    definitionOfDone: "Remain in time with mostly clean changes.",
+    commonMistakes: [
+      "Tensing up",
+      "Losing the beat",
+      "Moving before the next chord is prepared"
+    ],
+    chordNames: ["G", "C", "D"],
+    skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+  },
+  {
+    id: "exercise-open-chords-5-one-beat-progression",
+    title: "One Beat Progression",
+    purpose: "Develop efficient chord movement.",
+    objective: "Change chords every beat.",
+    instructionSteps: [
+      "Continue the G, C, D, G progression.",
+      "Change chords every beat.",
+      "Keep relaxed hands."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Maintain rhythm even if every change isn’t perfect.",
+    definitionOfDone: "Maintain rhythm even if every change isn’t perfect.",
+    commonMistakes: [
+      "Expecting perfection",
+      "Stopping after a rough chord",
+      "Letting the strumming hand freeze"
+    ],
+    chordNames: ["G", "C", "D"],
+    skillIds: ["skill-chord-changes", "skill-rhythm", "skill-timing"]
+  },
+  {
+    id: "exercise-open-chords-5-recovery-practice",
+    title: "Recovery Practice",
+    purpose: "Learn to continue after mistakes.",
+    objective: "Never stop the rhythm.",
+    instructionSteps: [
+      "If a chord is wrong, continue strumming.",
+      "Correct it during the next change.",
+      "Do not restart the progression."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Recover naturally without restarting.",
+    definitionOfDone: "Recover naturally without restarting.",
+    commonMistakes: [
+      "Stopping immediately",
+      "Looking frustrated",
+      "Restarting every mistake"
+    ],
+    chordNames: ["G", "C", "D"],
+    skillIds: ["skill-rhythm", "skill-song-performance"]
+  },
+  {
+    id: "exercise-open-chords-5-dynamic-control",
+    title: "Dynamic Control",
+    purpose: "Develop control over volume.",
+    objective: "Maintain rhythm while changing dynamics.",
+    instructionSteps: [
+      "Play the G, C, D, G progression softly.",
+      "Play it at medium volume.",
+      "Play it loudly.",
+      "Return to medium volume.",
+      "Keep steady timing."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Volume changes without affecting rhythm.",
+    definitionOfDone: "Volume changes without affecting rhythm.",
+    commonMistakes: [
+      "Speeding up when playing louder",
+      "Losing clarity when playing softly",
+      "Changing volume with tension"
+    ],
+    chordNames: ["G", "C", "D"],
+    skillIds: ["skill-rhythm", "skill-strumming", "skill-timing"]
+  },
+  {
+    id: "exercise-open-chords-5-continuous-performance",
+    title: "Continuous Performance",
+    purpose: "Bring today’s skills together.",
+    objective: "Play continuously for five minutes.",
+    instructionSteps: [
+      "Continue moving between G, C and D.",
+      "Stay relaxed.",
+      "Keep the beat.",
+      "Recover from mistakes.",
+      "Focus on enjoying the movement rather than perfection."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Five minutes of continuous playing with confident recovery from mistakes.",
+    definitionOfDone: "Five minutes of continuous playing with confident recovery from mistakes.",
+    commonMistakes: [
+      "Restarting after mistakes",
+      "Forgetting to breathe",
+      "Chasing perfection instead of continuity"
+    ],
+    chordNames: ["G", "C", "D"],
+    skillIds: ["skill-chord-changes", "skill-rhythm", "skill-strumming", "skill-timing", "skill-song-performance"]
+  }
+].forEach((exercise) => {
+  upsertAcademyItem("exercises", {
+    ...exercise,
+    lessonId: "lesson-open-chords-5",
+    instructions: exercise.instructionSteps.join(" "),
+    mediaLinks: [],
+    completed: false
+  });
+});
+
+upsertAcademyItem("checkpoints", {
+  id: "checkpoint-open-chords-5",
+  lessonId: "lesson-open-chords-5",
+  title: "Three-Chord Performance",
+  purpose: "Pass if Rob can move between G, C and D without stopping, keep rhythm steady, make mostly clean changes, and recover from mistakes instead of restarting.",
+  requirements: [
+    "You can move between G, C and D without stopping",
+    "Rhythm remains steady",
+    "Most chord changes are clean",
+    "You recover from mistakes instead of restarting"
+  ],
+  passRule: "Pass if Rob can move between G, C and D without stopping, keep rhythm steady, make mostly clean changes, and recover from mistakes instead of restarting.",
   completed: false
 });
 

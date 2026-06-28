@@ -1,6 +1,10 @@
 const storageKey = "guitar-room-songbook";
 const academyUserId = "rob";
-const initialRoute = parseRoute();
+const initialRoute = {
+  view: "home",
+  ids: { missionId: null, lessonId: null, exerciseId: null, checkpointId: null }
+};
+if (location.hash) history.replaceState(null, "", `${location.pathname}${location.search}`);
 registerServiceWorker();
 const academyProgressService = createAcademyProgressService({
   supabase: createSupabaseClient(readSupabaseConfig()),
@@ -25,10 +29,28 @@ const state = {
   academyProgressError: "",
   progressTransferMessage: "",
   progressTransferError: false,
+  exerciseNotesMessage: "",
+  reflectionMessage: "",
+  coachingSummaryMessage: "",
+  timerExerciseId: null,
+  timerRemainingSeconds: 0,
+  timerRunning: false,
+  timerInterval: null,
+  metronomeExerciseId: null,
+  metronomeBpm: null,
+  metronomeRunning: false,
+  metronomeInterval: null,
+  metronomeAudioContext: null,
+  metronomePulseOn: false,
   chartSize: Number(localStorage.getItem("guitar-room-chart-size")) || 17
 };
 
 const els = {
+  navDashboardButton: document.getElementById("navDashboardButton"),
+  navAcademyButton: document.getElementById("navAcademyButton"),
+  navNotesButton: document.getElementById("navNotesButton"),
+  navSettingsButton: document.getElementById("navSettingsButton"),
+  globalSyncStatus: document.getElementById("globalSyncStatus"),
   academyContinue: document.getElementById("academyContinue"),
   libraryOpen: document.getElementById("libraryOpen"),
   academyHomeButton: document.getElementById("academyHomeButton"),
@@ -46,20 +68,25 @@ const els = {
   dashboardMissionProgressBar: document.getElementById("dashboardMissionProgressBar"),
   dashboardMissionStatus: document.getElementById("dashboardMissionStatus"),
   dashboardMissionEstimate: document.getElementById("dashboardMissionEstimate"),
+  dashboardLessonsCompleted: document.getElementById("dashboardLessonsCompleted"),
+  dashboardExercisesCompleted: document.getElementById("dashboardExercisesCompleted"),
   dashboardNextStep: document.getElementById("dashboardNextStep"),
   dashboardCurrentPhase: document.getElementById("dashboardCurrentPhase"),
   dashboardOverallProgress: document.getElementById("dashboardOverallProgress"),
   dashboardOverallProgressBar: document.getElementById("dashboardOverallProgressBar"),
   academyRoadmap: document.getElementById("academyRoadmap"),
+  academyRoadmapBackButton: document.getElementById("academyRoadmapBackButton"),
   academySyncStatus: document.getElementById("academySyncStatus"),
   syncNowButton: document.getElementById("syncNowButton"),
   exportProgressButton: document.getElementById("exportProgressButton"),
   importProgressInput: document.getElementById("importProgressInput"),
   progressTransferStatus: document.getElementById("progressTransferStatus"),
+  missionHomeButton: document.getElementById("missionHomeButton"),
   missionBackButton: document.getElementById("missionBackButton"),
   missionLibraryButton: document.getElementById("missionLibraryButton"),
   missionSecondaryBackButton: document.getElementById("missionSecondaryBackButton"),
   startLessonButton: document.getElementById("startLessonButton"),
+  lessonHomeButton: document.getElementById("lessonHomeButton"),
   lessonMissionName: document.getElementById("lessonMissionName"),
   lessonTitle: document.getElementById("lessonTitle"),
   lessonMeta: document.getElementById("lessonMeta"),
@@ -69,29 +96,65 @@ const els = {
   lessonExerciseProgress: document.getElementById("lessonExerciseProgress"),
   lessonExerciseProgressBar: document.getElementById("lessonExerciseProgressBar"),
   lessonExercises: document.getElementById("lessonExercises"),
-  lessonCheckpointTitle: document.getElementById("lessonCheckpointTitle"),
-  lessonCheckpointRequirements: document.getElementById("lessonCheckpointRequirements"),
+  reflectionEasiest: document.getElementById("reflectionEasiest"),
+  reflectionWork: document.getElementById("reflectionWork"),
+  reflectionNotice: document.getElementById("reflectionNotice"),
+  reflectionFocus: document.getElementById("reflectionFocus"),
+  saveReflectionButton: document.getElementById("saveReflectionButton"),
+  reflectionStatus: document.getElementById("reflectionStatus"),
   lessonBackButton: document.getElementById("lessonBackButton"),
   finishLessonButton: document.getElementById("finishLessonButton"),
-  startCheckpointButton: document.getElementById("startCheckpointButton"),
+  exerciseHomeButton: document.getElementById("exerciseHomeButton"),
   exerciseLessonName: document.getElementById("exerciseLessonName"),
   exerciseTitle: document.getElementById("exerciseTitle"),
   exerciseMeta: document.getElementById("exerciseMeta"),
   exerciseObjective: document.getElementById("exerciseObjective"),
   exerciseInstructions: document.getElementById("exerciseInstructions"),
   exercisePassCriteria: document.getElementById("exercisePassCriteria"),
+  exerciseMistakesCard: document.getElementById("exerciseMistakesCard"),
+  exerciseCommonMistakes: document.getElementById("exerciseCommonMistakes"),
+  exerciseChordsCard: document.getElementById("exerciseChordsCard"),
+  exerciseChordDiagrams: document.getElementById("exerciseChordDiagrams"),
   exerciseBackButton: document.getElementById("exerciseBackButton"),
   nextExerciseButton: document.getElementById("nextExerciseButton"),
+  exerciseTimerDisplay: document.getElementById("exerciseTimerDisplay"),
   startTimerButton: document.getElementById("startTimerButton"),
-  markExerciseCompleteButton: document.getElementById("markExerciseCompleteButton"),
+  pauseTimerButton: document.getElementById("pauseTimerButton"),
+  resetTimerButton: document.getElementById("resetTimerButton"),
+  metronomeCard: document.getElementById("metronomeCard"),
+  metronomeBpm: document.getElementById("metronomeBpm"),
+  metronomePulse: document.getElementById("metronomePulse"),
+  startMetronomeButton: document.getElementById("startMetronomeButton"),
+  pauseMetronomeButton: document.getElementById("pauseMetronomeButton"),
+  resetMetronomeButton: document.getElementById("resetMetronomeButton"),
+  nailedItButton: document.getElementById("nailedItButton"),
+  needsPracticeButton: document.getElementById("needsPracticeButton"),
+  exercisePrimaryActionButton: document.getElementById("exercisePrimaryActionButton"),
   exerciseCompletionStatus: document.getElementById("exerciseCompletionStatus"),
+  exerciseNotesInput: document.getElementById("exerciseNotesInput"),
+  saveExerciseNotesButton: document.getElementById("saveExerciseNotesButton"),
+  exerciseNotesStatus: document.getElementById("exerciseNotesStatus"),
   checkpointTitle: document.getElementById("checkpointTitle"),
   checkpointLessonTitle: document.getElementById("checkpointLessonTitle"),
   checkpointPurpose: document.getElementById("checkpointPurpose"),
   checkpointRequirements: document.getElementById("checkpointRequirements"),
   checkpointSuccessMessage: document.getElementById("checkpointSuccessMessage"),
+  lessonSummaryCard: document.getElementById("lessonSummaryCard"),
+  lessonSummaryStats: document.getElementById("lessonSummaryStats"),
+  recommendedSongs: document.getElementById("recommendedSongs"),
+  continueNextLessonButton: document.getElementById("continueNextLessonButton"),
+  reviewExercisesButton: document.getElementById("reviewExercisesButton"),
+  summaryNotesButton: document.getElementById("summaryNotesButton"),
+  summaryDashboardButton: document.getElementById("summaryDashboardButton"),
+  checkpointHomeButton: document.getElementById("checkpointHomeButton"),
   checkpointBackButton: document.getElementById("checkpointBackButton"),
   checkpointDashboardButton: document.getElementById("checkpointDashboardButton"),
+  notesBackButton: document.getElementById("notesBackButton"),
+  notesSearchInput: document.getElementById("notesSearchInput"),
+  copyCoachingSummaryButton: document.getElementById("copyCoachingSummaryButton"),
+  coachingSummaryStatus: document.getElementById("coachingSummaryStatus"),
+  practiceNotesList: document.getElementById("practiceNotesList"),
+  settingsBackButton: document.getElementById("settingsBackButton"),
   missionBriefTitle: document.getElementById("missionBriefTitle"),
   missionBriefSubtitle: document.getElementById("missionBriefSubtitle"),
   missionEstimatedCompletion: document.getElementById("missionEstimatedCompletion"),
@@ -139,15 +202,19 @@ applyView();
 render();
 initializeAcademyProgress();
 
+els.navDashboardButton.addEventListener("click", () => setView("academy"));
+els.navAcademyButton.addEventListener("click", () => setView("academy-roadmap"));
+els.navNotesButton.addEventListener("click", () => setView("notes"));
+els.navSettingsButton.addEventListener("click", () => setView("settings"));
 els.academyContinue.addEventListener("click", () => setView("academy"));
 els.libraryOpen.addEventListener("click", () => setView("library"));
-els.academyHomeButton.addEventListener("click", () => setView("home"));
-els.academyLibraryButton.addEventListener("click", () => setView("library"));
+els.academyHomeButton?.addEventListener("click", () => setView("academy"));
+els.academyLibraryButton?.addEventListener("click", () => setView("library"));
 els.continueMissionButton.addEventListener("click", continueMission);
-els.resumeLearningButton.addEventListener("click", resumeLearning);
+els.resumeLearningButton?.addEventListener("click", resumeLearning);
 els.resetAcademyProgressButton.addEventListener("click", resetAcademyProgress);
-els.exportProgressButton.addEventListener("click", exportProgress);
-els.importProgressInput.addEventListener("change", importProgress);
+els.exportProgressButton?.addEventListener("click", exportProgress);
+els.importProgressInput?.addEventListener("change", importProgress);
 els.academyRoadmap.addEventListener("click", (event) => {
   const button = event.target.closest("[data-mission-id]");
   if (!button || button.disabled) return;
@@ -155,34 +222,56 @@ els.academyRoadmap.addEventListener("click", (event) => {
   setActiveMission(state.selectedMissionId).then(() => render());
   setView("mission", state.selectedMissionId);
 });
+els.academyRoadmapBackButton.addEventListener("click", () => setView("academy"));
 els.syncNowButton.addEventListener("click", syncPendingProgress);
-els.missionBackButton.addEventListener("click", () => setView("academy"));
-els.missionLibraryButton.addEventListener("click", () => setView("library"));
+els.missionHomeButton.addEventListener("click", () => setView("academy"));
+els.missionBackButton.addEventListener("click", () => setView("academy-roadmap"));
+els.missionLibraryButton?.addEventListener("click", () => setView("library"));
 els.missionSecondaryBackButton.addEventListener("click", () => setView("academy"));
 els.startLessonButton.addEventListener("click", () => setView("lesson", firstLessonForMission(currentMission())?.id));
+els.lessonHomeButton.addEventListener("click", () => setView("academy"));
 els.lessonBackButton.addEventListener("click", () => setView("mission", currentMissionForLesson()?.id));
-els.startCheckpointButton.addEventListener("click", () => setView("checkpoint", currentCheckpoint()?.id));
 els.lessonExercises.addEventListener("click", (event) => {
   const button = event.target.closest("[data-exercise-id]");
   if (!button) return;
   state.selectedExerciseId = button.dataset.exerciseId;
   setView("exercise");
 });
+els.saveReflectionButton.addEventListener("click", saveCurrentLessonReflection);
+els.exerciseHomeButton.addEventListener("click", () => setView("academy"));
 els.exerciseBackButton.addEventListener("click", () => setView("lesson", currentLesson()?.id));
 els.nextExerciseButton.addEventListener("click", goToNextExercise);
-els.startTimerButton.addEventListener("click", () => setView("exercise"));
-els.markExerciseCompleteButton.addEventListener("click", markCurrentExerciseComplete);
+els.startTimerButton.addEventListener("click", startExerciseTimer);
+els.pauseTimerButton.addEventListener("click", pauseExerciseTimer);
+els.resetTimerButton.addEventListener("click", resetExerciseTimer);
+els.startMetronomeButton.addEventListener("click", startMetronome);
+els.pauseMetronomeButton.addEventListener("click", pauseMetronome);
+els.resetMetronomeButton.addEventListener("click", resetMetronome);
+els.nailedItButton.addEventListener("click", markCurrentExerciseNailed);
+els.needsPracticeButton.addEventListener("click", markCurrentExerciseNeedsPractice);
+els.exercisePrimaryActionButton.addEventListener("click", goToNextExercise);
+els.saveExerciseNotesButton.addEventListener("click", saveCurrentExerciseNotes);
 document.querySelector(".assessment-options").addEventListener("click", async (event) => {
   const button = event.target.closest("[data-assessment]");
   if (!button) return;
   const checkpoint = currentCheckpoint();
   if (!checkpoint) return;
   await saveCheckpointResult(checkpoint.id, button.dataset.assessment);
+  if (button.dataset.assessment === "passed") await markLessonComplete(currentLesson()?.id);
   render();
 });
+els.checkpointHomeButton.addEventListener("click", () => setView("academy"));
 els.checkpointBackButton.addEventListener("click", () => setView("lesson", currentLesson()?.id));
 els.checkpointDashboardButton.addEventListener("click", () => setView("academy"));
+els.notesBackButton.addEventListener("click", () => setView("academy"));
+els.settingsBackButton.addEventListener("click", () => setView("academy"));
 els.libraryHomeButton.addEventListener("click", () => setView("home"));
+els.notesSearchInput.addEventListener("input", renderPracticeNotesPage);
+els.copyCoachingSummaryButton.addEventListener("click", copyCoachingSummary);
+els.continueNextLessonButton.addEventListener("click", continueToNextLesson);
+els.reviewExercisesButton.addEventListener("click", openFirstReviewExercise);
+els.summaryNotesButton.addEventListener("click", () => setView("notes"));
+els.summaryDashboardButton.addEventListener("click", () => setView("academy"));
 window.addEventListener("hashchange", () => {
   const route = parseRoute();
   syncStateFromRoute(route);
@@ -207,6 +296,10 @@ els.fontDown.addEventListener("click", () => changeChartSize(-1));
 els.fontUp.addEventListener("click", () => changeChartSize(1));
 
 function setView(view, id = null) {
+  if (view !== "exercise") {
+    pauseExerciseTimer();
+    pauseMetronome();
+  }
   state.view = view;
   updateSelectionForView(view, id);
   ensureAcademySelection();
@@ -219,11 +312,22 @@ function setView(view, id = null) {
 function applyView() {
   document.body.classList.toggle("view-home", state.view === "home");
   document.body.classList.toggle("view-academy", state.view === "academy");
+  document.body.classList.toggle("view-academy-roadmap", state.view === "academy-roadmap");
   document.body.classList.toggle("view-mission", state.view === "mission");
   document.body.classList.toggle("view-lesson", state.view === "lesson");
   document.body.classList.toggle("view-exercise", state.view === "exercise");
   document.body.classList.toggle("view-checkpoint", state.view === "checkpoint");
+  document.body.classList.toggle("view-notes", state.view === "notes");
+  document.body.classList.toggle("view-settings", state.view === "settings");
   document.body.classList.toggle("view-library", state.view === "library");
+  document.querySelectorAll(".top-nav-actions button").forEach((button) => button.classList.remove("active"));
+  const activeButton = {
+    academy: els.navDashboardButton,
+    "academy-roadmap": els.navAcademyButton,
+    notes: els.navNotesButton,
+    settings: els.navSettingsButton
+  }[state.view];
+  activeButton?.classList.add("active");
 }
 
 function loadSongs() {
@@ -314,6 +418,10 @@ function createSupabaseClient({ url, anonKey }) {
 function createAcademyProgressService({ supabase, userId, isOnline }) {
   const resumeLocationKey = "__resume_learning";
   const journalDataKey = "__journal_data";
+  const reviewExerciseIdsKey = "__review_exercise_ids";
+  const exerciseNotesKey = "__exercise_notes";
+  const lessonReflectionsKey = "__lesson_reflections";
+  const completedLessonIdsKey = "__completed_lesson_ids";
   const progress = emptyProgress();
   let pendingChanges = false;
 
@@ -323,7 +431,12 @@ function createAcademyProgressService({ supabase, userId, isOnline }) {
       completedExerciseIds: new Set(progress.completedExerciseIds),
       checkpointResults: new Map(progress.checkpointResults),
       journalData: new Map(progress.journalData),
-      currentLocation: progress.currentLocation ? { ...progress.currentLocation } : null
+      reviewExerciseIds: new Set(progress.reviewExerciseIds),
+      exerciseNotes: new Map(progress.exerciseNotes),
+      lessonReflections: new Map(progress.lessonReflections),
+      completedLessonIds: new Set(progress.completedLessonIds),
+      currentLocation: progress.currentLocation ? { ...progress.currentLocation } : null,
+      updatedAt: progress.updatedAt
     };
   }
 
@@ -333,14 +446,24 @@ function createAcademyProgressService({ supabase, userId, isOnline }) {
     progress.completedExerciseIds = new Set(Array.isArray(row?.completed_exercise_ids) ? row.completed_exercise_ids : []);
     progress.currentLocation = checkpointResults[resumeLocationKey] || null;
     progress.journalData = new Map(Object.entries(checkpointResults[journalDataKey] || {}));
-    const entries = Object.entries(checkpointResults).filter(([key]) => ![resumeLocationKey, journalDataKey].includes(key));
+    progress.reviewExerciseIds = new Set(Array.isArray(checkpointResults[reviewExerciseIdsKey]) ? checkpointResults[reviewExerciseIdsKey] : []);
+    progress.exerciseNotes = new Map(Object.entries(checkpointResults[exerciseNotesKey] || {}));
+    progress.lessonReflections = new Map(Object.entries(checkpointResults[lessonReflectionsKey] || {}));
+    progress.completedLessonIds = new Set(Array.isArray(checkpointResults[completedLessonIdsKey]) ? checkpointResults[completedLessonIdsKey] : []);
+    const internalKeys = [resumeLocationKey, journalDataKey, reviewExerciseIdsKey, exerciseNotesKey, lessonReflectionsKey, completedLessonIdsKey];
+    const entries = Object.entries(checkpointResults).filter(([key]) => !internalKeys.includes(key));
     progress.checkpointResults = new Map(entries);
+    progress.updatedAt = row?.updated_at || null;
   }
 
   function checkpointResultsPayload() {
     const payload = Object.fromEntries(progress.checkpointResults);
     if (progress.currentLocation) payload[resumeLocationKey] = progress.currentLocation;
     if (progress.journalData.size) payload[journalDataKey] = Object.fromEntries(progress.journalData);
+    if (progress.reviewExerciseIds.size) payload[reviewExerciseIdsKey] = Array.from(progress.reviewExerciseIds);
+    if (progress.exerciseNotes.size) payload[exerciseNotesKey] = Object.fromEntries(progress.exerciseNotes);
+    if (progress.lessonReflections.size) payload[lessonReflectionsKey] = Object.fromEntries(progress.lessonReflections);
+    if (progress.completedLessonIds.size) payload[completedLessonIdsKey] = Array.from(progress.completedLessonIds);
     return payload;
   }
 
@@ -349,7 +472,12 @@ function createAcademyProgressService({ supabase, userId, isOnline }) {
     progress.completedExerciseIds = new Set(importedProgress.completedExerciseIds || []);
     progress.checkpointResults = new Map(Object.entries(importedProgress.checkpointResults || {}));
     progress.journalData = new Map(Object.entries(importedProgress.journalData || {}));
+    progress.reviewExerciseIds = new Set(importedProgress.reviewExerciseIds || []);
+    progress.exerciseNotes = new Map(Object.entries(importedProgress.exerciseNotes || {}));
+    progress.lessonReflections = new Map(Object.entries(importedProgress.lessonReflections || {}));
+    progress.completedLessonIds = new Set(importedProgress.completedLessonIds || []);
     progress.currentLocation = importedProgress.currentLocation ? { ...importedProgress.currentLocation } : null;
+    progress.updatedAt = new Date().toISOString();
   }
 
   async function load() {
@@ -426,6 +554,7 @@ function createAcademyProgressService({ supabase, userId, isOnline }) {
     },
     async markExerciseComplete(exerciseId) {
       progress.completedExerciseIds.add(exerciseId);
+      progress.reviewExerciseIds.delete(exerciseId);
       return persistOrQueue();
     },
     async unmarkExerciseComplete(exerciseId) {
@@ -434,6 +563,33 @@ function createAcademyProgressService({ supabase, userId, isOnline }) {
     },
     getCompletedExercises() {
       return new Set(progress.completedExerciseIds);
+    },
+    async markExerciseForReview(exerciseId) {
+      progress.completedExerciseIds.delete(exerciseId);
+      progress.reviewExerciseIds.add(exerciseId);
+      return persistOrQueue();
+    },
+    async clearExerciseReview(exerciseId) {
+      progress.reviewExerciseIds.delete(exerciseId);
+      return persistOrQueue();
+    },
+    getReviewExercises() {
+      return new Set(progress.reviewExerciseIds);
+    },
+    async saveExerciseNote(exerciseId, note) {
+      const trimmed = String(note || "").trim();
+      if (trimmed) progress.exerciseNotes.set(exerciseId, trimmed);
+      else progress.exerciseNotes.delete(exerciseId);
+      return persistOrQueue();
+    },
+    async saveLessonReflection(lessonId, reflection) {
+      progress.lessonReflections.set(lessonId, reflection || {});
+      return persistOrQueue();
+    },
+    async markLessonComplete(lessonId) {
+      if (!lessonId) return snapshot();
+      progress.completedLessonIds.add(lessonId);
+      return persistOrQueue();
     },
     async saveCheckpointResult(checkpointId, result) {
       progress.checkpointResults.set(checkpointId, result);
@@ -447,6 +603,10 @@ function createAcademyProgressService({ supabase, userId, isOnline }) {
       progress.completedExerciseIds.clear();
       progress.checkpointResults.clear();
       progress.journalData.clear();
+      progress.reviewExerciseIds.clear();
+      progress.exerciseNotes.clear();
+      progress.lessonReflections.clear();
+      progress.completedLessonIds.clear();
       progress.currentLocation = null;
       return persistOrQueue();
     },
@@ -468,7 +628,12 @@ function emptyProgress() {
     completedExerciseIds: new Set(),
     checkpointResults: new Map(),
     journalData: new Map(),
-    currentLocation: null
+    reviewExerciseIds: new Set(),
+    exerciseNotes: new Map(),
+    lessonReflections: new Map(),
+    completedLessonIds: new Set(),
+    currentLocation: null,
+    updatedAt: null
   };
 }
 
@@ -479,13 +644,13 @@ async function initializeAcademyProgress() {
   try {
     const result = await academyProgressService.load();
     state.academyProgressError = result.error || "";
-    if (result.progress.activeMissionId && !Object.values(initialRoute.ids).some(Boolean)) {
+    if (result.progress.activeMissionId) {
       state.selectedMissionId = result.progress.activeMissionId;
       state.selectedLessonId = null;
       state.selectedExerciseId = null;
       state.selectedCheckpointId = null;
     }
-    if (result.progress.currentLocation && !Object.values(initialRoute.ids).some(Boolean)) {
+    if (result.progress.currentLocation && Object.values(initialRoute.ids).some(Boolean)) {
       state.selectedMissionId = result.progress.currentLocation.missionId || state.selectedMissionId;
       state.selectedLessonId = result.progress.currentLocation.lessonId || null;
       state.selectedExerciseId = result.progress.currentLocation.exerciseId || null;
@@ -544,6 +709,26 @@ async function unmarkExerciseComplete(exerciseId) {
 
 function getCompletedExercises() {
   return academyProgressService.getCompletedExercises();
+}
+
+async function markExerciseForReview(exerciseId) {
+  return runProgressSave(() => academyProgressService.markExerciseForReview(exerciseId));
+}
+
+function getReviewExercises() {
+  return academyProgressService.getReviewExercises();
+}
+
+async function saveExerciseNote(exerciseId, note) {
+  return runProgressSave(() => academyProgressService.saveExerciseNote(exerciseId, note));
+}
+
+async function saveLessonReflection(lessonId, reflection) {
+  return runProgressSave(() => academyProgressService.saveLessonReflection(lessonId, reflection));
+}
+
+async function markLessonComplete(lessonId) {
+  return runProgressSave(() => academyProgressService.markLessonComplete(lessonId));
 }
 
 async function saveCheckpointResult(checkpointId, result) {
@@ -668,6 +853,10 @@ function serializeProgressForExport() {
     currentLessonId: progress.currentLocation?.lessonId || null,
     currentExerciseId: progress.currentLocation?.exerciseId || null,
     completedExerciseIds: Array.from(progress.completedExerciseIds),
+    reviewExerciseIds: Array.from(progress.reviewExerciseIds || []),
+    exerciseNotes: Object.fromEntries(progress.exerciseNotes || new Map()),
+    lessonReflections: Object.fromEntries(progress.lessonReflections || new Map()),
+    completedLessonIds: Array.from(progress.completedLessonIds || []),
     checkpointResults: Object.fromEntries(progress.checkpointResults),
     journalData: Object.fromEntries(progress.journalData || new Map())
   };
@@ -678,12 +867,20 @@ function validateImportedProgress(imported) {
   const activeMissionId = nullableString(imported.activeMissionId ?? imported.currentMissionId, "activeMissionId");
   const currentLocation = validateCurrentLocation(imported.currentLocation, imported);
   const completedExerciseIds = validateStringArray(imported.completedExerciseIds, "completedExerciseIds");
+  const reviewExerciseIds = validateStringArray(imported.reviewExerciseIds || [], "reviewExerciseIds");
+  const exerciseNotes = validatePlainObject(imported.exerciseNotes || {}, "exerciseNotes");
+  const lessonReflections = validatePlainObject(imported.lessonReflections || {}, "lessonReflections");
+  const completedLessonIds = validateStringArray(imported.completedLessonIds || [], "completedLessonIds");
   const checkpointResults = validatePlainObject(imported.checkpointResults || {}, "checkpointResults");
   const journalData = validatePlainObject(imported.journalData || {}, "journalData");
   return {
     activeMissionId: currentLocation?.missionId || activeMissionId,
     currentLocation,
     completedExerciseIds,
+    reviewExerciseIds,
+    exerciseNotes,
+    lessonReflections,
+    completedLessonIds,
     checkpointResults,
     journalData
   };
@@ -751,6 +948,7 @@ function render() {
   renderLesson();
   renderExerciseDetail();
   renderCheckpoint();
+  renderPracticeNotesPage();
   renderArtistList();
   renderSongList();
   renderSong();
@@ -772,13 +970,20 @@ function resumeLearning() {
 }
 
 function renderResumeLearning() {
+  if (!els.resumeLearningCard) return;
   const target = resumeExerciseTarget();
-  els.resumeLearningCard.classList.toggle("hidden", !target);
-  if (!target) return;
+  els.resumeLearningCard.classList.remove("hidden");
+  if (!target) {
+    els.resumeLearningTitle.textContent = "No saved exercise yet";
+    els.resumeLearningDescription.textContent = "Start the current module when you are ready.";
+    els.resumeLearningButton.disabled = true;
+    return;
+  }
   const lesson = academyLessonsById().get(target.lessonId);
   const mission = academyById("missions").get(lesson?.missionId) || activeMission();
   els.resumeLearningTitle.textContent = target.title;
-  els.resumeLearningDescription.textContent = `${mission?.title || "Current mission"} · ${lesson?.title || "Current lesson"}`;
+  els.resumeLearningDescription.textContent = `${moduleLabel(mission)} · ${lesson?.title || "Current lesson"}`;
+  els.resumeLearningButton.disabled = false;
 }
 
 function renderAcademySyncStatus() {
@@ -788,9 +993,10 @@ function renderAcademySyncStatus() {
   const pending = hasPendingProgressChanges();
   const progressUnavailable = !configured || state.academyProgressLoading || saving;
   els.resetAcademyProgressButton.disabled = !configured || state.academyProgressLoading || saving;
-  els.exportProgressButton.disabled = state.academyProgressLoading || saving;
-  els.importProgressInput.disabled = !configured || state.academyProgressLoading || saving;
-  els.markExerciseCompleteButton.disabled = !configured || state.academyProgressLoading || saving;
+  if (els.exportProgressButton) els.exportProgressButton.disabled = state.academyProgressLoading || saving;
+  if (els.importProgressInput) els.importProgressInput.disabled = !configured || state.academyProgressLoading || saving;
+  els.nailedItButton.disabled = !configured || state.academyProgressLoading || saving;
+  els.needsPracticeButton.disabled = !configured || state.academyProgressLoading || saving;
   els.syncNowButton.classList.toggle("hidden", !pending);
   els.syncNowButton.disabled = !state.isOnline || progressUnavailable;
   document.querySelectorAll("[data-assessment]").forEach((button) => {
@@ -798,34 +1004,55 @@ function renderAcademySyncStatus() {
   });
   els.academySyncStatus.classList.toggle("error", !configured || Boolean(state.academyProgressError));
   els.academySyncStatus.classList.toggle("ready", configured && state.isOnline && !pending && !state.academyProgressLoading && !saving && !state.academyProgressError);
+  els.globalSyncStatus.classList.toggle("error", !configured || Boolean(state.academyProgressError));
+  els.globalSyncStatus.classList.toggle("ready", configured && state.isOnline && !pending && !state.academyProgressLoading && !saving && !state.academyProgressError);
   if (state.academyProgressLoading) {
     els.academySyncStatus.textContent = configured ? "Saving..." : "Error syncing";
+    els.globalSyncStatus.textContent = configured ? "Saving..." : "Sync error";
     return;
   }
   if (saving) {
     els.academySyncStatus.textContent = "Saving...";
+    els.globalSyncStatus.textContent = "Saving...";
     return;
   }
   if (!state.isOnline) {
     els.academySyncStatus.textContent = pending ? "Offline · Unsynced changes" : "Offline";
+    els.globalSyncStatus.textContent = pending ? "Unsynced" : "Offline";
     return;
   }
   if (pending) {
     els.academySyncStatus.textContent = "Unsynced changes";
+    els.globalSyncStatus.textContent = "Unsynced";
     return;
   }
   if (state.academyProgressError) {
     els.academySyncStatus.textContent = "Sync error";
     els.academySyncStatus.title = state.academyProgressError;
+    els.globalSyncStatus.textContent = "Sync error";
+    els.globalSyncStatus.title = state.academyProgressError;
     return;
   }
   els.academySyncStatus.title = "";
+  els.globalSyncStatus.title = "";
   if (!configured) {
     els.academySyncStatus.textContent = "Sync error";
     els.academySyncStatus.title = academyProgressService.setupMessage;
+    els.globalSyncStatus.textContent = "Sync error";
+    els.globalSyncStatus.title = academyProgressService.setupMessage;
     return;
   }
-  els.academySyncStatus.textContent = "Online / Synced";
+  const progress = getProgress();
+  els.academySyncStatus.textContent = progress.updatedAt
+    ? `Online / Synced · Last synced ${formatLastSynced(progress.updatedAt)}`
+    : "Online / Synced";
+  els.globalSyncStatus.textContent = "Synced";
+}
+
+function formatLastSynced(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "recently";
+  return date.toLocaleString([], { dateStyle: "medium", timeStyle: "short" });
 }
 
 function renderProgressTransferStatus() {
@@ -837,7 +1064,7 @@ function renderProgressTransferStatus() {
 
 function parseRoute() {
   const [view = "home", id = null] = location.hash.replace(/^#/, "").split("/");
-  const validViews = ["academy", "mission", "lesson", "exercise", "checkpoint", "library"];
+  const validViews = ["academy", "academy-roadmap", "mission", "lesson", "exercise", "checkpoint", "library", "notes", "settings"];
   const routeView = validViews.includes(view) ? view : "home";
   return {
     view: routeView,
@@ -1071,37 +1298,66 @@ function renderAcademyDashboard() {
   state.selectedMissionId = state.selectedMissionId || mission.id;
   const progress = missionProgress(mission);
   const phase = currentPhaseForMission(mission);
-  const overall = academyProgress();
-  els.dashboardMissionSubtitle.textContent = `Current mission: ${mission.dashboardSubtitle || mission.title}`;
-  els.dashboardMissionTitle.textContent = mission.title;
+  els.dashboardMissionSubtitle.textContent = `Current Module: ${moduleLabel(mission)}`;
+  els.dashboardMissionTitle.textContent = moduleLabel(mission);
   els.dashboardMissionDescription.textContent = mission.description;
-  els.dashboardCurrentPhase.textContent = phase?.title || "No phase selected";
-  els.dashboardOverallProgress.textContent = `${overall.percent}%`;
-  els.dashboardOverallProgressBar.style.width = `${overall.percent}%`;
   els.dashboardMissionProgress.textContent = `${progress.percent}%`;
   els.dashboardMissionProgressBar.style.width = `${progress.percent}%`;
-  els.dashboardMissionStatus.textContent = `Status: ${isMissionComplete(mission) ? "Completed" : progress.completed ? "In progress" : "Not started"}`;
+  els.dashboardLessonsCompleted.textContent = `${progress.completedLessons} / ${progress.totalLessons}`;
+  els.dashboardExercisesCompleted.textContent = `${progress.completed} / ${progress.total}`;
+  els.dashboardMissionStatus.textContent = `Status: ${isMissionComplete(mission) ? "Completed" : progress.completed > 0 ? "In progress" : "Not started"}`;
   els.dashboardMissionEstimate.textContent = mission.estimatedPracticeHours
     ? `Estimated practice: ${mission.estimatedPracticeHours}`
     : `Estimated completion: ${mission.estimatedSessions || "TBD"}`;
-  els.dashboardNextStep.textContent = mission.nextStep || "";
+  els.dashboardNextStep.textContent = recommendedReviewText(mission, progress);
   renderAcademyRoadmap();
 }
 
 function missionProgress(mission) {
   const progress = getProgress();
   const lessonIds = mission?.lessons || [];
-  const lessonExercises = lessonIds
+  const lessons = lessonIds
     .map((lessonId) => academyLessonsById().get(lessonId))
-    .filter(Boolean)
-    .flatMap((lesson) => lesson.exercises || []);
+    .filter(Boolean);
+  const lessonExercises = lessons.flatMap((lesson) => lesson.exercises || []);
   const completed = lessonExercises.filter((exerciseId) => progress.completedExerciseIds.has(exerciseId)).length;
   const total = lessonExercises.length;
+  const completedLessons = lessons.filter((lesson) =>
+    (lesson.exercises || []).length && (lesson.exercises || []).every((exerciseId) => progress.completedExerciseIds.has(exerciseId))
+  ).length;
   return {
     completed,
     total,
+    completedLessons,
+    totalLessons: lessons.length,
+    reviewExerciseIds: new Set(progress.reviewExerciseIds),
     percent: total ? Math.round((completed / total) * 100) : 0
   };
+}
+
+function moduleLabel(mission) {
+  if (!mission) return "Current Module";
+  const number = missionOrder().findIndex((item) => item.id === mission.id) + 1;
+  return number > 0 ? `Module ${number}: ${mission.title}` : mission.title;
+}
+
+function recommendedReviewText(mission, progress) {
+  const reviewTitles = Array.from(progress.reviewExerciseIds || [])
+    .map((exerciseId) => academyExercisesById().get(exerciseId))
+    .filter((exercise) => exercise && currentMissionForExercise(exercise)?.id === mission?.id)
+    .slice(0, 3)
+    .map((exercise) => exercise.title);
+  if (reviewTitles.length) return `Review: ${reviewTitles.join(", ")}.`;
+  if (!progress.completed) return mission.nextStep || "Read the module brief and begin Lesson 1.";
+  const resumeTarget = resumeExerciseTarget();
+  if (resumeTarget) return `Review ${resumeTarget.title} next.`;
+  if (progress.percent >= 100) return "Review the checkpoint criteria and keep the module fresh.";
+  return mission.nextStep || "Review the next unfinished exercise.";
+}
+
+function currentMissionForExercise(exercise) {
+  const lesson = academyLessonsById().get(exercise?.lessonId);
+  return academyById("missions").get(lesson?.missionId) || null;
 }
 
 function academyProgress() {
@@ -1169,8 +1425,8 @@ function renderRoadmapMission(mission) {
   const status = complete
     ? "Complete"
     : unlocked
-      ? "Unlocked"
-      : `Locked: requires ${prerequisiteText(mission)}`;
+      ? "Available"
+      : `Requires ${prerequisiteText(mission)}`;
   return `
     <button
       type="button"
@@ -1178,7 +1434,7 @@ function renderRoadmapMission(mission) {
       data-mission-id="${escapeHtml(mission.id)}"
       ${unlocked ? "" : "disabled"}
     >
-      <strong>${escapeHtml(mission.title)}</strong>
+      <strong>${escapeHtml(moduleLabel(mission))}</strong>
       <span>${escapeHtml(status)}</span>
     </button>
   `;
@@ -1195,7 +1451,7 @@ function renderMissionBrief() {
     ? skills.map((skill) => skill.title)
     : mission.skillsDeveloped || [];
 
-  els.missionBriefTitle.textContent = mission.title;
+  els.missionBriefTitle.textContent = moduleLabel(mission);
   els.missionBriefSubtitle.textContent = mission.subtitle || "";
   els.missionEstimatedCompletion.textContent = mission.estimatedPracticeHours || mission.estimatedSessions || "TBD";
   els.missionStatus.textContent = mission.completed ? "Completed" : "Not started";
@@ -1215,13 +1471,12 @@ function renderLesson() {
   const lesson = currentLesson();
   if (!mission || !lesson) return;
   const exercisesById = academyExercisesById();
-  const checkpoint = academyCheckpointsById().get(lesson.checkpoint);
   const exercises = (lesson.exercises || [])
     .map((exerciseId) => exercisesById.get(exerciseId))
     .filter(Boolean);
   const progress = getProgress();
 
-  els.lessonMissionName.textContent = `Mission: ${mission.title}`;
+  els.lessonMissionName.textContent = moduleLabel(mission);
   els.lessonTitle.textContent = lesson.title;
   els.lessonMeta.textContent = `Lesson ${lesson.lessonNumber} · Estimated time: ${lesson.estimatedMinutes} minutes`;
   els.lessonWhyThisLesson.textContent = lesson.whyThisLesson;
@@ -1234,9 +1489,18 @@ function renderLesson() {
   els.lessonExercises.innerHTML = exercises
     .map((exercise) => renderExerciseCard(exercise))
     .join("");
-  els.lessonCheckpointTitle.textContent = checkpoint?.title || "";
-  els.lessonCheckpointRequirements.innerHTML = renderListItems(checkpoint?.requirements);
-  els.startCheckpointButton.disabled = !checkpoint;
+  renderLessonReflection(lesson);
+}
+
+function renderLessonReflection(lesson = currentLesson()) {
+  if (!lesson || !els.reflectionEasiest) return;
+  const reflection = getProgress().lessonReflections.get(lesson.id) || {};
+  els.reflectionEasiest.value = reflection.easiest || "";
+  els.reflectionWork.value = reflection.work || "";
+  els.reflectionNotice.value = reflection.notice || "";
+  els.reflectionFocus.value = reflection.focus || "";
+  els.reflectionStatus.textContent = state.reflectionMessage;
+  els.reflectionStatus.classList.toggle("complete", Boolean(state.reflectionMessage));
 }
 
 function renderExerciseDetail() {
@@ -1248,6 +1512,12 @@ function renderExerciseDetail() {
   const exerciseIndex = (lesson.exercises || []).indexOf(exercise.id);
   const isLastExercise = exerciseIndex === (lesson.exercises || []).length - 1;
   const progress = getProgress();
+  const completed = progress.completedExerciseIds.has(exercise.id);
+  const needsReview = progress.reviewExerciseIds?.has(exercise.id);
+  const nextActionLabel = isLastExercise ? "Go to Checkpoint" : "Next Exercise";
+  const commonMistakes = exercise.commonMistakes || [];
+  const chordDiagrams = chordDiagramsForExercise(exercise);
+  const bpm = exerciseBpm(exercise);
 
   els.exerciseLessonName.textContent = `${mission.title} · ${lesson.title}`;
   els.exerciseTitle.textContent = exercise.title;
@@ -1256,17 +1526,103 @@ function renderExerciseDetail() {
     `Duration: ${exercise.durationMinutes} minutes`,
     exercise.tempo ? `Tempo: ${exercise.tempo}` : ""
   ].filter(Boolean).join(" · ");
-  els.exerciseObjective.textContent = exercise.objective;
+  els.exerciseObjective.textContent = exercise.purpose
+    ? `${exercise.purpose} ${exercise.objective}`
+    : exercise.objective;
   els.exerciseInstructions.innerHTML = steps
     .map((step) => `<li>${escapeHtml(step)}</li>`)
     .join("");
-  els.exercisePassCriteria.textContent = exercise.passCriteria;
-  const completed = progress.completedExerciseIds.has(exercise.id);
-  els.markExerciseCompleteButton.textContent = completed ? "Completed" : "Mark Complete";
-  els.markExerciseCompleteButton.classList.toggle("complete-action", completed);
-  els.exerciseCompletionStatus.textContent = completed ? "Exercise complete for this session." : "Not complete yet.";
+  els.exercisePassCriteria.textContent = exercise.definitionOfDone && exercise.definitionOfDone !== exercise.passCriteria
+    ? `${exercise.passCriteria} Definition of Done: ${exercise.definitionOfDone}`
+    : exercise.passCriteria;
+  els.exerciseMistakesCard.classList.toggle("hidden", !commonMistakes.length);
+  els.exerciseCommonMistakes.innerHTML = renderListItems(commonMistakes);
+  els.exerciseChordsCard.classList.toggle("hidden", !chordDiagrams.length);
+  els.exerciseChordDiagrams.innerHTML = chordDiagrams.map((chord) => renderExerciseChordDiagram(chord)).join("");
+  els.metronomeCard.classList.toggle("hidden", !bpm);
+  els.metronomeBpm.textContent = bpm ? `${bpm} BPM` : "-- BPM";
+  els.nailedItButton.classList.toggle("complete-action", completed);
+  els.needsPracticeButton.classList.toggle("review-action", needsReview);
+  els.exercisePrimaryActionButton.textContent = nextActionLabel;
+  els.exercisePrimaryActionButton.disabled = !completed && !needsReview;
+  els.exerciseCompletionStatus.textContent = completed
+    ? "Marked: Nailed It."
+    : needsReview
+      ? "Marked for Recommended Review."
+      : "Choose Nailed It or Needs More Practice when you finish.";
   els.exerciseCompletionStatus.classList.toggle("complete", completed);
-  els.nextExerciseButton.disabled = isLastExercise;
+  els.exerciseCompletionStatus.classList.toggle("review", needsReview && !completed);
+  els.exerciseNotesInput.value = getProgress().exerciseNotes.get(exercise.id) || "";
+  els.exerciseNotesStatus.textContent = state.exerciseNotesMessage;
+  els.exerciseNotesStatus.classList.toggle("complete", Boolean(state.exerciseNotesMessage));
+  els.nextExerciseButton.textContent = nextActionLabel;
+  els.nextExerciseButton.disabled = false;
+  syncTimerToExercise(exercise);
+  syncMetronomeToExercise(exercise);
+  renderTimerDisplay();
+  renderMetronomeDisplay();
+}
+
+function exerciseBpm(exercise) {
+  const match = String(exercise?.tempo || "").match(/(\d{2,3})\s*BPM/i);
+  return match ? Number(match[1]) : null;
+}
+
+function chordDiagramsForExercise(exercise) {
+  const chordNames = exercise.chordNames?.length ? exercise.chordNames : inferredExerciseChordNames(exercise);
+  const diagramsByName = new Map((window.academyData?.chordDiagrams || []).map((chord) => [chord.name, chord]));
+  return chordNames.map((name) => diagramsByName.get(name)).filter(Boolean);
+}
+
+function inferredExerciseChordNames(exercise) {
+  const text = [
+    exercise.title,
+    exercise.objective,
+    exercise.instructions,
+    ...(exercise.instructionSteps || [])
+  ].join(" ");
+  return ["G", "C", "D", "Em"].filter((name) => new RegExp(`\\b${name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`).test(text));
+}
+
+function renderExerciseChordDiagram(chord) {
+  const strings = ["E", "A", "D", "G", "B", "e"];
+  const frets = chord.frets || [];
+  const fingers = chord.fingers || [];
+  const maxFret = Math.max(3, ...frets.filter((fret) => Number.isFinite(Number(fret))).map(Number));
+  const width = 104;
+  const height = 142;
+  const left = 18;
+  const top = 28;
+  const stringGap = 13;
+  const fretGap = 18;
+  const stringLines = strings.map((_, index) => {
+    const x = left + index * stringGap;
+    return `<line x1="${x}" y1="${top}" x2="${x}" y2="${top + maxFret * fretGap}" />`;
+  }).join("");
+  const fretLines = Array.from({ length: maxFret + 1 }, (_, index) => {
+    const y = top + index * fretGap;
+    return `<line x1="${left}" y1="${y}" x2="${left + 5 * stringGap}" y2="${y}" class="${index === 0 ? "nut" : ""}" />`;
+  }).join("");
+  const markers = frets.map((fret, index) => {
+    const x = left + index * stringGap;
+    if (fret === "x") return `<text x="${x}" y="18" class="string-state">x</text>`;
+    if (Number(fret) === 0) return `<text x="${x}" y="18" class="string-state">o</text>`;
+    const y = top + (Number(fret) - 0.5) * fretGap;
+    const finger = fingers[index] || "";
+    return `<g><circle cx="${x}" cy="${y}" r="5.2" /><text x="${x}" y="${height - 20}" class="finger">${escapeHtml(finger)}</text></g>`;
+  }).join("");
+  const stringLabels = strings.map((stringName, index) => {
+    const x = left + index * stringGap;
+    return `<text x="${x}" y="${height - 5}" class="string-label">${stringName}</text>`;
+  }).join("");
+  return `
+    <div class="exercise-chord-card">
+      <strong>${escapeHtml(chord.name)}</strong>
+      <svg class="exercise-chord-diagram" viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeHtml(chord.name)} chord diagram">
+        <g class="fretboard">${stringLines}${fretLines}${markers}${stringLabels}</g>
+      </svg>
+    </div>
+  `;
 }
 
 function exerciseInstructionSteps(exercise) {
@@ -1284,23 +1640,199 @@ function goToNextExercise() {
   const exercise = currentExercise();
   if (!lesson?.exercises?.length || !exercise) return;
   const index = lesson.exercises.indexOf(exercise.id);
-  const nextIndex = Math.min(index + 1, lesson.exercises.length - 1);
-  state.selectedExerciseId = lesson.exercises[nextIndex];
+  if (index >= lesson.exercises.length - 1) {
+    setView("checkpoint", lesson.checkpoint);
+    return;
+  }
+  state.selectedExerciseId = lesson.exercises[index + 1];
   setView("exercise", state.selectedExerciseId);
-  renderExerciseDetail();
 }
 
-async function markCurrentExerciseComplete() {
+async function markCurrentExerciseNailed() {
   const exercise = currentExercise();
   if (!exercise) return;
   await markExerciseComplete(exercise.id);
   render();
 }
 
+async function markCurrentExerciseNeedsPractice() {
+  const exercise = currentExercise();
+  if (!exercise) return;
+  await markExerciseForReview(exercise.id);
+  render();
+}
+
+async function saveCurrentExerciseNotes() {
+  const exercise = currentExercise();
+  if (!exercise) return;
+  await saveExerciseNote(exercise.id, els.exerciseNotesInput.value);
+  state.exerciseNotesMessage = "Notes saved.";
+  render();
+}
+
+async function saveCurrentLessonReflection() {
+  const lesson = currentLesson();
+  if (!lesson) return;
+  await saveLessonReflection(lesson.id, {
+    easiest: els.reflectionEasiest.value,
+    work: els.reflectionWork.value,
+    notice: els.reflectionNotice.value,
+    focus: els.reflectionFocus.value
+  });
+  state.reflectionMessage = "Reflection saved.";
+  render();
+}
+
+function continueToNextLesson() {
+  const nextLesson = nextLessonAfter(currentLesson());
+  if (nextLesson) setView("lesson", nextLesson.id);
+}
+
+function openFirstReviewExercise() {
+  const lesson = currentLesson();
+  const reviewId = (lesson?.exercises || []).find((exerciseId) => getProgress().reviewExerciseIds.has(exerciseId));
+  if (reviewId) setView("exercise", reviewId);
+}
+
+function nextLessonAfter(lesson) {
+  const mission = currentMissionForLesson();
+  const lessonIds = mission?.lessons || [];
+  const index = lessonIds.indexOf(lesson?.id);
+  return index >= 0 ? academyLessonsById().get(lessonIds[index + 1]) || null : null;
+}
+
+function syncTimerToExercise(exercise) {
+  if (state.timerExerciseId === exercise.id) return;
+  pauseExerciseTimer();
+  state.timerExerciseId = exercise.id;
+  state.timerRemainingSeconds = Math.max(0, Number(exercise.durationMinutes || 0) * 60);
+}
+
+function startExerciseTimer() {
+  const exercise = currentExercise();
+  if (!exercise) return;
+  syncTimerToExercise(exercise);
+  if (state.timerRemainingSeconds <= 0) {
+    state.timerRemainingSeconds = Math.max(0, Number(exercise.durationMinutes || 0) * 60);
+  }
+  if (state.timerRunning || state.timerRemainingSeconds <= 0) {
+    renderTimerDisplay();
+    return;
+  }
+  state.timerRunning = true;
+  state.timerInterval = window.setInterval(() => {
+    state.timerRemainingSeconds = Math.max(0, state.timerRemainingSeconds - 1);
+    renderTimerDisplay();
+    if (state.timerRemainingSeconds <= 0) pauseExerciseTimer();
+  }, 1000);
+  renderTimerDisplay();
+}
+
+function pauseExerciseTimer() {
+  if (state.timerInterval) window.clearInterval(state.timerInterval);
+  state.timerInterval = null;
+  state.timerRunning = false;
+  renderTimerDisplay();
+}
+
+function resetExerciseTimer() {
+  const exercise = currentExercise();
+  pauseExerciseTimer();
+  state.timerExerciseId = exercise?.id || null;
+  state.timerRemainingSeconds = Math.max(0, Number(exercise?.durationMinutes || 0) * 60);
+  renderTimerDisplay();
+}
+
+function renderTimerDisplay() {
+  if (!els.exerciseTimerDisplay) return;
+  els.exerciseTimerDisplay.textContent = formatTimerSeconds(state.timerRemainingSeconds);
+  els.startTimerButton.textContent = state.timerRunning ? "Running" : "Start Timer";
+  els.pauseTimerButton.disabled = !state.timerRunning;
+}
+
+function formatTimerSeconds(totalSeconds) {
+  const safeSeconds = Math.max(0, Number(totalSeconds || 0));
+  const minutes = Math.floor(safeSeconds / 60);
+  const seconds = safeSeconds % 60;
+  return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+}
+
+function syncMetronomeToExercise(exercise) {
+  const bpm = exerciseBpm(exercise);
+  if (state.metronomeExerciseId === exercise.id && state.metronomeBpm === bpm) return;
+  pauseMetronome();
+  state.metronomeExerciseId = exercise.id;
+  state.metronomeBpm = bpm;
+  state.metronomePulseOn = false;
+}
+
+function startMetronome() {
+  const exercise = currentExercise();
+  if (!exercise) return;
+  syncMetronomeToExercise(exercise);
+  if (!state.metronomeBpm || state.metronomeRunning) {
+    renderMetronomeDisplay();
+    return;
+  }
+  state.metronomeRunning = true;
+  clickMetronome();
+  state.metronomeInterval = window.setInterval(clickMetronome, Math.round(60000 / state.metronomeBpm));
+  renderMetronomeDisplay();
+}
+
+function pauseMetronome() {
+  if (state.metronomeInterval) window.clearInterval(state.metronomeInterval);
+  state.metronomeInterval = null;
+  state.metronomeRunning = false;
+  renderMetronomeDisplay();
+}
+
+function resetMetronome() {
+  pauseMetronome();
+  const exercise = currentExercise();
+  state.metronomeExerciseId = exercise?.id || null;
+  state.metronomeBpm = exerciseBpm(exercise);
+  state.metronomePulseOn = false;
+  renderMetronomeDisplay();
+}
+
+function clickMetronome() {
+  const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+  if (!AudioContextClass || !state.metronomeBpm) return;
+  state.metronomeAudioContext = state.metronomeAudioContext || new AudioContextClass();
+  const context = state.metronomeAudioContext;
+  if (context.state === "suspended") context.resume();
+  const oscillator = context.createOscillator();
+  const gain = context.createGain();
+  oscillator.type = "square";
+  oscillator.frequency.setValueAtTime(880, context.currentTime);
+  gain.gain.setValueAtTime(0.0001, context.currentTime);
+  gain.gain.exponentialRampToValueAtTime(0.22, context.currentTime + 0.004);
+  gain.gain.exponentialRampToValueAtTime(0.0001, context.currentTime + 0.055);
+  oscillator.connect(gain);
+  gain.connect(context.destination);
+  oscillator.start(context.currentTime);
+  oscillator.stop(context.currentTime + 0.06);
+  state.metronomePulseOn = !state.metronomePulseOn;
+  renderMetronomeDisplay();
+}
+
+function renderMetronomeDisplay() {
+  if (!els.metronomePulse) return;
+  const hasBpm = Boolean(state.metronomeBpm);
+  els.startMetronomeButton.textContent = state.metronomeRunning ? "Running" : "Start";
+  els.startMetronomeButton.disabled = !hasBpm;
+  els.pauseMetronomeButton.disabled = !state.metronomeRunning;
+  els.resetMetronomeButton.disabled = !hasBpm;
+  els.metronomePulse.classList.toggle("pulse", state.metronomePulseOn);
+}
+
 function renderCheckpoint() {
   const lesson = currentLesson();
   const checkpoint = currentCheckpoint();
   if (!lesson || !checkpoint) return;
+  const progress = getProgress();
+  const summary = lessonSummary(lesson);
 
   els.checkpointTitle.textContent = checkpoint.title;
   els.checkpointLessonTitle.textContent = `Related lesson: ${lesson.title}`;
@@ -1311,9 +1843,197 @@ function renderCheckpoint() {
     button.classList.toggle("selected", button.dataset.assessment === assessment);
   });
   els.checkpointSuccessMessage.textContent = assessment === "passed"
-    ? "Checkpoint passed. You are ready to continue."
-    : "";
+    ? "Lesson complete. Summary is ready below."
+    : assessment === "not-yet"
+      ? "Not yet. Review exercises marked Needs More Practice, then try again."
+      : "";
   els.checkpointSuccessMessage.classList.toggle("complete", assessment === "passed");
+  els.checkpointSuccessMessage.classList.toggle("review", assessment === "not-yet");
+  els.lessonSummaryCard.classList.toggle("hidden", assessment !== "passed");
+  els.lessonSummaryStats.innerHTML = `
+    <div><span>Exercises Completed</span><strong>${summary.completed} / ${summary.total}</strong></div>
+    <div><span>Needs More Practice</span><strong>${summary.reviewCount}</strong></div>
+    <div><span>Notes Count</span><strong>${summary.notesCount}</strong></div>
+    <div><span>Reflection Saved</span><strong>${summary.reflectionSaved ? "Yes" : "No"}</strong></div>
+  `;
+  els.recommendedSongs.innerHTML = renderRecommendedSongs(recommendedSongsForLesson(lesson));
+  els.continueNextLessonButton.disabled = !nextLessonAfter(lesson);
+  els.reviewExercisesButton.disabled = !summary.reviewCount;
+}
+
+function lessonSummary(lesson) {
+  const progress = getProgress();
+  const exerciseIds = lesson.exercises || [];
+  const completed = exerciseIds.filter((exerciseId) => progress.completedExerciseIds.has(exerciseId)).length;
+  const reviewCount = exerciseIds.filter((exerciseId) => progress.reviewExerciseIds.has(exerciseId)).length;
+  const notesCount = exerciseIds.filter((exerciseId) => String(progress.exerciseNotes.get(exerciseId) || "").trim()).length;
+  const reflection = progress.lessonReflections.get(lesson.id) || {};
+  const reflectionSaved = Object.values(reflection).some((value) => String(value || "").trim());
+  return { total: exerciseIds.length, completed, reviewCount, notesCount, reflectionSaved };
+}
+
+function recommendedSongsForLesson(lesson) {
+  const lessonChordNames = new Set((lesson.exercises || [])
+    .map((exerciseId) => academyExercisesById().get(exerciseId))
+    .filter(Boolean)
+    .flatMap((exercise) => exercise.chordNames || inferredExerciseChordNames(exercise)));
+  const recommendations = lessonChordNames.size ? state.songs
+    .map((song) => {
+      const songChords = new Set((song.chords || []).map((chord) => chord.name));
+      const matches = Array.from(lessonChordNames).filter((name) => songChords.has(name));
+      return { song, matches };
+    })
+    .filter((item) => item.matches.length)
+    .sort((a, b) => b.matches.length - a.matches.length)
+    .slice(0, 5)
+    .map(({ song, matches }) => ({
+      title: song.title,
+      artist: song.artist,
+      note: matches.length >= Math.min(2, lessonChordNames.size)
+        ? `Recommended because it uses ${matches.join(" and ")}`
+        : `Partial fit — rhythm may be harder; includes ${matches.join(" and ")}`
+    })) : [];
+
+  (lesson.recommendedSongs || []).forEach((suggestion) => {
+    const existingIndex = recommendations.findIndex((item) => sameSong(item, suggestion));
+    if (existingIndex >= 0) {
+      recommendations[existingIndex].note = suggestion.note
+        ? `${recommendations[existingIndex].note}. ${suggestion.note}`
+        : recommendations[existingIndex].note;
+      return;
+    }
+
+    const librarySong = state.songs.find((song) => sameSong(song, suggestion));
+    recommendations.push({
+      title: librarySong?.title || suggestion.title,
+      artist: librarySong?.artist || suggestion.artist,
+      note: librarySong
+        ? suggestion.note || "Recommended from this lesson."
+        : `Suggested future addition — ${suggestion.note || "not in the song library yet."}`
+    });
+  });
+
+  return recommendations;
+}
+
+function sameSong(song, candidate) {
+  return String(song.title || "").toLowerCase() === String(candidate.title || "").toLowerCase()
+    && String(song.artist || "").toLowerCase() === String(candidate.artist || "").toLowerCase();
+}
+
+function renderRecommendedSongs(recommendations) {
+  if (!recommendations.length) return `<div class="connected-song-card"><strong>No song matches yet</strong><span>Add more song chord data to improve recommendations.</span></div>`;
+  return recommendations.map((item) => `
+    <div class="connected-song-card">
+      <strong>${escapeHtml(item.title)}</strong>
+      <span>${escapeHtml(item.artist)} · ${escapeHtml(item.note)}</span>
+    </div>
+  `).join("");
+}
+
+function renderPracticeNotesPage() {
+  if (!els.practiceNotesList) return;
+  const query = String(els.notesSearchInput?.value || "").trim().toLowerCase();
+  const progress = getProgress();
+  const noteRows = [];
+  missionOrder().forEach((mission) => {
+    (mission.lessons || []).forEach((lessonId) => {
+      const lesson = academyLessonsById().get(lessonId);
+      if (!lesson) return;
+      const reflection = progress.lessonReflections.get(lesson.id);
+      const reflectionText = reflection ? Object.entries(reflection)
+        .filter(([, value]) => String(value || "").trim())
+        .map(([key, value]) => `${reflectionPromptLabel(key)}: ${value}`)
+        .join("\n") : "";
+      const exerciseNotes = (lesson.exercises || [])
+        .map((exerciseId) => ({ exercise: academyExercisesById().get(exerciseId), note: progress.exerciseNotes.get(exerciseId) }))
+        .filter((item) => item.exercise && String(item.note || "").trim());
+      if (!reflectionText && !exerciseNotes.length) return;
+      const searchable = [mission.title, lesson.title, reflectionText, ...exerciseNotes.flatMap((item) => [item.exercise.title, item.note])].join(" ").toLowerCase();
+      if (query && !searchable.includes(query)) return;
+      noteRows.push({ mission, lesson, reflectionText, exerciseNotes });
+    });
+  });
+  els.coachingSummaryStatus.textContent = state.coachingSummaryMessage;
+  els.coachingSummaryStatus.classList.toggle("complete", Boolean(state.coachingSummaryMessage));
+  els.practiceNotesList.innerHTML = noteRows.length
+    ? noteRows.map(renderPracticeNoteGroup).join("")
+    : `<div class="connected-song-card"><strong>No notes yet</strong><span>Save notes from an exercise or lesson reflection.</span></div>`;
+}
+
+function renderPracticeNoteGroup(group) {
+  return `
+    <article class="notes-group">
+      <p class="eyebrow">${escapeHtml(moduleLabel(group.mission))}</p>
+      <h3>${escapeHtml(group.lesson.title)}</h3>
+      ${group.reflectionText ? `<pre>${escapeHtml(group.reflectionText)}</pre>` : ""}
+      ${group.exerciseNotes.map(({ exercise, note }) => `
+        <div class="note-entry">
+          <strong>${escapeHtml(exercise.title)}</strong>
+          <p>${escapeHtml(note)}</p>
+        </div>
+      `).join("")}
+    </article>
+  `;
+}
+
+function reflectionPromptLabel(key) {
+  return {
+    easiest: "What felt easiest?",
+    work: "What needs more work?",
+    notice: "What did I notice?",
+    focus: "What should I focus on next time?"
+  }[key] || key;
+}
+
+async function copyCoachingSummary() {
+  const markdown = coachingSummaryMarkdown();
+  try {
+    await navigator.clipboard.writeText(markdown);
+    state.coachingSummaryMessage = "Coaching summary copied.";
+  } catch {
+    const blob = new Blob([markdown], { type: "text/markdown" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `guitar-coaching-summary-${todayIsoDate()}.md`;
+    link.click();
+    URL.revokeObjectURL(url);
+    state.coachingSummaryMessage = "Coaching summary downloaded.";
+  }
+  renderPracticeNotesPage();
+}
+
+function coachingSummaryMarkdown() {
+  const progress = getProgress();
+  const mission = activeMission();
+  const lesson = currentLesson();
+  const completedExercises = Array.from(progress.completedExerciseIds).map((id) => academyExercisesById().get(id)).filter(Boolean);
+  const reviewExercises = Array.from(progress.reviewExerciseIds).map((id) => academyExercisesById().get(id)).filter(Boolean);
+  const notes = Array.from(progress.exerciseNotes.entries()).map(([id, note]) => ({ exercise: academyExercisesById().get(id), note })).filter((item) => item.exercise);
+  const reflections = Array.from(progress.lessonReflections.entries()).map(([id, reflection]) => ({ lesson: academyLessonsById().get(id), reflection })).filter((item) => item.lesson);
+  const checkpointResults = Array.from(progress.checkpointResults.entries()).map(([id, result]) => ({ checkpoint: academyCheckpointsById().get(id), result })).filter((item) => item.checkpoint);
+  return [
+    "# Guitar Hero Coaching Summary",
+    "",
+    `Current module: ${moduleLabel(mission)}`,
+    `Current lesson: ${lesson?.title || "None selected"}`,
+    "",
+    "## Completed Exercises",
+    completedExercises.length ? completedExercises.map((exercise) => `- ${exercise.title}`).join("\n") : "- None yet",
+    "",
+    "## Exercises Needing Review",
+    reviewExercises.length ? reviewExercises.map((exercise) => `- ${exercise.title}`).join("\n") : "- None",
+    "",
+    "## Exercise Notes",
+    notes.length ? notes.map(({ exercise, note }) => `### ${exercise.title}\n${note}`).join("\n\n") : "- None",
+    "",
+    "## Lesson Reflections",
+    reflections.length ? reflections.map(({ lesson, reflection }) => `### ${lesson.title}\n${Object.entries(reflection).map(([key, value]) => `- ${reflectionPromptLabel(key)} ${value || ""}`).join("\n")}`).join("\n\n") : "- None",
+    "",
+    "## Checkpoint Results",
+    checkpointResults.length ? checkpointResults.map(({ checkpoint, result }) => `- ${checkpoint.title}: ${result}`).join("\n") : "- None"
+  ].join("\n");
 }
 
 function renderListItems(items = []) {
