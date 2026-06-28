@@ -73,18 +73,18 @@ button:hover,
 }
 
 .launch-grid {
-  width: min(1120px, 100%);
+  width: min(900px, 100%);
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: clamp(1rem, 3vw, 2rem);
 }
 
 .launch-card {
-  min-height: clamp(360px, 44vh, 520px);
+  min-height: clamp(220px, 30vh, 320px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 1rem;
   padding: clamp(1.35rem, 3vw, 2.4rem);
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -93,7 +93,7 @@ button:hover,
 }
 
 .launch-card h1 {
-  font-size: clamp(2rem, 4vw, 4.2rem);
+  font-size: clamp(2rem, 4vw, 3.6rem);
   line-height: 0.98;
 }
 
@@ -140,6 +140,7 @@ button:hover,
 .exercise-view,
 .checkpoint-view,
 .notes-view,
+.chord-library-view,
 .settings-view {
   min-height: calc(100vh - 4.4rem);
   display: grid;
@@ -152,11 +153,10 @@ button:hover,
   position: sticky;
   top: 0;
   z-index: 30;
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(9rem, auto) minmax(0, 1fr);
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0.75rem;
   min-height: 3.8rem;
   padding: 0.55rem clamp(0.75rem, 1.5vw, 1rem);
   border-bottom: 1px solid var(--line);
@@ -188,16 +188,17 @@ button:hover,
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 0.45rem;
+  gap: 0.35rem;
   flex-wrap: wrap;
   min-width: 0;
 }
 
 .top-nav-actions button {
-  min-height: 2.35rem;
-  padding: 0.4rem 0.65rem;
-  font-size: 0.9rem;
+  min-height: 2.25rem;
+  padding: 0.35rem 0.55rem;
+  font-size: 0.86rem;
   font-weight: 800;
+  white-space: nowrap;
 }
 
 .top-nav-actions button.active {
@@ -261,14 +262,14 @@ button:hover,
 .lesson-layout,
 .exercise-layout,
 .checkpoint-layout {
-  grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+  grid-template-columns: minmax(0, 1.2fr) minmax(300px, 0.8fr);
 }
 
 .academy-card {
   display: grid;
-  gap: 1rem;
+  gap: 0.7rem;
   align-content: start;
-  padding: clamp(0.85rem, 1.35vw, 1.2rem);
+  padding: clamp(0.7rem, 1vw, 1rem);
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--panel);
@@ -276,7 +277,7 @@ button:hover,
 }
 
 .academy-card h2 {
-  font-size: clamp(1.45rem, 2vw, 2.25rem);
+  font-size: clamp(1.25rem, 1.65vw, 1.85rem);
   line-height: 1.05;
   white-space: normal;
 }
@@ -285,12 +286,31 @@ button:hover,
   max-width: 58rem;
   margin: 0;
   color: var(--muted);
-  font-size: 1rem;
-  line-height: 1.45;
+  font-size: 0.95rem;
+  line-height: 1.35;
 }
 
 .mission-card {
-  min-height: 360px;
+  min-height: auto;
+  grid-template-columns: minmax(18rem, 1.25fr) minmax(22rem, 1fr) minmax(16rem, 0.9fr);
+  align-items: end;
+}
+
+.mission-card > .launch-button {
+  grid-column: 1 / -1;
+  min-height: 3rem;
+}
+
+.mission-card .next-step-note {
+  align-self: stretch;
+}
+
+.mission-card .progress-stat-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.dashboard-roadmap-card {
+  gap: 0.65rem;
 }
 
 .settings-card {
@@ -695,6 +715,7 @@ button:hover,
 
 .exercise-layout {
   align-items: start;
+  gap: 0.65rem;
 }
 
 .exercise-main-column,
@@ -708,13 +729,72 @@ button:hover,
   top: 1rem;
 }
 
+.exercise-chords-card {
+  grid-column: 1 / -1;
+  justify-items: center;
+  text-align: center;
+}
+
+.exercise-chords-card h2 {
+  font-size: clamp(1.15rem, 1.45vw, 1.55rem);
+}
+
+.header-chord-diagrams {
+  flex: 0 1 auto;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  max-width: min(100%, 34rem);
+}
+
+.header-chord-diagrams.hidden {
+  display: none;
+}
+
+.header-chord-diagrams .exercise-chord-card {
+  min-width: 5.2rem;
+  padding: 0.35rem 0.45rem;
+  gap: 0.15rem;
+}
+
+.header-chord-diagrams .exercise-chord-card strong {
+  font-size: 0.95rem;
+}
+
+.header-chord-diagrams .exercise-chord-diagram {
+  width: 72px;
+  height: 98px;
+}
+
+.exercise-chord-card.compact small,
+.header-chord-diagrams .exercise-chord-card small {
+  font-size: 0.62rem;
+}
+
+.exercise-view .academy-header {
+  padding: 0.55rem 0.75rem;
+}
+
+.exercise-view .academy-header h1 {
+  font-size: clamp(1.55rem, 2.65vw, 2.8rem);
+}
+
+.exercise-view .academy-card {
+  gap: 0.55rem;
+  padding: 0.65rem 0.8rem;
+}
+
+.exercise-view .academy-card h2 {
+  font-size: clamp(1.15rem, 1.55vw, 1.7rem);
+}
+
 .numbered-list {
   display: grid;
-  gap: 0.75rem;
+  gap: 0.45rem;
   margin: 0;
   padding-left: 1.35rem;
   color: var(--ink);
-  line-height: 1.45;
+  line-height: 1.35;
 }
 
 .numbered-list li {
@@ -724,6 +804,24 @@ button:hover,
 .numbered-list li::marker {
   color: var(--accent-dark);
   font-weight: 900;
+}
+
+.dot-list {
+  display: grid;
+  gap: 0.35rem;
+  margin: 0;
+  padding-left: 1.25rem;
+  color: var(--ink);
+  line-height: 1.35;
+  list-style: disc;
+}
+
+.dot-list li {
+  padding-left: 0.1rem;
+}
+
+.dot-list li::marker {
+  color: var(--accent-dark);
 }
 
 .reflection-grid {
@@ -747,7 +845,7 @@ button:hover,
 textarea,
 .practice-notes-input {
   width: 100%;
-  min-height: 7rem;
+  min-height: 5rem;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #fffdf8;
@@ -770,13 +868,13 @@ textarea,
 .timer-display {
   display: grid;
   place-items: center;
-  min-height: 4.9rem;
+  min-height: 4rem;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #f8f3ea;
   color: var(--accent-dark);
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-  font-size: clamp(2.2rem, 3.8vw, 3.6rem);
+  font-size: clamp(2rem, 3.25vw, 3.15rem);
   font-weight: 900;
   line-height: 1;
 }
@@ -812,15 +910,17 @@ textarea,
 
 .exercise-chord-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(112px, 128px));
+  justify-content: center;
   gap: 0.75rem;
+  width: 100%;
 }
 
 .exercise-chord-card {
   display: grid;
   justify-items: center;
-  gap: 0.45rem;
-  padding: 0.75rem;
+  gap: 0.35rem;
+  padding: 0.55rem;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #f8f3ea;
@@ -829,6 +929,19 @@ textarea,
 .exercise-chord-card strong {
   color: var(--ink);
   font-size: 1.1rem;
+}
+
+.chord-fret-label {
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.exercise-chord-card small {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 800;
 }
 
 .exercise-chord-diagram {
@@ -896,6 +1009,57 @@ textarea,
 
 .completion-message.review {
   color: var(--warn);
+}
+
+.saved-notes-preview {
+  display: grid;
+  gap: 0.25rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8f3ea;
+  padding: 0.65rem;
+  color: var(--ink);
+  line-height: 1.35;
+}
+
+.saved-notes-preview strong {
+  color: var(--accent-dark);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+}
+
+.saved-notes-preview p {
+  color: var(--ink);
+  white-space: pre-wrap;
+}
+
+.chord-library-card {
+  gap: 1rem;
+}
+
+.chord-library-list {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.chord-library-group {
+  display: grid;
+  gap: 0.75rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.chord-library-group:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.chord-library-group p {
+  margin-top: 0.25rem;
+}
+
+.library-grid {
+  justify-content: start;
 }
 
 .summary-actions {
@@ -1046,6 +1210,7 @@ textarea,
 .view-home .exercise-view,
 .view-home .checkpoint-view,
 .view-home .notes-view,
+.view-home .chord-library-view,
 .view-home .settings-view,
 .view-library .top-nav,
 .view-library .launch-view,
@@ -1057,6 +1222,7 @@ textarea,
 .view-library .exercise-view,
 .view-library .checkpoint-view,
 .view-library .notes-view,
+.view-library .chord-library-view,
 .view-library .settings-view,
 .view-academy .launch-view,
 .view-academy .app-shell,
@@ -1067,6 +1233,7 @@ textarea,
 .view-academy .exercise-view,
 .view-academy .checkpoint-view,
 .view-academy .notes-view,
+.view-academy .chord-library-view,
 .view-academy .settings-view,
 .view-academy-roadmap .launch-view,
 .view-academy-roadmap .academy-view,
@@ -1076,6 +1243,7 @@ textarea,
 .view-academy-roadmap .exercise-view,
 .view-academy-roadmap .checkpoint-view,
 .view-academy-roadmap .notes-view,
+.view-academy-roadmap .chord-library-view,
 .view-academy-roadmap .settings-view,
 .view-academy-roadmap .app-shell,
 .view-module-lessons .launch-view,
@@ -1086,6 +1254,7 @@ textarea,
 .view-module-lessons .exercise-view,
 .view-module-lessons .checkpoint-view,
 .view-module-lessons .notes-view,
+.view-module-lessons .chord-library-view,
 .view-module-lessons .settings-view,
 .view-module-lessons .app-shell,
 .view-mission .launch-view,
@@ -1096,6 +1265,7 @@ textarea,
 .view-mission .exercise-view,
 .view-mission .checkpoint-view,
 .view-mission .notes-view,
+.view-mission .chord-library-view,
 .view-mission .settings-view,
 .view-mission .app-shell,
 .view-lesson .launch-view,
@@ -1106,6 +1276,7 @@ textarea,
 .view-lesson .exercise-view,
 .view-lesson .checkpoint-view,
 .view-lesson .notes-view,
+.view-lesson .chord-library-view,
 .view-lesson .settings-view,
 .view-lesson .app-shell,
 .view-exercise .launch-view,
@@ -1116,6 +1287,7 @@ textarea,
 .view-exercise .lesson-view,
 .view-exercise .checkpoint-view,
 .view-exercise .notes-view,
+.view-exercise .chord-library-view,
 .view-exercise .settings-view,
 .view-exercise .app-shell,
 .view-checkpoint .launch-view,
@@ -1126,6 +1298,7 @@ textarea,
 .view-checkpoint .lesson-view,
 .view-checkpoint .exercise-view,
 .view-checkpoint .notes-view,
+.view-checkpoint .chord-library-view,
 .view-checkpoint .settings-view,
 .view-checkpoint .app-shell,
 .view-notes .launch-view,
@@ -1136,8 +1309,20 @@ textarea,
 .view-notes .lesson-view,
 .view-notes .exercise-view,
 .view-notes .checkpoint-view,
+.view-notes .chord-library-view,
 .view-notes .settings-view,
 .view-notes .app-shell,
+.view-chords .launch-view,
+.view-chords .academy-view,
+.view-chords .academy-roadmap-view,
+.view-chords .module-lessons-view,
+.view-chords .mission-brief-view,
+.view-chords .lesson-view,
+.view-chords .exercise-view,
+.view-chords .checkpoint-view,
+.view-chords .notes-view,
+.view-chords .settings-view,
+.view-chords .app-shell,
 .view-settings .launch-view,
 .view-settings .academy-view,
 .view-settings .academy-roadmap-view,
@@ -1147,6 +1332,7 @@ textarea,
 .view-settings .exercise-view,
 .view-settings .checkpoint-view,
 .view-settings .notes-view,
+.view-settings .chord-library-view,
 .view-settings .app-shell {
   display: none;
 }
@@ -1397,6 +1583,13 @@ h3 {
   justify-content: flex-end;
   flex: 1 1 18rem;
   min-width: min(100%, 16rem);
+}
+
+.header-actions button,
+.header-actions .button-link {
+  min-height: 2.35rem;
+  padding: 0.4rem 0.65rem;
+  white-space: nowrap;
 }
 
 .library-actions {
@@ -1772,6 +1965,10 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .mission-card {
+    grid-template-columns: 1fr;
+  }
+
   .exercise-side-column {
     position: static;
   }
@@ -1931,8 +2128,8 @@ h3 {
       <div class="top-nav-actions">
         <button id="navHomeButton">Home</button>
         <button id="navDashboardButton">Dashboard</button>
-        <button id="navAcademyButton">Modules</button>
         <button id="navNotesButton">Practice Notes</button>
+        <button id="navChordLibraryButton">Chord Diagrams</button>
         <button id="navSettingsButton">Settings</button>
       </div>
     </nav>
@@ -1942,13 +2139,6 @@ h3 {
         <article class="launch-card">
           <div>
             <h1>Practice Academy</h1>
-            <p class="launch-subtitle">Learn guitar through a structured mastery-based program.</p>
-            <div class="launch-description">
-              <p>Every lesson has a purpose.</p>
-              <p>Learn one skill at a time.</p>
-              <p>Master it.</p>
-              <p>Then move on.</p>
-            </div>
           </div>
           <button id="academyContinue" class="launch-button">Continue</button>
         </article>
@@ -1956,11 +2146,6 @@ h3 {
         <article class="launch-card">
           <div>
             <h1>Song Library</h1>
-            <p class="launch-subtitle">Browse songs, tabs and chords.</p>
-            <div class="launch-description">
-              <p>Practice songs whenever you like.</p>
-              <p>Songs are separate from the structured academy.</p>
-            </div>
           </div>
           <button id="libraryOpen" class="launch-button">Open Library</button>
         </article>
@@ -1970,9 +2155,7 @@ h3 {
     <main class="academy-view" id="academyView" aria-label="Practice Academy">
       <header class="academy-header">
         <div>
-          <p class="eyebrow">Practice Academy</p>
-          <h1>Welcome back, Rob.</h1>
-          <p class="academy-subtitle" id="dashboardMissionSubtitle"></p>
+          <h1>Welcome back Rob</h1>
         </div>
       </header>
 
@@ -1999,14 +2182,19 @@ h3 {
                 <strong id="dashboardExercisesCompleted">0 / 0</strong>
               </div>
             </div>
-            <div class="status-pill" id="dashboardMissionStatus">Status: Not started</div>
-            <div class="status-pill" id="dashboardMissionEstimate"></div>
           </div>
           <div class="next-step-note">
             <strong>Recommended Review</strong>
             <span id="dashboardNextStep"></span>
           </div>
           <button class="launch-button" id="continueMissionButton">Continue Learning</button>
+        </article>
+
+        <article class="academy-card roadmap-card dashboard-roadmap-card">
+          <div>
+            <h2>Modules</h2>
+          </div>
+          <div id="academyRoadmap" class="roadmap-list"></div>
         </article>
       </section>
     </main>
@@ -2025,10 +2213,9 @@ h3 {
       <section class="academy-dashboard" aria-label="Practice Academy modules">
         <article class="academy-card roadmap-card">
           <div>
-            <p class="eyebrow">Modules</p>
             <h2>Modules</h2>
           </div>
-          <div id="academyRoadmap" class="roadmap-list"></div>
+          <div id="academyRoadmapLegacy" class="roadmap-list"></div>
         </article>
       </section>
     </main>
@@ -2049,7 +2236,6 @@ h3 {
       <section class="academy-dashboard" aria-label="Module lessons">
         <article class="academy-card lesson-selector-card">
           <div>
-            <p class="eyebrow">Lessons</p>
             <h2>Choose a lesson</h2>
           </div>
           <div id="moduleLessonList" class="exercise-card-list"></div>
@@ -2092,25 +2278,21 @@ h3 {
         </article>
 
         <article class="academy-card outcomes-card">
-          <p class="eyebrow">What You Will Learn</p>
           <h2>What You Will Learn</h2>
           <ul id="missionObjectives" class="check-list"></ul>
         </article>
 
         <article class="academy-card skills-card">
-          <p class="eyebrow">Skills You'll Develop</p>
           <h2>Skills You'll Develop</h2>
           <div id="missionSkills" class="skill-chip-list"></div>
         </article>
 
         <article class="academy-card connected-songs-card">
-          <p class="eyebrow">Connected Songs</p>
           <h2>Connected Songs</h2>
           <div id="missionConnectedSongs" class="connected-song-list"></div>
         </article>
 
         <article class="academy-card success-card">
-          <p class="eyebrow">Success Criteria</p>
           <h2>By the end of this module you should be able to:</h2>
           <ul id="missionSuccessCriteria" class="check-list"></ul>
           <button id="missionSecondaryBackButton">Back to Dashboard</button>
@@ -2135,19 +2317,16 @@ h3 {
 
       <section class="lesson-layout">
         <article class="academy-card lesson-intro-card">
-          <p class="eyebrow">Why This Lesson Matters</p>
           <h2>Why This Lesson Matters</h2>
           <p id="lessonWhyThisLesson"></p>
         </article>
 
         <article class="academy-card lesson-objective-card">
-          <p class="eyebrow">Lesson Objective</p>
           <h2 id="lessonObjectiveHeading"></h2>
           <p id="lessonObjective"></p>
         </article>
 
         <article class="academy-card lesson-exercises-card">
-          <p class="eyebrow">Exercise List</p>
           <h2>Exercises</h2>
           <div class="lesson-progress-summary" aria-label="Lesson exercise progress">
             <div class="progress-line">
@@ -2160,7 +2339,6 @@ h3 {
         </article>
 
         <article class="academy-card lesson-reflection-card">
-          <p class="eyebrow">Lesson Reflection</p>
           <h2>Lesson Reflection</h2>
           <div class="reflection-grid">
             <label>What felt easiest?<textarea id="reflectionEasiest"></textarea></label>
@@ -2182,49 +2360,45 @@ h3 {
           <h1 id="exerciseTitle"></h1>
           <p class="academy-subtitle" id="exerciseMeta"></p>
         </div>
+        <div id="exerciseHeaderChords" class="header-chord-diagrams hidden" aria-label="Exercise chord diagrams"></div>
         <div class="header-actions">
           <button id="exerciseHomeButton">Dashboard</button>
           <button id="exerciseBackButton">Back to Lesson</button>
+          <button id="previousExerciseButton">Last Exercise</button>
           <button id="nextExerciseButton">Next Exercise</button>
         </div>
       </header>
 
       <section class="exercise-layout">
+        <article class="academy-card exercise-chords-card hidden" id="exerciseChordsCard">
+          <h2>Chord Diagrams</h2>
+          <div id="exerciseChordDiagrams" class="exercise-chord-grid"></div>
+        </article>
+
         <div class="exercise-main-column">
           <article class="academy-card exercise-why-card">
-            <p class="eyebrow">Purpose</p>
             <h2>Why this matters</h2>
             <p id="exerciseObjective"></p>
           </article>
 
           <article class="academy-card exercise-instructions-card">
-            <p class="eyebrow">Instructions</p>
             <h2>Instructions</h2>
             <ol id="exerciseInstructions" class="numbered-list"></ol>
           </article>
 
+          <article class="academy-card exercise-mistakes-card hidden" id="exerciseMistakesCard">
+            <h2>Common Mistakes</h2>
+            <ul id="exerciseCommonMistakes" class="dot-list"></ul>
+          </article>
+
           <article class="academy-card exercise-pass-card">
-            <p class="eyebrow">Pass Criteria</p>
             <h2>Pass Criteria / Definition of Done</h2>
             <p id="exercisePassCriteria"></p>
-          </article>
-
-          <article class="academy-card exercise-mistakes-card hidden" id="exerciseMistakesCard">
-            <p class="eyebrow">Common Mistakes</p>
-            <h2>Common Mistakes</h2>
-            <ul id="exerciseCommonMistakes" class="check-list"></ul>
-          </article>
-
-          <article class="academy-card exercise-chords-card hidden" id="exerciseChordsCard">
-            <p class="eyebrow">Chord Diagrams</p>
-            <h2>Chord Diagrams</h2>
-            <div id="exerciseChordDiagrams" class="exercise-chord-grid"></div>
           </article>
         </div>
 
         <aside class="exercise-side-column">
           <article class="academy-card exercise-controls-card">
-            <p class="eyebrow">Practice Controls</p>
             <h2>Practice Controls</h2>
             <div id="exerciseTimerDisplay" class="timer-display">00:00</div>
             <div class="practice-control-row">
@@ -2235,7 +2409,6 @@ h3 {
           </article>
 
           <article class="academy-card metronome-card hidden" id="metronomeCard">
-            <p class="eyebrow">Metronome</p>
             <h2>Metronome</h2>
             <div class="metronome-display">
               <strong id="metronomeBpm">-- BPM</strong>
@@ -2248,8 +2421,15 @@ h3 {
             </div>
           </article>
 
+          <article class="academy-card exercise-notes-card">
+            <h2>Practice Notes</h2>
+            <textarea id="exerciseNotesInput" class="practice-notes-input" placeholder="What did you notice?"></textarea>
+            <button id="saveExerciseNotesButton">Save Notes</button>
+            <div id="exerciseNotesStatus" class="completion-message" aria-live="polite"></div>
+            <div id="exerciseSavedNotes" class="saved-notes-preview hidden"></div>
+          </article>
+
           <article class="academy-card exercise-assessment-card">
-            <p class="eyebrow">Self Assessment</p>
             <h2>How did it go?</h2>
             <div class="practice-control-row">
               <button id="nailedItButton">Nailed It</button>
@@ -2257,14 +2437,6 @@ h3 {
             </div>
             <button class="launch-button" id="exercisePrimaryActionButton">Next Exercise</button>
             <div id="exerciseCompletionStatus" class="completion-message" aria-live="polite"></div>
-          </article>
-
-          <article class="academy-card exercise-notes-card">
-            <p class="eyebrow">Practice Notes</p>
-            <h2>Practice Notes</h2>
-            <textarea id="exerciseNotesInput" class="practice-notes-input" placeholder="What did you notice?"></textarea>
-            <button id="saveExerciseNotesButton">Save Notes</button>
-            <div id="exerciseNotesStatus" class="completion-message" aria-live="polite"></div>
           </article>
         </aside>
       </section>
@@ -2286,19 +2458,16 @@ h3 {
 
       <section class="checkpoint-layout">
         <article class="academy-card checkpoint-purpose-card">
-          <p class="eyebrow">Purpose</p>
           <h2>Purpose</h2>
           <p id="checkpointPurpose"></p>
         </article>
 
         <article class="academy-card checkpoint-requirements-card">
-          <p class="eyebrow">Requirements</p>
           <h2>Requirements</h2>
           <ul id="checkpointRequirements" class="check-list"></ul>
         </article>
 
         <article class="academy-card checkpoint-assessment-card">
-          <p class="eyebrow">Lesson Complete?</p>
           <h2>Lesson Complete?</h2>
           <div class="assessment-options" aria-label="Lesson completion options">
             <button type="button" data-assessment="passed">Yes</button>
@@ -2308,7 +2477,6 @@ h3 {
         </article>
 
         <article class="academy-card lesson-summary-card hidden" id="lessonSummaryCard">
-          <p class="eyebrow">Lesson Complete Summary</p>
           <h2>Summary</h2>
           <div id="lessonSummaryStats" class="progress-stat-grid"></div>
           <div class="brief-section">
@@ -2328,7 +2496,6 @@ h3 {
     <main class="notes-view" id="notesView" aria-label="Practice Notes">
       <header class="academy-header">
         <div>
-          <p class="eyebrow">Practice Notes</p>
           <h1>Practice Notes</h1>
           <p class="academy-subtitle">Exercise notes and lesson reflections.</p>
         </div>
@@ -2351,10 +2518,26 @@ h3 {
       </section>
     </main>
 
+    <main class="chord-library-view" id="chordLibraryView" aria-label="Chord Diagrams">
+      <header class="academy-header">
+        <div>
+          <h1>Chord Diagrams</h1>
+          <p class="academy-subtitle">A quick reference for common open and barre chords.</p>
+        </div>
+        <div class="header-actions">
+          <button id="chordLibraryBackButton">Back</button>
+        </div>
+      </header>
+      <section class="settings-layout">
+        <article class="academy-card chord-library-card">
+          <div id="chordLibraryList" class="chord-library-list"></div>
+        </article>
+      </section>
+    </main>
+
     <main class="settings-view" id="settingsView" aria-label="Settings">
       <header class="academy-header">
         <div>
-          <p class="eyebrow">Settings</p>
           <h1>Settings</h1>
           <p class="academy-subtitle">Progress tools and sync details.</p>
         </div>
@@ -2390,7 +2573,6 @@ h3 {
       <aside class="artist-library" aria-label="Artists">
         <div class="brand-block">
           <button class="sidebar-toggle" id="sidebarToggle" title="Hide sidebars" aria-label="Hide sidebars">«</button>
-          <p class="eyebrow">Guitar Hero</p>
           <h1>Guitar Hero</h1>
         </div>
         <p class="sidebar-label">Artists</p>
@@ -4787,6 +4969,177 @@ G  D  D  C
 });
 
 
+/* data/a-simple-life.js */
+window.initialSongs.push({
+  id: "john-farnham-a-simple-life",
+  contentRevision: 1,
+  title: "A Simple Life",
+  artist: "John Farnham",
+  album: "Romeo's Heart",
+  albumYear: 1996,
+  albumOrder: 1,
+  difficulty: "Intermediate",
+  tuning: "E A D G B E",
+  key: "A",
+  bpm: "",
+  videoUrl: "",
+  chords: [
+    { name: "A", frets: "x02220", fingers: "123" },
+    { name: "Asus4", frets: "x02230", fingers: "12 3" },
+    { name: "F#m", frets: "244222", fingers: "34" },
+    { name: "E", frets: "022100", fingers: "231" },
+    { name: "D", frets: "xx0232", fingers: "132" },
+    { name: "G", frets: "320003", fingers: "21 3" },
+    { name: "Bm", frets: "x24432", fingers: "342" },
+    { name: "Bm/A", frets: "x04432", fingers: "3421" },
+    { name: "C#m", frets: "x46654", fingers: "342" },
+    { name: "D/B", frets: "x20232", fingers: "3 2" }
+  ],
+  strumming: [
+    {
+      name: "Main ballad strum",
+      bpm: "",
+      beats: ["D", "", "D", "U", "", "U", "D", "U"],
+      accents: [0, 4],
+      chordRun: "A  Asus4  A  /  F#m  E  D  E",
+      note: "Keep it steady and let the chord changes breathe."
+    }
+  ],
+  chart: `[Intro]
+A  Asus4  A  /  F#m  E  D  E
+
+[Verse]
+A  D
+A  E
+A  D  A  E
+A  D
+A  E
+G
+
+[Chorus]
+E  A  Asus4  A
+Asus4  F#m  E  D
+Bm
+Bm/A  G  D  A
+
+[Interlude]
+A  Asus4  A  /  F#m  E  D  E
+
+[Verse 2]
+A  D
+A  E
+A  D  A  E
+A  D
+A  E
+G
+
+[Chorus 2]
+E  A  Asus4  A
+Asus4  F#m  E  D
+Bm
+Bm/A  G  D  A
+E  A  Asus4  A
+Asus4  F#m  E  D
+Bm
+Bm/A  G  D  A
+
+[Bridge]
+C#m  D/B
+G
+C#m  F#m
+G
+
+[Chorus 3]
+E  A  Asus4  A  Asus4  F#m  E  D
+Bm
+Bm/A  G  D  A
+E  A  Asus4  A
+Asus4  F#m  E  D
+Bm  Bm/A
+G  D  A
+
+[Final chorus]
+E  A  Asus4  A
+Asus4  F#m
+E  D  G  A  Asus4  A
+(fade)`
+});
+
+
+/* data/the-middle.js */
+window.initialSongs.push({
+  id: "jimmy-eat-world-the-middle",
+  contentRevision: 1,
+  title: "The Middle",
+  artist: "Jimmy Eat World",
+  album: "Bleed American",
+  albumYear: 2001,
+  albumOrder: 4,
+  difficulty: "Absolute beginner",
+  tuning: "E A D G B E",
+  key: "D",
+  bpm: 162,
+  videoUrl: "",
+  chords: [
+    { name: "D", frets: "xx0232", fingers: "132" },
+    { name: "A", frets: "x02220", fingers: "123" },
+    { name: "G", frets: "320003", fingers: "21 3" }
+  ],
+  strumming: [
+    {
+      name: "Intro / verse",
+      bpm: 162,
+      beats: ["D", "D", "D", "D", "D", "D", "D", "D"],
+      accents: [0, 2, 4, 6],
+      chordRun: "D  A  G  D",
+      note: "Straight eighth-note downstrokes. Keep the motion tight and even."
+    },
+    {
+      name: "Chorus",
+      bpm: 162,
+      beats: ["D", "", "D", "U", "", "U", "D", "U"],
+      accents: [0, 4],
+      chordRun: "D  A  G  D",
+      note: "Open it up slightly in the chorus while keeping the tempo locked."
+    }
+  ],
+  chart: `[Intro]
+D  A  G  D
+
+[Verse]
+D  A  G  D
+D  A  G  D
+
+[Chorus]
+D  A  G  D
+D  A  G  D
+
+[Verse]
+D  A  G  D
+D  A  G  D
+
+[Chorus]
+D  A  G  D
+D  A  G  D
+
+[Solo]
+A  D
+A  D
+G  D
+A
+
+[Verse]
+D  A  G  D
+D  A  G  D
+
+[Final chorus]
+D  A  G  D
+D  A  G  D
+D  A  G  D
+D  A  G  D`
+});
+
+
 /* data/tone-settings.js */
 const toneProfiles = {
   cleanJangle: {
@@ -4958,23 +5311,107 @@ window.academyData = {
   chordDiagrams: [
     {
       name: "G",
+      group: "Open Major",
       frets: [3, 2, 0, 0, 0, 3],
       fingers: ["2", "1", "", "", "", "3"]
     },
     {
       name: "C",
+      group: "Open Major",
       frets: ["x", 3, 2, 0, 1, 0],
       fingers: ["", "3", "2", "", "1", ""]
     },
     {
       name: "D",
+      group: "Open Major",
       frets: ["x", "x", 0, 2, 3, 2],
       fingers: ["", "", "", "1", "3", "2"]
     },
     {
+      name: "A",
+      group: "Open Major",
+      frets: ["x", 0, 2, 2, 2, 0],
+      fingers: ["", "", "1", "2", "3", ""]
+    },
+    {
+      name: "E",
+      group: "Open Major",
+      frets: [0, 2, 2, 1, 0, 0],
+      fingers: ["", "2", "3", "1", "", ""]
+    },
+    {
       name: "Em",
+      group: "Open Minor",
       frets: [0, 2, 2, 0, 0, 0],
       fingers: ["", "2", "3", "", "", ""]
+    },
+    {
+      name: "Am",
+      group: "Open Minor",
+      frets: ["x", 0, 2, 2, 1, 0],
+      fingers: ["", "", "2", "3", "1", ""]
+    },
+    {
+      name: "Dm",
+      group: "Open Minor",
+      frets: ["x", "x", 0, 2, 3, 1],
+      fingers: ["", "", "", "2", "3", "1"]
+    },
+    {
+      name: "A7",
+      group: "Open 7th",
+      frets: ["x", 0, 2, 0, 2, 0],
+      fingers: ["", "", "1", "", "2", ""]
+    },
+    {
+      name: "D7",
+      group: "Open 7th",
+      frets: ["x", "x", 0, 2, 1, 2],
+      fingers: ["", "", "", "2", "1", "3"]
+    },
+    {
+      name: "E7",
+      group: "Open 7th",
+      frets: [0, 2, 0, 1, 0, 0],
+      fingers: ["", "2", "", "1", "", ""]
+    },
+    {
+      name: "B7",
+      group: "Open 7th",
+      frets: ["x", 2, 1, 2, 0, 2],
+      fingers: ["", "2", "1", "3", "", "4"]
+    },
+    {
+      name: "F",
+      group: "Barre Chords",
+      frets: [1, 3, 3, 2, 1, 1],
+      fingers: ["1", "3", "4", "2", "1", "1"],
+      startFret: 1,
+      barre: "1st fret"
+    },
+    {
+      name: "Bm",
+      group: "Barre Chords",
+      frets: ["x", 2, 4, 4, 3, 2],
+      fingers: ["", "1", "3", "4", "2", "1"],
+      startFret: 2,
+      barre: "2nd fret"
+    },
+    {
+      name: "F#m",
+      group: "Barre Chords",
+      frets: [2, 4, 4, 2, 2, 2],
+      fingers: ["1", "3", "4", "1", "1", "1"],
+      startFret: 2,
+      barre: "2nd fret"
+    },
+    {
+      name: "C#m",
+      group: "Barre Chords",
+      frets: ["x", 4, 6, 6, 5, 4],
+      fingers: ["", "1", "3", "4", "2", "1"],
+      startFret: 4,
+      barre: "4th fret"
     }
   ],
   phases: [
@@ -7927,8 +8364,8 @@ const state = {
 const els = {
   navHomeButton: document.getElementById("navHomeButton"),
   navDashboardButton: document.getElementById("navDashboardButton"),
-  navAcademyButton: document.getElementById("navAcademyButton"),
   navNotesButton: document.getElementById("navNotesButton"),
+  navChordLibraryButton: document.getElementById("navChordLibraryButton"),
   navSettingsButton: document.getElementById("navSettingsButton"),
   globalSyncStatus: document.getElementById("globalSyncStatus"),
   academyContinue: document.getElementById("academyContinue"),
@@ -7941,13 +8378,10 @@ const els = {
   resumeLearningDescription: document.getElementById("resumeLearningDescription"),
   resumeLearningButton: document.getElementById("resumeLearningButton"),
   resetAcademyProgressButton: document.getElementById("resetAcademyProgressButton"),
-  dashboardMissionSubtitle: document.getElementById("dashboardMissionSubtitle"),
   dashboardMissionTitle: document.getElementById("dashboardMissionTitle"),
   dashboardMissionDescription: document.getElementById("dashboardMissionDescription"),
   dashboardMissionProgress: document.getElementById("dashboardMissionProgress"),
   dashboardMissionProgressBar: document.getElementById("dashboardMissionProgressBar"),
-  dashboardMissionStatus: document.getElementById("dashboardMissionStatus"),
-  dashboardMissionEstimate: document.getElementById("dashboardMissionEstimate"),
   dashboardLessonsCompleted: document.getElementById("dashboardLessonsCompleted"),
   dashboardExercisesCompleted: document.getElementById("dashboardExercisesCompleted"),
   dashboardNextStep: document.getElementById("dashboardNextStep"),
@@ -8001,9 +8435,11 @@ const els = {
   exercisePassCriteria: document.getElementById("exercisePassCriteria"),
   exerciseMistakesCard: document.getElementById("exerciseMistakesCard"),
   exerciseCommonMistakes: document.getElementById("exerciseCommonMistakes"),
+  exerciseHeaderChords: document.getElementById("exerciseHeaderChords"),
   exerciseChordsCard: document.getElementById("exerciseChordsCard"),
   exerciseChordDiagrams: document.getElementById("exerciseChordDiagrams"),
   exerciseBackButton: document.getElementById("exerciseBackButton"),
+  previousExerciseButton: document.getElementById("previousExerciseButton"),
   nextExerciseButton: document.getElementById("nextExerciseButton"),
   exerciseTimerDisplay: document.getElementById("exerciseTimerDisplay"),
   startTimerButton: document.getElementById("startTimerButton"),
@@ -8022,6 +8458,7 @@ const els = {
   exerciseNotesInput: document.getElementById("exerciseNotesInput"),
   saveExerciseNotesButton: document.getElementById("saveExerciseNotesButton"),
   exerciseNotesStatus: document.getElementById("exerciseNotesStatus"),
+  exerciseSavedNotes: document.getElementById("exerciseSavedNotes"),
   checkpointTitle: document.getElementById("checkpointTitle"),
   checkpointLessonTitle: document.getElementById("checkpointLessonTitle"),
   checkpointPurpose: document.getElementById("checkpointPurpose"),
@@ -8042,6 +8479,8 @@ const els = {
   copyCoachingSummaryButton: document.getElementById("copyCoachingSummaryButton"),
   coachingSummaryStatus: document.getElementById("coachingSummaryStatus"),
   practiceNotesList: document.getElementById("practiceNotesList"),
+  chordLibraryBackButton: document.getElementById("chordLibraryBackButton"),
+  chordLibraryList: document.getElementById("chordLibraryList"),
   settingsBackButton: document.getElementById("settingsBackButton"),
   missionBriefTitle: document.getElementById("missionBriefTitle"),
   missionBriefSubtitle: document.getElementById("missionBriefSubtitle"),
@@ -8092,8 +8531,8 @@ initializeAcademyProgress();
 
 els.navHomeButton.addEventListener("click", () => setView("home"));
 els.navDashboardButton.addEventListener("click", () => setView("academy"));
-els.navAcademyButton.addEventListener("click", () => setView("academy-roadmap"));
 els.navNotesButton.addEventListener("click", () => setView("notes"));
+els.navChordLibraryButton.addEventListener("click", () => setView("chords"));
 els.navSettingsButton.addEventListener("click", () => setView("settings"));
 els.academyContinue.addEventListener("click", () => setView("academy"));
 els.libraryOpen.addEventListener("click", () => setView("library"));
@@ -8139,6 +8578,7 @@ els.lessonExercises.addEventListener("click", (event) => {
 els.saveReflectionButton.addEventListener("click", saveCurrentLessonReflection);
 els.exerciseHomeButton.addEventListener("click", () => setView("academy"));
 els.exerciseBackButton.addEventListener("click", () => setView("lesson", currentLesson()?.id));
+els.previousExerciseButton.addEventListener("click", goToPreviousExercise);
 els.nextExerciseButton.addEventListener("click", goToNextExercise);
 els.startTimerButton.addEventListener("click", startExerciseTimer);
 els.pauseTimerButton.addEventListener("click", pauseExerciseTimer);
@@ -8163,6 +8603,7 @@ els.checkpointHomeButton.addEventListener("click", () => setView("academy"));
 els.checkpointBackButton.addEventListener("click", () => setView("lesson", currentLesson()?.id));
 els.checkpointDashboardButton.addEventListener("click", () => setView("academy"));
 els.notesBackButton.addEventListener("click", () => setView("academy"));
+els.chordLibraryBackButton.addEventListener("click", () => setView("academy"));
 els.settingsBackButton.addEventListener("click", () => setView("academy"));
 els.libraryHomeButton.addEventListener("click", () => setView("home"));
 els.notesSearchInput.addEventListener("input", renderPracticeNotesPage);
@@ -8224,18 +8665,20 @@ function applyView() {
   document.body.classList.toggle("view-exercise", state.view === "exercise");
   document.body.classList.toggle("view-checkpoint", state.view === "checkpoint");
   document.body.classList.toggle("view-notes", state.view === "notes");
+  document.body.classList.toggle("view-chords", state.view === "chords");
   document.body.classList.toggle("view-settings", state.view === "settings");
   document.body.classList.toggle("view-library", state.view === "library");
   document.querySelectorAll(".top-nav-actions button").forEach((button) => button.classList.remove("active"));
   const activeButton = {
     academy: els.navDashboardButton,
-    "academy-roadmap": els.navAcademyButton,
-    "module-lessons": els.navAcademyButton,
-    mission: els.navAcademyButton,
-    lesson: els.navAcademyButton,
-    exercise: els.navAcademyButton,
-    checkpoint: els.navAcademyButton,
+    "academy-roadmap": els.navDashboardButton,
+    "module-lessons": els.navDashboardButton,
+    mission: els.navDashboardButton,
+    lesson: els.navDashboardButton,
+    exercise: els.navDashboardButton,
+    checkpoint: els.navDashboardButton,
     notes: els.navNotesButton,
+    chords: els.navChordLibraryButton,
     settings: els.navSettingsButton
   }[state.view];
   activeButton?.classList.add("active");
@@ -8861,6 +9304,7 @@ function render() {
   renderExerciseDetail();
   renderCheckpoint();
   renderPracticeNotesPage();
+  renderChordLibraryPage();
   renderArtistList();
   renderSongList();
   renderSong();
@@ -8971,7 +9415,7 @@ function renderProgressTransferStatus() {
 
 function parseRoute() {
   const [view = "home", id = null] = location.hash.replace(/^#/, "").split("/");
-  const validViews = ["academy", "academy-roadmap", "module-lessons", "mission", "lesson", "exercise", "checkpoint", "library", "notes", "settings"];
+  const validViews = ["academy", "academy-roadmap", "module-lessons", "mission", "lesson", "exercise", "checkpoint", "library", "notes", "chords", "settings"];
   const routeView = validViews.includes(view) ? view : "home";
   return {
     view: routeView,
@@ -9206,17 +9650,12 @@ function renderAcademyDashboard() {
   state.selectedMissionId = state.selectedMissionId || mission.id;
   const progress = missionProgress(mission);
   const phase = currentPhaseForMission(mission);
-  els.dashboardMissionSubtitle.textContent = `Current Module: ${moduleLabel(mission)}`;
   els.dashboardMissionTitle.textContent = moduleLabel(mission);
   els.dashboardMissionDescription.textContent = mission.description;
   els.dashboardMissionProgress.textContent = `${progress.percent}%`;
   els.dashboardMissionProgressBar.style.width = `${progress.percent}%`;
   els.dashboardLessonsCompleted.textContent = `${progress.completedLessons} / ${progress.totalLessons}`;
   els.dashboardExercisesCompleted.textContent = `${progress.completed} / ${progress.total}`;
-  els.dashboardMissionStatus.textContent = `Status: ${isMissionComplete(mission) ? "Completed" : progress.completed > 0 ? "In progress" : "Not started"}`;
-  els.dashboardMissionEstimate.textContent = mission.estimatedPracticeHours
-    ? `Estimated practice: ${mission.estimatedPracticeHours}`
-    : `Estimated completion: ${mission.estimatedSessions || "TBD"}`;
   els.dashboardNextStep.textContent = recommendedReviewText(mission, progress);
   renderAcademyRoadmap();
 }
@@ -9460,12 +9899,14 @@ function renderExerciseDetail() {
   const steps = exerciseInstructionSteps(exercise);
   const exerciseIndex = (lesson.exercises || []).indexOf(exercise.id);
   const isLastExercise = exerciseIndex === (lesson.exercises || []).length - 1;
+  const isFirstExercise = exerciseIndex <= 0;
   const progress = getProgress();
   const completed = progress.completedExerciseIds.has(exercise.id);
   const needsReview = progress.reviewExerciseIds?.has(exercise.id);
   const nextActionLabel = isLastExercise ? "Go to Checkpoint" : "Next Exercise";
   const commonMistakes = exercise.commonMistakes || [];
   const chordDiagrams = chordDiagramsForExercise(exercise);
+  const useHeaderChords = chordDiagrams.length > 0 && chordDiagrams.length <= 4;
   const bpm = exerciseBpm(exercise);
 
   els.exerciseLessonName.textContent = `${mission.title} · ${lesson.title}`;
@@ -9486,8 +9927,14 @@ function renderExerciseDetail() {
     : exercise.passCriteria;
   els.exerciseMistakesCard.classList.toggle("hidden", !commonMistakes.length);
   els.exerciseCommonMistakes.innerHTML = renderListItems(commonMistakes);
-  els.exerciseChordsCard.classList.toggle("hidden", !chordDiagrams.length);
-  els.exerciseChordDiagrams.innerHTML = chordDiagrams.map((chord) => renderExerciseChordDiagram(chord)).join("");
+  els.exerciseHeaderChords.classList.toggle("hidden", !useHeaderChords);
+  els.exerciseHeaderChords.innerHTML = useHeaderChords
+    ? chordDiagrams.map((chord) => renderExerciseChordDiagram(chord, "compact")).join("")
+    : "";
+  els.exerciseChordsCard.classList.toggle("hidden", !chordDiagrams.length || useHeaderChords);
+  els.exerciseChordDiagrams.innerHTML = !useHeaderChords
+    ? chordDiagrams.map((chord) => renderExerciseChordDiagram(chord)).join("")
+    : "";
   els.metronomeCard.classList.toggle("hidden", !bpm);
   els.metronomeBpm.textContent = bpm ? `${bpm} BPM` : "-- BPM";
   els.nailedItButton.classList.toggle("complete-action", completed);
@@ -9501,9 +9948,15 @@ function renderExerciseDetail() {
       : "Choose Nailed It or Needs More Practice when you finish.";
   els.exerciseCompletionStatus.classList.toggle("complete", completed);
   els.exerciseCompletionStatus.classList.toggle("review", needsReview && !completed);
-  els.exerciseNotesInput.value = getProgress().exerciseNotes.get(exercise.id) || "";
+  const savedNote = getProgress().exerciseNotes.get(exercise.id) || "";
+  els.exerciseNotesInput.value = savedNote;
   els.exerciseNotesStatus.textContent = state.exerciseNotesMessage;
   els.exerciseNotesStatus.classList.toggle("complete", Boolean(state.exerciseNotesMessage));
+  els.exerciseSavedNotes.classList.toggle("hidden", !savedNote.trim());
+  els.exerciseSavedNotes.innerHTML = savedNote.trim()
+    ? `<strong>Saved note</strong><p>${escapeHtml(savedNote)}</p>`
+    : "";
+  els.previousExerciseButton.disabled = isFirstExercise;
   els.nextExerciseButton.textContent = nextActionLabel;
   els.nextExerciseButton.disabled = false;
   syncTimerToExercise(exercise);
@@ -9530,14 +9983,19 @@ function inferredExerciseChordNames(exercise) {
     exercise.instructions,
     ...(exercise.instructionSteps || [])
   ].join(" ");
-  return ["G", "C", "D", "Em"].filter((name) => new RegExp(`\\b${name.replace(/[.*+?^${}()|[\]\\]/g, "\\</body>")}\\b`).test(text));
+  return (window.academyData?.chordDiagrams || [])
+    .map((chord) => chord.name)
+    .filter((name) => new RegExp(`\\b${name.replace(/[.*+?^${}()|[\]\\]/g, "\\</body>")}\\b`).test(text));
 }
 
-function renderExerciseChordDiagram(chord) {
+function renderExerciseChordDiagram(chord, variant = "") {
   const strings = ["E", "A", "D", "G", "B", "e"];
   const frets = chord.frets || [];
   const fingers = chord.fingers || [];
-  const maxFret = Math.max(3, ...frets.filter((fret) => Number.isFinite(Number(fret))).map(Number));
+  const numericFrets = frets.filter((fret) => Number.isFinite(Number(fret))).map(Number);
+  const minFret = chord.startFret || Math.max(1, Math.min(...numericFrets.filter((fret) => fret > 0), 1));
+  const displayedFrets = numericFrets.map((fret) => fret > 0 ? fret - minFret + 1 : fret);
+  const maxFret = Math.max(3, ...displayedFrets);
   const width = 104;
   const height = 142;
   const left = 18;
@@ -9556,7 +10014,8 @@ function renderExerciseChordDiagram(chord) {
     const x = left + index * stringGap;
     if (fret === "x") return `<text x="${x}" y="18" class="string-state">x</text>`;
     if (Number(fret) === 0) return `<text x="${x}" y="18" class="string-state">o</text>`;
-    const y = top + (Number(fret) - 0.5) * fretGap;
+    const displayedFret = Number(fret) - minFret + 1;
+    const y = top + (displayedFret - 0.5) * fretGap;
     const finger = fingers[index] || "";
     return `<g><circle cx="${x}" cy="${y}" r="5.2" /><text x="${x}" y="${height - 20}" class="finger">${escapeHtml(finger)}</text></g>`;
   }).join("");
@@ -9565,13 +10024,47 @@ function renderExerciseChordDiagram(chord) {
     return `<text x="${x}" y="${height - 5}" class="string-label">${stringName}</text>`;
   }).join("");
   return `
-    <div class="exercise-chord-card">
+    <div class="exercise-chord-card${variant ? ` ${escapeHtml(variant)}` : ""}">
       <strong>${escapeHtml(chord.name)}</strong>
+      ${minFret > 1 ? `<span class="chord-fret-label">${escapeHtml(String(minFret))}fr</span>` : ""}
       <svg class="exercise-chord-diagram" viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeHtml(chord.name)} chord diagram">
         <g class="fretboard">${stringLines}${fretLines}${markers}${stringLabels}</g>
       </svg>
+      ${chord.barre ? `<small>${escapeHtml(chord.barre)} barre</small>` : ""}
     </div>
   `;
+}
+
+function renderChordLibraryPage() {
+  if (!els.chordLibraryList) return;
+  const chords = window.academyData?.chordDiagrams || [];
+  const groups = new Map();
+  chords.forEach((chord) => {
+    const group = chord.group || "Other";
+    if (!groups.has(group)) groups.set(group, []);
+    groups.get(group).push(chord);
+  });
+  els.chordLibraryList.innerHTML = Array.from(groups.entries()).map(([group, groupChords]) => `
+    <section class="chord-library-group">
+      <div>
+        <h2>${escapeHtml(group)}</h2>
+        <p>${escapeHtml(chordLibraryDescription(group))}</p>
+      </div>
+      <div class="exercise-chord-grid library-grid">
+        ${groupChords.map((chord) => renderExerciseChordDiagram(chord)).join("")}
+      </div>
+    </section>
+  `).join("");
+}
+
+function chordLibraryDescription(group) {
+  const descriptions = {
+    "Open Major": "Core open major shapes for beginner rhythm guitar.",
+    "Open Minor": "Essential minor sounds for open-position songs.",
+    "Open 7th": "Useful dominant seventh chords for blues, folk, and classic rock.",
+    "Barre Chords": "Movable shapes to revisit once open chords feel comfortable."
+  };
+  return descriptions[group] || "Reference shapes for practice.";
 }
 
 function exerciseInstructionSteps(exercise) {
@@ -9594,6 +10087,16 @@ function goToNextExercise() {
     return;
   }
   state.selectedExerciseId = lesson.exercises[index + 1];
+  setView("exercise", state.selectedExerciseId);
+}
+
+function goToPreviousExercise() {
+  const lesson = currentLesson();
+  const exercise = currentExercise();
+  if (!lesson?.exercises?.length || !exercise) return;
+  const index = lesson.exercises.indexOf(exercise.id);
+  if (index <= 0) return;
+  state.selectedExerciseId = lesson.exercises[index - 1];
   setView("exercise", state.selectedExerciseId);
 }
 

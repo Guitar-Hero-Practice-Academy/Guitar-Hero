@@ -2,23 +2,107 @@ window.academyData = {
   chordDiagrams: [
     {
       name: "G",
+      group: "Open Major",
       frets: [3, 2, 0, 0, 0, 3],
       fingers: ["2", "1", "", "", "", "3"]
     },
     {
       name: "C",
+      group: "Open Major",
       frets: ["x", 3, 2, 0, 1, 0],
       fingers: ["", "3", "2", "", "1", ""]
     },
     {
       name: "D",
+      group: "Open Major",
       frets: ["x", "x", 0, 2, 3, 2],
       fingers: ["", "", "", "1", "3", "2"]
     },
     {
+      name: "A",
+      group: "Open Major",
+      frets: ["x", 0, 2, 2, 2, 0],
+      fingers: ["", "", "1", "2", "3", ""]
+    },
+    {
+      name: "E",
+      group: "Open Major",
+      frets: [0, 2, 2, 1, 0, 0],
+      fingers: ["", "2", "3", "1", "", ""]
+    },
+    {
       name: "Em",
+      group: "Open Minor",
       frets: [0, 2, 2, 0, 0, 0],
       fingers: ["", "2", "3", "", "", ""]
+    },
+    {
+      name: "Am",
+      group: "Open Minor",
+      frets: ["x", 0, 2, 2, 1, 0],
+      fingers: ["", "", "2", "3", "1", ""]
+    },
+    {
+      name: "Dm",
+      group: "Open Minor",
+      frets: ["x", "x", 0, 2, 3, 1],
+      fingers: ["", "", "", "2", "3", "1"]
+    },
+    {
+      name: "A7",
+      group: "Open 7th",
+      frets: ["x", 0, 2, 0, 2, 0],
+      fingers: ["", "", "1", "", "2", ""]
+    },
+    {
+      name: "D7",
+      group: "Open 7th",
+      frets: ["x", "x", 0, 2, 1, 2],
+      fingers: ["", "", "", "2", "1", "3"]
+    },
+    {
+      name: "E7",
+      group: "Open 7th",
+      frets: [0, 2, 0, 1, 0, 0],
+      fingers: ["", "2", "", "1", "", ""]
+    },
+    {
+      name: "B7",
+      group: "Open 7th",
+      frets: ["x", 2, 1, 2, 0, 2],
+      fingers: ["", "2", "1", "3", "", "4"]
+    },
+    {
+      name: "F",
+      group: "Barre Chords",
+      frets: [1, 3, 3, 2, 1, 1],
+      fingers: ["1", "3", "4", "2", "1", "1"],
+      startFret: 1,
+      barre: "1st fret"
+    },
+    {
+      name: "Bm",
+      group: "Barre Chords",
+      frets: ["x", 2, 4, 4, 3, 2],
+      fingers: ["", "1", "3", "4", "2", "1"],
+      startFret: 2,
+      barre: "2nd fret"
+    },
+    {
+      name: "F#m",
+      group: "Barre Chords",
+      frets: [2, 4, 4, 2, 2, 2],
+      fingers: ["1", "3", "4", "1", "1", "1"],
+      startFret: 2,
+      barre: "2nd fret"
+    },
+    {
+      name: "C#m",
+      group: "Barre Chords",
+      frets: ["x", 4, 6, 6, 5, 4],
+      fingers: ["", "1", "3", "4", "2", "1"],
+      startFret: 4,
+      barre: "4th fret"
     }
   ],
   phases: [

@@ -48,8 +48,8 @@ const state = {
 const els = {
   navHomeButton: document.getElementById("navHomeButton"),
   navDashboardButton: document.getElementById("navDashboardButton"),
-  navAcademyButton: document.getElementById("navAcademyButton"),
   navNotesButton: document.getElementById("navNotesButton"),
+  navChordLibraryButton: document.getElementById("navChordLibraryButton"),
   navSettingsButton: document.getElementById("navSettingsButton"),
   globalSyncStatus: document.getElementById("globalSyncStatus"),
   academyContinue: document.getElementById("academyContinue"),
@@ -62,13 +62,10 @@ const els = {
   resumeLearningDescription: document.getElementById("resumeLearningDescription"),
   resumeLearningButton: document.getElementById("resumeLearningButton"),
   resetAcademyProgressButton: document.getElementById("resetAcademyProgressButton"),
-  dashboardMissionSubtitle: document.getElementById("dashboardMissionSubtitle"),
   dashboardMissionTitle: document.getElementById("dashboardMissionTitle"),
   dashboardMissionDescription: document.getElementById("dashboardMissionDescription"),
   dashboardMissionProgress: document.getElementById("dashboardMissionProgress"),
   dashboardMissionProgressBar: document.getElementById("dashboardMissionProgressBar"),
-  dashboardMissionStatus: document.getElementById("dashboardMissionStatus"),
-  dashboardMissionEstimate: document.getElementById("dashboardMissionEstimate"),
   dashboardLessonsCompleted: document.getElementById("dashboardLessonsCompleted"),
   dashboardExercisesCompleted: document.getElementById("dashboardExercisesCompleted"),
   dashboardNextStep: document.getElementById("dashboardNextStep"),
@@ -122,9 +119,11 @@ const els = {
   exercisePassCriteria: document.getElementById("exercisePassCriteria"),
   exerciseMistakesCard: document.getElementById("exerciseMistakesCard"),
   exerciseCommonMistakes: document.getElementById("exerciseCommonMistakes"),
+  exerciseHeaderChords: document.getElementById("exerciseHeaderChords"),
   exerciseChordsCard: document.getElementById("exerciseChordsCard"),
   exerciseChordDiagrams: document.getElementById("exerciseChordDiagrams"),
   exerciseBackButton: document.getElementById("exerciseBackButton"),
+  previousExerciseButton: document.getElementById("previousExerciseButton"),
   nextExerciseButton: document.getElementById("nextExerciseButton"),
   exerciseTimerDisplay: document.getElementById("exerciseTimerDisplay"),
   startTimerButton: document.getElementById("startTimerButton"),
@@ -143,6 +142,7 @@ const els = {
   exerciseNotesInput: document.getElementById("exerciseNotesInput"),
   saveExerciseNotesButton: document.getElementById("saveExerciseNotesButton"),
   exerciseNotesStatus: document.getElementById("exerciseNotesStatus"),
+  exerciseSavedNotes: document.getElementById("exerciseSavedNotes"),
   checkpointTitle: document.getElementById("checkpointTitle"),
   checkpointLessonTitle: document.getElementById("checkpointLessonTitle"),
   checkpointPurpose: document.getElementById("checkpointPurpose"),
@@ -163,6 +163,8 @@ const els = {
   copyCoachingSummaryButton: document.getElementById("copyCoachingSummaryButton"),
   coachingSummaryStatus: document.getElementById("coachingSummaryStatus"),
   practiceNotesList: document.getElementById("practiceNotesList"),
+  chordLibraryBackButton: document.getElementById("chordLibraryBackButton"),
+  chordLibraryList: document.getElementById("chordLibraryList"),
   settingsBackButton: document.getElementById("settingsBackButton"),
   missionBriefTitle: document.getElementById("missionBriefTitle"),
   missionBriefSubtitle: document.getElementById("missionBriefSubtitle"),
@@ -213,8 +215,8 @@ initializeAcademyProgress();
 
 els.navHomeButton.addEventListener("click", () => setView("home"));
 els.navDashboardButton.addEventListener("click", () => setView("academy"));
-els.navAcademyButton.addEventListener("click", () => setView("academy-roadmap"));
 els.navNotesButton.addEventListener("click", () => setView("notes"));
+els.navChordLibraryButton.addEventListener("click", () => setView("chords"));
 els.navSettingsButton.addEventListener("click", () => setView("settings"));
 els.academyContinue.addEventListener("click", () => setView("academy"));
 els.libraryOpen.addEventListener("click", () => setView("library"));
@@ -260,6 +262,7 @@ els.lessonExercises.addEventListener("click", (event) => {
 els.saveReflectionButton.addEventListener("click", saveCurrentLessonReflection);
 els.exerciseHomeButton.addEventListener("click", () => setView("academy"));
 els.exerciseBackButton.addEventListener("click", () => setView("lesson", currentLesson()?.id));
+els.previousExerciseButton.addEventListener("click", goToPreviousExercise);
 els.nextExerciseButton.addEventListener("click", goToNextExercise);
 els.startTimerButton.addEventListener("click", startExerciseTimer);
 els.pauseTimerButton.addEventListener("click", pauseExerciseTimer);
@@ -284,6 +287,7 @@ els.checkpointHomeButton.addEventListener("click", () => setView("academy"));
 els.checkpointBackButton.addEventListener("click", () => setView("lesson", currentLesson()?.id));
 els.checkpointDashboardButton.addEventListener("click", () => setView("academy"));
 els.notesBackButton.addEventListener("click", () => setView("academy"));
+els.chordLibraryBackButton.addEventListener("click", () => setView("academy"));
 els.settingsBackButton.addEventListener("click", () => setView("academy"));
 els.libraryHomeButton.addEventListener("click", () => setView("home"));
 els.notesSearchInput.addEventListener("input", renderPracticeNotesPage);
@@ -345,18 +349,20 @@ function applyView() {
   document.body.classList.toggle("view-exercise", state.view === "exercise");
   document.body.classList.toggle("view-checkpoint", state.view === "checkpoint");
   document.body.classList.toggle("view-notes", state.view === "notes");
+  document.body.classList.toggle("view-chords", state.view === "chords");
   document.body.classList.toggle("view-settings", state.view === "settings");
   document.body.classList.toggle("view-library", state.view === "library");
   document.querySelectorAll(".top-nav-actions button").forEach((button) => button.classList.remove("active"));
   const activeButton = {
     academy: els.navDashboardButton,
-    "academy-roadmap": els.navAcademyButton,
-    "module-lessons": els.navAcademyButton,
-    mission: els.navAcademyButton,
-    lesson: els.navAcademyButton,
-    exercise: els.navAcademyButton,
-    checkpoint: els.navAcademyButton,
+    "academy-roadmap": els.navDashboardButton,
+    "module-lessons": els.navDashboardButton,
+    mission: els.navDashboardButton,
+    lesson: els.navDashboardButton,
+    exercise: els.navDashboardButton,
+    checkpoint: els.navDashboardButton,
     notes: els.navNotesButton,
+    chords: els.navChordLibraryButton,
     settings: els.navSettingsButton
   }[state.view];
   activeButton?.classList.add("active");
@@ -982,6 +988,7 @@ function render() {
   renderExerciseDetail();
   renderCheckpoint();
   renderPracticeNotesPage();
+  renderChordLibraryPage();
   renderArtistList();
   renderSongList();
   renderSong();
@@ -1092,7 +1099,7 @@ function renderProgressTransferStatus() {
 
 function parseRoute() {
   const [view = "home", id = null] = location.hash.replace(/^#/, "").split("/");
-  const validViews = ["academy", "academy-roadmap", "module-lessons", "mission", "lesson", "exercise", "checkpoint", "library", "notes", "settings"];
+  const validViews = ["academy", "academy-roadmap", "module-lessons", "mission", "lesson", "exercise", "checkpoint", "library", "notes", "chords", "settings"];
   const routeView = validViews.includes(view) ? view : "home";
   return {
     view: routeView,
@@ -1327,17 +1334,12 @@ function renderAcademyDashboard() {
   state.selectedMissionId = state.selectedMissionId || mission.id;
   const progress = missionProgress(mission);
   const phase = currentPhaseForMission(mission);
-  els.dashboardMissionSubtitle.textContent = `Current Module: ${moduleLabel(mission)}`;
   els.dashboardMissionTitle.textContent = moduleLabel(mission);
   els.dashboardMissionDescription.textContent = mission.description;
   els.dashboardMissionProgress.textContent = `${progress.percent}%`;
   els.dashboardMissionProgressBar.style.width = `${progress.percent}%`;
   els.dashboardLessonsCompleted.textContent = `${progress.completedLessons} / ${progress.totalLessons}`;
   els.dashboardExercisesCompleted.textContent = `${progress.completed} / ${progress.total}`;
-  els.dashboardMissionStatus.textContent = `Status: ${isMissionComplete(mission) ? "Completed" : progress.completed > 0 ? "In progress" : "Not started"}`;
-  els.dashboardMissionEstimate.textContent = mission.estimatedPracticeHours
-    ? `Estimated practice: ${mission.estimatedPracticeHours}`
-    : `Estimated completion: ${mission.estimatedSessions || "TBD"}`;
   els.dashboardNextStep.textContent = recommendedReviewText(mission, progress);
   renderAcademyRoadmap();
 }
@@ -1581,12 +1583,14 @@ function renderExerciseDetail() {
   const steps = exerciseInstructionSteps(exercise);
   const exerciseIndex = (lesson.exercises || []).indexOf(exercise.id);
   const isLastExercise = exerciseIndex === (lesson.exercises || []).length - 1;
+  const isFirstExercise = exerciseIndex <= 0;
   const progress = getProgress();
   const completed = progress.completedExerciseIds.has(exercise.id);
   const needsReview = progress.reviewExerciseIds?.has(exercise.id);
   const nextActionLabel = isLastExercise ? "Go to Checkpoint" : "Next Exercise";
   const commonMistakes = exercise.commonMistakes || [];
   const chordDiagrams = chordDiagramsForExercise(exercise);
+  const useHeaderChords = chordDiagrams.length > 0 && chordDiagrams.length <= 4;
   const bpm = exerciseBpm(exercise);
 
   els.exerciseLessonName.textContent = `${mission.title} · ${lesson.title}`;
@@ -1607,8 +1611,14 @@ function renderExerciseDetail() {
     : exercise.passCriteria;
   els.exerciseMistakesCard.classList.toggle("hidden", !commonMistakes.length);
   els.exerciseCommonMistakes.innerHTML = renderListItems(commonMistakes);
-  els.exerciseChordsCard.classList.toggle("hidden", !chordDiagrams.length);
-  els.exerciseChordDiagrams.innerHTML = chordDiagrams.map((chord) => renderExerciseChordDiagram(chord)).join("");
+  els.exerciseHeaderChords.classList.toggle("hidden", !useHeaderChords);
+  els.exerciseHeaderChords.innerHTML = useHeaderChords
+    ? chordDiagrams.map((chord) => renderExerciseChordDiagram(chord, "compact")).join("")
+    : "";
+  els.exerciseChordsCard.classList.toggle("hidden", !chordDiagrams.length || useHeaderChords);
+  els.exerciseChordDiagrams.innerHTML = !useHeaderChords
+    ? chordDiagrams.map((chord) => renderExerciseChordDiagram(chord)).join("")
+    : "";
   els.metronomeCard.classList.toggle("hidden", !bpm);
   els.metronomeBpm.textContent = bpm ? `${bpm} BPM` : "-- BPM";
   els.nailedItButton.classList.toggle("complete-action", completed);
@@ -1622,9 +1632,15 @@ function renderExerciseDetail() {
       : "Choose Nailed It or Needs More Practice when you finish.";
   els.exerciseCompletionStatus.classList.toggle("complete", completed);
   els.exerciseCompletionStatus.classList.toggle("review", needsReview && !completed);
-  els.exerciseNotesInput.value = getProgress().exerciseNotes.get(exercise.id) || "";
+  const savedNote = getProgress().exerciseNotes.get(exercise.id) || "";
+  els.exerciseNotesInput.value = savedNote;
   els.exerciseNotesStatus.textContent = state.exerciseNotesMessage;
   els.exerciseNotesStatus.classList.toggle("complete", Boolean(state.exerciseNotesMessage));
+  els.exerciseSavedNotes.classList.toggle("hidden", !savedNote.trim());
+  els.exerciseSavedNotes.innerHTML = savedNote.trim()
+    ? `<strong>Saved note</strong><p>${escapeHtml(savedNote)}</p>`
+    : "";
+  els.previousExerciseButton.disabled = isFirstExercise;
   els.nextExerciseButton.textContent = nextActionLabel;
   els.nextExerciseButton.disabled = false;
   syncTimerToExercise(exercise);
@@ -1651,14 +1667,19 @@ function inferredExerciseChordNames(exercise) {
     exercise.instructions,
     ...(exercise.instructionSteps || [])
   ].join(" ");
-  return ["G", "C", "D", "Em"].filter((name) => new RegExp(`\\b${name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`).test(text));
+  return (window.academyData?.chordDiagrams || [])
+    .map((chord) => chord.name)
+    .filter((name) => new RegExp(`\\b${name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`).test(text));
 }
 
-function renderExerciseChordDiagram(chord) {
+function renderExerciseChordDiagram(chord, variant = "") {
   const strings = ["E", "A", "D", "G", "B", "e"];
   const frets = chord.frets || [];
   const fingers = chord.fingers || [];
-  const maxFret = Math.max(3, ...frets.filter((fret) => Number.isFinite(Number(fret))).map(Number));
+  const numericFrets = frets.filter((fret) => Number.isFinite(Number(fret))).map(Number);
+  const minFret = chord.startFret || Math.max(1, Math.min(...numericFrets.filter((fret) => fret > 0), 1));
+  const displayedFrets = numericFrets.map((fret) => fret > 0 ? fret - minFret + 1 : fret);
+  const maxFret = Math.max(3, ...displayedFrets);
   const width = 104;
   const height = 142;
   const left = 18;
@@ -1677,7 +1698,8 @@ function renderExerciseChordDiagram(chord) {
     const x = left + index * stringGap;
     if (fret === "x") return `<text x="${x}" y="18" class="string-state">x</text>`;
     if (Number(fret) === 0) return `<text x="${x}" y="18" class="string-state">o</text>`;
-    const y = top + (Number(fret) - 0.5) * fretGap;
+    const displayedFret = Number(fret) - minFret + 1;
+    const y = top + (displayedFret - 0.5) * fretGap;
     const finger = fingers[index] || "";
     return `<g><circle cx="${x}" cy="${y}" r="5.2" /><text x="${x}" y="${height - 20}" class="finger">${escapeHtml(finger)}</text></g>`;
   }).join("");
@@ -1686,13 +1708,47 @@ function renderExerciseChordDiagram(chord) {
     return `<text x="${x}" y="${height - 5}" class="string-label">${stringName}</text>`;
   }).join("");
   return `
-    <div class="exercise-chord-card">
+    <div class="exercise-chord-card${variant ? ` ${escapeHtml(variant)}` : ""}">
       <strong>${escapeHtml(chord.name)}</strong>
+      ${minFret > 1 ? `<span class="chord-fret-label">${escapeHtml(String(minFret))}fr</span>` : ""}
       <svg class="exercise-chord-diagram" viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeHtml(chord.name)} chord diagram">
         <g class="fretboard">${stringLines}${fretLines}${markers}${stringLabels}</g>
       </svg>
+      ${chord.barre ? `<small>${escapeHtml(chord.barre)} barre</small>` : ""}
     </div>
   `;
+}
+
+function renderChordLibraryPage() {
+  if (!els.chordLibraryList) return;
+  const chords = window.academyData?.chordDiagrams || [];
+  const groups = new Map();
+  chords.forEach((chord) => {
+    const group = chord.group || "Other";
+    if (!groups.has(group)) groups.set(group, []);
+    groups.get(group).push(chord);
+  });
+  els.chordLibraryList.innerHTML = Array.from(groups.entries()).map(([group, groupChords]) => `
+    <section class="chord-library-group">
+      <div>
+        <h2>${escapeHtml(group)}</h2>
+        <p>${escapeHtml(chordLibraryDescription(group))}</p>
+      </div>
+      <div class="exercise-chord-grid library-grid">
+        ${groupChords.map((chord) => renderExerciseChordDiagram(chord)).join("")}
+      </div>
+    </section>
+  `).join("");
+}
+
+function chordLibraryDescription(group) {
+  const descriptions = {
+    "Open Major": "Core open major shapes for beginner rhythm guitar.",
+    "Open Minor": "Essential minor sounds for open-position songs.",
+    "Open 7th": "Useful dominant seventh chords for blues, folk, and classic rock.",
+    "Barre Chords": "Movable shapes to revisit once open chords feel comfortable."
+  };
+  return descriptions[group] || "Reference shapes for practice.";
 }
 
 function exerciseInstructionSteps(exercise) {
@@ -1715,6 +1771,16 @@ function goToNextExercise() {
     return;
   }
   state.selectedExerciseId = lesson.exercises[index + 1];
+  setView("exercise", state.selectedExerciseId);
+}
+
+function goToPreviousExercise() {
+  const lesson = currentLesson();
+  const exercise = currentExercise();
+  if (!lesson?.exercises?.length || !exercise) return;
+  const index = lesson.exercises.indexOf(exercise.id);
+  if (index <= 0) return;
+  state.selectedExerciseId = lesson.exercises[index - 1];
   setView("exercise", state.selectedExerciseId);
 }
 
