@@ -11,6 +11,10 @@ window.initialSongs.push({
   key: "D",
   bpm: 162,
   videoUrl: "",
+  sourceImages: [
+    { src: "assets/the-middle-chart-1.png", caption: "Full PDF chart - page 1" },
+    { src: "assets/the-middle-chart-2.png", caption: "Full PDF chart - page 2" }
+  ],
   chords: [
     { name: "D", frets: "xx0232", fingers: "132" },
     { name: "A", frets: "x02220", fingers: "123" },

@@ -2592,7 +2592,7 @@ function drawChord(chord) {
 }
 
 function renderChart(song) {
-  els.chartDisplay.innerHTML = `${renderChartImage(song)}${formatChart(song.chart || "")}${renderSourceImages(song)}`;
+  els.chartDisplay.innerHTML = `${renderChartImage(song)}${renderSourceImages(song)}${formatChart(song.chart || "")}`;
   if (els.chartEditor) els.chartEditor.value = song.chart || "";
   els.chartDisplay.classList.toggle("hidden", state.editing);
   els.chartEditor?.classList.toggle("hidden", !state.editing);

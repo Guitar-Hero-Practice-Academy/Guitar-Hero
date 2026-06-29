@@ -12,6 +12,10 @@ window.initialSongs.push(
     key: "Am",
     bpm: "",
     videoUrl: "",
+    sourceImages: [
+      { src: "assets/the-irrationality-of-rationality-chart-1.png", caption: "Full PDF chart - page 1" },
+      { src: "assets/the-irrationality-of-rationality-chart-2.png", caption: "Full PDF chart - page 2" }
+    ],
     chords: [
       { name: "Am", frets: "x02210", fingers: "231" },
       { name: "G", frets: "320003", fingers: "21 3" },
@@ -94,6 +98,12 @@ G F G  Am Am`
     key: "A",
     bpm: "",
     videoUrl: "",
+    sourceImages: [
+      { src: "assets/all-i-really-want-chart-1.png", caption: "Full PDF chart - page 1" },
+      { src: "assets/all-i-really-want-chart-2.png", caption: "Full PDF chart - page 2" },
+      { src: "assets/all-i-really-want-chart-3.png", caption: "Full PDF chart - page 3" },
+      { src: "assets/all-i-really-want-chart-4.png", caption: "Full PDF chart - page 4" }
+    ],
     chords: [
       { name: "A5", frets: "x022xx", fingers: "1" },
       { name: "G5", frets: "3x00xx", fingers: "13" },
@@ -206,6 +216,11 @@ A
     key: "G",
     bpm: 150,
     videoUrl: "https://www.youtube.com/watch?v=tQ1zMvP8teE",
+    sourceImages: [
+      { src: "assets/cleopatra-chart-1.png", caption: "Full PDF chart - page 1" },
+      { src: "assets/cleopatra-chart-2.png", caption: "Full PDF chart - page 2" },
+      { src: "assets/cleopatra-chart-3.png", caption: "Full PDF chart - page 3" }
+    ],
     chords: [
       { name: "G", frets: "320003", fingers: "21 3" },
       { name: "D", frets: "xx0232", fingers: "132" },

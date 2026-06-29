@@ -12,6 +12,10 @@ window.initialSongs.push({
   videoUrl: "",
   introImage: "assets/the-boys-of-summer-riff.png",
   introCaption: "Guitar 1 and Guitar 2 intro/riff. Guitar 2 repeats through the song.",
+  sourceImages: [
+    { src: "assets/the-boys-of-summer-chart-1.png", caption: "Full PDF chart - page 1" },
+    { src: "assets/the-boys-of-summer-chart-2.png", caption: "Full PDF chart - page 2" }
+  ],
   chords: [
     { name: "Em", frets: "022000", fingers: "12" },
     { name: "C", frets: "x32010", fingers: "32 1" },

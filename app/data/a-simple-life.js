@@ -11,6 +11,11 @@ window.initialSongs.push({
   key: "A",
   bpm: "",
   videoUrl: "",
+  sourceImages: [
+    { src: "assets/a-simple-life-chart-1.png", caption: "Full PDF chart - page 1" },
+    { src: "assets/a-simple-life-chart-2.png", caption: "Full PDF chart - page 2" },
+    { src: "assets/a-simple-life-chart-3.png", caption: "Full PDF chart - page 3" }
+  ],
   chords: [
     { name: "A", frets: "x02220", fingers: "123" },
     { name: "Asus4", frets: "x02230", fingers: "12 3" },

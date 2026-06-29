@@ -44,23 +44,8 @@ const supabaseEnv = {
 
 let html = fs.readFileSync(path.join(appDir, "index.html"), "utf8");
 const css = fs.readFileSync(path.join(appDir, "styles.css"), "utf8");
-const embeddedImages = [
-  "cigarettes-and-alcohol-intro.png",
-  "black-betty-intro.png",
-  "carry-on-wayward-son-riff-1.png",
-  "carry-on-wayward-son-riff-2.png",
-  "carry-on-wayward-son-solo-1.png"
-  ,"waterfall-intro-riff.png"
-  ,"waterfall-verse-riff.png"
-  ,"waterfall-chorus-riff.png"
-  ,"waterfall-bridge-riff.png"
-  ,"waterfall-solo.png"
-  ,"waterfall-outro-riff.png"
-  ,"paint-it-black-riffs.png"
-  ,"sweet-home-alabama-intro-tab.png"
-  ,"sweet-home-alabama-verse-tab.png"
-  ,"the-boys-of-summer-riff.png"
-];
+const embeddedImages = fs.readdirSync(path.join(appDir, "assets"))
+  .filter((filename) => filename.toLowerCase().endsWith(".png"));
 
 let javascript = scriptFiles
   .map((file) => `\n/* ${file} */\n${fs.readFileSync(path.join(appDir, file), "utf8")}`)
