@@ -66,6 +66,7 @@ button:hover,
   width: min(900px, 100%);
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
   gap: clamp(1rem, 3vw, 2rem);
 }
 
@@ -74,6 +75,7 @@ button:hover,
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-align: center;
   gap: 1rem;
   padding: clamp(1.35rem, 3vw, 2.4rem);
   border: 1px solid var(--line);
@@ -85,6 +87,9 @@ button:hover,
 .launch-card h1 {
   font-size: clamp(2rem, 4vw, 3.6rem);
   line-height: 0.98;
+  min-height: 2em;
+  display: grid;
+  place-items: center;
 }
 
 .launch-subtitle {
@@ -122,6 +127,12 @@ button:hover,
   color: white;
 }
 
+.compact-action {
+  width: auto;
+  min-height: 2.7rem;
+  padding: 0.45rem 0.9rem;
+}
+
 .academy-view,
 .academy-roadmap-view,
 .module-lessons-view,
@@ -129,6 +140,7 @@ button:hover,
 .lesson-view,
 .exercise-view,
 .checkpoint-view,
+.review-view,
 .notes-view,
 .chord-library-view,
 .settings-view {
@@ -597,7 +609,8 @@ button:hover,
   font-weight: 900;
 }
 
-.lesson-exercises-card {
+.lesson-exercises-card,
+.lesson-reflection-card {
   grid-column: 1 / -1;
 }
 
@@ -816,7 +829,7 @@ button:hover,
 
 .reflection-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.75rem;
 }
 
@@ -846,7 +859,7 @@ textarea,
 
 .practice-control-row {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
   gap: 0.5rem;
 }
 
@@ -867,6 +880,17 @@ textarea,
   font-size: clamp(2rem, 3.25vw, 3.15rem);
   font-weight: 900;
   line-height: 1;
+}
+
+.timer-display.timer-complete {
+  background: #e5f4ea;
+  color: var(--accent-dark);
+  animation: timerFlash 900ms ease-in-out 3;
+}
+
+@keyframes timerFlash {
+  0%, 100% { box-shadow: none; }
+  50% { box-shadow: 0 0 0 4px rgba(30, 111, 92, 0.25); }
 }
 
 .metronome-display {
@@ -1058,6 +1082,13 @@ textarea,
   gap: 0.55rem;
 }
 
+.lesson-summary-card .connected-song-list {
+  grid-auto-flow: column;
+  grid-template-rows: repeat(3, auto);
+  grid-auto-columns: minmax(220px, 1fr);
+  overflow-x: auto;
+}
+
 .notes-list {
   display: grid;
   gap: 0.85rem;
@@ -1101,9 +1132,32 @@ textarea,
   grid-row: span 2;
 }
 
+.checkpoint-requirements-card .check-list li {
+  padding-left: 0;
+}
+
+.checkpoint-requirements-card .check-list li::before {
+  display: none;
+}
+
+.tick-row {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.65rem;
+  align-items: start;
+  cursor: pointer;
+}
+
+.tick-row input {
+  width: 1.05rem;
+  height: 1.05rem;
+  margin-top: 0.1rem;
+  accent-color: var(--accent);
+}
+
 .assessment-options {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.65rem;
 }
 
@@ -1116,6 +1170,29 @@ textarea,
   border-color: var(--accent);
   background: #e5f4ea;
   color: var(--accent-dark);
+}
+
+.empty-state {
+  display: grid;
+  gap: 0.35rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8f3ea;
+}
+
+.empty-state p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.review-item {
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+}
+
+.review-item button {
+  min-width: 6rem;
 }
 
 .stat-grid {
@@ -1199,6 +1276,7 @@ textarea,
 .view-home .lesson-view,
 .view-home .exercise-view,
 .view-home .checkpoint-view,
+.view-home .review-view,
 .view-home .notes-view,
 .view-home .chord-library-view,
 .view-home .settings-view,
@@ -1211,6 +1289,7 @@ textarea,
 .view-library .lesson-view,
 .view-library .exercise-view,
 .view-library .checkpoint-view,
+.view-library .review-view,
 .view-library .notes-view,
 .view-library .chord-library-view,
 .view-library .settings-view,
@@ -1222,6 +1301,7 @@ textarea,
 .view-academy .lesson-view,
 .view-academy .exercise-view,
 .view-academy .checkpoint-view,
+.view-academy .review-view,
 .view-academy .notes-view,
 .view-academy .chord-library-view,
 .view-academy .settings-view,
@@ -1232,6 +1312,7 @@ textarea,
 .view-academy-roadmap .lesson-view,
 .view-academy-roadmap .exercise-view,
 .view-academy-roadmap .checkpoint-view,
+.view-academy-roadmap .review-view,
 .view-academy-roadmap .notes-view,
 .view-academy-roadmap .chord-library-view,
 .view-academy-roadmap .settings-view,
@@ -1243,6 +1324,7 @@ textarea,
 .view-module-lessons .lesson-view,
 .view-module-lessons .exercise-view,
 .view-module-lessons .checkpoint-view,
+.view-module-lessons .review-view,
 .view-module-lessons .notes-view,
 .view-module-lessons .chord-library-view,
 .view-module-lessons .settings-view,
@@ -1254,6 +1336,7 @@ textarea,
 .view-mission .lesson-view,
 .view-mission .exercise-view,
 .view-mission .checkpoint-view,
+.view-mission .review-view,
 .view-mission .notes-view,
 .view-mission .chord-library-view,
 .view-mission .settings-view,
@@ -1265,6 +1348,7 @@ textarea,
 .view-lesson .mission-brief-view,
 .view-lesson .exercise-view,
 .view-lesson .checkpoint-view,
+.view-lesson .review-view,
 .view-lesson .notes-view,
 .view-lesson .chord-library-view,
 .view-lesson .settings-view,
@@ -1276,6 +1360,7 @@ textarea,
 .view-exercise .mission-brief-view,
 .view-exercise .lesson-view,
 .view-exercise .checkpoint-view,
+.view-exercise .review-view,
 .view-exercise .notes-view,
 .view-exercise .chord-library-view,
 .view-exercise .settings-view,
@@ -1287,10 +1372,23 @@ textarea,
 .view-checkpoint .mission-brief-view,
 .view-checkpoint .lesson-view,
 .view-checkpoint .exercise-view,
+.view-checkpoint .review-view,
 .view-checkpoint .notes-view,
 .view-checkpoint .chord-library-view,
 .view-checkpoint .settings-view,
 .view-checkpoint .app-shell,
+.view-review .launch-view,
+.view-review .academy-view,
+.view-review .academy-roadmap-view,
+.view-review .module-lessons-view,
+.view-review .mission-brief-view,
+.view-review .lesson-view,
+.view-review .exercise-view,
+.view-review .checkpoint-view,
+.view-review .notes-view,
+.view-review .chord-library-view,
+.view-review .settings-view,
+.view-review .app-shell,
 .view-notes .launch-view,
 .view-notes .academy-view,
 .view-notes .academy-roadmap-view,
@@ -1299,6 +1397,7 @@ textarea,
 .view-notes .lesson-view,
 .view-notes .exercise-view,
 .view-notes .checkpoint-view,
+.view-notes .review-view,
 .view-notes .chord-library-view,
 .view-notes .settings-view,
 .view-notes .app-shell,
@@ -1310,6 +1409,7 @@ textarea,
 .view-chords .lesson-view,
 .view-chords .exercise-view,
 .view-chords .checkpoint-view,
+.view-chords .review-view,
 .view-chords .notes-view,
 .view-chords .settings-view,
 .view-chords .app-shell,
@@ -1321,6 +1421,7 @@ textarea,
 .view-settings .lesson-view,
 .view-settings .exercise-view,
 .view-settings .checkpoint-view,
+.view-settings .review-view,
 .view-settings .notes-view,
 .view-settings .chord-library-view,
 .view-settings .app-shell {

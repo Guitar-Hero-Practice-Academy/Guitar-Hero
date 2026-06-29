@@ -118,9 +118,7 @@
           <p id="moduleLessonsSubtitle" class="academy-subtitle"></p>
         </div>
         <div class="header-actions">
-          <button id="moduleLessonsDashboardButton">Dashboard</button>
           <button id="moduleOverviewButton">Module Overview</button>
-          <button id="moduleLessonsBackButton">Back to Modules</button>
         </div>
       </header>
       <section class="academy-dashboard" aria-label="Module lessons">
@@ -141,9 +139,7 @@
           <p id="missionBriefSubtitle" class="academy-subtitle"></p>
         </div>
         <div class="header-actions">
-          <button id="missionHomeButton">Dashboard</button>
-          <button id="missionLessonsButton">Lessons</button>
-          <button id="missionBackButton">Back to Modules</button>
+          <button class="launch-button compact-action" id="startLessonButton">View Lessons</button>
         </div>
       </header>
 
@@ -156,6 +152,7 @@
             </div>
             <span class="status-pill" id="missionStatus"></span>
           </div>
+          <div class="progress-track"><span id="missionOverviewProgressBar"></span></div>
           <div class="brief-section">
             <h3>Module Objective</h3>
             <p id="missionObjective"></p>
@@ -164,7 +161,6 @@
             <h3>Why This Matters</h3>
             <p id="missionWhyItMatters"></p>
           </div>
-          <button class="launch-button" id="startLessonButton">Start Lesson 1</button>
         </article>
 
         <article class="academy-card outcomes-card">
@@ -185,7 +181,6 @@
         <article class="academy-card success-card">
           <h2>By the end of this module you should be able to:</h2>
           <ul id="missionSuccessCriteria" class="check-list"></ul>
-          <button id="missionSecondaryBackButton">Back to Dashboard</button>
         </article>
       </section>
     </main>
@@ -193,14 +188,12 @@
     <main class="lesson-view" id="lessonView" aria-label="Lesson">
       <header class="academy-header">
         <div>
-          <p class="eyebrow" id="lessonMissionName"></p>
           <h1 id="lessonTitle"></h1>
+          <p class="academy-subtitle" id="lessonMissionName"></p>
           <p class="academy-subtitle" id="lessonMeta"></p>
         </div>
         <div class="header-actions">
-          <button id="lessonHomeButton">Dashboard</button>
           <button id="lessonLessonsButton">Lessons</button>
-          <button id="lessonBackButton">Back to Modules</button>
           <button id="finishLessonButton" disabled>Finish Lesson</button>
         </div>
       </header>
@@ -231,7 +224,6 @@
         <article class="academy-card lesson-reflection-card">
           <h2>Lesson Reflection</h2>
           <div class="reflection-grid">
-            <label>What felt easiest?<textarea id="reflectionEasiest"></textarea></label>
             <label>What needs more work?<textarea id="reflectionWork"></textarea></label>
             <label>What did I notice?<textarea id="reflectionNotice"></textarea></label>
             <label>What should I focus on next time?<textarea id="reflectionFocus"></textarea></label>
@@ -314,9 +306,7 @@
           <article class="academy-card exercise-notes-card">
             <h2>Practice Notes</h2>
             <textarea id="exerciseNotesInput" class="practice-notes-input" placeholder="What did you notice?"></textarea>
-            <button id="saveExerciseNotesButton">Save Notes</button>
             <div id="exerciseNotesStatus" class="completion-message" aria-live="polite"></div>
-            <div id="exerciseSavedNotes" class="saved-notes-preview hidden"></div>
           </article>
 
           <article class="academy-card exercise-assessment-card">
@@ -335,14 +325,12 @@
     <main class="checkpoint-view" id="checkpointView" aria-label="Checkpoint">
       <header class="academy-header">
         <div>
-          <p class="eyebrow">Checkpoint</p>
           <h1 id="checkpointTitle"></h1>
+          <p class="academy-subtitle">Checkpoint</p>
           <p class="academy-subtitle" id="checkpointLessonTitle"></p>
         </div>
         <div class="header-actions">
-          <button id="checkpointHomeButton">Dashboard</button>
           <button id="checkpointBackButton">Back to Lesson</button>
-          <button id="checkpointDashboardButton">Return to Dashboard</button>
         </div>
       </header>
 
@@ -357,7 +345,7 @@
           <ul id="checkpointRequirements" class="check-list"></ul>
         </article>
 
-        <article class="academy-card checkpoint-assessment-card">
+        <article class="academy-card checkpoint-assessment-card" id="checkpointAssessmentCard">
           <h2>Lesson Complete?</h2>
           <div class="assessment-options" aria-label="Lesson completion options">
             <button type="button" data-assessment="passed">Yes</button>
@@ -377,7 +365,6 @@
             <button id="continueNextLessonButton">Continue to next lesson</button>
             <button id="reviewExercisesButton">Review recommended exercises</button>
             <button id="summaryNotesButton">Practice Notes</button>
-            <button id="summaryDashboardButton">Dashboard</button>
           </div>
         </article>
       </section>
@@ -387,7 +374,7 @@
       <header class="academy-header">
         <div>
           <h1>Practice Notes</h1>
-          <p class="academy-subtitle">Exercise notes and lesson reflections.</p>
+          <p id="notesSubtitle" class="academy-subtitle">Exercise notes and lesson reflections.</p>
         </div>
         <div class="header-actions">
           <button id="notesBackButton">Back</button>
@@ -404,6 +391,23 @@
           </div>
           <p id="coachingSummaryStatus" class="completion-message" aria-live="polite"></p>
           <div id="practiceNotesList" class="notes-list"></div>
+        </article>
+      </section>
+    </main>
+
+    <main class="review-view" id="reviewView" aria-label="Recommended Review">
+      <header class="academy-header">
+        <div>
+          <h1>Recommended Review</h1>
+          <p class="academy-subtitle">Exercises marked Needs More Practice.</p>
+        </div>
+        <div class="header-actions">
+          <button id="reviewBackButton">Back</button>
+        </div>
+      </header>
+      <section class="settings-layout">
+        <article class="academy-card review-list-card">
+          <div id="recommendedReviewList" class="exercise-card-list"></div>
         </article>
       </section>
     </main>
