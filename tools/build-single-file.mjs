@@ -29,6 +29,7 @@ const scriptFiles = [
   "data/the-boys-of-summer.js",
   "data/a-simple-life.js",
   "data/the-middle.js",
+  "data/pdf-song-additions.js",
   "data/tone-settings.js",
   "data/library-metadata.js",
   "data/academy-data.js",
