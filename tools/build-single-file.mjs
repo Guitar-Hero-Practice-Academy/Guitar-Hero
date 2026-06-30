@@ -16,6 +16,7 @@ const scriptFiles = [
   "data/oasis-more-songs.js",
   "data/champagne-supernova-chart.js",
   "data/little-by-little.js",
+  "data/columbia.js",
   "data/black-betty.js",
   "data/carry-on-wayward-son.js",
   "data/rock-n-roll-star.js",
