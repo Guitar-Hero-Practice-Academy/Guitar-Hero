@@ -11,11 +11,6 @@ window.initialSongs.push({
   key: "A",
   bpm: "",
   videoUrl: "",
-  sourceImages: [
-    { src: "assets/a-simple-life-chart-1.png", caption: "Full PDF chart - page 1" },
-    { src: "assets/a-simple-life-chart-2.png", caption: "Full PDF chart - page 2" },
-    { src: "assets/a-simple-life-chart-3.png", caption: "Full PDF chart - page 3" }
-  ],
   chords: [
     { name: "A", frets: "x02220", fingers: "123" },
     { name: "Asus4", frets: "x02230", fingers: "12 3" },
@@ -39,61 +34,100 @@ window.initialSongs.push({
     }
   ],
   chart: `[Intro]
-A  Asus4  A  /  F#m  E  D  E
-
-[Verse]
-A  D
-A  E
-A  D  A  E
-A  D
-A  E
+A  Asus4 A / F#m E D E
+[Verse 1]
+A          D
+Show me the magic
+A         E
+I must've lost it somewhere
+A    D       A       E
+In my dreams, so far away
+A            E
+I turned around, everything's changing but
 G
-
-[Chorus]
-E  A  Asus4  A
-Asus4  F#m  E  D
+Where is the soul in my song?
+[Chorus 1]
+Asus4 A
+Once there was heaven in my eyes
+Asus4  F#m    E      D
+Whatever happened to those skies?
 Bm
-Bm/A  G  D  A
-
-[Interlude]
-A  Asus4  A  /  F#m  E  D  E
-
+Somebody show me how to
+Bm/A G     D    A
+Get back to the simple life
+[Interlude 1]
+A  Asus4   A  / F#m E D  E
 [Verse 2]
-A  D
-A  E
-A  D  A  E
-A  D
-A  E
-G
+A         D
 
+A            E
+Temptation's all around me
+The train came along and I got on board
+A                 D
+I danced with the darkness
+A              E
+The skies were the limit
+G
+It's such a long way to fall
 [Chorus 2]
-E  A  Asus4  A
-Asus4  F#m  E  D
+A     Asus4 A
+Once there was heaven in my eyes
+Asus4 F#m    E       D
+Whatever happened to those skies?
 Bm
-Bm/A  G  D  A
-E  A  Asus4  A
-Asus4  F#m  E  D
+Somebody show me how to
+Bm/A G             A
+Get back to the simple life
+E            A    Asus4 A
+'cause I've done my time in paradise
+Asus4         F#m     E       D
+I've tried it all maybe once or twice
 Bm
-Bm/A  G  D  A
-
+Somebody show me how to
+Bm/A G     D      A
+Get back to the simple life
 [Bridge]
-C#m  D/B
+C#m          D/B
+Stars keep me going
+And the moon is there to light my way
+C#m                   F#m
+I need to go where my heart is free
 G
-C#m  F#m
-G
-
+Looking for the way back, hoping for the way back
 [Chorus 3]
-E  A  Asus4  A  Asus4  F#m  E  D
+E A Asus4 A Asus4 F#m E D
+(Instrumental lead-in over chorus chords)
 Bm
-Bm/A  G  D  A
-E  A  Asus4  A
-Asus4  F#m  E  D
-Bm  Bm/A
-G  D  A
+Somebody show me how to
+Bm/A  G     D     A
+Get back to the simple life
+E           A    Asus4 A
+'cause I've done my time in paradise
+Asus4        F#m    E       D
+I've tried it all maybe once or twice
+Bm                   Bm/A
+Somehow the grass was always greener
 
-[Final chorus]
-E  A  Asus4  A
-Asus4  F#m
-E  D  G  A  Asus4  A
-(fade)`
+G     D    A
+On the other side
+E                     Asus4 A
+Once there was heaven in my eyes
+Asus4   F#m     E       D
+Whatever happened to those skies?
+Bm
+Somebody show me how to
+Bm/A  G    D     A
+Get back to the simple life
+Asus4        F#m      E      D
+I've tried it all maybe once or twice
+Bm          Bm/A G
+Somebody show me show show show me
+D     A
+A simple life
+E                     Asus4 A
+Once there was heaven in my eyes
+Asus4                       F#m
+Once there was heaven in my eyes
+E                                 Asus4
+Somebody show me, show me... (Fade out)`
 });
