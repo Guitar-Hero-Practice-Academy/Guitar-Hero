@@ -40,6 +40,7 @@ window.initialSongs.push({
 [Verse]
 D                                A
 Hey, don't write yourself off yet.
+D                                A
 It's only in your head you feel left out or looked down on.
 A
 Just try your best, try everything you can.
@@ -49,21 +50,25 @@ And don't you worry what they tell themselves       when you're away.
 [Chorus]
 N.C. D
 It just takes some time, little girl, you're in the middle of the ride, everything,
+N.C. D
 Everything will be just fine, everything, everything will be alright (alright)
 [Verse]
 D                               A
 Hey, you know they're all the same.
 G                          D
 You know you're doing better on your own, so don't buy in.
+G                          D
 Live right now.       Yeah, just be yourself.
 G                        D
 It doesn't matter if it's good enough      for someone else.
 [Chorus ]
 N.C. D
 It just takes some time, little girl, you're in the middle of the ride, everything,
+N.C. D
 Everything will be just fine, everything, everything will be alright (alright)
 N.C. D
 It just takes some time, little girl, you're in the middle of the ride, everything,
+N.C. D
 Everything will be just fine, everything, everything will be alright (alright)
 [Solo]
 D
@@ -82,7 +87,9 @@ And don't you worry what the bitter hearts    are gonna say.
 [Chorus]
 N.C. D                                               A
 It just takes some time, little girl, you're in the middle of the ride, everything,
+N.C. D                                               A
 Everything will be just fine, everything, everything will be alright (alright)
+N.C. D                                               A
 It just takes some time, little girl, you're in the middle of the ride, everything,
 N.C. G                                                  N.C.
 Everything will be just fine, everything, everything will be alright`

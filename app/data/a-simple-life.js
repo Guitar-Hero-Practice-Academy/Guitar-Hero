@@ -62,6 +62,7 @@ A         D
 
 A            E
 Temptation's all around me
+A            E
 The train came along and I got on board
 A                 D
 I danced with the darkness
@@ -89,6 +90,7 @@ Get back to the simple life
 [Bridge]
 C#m          D/B
 Stars keep me going
+Bm
 And the moon is there to light my way
 C#m                   F#m
 I need to go where my heart is free
