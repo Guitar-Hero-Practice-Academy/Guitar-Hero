@@ -163,6 +163,10 @@ button:hover,
   display: none;
 }
 
+.view-skill-builders .app-shell {
+  display: none;
+}
+
 .skill-builder-intro-card {
   gap: 1rem;
 }

@@ -6280,6 +6280,709 @@ barreAcceleratorFinalLessons.forEach(({ lesson, exercises, checkpoint }) => {
   });
 });
 
+const musicalStrummingLessons = [
+  {
+    lesson: {
+      id: "lesson-musical-strumming-1",
+      missionId: "mission-strumming-patterns",
+      lessonNumber: 1,
+      title: "Strumming Like a Song",
+      description: "Make simple chord progressions sound musical through consistent movement and feel.",
+      objectiveHeading: "What you'll learn",
+      objective: "Understand that rhythm is more than keeping time. Learn to make simple chord progressions sound musical through consistent movement and feel.",
+      whyThisLesson: "Many beginners can play the correct chords but still sound mechanical. Today you begin developing the natural flow that separates practising from making music.",
+      coachNotes: "Imagine you’re accompanying a singer. Your job isn’t simply to count beats. Your job is to support the song.",
+      estimatedMinutes: 30,
+      skillIds: ["skill-rhythm", "skill-strumming", "skill-timing", "skill-song-performance"],
+      connectedSongs: [
+        { title: "Wonderwall", artist: "Oasis", note: "Reinforces continuous movement and a recognisable musical strumming feel." },
+        { title: "Free Fallin’", artist: "Tom Petty", note: "Shows how simple chord movement can sound musical through steady phrasing." }
+      ],
+      recommendedSongs: [
+        { title: "Wonderwall", artist: "Oasis", note: "Reinforces continuous movement and a recognisable musical strumming feel." },
+        { title: "Free Fallin’", artist: "Tom Petty", note: "Shows how simple chord movement can sound musical through steady phrasing." }
+      ],
+      checkpoint: "checkpoint-musical-strumming-1",
+      practiceJournal: ["Which chord interrupted the flow?", "Did you listen more than you watched?", "What sounded most musical today?"],
+      reflectionPrompts: ["Which chord interrupted the flow?", "Did you listen more than you watched?", "What sounded most musical today?"],
+      completed: false
+    },
+    exercises: [
+      ["continuous-hand-motion", "Continuous Hand Motion", 5, "60 BPM", "Re-establish continuous strumming movement.", "One minute of uninterrupted movement.", ["Mute the strings.", "Keep your hand moving continuously.", "Count aloud."], []],
+      ["soft-groove", "Soft Groove", 5, "60 BPM", "Develop smooth, relaxed movement without chasing speed.", "Play G with a soft, steady groove for one minute.", ["Play G.", "Focus only on smooth relaxed movement.", "Do not think about speed."], ["Strumming too hard", "Tensing the wrist"]],
+      ["chord-flow", "Chord Flow", 5, "60 BPM", "Keep musical movement flowing across familiar chords.", "Complete several cycles without pauses.", ["Play G, C, D, Em and Am.", "Use four beats for each chord.", "Do not pause between chords."], [], ["G", "C", "D", "Em", "Am"]],
+      ["listening-exercise", "Listening Exercise", 5, "60 BPM", "Separate listening for timing from listening for tone.", "Identify one timing detail and one tone detail.", ["Play the same progression twice.", "First, listen only to timing.", "Second, listen only to tone.", "Notice the difference."], [], ["G", "C", "D", "Em", "Am"]],
+      ["dynamic-repeat", "Dynamic Repeat", 5, "60 BPM", "Use volume changes without disturbing musical flow.", "Move from quiet to natural to confident volume while timing stays steady.", ["Repeat the progression quietly.", "Repeat it naturally.", "Repeat it confidently.", "Keep the rhythm unchanged."], [], ["G", "C", "D", "Em", "Am"]],
+      ["continuous-playing", "Continuous Playing", 5, "60 BPM", "Turn the lesson into uninterrupted music.", "Play continuously for five minutes and recover naturally from mistakes.", ["Play continuously for five minutes.", "Keep the hand moving.", "Recover naturally from mistakes."], [], ["G", "C", "D", "Em", "Am"]]
+    ],
+    checkpoint: {
+      id: "checkpoint-musical-strumming-1",
+      title: "Strumming Like a Song",
+      purpose: "Confirm that continuous rhythm is beginning to sound smoother and more musical.",
+      requirements: ["Rhythm remains steady", "Hand never stops", "Playing sounds smoother than Module 2"],
+      passRule: "Pass if rhythm remains steady, the hand keeps moving and the progression sounds smoother and more musical."
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-musical-strumming-2",
+      missionId: "mission-strumming-patterns",
+      lessonNumber: 2,
+      title: "Accents Create Groove",
+      description: "Learn how emphasising different beats changes the feel of the music.",
+      objectiveHeading: "What you'll learn",
+      objective: "Learn how emphasising different beats changes the feel of the music.",
+      whyThisLesson: "Great rhythm guitar isn’t about strumming harder. It’s about choosing where the music breathes.",
+      coachNotes: "Imagine clapping along to a song. You naturally clap some beats more strongly than others. Today you’ll learn to do the same with your guitar.",
+      estimatedMinutes: 35,
+      skillIds: ["skill-rhythm", "skill-strumming", "skill-timing"],
+      connectedSongs: [
+        { title: "Stand By Me", artist: "Ben E. King", note: "Its repeating groove makes intentional accents easy to hear." },
+        { title: "Wonderwall", artist: "Oasis", note: "Demonstrates how accent choices give a familiar pattern its character." }
+      ],
+      recommendedSongs: [
+        { title: "Stand By Me", artist: "Ben E. King", note: "Its repeating groove makes intentional accents easy to hear." },
+        { title: "Wonderwall", artist: "Oasis", note: "Demonstrates how accent choices give a familiar pattern its character." }
+      ],
+      checkpoint: "checkpoint-musical-strumming-2",
+      practiceJournal: ["Which accent pattern felt most natural?", "Did accents improve the musical feel?"],
+      reflectionPrompts: ["Which accent pattern felt most natural?", "Did accents improve the musical feel?"],
+      completed: false
+    },
+    exercises: [
+      ["accent-beat-one", "Accent Beat One", "Emphasise beat one while every other stroke remains even.", "Keep the pulse steady while beat one sounds intentional."],
+      ["accent-two-four", "Accent Beats Two and Four", "Emphasise beats two and four without rushing.", "Keep accents clear while timing remains unchanged."],
+      ["compare-feels", "Compare Different Feels", "Compare beat-one accents with accents on beats two and four.", "Hear and describe how each pattern changes the groove."],
+      ["g-c-accents", "G–C Accent Practice", "Apply intentional accents while changing between G and C.", "Maintain accents and steady rhythm through the chord change.", ["G", "C"]],
+      ["g-c-d-progression", "G–C–D Progression", "Carry the accent pattern through a three-chord progression.", "Complete several cycles with consistent accents.", ["G", "C", "D"]],
+      ["stand-by-me-study", "Stand By Me Accent Study", "Apply accents to a familiar repeating song progression.", "Keep the groove consistent while accents remain musical.", ["G", "Em", "C", "D"]],
+      ["five-minute-groove", "Five Minute Groove Practice", "Sustain the preferred accent pattern in continuous playing.", "Complete five minutes with consistent rhythm and intentional accents.", ["G", "C", "D", "Em", "Am"]]
+    ].map(([slug, title, purpose, done, chordNames = []]) => [
+      slug,
+      title,
+      5,
+      "60 BPM",
+      purpose,
+      done,
+      ["Begin at 60 BPM.", "Keep every stroke consistent.", "Add the named accent without changing tempo.", "Prioritise consistency before volume."],
+      [],
+      chordNames
+    ]),
+    checkpoint: {
+      id: "checkpoint-musical-strumming-2",
+      title: "Accents Create Groove",
+      purpose: "Confirm that accents can change the feel without changing the underlying rhythm.",
+      requirements: ["Accents remain intentional", "Rhythm does not change", "Louder strums do not become rushed"],
+      passRule: "Pass if accents remain intentional while the underlying rhythm stays steady and unhurried."
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-musical-strumming-3",
+      missionId: "mission-strumming-patterns",
+      lessonNumber: 3,
+      title: "Relaxed Up-Down Strumming",
+      description: "Develop effortless continuous strumming using relaxed wrist movement.",
+      objectiveHeading: "What you'll learn",
+      objective: "Develop effortless continuous strumming using relaxed wrist movement.",
+      whyThisLesson: "Many players become tense when increasing strumming complexity. Today’s lesson teaches that relaxation produces better rhythm than effort.",
+      coachNotes: "Your wrist should feel loose enough that someone could gently move your hand while you’re playing. If it feels rigid, you’re working too hard.",
+      estimatedMinutes: 35,
+      skillIds: ["skill-rhythm", "skill-strumming", "skill-timing"],
+      connectedSongs: [
+        { title: "Wonderwall", artist: "Oasis", note: "Requires continuous relaxed motion beneath a recognisable pattern." },
+        { title: "Free Fallin’", artist: "Tom Petty", note: "Rewards light, effortless up-down movement and consistent feel." }
+      ],
+      recommendedSongs: [
+        { title: "Wonderwall", artist: "Oasis", note: "Requires continuous relaxed motion beneath a recognisable pattern." },
+        { title: "Free Fallin’", artist: "Tom Petty", note: "Rewards light, effortless up-down movement and consistent feel." }
+      ],
+      checkpoint: "checkpoint-musical-strumming-3",
+      practiceJournal: ["Did tension increase with speed?", "What helped you relax?", "Which exercise felt most natural?"],
+      reflectionPrompts: ["Did tension increase with speed?", "What helped you relax?", "Which exercise felt most natural?"],
+      completed: false
+    },
+    exercises: [
+      ["air-strumming", "Air Strumming", "Develop loose up-down movement without touching the strings.", "One minute of continuous relaxed motion.", []],
+      ["muted-up-down", "Muted Up-Down", "Add string contact while keeping the wrist loose.", "One minute of even muted up-down strokes.", []],
+      ["up-down-g", "Up-Down on G", "Apply relaxed movement to a familiar chord.", "One minute of steady up-down strumming on G.", ["G"]],
+      ["g-c", "G–C", "Keep continuous motion through a chord change.", "Several G–C changes without interrupting the hand.", ["G", "C"]],
+      ["g-c-d", "G–C–D", "Extend relaxed movement across three chords.", "Several complete cycles with consistent rhythm.", ["G", "C", "D"]],
+      ["five-chord-progression", "Five-Chord Progression", "Maintain relaxed movement across G, C, D, Em and Am.", "Complete several five-chord cycles without tension.", ["G", "C", "D", "Em", "Am"]],
+      ["continuous-performance", "Five Minute Continuous Performance", "Turn relaxed up-down motion into continuous music.", "Complete five minutes without stopping or tightening the wrist.", ["G", "C", "D", "Em", "Am"]]
+    ].map(([slug, title, purpose, done, chordNames]) => [
+      slug,
+      title,
+      5,
+      "60–70 BPM",
+      purpose,
+      done,
+      ["Begin at 60 BPM.", "Keep the wrist and forearm relaxed.", "Maintain continuous up-down motion.", "Increase to 70 BPM only if the movement remains relaxed."],
+      [],
+      chordNames
+    ]),
+    checkpoint: {
+      id: "checkpoint-musical-strumming-3",
+      title: "Relaxed Up-Down Strumming",
+      purpose: "Confirm that increased strumming complexity does not create tension or interrupt rhythm.",
+      requirements: ["Wrist remains relaxed", "Hand moves continuously", "Rhythm stays consistent", "Chord changes no longer interrupt movement"],
+      passRule: "Pass if the wrist remains relaxed, motion stays continuous and chord changes no longer interrupt the rhythm."
+    }
+  }
+];
+
+musicalStrummingLessons.forEach(({ lesson, exercises, checkpoint }) => {
+  const exerciseObjects = exercises.map(([slug, title, durationMinutes, tempo, purpose, done, instructionSteps, commonMistakes, chordNames = []]) => ({
+    id: `exercise-${lesson.id.replace(/^lesson-/, "")}-${slug}`,
+    lessonId: lesson.id,
+    title,
+    purpose,
+    objective: purpose,
+    instructions: instructionSteps.join(" "),
+    instructionSteps,
+    durationMinutes,
+    tempo,
+    passCriteria: done,
+    definitionOfDone: done,
+    commonMistakes,
+    chordNames,
+    skillIds: lesson.skillIds,
+    mediaLinks: [],
+    completed: false
+  }));
+  upsertAcademyItem("lessons", {
+    ...lesson,
+    exercises: exerciseObjects.map((exercise) => exercise.id)
+  });
+  exerciseObjects.forEach((exercise) => upsertAcademyItem("exercises", exercise));
+  upsertAcademyItem("checkpoints", {
+    ...checkpoint,
+    lessonId: lesson.id,
+    completed: false
+  });
+});
+
+const musicalStrummingLessonsFourToSix = [
+  {
+    lesson: {
+      id: "lesson-musical-strumming-4",
+      missionId: "mission-strumming-patterns",
+      lessonNumber: 4,
+      title: "Playing With the Music",
+      description: "Learn to listen while playing instead of focusing entirely on your hands.",
+      objectiveHeading: "What you'll learn",
+      objective: "Learn to listen while playing instead of focusing entirely on your hands.",
+      whyThisLesson: "Many beginners stare at the fretboard so intensely they stop listening to what they’re actually playing. Today you’ll begin training your ears as much as your fingers.",
+      coachNotes: "Your ears are your most important teacher. If something sounds wrong, believe your ears before your eyes.",
+      estimatedMinutes: 30,
+      skillIds: ["skill-rhythm", "skill-strumming", "skill-timing", "skill-song-performance"],
+      connectedSongs: [
+        { title: "Free Fallin’", artist: "Tom Petty", note: "Encourages listening to musical flow rather than watching every movement." },
+        { title: "Wonderwall", artist: "Oasis", note: "Develops active listening within a continuous, recognisable strumming texture." }
+      ],
+      recommendedSongs: [
+        { title: "Free Fallin’", artist: "Tom Petty", note: "Encourages listening to musical flow rather than watching every movement." },
+        { title: "Wonderwall", artist: "Oasis", note: "Develops active listening within a continuous, recognisable strumming texture." }
+      ],
+      checkpoint: "checkpoint-musical-strumming-4",
+      practiceJournal: ["What did you notice when you stopped watching your hands?", "Which chord sounded the richest?", "What would you like to improve?"],
+      reflectionPrompts: ["What did you notice when you stopped watching your hands?", "Which chord sounded the richest?", "What would you like to improve?"],
+      completed: false
+    },
+    exercises: [
+      ["listen-before-playing", "Listen Before Playing", "Develop active listening.", "You can comfortably anticipate each beat.", ["Listen to the metronome for one minute.", "Tap your foot.", "Do not touch the guitar."], [], "", []],
+      ["one-chord-listening", "One Chord Listening", "Listen closely to tone, rhythm and consistency.", "Play G continuously with steady rhythm and an even tone.", ["Play G major continuously.", "Focus only on tone, rhythm and consistency.", "Ignore speed."], [], "", ["G"]],
+      ["closed-eyes", "Closed Eyes", "Use hearing rather than vision to guide the playing.", "Complete one minute without opening your eyes.", ["Play G and C.", "Close your eyes once comfortable.", "Focus only on what you hear."], [], "Removing vision often improves listening surprisingly quickly.", ["G", "C"]],
+      ["chord-flow", "Chord Flow", "Listen for smoothness across a complete progression.", "Complete several smooth cycles without stopping.", ["Play G, Em, C and D.", "Repeat continuously.", "Listen for smoothness rather than correctness."], [], "", ["G", "Em", "C", "D"]],
+      ["dynamics", "Dynamics", "Hear how volume changes the emotion of a progression.", "Move through soft, medium and strong dynamics without changing tempo.", ["Repeat the G, Em, C and D progression.", "Play it softly.", "Play it at medium volume.", "Play it strongly.", "Notice how the emotion changes."], [], "", ["G", "Em", "C", "D"]],
+      ["musical-performance", "Musical Performance", "Play as though accompanying a singer.", "Playing sounds relaxed and connected.", ["Play continuously.", "Imagine accompanying a singer.", "Listen to the complete musical flow."], [], "", ["G", "Em", "C", "D"]]
+    ],
+    checkpoint: {
+      id: "checkpoint-musical-strumming-4",
+      title: "Playing With the Music",
+      purpose: "Confirm that active listening now guides steady, connected rhythm playing.",
+      requirements: ["You listened throughout the exercise", "Rhythm stayed steady", "Playing felt more musical than mechanical"],
+      passRule: "Pass if listening remains active, rhythm stays steady and the result feels more musical than mechanical."
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-musical-strumming-5",
+      missionId: "mission-strumming-patterns",
+      lessonNumber: 5,
+      title: "Musical Dynamics",
+      description: "Use dynamics intentionally to create expression.",
+      objectiveHeading: "What you'll learn",
+      objective: "Use dynamics intentionally to create expression.",
+      whyThisLesson: "Music becomes interesting because it changes. Playing every strum at the same volume creates a flat performance. Learning dynamics is one of the quickest ways to sound more experienced.",
+      coachNotes: "Imagine telling a story. If every sentence is spoken at exactly the same volume, people stop listening. Music works the same way.",
+      estimatedMinutes: 30,
+      skillIds: ["skill-rhythm", "skill-strumming", "skill-timing", "skill-song-performance"],
+      connectedSongs: [
+        { title: "Wonderwall", artist: "Oasis", note: "Uses changing intensity to shape sections while the strumming remains continuous." },
+        { title: "Stand By Me", artist: "Ben E. King", note: "Provides a steady groove for practising deliberate dynamic changes." }
+      ],
+      recommendedSongs: [
+        { title: "Wonderwall", artist: "Oasis", note: "Uses changing intensity to shape sections while the strumming remains continuous." },
+        { title: "Stand By Me", artist: "Ben E. King", note: "Provides a steady groove for practising deliberate dynamic changes." }
+      ],
+      checkpoint: "checkpoint-musical-strumming-5",
+      practiceJournal: ["Which dynamic felt most natural?", "Did changing volume affect rhythm?", "Which sounded most musical?"],
+      reflectionPrompts: ["Which dynamic felt most natural?", "Did changing volume affect rhythm?", "Which sounded most musical?"],
+      completed: false
+    },
+    exercises: [
+      ["quiet-playing", "Quiet Playing", "Develop controlled quiet strumming without losing tone.", "Play one progression quietly while tone and rhythm remain clear.", ["Choose a familiar progression.", "Play it quietly.", "Maintain tone and steady timing."], ["Letting quiet playing become hesitant"], "", ["G", "C", "D", "Em"]],
+      ["confident-playing", "Confident Playing", "Increase volume without becoming aggressive.", "Play the same progression confidently with clean tone and steady timing.", ["Play the same progression confidently.", "Keep the wrist relaxed.", "Avoid aggression."], ["Hitting harder instead of playing confidently"], "", ["G", "C", "D", "Em"]],
+      ["build-release", "Build and Release", "Create a gradual dynamic rise and fall.", "Volume changes gradually while rhythm remains steady.", ["Begin quietly.", "Gradually become louder.", "Gradually become quieter.", "Repeat."], [], "", ["G", "C", "D", "Em"]],
+      ["verse-chorus", "Verse and Chorus", "Use contrasting dynamics to shape song sections.", "Quiet verse and confident chorus sound clearly different without a tempo change.", ["Play a quiet verse.", "Play a confident chorus.", "Alternate the two sections."], [], "", ["G", "C", "D", "Em"]],
+      ["dynamic-changes", "Dynamic Chord Changes", "Maintain intended dynamics while changing chords.", "Chord changes stay smooth and the selected dynamic remains consistent.", ["Choose a progression.", "Set a clear dynamic level.", "Maintain it through every chord change.", "Repeat at a different dynamic."], [], "", ["G", "C", "D", "Em", "Am"]],
+      ["musical-performance", "Musical Performance", "Use dynamics naturally in continuous playing.", "Complete five minutes with intentional expression and steady rhythm.", ["Play continuously.", "Experiment with expression.", "Let dynamics support the musical phrase.", "Keep rhythm steady."], [], "", ["G", "C", "D", "Em", "Am"]]
+    ],
+    checkpoint: {
+      id: "checkpoint-musical-strumming-5",
+      title: "Musical Dynamics",
+      purpose: "Confirm that dynamics can shape a performance without disturbing rhythm or tone.",
+      requirements: ["Dynamic changes sound intentional", "Rhythm remains steady", "Tone stays clean"],
+      passRule: "Pass if dynamic changes sound intentional while rhythm remains steady and tone stays clean."
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-musical-strumming-6",
+      missionId: "mission-strumming-patterns",
+      lessonNumber: 6,
+      title: "Finding Your Groove",
+      description: "Develop relaxed rhythm that feels natural rather than counted.",
+      objectiveHeading: "What you'll learn",
+      objective: "Develop relaxed rhythm that feels natural rather than counted.",
+      whyThisLesson: "Great rhythm players eventually stop counting every beat. Instead, they feel the pulse internally. Today you’ll begin making that transition.",
+      coachNotes: "If you constantly think “one-two-three-four,” your brain never relaxes. Eventually the pulse should feel automatic.",
+      estimatedMinutes: 30,
+      skillIds: ["skill-rhythm", "skill-strumming", "skill-timing", "skill-song-performance"],
+      connectedSongs: [
+        { title: "Wonderwall", artist: "Oasis", note: "Develops relaxed internal pulse within a continuous strumming pattern." },
+        { title: "Free Fallin’", artist: "Tom Petty", note: "Rewards natural groove, listening and unforced rhythmic movement." }
+      ],
+      recommendedSongs: [
+        { title: "Wonderwall", artist: "Oasis", note: "Develops relaxed internal pulse within a continuous strumming pattern." },
+        { title: "Free Fallin’", artist: "Tom Petty", note: "Rewards natural groove, listening and unforced rhythmic movement." }
+      ],
+      checkpoint: "checkpoint-musical-strumming-6",
+      practiceJournal: ["When did the rhythm begin to feel automatic?", "Did looking away help?", "Did you enjoy today’s playing more than earlier modules?"],
+      reflectionPrompts: ["When did the rhythm begin to feel automatic?", "Did looking away help?", "Did you enjoy today’s playing more than earlier modules?"],
+      completed: false
+    },
+    exercises: [
+      ["foot-first", "Foot First", "Let the foot establish the pulse before the hands join.", "Foot keeps steady time while the hands follow.", ["Tap your foot continuously.", "Let the hands follow the foot.", "Keep the pulse relaxed."], [], "", []],
+      ["relaxed-strumming", "Relaxed Strumming", "Let movement become more important than speed.", "One chord flows with loose, consistent movement.", ["Play one chord.", "Ignore speed.", "Focus only on relaxed movement."], [], "", ["G"]],
+      ["groove-loop", "Groove Loop", "Use repetition to let the rhythm feel automatic.", "Complete several G, C, Em and D cycles without analysing mistakes.", ["Play G, C, Em and D.", "Repeat continuously.", "Do not analyse mistakes."], [], "", ["G", "C", "Em", "D"]],
+      ["breathe", "Breathe", "Keep natural breathing connected to relaxed rhythm.", "Breathing remains natural throughout the progression.", ["Repeat the G, C, Em and D progression.", "Notice your breathing.", "Avoid holding your breath."], ["Holding the breath during difficult changes"], "", ["G", "C", "Em", "D"]],
+      ["looking-up", "Looking Up", "Reduce visual dependence and listen instead.", "Play comfortably while looking away for increasing periods.", ["Play the progression.", "Look away from the guitar whenever comfortable.", "Listen instead of watching."], [], "", ["G", "C", "Em", "D"]],
+      ["five-minute-performance", "Five Minute Performance", "Bring internal pulse, relaxation and recovery together.", "Complete five minutes without stopping.", ["Play continuously.", "Imagine performing for someone.", "Do not stop.", "Recover naturally."], [], "", ["G", "C", "Em", "D"]]
+    ],
+    checkpoint: {
+      id: "checkpoint-musical-strumming-6",
+      title: "Finding Your Groove",
+      purpose: "Confirm that pulse and recovery are becoming natural rather than mechanically counted.",
+      requirements: ["Playing feels relaxed", "Foot naturally keeps time", "Mistakes no longer interrupt rhythm", "Groove feels more natural than previous lessons"],
+      passRule: "Pass if rhythm feels relaxed, the foot keeps time naturally, mistakes do not interrupt the flow and groove feels increasingly automatic."
+    }
+  }
+];
+
+musicalStrummingLessonsFourToSix.forEach(({ lesson, exercises, checkpoint }) => {
+  const exerciseObjects = exercises.map(([slug, title, purpose, done, instructionSteps, commonMistakes, coachTip, chordNames]) => ({
+    id: `exercise-${lesson.id.replace(/^lesson-/, "")}-${slug}`,
+    lessonId: lesson.id,
+    title,
+    purpose,
+    objective: purpose,
+    instructions: instructionSteps.join(" "),
+    instructionSteps,
+    durationMinutes: 5,
+    tempo: lesson.lessonNumber === 6 ? "65 BPM" : "60 BPM",
+    passCriteria: done,
+    definitionOfDone: done,
+    commonMistakes,
+    coachTip,
+    chordNames,
+    skillIds: lesson.skillIds,
+    mediaLinks: [],
+    completed: false
+  }));
+  upsertAcademyItem("lessons", {
+    ...lesson,
+    exercises: exerciseObjects.map((exercise) => exercise.id)
+  });
+  exerciseObjects.forEach((exercise) => upsertAcademyItem("exercises", exercise));
+  upsertAcademyItem("checkpoints", {
+    ...checkpoint,
+    lessonId: lesson.id,
+    completed: false
+  });
+});
+
+const musicalStrummingLessonsSevenToNine = [
+  {
+    lesson: {
+      id: "lesson-musical-strumming-7",
+      missionId: "mission-strumming-patterns",
+      lessonNumber: 7,
+      title: "Playing Through Mistakes",
+      description: "Develop the confidence to continue playing after mistakes without stopping the music.",
+      objectiveHeading: "What you'll learn",
+      objective: "Develop the confidence to continue playing after mistakes without stopping the music.",
+      whyThisLesson: "The audience notices hesitation more than wrong notes. Learning to recover naturally is one of the biggest steps from practising to performing.",
+      coachNotes: "Professional musicians make mistakes. The difference is that they keep going.",
+      estimatedMinutes: 25,
+      skillIds: ["skill-rhythm", "skill-strumming", "skill-timing", "skill-song-performance"],
+      connectedSongs: [
+        { title: "Wonderwall", artist: "Oasis", note: "Builds confidence recovering inside a continuous and recognisable strumming pattern." },
+        { title: "Free Fallin’", artist: "Tom Petty", note: "Encourages steady musical flow even when a chord change is imperfect." }
+      ],
+      recommendedSongs: [
+        { title: "Wonderwall", artist: "Oasis", note: "Builds confidence recovering inside a continuous and recognisable strumming pattern." },
+        { title: "Free Fallin’", artist: "Tom Petty", note: "Encourages steady musical flow even when a chord change is imperfect." }
+      ],
+      checkpoint: "checkpoint-musical-strumming-7",
+      practiceJournal: ["Did you instinctively want to stop?", "What helped you continue?", "Did the mistake sound as noticeable as it felt?"],
+      reflectionPrompts: ["Did you instinctively want to stop?", "What helped you continue?", "Did the mistake sound as noticeable as it felt?"],
+      completed: false
+    },
+    exercises: [
+      {
+        slug: "deliberate-mistakes",
+        title: "Deliberate Mistakes",
+        durationMinutes: 5,
+        tempo: "65 BPM",
+        purpose: "Remove the fear of making mistakes.",
+        instructions: ["Play a simple progression.", "Deliberately miss one chord.", "Recover immediately.", "Continue playing."],
+        done: "Recover without restarting.",
+        chords: ["G", "C", "D", "Em"]
+      },
+      {
+        slug: "miss-and-recover",
+        title: "Miss and Recover",
+        durationMinutes: 5,
+        tempo: "65 BPM",
+        purpose: "Practise returning to the progression naturally after a late chord.",
+        instructions: ["Play G, C, D and Em.", "Intentionally delay one chord.", "Keep the strumming hand moving.", "Recover naturally."],
+        done: "Complete several cycles without restarting.",
+        chords: ["G", "C", "D", "Em"]
+      },
+      {
+        slug: "rhythm-first",
+        title: "Rhythm First",
+        durationMinutes: 5,
+        tempo: "65 BPM",
+        purpose: "Learn to protect the rhythm while the fretting hand catches up.",
+        instructions: ["Choose a familiar progression.", "Keep the rhythm steady.", "Allow late chord changes to catch up naturally.", "Do not stop the strumming hand."],
+        done: "Rhythm remains steady even when a chord arrives late.",
+        chords: ["G", "C", "D", "Em"]
+      },
+      {
+        slug: "song-recovery",
+        title: "Song Recovery",
+        durationMinutes: 5,
+        tempo: "",
+        purpose: "Apply natural recovery inside a complete song.",
+        instructions: ["Play Wonderwall.", "If a mistake occurs, keep strumming.", "Rejoin naturally.", "Do not restart."],
+        done: "Continue through mistakes without losing the musical flow.",
+        chords: []
+      },
+      {
+        slug: "continuous-performance",
+        title: "Continuous Performance",
+        durationMinutes: 5,
+        tempo: "",
+        purpose: "Build confidence through uninterrupted playing.",
+        instructions: ["Choose a familiar progression or song.", "Play continuously for five minutes.", "Recover naturally from every mistake.", "Never restart."],
+        done: "Play for five minutes without restarting.",
+        chords: ["G", "C", "D", "Em", "Am"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-musical-strumming-7",
+      title: "Playing Through Mistakes",
+      purpose: "Confirm that mistakes no longer interrupt the musical flow.",
+      requirements: ["You recover naturally", "Rhythm remains steady", "Mistakes no longer interrupt the music"],
+      passRule: "Pass if you recover naturally, preserve the rhythm and continue playing after mistakes."
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-musical-strumming-8",
+      missionId: "mission-strumming-patterns",
+      lessonNumber: 8,
+      title: "Playing with Confidence",
+      description: "Develop confidence by focusing on musical communication instead of technical perfection.",
+      objectiveHeading: "What you'll learn",
+      objective: "Develop confidence by focusing on musical communication instead of technical perfection.",
+      whyThisLesson: "Confident playing sounds better than cautious playing. Today you will focus on making music rather than avoiding mistakes.",
+      coachNotes: "Your listener wants to hear music, not perfection. Relax. Commit to every strum.",
+      estimatedMinutes: 30,
+      skillIds: ["skill-rhythm", "skill-strumming", "skill-timing", "skill-song-performance"],
+      connectedSongs: [
+        { title: "Wonderwall", artist: "Oasis", note: "Rewards committed strumming and completing the performance without hesitation." },
+        { title: "Free Fallin’", artist: "Tom Petty", note: "Develops confident phrasing within a relaxed, accessible progression." }
+      ],
+      recommendedSongs: [
+        { title: "Wonderwall", artist: "Oasis", note: "Rewards committed strumming and completing the performance without hesitation." },
+        { title: "Free Fallin’", artist: "Tom Petty", note: "Develops confident phrasing within a relaxed, accessible progression." }
+      ],
+      checkpoint: "checkpoint-musical-strumming-8",
+      practiceJournal: ["Did you enjoy the performance?", "What felt natural?", "What still creates hesitation?"],
+      reflectionPrompts: ["Did you enjoy the performance?", "What felt natural?", "What still creates hesitation?"],
+      completed: false
+    },
+    exercises: [
+      {
+        slug: "confident-strumming",
+        title: "Confident Strumming",
+        durationMinutes: 5,
+        tempo: "",
+        purpose: "Replace hesitant playing with relaxed, committed movement.",
+        instructions: ["Choose a familiar progression.", "Play confidently.", "Commit to every strum.", "Avoid hesitation."],
+        done: "The progression sounds committed and relaxed rather than cautious.",
+        chords: ["G", "C", "D", "Em", "Am"]
+      },
+      {
+        slug: "looking-up",
+        title: "Looking Up",
+        durationMinutes: 5,
+        tempo: "",
+        purpose: "Reduce dependence on watching the fretboard.",
+        instructions: ["Play a familiar progression.", "Look away from the fretboard whenever possible.", "Listen to the musical result.", "Keep the rhythm flowing."],
+        done: "Play comfortably while looking away for increasing periods.",
+        chords: ["G", "C", "D", "Em"]
+      },
+      {
+        slug: "performance-mindset",
+        title: "Performance Mindset",
+        durationMinutes: 5,
+        tempo: "",
+        purpose: "Practise communicating music rather than monitoring every movement.",
+        instructions: ["Imagine playing for a friend.", "Begin with a clear count-in.", "Continue naturally through mistakes.", "Finish the performance without restarting."],
+        done: "Complete a short performance with natural musical flow.",
+        chords: ["G", "C", "D", "Em", "Am"]
+      },
+      {
+        slug: "dynamics",
+        title: "Dynamics",
+        durationMinutes: 5,
+        tempo: "",
+        purpose: "Use volume to shape a confident performance.",
+        instructions: ["Play a quiet verse.", "Move into a confident chorus.", "Keep the tempo unchanged.", "Repeat the contrast."],
+        done: "Verse and chorus have clear dynamic contrast while rhythm stays steady.",
+        chords: ["G", "C", "D", "Em"]
+      },
+      {
+        slug: "full-song",
+        title: "Full Song",
+        durationMinutes: 10,
+        tempo: "",
+        purpose: "Complete a song with confidence instead of chasing perfection.",
+        instructions: ["Choose Wonderwall or Free Fallin’.", "Play from beginning to end.", "Commit to every strum.", "Do not restart."],
+        done: "Complete the selected song without restarting.",
+        chords: []
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-musical-strumming-8",
+      title: "Playing with Confidence",
+      purpose: "Confirm that musical commitment is replacing cautious, perfection-focused playing.",
+      requirements: ["Playing feels relaxed", "Confidence has improved", "You complete the song without restarting"],
+      passRule: "Pass if playing feels relaxed and confident and you complete a song without restarting."
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-musical-strumming-9",
+      missionId: "mission-strumming-patterns",
+      lessonNumber: 9,
+      title: "Making Music",
+      description: "Bring together everything learned throughout Module 3 in complete musical performances.",
+      objectiveHeading: "What you'll learn",
+      objective: "Bring together everything learned throughout Module 3 in complete musical performances.",
+      whyThisLesson: "Exercises teach skills. Songs develop musicians. Today’s lesson is about enjoying the guitar rather than analysing every movement.",
+      coachNotes: "For the first time in the Academy, your main objective is simply to make music. Trust the work you’ve already done.",
+      estimatedMinutes: 45,
+      skillIds: ["skill-rhythm", "skill-strumming", "skill-timing", "skill-song-performance"],
+      connectedSongs: [
+        { title: "Wonderwall", artist: "Oasis", note: "Combines groove, dynamics and confidence in a complete musical performance." },
+        { title: "Free Fallin’", artist: "Tom Petty", note: "Reinforces relaxed rhythm, smooth movement and musical phrasing." }
+      ],
+      recommendedSongs: [
+        { title: "Wonderwall", artist: "Oasis", note: "Combines groove, dynamics and confidence in a complete musical performance." },
+        { title: "Free Fallin’", artist: "Tom Petty", note: "Reinforces relaxed rhythm, smooth movement and musical phrasing." }
+      ],
+      checkpoint: "checkpoint-musical-strumming-9",
+      practiceJournal: ["Which song felt strongest?", "Which skill improved most during Module 3?", "What still feels challenging?", "Which songs are you excited to learn next?"],
+      reflectionPrompts: ["Which song felt strongest?", "Which skill improved most during Module 3?", "What still feels challenging?", "Which songs are you excited to learn next?"],
+      completed: false
+    },
+    exercises: [
+      {
+        slug: "warm-up",
+        title: "Warm Up",
+        durationMinutes: 5,
+        tempo: "",
+        purpose: "Reconnect with the familiar chords and relaxed strumming used throughout the module.",
+        instructions: ["Review G, C, D, Em and Am.", "Use relaxed strumming.", "Listen for a steady musical flow.", "Correct only obvious problems."],
+        done: "All five chords feel comfortable within a relaxed progression.",
+        chords: ["G", "C", "D", "Em", "Am"]
+      },
+      {
+        slug: "wonderwall-performance",
+        title: "Featured Song: Wonderwall",
+        durationMinutes: 15,
+        tempo: "",
+        purpose: "Apply groove, dynamics and confidence to a complete song.",
+        instructions: ["Play Wonderwall.", "Focus on groove.", "Use dynamics intentionally.", "Commit to the performance and keep going."],
+        done: "Complete a musical performance with steady rhythm and confident recovery.",
+        chords: []
+      },
+      {
+        slug: "free-fallin-performance",
+        title: "Featured Song: Free Fallin’",
+        durationMinutes: 15,
+        tempo: "",
+        purpose: "Apply relaxed rhythm, smooth movement and phrasing to a complete song.",
+        instructions: ["Play Free Fallin’.", "Keep the rhythm relaxed.", "Listen for smooth movement.", "Shape the performance with musical phrasing."],
+        done: "Complete a relaxed performance with smooth rhythm and musical phrasing.",
+        chords: []
+      },
+      {
+        slug: "free-performance",
+        title: "Free Performance",
+        durationMinutes: 10,
+        tempo: "",
+        purpose: "Finish the module by making music without analysing every movement.",
+        instructions: ["Choose any song you have learned so far.", "Play it from beginning to end.", "Recover naturally from mistakes.", "Enjoy the performance."],
+        done: "Complete the chosen song from beginning to end and enjoy playing it.",
+        chords: []
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-musical-strumming-9",
+      title: "Module 3 Assessment",
+      purpose: "Confirm that rhythm guitar playing is becoming musical, relaxed and confident.",
+      requirements: [
+        "Maintain consistent rhythm",
+        "Use dynamics intentionally",
+        "Recover naturally from mistakes",
+        "Complete a full song without restarting",
+        "Demonstrate relaxed strumming"
+      ],
+      passRule: "Pass if songs remain musical, rhythm stays steady, mistakes no longer stop the performance and playing feels enjoyable rather than stressful.",
+      moduleAssessment: {
+        title: "Module 3 Assessment",
+        purpose: "Confirm that you can play rhythm guitar musically and confidently.",
+        resultOptions: ["Pass", "Needs More Practice"],
+        needsMorePracticeRecommendation: "Review exercises previously marked Needs More Practice. Module 4 remains available while you continue developing these skills."
+      },
+      moduleSummary: {
+        title: "Module 3 Complete",
+        message: "Congratulations. You have moved beyond simply playing chords. You are now developing the skills required to accompany songs with confidence and musicality.",
+        preparingForNextModule: "Module 4 introduces more advanced chord vocabulary and expressive rhythm playing, giving you access to an even wider range of songs while continuing to build confidence and musicality.",
+        skillsDeveloped: [
+          "Musical rhythm",
+          "Groove",
+          "Dynamic playing",
+          "Listening while playing",
+          "Relaxed strumming",
+          "Performance confidence",
+          "Recovery after mistakes",
+          "Playing complete songs"
+        ],
+        featuredSongsCompleted: ["Wonderwall", "Free Fallin’"]
+      }
+    }
+  }
+];
+
+musicalStrummingLessonsSevenToNine.forEach(({ lesson, exercises, checkpoint }) => {
+  const exerciseObjects = exercises.map((exercise) => ({
+    id: `exercise-${lesson.id.replace(/^lesson-/, "")}-${exercise.slug}`,
+    lessonId: lesson.id,
+    title: exercise.title,
+    purpose: exercise.purpose,
+    objective: "",
+    instructions: exercise.instructions.join(" "),
+    instructionSteps: exercise.instructions,
+    durationMinutes: exercise.durationMinutes,
+    tempo: exercise.tempo,
+    passCriteria: exercise.done,
+    definitionOfDone: exercise.done,
+    commonMistakes: [],
+    chordNames: exercise.chords,
+    skillIds: lesson.skillIds,
+    mediaLinks: [],
+    completed: false
+  }));
+  upsertAcademyItem("lessons", {
+    ...lesson,
+    exercises: exerciseObjects.map((exercise) => exercise.id)
+  });
+  exerciseObjects.forEach((exercise) => upsertAcademyItem("exercises", exercise));
+  upsertAcademyItem("checkpoints", {
+    ...checkpoint,
+    lessonId: lesson.id,
+    completed: false
+  });
+});
+
+upsertAcademyItem("missions", {
+  id: "mission-strumming-patterns",
+  title: "Musical Strumming & Rhythm",
+  subtitle: "Develop musical expression through relaxed, confident strumming.",
+  dashboardSubtitle: "Make rhythm playing feel expressive and musical.",
+  description: "Develop musical expression through dynamic strumming, accent patterns, phrasing, groove and active listening.",
+  whyItMatters: "Musical rhythm is more than correct mechanics. This module turns steady strumming into expressive accompaniment.",
+  estimatedSessions: "3-5 practice sessions",
+  estimatedPracticeHours: "TBD",
+  prerequisiteMissionIds: ["mission-rhythm-foundations"],
+  connectedSongs: [
+    { title: "Wonderwall", artist: "Oasis", explanation: "Develops recognisable musical strumming, accents and continuous movement." },
+    { title: "Free Fallin’", artist: "Tom Petty", explanation: "Shows how simple harmony becomes musical through phrasing and feel." },
+    { title: "Stand By Me", artist: "Ben E. King", explanation: "Provides a repeating groove for practising intentional accents." }
+  ],
+  featuredSongs: [
+    { title: "Wonderwall", artist: "Oasis", explanation: "Develops recognisable musical strumming, accents and continuous movement." },
+    { title: "Free Fallin’", artist: "Tom Petty", explanation: "Shows how simple harmony becomes musical through phrasing and feel." }
+  ],
+  skillsDeveloped: ["Dynamic strumming", "Accent patterns", "Musical phrasing", "Consistent groove", "Strumming confidence", "Listening while playing"],
+  skillIds: ["skill-rhythm", "skill-strumming", "skill-timing", "skill-song-performance"],
+  objectives: ["Strum with musical flow", "Use intentional accents", "Maintain a relaxed up-down motion", "Listen actively while playing", "Recover naturally from mistakes", "Complete songs with confidence"],
+  successCriteria: ["Rhythm remains consistent", "Strumming sounds less mechanical", "Dynamics and accents feel intentional", "Mistakes no longer stop the performance", "A full song can be completed without restarting"],
+  lessons: [...musicalStrummingLessons, ...musicalStrummingLessonsFourToSix, ...musicalStrummingLessonsSevenToNine].map(({ lesson }) => lesson.id),
+  unlockNextModuleOnAssessment: true,
+  moduleAssessment: {
+    title: "Module 3 Assessment",
+    purpose: "Confirm that you can play rhythm guitar musically and confidently.",
+    resultOptions: ["Pass", "Needs More Practice"],
+    needsMorePracticeRecommendation: "Review exercises previously marked Needs More Practice. Module 4 remains available while you continue developing these skills."
+  },
+  moduleSummary: {
+    title: "Module 3 Complete",
+    message: "Congratulations. You have moved beyond simply playing chords. You are now developing the skills required to accompany songs with confidence and musicality.",
+    preparingForNextModule: "Module 4 introduces more advanced chord vocabulary and expressive rhythm playing, giving you access to an even wider range of songs while continuing to build confidence and musicality.",
+    skillsDeveloped: [
+      "Musical rhythm",
+      "Groove",
+      "Dynamic playing",
+      "Listening while playing",
+      "Relaxed strumming",
+      "Performance confidence",
+      "Recovery after mistakes",
+      "Playing complete songs"
+    ],
+    featuredSongsCompleted: ["Wonderwall", "Free Fallin’"]
+  },
+  completed: false
+});
+
 const missionOneExerciseIds = missionOneLessonIds.flatMap((lessonId) => {
   const lesson = window.academyData.lessons.find((academyLesson) => academyLesson.id === lessonId);
   return lesson?.exercises || [];
