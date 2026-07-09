@@ -296,7 +296,7 @@ window.academyData = {
       description: "Build clean chord changes, steady rhythm, and confidence with the most common beginner chords.",
       whyItMatters: "Open chords are the foundation of rhythm guitar. If you can change between them cleanly and keep steady timing, hundreds of songs become playable.",
       estimatedSessions: "7-10 practice sessions",
-      nextStep: "Read the module overview and begin Lesson 1.",
+      nextStep: "Choose Lesson 1 when you are ready to begin.",
       skillIds: [
         "skill-open-chords",
         "skill-chord-changes",
@@ -2973,7 +2973,3311 @@ upsertAcademyItem("missions", {
 
 upsertAcademyItem("missions", {
   id: "mission-rhythm-foundations",
-  prerequisiteMissionIds: []
+  title: "Rhythm & Strumming Foundations",
+  subtitle: "Develop steady, musical rhythm with simple strumming patterns.",
+  dashboardSubtitle: "Build steady rhythm and musical strumming.",
+  description: "Develop confident rhythm playing by introducing natural strumming, new open chords (Em and Am), and learning to keep the beat while playing complete songs.",
+  whyItMatters: "Reliable rhythm turns chord shapes into music. This module develops the timing, strumming control, dynamics and groove needed to support complete songs.",
+  estimatedSessions: "9-12 practice sessions",
+  estimatedPracticeHours: "TBD",
+  prerequisiteMissionIds: ["mission-open-chord-foundations"],
+  skillsDeveloped: [
+    "Steady timing",
+    "Downstrokes",
+    "Upstrokes",
+    "Strumming patterns",
+    "Rhythm consistency",
+    "Dynamics",
+    "Pick control",
+    "Groove",
+    "Chord endurance",
+    "Em chord",
+    "Am chord"
+  ],
+  skillIds: ["skill-rhythm", "skill-strumming", "skill-timing", "skill-open-chords"],
+  objectives: [
+    "Keep a steady beat while strumming",
+    "Use controlled downstrokes and upstrokes",
+    "Play simple strumming patterns consistently",
+    "Change chords without interrupting the rhythm",
+    "Use dynamics and pick control to make rhythm musical",
+    "Add Em and Am to the open-chord vocabulary"
+  ],
+  connectedSongs: [
+    {
+      title: "Stand By Me",
+      artist: "Ben E. King",
+      explanation: "Reinforces steady timing, chord endurance and a repeating rhythmic groove."
+    },
+    {
+      title: "Wagon Wheel",
+      artist: "Old Crow Medicine Show",
+      explanation: "Applies consistent strumming and smooth chord changes across a complete song."
+    },
+    {
+      title: "Three Little Birds",
+      artist: "Bob Marley",
+      explanation: "Revisits familiar open chords with steadier timing, dynamics and relaxed strumming."
+    },
+    {
+      title: "Wonderful Tonight",
+      artist: "Eric Clapton",
+      explanation: "Provides a relaxed setting for Em, smooth transitions and controlled rhythm."
+    },
+    {
+      title: "A Horse with No Name",
+      artist: "America",
+      explanation: "Introduces the mood created by minor harmony and a consistent repeating groove."
+    }
+  ],
+  featuredSongs: [
+    {
+      title: "Stand By Me",
+      artist: "Ben E. King",
+      explanation: "Reinforces steady timing, chord endurance and a repeating rhythmic groove."
+    },
+    {
+      title: "Wagon Wheel",
+      artist: "Old Crow Medicine Show",
+      explanation: "Applies consistent strumming and smooth chord changes across a complete song."
+    }
+  ],
+  lessons: [
+    "lesson-rhythm-foundations-1",
+    "lesson-rhythm-foundations-2",
+    "lesson-rhythm-foundations-3",
+    "lesson-rhythm-foundations-4",
+    "lesson-rhythm-foundations-5",
+    "lesson-rhythm-foundations-6",
+    "lesson-rhythm-foundations-7",
+    "lesson-rhythm-foundations-8",
+    "lesson-rhythm-foundations-9"
+  ],
+  moduleAssessment: {
+    title: "Module 2 Assessment",
+    purpose: "Confirm that steady timing and simple strumming patterns are becoming reliable.",
+    resultOptions: ["Pass", "Needs More Practice"],
+    needsMorePracticeRecommendation: "Review exercises marked Needs More Practice before continuing."
+  },
+  completed: false
+});
+
+const moduleTwoLessonDefinitions = [
+  {
+    id: "lesson-rhythm-foundations-1",
+    lessonNumber: 1,
+    title: "Feeling the Beat",
+    estimatedMinutes: 30,
+    objective: "Learn to recognise, count and physically feel a steady beat before adding a strumming pattern.",
+    whyThisLesson: "Rhythm begins with an internal pulse. Feeling the beat makes every later strumming pattern more stable.",
+    songNotes: [
+      ["Stand By Me", "Its repeating pulse makes it useful for hearing and feeling a steady beat."],
+      ["Wagon Wheel", "Its clear forward motion helps connect counting with musical rhythm."]
+    ]
+  },
+  {
+    id: "lesson-rhythm-foundations-2",
+    lessonNumber: 2,
+    title: "Downstrokes and Timing",
+    estimatedMinutes: 35,
+    objective: "Develop even downstrokes that land accurately on the beat.",
+    whyThisLesson: "Controlled downstrokes create the dependable rhythmic foundation used in countless songs.",
+    songNotes: [
+      ["Stand By Me", "Its steady pulse is well suited to practising accurate downstrokes."],
+      ["Wagon Wheel", "Its chord progression rewards consistent downstroke timing."]
+    ]
+  },
+  {
+    id: "lesson-rhythm-foundations-3",
+    lessonNumber: 3,
+    title: "Adding Upstrokes",
+    estimatedMinutes: 35,
+    objective: "Add relaxed upstrokes between downstrokes without disturbing the beat.",
+    whyThisLesson: "Upstrokes add movement and allow the strumming hand to produce more musical patterns.",
+    songNotes: [
+      ["Stand By Me", "Its relaxed groove provides space to introduce light upstrokes."],
+      ["Wagon Wheel", "Its flowing rhythm helps practise continuous down-up movement."]
+    ]
+  },
+  {
+    id: "lesson-rhythm-foundations-4",
+    lessonNumber: 4,
+    title: "Simple Strumming Patterns",
+    estimatedMinutes: 40,
+    objective: "Combine downstrokes and upstrokes into simple, repeatable strumming patterns.",
+    whyThisLesson: "Patterns turn a steady beat into a recognisable musical rhythm that can support a song.",
+    songNotes: [
+      ["Stand By Me", "Its repeating progression supports a simple, consistent strumming pattern."],
+      ["Wagon Wheel", "Its rhythm is a useful application for a continuous down-up pattern."]
+    ]
+  },
+  {
+    id: "lesson-rhythm-foundations-5",
+    lessonNumber: 5,
+    title: "Changing Chords While Strumming",
+    estimatedMinutes: 40,
+    objective: "Keep the strumming hand moving while changing between familiar open chords.",
+    whyThisLesson: "A song loses momentum when the strumming hand stops during every chord change.",
+    songNotes: [
+      ["Stand By Me", "Its repeating chord cycle builds endurance while changing chords in time."],
+      ["Wagon Wheel", "Its familiar progression practises smooth changes without stopping the strum."]
+    ]
+  },
+  {
+    id: "lesson-rhythm-foundations-6",
+    lessonNumber: 6,
+    title: "Dynamics and Pick Control",
+    estimatedMinutes: 35,
+    objective: "Control pick angle, attack and volume so strumming sounds balanced rather than harsh.",
+    whyThisLesson: "Dynamics and pick control make simple rhythm playing sound intentional and musical.",
+    songNotes: [
+      ["Stand By Me", "Its restrained groove is useful for practising softer, controlled strumming."],
+      ["Wagon Wheel", "Its energetic sections provide a natural place to practise dynamic contrast."]
+    ]
+  },
+  {
+    id: "lesson-rhythm-foundations-7",
+    lessonNumber: 7,
+    title: "Playing with Groove",
+    estimatedMinutes: 40,
+    objective: "Make a steady rhythm feel musical by controlling emphasis and maintaining relaxed motion.",
+    whyThisLesson: "Groove is the difference between merely counting beats and making the rhythm feel good.",
+    songNotes: [
+      ["Stand By Me", "Its distinctive repeating feel is a clear example of groove supporting a song."],
+      ["Wagon Wheel", "Its driving rhythm helps practise relaxed momentum and emphasis."]
+    ]
+  },
+  {
+    id: "lesson-rhythm-foundations-8",
+    lessonNumber: 8,
+    title: "Introducing Em and Am",
+    estimatedMinutes: 40,
+    objective: "Build clean Em and Am chords and include them in steady rhythm practice.",
+    whyThisLesson: "Em and Am expand the emotional range of open-chord songs while reinforcing rhythm through new changes.",
+    songNotes: [
+      ["Stand By Me", "Its minor-chord movement helps connect new chord colours with steady rhythm."],
+      ["Wagon Wheel", "Its open-chord setting supports practising new shapes without losing the beat."]
+    ]
+  },
+  {
+    id: "lesson-rhythm-foundations-9",
+    lessonNumber: 9,
+    title: "Making Music with Rhythm",
+    estimatedMinutes: 50,
+    objective: "Combine timing, strumming, dynamics, groove and chord changes in complete musical performances.",
+    whyThisLesson: "Combining the module skills in full songs builds the endurance and recovery habits needed for real playing.",
+    songNotes: [
+      ["Stand By Me", "It brings steady timing, groove and chord endurance together in one complete song."],
+      ["Wagon Wheel", "It applies continuous strumming, chord changes and dynamics across a full performance."]
+    ]
+  }
+];
+
+const moduleTwoSongArtists = {
+  "Stand By Me": "Ben E. King",
+  "Wagon Wheel": "Old Crow Medicine Show"
+};
+
+moduleTwoLessonDefinitions.forEach((definition) => {
+  const exerciseId = `exercise-${definition.id.replace(/^lesson-/, "")}-placeholder`;
+  const checkpointId = definition.lessonNumber === 9
+    ? "checkpoint-rhythm-foundations-module-assessment"
+    : `checkpoint-${definition.id.replace(/^lesson-/, "")}`;
+  const recommendedSongs = definition.songNotes.map(([title, note]) => ({
+    title,
+    artist: moduleTwoSongArtists[title],
+    note
+  }));
+
+  upsertAcademyItem("lessons", {
+    id: definition.id,
+    missionId: "mission-rhythm-foundations",
+    lessonNumber: definition.lessonNumber,
+    title: definition.title,
+    description: definition.objective,
+    objectiveHeading: "What you'll learn",
+    objective: definition.objective,
+    whyThisLesson: definition.whyThisLesson,
+    coachNotes: "Coach's note placeholder. Detailed coaching will be added with the exercise content.",
+    estimatedMinutes: definition.estimatedMinutes,
+    skillIds: ["skill-rhythm", "skill-strumming", "skill-timing"],
+    exercises: [exerciseId],
+    connectedSongs: recommendedSongs,
+    recommendedSongs,
+    checkpoint: checkpointId,
+    practiceJournal: [
+      "What felt most natural?",
+      "What needs more work?",
+      "What should I focus on next time?"
+    ],
+    reflectionPrompts: [
+      "What felt most natural?",
+      "What needs more work?",
+      "What should I focus on next time?"
+    ],
+    completed: false
+  });
+
+  upsertAcademyItem("exercises", {
+    id: exerciseId,
+    lessonId: definition.id,
+    title: "Exercise content coming next",
+    purpose: "Placeholder for the detailed exercises that will be added to this lesson.",
+    objective: "Detailed exercise content has not been written yet.",
+    instructions: "Exercise instructions will be added later.",
+    instructionSteps: ["Detailed exercise steps will be added later."],
+    durationMinutes: 0,
+    tempo: "",
+    passCriteria: "Pass criteria will be added with the detailed exercise content.",
+    definitionOfDone: "Definition of done will be added with the detailed exercise content.",
+    commonMistakes: [],
+    skillIds: ["skill-rhythm", "skill-strumming", "skill-timing"],
+    mediaLinks: [],
+    completed: false
+  });
+
+  upsertAcademyItem("checkpoints", {
+    id: checkpointId,
+    lessonId: definition.id,
+    title: definition.lessonNumber === 9 ? "Module 2 Assessment" : `${definition.title} Checkpoint`,
+    purpose: definition.lessonNumber === 9
+      ? "Confirm that steady timing and simple strumming patterns are becoming reliable."
+      : "Checkpoint content will be added with the detailed lesson exercises.",
+    requirements: ["Checkpoint criteria will be added with the detailed lesson content."],
+    ...(definition.lessonNumber === 9 ? {
+      moduleSummary: {
+        title: "Module 2 Complete",
+        message: "You have completed Rhythm & Strumming Foundations.",
+        preparingForNextModule: "Next you will develop a wider range of strumming patterns.",
+        skillsDeveloped: [
+          "Steady timing",
+          "Downstrokes",
+          "Upstrokes",
+          "Strumming patterns",
+          "Rhythm consistency",
+          "Dynamics",
+          "Pick control",
+          "Groove",
+          "Chord endurance",
+          "Em chord",
+          "Am chord"
+        ],
+        featuredSongsCompleted: ["Stand By Me", "Wagon Wheel"]
+      }
+    } : {}),
+    completed: false
+  });
+});
+
+const moduleTwoLessonOneExercises = [
+  {
+    id: "exercise-rhythm-foundations-1-internal-pulse",
+    title: "Internal Pulse",
+    purpose: "Develop awareness of a steady beat.",
+    objective: "Feel the pulse before playing.",
+    instructionSteps: [
+      "Start the metronome at 60 BPM.",
+      "Count aloud: 1 2 3 4.",
+      "Tap your foot.",
+      "Continue for one minute before touching the guitar."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "You can maintain a steady count without speeding up.",
+    definitionOfDone: "You can maintain a steady count without speeding up.",
+    commonMistakes: [
+      "Rushing",
+      "Looking at the guitar",
+      "Ignoring the metronome"
+    ],
+    coachTip: "Your foot should become your internal metronome.",
+    chordNames: []
+  },
+  {
+    id: "exercise-rhythm-foundations-1-muted-downstrokes",
+    title: "Muted Downstrokes",
+    purpose: "Separate rhythm from fretting.",
+    objective: "Develop an even strumming motion.",
+    instructionSteps: [
+      "Lightly mute all strings.",
+      "Strum down once every beat.",
+      "Listen for even volume."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "One minute of relaxed, even strumming.",
+    definitionOfDone: "One minute of relaxed, even strumming.",
+    commonMistakes: [
+      "Locking the wrist",
+      "Hitting too hard",
+      "Strumming from the elbow"
+    ],
+    coachTip: "The wrist should do most of the work.",
+    chordNames: []
+  },
+  {
+    id: "exercise-rhythm-foundations-1-downstrokes-g",
+    title: "Downstrokes on G",
+    purpose: "Combine timing with a familiar chord.",
+    objective: "Keep rhythm while holding G major.",
+    instructionSteps: [
+      "Form G.",
+      "Strum once every beat.",
+      "Count aloud."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Maintain one minute of steady rhythm.",
+    definitionOfDone: "Maintain one minute of steady rhythm.",
+    commonMistakes: [
+      "Stopping to fix fingers",
+      "Changing tempo"
+    ],
+    chordNames: ["G"]
+  },
+  {
+    id: "exercise-rhythm-foundations-1-downstrokes-c",
+    title: "Downstrokes on C",
+    purpose: "Repeat the rhythm on another chord.",
+    objective: "Maintain identical timing.",
+    instructionSteps: [
+      "Form C major.",
+      "Strum once every beat.",
+      "Count aloud as you repeat the rhythm from Exercise 3."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Consistent timing throughout.",
+    definitionOfDone: "Consistent timing throughout.",
+    commonMistakes: [],
+    chordNames: ["C"]
+  },
+  {
+    id: "exercise-rhythm-foundations-1-g-to-c",
+    title: "G to C",
+    purpose: "Combine rhythm and chord changes.",
+    objective: "Change every four beats.",
+    instructionSteps: [
+      "Play G for four beats.",
+      "Play C for four beats.",
+      "Continue alternating without stopping."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Several cycles without stopping.",
+    definitionOfDone: "Several cycles without stopping.",
+    commonMistakes: [],
+    chordNames: ["G", "C"]
+  },
+  {
+    id: "exercise-rhythm-foundations-1-g-c-d",
+    title: "G, C and D",
+    purpose: "Apply rhythm across all Module 1 chords.",
+    objective: "Maintain steady timing.",
+    instructionSteps: [
+      "Play G.",
+      "Play C.",
+      "Play D.",
+      "Repeat without restarting."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Steady rhythm without restarting.",
+    definitionOfDone: "Steady rhythm without restarting.",
+    commonMistakes: [],
+    chordNames: ["G", "C", "D"]
+  },
+  {
+    id: "exercise-rhythm-foundations-1-rhythm-challenge",
+    title: "Rhythm Challenge",
+    purpose: "Build endurance.",
+    objective: "Play continuously for five minutes.",
+    instructionSteps: [
+      "Continue strumming and changing chords.",
+      "Recover naturally from mistakes."
+    ],
+    durationMinutes: 5,
+    tempo: "60 BPM",
+    passCriteria: "Five minutes without stopping.",
+    definitionOfDone: "Five minutes without stopping.",
+    commonMistakes: [],
+    chordNames: ["G", "C", "D"]
+  }
+];
+
+upsertAcademyItem("lessons", {
+  id: "lesson-rhythm-foundations-1",
+  missionId: "mission-rhythm-foundations",
+  lessonNumber: 1,
+  title: "Feeling the Beat",
+  description: "Learn to feel and maintain a steady beat before introducing more complex strumming.",
+  objectiveHeading: "What you'll learn",
+  objective: "Learn to feel and maintain a steady beat before introducing more complex strumming.",
+  whyThisLesson: "Rhythm is the foundation of every song. Good timing makes even simple chords sound musical.",
+  coachNotes: "Your right hand is now becoming just as important as your left hand. Don’t chase speed—chase consistency.",
+  estimatedMinutes: 35,
+  skillIds: ["skill-rhythm", "skill-strumming", "skill-timing"],
+  exercises: moduleTwoLessonOneExercises.map((exercise) => exercise.id),
+  connectedSongs: [
+    {
+      title: "Stand By Me",
+      artist: "Ben E. King",
+      note: "Excellent for developing relaxed rhythm and endurance."
+    },
+    {
+      title: "Three Little Birds",
+      artist: "Bob Marley",
+      note: "Revisit this song using improved timing and steadier strumming."
+    }
+  ],
+  recommendedSongs: [
+    {
+      title: "Stand By Me",
+      artist: "Ben E. King",
+      note: "Excellent for developing relaxed rhythm and endurance."
+    },
+    {
+      title: "Three Little Birds",
+      artist: "Bob Marley",
+      note: "Revisit this song using improved timing and steadier strumming."
+    }
+  ],
+  checkpoint: "checkpoint-rhythm-foundations-1",
+  practiceJournal: [
+    "What interrupted your rhythm most?",
+    "Did counting help?",
+    "Which chord change still needs work?",
+    "What will you focus on next practice?"
+  ],
+  reflectionPrompts: [
+    "What interrupted your rhythm most?",
+    "Did counting help?",
+    "Which chord change still needs work?",
+    "What will you focus on next practice?"
+  ],
+  completed: false
+});
+
+moduleTwoLessonOneExercises.forEach((exercise) => {
+  upsertAcademyItem("exercises", {
+    ...exercise,
+    lessonId: "lesson-rhythm-foundations-1",
+    instructions: exercise.instructionSteps.join(" "),
+    skillIds: ["skill-rhythm", "skill-strumming", "skill-timing"],
+    mediaLinks: [],
+    completed: false
+  });
+});
+
+upsertAcademyItem("checkpoints", {
+  id: "checkpoint-rhythm-foundations-1",
+  lessonId: "lesson-rhythm-foundations-1",
+  title: "Feeling the Beat Checkpoint",
+  purpose: "Confirm that the beat remains steady while counting, strumming and changing chords.",
+  requirements: [
+    "Count steadily",
+    "Keep rhythm at 60 BPM",
+    "Change chords without losing the beat",
+    "Recover naturally from mistakes"
+  ],
+  passRule: "Pass if Rob can count steadily, keep rhythm at 60 BPM, change chords without losing the beat, and recover naturally from mistakes.",
+  completed: false
+});
+
+const moduleTwoLessonsTwoToFour = [
+  {
+    lesson: {
+      id: "lesson-rhythm-foundations-2",
+      missionId: "mission-rhythm-foundations",
+      lessonNumber: 2,
+      title: "Introducing Em",
+      description: "Learn the E minor chord while maintaining the rhythm skills developed in Lesson 1.",
+      objectiveHeading: "What you'll learn",
+      objective: "Learn the E minor chord while maintaining the rhythm skills developed in Lesson 1.",
+      whyThisLesson: "E minor is one of the easiest and most commonly used chords in modern music. Learning it now dramatically increases the number of songs you can play without introducing unnecessary technical difficulty.",
+      coachNotes: "Your hands already know how to build clean chords. Today should feel easier than Module 1. Use that confidence to focus on rhythm instead of worrying about finger placement.",
+      estimatedMinutes: 35,
+      skillIds: ["skill-open-chords", "skill-chord-changes", "skill-rhythm", "skill-timing"],
+      connectedSongs: [
+        {
+          title: "Stand By Me",
+          artist: "Ben E. King",
+          note: "Uses Em within a steady repeating progression."
+        },
+        {
+          title: "Wonderful Tonight",
+          artist: "Eric Clapton",
+          note: "Recommended future song for applying Em in a relaxed rhythm setting."
+        }
+      ],
+      recommendedSongs: [
+        {
+          title: "Stand By Me",
+          artist: "Ben E. King",
+          note: "Uses Em within a steady repeating progression."
+        },
+        {
+          title: "Wonderful Tonight",
+          artist: "Eric Clapton",
+          note: "Recommended future song for applying Em in a relaxed rhythm setting."
+        }
+      ],
+      checkpoint: "checkpoint-rhythm-foundations-2",
+      practiceJournal: [
+        "Did Em feel easier than G or C?",
+        "Which transition needs more work?",
+        "What surprised you today?"
+      ],
+      reflectionPrompts: [
+        "Did Em feel easier than G or C?",
+        "Which transition needs more work?",
+        "What surprised you today?"
+      ],
+      completed: false
+    },
+    exercises: [
+      {
+        id: "exercise-rhythm-foundations-2-learning-em",
+        title: "Learning Em",
+        purpose: "Learn the Em chord shape.",
+        objective: "Build Em confidently from memory.",
+        instructionSteps: [
+          "Study the chord diagram.",
+          "Place one finger.",
+          "Place the second finger.",
+          "Check every string.",
+          "Play slowly."
+        ],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Em rings clearly across all six strings.",
+        definitionOfDone: "Em rings clearly across all six strings.",
+        commonMistakes: ["Fingers too flat", "Pressing too hard", "Rushing"],
+        coachTip: "Notice how relaxed Em feels. Remember that feeling—it becomes your reference for future chords.",
+        chordNames: ["Em"]
+      },
+      {
+        id: "exercise-rhythm-foundations-2-em-string-check",
+        title: "Em String Check",
+        purpose: "Check every string individually.",
+        objective: "Develop good listening habits.",
+        instructionSteps: [
+          "Build Em from memory.",
+          "Pick every string individually.",
+          "Fix only one problem at a time."
+        ],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Every string rings clearly.",
+        definitionOfDone: "Every string rings clearly.",
+        commonMistakes: [],
+        chordNames: ["Em"]
+      },
+      {
+        id: "exercise-rhythm-foundations-2-g-to-em",
+        title: "G to Em",
+        purpose: "Introduce movement into Em.",
+        objective: "Maintain rhythm while changing chords.",
+        instructionSteps: [
+          "Play G for four beats.",
+          "Change to Em for four beats.",
+          "Continue without stopping the rhythm."
+        ],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Change between G and Em while keeping a steady beat.",
+        definitionOfDone: "Several mostly clean G to Em cycles without stopping.",
+        commonMistakes: [],
+        chordNames: ["G", "Em"]
+      },
+      {
+        id: "exercise-rhythm-foundations-2-c-to-em",
+        title: "C to Em",
+        purpose: "Develop another common transition.",
+        objective: "Move between C and Em without losing the beat.",
+        instructionSteps: [
+          "Play C for four beats.",
+          "Change to Em for four beats.",
+          "Repeat at a steady tempo."
+        ],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Keep the rhythm steady through repeated C to Em changes.",
+        definitionOfDone: "Several mostly clean C to Em cycles without stopping.",
+        commonMistakes: [],
+        chordNames: ["C", "Em"]
+      },
+      {
+        id: "exercise-rhythm-foundations-2-em-to-d",
+        title: "Em to D",
+        purpose: "Connect Em to existing Module 1 skills.",
+        objective: "Change between Em and D while maintaining rhythm.",
+        instructionSteps: [
+          "Play Em for four beats.",
+          "Change to D for four beats.",
+          "Repeat without restarting."
+        ],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Keep a consistent beat while changing between Em and D.",
+        definitionOfDone: "Several mostly clean Em to D cycles without stopping.",
+        commonMistakes: [],
+        chordNames: ["Em", "D"]
+      },
+      {
+        id: "exercise-rhythm-foundations-2-random-chord-builder",
+        title: "Random Chord Builder",
+        purpose: "Build each known chord cleanly without relying on a fixed order.",
+        objective: "Recall G, C, D and Em confidently.",
+        instructionSteps: [
+          "Randomly call G, C, D or Em.",
+          "Build the called chord cleanly.",
+          "Check the chord before calling the next one."
+        ],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Build G, C, D and Em cleanly in a random order.",
+        definitionOfDone: "Each chord can be recalled without guessing.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em"]
+      },
+      {
+        id: "exercise-rhythm-foundations-2-continuous-playing",
+        title: "Continuous Playing",
+        purpose: "Combine all four chords in continuous rhythm.",
+        objective: "Focus on rhythm rather than perfection.",
+        instructionSteps: [
+          "Play continuously using G, C, D and Em.",
+          "Keep the strumming hand moving.",
+          "Recover naturally from mistakes."
+        ],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Play continuously while keeping mostly steady rhythm.",
+        definitionOfDone: "Complete five minutes without restarting.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-rhythm-foundations-2",
+      title: "Introducing Em Checkpoint",
+      purpose: "Confirm that Em is clean and can be used without losing the beat.",
+      requirements: [
+        "Em rings clearly",
+        "Changes remain mostly clean",
+        "Rhythm stays consistent"
+      ],
+      passRule: "Pass if Em rings clearly, changes remain mostly clean, and rhythm stays consistent."
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-rhythm-foundations-3",
+      missionId: "mission-rhythm-foundations",
+      lessonNumber: 3,
+      title: "Introducing Am",
+      description: "Learn Am while developing finger independence and maintaining steady rhythm.",
+      objectiveHeading: "What you'll learn",
+      objective: "Build a clean Am chord and connect it to G, C and Em without losing the beat.",
+      whyThisLesson: "Am adds another essential minor sound, but its tighter shape requires more finger independence than Em. Not all chords feel the same.",
+      coachNotes: "Am feels cramped for many beginners. Relax your wrist before trying to force your fingers into position.",
+      estimatedMinutes: 35,
+      skillIds: ["skill-open-chords", "skill-chord-changes", "skill-rhythm", "skill-timing"],
+      connectedSongs: [
+        {
+          title: "Stand By Me",
+          artist: "Ben E. King",
+          note: "Reinforces steady rhythm while using a minor chord in a repeating progression."
+        },
+        {
+          title: "A Horse with No Name",
+          artist: "America",
+          note: "A discussion of mood and minor colour rather than a direct Am application."
+        }
+      ],
+      recommendedSongs: [
+        {
+          title: "Stand By Me",
+          artist: "Ben E. King",
+          note: "Reinforces steady rhythm while using a minor chord in a repeating progression."
+        },
+        {
+          title: "A Horse with No Name",
+          artist: "America",
+          note: "A discussion of mood and minor colour rather than a direct Am application."
+        }
+      ],
+      checkpoint: "checkpoint-rhythm-foundations-3",
+      practiceJournal: [
+        "Did Am feel cramped?",
+        "Which finger needed the most adjustment?",
+        "Which transition needs more work?"
+      ],
+      reflectionPrompts: [
+        "Did Am feel cramped?",
+        "Which finger needed the most adjustment?",
+        "Which transition needs more work?"
+      ],
+      completed: false
+    },
+    exercises: [
+      {
+        id: "exercise-rhythm-foundations-3-learning-am",
+        title: "Learn Am",
+        purpose: "Learn the Am chord shape.",
+        objective: "Build Am cleanly with a relaxed wrist.",
+        instructionSteps: ["Study the Am diagram.", "Place each finger slowly.", "Check the wrist is relaxed.", "Pick each string."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Am rings clearly across the correct five strings.",
+        definitionOfDone: "Build Am cleanly from memory.",
+        commonMistakes: ["Forcing the fingers into position", "Collapsing the knuckles", "Hitting the low E string"],
+        coachTip: "Am feels cramped for many beginners. Relax your wrist before trying to force your fingers into position.",
+        chordNames: ["Am"]
+      },
+      {
+        id: "exercise-rhythm-foundations-3-string-check",
+        title: "Am String Check",
+        purpose: "Check every Am string individually.",
+        objective: "Hear and correct muted or buzzing notes.",
+        instructionSteps: ["Build Am.", "Pick from the A string to the high E string.", "Fix one problem at a time."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "All five intended strings ring clearly.",
+        definitionOfDone: "Am passes three clean string checks.",
+        commonMistakes: [],
+        chordNames: ["Am"]
+      },
+      {
+        id: "exercise-rhythm-foundations-3-c-to-am",
+        title: "C to Am",
+        purpose: "Use shared movement between C and Am.",
+        objective: "Change smoothly without losing the beat.",
+        instructionSteps: ["Play C for four beats.", "Change to Am for four beats.", "Repeat steadily."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Maintain steady rhythm through repeated C to Am changes.",
+        definitionOfDone: "Several mostly clean cycles without stopping.",
+        commonMistakes: [],
+        chordNames: ["C", "Am"]
+      },
+      {
+        id: "exercise-rhythm-foundations-3-em-to-am",
+        title: "Em to Am",
+        purpose: "Move between two minor chord shapes.",
+        objective: "Keep the rhythm steady through a larger finger movement.",
+        instructionSteps: ["Play Em for four beats.", "Change to Am for four beats.", "Repeat without restarting."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Maintain rhythm through repeated Em to Am changes.",
+        definitionOfDone: "Several mostly clean cycles without stopping.",
+        commonMistakes: [],
+        chordNames: ["Em", "Am"]
+      },
+      {
+        id: "exercise-rhythm-foundations-3-g-to-am",
+        title: "G to Am",
+        purpose: "Practise a less familiar open-chord transition.",
+        objective: "Move accurately while keeping time.",
+        instructionSteps: ["Play G for four beats.", "Change to Am for four beats.", "Repeat steadily."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Keep the beat steady through repeated G to Am changes.",
+        definitionOfDone: "Several mostly clean cycles without stopping.",
+        commonMistakes: [],
+        chordNames: ["G", "Am"]
+      },
+      {
+        id: "exercise-rhythm-foundations-3-random-chord-builder",
+        title: "Random Chord Builder",
+        purpose: "Recall all five learned chords without a fixed sequence.",
+        objective: "Build G, C, D, Em and Am from memory.",
+        instructionSteps: ["Randomly call G, C, D, Em or Am.", "Build the chord cleanly.", "Check it before moving on."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Build all five chords cleanly in a random order.",
+        definitionOfDone: "Each shape can be recalled without guessing.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em", "Am"]
+      },
+      {
+        id: "exercise-rhythm-foundations-3-continuous-playing",
+        title: "Continuous Playing",
+        purpose: "Use all five chords in continuous rhythm.",
+        objective: "Keep playing rather than stopping to correct every mistake.",
+        instructionSteps: ["Play continuously using G, C, D, Em and Am.", "Maintain the beat.", "Recover naturally from mistakes."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Play continuously with mostly steady rhythm.",
+        definitionOfDone: "Complete five minutes without restarting.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em", "Am"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-rhythm-foundations-3",
+      title: "Introducing Am Checkpoint",
+      purpose: "Confirm that Am is clean and can be used in steady chord changes.",
+      requirements: ["Am rings clearly", "The wrist remains relaxed", "Changes remain mostly clean", "Rhythm stays consistent"],
+      passRule: "Pass if Am rings clearly and can be used in mostly clean, steady changes."
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-rhythm-foundations-4",
+      missionId: "mission-rhythm-foundations",
+      lessonNumber: 4,
+      title: "First Down-Up Strumming",
+      description: "Introduce relaxed down-up strumming and continuous arm movement.",
+      objectiveHeading: "What you'll learn",
+      objective: "Introduce relaxed down-up strumming while keeping the hand moving whether or not it hits the strings.",
+      whyThisLesson: "Continuous hand movement is one of the biggest breakthroughs in beginner rhythm guitar. The hand keeps moving whether or not the pick meets the strings.",
+      coachNotes: "Imagine your hand is a pendulum. It doesn’t stop every beat. The pick only meets the strings when required.",
+      estimatedMinutes: 40,
+      skillIds: ["skill-rhythm", "skill-strumming", "skill-timing"],
+      connectedSongs: [
+        {
+          title: "Stand By Me",
+          artist: "Ben E. King",
+          note: "Supports relaxed down-up movement over a repeating progression."
+        },
+        {
+          title: "Wagon Wheel",
+          artist: "Old Crow Medicine Show",
+          note: "Applies continuous strumming to a driving, familiar rhythm."
+        }
+      ],
+      recommendedSongs: [
+        {
+          title: "Stand By Me",
+          artist: "Ben E. King",
+          note: "Supports relaxed down-up movement over a repeating progression."
+        },
+        {
+          title: "Wagon Wheel",
+          artist: "Old Crow Medicine Show",
+          note: "Applies continuous strumming to a driving, familiar rhythm."
+        }
+      ],
+      checkpoint: "checkpoint-rhythm-foundations-4",
+      practiceJournal: [
+        "Did the hand keep moving continuously?",
+        "Where did the motion become tense?",
+        "Which chord change interrupted the rhythm?"
+      ],
+      reflectionPrompts: [
+        "Did the hand keep moving continuously?",
+        "Where did the motion become tense?",
+        "Which chord change interrupted the rhythm?"
+      ],
+      completed: false
+    },
+    exercises: [
+      {
+        id: "exercise-rhythm-foundations-4-air-strumming",
+        title: "Air Strumming",
+        purpose: "Learn continuous down-up motion without contacting the strings.",
+        objective: "Keep the hand moving like a relaxed pendulum.",
+        instructionSteps: ["Set the metronome to 60 BPM.", "Move down on the beat and up between beats.", "Do not touch the strings.", "Keep the wrist relaxed."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Continuous relaxed down-up motion for one minute.",
+        definitionOfDone: "The hand moves continuously without stopping.",
+        commonMistakes: ["Stopping at the top or bottom", "Locking the wrist", "Moving only from the elbow"],
+        chordNames: []
+      },
+      {
+        id: "exercise-rhythm-foundations-4-muted-down-up",
+        title: "Muted Down-Up",
+        purpose: "Add string contact without adding chord pressure.",
+        objective: "Produce even muted down-up strokes.",
+        instructionSteps: ["Lightly mute all strings.", "Strum down on the beat.", "Strum up between beats.", "Keep the motion continuous."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "One minute of even muted down-up strumming.",
+        definitionOfDone: "Downstrokes and upstrokes remain even and continuous.",
+        commonMistakes: [],
+        chordNames: []
+      },
+      {
+        id: "exercise-rhythm-foundations-4-down-up-g",
+        title: "Down-Up on G",
+        purpose: "Apply continuous motion to a familiar chord.",
+        objective: "Keep G ringing while the strumming hand stays relaxed.",
+        instructionSteps: ["Form G.", "Strum continuous down-up eighth notes.", "Count 1 and 2 and 3 and 4 and."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "One minute of steady down-up strumming on G.",
+        definitionOfDone: "The motion stays continuous and the chord remains clear.",
+        commonMistakes: [],
+        chordNames: ["G"]
+      },
+      {
+        id: "exercise-rhythm-foundations-4-down-up-c",
+        title: "Down-Up on C",
+        purpose: "Repeat continuous motion on C.",
+        objective: "Keep the same motion and timing used on G.",
+        instructionSteps: ["Form C.", "Strum continuous down-up eighth notes.", "Keep the wrist relaxed."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "One minute of steady down-up strumming on C.",
+        definitionOfDone: "The motion stays continuous and C remains clear.",
+        commonMistakes: [],
+        chordNames: ["C"]
+      },
+      {
+        id: "exercise-rhythm-foundations-4-g-c",
+        title: "G to C",
+        purpose: "Keep continuous motion through a chord change.",
+        objective: "Change between G and C without stopping the hand.",
+        instructionSteps: ["Strum G with continuous down-up motion.", "Change to C after four beats.", "Keep the hand moving through the change."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "The hand keeps moving through repeated G to C changes.",
+        definitionOfDone: "Several mostly clean changes without stopping the strumming motion.",
+        commonMistakes: [],
+        chordNames: ["G", "C"]
+      },
+      {
+        id: "exercise-rhythm-foundations-4-four-chord-loop",
+        title: "G, C, D and Em",
+        purpose: "Apply down-up motion across four chords.",
+        objective: "Maintain continuous rhythm through a longer progression.",
+        instructionSteps: ["Play G, C, D and Em.", "Use four beats per chord.", "Keep the hand moving continuously."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Complete several four-chord cycles without stopping the hand.",
+        definitionOfDone: "Rhythm remains mostly steady through the full progression.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em"]
+      },
+      {
+        id: "exercise-rhythm-foundations-4-continuous-rhythm",
+        title: "Continuous Rhythm",
+        purpose: "Build endurance with relaxed down-up movement.",
+        objective: "Keep playing continuously and recover from mistakes.",
+        instructionSteps: ["Choose from G, C, D and Em.", "Strum continuously.", "Do not stop after a rough chord change.", "Stay relaxed."],
+        durationMinutes: 10,
+        tempo: "60 BPM",
+        passCriteria: "Continuous down-up rhythm without stopping the hand.",
+        definitionOfDone: "Complete ten minutes with mostly steady rhythm.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-rhythm-foundations-4",
+      title: "First Down-Up Strumming Checkpoint",
+      purpose: "Confirm that down-up motion remains continuous through chord changes.",
+      requirements: [
+        "Down-up motion remains continuous",
+        "Chord changes don’t stop the hand",
+        "Rhythm feels smoother than downstrokes only"
+      ],
+      passRule: "Pass if down-up motion remains continuous, chord changes do not stop the hand, and the rhythm feels smoother than downstrokes only."
+    }
+  }
+];
+
+moduleTwoLessonsTwoToFour.forEach(({ lesson, exercises, checkpoint }) => {
+  upsertAcademyItem("lessons", {
+    ...lesson,
+    exercises: exercises.map((exercise) => exercise.id)
+  });
+  exercises.forEach((exercise) => {
+    upsertAcademyItem("exercises", {
+      ...exercise,
+      lessonId: lesson.id,
+      instructions: exercise.instructionSteps.join(" "),
+      skillIds: lesson.skillIds,
+      mediaLinks: [],
+      completed: false
+    });
+  });
+  upsertAcademyItem("checkpoints", {
+    ...checkpoint,
+    lessonId: lesson.id,
+    completed: false
+  });
+});
+
+const moduleTwoLessonsFiveToSeven = [
+  {
+    lesson: {
+      id: "lesson-rhythm-foundations-5",
+      missionId: "mission-rhythm-foundations",
+      lessonNumber: 5,
+      title: "Changing Chords While Strumming",
+      description: "Maintain a continuous strumming motion while changing chords without stopping the rhythm.",
+      objectiveHeading: "What you'll learn",
+      objective: "Maintain a continuous strumming motion while changing chords without stopping the rhythm.",
+      whyThisLesson: "Most beginners stop their strumming hand while changing chords. That creates gaps in the rhythm. Today you’ll learn that the strumming hand never stops—the fretting hand catches up.",
+      coachNotes: "Don’t think about changing chords. Think about keeping your right hand moving. Your left hand is trying to keep up with the rhythm—not the other way around.",
+      estimatedMinutes: 35,
+      skillIds: ["skill-open-chords", "skill-chord-changes", "skill-rhythm", "skill-strumming", "skill-timing"],
+      connectedSongs: [
+        {
+          title: "Stand By Me",
+          artist: "Ben E. King",
+          note: "Reinforces continuous strumming through a repeating chord progression."
+        },
+        {
+          title: "Wagon Wheel",
+          artist: "Old Crow Medicine Show",
+          note: "Builds confidence changing chords without interrupting the rhythm."
+        }
+      ],
+      recommendedSongs: [
+        {
+          title: "Stand By Me",
+          artist: "Ben E. King",
+          note: "Reinforces continuous strumming through a repeating chord progression."
+        },
+        {
+          title: "Wagon Wheel",
+          artist: "Old Crow Medicine Show",
+          note: "Builds confidence changing chords without interrupting the rhythm."
+        }
+      ],
+      checkpoint: "checkpoint-rhythm-foundations-5",
+      practiceJournal: [
+        "Which chord interrupted your rhythm?",
+        "Did your right hand stop?",
+        "What became easier?"
+      ],
+      reflectionPrompts: [
+        "Which chord interrupted your rhythm?",
+        "Did your right hand stop?",
+        "What became easier?"
+      ],
+      completed: false
+    },
+    exercises: [
+      {
+        id: "exercise-rhythm-foundations-5-continuous-hand-motion",
+        title: "Continuous Hand Motion",
+        purpose: "Separate strumming from chord changes.",
+        objective: "Keep the strumming hand moving continuously.",
+        instructionSteps: [
+          "Mute the strings.",
+          "Keep a constant down-up motion.",
+          "Count aloud.",
+          "Don’t stop moving."
+        ],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Continuous movement for one minute.",
+        definitionOfDone: "Continuous movement for one minute.",
+        commonMistakes: ["Stopping between bars", "Locking the wrist", "Looking at the strumming hand"],
+        coachTip: "Imagine your arm is a pendulum. The pendulum never stops—it simply swings.",
+        chordNames: []
+      },
+      {
+        id: "exercise-rhythm-foundations-5-g-and-c",
+        title: "G and C",
+        purpose: "Maintain continuous motion while changing between G and C.",
+        objective: "Keep the strumming hand moving through every G to C change.",
+        instructionSteps: ["Strum G continuously.", "Change to C after four beats.", "Keep the down-up motion moving through the change.", "Repeat."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Repeated G and C changes without stopping the right hand.",
+        definitionOfDone: "The strumming hand remains continuous through several mostly clean changes.",
+        commonMistakes: [],
+        chordNames: ["G", "C"]
+      },
+      {
+        id: "exercise-rhythm-foundations-5-g-c-d",
+        title: "G, C and D",
+        purpose: "Add another chord while preserving rhythm.",
+        objective: "Keep continuous motion through a three-chord progression.",
+        instructionSteps: ["Play G, C and D for four beats each.", "Keep the right hand moving continuously.", "Repeat without restarting."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Complete several G, C and D cycles without stopping the strum.",
+        definitionOfDone: "Rhythm remains mostly steady through the complete progression.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D"]
+      },
+      {
+        id: "exercise-rhythm-foundations-5-g-c-d-em",
+        title: "G, C, D and Em",
+        purpose: "Expand chord vocabulary without changing rhythm.",
+        objective: "Keep the same strumming motion across four chords.",
+        instructionSteps: ["Play G, C, D and Em.", "Use four beats per chord.", "Keep the hand moving continuously."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Complete several four-chord cycles with continuous strumming.",
+        definitionOfDone: "Chord changes happen inside the rhythm without stopping the right hand.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em"]
+      },
+      {
+        id: "exercise-rhythm-foundations-5-adding-am",
+        title: "Adding Am",
+        purpose: "Introduce all five Module 2 chords into one progression.",
+        objective: "Maintain continuous rhythm while using G, C, D, Em and Am.",
+        instructionSteps: ["Play G, C, D, Em and Am.", "Use four beats per chord.", "Keep the strumming hand moving through every change."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Complete the five-chord progression without stopping the right hand.",
+        definitionOfDone: "All five chords can be used in mostly steady continuous rhythm.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em", "Am"]
+      },
+      {
+        id: "exercise-rhythm-foundations-5-recovery",
+        title: "Recovery Exercise",
+        purpose: "Learn to recover naturally without breaking the rhythm.",
+        objective: "Keep playing after a deliberately missed chord.",
+        instructionSteps: ["Start a familiar chord progression.", "Miss one chord deliberately.", "Continue strumming.", "Recover on the next chord without restarting."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Recover from a missed chord while the right hand keeps moving.",
+        definitionOfDone: "Several deliberate mistakes are recovered from naturally.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em", "Am"]
+      },
+      {
+        id: "exercise-rhythm-foundations-5-performance",
+        title: "Five Minute Performance",
+        purpose: "Combine continuous strumming, chord changes and natural recovery.",
+        objective: "Play continuously using all learned chords.",
+        instructionSteps: ["Use G, C, D, Em and Am.", "Don’t stop.", "Recover naturally from mistakes."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Five minutes of continuous playing without restarting.",
+        definitionOfDone: "The right hand keeps moving and recovery happens naturally.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em", "Am"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-rhythm-foundations-5",
+      title: "Changing Chords While Strumming Checkpoint",
+      purpose: "Confirm that chord changes now happen inside a continuous strumming motion.",
+      requirements: [
+        "Right hand never stops",
+        "Chord changes happen inside the rhythm",
+        "Recovery happens naturally"
+      ],
+      passRule: "Pass if the right hand never stops, chord changes happen inside the rhythm, and recovery happens naturally."
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-rhythm-foundations-6",
+      missionId: "mission-rhythm-foundations",
+      lessonNumber: 6,
+      title: "Dynamics and Pick Control",
+      description: "Learn to control tone and volume without affecting rhythm.",
+      objectiveHeading: "What you'll learn",
+      objective: "Learn to control tone and volume without affecting rhythm.",
+      whyThisLesson: "Experienced players don’t simply play the correct notes—they control how those notes sound.",
+      coachNotes: "Playing softer is often harder than playing louder. Today we’re learning control, not power.",
+      estimatedMinutes: 35,
+      skillIds: ["skill-rhythm", "skill-strumming", "skill-timing"],
+      connectedSongs: [
+        {
+          title: "Three Little Birds",
+          artist: "Bob Marley",
+          note: "Encourages relaxed, controlled strumming with an even dynamic."
+        },
+        {
+          title: "Stand By Me",
+          artist: "Ben E. King",
+          note: "Provides a steady progression for practising deliberate volume and tone changes."
+        }
+      ],
+      recommendedSongs: [
+        {
+          title: "Three Little Birds",
+          artist: "Bob Marley",
+          note: "Encourages relaxed, controlled strumming with an even dynamic."
+        },
+        {
+          title: "Stand By Me",
+          artist: "Ben E. King",
+          note: "Provides a steady progression for practising deliberate volume and tone changes."
+        }
+      ],
+      checkpoint: "checkpoint-rhythm-foundations-6",
+      practiceJournal: [
+        "Which sounded better?",
+        "Did changing dynamics affect timing?",
+        "Which grip felt most comfortable?"
+      ],
+      reflectionPrompts: [
+        "Which sounded better?",
+        "Did changing dynamics affect timing?",
+        "Which grip felt most comfortable?"
+      ],
+      completed: false
+    },
+    exercises: [
+      {
+        id: "exercise-rhythm-foundations-6-soft-strumming",
+        title: "Soft Strumming",
+        purpose: "Develop gentle pick control.",
+        objective: "Play quietly while keeping rhythm steady.",
+        instructionSteps: ["Choose a familiar chord progression.", "Use a light pick attack.", "Keep the beat steady.", "Listen for even volume."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Strum softly for one minute without losing the beat.",
+        definitionOfDone: "Quiet strumming remains controlled and rhythmically steady.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em", "Am"]
+      },
+      {
+        id: "exercise-rhythm-foundations-6-loud-strumming",
+        title: "Loud Strumming",
+        purpose: "Develop confidence without losing timing.",
+        objective: "Increase volume while keeping the motion relaxed.",
+        instructionSteps: ["Use a confident pick attack.", "Keep the wrist relaxed.", "Maintain the same tempo.", "Avoid forcing the strings."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Play loudly and evenly without speeding up.",
+        definitionOfDone: "Volume increases while timing remains steady.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em", "Am"]
+      },
+      {
+        id: "exercise-rhythm-foundations-6-soft-to-loud",
+        title: "Soft to Loud",
+        purpose: "Control deliberate changes in volume.",
+        objective: "Alternate soft and loud strumming every four beats.",
+        instructionSteps: ["Play softly for four beats.", "Play loudly for four beats.", "Continue alternating.", "Keep the tempo unchanged."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Volume changes intentionally every four beats while rhythm stays constant.",
+        definitionOfDone: "Several clear soft-to-loud cycles remain in time.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em", "Am"]
+      },
+      {
+        id: "exercise-rhythm-foundations-6-pick-angle",
+        title: "Pick Angle",
+        purpose: "Hear how pick angle changes tone.",
+        objective: "Compare a flat pick with an angled pick.",
+        instructionSteps: ["Strum with the pick flat against the strings.", "Listen to the tone.", "Angle the pick slightly.", "Listen to the difference."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Hear and describe the tonal difference between flat and angled pick positions.",
+        definitionOfDone: "Choose a comfortable angle that keeps the rhythm smooth.",
+        commonMistakes: [],
+        chordNames: ["G", "C"]
+      },
+      {
+        id: "exercise-rhythm-foundations-6-grip-pressure",
+        title: "Grip Pressure",
+        purpose: "Find a balanced pick grip.",
+        objective: "Compare loose and firm grip pressure without losing the pick.",
+        instructionSteps: ["Strum with a loose grip.", "Notice the sound and control.", "Try a firmer grip.", "Find the balance between both."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Use a comfortable grip that keeps the pick secure without creating tension.",
+        definitionOfDone: "The pick feels controlled and the wrist remains relaxed.",
+        commonMistakes: [],
+        chordNames: ["G", "C"]
+      },
+      {
+        id: "exercise-rhythm-foundations-6-musical-dynamics",
+        title: "Musical Dynamics",
+        purpose: "Use volume to shape song sections.",
+        objective: "Play a soft verse and a loud chorus.",
+        instructionSteps: ["Play a progression softly as a verse.", "Repeat it loudly as a chorus.", "Keep the tempo identical.", "Repeat both sections."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Create a clear dynamic difference without affecting timing.",
+        definitionOfDone: "Soft verse and loud chorus feel intentional and controlled.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em", "Am"]
+      },
+      {
+        id: "exercise-rhythm-foundations-6-continuous-performance",
+        title: "Continuous Performance",
+        purpose: "Use dynamics naturally during continuous playing.",
+        objective: "Vary tone and volume while keeping rhythm steady.",
+        instructionSteps: ["Play continuously using familiar chords.", "Vary the dynamics naturally.", "Experiment with pick angle and grip.", "Keep the rhythm constant."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Complete five minutes with intentional dynamics and steady rhythm.",
+        definitionOfDone: "Tone and volume change naturally without disturbing timing.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em", "Am"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-rhythm-foundations-6",
+      title: "Dynamics and Pick Control Checkpoint",
+      purpose: "Confirm that tone and volume can change without disturbing rhythm.",
+      requirements: [
+        "Rhythm stays constant",
+        "Volume changes intentionally",
+        "Tone changes with pick angle"
+      ],
+      passRule: "Pass if rhythm stays constant, volume changes intentionally, and tone changes with pick angle."
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-rhythm-foundations-7",
+      missionId: "mission-rhythm-foundations",
+      lessonNumber: 7,
+      title: "Playing with Groove",
+      description: "Stop counting every beat and begin feeling the music naturally.",
+      objectiveHeading: "What you'll learn",
+      objective: "Stop counting every beat and begin feeling the music naturally.",
+      whyThisLesson: "Rhythm becomes music when you stop thinking about counting and start feeling the pulse.",
+      coachNotes: "Groove can’t be forced. Relax. Let the rhythm happen.",
+      estimatedMinutes: 35,
+      skillIds: ["skill-rhythm", "skill-strumming", "skill-timing"],
+      connectedSongs: [
+        {
+          title: "Stand By Me",
+          artist: "Ben E. King",
+          note: "Its repeating progression is ideal for relaxing into a steady groove."
+        },
+        {
+          title: "Wagon Wheel",
+          artist: "Old Crow Medicine Show",
+          note: "Its forward-moving rhythm encourages natural, less mechanical playing."
+        }
+      ],
+      recommendedSongs: [
+        {
+          title: "Stand By Me",
+          artist: "Ben E. King",
+          note: "Its repeating progression is ideal for relaxing into a steady groove."
+        },
+        {
+          title: "Wagon Wheel",
+          artist: "Old Crow Medicine Show",
+          note: "Its forward-moving rhythm encourages natural, less mechanical playing."
+        }
+      ],
+      checkpoint: "checkpoint-rhythm-foundations-7",
+      practiceJournal: [
+        "Did you stop counting?",
+        "When did the groove start to feel natural?",
+        "What relaxed the most?",
+        "What still feels mechanical?"
+      ],
+      reflectionPrompts: [
+        "Did you stop counting?",
+        "When did the groove start to feel natural?",
+        "What relaxed the most?",
+        "What still feels mechanical?"
+      ],
+      completed: false
+    },
+    exercises: [
+      {
+        id: "exercise-rhythm-foundations-7-feel-before-playing",
+        title: "Feel Before Playing",
+        purpose: "Feel the pulse before touching the guitar.",
+        objective: "Connect physically with the beat.",
+        instructionSteps: ["Listen to the metronome.", "Tap your foot.", "Do not play.", "Let the pulse settle."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Tap steadily without needing to count every beat.",
+        definitionOfDone: "The foot follows the pulse naturally.",
+        commonMistakes: [],
+        chordNames: []
+      },
+      {
+        id: "exercise-rhythm-foundations-7-foot-first",
+        title: "Foot First",
+        purpose: "Let the body establish time before the hands join.",
+        objective: "Keep the foot steady while the hands follow.",
+        instructionSteps: ["Start tapping your foot.", "Add muted strumming.", "Keep the foot unchanged.", "Let the hands follow the foot."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "The foot keeps steady time while strumming is added.",
+        definitionOfDone: "Hands follow the pulse without changing it.",
+        commonMistakes: [],
+        chordNames: []
+      },
+      {
+        id: "exercise-rhythm-foundations-7-eyes-closed",
+        title: "Eyes Closed",
+        purpose: "Remove visual distraction and focus on rhythm.",
+        objective: "Play G and C by feel.",
+        instructionSteps: ["Form G.", "Close your eyes.", "Play G and C slowly.", "Focus only on rhythm."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Maintain a relaxed rhythm with eyes closed.",
+        definitionOfDone: "G and C continue without relying on constant visual checking.",
+        commonMistakes: [],
+        chordNames: ["G", "C"]
+      },
+      {
+        id: "exercise-rhythm-foundations-7-relaxation-check",
+        title: "Relaxation Check",
+        purpose: "Notice and release tension while playing.",
+        objective: "Keep shoulders, wrists and grip relaxed.",
+        instructionSteps: ["Play a familiar progression.", "Notice your shoulders.", "Notice your wrists.", "Notice your grip.", "Relax everything."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Release tension without stopping the rhythm.",
+        definitionOfDone: "The body feels looser while the beat remains steady.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em", "Am"]
+      },
+      {
+        id: "exercise-rhythm-foundations-7-groove-loop",
+        title: "Groove Loop",
+        purpose: "Let repetition turn a progression into a groove.",
+        objective: "Play without analysing every movement.",
+        instructionSteps: ["Choose one progression.", "Repeat it continuously.", "Don’t analyse.", "Just play."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "The progression begins to feel natural and repeatable.",
+        definitionOfDone: "Play the loop continuously with relaxed rhythm.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em", "Am"]
+      },
+      {
+        id: "exercise-rhythm-foundations-7-stand-by-me",
+        title: "Stand By Me",
+        purpose: "Apply groove to a complete musical progression.",
+        objective: "Stay with the groove instead of reacting to mistakes.",
+        instructionSteps: ["Play Stand By Me slowly.", "Ignore small mistakes.", "Keep your foot moving.", "Stay with the groove."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Stay with the progression without restarting after mistakes.",
+        definitionOfDone: "The rhythm remains relaxed and continuous.",
+        commonMistakes: [],
+        chordNames: ["G", "Em", "C", "D"]
+      },
+      {
+        id: "exercise-rhythm-foundations-7-wagon-wheel",
+        title: "Wagon Wheel",
+        purpose: "Apply groove to a more driving rhythm.",
+        objective: "Enjoy the rhythm while maintaining continuous motion.",
+        instructionSteps: ["Play Wagon Wheel at a comfortable pace.", "Keep the strumming motion relaxed.", "Focus on enjoying the rhythm.", "Recover naturally from mistakes."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Play continuously with a relaxed, forward-moving groove.",
+        definitionOfDone: "The performance feels less mechanical and more musical.",
+        commonMistakes: [],
+        chordNames: ["G", "D", "Em", "C"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-rhythm-foundations-7",
+      title: "Playing with Groove Checkpoint",
+      purpose: "Confirm that rhythm is becoming relaxed, physical and less mechanical.",
+      requirements: [
+        "Foot naturally keeps time",
+        "Rhythm feels relaxed",
+        "Playing becomes less mechanical"
+      ],
+      passRule: "Pass if the foot naturally keeps time, rhythm feels relaxed, and playing becomes less mechanical."
+    }
+  }
+];
+
+moduleTwoLessonsFiveToSeven.forEach(({ lesson, exercises, checkpoint }) => {
+  upsertAcademyItem("lessons", {
+    ...lesson,
+    exercises: exercises.map((exercise) => exercise.id)
+  });
+  exercises.forEach((exercise) => {
+    upsertAcademyItem("exercises", {
+      ...exercise,
+      lessonId: lesson.id,
+      instructions: exercise.instructionSteps.join(" "),
+      skillIds: lesson.skillIds,
+      mediaLinks: [],
+      completed: false
+    });
+  });
+  upsertAcademyItem("checkpoints", {
+    ...checkpoint,
+    lessonId: lesson.id,
+    completed: false
+  });
+});
+
+const moduleTwoLessonsEightAndNine = [
+  {
+    lesson: {
+      id: "lesson-rhythm-foundations-8",
+      missionId: "mission-rhythm-foundations",
+      lessonNumber: 8,
+      title: "Bringing It All Together",
+      description: "Combine all Module 2 skills into smooth, confident rhythm guitar playing.",
+      objectiveHeading: "What you'll learn",
+      objective: "Combine all Module 2 skills into smooth, confident rhythm guitar playing.",
+      whyThisLesson: "You’ve learned new chords, developed steady rhythm, introduced down-up strumming and started playing with groove. Today is about combining those skills so they become one natural movement.",
+      coachNotes: "Don’t think about individual techniques anymore. Think about making music. Trust your hands and keep the rhythm flowing.",
+      estimatedMinutes: 30,
+      skillIds: ["skill-open-chords", "skill-chord-changes", "skill-rhythm", "skill-strumming", "skill-timing"],
+      connectedSongs: [
+        {
+          title: "Stand By Me",
+          artist: "Ben E. King",
+          note: "Excellent for reinforcing relaxed rhythm and smooth chord transitions."
+        },
+        {
+          title: "Wagon Wheel",
+          artist: "Old Crow Medicine Show",
+          note: "Develops endurance, groove and consistent strumming."
+        }
+      ],
+      recommendedSongs: [
+        {
+          title: "Stand By Me",
+          artist: "Ben E. King",
+          note: "Excellent for reinforcing relaxed rhythm and smooth chord transitions."
+        },
+        {
+          title: "Wagon Wheel",
+          artist: "Old Crow Medicine Show",
+          note: "Develops endurance, groove and consistent strumming."
+        }
+      ],
+      checkpoint: "checkpoint-rhythm-foundations-8",
+      practiceJournal: [
+        "Which chord still interrupts your rhythm?",
+        "Which strumming pattern feels most comfortable?",
+        "Did you notice yourself relaxing more than in Module 1?",
+        "What would you like to improve before the assessment?"
+      ],
+      reflectionPrompts: [
+        "Which chord still interrupts your rhythm?",
+        "Which strumming pattern feels most comfortable?",
+        "Did you notice yourself relaxing more than in Module 1?",
+        "What would you like to improve before the assessment?"
+      ],
+      completed: false
+    },
+    exercises: [
+      {
+        id: "exercise-rhythm-foundations-8-open-chord-warmup",
+        title: "Open Chord Warm-up",
+        purpose: "Reconnect with all learned chords.",
+        objective: "Play G, C, D, Em and Am cleanly.",
+        instructionSteps: ["Form each chord.", "Strum four beats.", "Listen carefully.", "Correct only obvious mistakes."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Every chord rings clearly.",
+        definitionOfDone: "Every chord rings clearly.",
+        commonMistakes: ["Rushing", "Forgetting string targeting", "Playing before checking finger placement"],
+        coachTip: "A good warm-up isn’t about speed—it’s about reminding your hands what “good” feels like.",
+        chordNames: ["G", "C", "D", "Em", "Am"]
+      },
+      {
+        id: "exercise-rhythm-foundations-8-five-chord-progression",
+        title: "Five-Chord Progression",
+        purpose: "Transition smoothly between all Module 2 chords.",
+        objective: "Maintain continuous rhythm.",
+        instructionSteps: ["Play G, Em, C, D and Am in that order.", "Use four beats for each chord.", "Repeat continuously."],
+        durationMinutes: 5,
+        tempo: "65 BPM",
+        passCriteria: "Several complete cycles without stopping.",
+        definitionOfDone: "Several complete cycles without stopping.",
+        commonMistakes: [],
+        chordNames: ["G", "Em", "C", "D", "Am"]
+      },
+      {
+        id: "exercise-rhythm-foundations-8-dynamic-playing",
+        title: "Dynamic Playing",
+        purpose: "Combine rhythm with dynamic control.",
+        objective: "Play the progression softly, then confidently.",
+        instructionSteps: ["Play one cycle softly.", "Play one cycle at medium volume.", "Play one cycle louder.", "Return to medium volume."],
+        durationMinutes: 5,
+        tempo: "65 BPM",
+        passCriteria: "Volume changes without affecting timing.",
+        definitionOfDone: "Volume changes without affecting timing.",
+        commonMistakes: [],
+        chordNames: ["G", "Em", "C", "D", "Am"]
+      },
+      {
+        id: "exercise-rhythm-foundations-8-rhythm-recovery",
+        title: "Rhythm Recovery",
+        purpose: "Build confidence recovering from mistakes.",
+        objective: "Continue playing regardless of errors.",
+        instructionSteps: ["If a chord is late or incorrect, keep the strumming hand moving.", "Rejoin on the next beat.", "Never restart."],
+        durationMinutes: 5,
+        tempo: "65 BPM",
+        passCriteria: "Continue for five minutes without restarting.",
+        definitionOfDone: "Continue for five minutes without restarting.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em", "Am"]
+      },
+      {
+        id: "exercise-rhythm-foundations-8-song-preparation",
+        title: "Song Preparation",
+        purpose: "Prepare for the featured songs.",
+        objective: "Play each song’s chord progression without worrying about lyrics or structure.",
+        instructionSteps: ["Practise the progression for Stand By Me.", "Practise the progression for Wagon Wheel.", "Focus only on rhythm and clean changes."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Both progressions feel familiar enough to play without stopping.",
+        definitionOfDone: "Complete both progressions with steady rhythm and clean changes.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em"]
+      },
+      {
+        id: "exercise-rhythm-foundations-8-performance-run",
+        title: "Performance Run",
+        purpose: "Develop confidence playing continuously.",
+        objective: "Play continuously for five minutes using any combination of Module 2 chords.",
+        instructionSteps: ["Choose any combination of G, C, D, Em and Am.", "Keep the rhythm flowing.", "Recover naturally from mistakes."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Maintain rhythm from beginning to end.",
+        definitionOfDone: "Maintain rhythm from beginning to end.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em", "Am"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-rhythm-foundations-8",
+      title: "Bringing It All Together Checkpoint",
+      purpose: "Confirm that the Module 2 skills now work together as one natural movement.",
+      requirements: [
+        "Rhythm remains steady",
+        "Down-up strumming feels natural",
+        "Chord changes no longer interrupt the beat",
+        "G, C, D, Em and Am feel comfortable",
+        "You recover naturally from mistakes"
+      ],
+      passRule: "Pass if rhythm remains steady, down-up strumming feels natural, chord changes no longer interrupt the beat, all five chords feel comfortable, and recovery happens naturally."
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-rhythm-foundations-9",
+      missionId: "mission-rhythm-foundations",
+      lessonNumber: 9,
+      title: "Making Music",
+      description: "Apply everything learned in Module 2 by playing complete songs confidently from beginning to end.",
+      objectiveHeading: "What you'll learn",
+      objective: "Apply everything learned in Module 2 by playing complete songs confidently from beginning to end.",
+      whyThisLesson: "The purpose of practising isn’t to become good at exercises—it’s to make music. Today you’ll focus on completing songs while maintaining rhythm and recovering naturally from mistakes.",
+      coachNotes: "A complete performance with a few mistakes is always better than a perfect performance that stops halfway through.",
+      estimatedMinutes: 50,
+      skillIds: ["skill-open-chords", "skill-chord-changes", "skill-rhythm", "skill-strumming", "skill-timing", "skill-song-performance"],
+      connectedSongs: [
+        {
+          title: "Stand By Me",
+          artist: "Ben E. King",
+          note: "Featured performance song for steady rhythm, smooth transitions and musical flow."
+        },
+        {
+          title: "Wagon Wheel",
+          artist: "Old Crow Medicine Show",
+          note: "Featured performance song for endurance, relaxed strumming and continuous rhythm."
+        }
+      ],
+      recommendedSongs: [
+        {
+          title: "Stand By Me",
+          artist: "Ben E. King",
+          note: "Featured performance song for steady rhythm, smooth transitions and musical flow."
+        },
+        {
+          title: "Wagon Wheel",
+          artist: "Old Crow Medicine Show",
+          note: "Featured performance song for endurance, relaxed strumming and continuous rhythm."
+        }
+      ],
+      checkpoint: "checkpoint-rhythm-foundations-module-assessment",
+      practiceJournal: [
+        "Which song felt easier?",
+        "Which skill improved the most?",
+        "What still feels uncomfortable?",
+        "What are you most looking forward to learning next?"
+      ],
+      reflectionPrompts: [
+        "Which song felt easier?",
+        "Which skill improved the most?",
+        "What still feels uncomfortable?",
+        "What are you most looking forward to learning next?"
+      ],
+      completed: false
+    },
+    exercises: [
+      {
+        id: "exercise-rhythm-foundations-9-rhythm-warmup",
+        title: "Rhythm Warm-up",
+        purpose: "Review all Module 2 chords.",
+        objective: "Reconnect with G, C, D, Em and Am before playing complete songs.",
+        instructionSteps: ["Build G, C, D, Em and Am.", "Strum each chord steadily.", "Correct only obvious problems.", "Keep the hand relaxed."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "All five chords feel ready for continuous playing.",
+        definitionOfDone: "All Module 2 chords ring clearly in steady rhythm.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em", "Am"]
+      },
+      {
+        id: "exercise-rhythm-foundations-9-stand-by-me",
+        title: "Featured Song: Stand By Me",
+        purpose: "Play the complete song.",
+        objective: "Focus on steady rhythm, smooth transitions and musical flow.",
+        instructionSteps: ["Play Stand By Me from beginning to end.", "Keep the rhythm steady.", "Make smooth transitions.", "Maintain musical flow."],
+        durationMinutes: 15,
+        tempo: "",
+        passCriteria: "Complete Stand By Me without restarting.",
+        definitionOfDone: "Finish the complete song with mostly steady rhythm.",
+        commonMistakes: [],
+        chordNames: ["G", "Em", "C", "D"]
+      },
+      {
+        id: "exercise-rhythm-foundations-9-reflection",
+        title: "Performance Reflection",
+        purpose: "Notice what happened during the first performance.",
+        objective: "Identify what felt comfortable and where rhythm broke down.",
+        instructionSteps: ["Briefly note what felt comfortable.", "Briefly note where rhythm broke down.", "Choose one thing to carry into the next song."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Record one strength and one area needing attention.",
+        definitionOfDone: "A brief, honest reflection is recorded.",
+        commonMistakes: [],
+        chordNames: []
+      },
+      {
+        id: "exercise-rhythm-foundations-9-wagon-wheel",
+        title: "Featured Song: Wagon Wheel",
+        purpose: "Develop endurance and confidence.",
+        objective: "Focus on relaxed strumming, continuous rhythm and enjoying the performance.",
+        instructionSteps: ["Play Wagon Wheel from beginning to end.", "Keep the strumming relaxed.", "Maintain continuous rhythm.", "Enjoy the performance."],
+        durationMinutes: 15,
+        tempo: "",
+        passCriteria: "Complete Wagon Wheel without restarting.",
+        definitionOfDone: "Finish the complete song with relaxed, continuous rhythm.",
+        commonMistakes: [],
+        chordNames: ["G", "D", "Em", "C"]
+      },
+      {
+        id: "exercise-rhythm-foundations-9-musical-recovery",
+        title: "Musical Recovery",
+        purpose: "Practise finishing a song despite mistakes.",
+        objective: "Continue, recover and finish the song.",
+        instructionSteps: ["Choose either featured song.", "Play it again.", "Whenever a mistake happens, continue.", "Recover and finish the song."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Finish the chosen song without restarting after mistakes.",
+        definitionOfDone: "Mistakes are recovered from naturally while the performance continues.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em"]
+      },
+      {
+        id: "exercise-rhythm-foundations-9-free-play",
+        title: "Free Play",
+        purpose: "Finish the module by enjoying the instrument rather than analysing technique.",
+        objective: "Play whichever progression or song you enjoyed most during Module 2.",
+        instructionSteps: ["Choose your favourite Module 2 progression or song.", "Play for five minutes.", "Enjoy the instrument.", "Do not analyse every movement."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Complete five minutes of relaxed, enjoyable playing.",
+        definitionOfDone: "Finish the session by making music without over-analysing.",
+        commonMistakes: [],
+        chordNames: ["G", "C", "D", "Em", "Am"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-rhythm-foundations-module-assessment",
+      title: "Module 2 Assessment",
+      purpose: "Confirm that rhythm guitar fundamentals are becoming natural before progressing.",
+      requirements: [
+        "Keep steady rhythm",
+        "Use relaxed down-up strumming",
+        "Change between G, C, D, Em and Am confidently",
+        "Recover naturally from mistakes",
+        "Play both featured songs from beginning to end"
+      ],
+      passRule: "Pass if rhythm guitar fundamentals are becoming natural. If Needs More Practice is selected, review exercises previously marked Needs More Practice without locking Module 3.",
+      moduleSummary: {
+        title: "Module Complete",
+        message: "Congratulations. You now have the rhythm skills required to play a much wider range of songs with confidence.",
+        preparingForNextModule: "In Module 3 you will build more expressive strumming patterns, improve rhythmic feel, and begin tackling more recognisable modern songs.",
+        skillsDeveloped: [
+          "Steady timing",
+          "Down-up strumming",
+          "Rhythm consistency",
+          "Dynamics",
+          "Pick control",
+          "Groove",
+          "Em",
+          "Am",
+          "Playing complete songs"
+        ],
+        featuredSongsCompleted: ["Stand By Me", "Wagon Wheel"]
+      }
+    }
+  }
+];
+
+moduleTwoLessonsEightAndNine.forEach(({ lesson, exercises, checkpoint }) => {
+  upsertAcademyItem("lessons", {
+    ...lesson,
+    exercises: exercises.map((exercise) => exercise.id)
+  });
+  exercises.forEach((exercise) => {
+    upsertAcademyItem("exercises", {
+      ...exercise,
+      lessonId: lesson.id,
+      instructions: exercise.instructionSteps.join(" "),
+      skillIds: lesson.skillIds,
+      mediaLinks: [],
+      completed: false
+    });
+  });
+  upsertAcademyItem("checkpoints", {
+    ...checkpoint,
+    lessonId: lesson.id,
+    completed: false
+  });
+});
+
+upsertAcademyItem("missions", {
+  id: "mission-rhythm-foundations",
+  unlockNextModuleOnAssessment: true,
+  moduleAssessment: {
+    title: "Module 2 Assessment",
+    purpose: "Confirm that rhythm guitar fundamentals are becoming natural before progressing.",
+    resultOptions: ["Pass", "Needs More Practice"],
+    needsMorePracticeRecommendation: "Review specific exercises previously marked Needs More Practice. Module 3 remains available after the assessment."
+  },
+  moduleSummary: {
+    title: "Module Complete",
+    message: "Congratulations. You now have the rhythm skills required to play a much wider range of songs with confidence.",
+    preparingForNextModule: "In Module 3 you will build more expressive strumming patterns, improve rhythmic feel, and begin tackling more recognisable modern songs.",
+    skillsDeveloped: [
+      "Steady timing",
+      "Down-up strumming",
+      "Rhythm consistency",
+      "Dynamics",
+      "Pick control",
+      "Groove",
+      "Em",
+      "Am",
+      "Playing complete songs"
+    ]
+  }
+});
+
+[
+  {
+    name: "Mini F",
+    group: "Barre Skill Builder",
+    frets: ["x", "x", "x", 2, 1, 1],
+    fingers: ["", "", "", "2", "1", "1"],
+    startFret: 1,
+    barre: "top 2 strings"
+  },
+  {
+    name: "Four-string F",
+    group: "Barre Skill Builder",
+    frets: ["x", "x", 3, 2, 1, 1],
+    fingers: ["", "", "3", "2", "1", "1"],
+    startFret: 1,
+    barre: "top 2 strings"
+  },
+  {
+    name: "Full F major",
+    group: "Barre Skill Builder",
+    frets: [1, 3, 3, 2, 1, 1],
+    fingers: ["1", "3", "4", "2", "1", "1"],
+    startFret: 1,
+    barre: "1st fret"
+  },
+  {
+    name: "Bm7 (beginner)",
+    group: "Barre Skill Builder",
+    frets: ["x", 2, 0, 2, 0, 2],
+    fingers: ["", "1", "", "2", "", "3"]
+  }
+].forEach(upsertChordDiagram);
+
+const barreChordAcceleratorLessons = [
+  {
+    id: "lesson-barre-accelerator-1",
+    lessonNumber: 1,
+    title: "Understanding the Barre",
+    objective: "Understand how one finger can fret more than one string and how barre pressure differs from ordinary fretting.",
+    whyThisLesson: "A clear mental model makes barre-chord practice more controlled and prevents unnecessary squeezing."
+  },
+  {
+    id: "lesson-barre-accelerator-2",
+    lessonNumber: 2,
+    title: "Two-String Barre Control",
+    objective: "Develop clean, relaxed control across two strings before attempting a larger barre.",
+    whyThisLesson: "A small barre isolates the essential movement without the strain of a full chord."
+  },
+  {
+    id: "lesson-barre-accelerator-3",
+    lessonNumber: 3,
+    title: "Mini F",
+    objective: "Build and recognise the three-note Mini F shape.",
+    whyThisLesson: "Mini F provides an immediately useful F sound while barre strength is still developing.",
+    chordNames: ["Mini F"]
+  },
+  {
+    id: "lesson-barre-accelerator-4",
+    lessonNumber: 4,
+    title: "Four-String F",
+    objective: "Expand Mini F into a fuller four-string F shape.",
+    whyThisLesson: "The four-string version adds depth while keeping the physical demand manageable.",
+    chordNames: ["Four-string F"]
+  },
+  {
+    id: "lesson-barre-accelerator-5",
+    lessonNumber: 5,
+    title: "Full F Shape",
+    objective: "Learn the complete six-string F major barre-chord shape.",
+    whyThisLesson: "Full F is the foundation for movable E-shape major barre chords.",
+    chordNames: ["Full F major"]
+  },
+  {
+    id: "lesson-barre-accelerator-6",
+    lessonNumber: 6,
+    title: "F Endurance",
+    objective: "Build the comfort and endurance needed to hold F without excessive tension.",
+    whyThisLesson: "Barre chords become practical only when they can be held cleanly without exhausting the hand.",
+    chordNames: ["Mini F", "Four-string F", "Full F major"]
+  },
+  {
+    id: "lesson-barre-accelerator-7",
+    lessonNumber: 7,
+    title: "F Chord Changes",
+    objective: "Move into and out of F while keeping familiar chord progressions flowing.",
+    whyThisLesson: "The chord becomes musically useful when it can be reached without stopping the rhythm.",
+    chordNames: ["F", "Full F major"]
+  },
+  {
+    id: "lesson-barre-accelerator-8",
+    lessonNumber: 8,
+    title: "Bm Mechanics",
+    objective: "Understand the Bm shape and use a beginner Bm7 version while full-barre control develops.",
+    whyThisLesson: "Bm introduces the movable A-shape minor barre and appears in many common guitar keys.",
+    chordNames: ["Bm", "Bm7 (beginner)"]
+  },
+  {
+    id: "lesson-barre-accelerator-9",
+    lessonNumber: 9,
+    title: "F and Bm Application",
+    objective: "Apply F and Bm shapes in short musical chord progressions.",
+    whyThisLesson: "Application turns isolated barre practice into usable guitar vocabulary.",
+    chordNames: ["F", "Full F major", "Bm", "Bm7 (beginner)"]
+  }
+];
+
+window.academyData.skillBuilders = [
+  {
+    id: "skill-builder-barre-chord-accelerator",
+    missionId: "mission-barre-chord-accelerator",
+    title: "Barre Chord Accelerator",
+    description: "Develop F major and B minor early without interrupting the main module progression.",
+    whyDoThis: "Barre chords unlock hundreds of songs. This Skill Builder helps you start developing F major and B minor early while continuing the main course.",
+    howOften: "Spend 10–15 minutes on this alongside your normal module practice.",
+    whenToStop: "You do not need to “finish” barre chords before using them. Complete the lessons, then revisit them regularly as your strength, accuracy and relaxation improve.",
+    optional: true
+  }
+];
+
+upsertAcademyItem("missions", {
+  id: "mission-barre-chord-accelerator",
+  title: "Barre Chord Accelerator",
+  subtitle: "Optional focused practice for F major and B minor.",
+  description: "Develop F major and B minor as early as possible without disrupting the main module progression.",
+  whyItMatters: "Short, regular barre practice builds control gradually while the main course continues.",
+  estimatedSessions: "Optional ongoing practice",
+  estimatedPracticeHours: "Flexible",
+  prerequisiteMissionIds: [],
+  connectedSongs: [],
+  skillsDeveloped: ["Barre control", "F major", "B minor", "F endurance", "Barre chord changes"],
+  skillIds: ["skill-chord-changes"],
+  objectives: [
+    "Understand how a barre works",
+    "Develop two-string barre control",
+    "Progress from Mini F to full F major",
+    "Build F endurance and chord changes",
+    "Learn Bm mechanics and a beginner Bm7 alternative"
+  ],
+  successCriteria: [],
+  lessons: barreChordAcceleratorLessons.map((lesson) => lesson.id),
+  isSkillBuilder: true,
+  optional: true,
+  completed: false
+});
+
+barreChordAcceleratorLessons.forEach((definition) => {
+  const exerciseId = `exercise-${definition.id.replace(/^lesson-/, "")}-placeholder`;
+  const checkpointId = `checkpoint-${definition.id.replace(/^lesson-/, "")}`;
+  upsertAcademyItem("lessons", {
+    id: definition.id,
+    missionId: "mission-barre-chord-accelerator",
+    lessonNumber: definition.lessonNumber,
+    title: definition.title,
+    description: definition.objective,
+    objectiveHeading: "What you'll learn",
+    objective: definition.objective,
+    whyThisLesson: definition.whyThisLesson,
+    coachNotes: "Coach's note placeholder. Detailed coaching will be added with the exercise content.",
+    estimatedMinutes: 0,
+    skillIds: ["skill-chord-changes"],
+    exercises: [exerciseId],
+    connectedSongs: [],
+    recommendedSongs: [],
+    checkpoint: checkpointId,
+    practiceJournal: [
+      "What felt comfortable?",
+      "Where did tension appear?",
+      "What should I focus on next time?"
+    ],
+    reflectionPrompts: [
+      "What felt comfortable?",
+      "Where did tension appear?",
+      "What should I focus on next time?"
+    ],
+    completed: false
+  });
+  upsertAcademyItem("exercises", {
+    id: exerciseId,
+    lessonId: definition.id,
+    title: "Exercise content coming next",
+    purpose: "Placeholder for the detailed Skill Builder exercises.",
+    objective: "Detailed exercise content has not been written yet.",
+    instructions: "Exercise instructions will be added later.",
+    instructionSteps: ["Detailed exercise steps will be added later."],
+    durationMinutes: 0,
+    tempo: "",
+    passCriteria: "Pass criteria will be added with the detailed exercise content.",
+    definitionOfDone: "Definition of done will be added with the detailed exercise content.",
+    commonMistakes: [],
+    chordNames: definition.chordNames || [],
+    skillIds: ["skill-chord-changes"],
+    mediaLinks: [],
+    completed: false
+  });
+  upsertAcademyItem("checkpoints", {
+    id: checkpointId,
+    lessonId: definition.id,
+    title: `${definition.title} Checkpoint`,
+    purpose: "Checkpoint content will be added with the detailed Skill Builder exercises.",
+    requirements: ["Checkpoint criteria will be added with the detailed lesson content."],
+    completed: false
+  });
+});
+
+const understandingTheBarreExercises = [
+  {
+    id: "exercise-barre-accelerator-1-no-guitar-hand-check",
+    title: "No-Guitar Hand Check",
+    purpose: "Notice finger shape and tension.",
+    objective: "Hold the index finger straight while keeping the hand relaxed.",
+    instructionSteps: [
+      "Hold your index finger straight but relaxed.",
+      "Notice the bony side edge of the finger.",
+      "Do not lock the finger stiff."
+    ],
+    durationMinutes: 3,
+    tempo: "",
+    passCriteria: "You can keep the finger straight without tension.",
+    definitionOfDone: "You can keep the finger straight without tension.",
+    commonMistakes: [],
+    chordNames: []
+  },
+  {
+    id: "exercise-barre-accelerator-1-thumb-position-check",
+    title: "Thumb Position Check",
+    purpose: "Learn where the thumb supports the barre.",
+    objective: "Support the index finger without squeezing the neck.",
+    instructionSteps: [
+      "Place your thumb behind the neck.",
+      "Keep it roughly opposite the index finger.",
+      "Avoid wrapping the thumb over the top."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Thumb supports the hand without squeezing.",
+    definitionOfDone: "Thumb supports the hand without squeezing.",
+    commonMistakes: [],
+    chordNames: []
+  },
+  {
+    id: "exercise-barre-accelerator-1-two-string-contact",
+    title: "Two-String Contact",
+    purpose: "Learn gentle barre contact.",
+    objective: "Make the high E and B strings ring with a relaxed two-string barre.",
+    instructionSteps: [
+      "Barre only the high E and B strings at fret 1.",
+      "Pick each string.",
+      "Adjust the finger angle until both ring."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Both strings ring clearly at least three times.",
+    definitionOfDone: "Both strings ring clearly at least three times.",
+    commonMistakes: [],
+    chordNames: []
+  },
+  {
+    id: "exercise-barre-accelerator-1-pressure-test",
+    title: "Pressure Test",
+    purpose: "Find minimum pressure.",
+    objective: "Use only enough pressure to make both notes ring.",
+    instructionSteps: [
+      "Start with very light pressure.",
+      "Pick the strings.",
+      "Increase pressure slowly until the notes ring.",
+      "Stop adding pressure once they are clear."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can make the notes ring without crushing the neck.",
+    definitionOfDone: "You can make the notes ring without crushing the neck.",
+    commonMistakes: [],
+    chordNames: []
+  },
+  {
+    id: "exercise-barre-accelerator-1-release-and-reset",
+    title: "Release and Reset",
+    purpose: "Avoid building tension.",
+    objective: "Practise releasing the hand fully between short barre attempts.",
+    instructionSteps: [
+      "Hold the two-string barre for three seconds.",
+      "Release completely.",
+      "Shake your hand loose.",
+      "Repeat."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can repeat without hand pain or excessive fatigue.",
+    definitionOfDone: "You can repeat without hand pain or excessive fatigue.",
+    commonMistakes: [],
+    chordNames: []
+  }
+];
+
+upsertAcademyItem("lessons", {
+  id: "lesson-barre-accelerator-1",
+  missionId: "mission-barre-chord-accelerator",
+  lessonNumber: 1,
+  title: "Understanding the Barre",
+  description: "Learn the physical idea of a barre chord before trying to force a full F or Bm.",
+  objectiveHeading: "What you'll learn",
+  objective: "A barre is not about squeezing harder. It is about using good finger angle, thumb support, wrist position, and minimum pressure.",
+  whyThisLesson: "Barre chords feel difficult because one finger must make clear contact with several strings while the hand stays relaxed. Poor finger angle, thumb position and wrist position often create more difficulty than a lack of strength.",
+  coachNotes: "Most beginners fail barre chords because they try to crush the neck. We are going to build control gradually.",
+  estimatedMinutes: 23,
+  skillIds: ["skill-chord-changes"],
+  exercises: understandingTheBarreExercises.map((exercise) => exercise.id),
+  connectedSongs: [],
+  recommendedSongs: [],
+  checkpoint: "checkpoint-barre-accelerator-1",
+  practiceJournal: [
+    "Did you try to squeeze too hard?",
+    "Which string was harder to make ring?",
+    "What finger angle worked best?",
+    "Did your thumb position help?"
+  ],
+  reflectionPrompts: [
+    "Did you try to squeeze too hard?",
+    "Which string was harder to make ring?",
+    "What finger angle worked best?",
+    "Did your thumb position help?"
+  ],
+  completed: false
+});
+
+understandingTheBarreExercises.forEach((exercise) => {
+  upsertAcademyItem("exercises", {
+    ...exercise,
+    lessonId: "lesson-barre-accelerator-1",
+    instructions: exercise.instructionSteps.join(" "),
+    skillIds: ["skill-chord-changes"],
+    mediaLinks: [],
+    completed: false
+  });
+});
+
+upsertAcademyItem("checkpoints", {
+  id: "checkpoint-barre-accelerator-1",
+  lessonId: "lesson-barre-accelerator-1",
+  title: "Understanding the Barre",
+  purpose: "Confirm that a relaxed two-string barre can be formed using angle, support and minimum pressure.",
+  requirements: [
+    "You understand that pressure alone is not the solution",
+    "You can form a relaxed two-string barre",
+    "You can adjust finger angle to improve clarity",
+    "You can release tension between attempts"
+  ],
+  passRule: "Pass if the physical idea of a barre is understood and a relaxed two-string barre can be formed and reset without excessive tension.",
+  completed: false
+});
+
+const twoStringBarreControlExercises = [
+  {
+    id: "exercise-barre-accelerator-2-reset",
+    title: "Reset",
+    purpose: "Release any tension before beginning.",
+    objective: "Begin with loose hands, shoulders and breathing.",
+    instructionSteps: [
+      "Shake both hands.",
+      "Open and close the fingers.",
+      "Roll the shoulders.",
+      "Take several relaxed breaths."
+    ],
+    durationMinutes: 2,
+    tempo: "",
+    passCriteria: "Hands feel loose.",
+    definitionOfDone: "Hands feel loose.",
+    commonMistakes: [],
+    chordNames: []
+  },
+  {
+    id: "exercise-barre-accelerator-2-finger-angle",
+    title: "Finger Angle",
+    purpose: "Find the strongest contact point.",
+    objective: "Find a two-string barre angle that requires the least pressure.",
+    instructionSteps: [
+      "Barre the high E and B strings.",
+      "Roll your index finger slightly toward the thumb side.",
+      "Test each string.",
+      "Find the angle requiring the least pressure."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Both strings ring using noticeably less effort.",
+    definitionOfDone: "Both strings ring using noticeably less effort.",
+    commonMistakes: ["Finger perfectly flat", "Locked knuckle", "Excessive pressure"],
+    coachTip: "The side of your index finger is naturally firmer than the soft underside. Use the bone—not brute force.",
+    chordNames: []
+  },
+  {
+    id: "exercise-barre-accelerator-2-thumb-support",
+    title: "Thumb Support",
+    purpose: "Learn how the thumb balances the hand.",
+    objective: "Find a comfortable thumb position that supports rather than squeezes.",
+    instructionSteps: [
+      "Move the thumb slightly higher.",
+      "Move it slightly lower.",
+      "Notice how the pressure changes.",
+      "Find the most comfortable position."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Thumb supports rather than squeezes.",
+    definitionOfDone: "Thumb supports rather than squeezes.",
+    commonMistakes: [],
+    chordNames: []
+  },
+  {
+    id: "exercise-barre-accelerator-2-lightest-pressure",
+    title: "Lightest Possible Pressure",
+    purpose: "Discover minimum effective pressure.",
+    objective: "Use only enough pressure to make both notes ring.",
+    instructionSteps: [
+      "Begin with almost no pressure.",
+      "Increase slowly until both notes ring.",
+      "Stop immediately.",
+      "Do not continue squeezing."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You understand how little pressure is actually required.",
+    definitionOfDone: "You understand how little pressure is actually required.",
+    commonMistakes: [],
+    coachTip: "The correct pressure is almost always less than beginners expect.",
+    chordNames: []
+  },
+  {
+    id: "exercise-barre-accelerator-2-lift-and-replace",
+    title: "Lift and Replace",
+    purpose: "Develop consistency.",
+    objective: "Return to the same relaxed finger angle repeatedly.",
+    instructionSteps: [
+      "Form the two-string barre.",
+      "Release.",
+      "Replace the finger.",
+      "Repeat slowly."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Five clean repetitions.",
+    definitionOfDone: "Five clean repetitions.",
+    commonMistakes: [],
+    chordNames: []
+  },
+  {
+    id: "exercise-barre-accelerator-2-five-second-hold",
+    title: "Five Second Hold",
+    purpose: "Introduce endurance gently.",
+    objective: "Hold a relaxed two-string barre briefly without building pain or excessive tension.",
+    instructionSteps: [
+      "Hold the two-string barre for five seconds.",
+      "Relax completely.",
+      "Repeat.",
+      "Never continue if pain develops."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Complete several relaxed five-second holds without pain.",
+    definitionOfDone: "Complete several relaxed five-second holds without pain.",
+    commonMistakes: [],
+    chordNames: []
+  },
+  {
+    id: "exercise-barre-accelerator-2-reflection-play",
+    title: "Reflection Play",
+    purpose: "Finish by reinforcing relaxed, repeatable contact.",
+    objective: "Prioritise quality over duration.",
+    instructionSteps: [
+      "Play several relaxed repetitions.",
+      "Listen to both strings.",
+      "Focus on quality rather than duration."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Several relaxed repetitions with both strings ringing.",
+    definitionOfDone: "Finish with a relaxed, repeatable two-string barre.",
+    commonMistakes: [],
+    chordNames: []
+  }
+];
+
+upsertAcademyItem("lessons", {
+  id: "lesson-barre-accelerator-2",
+  missionId: "mission-barre-chord-accelerator",
+  lessonNumber: 2,
+  title: "Two-String Barre Control",
+  description: "Develop reliable control over a small barre without unnecessary tension.",
+  objectiveHeading: "What you'll learn",
+  objective: "Develop reliable control over a small barre without unnecessary tension.",
+  whyThisLesson: "A full barre chord is simply a small barre repeated across more strings. If you can consistently control two strings, adding more later becomes much easier.",
+  coachNotes: "Don’t judge success by how many strings you can barre. Judge it by how relaxed you feel while doing it. A relaxed two-string barre is far more valuable than a tense six-string barre.",
+  estimatedMinutes: 32,
+  skillIds: ["skill-chord-changes"],
+  exercises: twoStringBarreControlExercises.map((exercise) => exercise.id),
+  connectedSongs: [],
+  recommendedSongs: [],
+  checkpoint: "checkpoint-barre-accelerator-2",
+  practiceJournal: [
+    "What reduced pressure the most?",
+    "Which string remained inconsistent?",
+    "Did rolling the finger help?"
+  ],
+  reflectionPrompts: [
+    "What reduced pressure the most?",
+    "Which string remained inconsistent?",
+    "Did rolling the finger help?"
+  ],
+  completed: false
+});
+
+twoStringBarreControlExercises.forEach((exercise) => {
+  upsertAcademyItem("exercises", {
+    ...exercise,
+    lessonId: "lesson-barre-accelerator-2",
+    instructions: exercise.instructionSteps.join(" "),
+    skillIds: ["skill-chord-changes"],
+    mediaLinks: [],
+    completed: false
+  });
+});
+
+upsertAcademyItem("checkpoints", {
+  id: "checkpoint-barre-accelerator-2",
+  lessonId: "lesson-barre-accelerator-2",
+  title: "Two-String Barre Control",
+  purpose: "Confirm that two-string barre contact is clear, relaxed and repeatable.",
+  requirements: [
+    "Both strings ring consistently",
+    "Thumb feels comfortable",
+    "Pressure remains relaxed",
+    "Finger angle feels repeatable"
+  ],
+  passRule: "Pass if both strings ring consistently with comfortable thumb support, relaxed pressure and a repeatable finger angle.",
+  completed: false
+});
+
+const miniFAndFourStringFLessons = [
+  {
+    lesson: {
+      id: "lesson-barre-accelerator-3",
+      missionId: "mission-barre-chord-accelerator",
+      lessonNumber: 3,
+      title: "Mini F",
+      description: "Learn your first practical F chord.",
+      objectiveHeading: "What you'll learn",
+      objective: "Learn your first practical F chord.",
+      whyThisLesson: "Mini F is used in real music and develops all the mechanics required for the full F chord later.",
+      coachNotes: "Mini F is not cheating. Many experienced guitarists still use it because it sounds great in the right musical context.",
+      estimatedMinutes: 35,
+      skillIds: ["skill-chord-changes"],
+      connectedSongs: [],
+      recommendedSongs: [],
+      checkpoint: "checkpoint-barre-accelerator-3",
+      practiceJournal: [
+        "Which finger caused the most problems?",
+        "Did Mini F feel easier than expected?",
+        "What still needs work?"
+      ],
+      reflectionPrompts: [
+        "Which finger caused the most problems?",
+        "Did Mini F feel easier than expected?",
+        "What still needs work?"
+      ],
+      completed: false
+    },
+    exercises: [
+      {
+        id: "exercise-barre-accelerator-3-learn-shape",
+        title: "Learn the Shape",
+        purpose: "Memorise the Mini F chord.",
+        objective: "Build Mini F accurately without relying on the diagram.",
+        instructionSteps: ["Study the chord diagram.", "Build the chord slowly.", "Check every note."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Mini F can be formed from memory.",
+        definitionOfDone: "Mini F can be formed from memory.",
+        commonMistakes: [],
+        chordNames: ["Mini F"]
+      },
+      {
+        id: "exercise-barre-accelerator-3-string-check",
+        title: "String Check",
+        purpose: "Develop clean fretting.",
+        objective: "Make every intended Mini F note ring clearly.",
+        instructionSteps: ["Build Mini F.", "Pick each intended string individually.", "Correct only the string that buzzes."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Every intended string rings clearly.",
+        definitionOfDone: "Every intended string rings clearly.",
+        commonMistakes: [],
+        chordNames: ["Mini F"]
+      },
+      {
+        id: "exercise-barre-accelerator-3-c-to-mini-f",
+        title: "C to Mini F",
+        purpose: "Develop efficient movement.",
+        objective: "Move between C and Mini F while keeping the hand relaxed.",
+        instructionSteps: ["Play C for four beats.", "Change to Mini F for four beats.", "Repeat without rushing."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Mostly clean transitions.",
+        definitionOfDone: "Complete several mostly clean C to Mini F transitions.",
+        commonMistakes: [],
+        chordNames: ["C", "Mini F"]
+      },
+      {
+        id: "exercise-barre-accelerator-3-mini-f-to-g",
+        title: "Mini F to G",
+        purpose: "Introduce another common transition.",
+        objective: "Move between Mini F and G without building tension.",
+        instructionSteps: ["Play Mini F for four beats.", "Change to G for four beats.", "Keep the rhythm steady.", "Repeat."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Mostly clean Mini F to G transitions.",
+        definitionOfDone: "Complete several transitions while the hand remains relaxed.",
+        commonMistakes: [],
+        chordNames: ["Mini F", "G"]
+      },
+      {
+        id: "exercise-barre-accelerator-3-progression",
+        title: "Mini F Progression",
+        purpose: "Use Mini F in musical context.",
+        objective: "Keep a simple C, Mini F and G progression moving.",
+        instructionSteps: ["Play C, Mini F and G.", "Use four beats per chord.", "Repeat the progression continuously."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Complete several progression cycles without stopping.",
+        definitionOfDone: "Mini F fits into the progression with mostly steady rhythm.",
+        commonMistakes: [],
+        chordNames: ["C", "Mini F", "G"]
+      },
+      {
+        id: "exercise-barre-accelerator-3-continuous-playing",
+        title: "Continuous Playing",
+        purpose: "Maintain rhythm while using Mini F.",
+        objective: "Keep playing through imperfect chord changes.",
+        instructionSteps: ["Use C, Mini F and G.", "Keep the strumming hand moving.", "Recover naturally from mistakes."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Five minutes of continuous playing without restarting.",
+        definitionOfDone: "Rhythm continues while Mini F is used repeatedly.",
+        commonMistakes: [],
+        chordNames: ["C", "Mini F", "G"]
+      },
+      {
+        id: "exercise-barre-accelerator-3-performance",
+        title: "Performance",
+        purpose: "Develop confidence.",
+        objective: "Play continuously without restarting after mistakes.",
+        instructionSteps: ["Choose a progression containing Mini F.", "Play continuously.", "Do not restart after mistakes.", "Finish the performance."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Complete the performance without restarting.",
+        definitionOfDone: "Mini F is used confidently in continuous playing.",
+        commonMistakes: [],
+        chordNames: ["Mini F"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-barre-accelerator-3",
+      title: "Mini F",
+      purpose: "Confirm that Mini F is clear, usable and relaxed.",
+      requirements: [
+        "Mini F rings clearly",
+        "Transitions continue improving",
+        "Hand remains relaxed"
+      ],
+      passRule: "Pass if Mini F rings clearly, transitions are improving, and the hand remains relaxed."
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-barre-accelerator-4",
+      missionId: "mission-barre-chord-accelerator",
+      lessonNumber: 4,
+      title: "Four-String F",
+      description: "Expand Mini F into a fuller sounding F chord.",
+      objectiveHeading: "What you'll learn",
+      objective: "Expand Mini F into a fuller sounding F chord.",
+      whyThisLesson: "A clean four-string F produces a richer sound while remaining far easier than a full six-string barre.",
+      coachNotes: "Never sacrifice quality simply to play more strings. A beautiful four-string F is always better than a buzzing six-string F.",
+      estimatedMinutes: 35,
+      skillIds: ["skill-chord-changes"],
+      connectedSongs: [],
+      recommendedSongs: [],
+      checkpoint: "checkpoint-barre-accelerator-4",
+      practiceJournal: [
+        "Did adding another string change your hand position?",
+        "Was it harder to stay relaxed?",
+        "Which version currently sounds better to you?"
+      ],
+      reflectionPrompts: [
+        "Did adding another string change your hand position?",
+        "Was it harder to stay relaxed?",
+        "Which version currently sounds better to you?"
+      ],
+      completed: false
+    },
+    exercises: [
+      {
+        id: "exercise-barre-accelerator-4-learn-shape",
+        title: "Learn Four-String F",
+        purpose: "Learn the new shape.",
+        objective: "Build Four-string F slowly and accurately.",
+        instructionSteps: ["Study the chord diagram.", "Build the chord one finger at a time.", "Check the intended four strings.", "Release and rebuild."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Four-string F can be formed from memory.",
+        definitionOfDone: "Build the shape cleanly from memory several times.",
+        commonMistakes: [],
+        chordNames: ["Four-string F"]
+      },
+      {
+        id: "exercise-barre-accelerator-4-string-check",
+        title: "String Check",
+        purpose: "Check every string individually.",
+        objective: "Make every intended Four-string F note ring clearly.",
+        instructionSteps: ["Build Four-string F.", "Pick each intended string individually.", "Adjust only the finger causing a problem."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Every intended string rings clearly.",
+        definitionOfDone: "Complete three clean string checks.",
+        commonMistakes: [],
+        chordNames: ["Four-string F"]
+      },
+      {
+        id: "exercise-barre-accelerator-4-compare",
+        title: "Mini F vs Four-String F",
+        purpose: "Hear the tonal difference.",
+        objective: "Recognise the fuller sound created by the added string.",
+        instructionSteps: ["Play Mini F.", "Play Four-string F.", "Alternate between both chord shapes.", "Listen carefully."],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Hear and describe the tonal difference between both shapes.",
+        definitionOfDone: "Both shapes ring clearly and their tonal difference is recognisable.",
+        commonMistakes: [],
+        chordNames: ["Mini F", "Four-string F"]
+      },
+      {
+        id: "exercise-barre-accelerator-4-to-c",
+        title: "Four-String F to C",
+        purpose: "Develop smooth transitions.",
+        objective: "Move between Four-string F and C while keeping time.",
+        instructionSteps: ["Play Four-string F for four beats.", "Change to C for four beats.", "Repeat without rushing."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Mostly clean Four-string F to C transitions.",
+        definitionOfDone: "Complete several smooth transitions with steady rhythm.",
+        commonMistakes: [],
+        chordNames: ["Four-string F", "C"]
+      },
+      {
+        id: "exercise-barre-accelerator-4-to-g",
+        title: "Four-String F to G",
+        purpose: "Expand chord movement.",
+        objective: "Move between Four-string F and G without stopping.",
+        instructionSteps: ["Play Four-string F for four beats.", "Change to G for four beats.", "Keep the rhythm steady.", "Repeat."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Mostly clean Four-string F to G transitions.",
+        definitionOfDone: "Complete several transitions without excessive tension.",
+        commonMistakes: [],
+        chordNames: ["Four-string F", "G"]
+      },
+      {
+        id: "exercise-barre-accelerator-4-progression",
+        title: "Four-String Progression",
+        purpose: "Use Four-String F in a musical progression.",
+        objective: "Keep C, Four-string F and G moving in steady rhythm.",
+        instructionSteps: ["Play C, Four-string F and G.", "Use four beats per chord.", "Repeat continuously."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Complete several progression cycles without stopping.",
+        definitionOfDone: "Four-string F works inside the progression with mostly steady rhythm.",
+        commonMistakes: [],
+        chordNames: ["C", "Four-string F", "G"]
+      },
+      {
+        id: "exercise-barre-accelerator-4-continuous-playing",
+        title: "Continuous Playing",
+        purpose: "Maintain rhythm while using Four-String F.",
+        objective: "Use Four-string F repeatedly without interrupting the beat.",
+        instructionSteps: ["Use C, Four-string F and G.", "Play continuously.", "Recover naturally from rough changes."],
+        durationMinutes: 5,
+        tempo: "60 BPM",
+        passCriteria: "Five minutes of continuous playing with mostly steady rhythm.",
+        definitionOfDone: "Four-string F is used continuously without stopping the performance.",
+        commonMistakes: [],
+        chordNames: ["C", "Four-string F", "G"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-barre-accelerator-4",
+      title: "Four-String F",
+      purpose: "Confirm that Four-string F is clear and usable in steady rhythm.",
+      requirements: [
+        "Four-String F rings clearly",
+        "Rhythm remains steady",
+        "Chord changes continue improving"
+      ],
+      passRule: "Pass if Four-string F rings clearly, rhythm remains steady, and chord changes continue improving."
+    }
+  }
+];
+
+miniFAndFourStringFLessons.forEach(({ lesson, exercises, checkpoint }) => {
+  upsertAcademyItem("lessons", {
+    ...lesson,
+    exercises: exercises.map((exercise) => exercise.id)
+  });
+  exercises.forEach((exercise) => {
+    upsertAcademyItem("exercises", {
+      ...exercise,
+      lessonId: lesson.id,
+      instructions: exercise.instructionSteps.join(" "),
+      skillIds: lesson.skillIds,
+      mediaLinks: [],
+      completed: false
+    });
+  });
+  upsertAcademyItem("checkpoints", {
+    ...checkpoint,
+    lessonId: lesson.id,
+    completed: false
+  });
+});
+
+const buildingFirstFullFExercises = [
+  {
+    id: "exercise-barre-accelerator-5-learn-full-shape",
+    title: "Learn the Full Shape",
+    purpose: "Become familiar with the complete F major chord.",
+    objective: "Build the full F shape slowly and accurately from memory.",
+    instructionSteps: [
+      "Study the chord diagram.",
+      "Place each finger one at a time.",
+      "Build the shape slowly.",
+      "Do not strum until every finger is placed."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can form the full F shape without referring to the diagram.",
+    definitionOfDone: "You can form the full F shape without referring to the diagram.",
+    commonMistakes: [
+      "Trying to place every finger simultaneously",
+      "Rushing",
+      "Ignoring finger placement"
+    ],
+    coachTip: "Treat F as several small pieces you’ve already learned, not one giant impossible chord.",
+    chordNames: ["Full F major"]
+  },
+  {
+    id: "exercise-barre-accelerator-5-finger-placement-check",
+    title: "Finger Placement Check",
+    purpose: "Identify where notes are failing.",
+    objective: "Correct individual problem strings without disturbing the whole shape.",
+    instructionSteps: [
+      "Pick each string individually.",
+      "Note which strings buzz.",
+      "Adjust only the finger responsible.",
+      "Test again."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "At least four strings ring cleanly.",
+    definitionOfDone: "At least four strings ring cleanly.",
+    commonMistakes: [
+      "Moving the whole hand",
+      "Squeezing harder instead of adjusting"
+    ],
+    coachTip: "One small adjustment is usually more effective than adding more pressure.",
+    chordNames: ["Full F major"]
+  },
+  {
+    id: "exercise-barre-accelerator-5-build-release-repeat",
+    title: "Build, Release, Repeat",
+    purpose: "Develop consistency without fatigue.",
+    objective: "Rebuild F repeatedly while releasing all tension between attempts.",
+    instructionSteps: [
+      "Form F.",
+      "Hold for three seconds.",
+      "Release completely.",
+      "Shake out the hand.",
+      "Repeat."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Ten relaxed repetitions.",
+    definitionOfDone: "Ten relaxed repetitions.",
+    commonMistakes: [
+      "Holding too long",
+      "Building unnecessary tension"
+    ],
+    coachTip: "Relaxation between repetitions is part of the exercise, not a break from it.",
+    chordNames: ["Full F major"]
+  },
+  {
+    id: "exercise-barre-accelerator-5-minimum-pressure",
+    title: "Minimum Pressure Challenge",
+    purpose: "Discover how little pressure is actually required.",
+    objective: "Find the lightest grip that allows the notes to begin ringing.",
+    instructionSteps: [
+      "Form F.",
+      "Start with almost no pressure.",
+      "Gradually increase until the notes begin ringing.",
+      "Stop immediately."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You understand the minimum effective pressure.",
+    definitionOfDone: "You understand the minimum effective pressure.",
+    commonMistakes: [
+      "Crushing the neck",
+      "Thumb pain",
+      "Wrist tension"
+    ],
+    coachTip: "The goal is to find the lightest successful grip, not the strongest.",
+    chordNames: ["Full F major"]
+  },
+  {
+    id: "exercise-barre-accelerator-5-twenty-second-holds",
+    title: "Twenty Second Holds",
+    purpose: "Build endurance gradually.",
+    objective: "Increase hold time while remaining relaxed and pain-free.",
+    instructionSteps: [
+      "Hold the F chord for 10 seconds.",
+      "Rest completely.",
+      "Hold for 15 seconds.",
+      "Rest completely.",
+      "Hold for 20 seconds.",
+      "If pain develops, stop and reset."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Complete all three holds while remaining relaxed.",
+    definitionOfDone: "Complete all three holds while remaining relaxed.",
+    commonMistakes: [
+      "Continuing through pain",
+      "Forgetting to breathe",
+      "Locking the wrist"
+    ],
+    chordNames: ["Full F major"]
+  },
+  {
+    id: "exercise-barre-accelerator-5-cleanest-f",
+    title: "Cleanest F Wins",
+    purpose: "Focus on quality rather than strength.",
+    objective: "Recognise the physical setup that produces your cleanest F.",
+    instructionSteps: [
+      "Attempt five F chords.",
+      "Choose the cleanest one.",
+      "Analyse why it worked.",
+      "Repeat."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can identify your best attempt and explain why it felt better.",
+    definitionOfDone: "You can identify your best attempt and explain why it felt better.",
+    commonMistakes: [],
+    coachTip: "Learning to recognise a good F is just as important as learning to play one.",
+    chordNames: ["Full F major"]
+  },
+  {
+    id: "exercise-barre-accelerator-5-confidence-builder",
+    title: "Confidence Builder",
+    purpose: "Finish on a positive note.",
+    objective: "Compare every F variation and finish with the version that currently sounds best.",
+    instructionSteps: [
+      "Play Mini F.",
+      "Play Four-string F.",
+      "Play Full F.",
+      "Repeat several times.",
+      "Notice how much progress you’ve already made."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Finish the lesson feeling confident using whichever F variation currently sounds best.",
+    definitionOfDone: "Finish the lesson feeling confident using whichever F variation currently sounds best.",
+    commonMistakes: [],
+    chordNames: ["Mini F", "Four-string F", "Full F major"]
+  }
+];
+
+upsertAcademyItem("lessons", {
+  id: "lesson-barre-accelerator-5",
+  missionId: "mission-barre-chord-accelerator",
+  lessonNumber: 5,
+  title: "Building Your First Full F",
+  description: "Build a complete F major barre chord using correct technique, relaxation and minimum pressure.",
+  objectiveHeading: "What you'll learn",
+  objective: "Build a complete F major barre chord using correct technique, relaxation and minimum pressure.",
+  whyThisLesson: "The full F major is often the first true barre chord beginners encounter. It can feel impossible at first, but it is built from the same mechanics you’ve already developed. Today’s goal is not perfection—it’s learning how to approach the chord correctly.",
+  coachNotes: "Today is not about mastering F major. Today is about building the shape correctly and understanding why it works. If only four or five strings ring clearly, that’s perfectly acceptable. Success comes from improving the shape, not forcing perfection.",
+  estimatedMinutes: 35,
+  skillIds: ["skill-chord-changes"],
+  exercises: buildingFirstFullFExercises.map((exercise) => exercise.id),
+  connectedSongs: [],
+  recommendedSongs: [],
+  checkpoint: "checkpoint-barre-accelerator-5",
+  practiceJournal: [
+    "Which string is still the most difficult?",
+    "What change made the biggest improvement?",
+    "Did relaxing help more than squeezing?",
+    "How much easier does Mini F now feel?"
+  ],
+  reflectionPrompts: [
+    "Which string is still the most difficult?",
+    "What change made the biggest improvement?",
+    "Did relaxing help more than squeezing?",
+    "How much easier does Mini F now feel?"
+  ],
+  completed: false
+});
+
+buildingFirstFullFExercises.forEach((exercise) => {
+  upsertAcademyItem("exercises", {
+    ...exercise,
+    lessonId: "lesson-barre-accelerator-5",
+    instructions: exercise.instructionSteps.join(" "),
+    skillIds: ["skill-chord-changes"],
+    mediaLinks: [],
+    completed: false
+  });
+});
+
+upsertAcademyItem("checkpoints", {
+  id: "checkpoint-barre-accelerator-5",
+  lessonId: "lesson-barre-accelerator-5",
+  title: "Building Your First Full F",
+  purpose: "Confirm that the full F shape can be built with improving clarity, minimum pressure and sensible resets.",
+  requirements: [
+    "You can build the full F shape from memory",
+    "At least four strings ring consistently",
+    "You understand how to reduce pressure rather than increase it",
+    "You know when to stop and reset instead of forcing the chord"
+  ],
+  passRule: "Pass if the full F shape can be built from memory, at least four strings ring consistently, pressure can be reduced, and tension is reset rather than forced.",
+  completed: false
+});
+
+const enduranceWithoutTensionExercises = [
+  {
+    id: "exercise-barre-accelerator-6-relaxation-check",
+    title: "Relaxation Check",
+    purpose: "Begin every session without tension.",
+    objective: "Prepare the hands and wrists before holding F.",
+    instructionSteps: [
+      "Shake both hands.",
+      "Open and close the fingers.",
+      "Roll the wrists.",
+      "Take a slow breath before touching the guitar."
+    ],
+    durationMinutes: 3,
+    tempo: "",
+    passCriteria: "Hands feel loose and relaxed.",
+    definitionOfDone: "Hands feel loose and relaxed.",
+    commonMistakes: [],
+    chordNames: []
+  },
+  {
+    id: "exercise-barre-accelerator-6-ten-second-holds",
+    title: "Ten Second Holds",
+    purpose: "Develop relaxed endurance.",
+    objective: "Hold full F briefly while preventing tension from increasing.",
+    instructionSteps: [
+      "Form a full F chord.",
+      "Hold for ten seconds.",
+      "Release completely.",
+      "Rest for ten seconds.",
+      "Repeat."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Five relaxed repetitions.",
+    definitionOfDone: "Five relaxed repetitions.",
+    commonMistakes: [
+      "Holding your breath",
+      "Squeezing harder over time",
+      "Forgetting to relax between attempts"
+    ],
+    coachTip: "Treat every release as part of the exercise. Recovery is where your muscles learn to relax.",
+    chordNames: ["Full F major"]
+  },
+  {
+    id: "exercise-barre-accelerator-6-twenty-second-holds",
+    title: "Twenty Second Holds",
+    purpose: "Increase endurance gradually.",
+    objective: "Extend hold time without sacrificing relaxation or chord quality.",
+    instructionSteps: [
+      "Form a full F chord.",
+      "Hold for twenty seconds.",
+      "Release completely.",
+      "Rest before repeating.",
+      "Shorten the hold if quality drops dramatically."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Complete three relaxed repetitions.",
+    definitionOfDone: "Complete three relaxed repetitions.",
+    commonMistakes: [],
+    coachTip: "If quality drops dramatically after ten seconds, shorten the hold. Good repetitions are worth more than long, poor ones.",
+    chordNames: ["Full F major"]
+  },
+  {
+    id: "exercise-barre-accelerator-6-pressure-reset",
+    title: "Pressure Reset",
+    purpose: "Break the habit of over-squeezing.",
+    objective: "Return repeatedly to the minimum effective pressure.",
+    instructionSteps: [
+      "Form the F chord.",
+      "Slowly reduce pressure until one string buzzes.",
+      "Increase pressure just enough for the note to ring again.",
+      "Repeat several times."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can consistently find the minimum effective pressure.",
+    definitionOfDone: "You can consistently find the minimum effective pressure.",
+    commonMistakes: [
+      "Never releasing pressure",
+      "Treating maximum force as the default"
+    ],
+    coachTip: "Professional players constantly use only the pressure they need—never more.",
+    chordNames: ["Full F major"]
+  },
+  {
+    id: "exercise-barre-accelerator-6-barre-recovery",
+    title: "Barre Recovery",
+    purpose: "Develop endurance over multiple repetitions.",
+    objective: "Recover fully between repeated full F holds.",
+    instructionSteps: [
+      "Hold F for ten seconds.",
+      "Play one clean strum.",
+      "Release completely.",
+      "Repeat."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Ten relaxed repetitions.",
+    definitionOfDone: "Ten relaxed repetitions.",
+    commonMistakes: [],
+    chordNames: ["Full F major"]
+  },
+  {
+    id: "exercise-barre-accelerator-6-quality-over-quantity",
+    title: "Quality Over Quantity",
+    purpose: "Focus on consistency instead of duration.",
+    objective: "Recognise and improve the average quality of separate F attempts.",
+    instructionSteps: [
+      "Play five separate F chords.",
+      "Score each one as Excellent, Good, or Needs Work.",
+      "Compare the attempts.",
+      "Aim to improve average quality rather than simply holding longer."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "You can recognise which attempts were your best.",
+    definitionOfDone: "You can recognise which attempts were your best.",
+    commonMistakes: [],
+    coachTip: "Great practice comes from noticing differences, not simply repeating the same mistake.",
+    chordNames: ["Full F major"]
+  },
+  {
+    id: "exercise-barre-accelerator-6-finish-with-success",
+    title: "Finish With Success",
+    purpose: "End the lesson positively.",
+    objective: "Choose and confidently play the F variation that sounds best today.",
+    instructionSteps: [
+      "Play Mini F.",
+      "Play Four-string F.",
+      "Play Full F.",
+      "Choose the version that sounds best today.",
+      "Play it confidently."
+    ],
+    durationMinutes: 5,
+    tempo: "",
+    passCriteria: "Finish the lesson feeling successful rather than fatigued.",
+    definitionOfDone: "Finish the lesson feeling successful rather than fatigued.",
+    commonMistakes: [],
+    chordNames: ["Mini F", "Four-string F", "Full F major"]
+  }
+];
+
+upsertAcademyItem("lessons", {
+  id: "lesson-barre-accelerator-6",
+  missionId: "mission-barre-chord-accelerator",
+  lessonNumber: 6,
+  title: "Endurance Without Tension",
+  description: "Develop the ability to hold and repeat full F major comfortably while staying relaxed.",
+  objectiveHeading: "What you'll learn",
+  objective: "Develop the ability to hold and repeat full F major comfortably while staying relaxed.",
+  whyThisLesson: "Most beginners think endurance comes from stronger fingers. In reality, endurance comes from eliminating unnecessary tension. Today you’ll learn to hold the chord longer by doing less work, not more.",
+  coachNotes: "Your goal is not to survive the hold. Your goal is to stay relaxed throughout it. If your forearm starts burning or your wrist hurts, don’t push through it. Release, reset, and start again with better technique.",
+  estimatedMinutes: 33,
+  skillIds: ["skill-chord-changes"],
+  exercises: enduranceWithoutTensionExercises.map((exercise) => exercise.id),
+  connectedSongs: [],
+  recommendedSongs: [],
+  checkpoint: "checkpoint-barre-accelerator-6",
+  practiceJournal: [
+    "Did your hand tire or become tense?",
+    "What helped you stay relaxed?",
+    "Which version of F sounded best today?",
+    "Did reducing pressure improve your sound?"
+  ],
+  reflectionPrompts: [
+    "Did your hand tire or become tense?",
+    "What helped you stay relaxed?",
+    "Which version of F sounded best today?",
+    "Did reducing pressure improve your sound?"
+  ],
+  completed: false
+});
+
+enduranceWithoutTensionExercises.forEach((exercise) => {
+  upsertAcademyItem("exercises", {
+    ...exercise,
+    lessonId: "lesson-barre-accelerator-6",
+    instructions: exercise.instructionSteps.join(" "),
+    skillIds: ["skill-chord-changes"],
+    mediaLinks: [],
+    completed: false
+  });
+});
+
+upsertAcademyItem("checkpoints", {
+  id: "checkpoint-barre-accelerator-6",
+  lessonId: "lesson-barre-accelerator-6",
+  title: "Endurance Without Tension",
+  purpose: "Confirm that full F endurance is developing through relaxation, efficient pressure and sensible recovery.",
+  requirements: [
+    "You can comfortably hold a full F for at least ten seconds",
+    "You understand how to reduce unnecessary pressure",
+    "Your hand remains relaxed between repetitions",
+    "You can recognise the difference between muscle fatigue and poor technique"
+  ],
+  passRule: "Pass if full F can be held comfortably for at least ten seconds with controlled pressure, relaxed recovery and awareness of poor technique.",
+  completed: false
+});
+
+const barreAcceleratorFinalLessons = [
+  {
+    lesson: {
+      id: "lesson-barre-accelerator-7",
+      missionId: "mission-barre-chord-accelerator",
+      lessonNumber: 7,
+      title: "Smooth F Chord Changes",
+      description: "Develop smooth transitions into and out of full F major while maintaining relaxed technique and steady rhythm.",
+      objectiveHeading: "What you'll learn",
+      objective: "Develop smooth transitions into and out of the full F major chord while maintaining relaxed technique and steady rhythm.",
+      whyThisLesson: "Being able to hold an F chord is only half the challenge. Music requires you to move into and out of the chord naturally. Today’s lesson teaches efficient movement rather than speed.",
+      coachNotes: "Do not rush the chord change. Instead, make every movement deliberate and economical. Smooth movement becomes fast movement over time.",
+      estimatedMinutes: 35,
+      skillIds: ["skill-chord-changes"],
+      exercises: [],
+      connectedSongs: [
+        {
+          title: "Stand By Me",
+          artist: "Ben E. King",
+          note: "Use the F chord where appropriate while maintaining rhythm."
+        },
+        {
+          title: "Wonderwall",
+          artist: "Oasis",
+          note: "Notice how efficient chord movement becomes increasingly important as songs become more rhythmically demanding."
+        }
+      ],
+      recommendedSongs: [
+        {
+          title: "Stand By Me",
+          artist: "Ben E. King",
+          note: "Use the F chord where appropriate while maintaining rhythm."
+        },
+        {
+          title: "Wonderwall",
+          artist: "Oasis",
+          note: "Notice how efficient chord movement becomes increasingly important as songs become more rhythmically demanding."
+        }
+      ],
+      checkpoint: "checkpoint-barre-accelerator-7",
+      practiceJournal: ["Which transition feels easiest?", "Which still needs work?", "Did you notice yourself squeezing during changes?", "What movement could become smaller?"],
+      reflectionPrompts: ["Which transition feels easiest?", "Which still needs work?", "Did you notice yourself squeezing during changes?", "What movement could become smaller?"],
+      completed: false
+    },
+    exercises: [
+      ["finger-path-awareness", "Finger Path Awareness", 5, "", "Learn the shortest path into the F chord.", "Each finger follows a short, controlled path.", ["Begin with your hand completely relaxed.", "Build the F chord slowly.", "Watch how each finger travels.", "Lift every finger only high enough to clear the strings.", "Release completely.", "Repeat."], ["Fingers flying too high", "Looking only at the index finger", "Rushing into the chord"], "Think of every finger taking the shortest possible journey. Economy of motion applies just as much to barre chords as it does to open chords.", ["Full F major"]],
+      ["c-to-f", "C to F", 5, "50 BPM", "Develop one of the most common chord changes.", "Five clean transitions without stopping.", ["Play C for four beats.", "Change to F.", "Hold for four beats.", "Return to C.", "Continue slowly."], ["Stopping the rhythm", "Squeezing harder during the change", "Lifting every finger unnecessarily"], "Don’t think about landing on F. Think about leaving C efficiently.", ["C", "Full F major"]],
+      ["am-to-f", "Am to F", 5, "50 BPM", "Introduce another common transition.", "Smooth transitions with steady timing.", ["Play Am for four beats.", "Change to F for four beats.", "Keep every movement relaxed.", "Repeat."], [], "", ["Am", "Full F major"]],
+      ["g-to-f", "G to F", 5, "50 BPM", "Develop confidence changing from a larger chord shape.", "Mostly clean changes.", ["Play G.", "Change to F.", "Focus on keeping the movement compact.", "Repeat slowly."], [], "", ["G", "Full F major"]],
+      ["three-chord-progression", "Three-Chord Progression", 5, "55 BPM", "Combine multiple transitions.", "Several complete cycles without restarting.", ["Play C, Am and F.", "Use four beats for each chord.", "Repeat continuously."], [], "", ["C", "Am", "Full F major"]],
+      ["recovery-practice", "Recovery Practice", 5, "55 BPM", "Develop confidence recovering from imperfect F chords.", "Five minutes of continuous rhythm.", ["If F buzzes, continue strumming.", "Correct it during the next bar.", "Never stop playing."], [], "Real musicians recover. They don’t restart.", ["Full F major"]],
+      ["continuous-performance", "Continuous Performance", 5, "60 BPM", "Bring today’s work together.", "Complete five minutes without restarting.", ["Play G, C, Am and F.", "Repeat continuously.", "Focus on relaxation, smooth movement, steady rhythm and musical flow."], [], "", ["G", "C", "Am", "Full F major"]]
+    ],
+    checkpoint: {
+      id: "checkpoint-barre-accelerator-7",
+      title: "Smooth F Chord Changes",
+      purpose: "Confirm that movement into and out of F is becoming smooth, relaxed and musical.",
+      requirements: ["You can move into F confidently", "You can leave F smoothly", "Your rhythm remains steady", "Your hand stays relaxed during transitions", "You recover naturally from imperfect chord changes"],
+      passRule: "Pass if F changes remain relaxed and mostly steady, with natural recovery after imperfect attempts."
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-barre-accelerator-8",
+      missionId: "mission-barre-chord-accelerator",
+      lessonNumber: 8,
+      title: "Building B Minor",
+      description: "Apply the barre chord techniques learned with F major to build a clean B minor chord.",
+      objectiveHeading: "What you'll learn",
+      objective: "Apply the barre chord techniques learned with F major to build a clean B minor chord.",
+      whyThisLesson: "B minor is not a new skill—it is the same barre chord mechanics applied to a different fret and chord shape. The work you’ve already done on F major makes B minor much more approachable.",
+      coachNotes: "If F major has taught you good technique, B minor should feel familiar rather than intimidating. Don’t think “new chord.” Think “same technique, different location.”",
+      estimatedMinutes: 35,
+      skillIds: ["skill-chord-changes"],
+      exercises: [],
+      connectedSongs: [],
+      recommendedSongs: [],
+      checkpoint: "checkpoint-barre-accelerator-8",
+      practiceJournal: ["Did B minor feel easier than expected?", "Which part of F major helped most?", "Which string still needs work?"],
+      reflectionPrompts: ["Did B minor feel easier than expected?", "Which part of F major helped most?", "Which string still needs work?"],
+      completed: false
+    },
+    exercises: [
+      ["learn-shape", "Learn the Shape", 5, "", "Become familiar with the B minor chord shape.", "Build B minor from memory.", ["Study the chord diagram.", "Build the shape slowly.", "Place one finger at a time.", "Do not rush."], ["Trying to memorise the entire shape at once", "Forgetting the index finger barre", "Squeezing too hard"], "You already know the mechanics. Trust what you’ve learned.", ["Bm"]],
+      ["string-check", "String Check", 5, "", "Develop clean fretting.", "Most strings ring cleanly.", ["Build B minor.", "Pick every string individually.", "Correct only the string that buzzes."], [], "", ["Bm"]],
+      ["f-to-bm-comparison", "F to Bm Comparison", 5, "", "Recognise the similarities.", "You can identify what feels the same.", ["Alternate between F major and B minor.", "Notice thumb position.", "Notice finger angle.", "Notice pressure and relaxation."], [], "Your technique should remain almost identical. Only the chord shape changes.", ["Full F major", "Bm"]],
+      ["am-to-bm", "Am to Bm", 5, "50 BPM", "Develop practical transitions.", "Mostly clean transitions.", ["Play Am for four beats.", "Change to Bm for four beats.", "Repeat with relaxed movement."], [], "", ["Am", "Bm"]],
+      ["g-to-bm", "G to Bm", 5, "50 BPM", "Build confidence moving into B minor.", "Mostly clean G to Bm transitions.", ["Play G for four beats.", "Change to Bm for four beats.", "Keep the movement compact.", "Repeat."], [], "", ["G", "Bm"]],
+      ["progression-practice", "Progression Practice", 5, "55 BPM", "Use B minor in a repeating progression.", "Several complete cycles with relaxed movement.", ["Play G, D, Em and Bm.", "Repeat continuously.", "Focus on relaxed movement."], [], "", ["G", "D", "Em", "Bm"]],
+      ["confidence-builder", "Confidence Builder", 5, "", "Recognise how much barre chord control has improved.", "Play every learned barre shape with controlled pressure.", ["Play Mini F.", "Play Four-string F.", "Play Full F.", "Play Bm.", "Notice how much your confidence has improved since Lesson 1."], [], "", ["Mini F", "Four-string F", "Full F major", "Bm"]]
+    ],
+    checkpoint: {
+      id: "checkpoint-barre-accelerator-8",
+      title: "Building B Minor",
+      purpose: "Confirm that B minor uses the same relaxed barre mechanics developed with F.",
+      requirements: ["B minor can be built from memory", "Most notes ring clearly", "Technique remains relaxed", "Pressure stays controlled"],
+      passRule: "Pass if B minor can be built from memory with mostly clear notes, relaxed technique and controlled pressure."
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-barre-accelerator-9",
+      missionId: "mission-barre-chord-accelerator",
+      lessonNumber: 9,
+      title: "Barre Chords in Music",
+      description: "Use F major and B minor in simple musical progressions while maintaining rhythm and confidence.",
+      objectiveHeading: "What you'll learn",
+      objective: "Use F major and B minor in simple musical progressions while maintaining rhythm and confidence.",
+      whyThisLesson: "Barre chords only become useful when they become part of real music. Today is about moving beyond isolated practice and integrating them into your playing.",
+      coachNotes: "Your goal today is not perfect barre chords. Your goal is to keep making music.",
+      estimatedMinutes: 35,
+      skillIds: ["skill-chord-changes", "skill-rhythm", "skill-song-performance"],
+      exercises: [],
+      connectedSongs: [],
+      recommendedSongs: [],
+      checkpoint: "checkpoint-barre-accelerator-9",
+      practiceJournal: ["Which barre chord feels stronger?", "Which progression sounded most musical?", "What still needs focused practice?", "Which songs are you now excited to learn?"],
+      reflectionPrompts: ["Which barre chord feels stronger?", "Which progression sounded most musical?", "What still needs focused practice?", "Which songs are you now excited to learn?"],
+      completed: false
+    },
+    exercises: [
+      ["warm-up", "Warm Up", 5, "", "Reconnect with every barre shape while relaxing between attempts.", "All four shapes feel ready for musical practice.", ["Play Mini F.", "Play Four-string F.", "Play Full F.", "Play Bm.", "Relax between each attempt."], [], "", ["Mini F", "Four-string F", "Full F major", "Bm"]],
+      ["four-chord-progression", "Four Chord Progression", 5, "55 BPM", "Use F in a complete open-chord progression.", "Several complete cycles with steady rhythm.", ["Play C, G, Am and F.", "Repeat continuously."], [], "", ["C", "G", "Am", "Full F major"]],
+      ["b-minor-progression", "B Minor Progression", 5, "55 BPM", "Use B minor in a complete progression.", "Several complete cycles with steady rhythm.", ["Play G, D, Em and Bm.", "Repeat continuously."], [], "", ["G", "D", "Em", "Bm"]],
+      ["mixed-progression", "Mixed Progression", 5, "60 BPM", "Move between progressions containing F and Bm.", "Both progressions continue with smooth movement.", ["Play C, Am, F and G.", "Then play G, D, Em and Bm.", "Focus on smooth movement."], [], "", ["C", "Am", "Full F major", "G", "D", "Em", "Bm"]],
+      ["recovery-practice", "Recovery Practice", 5, "", "Recover naturally when a barre chord buzzes.", "Continue playing without restarting.", ["If a barre chord buzzes, keep strumming.", "Correct it naturally.", "Never restart."], [], "", ["Full F major", "Bm"]],
+      ["free-play", "Free Play", 5, "", "Make music with the progression you enjoy most.", "Five minutes of relaxed musical exploration.", ["Play whichever progression felt most enjoyable.", "Experiment.", "Relax.", "Make music."], [], "", ["Full F major", "Bm"]],
+      ["celebrate-progress", "Celebrate Progress", 5, "", "Recognise the progress made since Lesson 1.", "Every learned barre shape shows improved control.", ["Play a two-string barre.", "Play Mini F.", "Play Four-string F.", "Play Full F.", "Play Bm.", "Notice the difference and reflect on how far you’ve come."], [], "", ["Mini F", "Four-string F", "Full F major", "Bm"]]
+    ],
+    checkpoint: {
+      id: "checkpoint-barre-accelerator-9",
+      title: "Barre Chord Accelerator",
+      purpose: "Confirm that F major and B minor can now be used musically with relaxation and natural recovery.",
+      requirements: ["F major is becoming reliable", "B minor feels achievable", "Chord changes continue improving", "You remain relaxed while playing", "You recover naturally from mistakes"],
+      passRule: "Pass if F and Bm are becoming usable in music while relaxation, rhythm and natural recovery remain the priority.",
+      moduleSummary: {
+        title: "Barre Chord Accelerator Complete",
+        message: "Congratulations. You’ve built the foundations for one of the most important techniques in rhythm guitar. Barre chords continue improving over months of regular practice, and you do not need perfection before using them in songs.",
+        continuingPractice: "Revisit Lesson 5 (Building Your First Full F) and Lesson 6 (Endurance Without Tension) until full F major feels comfortable.",
+        skillsDeveloped: ["Barre mechanics", "Finger angle", "Thumb support", "Pressure control", "Relaxation", "Mini F", "Four-String F", "Full F", "B Minor", "Barre chord transitions"],
+        featuredSongsCompleted: []
+      }
+    }
+  }
+];
+
+barreAcceleratorFinalLessons.forEach(({ lesson, exercises, checkpoint }) => {
+  const exerciseObjects = exercises.map(([slug, title, durationMinutes, tempo, purpose, done, instructionSteps, commonMistakes, coachTip, chordNames]) => ({
+    id: `exercise-${lesson.id.replace(/^lesson-/, "")}-${slug}`,
+    lessonId: lesson.id,
+    title,
+    purpose,
+    objective: purpose,
+    instructions: instructionSteps.join(" "),
+    instructionSteps,
+    durationMinutes,
+    tempo,
+    passCriteria: done,
+    definitionOfDone: done,
+    commonMistakes,
+    coachTip,
+    chordNames,
+    skillIds: lesson.skillIds,
+    mediaLinks: [],
+    completed: false
+  }));
+  upsertAcademyItem("lessons", {
+    ...lesson,
+    exercises: exerciseObjects.map((exercise) => exercise.id)
+  });
+  exerciseObjects.forEach((exercise) => upsertAcademyItem("exercises", exercise));
+  upsertAcademyItem("checkpoints", {
+    ...checkpoint,
+    lessonId: lesson.id,
+    completed: false
+  });
 });
 
 const missionOneExerciseIds = missionOneLessonIds.flatMap((lessonId) => {
@@ -3001,4 +6305,16 @@ function upsertAcademyItem(collection, item) {
     return;
   }
   window.academyData[collection].push(item);
+}
+
+function upsertChordDiagram(chord) {
+  const existingIndex = window.academyData.chordDiagrams.findIndex((existingChord) => existingChord.name === chord.name);
+  if (existingIndex >= 0) {
+    window.academyData.chordDiagrams[existingIndex] = {
+      ...window.academyData.chordDiagrams[existingIndex],
+      ...chord
+    };
+    return;
+  }
+  window.academyData.chordDiagrams.push(chord);
 }

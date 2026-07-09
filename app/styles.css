@@ -135,8 +135,8 @@ button:hover,
 
 .academy-view,
 .academy-roadmap-view,
+.skill-builders-view,
 .module-lessons-view,
-.mission-brief-view,
 .lesson-view,
 .exercise-view,
 .checkpoint-view,
@@ -149,6 +149,46 @@ button:hover,
   align-content: start;
   gap: 0.75rem;
   padding: clamp(0.55rem, 1vw, 1rem);
+}
+
+.skill-builders-view {
+  display: none;
+}
+
+.view-skill-builders .skill-builders-view {
+  display: grid;
+}
+
+.view-skill-builders main:not(.skill-builders-view) {
+  display: none;
+}
+
+.skill-builder-intro-card {
+  gap: 1rem;
+}
+
+.skill-builder-intro-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.skill-builder-intro-grid section {
+  padding: 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8f3ea;
+}
+
+.skill-builder-intro-grid h3 {
+  margin-bottom: 0.35rem;
+  color: var(--accent-dark);
+}
+
+.skill-builder-intro-grid p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.45;
 }
 
 .top-nav {
@@ -240,7 +280,6 @@ button:hover,
 }
 
 .academy-dashboard,
-.mission-brief-layout,
 .lesson-layout,
 .exercise-layout,
 .checkpoint-layout,
@@ -260,7 +299,6 @@ button:hover,
   justify-content: center;
 }
 
-.mission-brief-layout,
 .lesson-layout,
 .exercise-layout,
 .checkpoint-layout {
@@ -282,6 +320,16 @@ button:hover,
   font-size: clamp(1.25rem, 1.65vw, 1.85rem);
   line-height: 1.05;
   white-space: normal;
+}
+
+.module-lessons-heading {
+  width: min(100%, 64rem);
+}
+
+.module-lessons-progress {
+  display: grid;
+  gap: 0.4rem;
+  margin-top: 0.75rem;
 }
 
 .academy-card p {
@@ -612,6 +660,45 @@ button:hover,
 .lesson-exercises-card,
 .lesson-reflection-card {
   grid-column: 1 / -1;
+}
+
+.module-connected-songs {
+  display: grid;
+  gap: 0.65rem;
+  margin-top: 0.35rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--line);
+}
+
+.module-connected-songs .recommended-song-list {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.coach-note {
+  display: grid;
+  gap: 0.2rem;
+  margin-top: 0.35rem;
+  padding: 0.65rem 0.75rem;
+  border-left: 3px solid var(--accent);
+  background: #f8f3ea;
+}
+
+.coach-note.hidden {
+  display: none;
+}
+
+.coach-note strong {
+  color: var(--accent-dark);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+}
+
+.coach-note p {
+  margin: 0;
+}
+
+.connected-song-card.linked {
+  cursor: pointer;
 }
 
 .lesson-progress-summary {
@@ -1272,7 +1359,6 @@ textarea,
 .view-home .academy-view,
 .view-home .academy-roadmap-view,
 .view-home .module-lessons-view,
-.view-home .mission-brief-view,
 .view-home .lesson-view,
 .view-home .exercise-view,
 .view-home .checkpoint-view,
@@ -1285,7 +1371,6 @@ textarea,
 .view-library .academy-view,
 .view-library .academy-roadmap-view,
 .view-library .module-lessons-view,
-.view-library .mission-brief-view,
 .view-library .lesson-view,
 .view-library .exercise-view,
 .view-library .checkpoint-view,
@@ -1297,7 +1382,6 @@ textarea,
 .view-academy .app-shell,
 .view-academy .academy-roadmap-view,
 .view-academy .module-lessons-view,
-.view-academy .mission-brief-view,
 .view-academy .lesson-view,
 .view-academy .exercise-view,
 .view-academy .checkpoint-view,
@@ -1308,7 +1392,6 @@ textarea,
 .view-academy-roadmap .launch-view,
 .view-academy-roadmap .academy-view,
 .view-academy-roadmap .module-lessons-view,
-.view-academy-roadmap .mission-brief-view,
 .view-academy-roadmap .lesson-view,
 .view-academy-roadmap .exercise-view,
 .view-academy-roadmap .checkpoint-view,
@@ -1320,7 +1403,6 @@ textarea,
 .view-module-lessons .launch-view,
 .view-module-lessons .academy-view,
 .view-module-lessons .academy-roadmap-view,
-.view-module-lessons .mission-brief-view,
 .view-module-lessons .lesson-view,
 .view-module-lessons .exercise-view,
 .view-module-lessons .checkpoint-view,
@@ -1329,23 +1411,10 @@ textarea,
 .view-module-lessons .chord-library-view,
 .view-module-lessons .settings-view,
 .view-module-lessons .app-shell,
-.view-mission .launch-view,
-.view-mission .academy-view,
-.view-mission .academy-roadmap-view,
-.view-mission .module-lessons-view,
-.view-mission .lesson-view,
-.view-mission .exercise-view,
-.view-mission .checkpoint-view,
-.view-mission .review-view,
-.view-mission .notes-view,
-.view-mission .chord-library-view,
-.view-mission .settings-view,
-.view-mission .app-shell,
 .view-lesson .launch-view,
 .view-lesson .academy-view,
 .view-lesson .academy-roadmap-view,
 .view-lesson .module-lessons-view,
-.view-lesson .mission-brief-view,
 .view-lesson .exercise-view,
 .view-lesson .checkpoint-view,
 .view-lesson .review-view,
@@ -1357,7 +1426,6 @@ textarea,
 .view-exercise .academy-view,
 .view-exercise .academy-roadmap-view,
 .view-exercise .module-lessons-view,
-.view-exercise .mission-brief-view,
 .view-exercise .lesson-view,
 .view-exercise .checkpoint-view,
 .view-exercise .review-view,
@@ -1369,7 +1437,6 @@ textarea,
 .view-checkpoint .academy-view,
 .view-checkpoint .academy-roadmap-view,
 .view-checkpoint .module-lessons-view,
-.view-checkpoint .mission-brief-view,
 .view-checkpoint .lesson-view,
 .view-checkpoint .exercise-view,
 .view-checkpoint .review-view,
@@ -1381,7 +1448,6 @@ textarea,
 .view-review .academy-view,
 .view-review .academy-roadmap-view,
 .view-review .module-lessons-view,
-.view-review .mission-brief-view,
 .view-review .lesson-view,
 .view-review .exercise-view,
 .view-review .checkpoint-view,
@@ -1393,7 +1459,6 @@ textarea,
 .view-notes .academy-view,
 .view-notes .academy-roadmap-view,
 .view-notes .module-lessons-view,
-.view-notes .mission-brief-view,
 .view-notes .lesson-view,
 .view-notes .exercise-view,
 .view-notes .checkpoint-view,
@@ -1405,7 +1470,6 @@ textarea,
 .view-chords .academy-view,
 .view-chords .academy-roadmap-view,
 .view-chords .module-lessons-view,
-.view-chords .mission-brief-view,
 .view-chords .lesson-view,
 .view-chords .exercise-view,
 .view-chords .checkpoint-view,
@@ -1417,7 +1481,6 @@ textarea,
 .view-settings .academy-view,
 .view-settings .academy-roadmap-view,
 .view-settings .module-lessons-view,
-.view-settings .mission-brief-view,
 .view-settings .lesson-view,
 .view-settings .exercise-view,
 .view-settings .checkpoint-view,
@@ -2049,10 +2112,13 @@ h3 {
   }
 
   .academy-dashboard,
-  .mission-brief-layout,
   .lesson-layout,
   .exercise-layout,
   .checkpoint-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-builder-intro-grid {
     grid-template-columns: 1fr;
   }
 

@@ -18,8 +18,10 @@
       <div class="top-nav-actions">
         <button id="navHomeButton">Home</button>
         <button id="navDashboardButton">Dashboard</button>
+        <button id="navModulesButton">Modules</button>
+        <button id="navSkillBuildersButton">Skill Builders</button>
         <button id="navNotesButton">Practice Notes</button>
-        <button id="navChordLibraryButton">Chord Diagrams</button>
+        <button id="navChordLibraryButton">Chord Library</button>
         <button id="navSettingsButton">Settings</button>
       </div>
     </nav>
@@ -86,6 +88,14 @@
           </div>
           <div id="academyRoadmap" class="roadmap-list"></div>
         </article>
+
+        <article class="academy-card roadmap-card skill-builders-card">
+          <div>
+            <p class="eyebrow">Optional</p>
+            <h2>Suggested Skill Builder</h2>
+          </div>
+          <div id="skillBuilderList" class="roadmap-missions"></div>
+        </article>
       </section>
     </main>
 
@@ -110,77 +120,58 @@
       </section>
     </main>
 
-    <main class="module-lessons-view" id="moduleLessonsView" aria-label="Module lessons">
+    <main class="skill-builders-view" id="skillBuildersView" aria-label="Skill Builders">
       <header class="academy-header">
         <div>
-          <p class="eyebrow">Lessons</p>
-          <h1 id="moduleLessonsTitle"></h1>
-          <p id="moduleLessonsSubtitle" class="academy-subtitle"></p>
-        </div>
-        <div class="header-actions">
-          <button id="moduleOverviewButton">Module Overview</button>
+          <h1>Skill Builders</h1>
+          <p class="academy-subtitle">Optional focused practice alongside the main course.</p>
         </div>
       </header>
-      <section class="academy-dashboard" aria-label="Module lessons">
-        <article class="academy-card lesson-selector-card">
+      <section class="settings-layout">
+        <article class="academy-card skill-builder-intro-card">
           <div>
-            <h2>Choose a lesson</h2>
+            <p class="eyebrow">Optional</p>
+            <h2 id="skillBuilderTitle">Barre Chord Accelerator</h2>
           </div>
-          <div id="moduleLessonList" class="exercise-card-list"></div>
+          <div class="skill-builder-intro-grid">
+            <section>
+              <h3>Why do this?</h3>
+              <p id="skillBuilderWhy"></p>
+            </section>
+            <section>
+              <h3>How often?</h3>
+              <p id="skillBuilderFrequency"></p>
+            </section>
+            <section>
+              <h3>When do I stop?</h3>
+              <p id="skillBuilderDuration"></p>
+            </section>
+          </div>
+          <button class="launch-button" id="openSkillBuilderLessonsButton">View Lessons</button>
         </article>
       </section>
     </main>
 
-    <main class="mission-brief-view" id="missionBriefView" aria-label="Module">
+    <main class="module-lessons-view" id="moduleLessonsView" aria-label="Module lessons">
       <header class="academy-header">
-        <div>
-          <p class="eyebrow">Module</p>
-          <h1 id="missionBriefTitle"></h1>
-          <p id="missionBriefSubtitle" class="academy-subtitle"></p>
-        </div>
-        <div class="header-actions">
-          <button class="launch-button compact-action" id="startLessonButton">View Lessons</button>
+        <div class="module-lessons-heading">
+          <h1 id="moduleLessonsTitle"></h1>
+          <div class="module-lessons-progress" aria-label="Module progress">
+            <div class="progress-line">
+              <span>Module Progress</span>
+              <strong id="moduleLessonsProgress">0%</strong>
+            </div>
+            <div class="progress-track"><span id="moduleLessonsProgressBar"></span></div>
+          </div>
         </div>
       </header>
-
-      <section class="mission-brief-layout">
-        <article class="academy-card mission-overview-card">
-          <div class="card-head">
-            <div>
-              <p class="eyebrow">Estimated Completion</p>
-              <h2 id="missionEstimatedCompletion"></h2>
-            </div>
-            <span class="status-pill" id="missionStatus"></span>
-          </div>
-          <div class="progress-track"><span id="missionOverviewProgressBar"></span></div>
-          <div class="brief-section">
-            <h3>Module Objective</h3>
-            <p id="missionObjective"></p>
-          </div>
-          <div class="brief-section">
-            <h3>Why This Matters</h3>
-            <p id="missionWhyItMatters"></p>
-          </div>
-        </article>
-
-        <article class="academy-card outcomes-card">
-          <h2>What You Will Learn</h2>
-          <ul id="missionObjectives" class="check-list"></ul>
-        </article>
-
-        <article class="academy-card skills-card">
-          <h2>Skills You'll Develop</h2>
-          <div id="missionSkills" class="skill-chip-list"></div>
-        </article>
-
-        <article class="academy-card connected-songs-card">
-          <h2>Connected Songs</h2>
-          <div id="missionConnectedSongs" class="connected-song-list"></div>
-        </article>
-
-        <article class="academy-card success-card">
-          <h2>By the end of this module you should be able to:</h2>
-          <ul id="missionSuccessCriteria" class="check-list"></ul>
+      <section class="academy-dashboard" aria-label="Module lessons">
+        <article class="academy-card lesson-selector-card">
+          <div id="moduleLessonList" class="exercise-card-list"></div>
+          <section class="module-connected-songs" id="moduleConnectedSongsSection" aria-labelledby="moduleConnectedSongsTitle">
+            <h2 id="moduleConnectedSongsTitle">Connected Songs</h2>
+            <div id="moduleConnectedSongs" class="recommended-song-list"></div>
+          </section>
         </article>
       </section>
     </main>
@@ -199,14 +190,18 @@
       </header>
 
       <section class="lesson-layout">
-        <article class="academy-card lesson-intro-card">
-          <h2>Why This Lesson Matters</h2>
-          <p id="lessonWhyThisLesson"></p>
-        </article>
-
         <article class="academy-card lesson-objective-card">
           <h2 id="lessonObjectiveHeading"></h2>
           <p id="lessonObjective"></p>
+        </article>
+
+        <article class="academy-card lesson-intro-card">
+          <h2>Why it matters</h2>
+          <p id="lessonWhyThisLesson"></p>
+          <div id="lessonCoachNote" class="coach-note hidden">
+            <strong>Coach's Note</strong>
+            <p id="lessonCoachNoteText"></p>
+          </div>
         </article>
 
         <article class="academy-card lesson-exercises-card">
@@ -261,6 +256,10 @@
           <article class="academy-card exercise-why-card">
             <h2>Why this matters</h2>
             <p id="exerciseObjective"></p>
+            <div id="exerciseCoachTip" class="coach-note hidden">
+              <strong>Coach's Tip</strong>
+              <p id="exerciseCoachTipText"></p>
+            </div>
           </article>
 
           <article class="academy-card exercise-instructions-card">
@@ -357,7 +356,7 @@
         <article class="academy-card lesson-summary-card hidden" id="lessonSummaryCard">
           <h2>Summary</h2>
           <div id="lessonSummaryStats" class="progress-stat-grid"></div>
-          <div class="brief-section">
+          <div class="brief-section" id="summaryRecommendedSongsSection">
             <h3>Recommended Songs</h3>
             <div id="recommendedSongs" class="connected-song-list"></div>
           </div>
@@ -365,6 +364,7 @@
             <button id="continueNextLessonButton">Continue to next lesson</button>
             <button id="reviewExercisesButton">Review recommended exercises</button>
             <button id="summaryNotesButton">Practice Notes</button>
+            <button id="summaryDashboardButton" class="hidden">Return to Practice Academy</button>
           </div>
         </article>
       </section>
@@ -412,10 +412,10 @@
       </section>
     </main>
 
-    <main class="chord-library-view" id="chordLibraryView" aria-label="Chord Diagrams">
+    <main class="chord-library-view" id="chordLibraryView" aria-label="Chord Library">
       <header class="academy-header">
         <div>
-          <h1>Chord Diagrams</h1>
+          <h1>Chord Library</h1>
           <p class="academy-subtitle">A quick reference for common open and barre chords.</p>
         </div>
         <div class="header-actions">

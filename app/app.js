@@ -52,6 +52,8 @@ const state = {
 const els = {
   navHomeButton: document.getElementById("navHomeButton"),
   navDashboardButton: document.getElementById("navDashboardButton"),
+  navModulesButton: document.getElementById("navModulesButton"),
+  navSkillBuildersButton: document.getElementById("navSkillBuildersButton"),
   navNotesButton: document.getElementById("navNotesButton"),
   navChordLibraryButton: document.getElementById("navChordLibraryButton"),
   navSettingsButton: document.getElementById("navSettingsButton"),
@@ -77,23 +79,32 @@ const els = {
   dashboardOverallProgress: document.getElementById("dashboardOverallProgress"),
   dashboardOverallProgressBar: document.getElementById("dashboardOverallProgressBar"),
   academyRoadmap: document.getElementById("academyRoadmap"),
+  academyRoadmapLegacy: document.getElementById("academyRoadmapLegacy"),
+  skillBuilderList: document.getElementById("skillBuilderList"),
+  skillBuilderTitle: document.getElementById("skillBuilderTitle"),
+  skillBuilderWhy: document.getElementById("skillBuilderWhy"),
+  skillBuilderFrequency: document.getElementById("skillBuilderFrequency"),
+  skillBuilderDuration: document.getElementById("skillBuilderDuration"),
+  openSkillBuilderLessonsButton: document.getElementById("openSkillBuilderLessonsButton"),
   academyRoadmapBackButton: document.getElementById("academyRoadmapBackButton"),
   moduleLessonsTitle: document.getElementById("moduleLessonsTitle"),
-  moduleLessonsSubtitle: document.getElementById("moduleLessonsSubtitle"),
+  moduleLessonsProgress: document.getElementById("moduleLessonsProgress"),
+  moduleLessonsProgressBar: document.getElementById("moduleLessonsProgressBar"),
   moduleLessonList: document.getElementById("moduleLessonList"),
-  moduleOverviewButton: document.getElementById("moduleOverviewButton"),
+  moduleConnectedSongsSection: document.getElementById("moduleConnectedSongsSection"),
+  moduleConnectedSongs: document.getElementById("moduleConnectedSongs"),
   academySyncStatus: document.getElementById("academySyncStatus"),
   syncNowButton: document.getElementById("syncNowButton"),
   exportProgressButton: document.getElementById("exportProgressButton"),
   importProgressInput: document.getElementById("importProgressInput"),
   progressTransferStatus: document.getElementById("progressTransferStatus"),
-  missionLibraryButton: document.getElementById("missionLibraryButton"),
-  startLessonButton: document.getElementById("startLessonButton"),
   lessonLessonsButton: document.getElementById("lessonLessonsButton"),
   lessonMissionName: document.getElementById("lessonMissionName"),
   lessonTitle: document.getElementById("lessonTitle"),
   lessonMeta: document.getElementById("lessonMeta"),
   lessonWhyThisLesson: document.getElementById("lessonWhyThisLesson"),
+  lessonCoachNote: document.getElementById("lessonCoachNote"),
+  lessonCoachNoteText: document.getElementById("lessonCoachNoteText"),
   lessonObjectiveHeading: document.getElementById("lessonObjectiveHeading"),
   lessonObjective: document.getElementById("lessonObjective"),
   lessonExerciseProgress: document.getElementById("lessonExerciseProgress"),
@@ -110,6 +121,8 @@ const els = {
   exerciseTitle: document.getElementById("exerciseTitle"),
   exerciseMeta: document.getElementById("exerciseMeta"),
   exerciseObjective: document.getElementById("exerciseObjective"),
+  exerciseCoachTip: document.getElementById("exerciseCoachTip"),
+  exerciseCoachTipText: document.getElementById("exerciseCoachTipText"),
   exerciseInstructions: document.getElementById("exerciseInstructions"),
   exercisePassCriteria: document.getElementById("exercisePassCriteria"),
   exerciseMistakesCard: document.getElementById("exerciseMistakesCard"),
@@ -144,10 +157,12 @@ const els = {
   checkpointSuccessMessage: document.getElementById("checkpointSuccessMessage"),
   lessonSummaryCard: document.getElementById("lessonSummaryCard"),
   lessonSummaryStats: document.getElementById("lessonSummaryStats"),
+  summaryRecommendedSongsSection: document.getElementById("summaryRecommendedSongsSection"),
   recommendedSongs: document.getElementById("recommendedSongs"),
   continueNextLessonButton: document.getElementById("continueNextLessonButton"),
   reviewExercisesButton: document.getElementById("reviewExercisesButton"),
   summaryNotesButton: document.getElementById("summaryNotesButton"),
+  summaryDashboardButton: document.getElementById("summaryDashboardButton"),
   checkpointBackButton: document.getElementById("checkpointBackButton"),
   notesBackButton: document.getElementById("notesBackButton"),
   notesSubtitle: document.getElementById("notesSubtitle"),
@@ -160,17 +175,6 @@ const els = {
   chordLibraryBackButton: document.getElementById("chordLibraryBackButton"),
   chordLibraryList: document.getElementById("chordLibraryList"),
   settingsBackButton: document.getElementById("settingsBackButton"),
-  missionBriefTitle: document.getElementById("missionBriefTitle"),
-  missionBriefSubtitle: document.getElementById("missionBriefSubtitle"),
-  missionEstimatedCompletion: document.getElementById("missionEstimatedCompletion"),
-  missionStatus: document.getElementById("missionStatus"),
-  missionOverviewProgressBar: document.getElementById("missionOverviewProgressBar"),
-  missionObjective: document.getElementById("missionObjective"),
-  missionWhyItMatters: document.getElementById("missionWhyItMatters"),
-  missionObjectives: document.getElementById("missionObjectives"),
-  missionSkills: document.getElementById("missionSkills"),
-  missionConnectedSongs: document.getElementById("missionConnectedSongs"),
-  missionSuccessCriteria: document.getElementById("missionSuccessCriteria"),
   libraryHomeButton: document.getElementById("libraryHomeButton"),
   artistList: document.getElementById("artistList"),
   songList: document.getElementById("songList"),
@@ -209,7 +213,9 @@ render();
 initializeAcademyProgress();
 
 els.navHomeButton.addEventListener("click", () => setView("home"));
-els.navDashboardButton.addEventListener("click", () => setView("academy"));
+els.navDashboardButton.addEventListener("click", openAcademyDashboard);
+els.navModulesButton.addEventListener("click", () => setView("academy-roadmap"));
+els.navSkillBuildersButton.addEventListener("click", () => setView("skill-builders"));
 els.navNotesButton.addEventListener("click", () => {
   state.notesLessonFilter = null;
   setView("notes");
@@ -225,23 +231,34 @@ els.resumeLearningButton?.addEventListener("click", resumeLearning);
 els.resetAcademyProgressButton.addEventListener("click", resetAcademyProgress);
 els.exportProgressButton?.addEventListener("click", exportProgress);
 els.importProgressInput?.addEventListener("change", importProgress);
-els.academyRoadmap.addEventListener("click", (event) => {
+els.academyRoadmap.addEventListener("click", openRoadmapMission);
+els.academyRoadmapLegacy.addEventListener("click", openRoadmapMission);
+function openRoadmapMission(event) {
   const button = event.target.closest("[data-mission-id]");
   if (!button || button.disabled) return;
   state.selectedMissionId = button.dataset.missionId;
   setActiveMission(state.selectedMissionId).then(() => render());
-  setView("mission", state.selectedMissionId);
+  setView("module-lessons", state.selectedMissionId);
+}
+els.skillBuilderList.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-skill-builder-id]");
+  if (!button) return;
+  setView("skill-builders");
+});
+els.openSkillBuilderLessonsButton.addEventListener("click", () => {
+  const skillBuilder = academyItems("skillBuilders")[0];
+  if (!skillBuilder) return;
+  state.selectedMissionId = skillBuilder.missionId;
+  setView("module-lessons", state.selectedMissionId);
 });
 els.academyRoadmapBackButton.addEventListener("click", () => setView("academy"));
-els.moduleOverviewButton.addEventListener("click", () => setView("mission", currentMission()?.id));
 els.moduleLessonList.addEventListener("click", (event) => {
   const button = event.target.closest("[data-lesson-id]");
   if (!button) return;
   setView("lesson", button.dataset.lessonId);
 });
+els.moduleConnectedSongs.addEventListener("click", openRecommendedSong);
 els.syncNowButton.addEventListener("click", syncPendingProgress);
-els.missionLibraryButton?.addEventListener("click", () => setView("library"));
-els.startLessonButton.addEventListener("click", () => setView("module-lessons", currentMission()?.id));
 els.lessonLessonsButton.addEventListener("click", () => setView("module-lessons", currentMissionForLesson()?.id));
 els.lessonExercises.addEventListener("click", (event) => {
   const button = event.target.closest("[data-exercise-id]");
@@ -250,7 +267,7 @@ els.lessonExercises.addEventListener("click", (event) => {
   setView("exercise");
 });
 els.saveReflectionButton.addEventListener("click", saveCurrentLessonReflection);
-els.exerciseHomeButton.addEventListener("click", () => setView("academy"));
+els.exerciseHomeButton.addEventListener("click", openAcademyDashboard);
 els.exerciseBackButton.addEventListener("click", () => setView("lesson", currentLesson()?.id));
 els.previousExerciseButton.addEventListener("click", goToPreviousExercise);
 els.nextExerciseButton.addEventListener("click", goToNextExercise);
@@ -290,7 +307,7 @@ els.libraryHomeButton.addEventListener("click", () => setView("home"));
 els.notesSearchInput.addEventListener("input", renderPracticeNotesPage);
 els.copyCoachingSummaryButton.addEventListener("click", copyCoachingSummary);
 els.continueNextLessonButton.addEventListener("click", continueToNextLesson);
-els.reviewExercisesButton.addEventListener("click", () => setView("review"));
+els.reviewExercisesButton.addEventListener("click", openSummaryReview);
 els.reviewBackButton.addEventListener("click", () => setView("academy"));
 els.recommendedReviewList.addEventListener("click", (event) => {
   const button = event.target.closest("[data-review-exercise-id]");
@@ -301,6 +318,7 @@ els.summaryNotesButton.addEventListener("click", () => {
   state.notesLessonFilter = currentLesson()?.id || null;
   setView("notes");
 });
+els.summaryDashboardButton.addEventListener("click", openAcademyDashboard);
 els.recommendedSongs?.addEventListener("click", (event) => {
   const button = event.target.closest("[data-song-id]");
   if (!button) return;
@@ -341,18 +359,26 @@ function setView(view, id = null) {
   state.view = view;
   updateSelectionForView(view, id);
   ensureAcademySelection();
-  persistRouteProgress({ view, ids: { missionId: ["module-lessons", "mission"].includes(view) ? selectedIdForView(view) : null, lessonId: view === "lesson" ? selectedIdForView("lesson") : null, exerciseId: view === "exercise" ? selectedIdForView("exercise") : null, checkpointId: view === "checkpoint" ? selectedIdForView("checkpoint") : null } });
+  persistRouteProgress({ view, ids: { missionId: view === "module-lessons" ? selectedIdForView(view) : null, lessonId: view === "lesson" ? selectedIdForView("lesson") : null, exerciseId: view === "exercise" ? selectedIdForView("exercise") : null, checkpointId: view === "checkpoint" ? selectedIdForView("checkpoint") : null } });
   location.hash = routeHashForView(view, id);
   applyView();
   render();
+}
+
+function openAcademyDashboard() {
+  state.selectedMissionId = getActiveMission() || missionOrder()[0]?.id || null;
+  state.selectedLessonId = null;
+  state.selectedExerciseId = null;
+  state.selectedCheckpointId = null;
+  setView("academy");
 }
 
 function applyView() {
   document.body.classList.toggle("view-home", state.view === "home");
   document.body.classList.toggle("view-academy", state.view === "academy");
   document.body.classList.toggle("view-academy-roadmap", state.view === "academy-roadmap");
+  document.body.classList.toggle("view-skill-builders", state.view === "skill-builders");
   document.body.classList.toggle("view-module-lessons", state.view === "module-lessons");
-  document.body.classList.toggle("view-mission", state.view === "mission");
   document.body.classList.toggle("view-lesson", state.view === "lesson");
   document.body.classList.toggle("view-exercise", state.view === "exercise");
   document.body.classList.toggle("view-checkpoint", state.view === "checkpoint");
@@ -364,18 +390,19 @@ function applyView() {
   document.querySelectorAll(".top-nav-actions button").forEach((button) => button.classList.remove("active"));
   const activeButton = {
     academy: els.navDashboardButton,
-    "academy-roadmap": els.navDashboardButton,
-    "module-lessons": els.navDashboardButton,
-    mission: els.navDashboardButton,
-    lesson: els.navDashboardButton,
-    exercise: els.navDashboardButton,
-    checkpoint: els.navDashboardButton,
+    "academy-roadmap": els.navModulesButton,
+    "skill-builders": els.navSkillBuildersButton,
     review: els.navDashboardButton,
     notes: els.navNotesButton,
     chords: els.navChordLibraryButton,
     settings: els.navSettingsButton
   }[state.view];
-  activeButton?.classList.add("active");
+  const learningButton = ["module-lessons", "lesson", "exercise", "checkpoint"].includes(state.view)
+    ? currentMissionForLesson()?.isSkillBuilder
+      ? els.navSkillBuildersButton
+      : els.navModulesButton
+    : null;
+  (learningButton || activeButton)?.classList.add("active");
 }
 
 function loadSongs() {
@@ -595,8 +622,8 @@ function createAcademyProgressService({ supabase, userId, isOnline }) {
       progress.activeMissionId = missionId || null;
       return persistOrQueue();
     },
-    async saveCurrentLocation(location) {
-      progress.activeMissionId = location?.missionId || progress.activeMissionId;
+    async saveCurrentLocation(location, options = {}) {
+      if (!options.preserveActiveMission) progress.activeMissionId = location?.missionId || progress.activeMissionId;
       progress.currentLocation = location ? { ...location } : null;
       return persistOrQueue();
     },
@@ -818,13 +845,16 @@ function handleOffline() {
 }
 
 function saveActiveMissionSelection() {
+  if (currentMission()?.isSkillBuilder) return;
   setActiveMission(state.selectedMissionId).then(() => render());
 }
 
 async function saveCurrentLearningLocation() {
   const location = currentLearningLocation();
   if (!location) return null;
-  return runProgressSave(() => academyProgressService.saveCurrentLocation(location));
+  return runProgressSave(() => academyProgressService.saveCurrentLocation(location, {
+    preserveActiveMission: Boolean(currentMissionForLesson()?.isSkillBuilder)
+  }));
 }
 
 function persistRouteProgress(route) {
@@ -992,8 +1022,8 @@ function render() {
   renderProgressTransferStatus();
   renderResumeLearning();
   renderAcademyDashboard();
+  renderSkillBuildersPage();
   renderModuleLessons();
-  renderMissionBrief();
   renderLesson();
   renderExerciseDetail();
   renderCheckpoint();
@@ -1110,12 +1140,12 @@ function renderProgressTransferStatus() {
 
 function parseRoute() {
   const [view = "home", id = null] = location.hash.replace(/^#/, "").split("/");
-  const validViews = ["academy", "academy-roadmap", "module-lessons", "mission", "lesson", "exercise", "checkpoint", "review", "library", "notes", "chords", "settings"];
-  const routeView = validViews.includes(view) ? view : "home";
+  const validViews = ["academy", "academy-roadmap", "skill-builders", "module-lessons", "lesson", "exercise", "checkpoint", "review", "library", "notes", "chords", "settings"];
+  const routeView = view === "mission" ? "module-lessons" : validViews.includes(view) ? view : "home";
   return {
     view: routeView,
     ids: {
-      missionId: ["module-lessons", "mission"].includes(routeView) ? id : null,
+      missionId: routeView === "module-lessons" ? id : null,
       lessonId: routeView === "lesson" ? id : null,
       exerciseId: routeView === "exercise" ? id : null,
       checkpointId: routeView === "checkpoint" ? id : null
@@ -1141,7 +1171,7 @@ function syncStateFromRoute(route) {
 }
 
 function updateSelectionForView(view, id) {
-  if (["module-lessons", "mission"].includes(view)) {
+  if (view === "module-lessons") {
     state.selectedMissionId = id || state.selectedMissionId;
     state.selectedLessonId = null;
     state.selectedExerciseId = null;
@@ -1159,14 +1189,13 @@ function updateSelectionForView(view, id) {
 function routeHashForView(view, id) {
   if (view === "home") return "";
   const selectedId = id || selectedIdForView(view);
-  return selectedId && ["module-lessons", "mission", "lesson", "exercise", "checkpoint"].includes(view)
+  return selectedId && ["module-lessons", "lesson", "exercise", "checkpoint"].includes(view)
     ? `${view}/${selectedId}`
     : view;
 }
 
 function selectedIdForView(view) {
   if (view === "module-lessons") return currentMission()?.id;
-  if (view === "mission") return currentMission()?.id;
   if (view === "lesson") return currentLesson()?.id;
   if (view === "exercise") return currentExercise()?.id;
   if (view === "checkpoint") return currentCheckpoint()?.id;
@@ -1194,15 +1223,27 @@ function missionOrder() {
       });
     });
   academyItems("missions").forEach((mission) => {
-    if (!ordered.some((orderedMission) => orderedMission.id === mission.id)) ordered.push(mission);
+    if (!mission.isSkillBuilder && !ordered.some((orderedMission) => orderedMission.id === mission.id)) ordered.push(mission);
   });
   return ordered;
 }
 
+function learningProgramOrder() {
+  const missionsById = academyById("missions");
+  return [
+    ...missionOrder(),
+    ...academyItems("skillBuilders")
+      .map((skillBuilder) => missionsById.get(skillBuilder.missionId))
+      .filter(Boolean)
+  ];
+}
+
 function activeMission() {
   const missionsById = academyById("missions");
-  return missionsById.get(state.selectedMissionId)
-    || missionsById.get(getActiveMission())
+  const selectedMission = missionsById.get(state.selectedMissionId);
+  const savedMission = missionsById.get(getActiveMission());
+  return (selectedMission && !selectedMission.isSkillBuilder ? selectedMission : null)
+    || (savedMission && !savedMission.isSkillBuilder ? savedMission : null)
     || missionOrder().find((mission) => isMissionUnlocked(mission) && !isMissionComplete(mission))
     || missionOrder()[0]
     || null;
@@ -1353,6 +1394,32 @@ function renderAcademyDashboard() {
   els.dashboardExercisesCompleted.textContent = `${progress.completed} / ${progress.total}`;
   els.dashboardNextStep.textContent = recommendedReviewText(mission, progress);
   renderAcademyRoadmap();
+  renderSkillBuilders();
+}
+
+function renderSkillBuilders() {
+  if (!els.skillBuilderList) return;
+  const missionsById = academyById("missions");
+  els.skillBuilderList.innerHTML = academyItems("skillBuilders").map((skillBuilder) => {
+    const mission = missionsById.get(skillBuilder.missionId);
+    if (!mission) return "";
+    const progress = missionProgress(mission);
+    return `
+      <button type="button" class="roadmap-mission skill-builder-entry" data-skill-builder-id="${escapeHtml(mission.id)}">
+        <strong>${escapeHtml(mission.title)}</strong>
+        <span>10–15 minutes · Optional · ${progress.percent}% complete</span>
+      </button>
+    `;
+  }).join("");
+}
+
+function renderSkillBuildersPage() {
+  const skillBuilder = academyItems("skillBuilders")[0];
+  if (!skillBuilder) return;
+  els.skillBuilderTitle.textContent = skillBuilder.title;
+  els.skillBuilderWhy.textContent = skillBuilder.whyDoThis || "";
+  els.skillBuilderFrequency.textContent = skillBuilder.howOften || "";
+  els.skillBuilderDuration.textContent = skillBuilder.whenToStop || "";
 }
 
 function missionProgress(mission) {
@@ -1390,7 +1457,7 @@ function recommendedReviewText(mission, progress) {
     .slice(0, 3)
     .map((exercise) => exercise.title);
   if (reviewTitles.length) return `Review: ${reviewTitles.join(", ")}.`;
-  if (!progress.completed) return mission.nextStep || "Read the module brief and begin Lesson 1.";
+  if (!progress.completed) return mission.nextStep || "Choose Lesson 1 when you are ready to begin.";
   const resumeTarget = resumeExerciseTarget();
   if (resumeTarget) return `Review ${resumeTarget.title} next.`;
   if (progress.percent >= 100) return "Review the checkpoint criteria and keep the module fresh.";
@@ -1419,11 +1486,7 @@ function isMissionComplete(mission) {
 }
 
 function isMissionUnlocked(mission) {
-  if (!mission) return false;
-  return (mission.prerequisiteMissionIds || []).every((missionId) => {
-    const prerequisite = academyById("missions").get(missionId);
-    return prerequisite ? isMissionComplete(prerequisite) : false;
-  });
+  return Boolean(mission);
 }
 
 function prerequisiteText(mission) {
@@ -1433,12 +1496,14 @@ function prerequisiteText(mission) {
 }
 
 function renderAcademyRoadmap() {
-  if (!els.academyRoadmap) return;
-  els.academyRoadmap.innerHTML = academyItems("phases")
+  if (!els.academyRoadmap && !els.academyRoadmapLegacy) return;
+  const roadmapMarkup = academyItems("phases")
     .slice()
     .sort((a, b) => Number(a.phaseNumber || 999) - Number(b.phaseNumber || 999))
     .map((phase) => renderRoadmapPhase(phase))
     .join("");
+  if (els.academyRoadmap) els.academyRoadmap.innerHTML = roadmapMarkup;
+  if (els.academyRoadmapLegacy) els.academyRoadmapLegacy.innerHTML = roadmapMarkup;
 }
 
 function renderRoadmapPhase(phase) {
@@ -1494,8 +1559,13 @@ function renderModuleLessons() {
     .sort((a, b) => Number(a.lessonNumber || 999) - Number(b.lessonNumber || 999));
 
   els.moduleLessonsTitle.textContent = moduleLabel(mission);
-  els.moduleLessonsSubtitle.textContent = "Choose a lesson or review the module overview.";
+  const moduleProgress = missionProgress(mission);
+  els.moduleLessonsProgress.textContent = `${moduleProgress.percent}%`;
+  els.moduleLessonsProgressBar.style.width = `${moduleProgress.percent}%`;
   els.moduleLessonList.innerHTML = lessons.map((lesson) => renderModuleLessonCard(lesson, progress)).join("");
+  const connectedSongs = moduleSongs(mission);
+  els.moduleConnectedSongsSection.classList.toggle("hidden", !connectedSongs.length);
+  els.moduleConnectedSongs.innerHTML = connectedSongs.length ? renderRecommendedSongs(connectedSongs) : "";
 }
 
 function renderModuleLessonCard(lesson, progress) {
@@ -1513,7 +1583,6 @@ function renderModuleLessonCard(lesson, progress) {
     <button type="button" class="exercise-card lesson-select-card${complete ? " complete" : " pending"}" data-lesson-id="${escapeHtml(lesson.id)}">
       <div>
         <strong>Lesson ${escapeHtml(String(lesson.lessonNumber || ""))}: ${escapeHtml(lesson.title)}</strong>
-        <p>${escapeHtml(lesson.description || lesson.objective || "")}</p>
       </div>
       <div class="exercise-meta-row">
         <span>${escapeHtml(status)}</span>
@@ -1521,32 +1590,6 @@ function renderModuleLessonCard(lesson, progress) {
       </div>
     </button>
   `;
-}
-
-function renderMissionBrief() {
-  const mission = currentMission();
-  if (!mission) return;
-  const progress = missionProgress(mission);
-  const skillsById = academySkillsById();
-  const skills = (mission.skillIds || [])
-    .map((skillId) => skillsById.get(skillId))
-    .filter(Boolean);
-  const skillNames = skills.length
-    ? skills.map((skill) => skill.title)
-    : mission.skillsDeveloped || [];
-
-  els.missionBriefTitle.textContent = moduleLabel(mission);
-  els.missionBriefSubtitle.textContent = mission.subtitle || "";
-  els.missionEstimatedCompletion.textContent = mission.estimatedPracticeHours || mission.estimatedSessions || "TBD";
-  els.missionStatus.textContent = `${progress.percent}% complete`;
-  els.missionOverviewProgressBar.style.width = `${progress.percent}%`;
-  els.missionObjective.textContent = mission.description;
-  els.missionWhyItMatters.textContent = mission.whyItMatters;
-  els.startLessonButton.textContent = "View Lessons";
-  els.missionObjectives.innerHTML = renderListItems(mission.objectives);
-  els.missionSkills.innerHTML = renderSkillChips(skillNames);
-  els.missionConnectedSongs.innerHTML = renderConnectedSongCards(mission.connectedSongs);
-  els.missionSuccessCriteria.innerHTML = renderListItems(mission.successCriteria);
 }
 
 function renderLesson() {
@@ -1562,8 +1605,13 @@ function renderLesson() {
   els.lessonMissionName.textContent = moduleLabel(mission);
   els.lessonTitle.textContent = lesson.title;
   els.lessonMeta.textContent = `Lesson ${lesson.lessonNumber} · Estimated time: ${lesson.estimatedMinutes} minutes`;
-  els.lessonWhyThisLesson.textContent = lesson.whyThisLesson;
-  els.lessonObjectiveHeading.textContent = lesson.objectiveHeading || "Lesson Objective";
+  els.lessonWhyThisLesson.textContent = lesson.whyThisLesson || lesson.why || "";
+  const coachNote = Array.isArray(lesson.coachNotes)
+    ? lesson.coachNotes.join(" ")
+    : lesson.coachNotes || "";
+  els.lessonCoachNote.classList.toggle("hidden", !coachNote);
+  els.lessonCoachNoteText.textContent = coachNote;
+  els.lessonObjectiveHeading.textContent = "What you'll learn";
   els.lessonObjective.textContent = lesson.objective || lesson.description || "";
   const completedCount = exercises.filter((exercise) => progress.completedExerciseIds.has(exercise.id)).length;
   const progressPercent = exercises.length ? Math.round((completedCount / exercises.length) * 100) : 0;
@@ -1573,6 +1621,13 @@ function renderLesson() {
     .map((exercise) => renderExerciseCard(exercise))
     .join("");
   renderLessonReflection(lesson);
+}
+
+function openRecommendedSong(event) {
+  const button = event.target.closest("[data-song-id]");
+  if (!button) return;
+  state.selectedId = button.dataset.songId;
+  setView("library");
 }
 
 function renderLessonReflection(lesson = currentLesson()) {
@@ -1613,6 +1668,8 @@ function renderExerciseDetail() {
   els.exerciseObjective.textContent = exercise.purpose
     ? `${exercise.purpose} ${exercise.objective}`
     : exercise.objective;
+  els.exerciseCoachTip.classList.toggle("hidden", !exercise.coachTip);
+  els.exerciseCoachTipText.textContent = exercise.coachTip || "";
   els.exerciseInstructions.innerHTML = steps
     .map((step) => `<li>${escapeHtml(step)}</li>`)
     .join("");
@@ -1842,9 +1899,32 @@ async function saveCurrentLessonReflection() {
 }
 
 function continueToNextLesson() {
+  const mission = currentMissionForLesson();
   const nextLesson = nextLessonAfter(currentLesson());
-  if (nextLesson) setView("lesson", nextLesson.id);
-  else setView("academy-roadmap");
+  if (nextLesson) {
+    setView("lesson", nextLesson.id);
+    return;
+  }
+  if (mission?.isSkillBuilder) {
+    state.selectedMissionId = getActiveMission() || missionOrder()[0]?.id || null;
+    setView("module-lessons", state.selectedMissionId);
+    return;
+  }
+  const nextMission = nextMissionAfter(mission);
+  if (nextMission && isMissionUnlocked(nextMission)) {
+    setView("module-lessons", nextMission.id);
+    return;
+  }
+  setView("academy");
+}
+
+function openSummaryReview() {
+  const mission = currentMissionForLesson();
+  if (mission?.isSkillBuilder && currentCheckpoint()?.moduleSummary) {
+    setView("module-lessons", mission.id);
+    return;
+  }
+  setView("review");
 }
 
 function openFirstReviewExercise() {
@@ -1892,6 +1972,12 @@ function nextLessonAfter(lesson) {
   const lessonIds = mission?.lessons || [];
   const index = lessonIds.indexOf(lesson?.id);
   return index >= 0 ? academyLessonsById().get(lessonIds[index + 1]) || null : null;
+}
+
+function nextMissionAfter(mission) {
+  const missions = missionOrder();
+  const index = missions.findIndex((item) => item.id === mission?.id);
+  return index >= 0 ? missions[index + 1] || null : null;
 }
 
 function syncTimerToExercise(exercise) {
@@ -2056,6 +2142,11 @@ function renderCheckpoint() {
   const progress = getProgress();
   const summary = lessonSummary(lesson);
   const moduleSummary = checkpoint.moduleSummary || null;
+  const currentProgram = currentMissionForLesson();
+  const nextMission = nextMissionAfter(currentProgram);
+  const currentModuleProgress = missionProgress(currentProgram);
+  const displayedSummary = moduleSummary ? moduleCompletionSummary(currentProgram) : summary;
+  const isSkillBuilderSummary = Boolean(moduleSummary && currentProgram?.isSkillBuilder);
 
   els.checkpointTitle.textContent = checkpoint.title;
   els.checkpointLessonTitle.textContent = `Related lesson: ${lesson.title}`;
@@ -2072,6 +2163,8 @@ function renderCheckpoint() {
   const assessment = getCheckpointResult(checkpoint.id);
   document.querySelectorAll("[data-assessment]").forEach((button) => {
     button.classList.toggle("selected", button.dataset.assessment === assessment);
+    if (button.dataset.assessment === "passed") button.textContent = moduleSummary ? "Pass" : "Yes";
+    if (button.dataset.assessment === "not-yet") button.textContent = moduleSummary ? "Needs More Practice" : "Not Yet";
   });
   els.checkpointSuccessMessage.textContent = assessment === "passed"
     ? moduleSummary
@@ -2087,21 +2180,34 @@ function renderCheckpoint() {
   els.checkpointAssessmentCard.classList.toggle("hidden", assessment === "passed");
   els.lessonSummaryCard.classList.toggle("hidden", assessment !== "passed");
   els.lessonSummaryStats.innerHTML = `
-    <div><span>Exercises Completed</span><strong>${summary.completed} / ${summary.total}</strong></div>
-    <div><span>Needs More Practice</span><strong>${summary.reviewCount}</strong></div>
-    <div><span>Notes Count</span><strong>${summary.notesCount}</strong></div>
-    <div><span>Reflection Saved</span><strong>${summary.reflectionSaved ? "Yes" : "No"}</strong></div>
+    ${moduleSummary ? `<div><span>Lessons Completed</span><strong>${currentModuleProgress.completedLessons} / ${currentModuleProgress.totalLessons}</strong></div>` : ""}
+    <div><span>Exercises Completed</span><strong>${displayedSummary.completed} / ${displayedSummary.total}</strong></div>
+    <div><span>${moduleSummary ? "Exercises Recommended for Review" : "Needs More Practice"}</span><strong>${displayedSummary.reviewCount}</strong></div>
+    <div><span>${moduleSummary ? "Practice Notes Recorded" : "Notes Count"}</span><strong>${displayedSummary.notesCount}</strong></div>
+    ${moduleSummary ? "" : `<div><span>Reflection Saved</span><strong>${displayedSummary.reflectionSaved ? "Yes" : "No"}</strong></div>`}
     ${moduleSummary ? `
-      <div><span>Featured Songs Completed</span><strong>${summary.featuredSongsCompleted} / ${summary.featuredSongsTotal}</strong></div>
+      ${displayedSummary.featuredSongsTotal ? `<div><span>Featured Songs Completed</span><strong>${displayedSummary.featuredSongsCompleted} / ${displayedSummary.featuredSongsTotal}</strong></div>` : ""}
       <div><span>Skills Developed</span><strong>${moduleSummary.skillsDeveloped.length}</strong></div>
       <div class="wide-stat"><span>Skills</span><strong>${moduleSummary.skillsDeveloped.map(escapeHtml).join(", ")}</strong></div>
-      <div class="wide-stat"><span>Preparing for Module 2</span><strong>${escapeHtml(moduleSummary.preparingForNextModule)}</strong></div>
+      <div class="wide-stat"><span>${isSkillBuilderSummary ? "Continuing Practice" : `Preparing for ${escapeHtml(nextMission ? moduleLabel(nextMission) : "what comes next")}`}</span><strong>${escapeHtml(moduleSummary.continuingPractice || moduleSummary.preparingForNextModule)}</strong></div>
     ` : ""}
   `;
-  els.recommendedSongs.innerHTML = renderRecommendedSongs(recommendedSongsForLesson(lesson));
-  els.continueNextLessonButton.textContent = moduleSummary ? "Continue to Module 2" : "Continue to next lesson";
+  const summarySongs = recommendedSongsForLesson(lesson);
+  els.summaryRecommendedSongsSection.classList.toggle("hidden", !summarySongs.length);
+  els.recommendedSongs.innerHTML = summarySongs.length ? renderRecommendedSongs(summarySongs) : "";
+  els.continueNextLessonButton.textContent = isSkillBuilderSummary
+    ? "Continue Learning"
+    : moduleSummary && nextMission
+    ? `Continue to ${moduleLabel(nextMission)}`
+    : moduleSummary
+      ? "Return to Dashboard"
+      : "Continue to next lesson";
   els.continueNextLessonButton.disabled = !nextLessonAfter(lesson) && !moduleSummary;
-  els.reviewExercisesButton.disabled = !summary.reviewCount;
+  els.reviewExercisesButton.textContent = isSkillBuilderSummary ? "Review Barre Chord Lessons" : "Review recommended exercises";
+  els.reviewExercisesButton.disabled = !displayedSummary.reviewCount;
+  if (isSkillBuilderSummary) els.reviewExercisesButton.disabled = false;
+  els.summaryNotesButton.textContent = isSkillBuilderSummary ? "Open Practice Notes" : "Practice Notes";
+  els.summaryDashboardButton.classList.toggle("hidden", !isSkillBuilderSummary);
 }
 
 function toggleCheckpointCriterion(checkpointId, criterionId, checked) {
@@ -2125,7 +2231,40 @@ function lessonSummary(lesson) {
   return { total: exerciseIds.length, completed, reviewCount, notesCount, reflectionSaved, featuredSongsCompleted, featuredSongsTotal: featuredSongIds.length };
 }
 
+function moduleCompletionSummary(mission) {
+  const progress = getProgress();
+  const exerciseIds = (mission?.lessons || [])
+    .map((lessonId) => academyLessonsById().get(lessonId))
+    .filter(Boolean)
+    .flatMap((lesson) => lesson.exercises || []);
+  const featuredSongIds = exerciseIds.filter((exerciseId) =>
+    academyExercisesById().get(exerciseId)?.title?.startsWith("Featured Song:")
+  );
+  return {
+    total: exerciseIds.length,
+    completed: exerciseIds.filter((exerciseId) => progress.completedExerciseIds.has(exerciseId)).length,
+    reviewCount: exerciseIds.filter((exerciseId) => progress.reviewExerciseIds.has(exerciseId)).length,
+    notesCount: exerciseIds.filter((exerciseId) => String(progress.exerciseNotes.get(exerciseId) || "").trim()).length,
+    featuredSongsCompleted: featuredSongIds.filter((exerciseId) => progress.completedExerciseIds.has(exerciseId)).length,
+    featuredSongsTotal: featuredSongIds.length
+  };
+}
+
 function recommendedSongsForLesson(lesson) {
+  if (lesson.connectedSongs?.length) {
+    return lesson.connectedSongs.map((suggestion) => {
+      const librarySong = state.songs.find((song) => sameSong(song, suggestion));
+      return {
+        title: librarySong?.title || suggestion.title,
+        artist: librarySong?.artist || suggestion.artist,
+        songId: librarySong?.id || "",
+        note: librarySong
+          ? suggestion.note || suggestion.explanation || "Recommended from this lesson."
+          : `Suggested future addition — ${suggestion.note || suggestion.explanation || "not in the song library yet."}`
+      };
+    });
+  }
+
   const lessonChordNames = new Set((lesson.exercises || [])
     .map((exerciseId) => academyExercisesById().get(exerciseId))
     .filter(Boolean)
@@ -2171,6 +2310,20 @@ function recommendedSongsForLesson(lesson) {
   return recommendations;
 }
 
+function moduleSongs(mission) {
+  return (mission?.connectedSongs || []).slice(0, 5).map((suggestion) => {
+    const librarySong = state.songs.find((song) => sameSong(song, suggestion));
+    return {
+      title: librarySong?.title || suggestion.title,
+      artist: librarySong?.artist || suggestion.artist,
+      songId: librarySong?.id || "",
+      note: librarySong
+        ? suggestion.note || suggestion.explanation || "Reinforces the skills used throughout this module."
+        : `Suggested future addition — ${suggestion.note || suggestion.explanation || "not in the song library yet."}`
+    };
+  });
+}
+
 function sameSong(song, candidate) {
   return String(song.title || "").toLowerCase() === String(candidate.title || "").toLowerCase()
     && String(song.artist || "").toLowerCase() === String(candidate.artist || "").toLowerCase();
@@ -2179,7 +2332,7 @@ function sameSong(song, candidate) {
 function renderRecommendedSongs(recommendations) {
   if (!recommendations.length) return `<div class="connected-song-card"><strong>No song matches yet</strong><span>Add more song chord data to improve recommendations.</span></div>`;
   return recommendations.map((item) => `
-    <div class="connected-song-card">
+    <div class="connected-song-card${item.songId ? " linked" : ""}" ${item.songId ? `data-song-id="${escapeHtml(item.songId)}" role="button" tabindex="0"` : ""}>
       <strong>${escapeHtml(item.title)}</strong>
       <span>${escapeHtml(item.artist)} · ${escapeHtml(item.note)}</span>
       ${item.songId ? `<button type="button" data-song-id="${escapeHtml(item.songId)}">Open song</button>` : ""}
@@ -2196,7 +2349,7 @@ function renderPracticeNotesPage() {
   els.notesSubtitle.textContent = filteredLesson
     ? `Notes for Lesson ${filteredLesson.lessonNumber}: ${filteredLesson.title}.`
     : "Exercise notes and lesson reflections.";
-  missionOrder().forEach((mission) => {
+  learningProgramOrder().forEach((mission) => {
     (mission.lessons || []).forEach((lessonId) => {
       const lesson = academyLessonsById().get(lessonId);
       if (!lesson) return;
