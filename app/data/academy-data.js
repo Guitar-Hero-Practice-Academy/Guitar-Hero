@@ -3990,6 +3990,7 @@ moduleTwoLessonsTwoToFour.forEach(({ lesson, exercises, checkpoint }) => {
       ...exercise,
       lessonId: lesson.id,
       instructions: exercise.instructionSteps.join(" "),
+      coachTip: exercise.coachTip || "",
       skillIds: lesson.skillIds,
       mediaLinks: [],
       completed: false
@@ -4488,6 +4489,7 @@ moduleTwoLessonsFiveToSeven.forEach(({ lesson, exercises, checkpoint }) => {
       ...exercise,
       lessonId: lesson.id,
       instructions: exercise.instructionSteps.join(" "),
+      coachTip: exercise.coachTip || "",
       skillIds: lesson.skillIds,
       mediaLinks: [],
       completed: false
@@ -4906,65 +4908,66 @@ const barreChordAcceleratorLessons = [
   {
     id: "lesson-barre-accelerator-2",
     lessonNumber: 2,
-    title: "Two-String Barre Control",
-    objective: "Develop clean, relaxed control across two strings before attempting a larger barre.",
-    whyThisLesson: "A small barre isolates the essential movement without the strain of a full chord."
+    title: "Building the Mini F",
+    objective: "Learn to play the Mini F chord cleanly and use it in simple chord changes.",
+    whyThisLesson: "The Mini F is one of the most useful versions of F major. It appears in thousands of songs and develops the technique needed for the full barre chord while letting you make music immediately.",
+    chordNames: ["Mini F", "C", "Am", "G"]
   },
   {
     id: "lesson-barre-accelerator-3",
     lessonNumber: 3,
-    title: "Mini F",
-    objective: "Build and recognise the three-note Mini F shape.",
-    whyThisLesson: "Mini F provides an immediately useful F sound while barre strength is still developing.",
-    chordNames: ["Mini F"]
+    title: "Introducing the Full F",
+    objective: "Learn the complete Full F shape. Do not expect perfect sounding chords today. Today's objective is learning the shape.",
+    whyThisLesson: "Every guitarist struggles with the first full barre chord. Learning the shape now makes future practice much easier.",
+    chordNames: ["Mini F", "Full F major", "C", "Am", "G"]
   },
   {
     id: "lesson-barre-accelerator-4",
     lessonNumber: 4,
-    title: "Four-String F",
-    objective: "Expand Mini F into a fuller four-string F shape.",
-    whyThisLesson: "The four-string version adds depth while keeping the physical demand manageable.",
-    chordNames: ["Four-string F"]
+    title: "Your First Full F",
+    objective: "Play your first recognisable Full F chord.",
+    whyThisLesson: "Today you begin using Full F as a musical chord rather than just a hand exercise.",
+    chordNames: ["Full F major", "Mini F", "C", "Am", "G"]
   },
   {
     id: "lesson-barre-accelerator-5",
     lessonNumber: 5,
-    title: "Full F Shape",
-    objective: "Learn the complete six-string F major barre-chord shape.",
-    whyThisLesson: "Full F is the foundation for movable E-shape major barre chords.",
-    chordNames: ["Full F major"]
+    title: "Playing F Without Fighting It",
+    objective: "Learn to play the Full F chord with less effort by improving efficiency instead of increasing strength.",
+    whyThisLesson: "Cleaner barre chords usually come from better positioning, better thumb placement and using only the pressure required.",
+    chordNames: ["Full F major", "Mini F", "C", "Am", "G"]
   },
   {
     id: "lesson-barre-accelerator-6",
     lessonNumber: 6,
-    title: "F Endurance",
-    objective: "Build the comfort and endurance needed to hold F without excessive tension.",
-    whyThisLesson: "Barre chords become practical only when they can be held cleanly without exhausting the hand.",
-    chordNames: ["Mini F", "Four-string F", "Full F major"]
+    title: "Your Second Barre Chord — B Minor",
+    objective: "Learn the B minor shape and recognise that it uses the same principles as the Full F chord.",
+    whyThisLesson: "Once you can play one barre chord, many others become much easier. Bm is one of the most common minor barre chords in rock music.",
+    chordNames: ["Bm", "Full F major", "Mini F", "G", "A"]
   },
   {
     id: "lesson-barre-accelerator-7",
     lessonNumber: 7,
-    title: "F Chord Changes",
-    objective: "Move into and out of F while keeping familiar chord progressions flowing.",
-    whyThisLesson: "The chord becomes musically useful when it can be reached without stopping the rhythm.",
-    chordNames: ["F", "Full F major"]
+    title: "Making Barre Chords Automatic",
+    objective: "Build confidence changing between open chords and barre chords without stopping the music.",
+    whyThisLesson: "Real songs don’t wait for perfect chord changes. Today’s focus is maintaining rhythm while improving accuracy.",
+    chordNames: ["Full F major", "Mini F", "Bm", "C", "G", "A", "Am"]
   },
   {
     id: "lesson-barre-accelerator-8",
     lessonNumber: 8,
-    title: "Bm Mechanics",
-    objective: "Understand the Bm shape and use a beginner Bm7 version while full-barre control develops.",
-    whyThisLesson: "Bm introduces the movable A-shape minor barre and appears in many common guitar keys.",
-    chordNames: ["Bm", "Bm7 (beginner)"]
+    title: "Playing Through Mistakes",
+    objective: "Learn to keep playing even when a chord isn’t perfect. The objective is no longer perfect chords. The objective is keeping the music moving.",
+    whyThisLesson: "When learning barre chords, stopping every time something buzzes creates hesitation and breaks your rhythm. Good players recover quickly. Today’s lesson teaches that skill.",
+    chordNames: ["Full F major", "Mini F", "Bm", "C", "G", "A", "Am"]
   },
   {
     id: "lesson-barre-accelerator-9",
     lessonNumber: 9,
-    title: "F and Bm Application",
-    objective: "Apply F and Bm shapes in short musical chord progressions.",
-    whyThisLesson: "Application turns isolated barre practice into usable guitar vocabulary.",
-    chordNames: ["F", "Full F major", "Bm", "Bm7 (beginner)"]
+    title: "Graduation – Using Barre Chords Naturally",
+    objective: "Use Full F and Bm naturally inside musical progressions without thinking about every movement. Today’s lesson is about confidence rather than learning something new.",
+    whyThisLesson: "Barre chords stop feeling difficult when they become part of your normal playing. Today’s lesson ties everything together.",
+    chordNames: ["Full F major", "Mini F", "Bm", "C", "G", "A", "Am"]
   }
 ];
 
@@ -5750,6 +5753,508 @@ miniFAndFourStringFLessons.forEach(({ lesson, exercises, checkpoint }) => {
   });
 });
 
+const barreAcceleratorLessonsTwoToFour = [
+  {
+    lesson: {
+      id: "lesson-barre-accelerator-2",
+      missionId: "mission-barre-chord-accelerator",
+      lessonNumber: 2,
+      title: "Building the Mini F",
+      description: "Learn to play the Mini F chord cleanly and use it in simple chord changes.",
+      objectiveHeading: "What you'll learn",
+      objective: "Learn to play the Mini F chord cleanly and use it in simple chord changes.",
+      whyThisLesson: "The Mini F is one of the most useful versions of F major. It appears in thousands of songs and develops the technique needed for the full barre chord while letting you make music immediately.",
+      coachNotes: "Most buzzing is caused by finger position, not lack of strength. Always reposition before increasing pressure.",
+      estimatedMinutes: 25,
+      skillIds: ["skill-chord-changes"],
+      connectedSongs: [],
+      recommendedSongs: [],
+      checkpoint: "checkpoint-barre-accelerator-2",
+      practiceJournal: [
+        "Which transition feels harder: C to Mini F or Mini F to C?",
+        "Did repositioning help before adding pressure?",
+        "What should I spend two extra minutes on?"
+      ],
+      reflectionPrompts: [
+        "Which transition feels harder: C to Mini F or Mini F to C?",
+        "Did repositioning help before adding pressure?",
+        "What should I spend two extra minutes on?"
+      ],
+      ongoingPractice: {
+        duration: "Five minutes daily",
+        items: [
+          "Two-string barre",
+          "Mini F holds"
+        ]
+      },
+      completionMessage: "You can now use Mini F in real music.",
+      completed: false
+    },
+    exercises: [
+      {
+        id: "exercise-barre-accelerator-2-reset",
+        title: "Daily Warm-up",
+        purpose: "Repeat the two-string barre exercise from Lesson 1.",
+        objective: "Warm up the small barre with relaxed hand position and minimum pressure.",
+        instructionSteps: [
+          "Barre the high E and B strings at fret 1.",
+          "Keep the hand relaxed.",
+          "Use minimum pressure.",
+          "Rotate the index finger slightly towards the thumb-side edge if it produces a cleaner sound.",
+          "Release completely between attempts."
+        ],
+        durationMinutes: 3,
+        tempo: "",
+        passCriteria: "Five clean repetitions.",
+        definitionOfDone: "Five clean repetitions.",
+        commonMistakes: [
+          "Squeezing before adjusting the finger angle",
+          "Holding tension between attempts",
+          "Ignoring which string is not ringing"
+        ],
+        chordNames: ["Mini F"]
+      },
+      {
+        id: "exercise-barre-accelerator-2-finger-angle",
+        title: "Build the Mini F",
+        purpose: "Form the Mini F chord and check every intended string.",
+        objective: "Make every note of Mini F ring cleanly before using it in changes.",
+        instructionSteps: [
+          "Form the Mini F chord.",
+          "Check each string individually.",
+          "If a note buzzes, adjust finger position.",
+          "If it still buzzes, adjust finger angle.",
+          "Avoid squeezing harder immediately.",
+          "Play every string separately until all notes ring cleanly."
+        ],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Five consecutive clean Mini F chords.",
+        definitionOfDone: "Five consecutive clean Mini F chords.",
+        commonMistakes: [
+          "Pressing harder before repositioning",
+          "Letting the middle finger mute a nearby string",
+          "Strumming without checking each string first"
+        ],
+        coachTip: "Most buzzing is caused by finger position, not lack of strength. Always reposition before increasing pressure.",
+        chordNames: ["Mini F"]
+      },
+      {
+        id: "exercise-barre-accelerator-2-thumb-support",
+        title: "C to Mini F",
+        purpose: "Move between C and Mini F slowly enough to keep the shape clean.",
+        objective: "Build a useful real-world chord change without rushing.",
+        instructionSteps: [
+          "Play C.",
+          "Move to Mini F.",
+          "Play Mini F.",
+          "Move back to C.",
+          "Move slowly.",
+          "Allow the fingers to fully settle before strumming."
+        ],
+        durationMinutes: 7,
+        tempo: "",
+        passCriteria: "Twenty clean chord changes.",
+        definitionOfDone: "Twenty clean chord changes.",
+        commonMistakes: [
+          "Trying to arrive instantly",
+          "Strumming before the Mini F has settled",
+          "Letting the hand tense during the change"
+        ],
+        chordNames: ["C", "Mini F"]
+      },
+      {
+        id: "exercise-barre-accelerator-2-lightest-pressure",
+        title: "First Progression",
+        purpose: "Use Mini F in a musical progression.",
+        objective: "Maintain continuous rhythm while playing C, Am, Mini F and G.",
+        instructionSteps: [
+          "Play C.",
+          "Play Am.",
+          "Play Mini F.",
+          "Play G.",
+          "Use steady downstrokes.",
+          "Keep moving even if a chord is not perfect.",
+          "Repeat ten times."
+        ],
+        durationMinutes: 8,
+        tempo: "",
+        passCriteria: "Maintain continuous rhythm.",
+        definitionOfDone: "Maintain continuous rhythm.",
+        commonMistakes: [
+          "Stopping when Mini F is imperfect",
+          "Forgetting the downstroke pulse",
+          "Letting one chord interrupt the whole progression"
+        ],
+        chordNames: ["C", "Am", "Mini F", "G"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-barre-accelerator-2",
+      title: "Building the Mini F",
+      purpose: "Confirm that Mini F is clean enough to use in simple chord changes and a short progression.",
+      requirements: [
+        "Mini F rings clearly",
+        "C to Mini F changes are improving",
+        "Mini F to C changes are improving",
+        "C, Am, Mini F and G can be played with continuous rhythm",
+        "You know which transition needs two extra minutes of practice"
+      ],
+      passRule: "Pass if Mini F is mostly clean and the first progression keeps moving without stopping.",
+      completed: false
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-barre-accelerator-3",
+      missionId: "mission-barre-chord-accelerator",
+      lessonNumber: 3,
+      title: "Introducing the Full F",
+      description: "Learn the complete Full F shape. Do not expect perfect sounding chords today. Today's objective is learning the shape.",
+      objectiveHeading: "What you'll learn",
+      objective: "Learn the complete Full F shape. Do not expect perfect sounding chords today. Today's objective is learning the shape.",
+      whyThisLesson: "Every guitarist struggles with the first full barre chord. Learning the shape now makes future practice much easier.",
+      coachNotes: "Every guitarist misses notes when learning Full F. Diagnosis is faster than repetition.",
+      estimatedMinutes: 25,
+      skillIds: ["skill-chord-changes"],
+      connectedSongs: [],
+      recommendedSongs: [],
+      checkpoint: "checkpoint-barre-accelerator-3",
+      practiceJournal: [
+        "Where did the Full F shape feel unfamiliar?",
+        "Which strings buzzed most often?",
+        "Did diagnosis help more than repeated strumming?"
+      ],
+      reflectionPrompts: [
+        "Where did the Full F shape feel unfamiliar?",
+        "Which strings buzzed most often?",
+        "Did diagnosis help more than repeated strumming?"
+      ],
+      ongoingPractice: {
+        duration: "Daily",
+        items: [
+          "Mini F",
+          "Full F holds",
+          "Two-string barre"
+        ]
+      },
+      completionMessage: "You've built your first full barre chord.",
+      completed: false
+    },
+    exercises: [
+      {
+        id: "exercise-barre-accelerator-3-learn-shape",
+        title: "Warm-up",
+        purpose: "Continue the familiar small-shape work before building Full F.",
+        objective: "Prepare the hand with two-string barre and Mini F before attempting the full shape.",
+        instructionSteps: [
+          "Play the two-string barre.",
+          "Release completely.",
+          "Build Mini F.",
+          "Check the intended strings.",
+          "Keep the hand relaxed."
+        ],
+        durationMinutes: 3,
+        tempo: "",
+        passCriteria: "The two-string barre and Mini F feel relaxed before starting Full F.",
+        definitionOfDone: "The two-string barre and Mini F feel relaxed before starting Full F.",
+        commonMistakes: [
+          "Skipping the warm-up",
+          "Carrying tension into the Full F shape",
+          "Trying to prove the full chord before the hand is ready"
+        ],
+        chordNames: ["Mini F"]
+      },
+      {
+        id: "exercise-barre-accelerator-3-string-check",
+        title: "Build the Shape",
+        purpose: "Construct the Full F chord one finger at a time.",
+        objective: "Comfortably build the shape without rushing.",
+        instructionSteps: [
+          "Study the Full F chord diagram.",
+          "Construct the Full F chord one finger at a time.",
+          "Do not strum until every finger is in place.",
+          "Hold the shape for five seconds.",
+          "Relax completely.",
+          "Repeat ten times."
+        ],
+        durationMinutes: 7,
+        tempo: "",
+        passCriteria: "Comfortably build the shape without rushing.",
+        definitionOfDone: "Comfortably build the shape without rushing.",
+        commonMistakes: [
+          "Trying to place all fingers at once",
+          "Rushing the barre",
+          "Holding tension after each attempt"
+        ],
+        chordNames: ["Full F major"]
+      },
+      {
+        id: "exercise-barre-accelerator-3-c-to-mini-f",
+        title: "Diagnose the Chord",
+        purpose: "Find out where the Full F chord is failing.",
+        objective: "Understand where problems occur instead of repeatedly strumming and hoping it improves.",
+        instructionSteps: [
+          "Build the Full F chord.",
+          "Pick every string individually.",
+          "If a note buzzes, identify which finger caused it.",
+          "Adjust that finger.",
+          "Test again.",
+          "Do not repeatedly strum hoping it improves."
+        ],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Understand where problems occur.",
+        definitionOfDone: "Understand where problems occur.",
+        commonMistakes: [
+          "Repeatedly strumming the whole chord",
+          "Moving the whole hand for one bad string",
+          "Treating buzzing as failure instead of information"
+        ],
+        coachTip: "Every guitarist misses notes when learning Full F. Diagnosis is faster than repetition.",
+        chordNames: ["Full F major"]
+      },
+      {
+        id: "exercise-barre-accelerator-3-mini-f-to-g",
+        title: "Mini F versus Full F",
+        purpose: "Notice how similar the Mini F and Full F shapes are.",
+        objective: "Develop familiarity with the full shape by comparing it to the Mini F you already know.",
+        instructionSteps: [
+          "Play Mini F.",
+          "Build Full F.",
+          "Return to Mini F.",
+          "Build Full F again.",
+          "Notice how similar the shapes are."
+        ],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Develop familiarity.",
+        definitionOfDone: "Develop familiarity.",
+        commonMistakes: [
+          "Treating Full F as unrelated to Mini F",
+          "Forcing the full chord to sound perfect",
+          "Forgetting to release tension between shapes"
+        ],
+        chordNames: ["Mini F", "Full F major"]
+      },
+      {
+        id: "exercise-barre-accelerator-3-progression",
+        title: "Finish With Music",
+        purpose: "End the lesson with a playable progression.",
+        objective: "Return to a progression that feels musical so the session does not end frustrated.",
+        instructionSteps: [
+          "Play C.",
+          "Play Am.",
+          "Play Mini F.",
+          "Play G.",
+          "Use steady downstrokes.",
+          "Finish with something enjoyable.",
+          "Do not end the lesson frustrated."
+        ],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Finish with something enjoyable.",
+        definitionOfDone: "Finish with something enjoyable.",
+        commonMistakes: [
+          "Ending the session stuck on a failed Full F",
+          "Ignoring musical rhythm",
+          "Turning the lesson into a frustration loop"
+        ],
+        chordNames: ["C", "Am", "Mini F", "G"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-barre-accelerator-3",
+      title: "Introducing the Full F",
+      purpose: "Confirm that the Full F shape is familiar enough to practise without rushing or forcing it.",
+      requirements: [
+        "You can build the Full F shape slowly",
+        "You do not expect perfect sounding chords today",
+        "You can diagnose where buzzing occurs",
+        "You can compare Mini F and Full F without tension",
+        "You can finish the lesson by returning to music"
+      ],
+      passRule: "Pass if you can build the Full F shape comfortably and understand where problems occur.",
+      completed: false
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-barre-accelerator-4",
+      missionId: "mission-barre-chord-accelerator",
+      lessonNumber: 4,
+      title: "Your First Full F",
+      description: "Play your first recognisable Full F chord.",
+      objectiveHeading: "What you'll learn",
+      objective: "Play your first recognisable Full F chord.",
+      whyThisLesson: "Today you begin using Full F as a musical chord rather than just a hand exercise.",
+      coachNotes: "Resetting between attempts teaches better muscle memory than fighting one bad position.",
+      estimatedMinutes: 25,
+      skillIds: ["skill-chord-changes"],
+      connectedSongs: [],
+      recommendedSongs: [],
+      checkpoint: "checkpoint-barre-accelerator-4",
+      practiceJournal: [
+        "Which is harder: building F or changing into F?",
+        "Did resetting help more than squeezing?",
+        "Could you finish every progression?"
+      ],
+      reflectionPrompts: [
+        "Which is harder: building F or changing into F?",
+        "Did resetting help more than squeezing?",
+        "Could you finish every progression?"
+      ],
+      ongoingPractice: {
+        duration: "Five minutes daily",
+        items: [
+          "Full F",
+          "Mini F",
+          "Two-string barre"
+        ]
+      },
+      completionMessage: "You've played your first Full F in a progression.",
+      completed: false
+    },
+    exercises: [
+      {
+        id: "exercise-barre-accelerator-4-learn-shape",
+        title: "Warm-up",
+        purpose: "Continue ongoing practice before trying recognisable Full F attempts.",
+        objective: "Prepare the hand with Full F, Mini F and two-string barre work.",
+        instructionSteps: [
+          "Play the two-string barre.",
+          "Build Mini F.",
+          "Build Full F slowly.",
+          "Release completely between attempts.",
+          "Keep the warm-up relaxed."
+        ],
+        durationMinutes: 3,
+        tempo: "",
+        passCriteria: "The hand feels prepared and relaxed.",
+        definitionOfDone: "The hand feels prepared and relaxed.",
+        commonMistakes: [
+          "Skipping the release between shapes",
+          "Warming up with too much pressure",
+          "Starting the Full F attempts already tense"
+        ],
+        chordNames: ["Full F major", "Mini F"]
+      },
+      {
+        id: "exercise-barre-accelerator-4-string-check",
+        title: "Full F Attempts",
+        purpose: "Make ten clear attempts at a recognisable Full F.",
+        objective: "Build, listen, diagnose and reset instead of fighting one failed chord.",
+        instructionSteps: [
+          "Build the Full F chord.",
+          "Strum once.",
+          "Listen.",
+          "Identify any buzzing.",
+          "Relax completely.",
+          "Reset.",
+          "Repeat for ten attempts.",
+          "Never keep squeezing the same failed chord."
+        ],
+        durationMinutes: 8,
+        tempo: "",
+        passCriteria: "One recognisable Full F.",
+        definitionOfDone: "One recognisable Full F.",
+        commonMistakes: [
+          "Keeping pressure on a failed chord",
+          "Squeezing harder instead of resetting",
+          "Ignoring what the chord actually sounds like"
+        ],
+        coachTip: "Resetting between attempts teaches better muscle memory than fighting one bad position.",
+        chordNames: ["Full F major"]
+      },
+      {
+        id: "exercise-barre-accelerator-4-compare",
+        title: "Full F to C",
+        purpose: "Practise moving from Full F into a familiar open chord.",
+        objective: "Make the F to C transition smooth before adding speed.",
+        instructionSteps: [
+          "Play Full F.",
+          "Move to C.",
+          "Play C.",
+          "Move back to Full F.",
+          "Work slowly.",
+          "Choose accuracy before speed."
+        ],
+        durationMinutes: 7,
+        tempo: "",
+        passCriteria: "Twenty smooth transitions.",
+        definitionOfDone: "Twenty smooth transitions.",
+        commonMistakes: [
+          "Trying to make the change fast too soon",
+          "Dragging tension from Full F into C",
+          "Stopping after every imperfect F"
+        ],
+        chordNames: ["Full F major", "C"]
+      },
+      {
+        id: "exercise-barre-accelerator-4-to-c",
+        title: "Full Progression",
+        purpose: "Use Full F in a musical progression.",
+        objective: "Finish every progression while maintaining rhythm.",
+        instructionSteps: [
+          "Play C.",
+          "Play Full F.",
+          "Play Am.",
+          "Play G.",
+          "Continue without stopping.",
+          "Ignore tiny mistakes.",
+          "Maintain rhythm.",
+          "Repeat ten times."
+        ],
+        durationMinutes: 7,
+        tempo: "",
+        passCriteria: "Finish every progression.",
+        definitionOfDone: "Finish every progression.",
+        commonMistakes: [
+          "Stopping when Full F is not perfect",
+          "Letting the rhythm disappear",
+          "Restarting instead of recovering"
+        ],
+        chordNames: ["C", "Full F major", "Am", "G"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-barre-accelerator-4",
+      title: "Your First Full F",
+      purpose: "Confirm that Full F is becoming a recognisable musical chord.",
+      requirements: [
+        "You can produce one recognisable Full F",
+        "You can move between Full F and C slowly",
+        "You can play C, Full F, Am and G without stopping",
+        "You reset between failed attempts instead of squeezing harder",
+        "You know whether building F or changing into F needs more practice"
+      ],
+      passRule: "Pass if you can produce a recognisable Full F and use it in the progression without stopping.",
+      completed: false
+    }
+  }
+];
+
+barreAcceleratorLessonsTwoToFour.forEach(({ lesson, exercises, checkpoint }) => {
+  upsertAcademyItem("lessons", {
+    ...lesson,
+    exercises: exercises.map((exercise) => exercise.id)
+  });
+  exercises.forEach((exercise) => {
+    upsertAcademyItem("exercises", {
+      ...exercise,
+      lessonId: lesson.id,
+      instructions: exercise.instructionSteps.join(" "),
+      skillIds: lesson.skillIds,
+      mediaLinks: [],
+      completed: false
+    });
+  });
+  upsertAcademyItem("checkpoints", {
+    ...checkpoint,
+    lessonId: lesson.id
+  });
+});
+
 const buildingFirstFullFExercises = [
   {
     id: "exercise-barre-accelerator-5-learn-full-shape",
@@ -6338,6 +6843,882 @@ barreAcceleratorFinalLessons.forEach(({ lesson, exercises, checkpoint }) => {
     ...checkpoint,
     lessonId: lesson.id,
     completed: false
+  });
+});
+
+const barreAcceleratorLessonsFiveToSeven = [
+  {
+    lesson: {
+      id: "lesson-barre-accelerator-5",
+      missionId: "mission-barre-chord-accelerator",
+      lessonNumber: 5,
+      title: "Playing F Without Fighting It",
+      description: "Learn to play the Full F chord with less effort by improving efficiency instead of increasing strength.",
+      objectiveHeading: "What you'll learn",
+      objective: "Learn to play the Full F chord with less effort by improving efficiency instead of increasing strength.",
+      whyThisLesson: "Many players assume the answer is squeezing harder. In reality, cleaner barre chords usually come from better positioning, better thumb placement and using only the pressure required.",
+      coachNotes: "Most players use far more pressure than necessary. Learning the minimum pressure reduces fatigue and improves endurance.",
+      estimatedMinutes: 25,
+      skillIds: ["skill-chord-changes"],
+      connectedSongs: [],
+      recommendedSongs: [],
+      checkpoint: "checkpoint-barre-accelerator-5",
+      practiceJournal: [
+        "Which improved your chord the most: thumb position, finger angle, wrist angle, or less pressure?",
+        "What should I remember for future practice?"
+      ],
+      reflectionPrompts: [
+        "Which improved your chord the most: thumb position, finger angle, wrist angle, or less pressure?",
+        "What should I remember for future practice?"
+      ],
+      ongoingPractice: {
+        duration: "5 minutes daily",
+        items: [
+          "Two-string barre",
+          "Full F",
+          "Mini F"
+        ]
+      },
+      completionMessage: "You’ve learned to play smarter, not harder.",
+      completed: false
+    },
+    exercises: [
+      {
+        id: "exercise-barre-accelerator-5-learn-full-shape",
+        title: "Warm-up",
+        purpose: "Prepare the hand without fatigue.",
+        objective: "Complete the familiar barre warm-up while relaxing between every repetition.",
+        instructionSteps: [
+          "Play the two-string barre.",
+          "Play Mini F.",
+          "Hold one Full F.",
+          "Relax your hand between every repetition.",
+          "Stop before the hand feels tired."
+        ],
+        durationMinutes: 3,
+        tempo: "",
+        passCriteria: "Prepare the hand without fatigue.",
+        definitionOfDone: "Prepare the hand without fatigue.",
+        commonMistakes: [
+          "Skipping the release between repetitions",
+          "Trying to warm up by squeezing harder",
+          "Starting the lesson already fatigued"
+        ],
+        chordNames: ["Mini F", "Full F major"]
+      },
+      {
+        id: "exercise-barre-accelerator-5-finger-placement-check",
+        title: "Find Minimum Pressure",
+        purpose: "Discover how little pressure is actually required.",
+        objective: "Find the lightest pressure that still lets the Full F chord ring.",
+        instructionSteps: [
+          "Build a Full F chord.",
+          "Gradually reduce finger pressure until buzzing begins.",
+          "Slowly increase pressure only until every note rings again.",
+          "Release completely.",
+          "Repeat ten times."
+        ],
+        durationMinutes: 7,
+        tempo: "",
+        passCriteria: "Discover how little pressure is actually required.",
+        definitionOfDone: "Discover how little pressure is actually required.",
+        commonMistakes: [
+          "Keeping maximum pressure throughout the exercise",
+          "Ignoring the first point where the chord becomes clear",
+          "Treating pressure as the only solution"
+        ],
+        coachTip: "Most players use far more pressure than necessary. Learning the minimum pressure reduces fatigue and improves endurance.",
+        chordNames: ["Full F major"]
+      },
+      {
+        id: "exercise-barre-accelerator-5-build-release-repeat",
+        title: "Small Adjustments",
+        purpose: "Find the cleanest position using the least effort.",
+        objective: "Experiment with one setup detail at a time instead of squeezing harder.",
+        instructionSteps: [
+          "Build a Full F chord.",
+          "Without squeezing harder, experiment with thumb position.",
+          "Experiment with elbow position.",
+          "Experiment with slight finger rotation.",
+          "Experiment with wrist angle.",
+          "Change only one thing at a time.",
+          "Notice which adjustment makes the chord cleaner with less effort."
+        ],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Find the cleanest position using the least effort.",
+        definitionOfDone: "Find the cleanest position using the least effort.",
+        commonMistakes: [
+          "Changing several things at once",
+          "Adding pressure before testing position",
+          "Ignoring thumb and wrist comfort"
+        ],
+        chordNames: ["Full F major"]
+      },
+      {
+        id: "exercise-barre-accelerator-5-minimum-pressure",
+        title: "Musical Application",
+        purpose: "Stay in rhythm while improving consistency.",
+        objective: "Use Full F repeatedly inside a progression without fighting every buzz.",
+        instructionSteps: [
+          "Play C.",
+          "Play Full F.",
+          "Play Am.",
+          "Play Full F.",
+          "Play G.",
+          "Play Full F.",
+          "Repeat eight times.",
+          "Remain relaxed.",
+          "If the F buzzes, continue playing and fix it on the next repetition."
+        ],
+        durationMinutes: 10,
+        tempo: "",
+        passCriteria: "Stay in rhythm while improving consistency.",
+        definitionOfDone: "Stay in rhythm while improving consistency.",
+        commonMistakes: [
+          "Stopping every time F buzzes",
+          "Losing the rhythm while checking the chord",
+          "Trying to fix the same chord by crushing the neck"
+        ],
+        chordNames: ["C", "Full F major", "Am", "G"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-barre-accelerator-5",
+      title: "Playing F Without Fighting It",
+      purpose: "Confirm that Full F is becoming more efficient and less tense.",
+      requirements: [
+        "You can find the minimum pressure needed for Full F",
+        "You can improve the chord by adjusting position instead of squeezing harder",
+        "You can play C, F, Am, F, G, F with continuous rhythm",
+        "You know which adjustment improved your chord the most"
+      ],
+      passRule: "Pass if Full F is playable with less effort and the musical application keeps moving.",
+      completed: false
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-barre-accelerator-6",
+      missionId: "mission-barre-chord-accelerator",
+      lessonNumber: 6,
+      title: "Your Second Barre Chord — B Minor",
+      description: "Learn the B minor shape and recognise that it uses the same principles as the Full F chord.",
+      objectiveHeading: "What you'll learn",
+      objective: "Learn the B minor shape and recognise that it uses the same principles as the Full F chord.",
+      whyThisLesson: "Once you can play one barre chord, many others become much easier. Bm is one of the most common minor barre chords in rock music.",
+      coachNotes: "Don’t think of Bm as a completely new chord. Think of it as another application of your barre technique.",
+      estimatedMinutes: 30,
+      skillIds: ["skill-chord-changes"],
+      connectedSongs: [],
+      recommendedSongs: [],
+      checkpoint: "checkpoint-barre-accelerator-6",
+      practiceJournal: [
+        "Does Bm feel easier or harder than F?",
+        "Why?"
+      ],
+      reflectionPrompts: [
+        "Does Bm feel easier or harder than F?",
+        "Why?"
+      ],
+      ongoingPractice: {
+        duration: "5 minutes daily",
+        items: [
+          "Full F",
+          "Bm",
+          "Mini F"
+        ]
+      },
+      completionMessage: "You can now play two movable barre chords.",
+      completed: false
+    },
+    exercises: [
+      {
+        id: "exercise-barre-accelerator-6-relaxation-check",
+        title: "Warm-up",
+        purpose: "Prepare the hand with familiar barre shapes before adding Bm.",
+        objective: "Reconnect with Mini F and Full F before building the new chord.",
+        instructionSteps: [
+          "Play Mini F for one minute.",
+          "Play Full F for one minute.",
+          "Perform five relaxed Full F holds.",
+          "Release completely between each hold."
+        ],
+        durationMinutes: 3,
+        tempo: "",
+        passCriteria: "The hand feels warm and relaxed before building Bm.",
+        definitionOfDone: "The hand feels warm and relaxed before building Bm.",
+        commonMistakes: [
+          "Skipping the Full F holds",
+          "Holding tension between repetitions",
+          "Starting Bm before the hand is settled"
+        ],
+        chordNames: ["Mini F", "Full F major"]
+      },
+      {
+        id: "exercise-barre-accelerator-6-ten-second-holds",
+        title: "Build B Minor",
+        purpose: "Construct the Bm chord one finger at a time.",
+        objective: "Play one recognisable Bm chord.",
+        instructionSteps: [
+          "Study the Bm chord diagram.",
+          "Construct the Bm chord one finger at a time.",
+          "Check every string individually.",
+          "Adjust position before increasing pressure.",
+          "Release and rebuild as needed."
+        ],
+        durationMinutes: 8,
+        tempo: "",
+        passCriteria: "Play one recognisable Bm chord.",
+        definitionOfDone: "Play one recognisable Bm chord.",
+        commonMistakes: [
+          "Treating Bm as completely unrelated to F",
+          "Increasing pressure before adjusting position",
+          "Trying to place every finger at once"
+        ],
+        coachTip: "Don’t think of Bm as a completely new chord. Think of it as another application of your barre technique.",
+        chordNames: ["Bm"]
+      },
+      {
+        id: "exercise-barre-accelerator-6-twenty-second-holds",
+        title: "Hold and Reset",
+        purpose: "Develop consistency without fatigue.",
+        objective: "Build and release Bm repeatedly so the shape becomes familiar.",
+        instructionSteps: [
+          "Build Bm.",
+          "Hold for five seconds.",
+          "Release completely.",
+          "Shake your hand.",
+          "Repeat ten times."
+        ],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Develop consistency without fatigue.",
+        definitionOfDone: "Develop consistency without fatigue.",
+        commonMistakes: [
+          "Holding too long",
+          "Forgetting to reset",
+          "Letting fatigue decide the shape"
+        ],
+        chordNames: ["Bm"]
+      },
+      {
+        id: "exercise-barre-accelerator-6-pressure-reset",
+        title: "Bm Changes",
+        purpose: "Practise moving into and out of Bm.",
+        objective: "Complete twenty smooth transitions.",
+        instructionSteps: [
+          "Play G.",
+          "Move to Bm.",
+          "Return to G.",
+          "Move to Bm again.",
+          "Then play A.",
+          "Move to Bm.",
+          "Return to A.",
+          "Move to Bm again.",
+          "Move slowly."
+        ],
+        durationMinutes: 7,
+        tempo: "",
+        passCriteria: "Twenty smooth transitions.",
+        definitionOfDone: "Twenty smooth transitions.",
+        commonMistakes: [
+          "Rushing the move into Bm",
+          "Dragging tension from Bm back into open chords",
+          "Stopping after every rough attempt"
+        ],
+        chordNames: ["G", "Bm", "A"]
+      },
+      {
+        id: "exercise-barre-accelerator-6-barre-recovery",
+        title: "First Progression",
+        purpose: "Use Bm in a musical progression.",
+        objective: "Finish every progression without stopping.",
+        instructionSteps: [
+          "Play G.",
+          "Play Bm.",
+          "Play A.",
+          "Play G.",
+          "Repeat ten times.",
+          "Keep the rhythm steady.",
+          "Ignore small mistakes."
+        ],
+        durationMinutes: 7,
+        tempo: "",
+        passCriteria: "Finish every progression without stopping.",
+        definitionOfDone: "Finish every progression without stopping.",
+        commonMistakes: [
+          "Restarting after an imperfect Bm",
+          "Letting the rhythm disappear",
+          "Over-squeezing as the progression repeats"
+        ],
+        chordNames: ["G", "Bm", "A"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-barre-accelerator-6",
+      title: "Your Second Barre Chord — B Minor",
+      purpose: "Confirm that Bm is recognisable and uses the same relaxed mechanics as Full F.",
+      requirements: [
+        "You can build a recognisable Bm",
+        "You can reset Bm without fatigue",
+        "You can practise G to Bm and A to Bm changes",
+        "You can play G, Bm, A, G without stopping",
+        "You can compare how Bm feels against Full F"
+      ],
+      passRule: "Pass if Bm is recognisable and can be used in the first progression with steady rhythm.",
+      completed: false
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-barre-accelerator-7",
+      missionId: "mission-barre-chord-accelerator",
+      lessonNumber: 7,
+      title: "Making Barre Chords Automatic",
+      description: "Build confidence changing between open chords and barre chords without stopping the music.",
+      objectiveHeading: "What you'll learn",
+      objective: "Build confidence changing between open chords and barre chords without stopping the music.",
+      whyThisLesson: "Real songs don’t wait for perfect chord changes. Today’s focus is maintaining rhythm while improving accuracy.",
+      coachNotes: "Professional musicians don’t avoid mistakes. They recover so smoothly the audience often doesn’t notice.",
+      estimatedMinutes: 30,
+      skillIds: ["skill-chord-changes"],
+      connectedSongs: [],
+      recommendedSongs: [],
+      checkpoint: "checkpoint-barre-accelerator-7",
+      practiceJournal: [
+        "Which chord change still needs the most work?",
+        "What should I spend an extra two minutes on during tomorrow’s practice?"
+      ],
+      reflectionPrompts: [
+        "Which chord change still needs the most work?",
+        "What should I spend an extra two minutes on during tomorrow’s practice?"
+      ],
+      ongoingPractice: {
+        duration: "Five minutes daily",
+        items: [
+          "Full F",
+          "Bm",
+          "Random chord changes"
+        ]
+      },
+      completionMessage: "Your barre chords are becoming part of your normal playing.",
+      completed: false
+    },
+    exercises: [
+      {
+        id: "exercise-barre-accelerator-7-finger-path-awareness",
+        title: "Warm-up",
+        purpose: "Reconnect with every barre shape needed today.",
+        objective: "Play Mini F, Full F and Bm for one minute each.",
+        instructionSteps: [
+          "Play Mini F for one minute.",
+          "Play Full F for one minute.",
+          "Play Bm for one minute.",
+          "Release completely between shapes."
+        ],
+        durationMinutes: 3,
+        tempo: "",
+        passCriteria: "Mini F, Full F and Bm feel ready for musical practice.",
+        definitionOfDone: "Mini F, Full F and Bm feel ready for musical practice.",
+        commonMistakes: [
+          "Skipping the release between shapes",
+          "Letting Bm create extra tension",
+          "Treating the warm-up as a speed test"
+        ],
+        chordNames: ["Mini F", "Full F major", "Bm"]
+      },
+      {
+        id: "exercise-barre-accelerator-7-c-to-f",
+        title: "Random Changes",
+        purpose: "Develop automatic movement.",
+        objective: "Practise common open-to-barre chord pairs until the motion feels more natural.",
+        instructionSteps: [
+          "Practise C to Full F and Full F to C ten times.",
+          "Practise G to Bm and Bm to G ten times.",
+          "Practise Am to Full F and Full F to Am ten times.",
+          "Practise A to Bm and Bm to A ten times.",
+          "Move slowly and reset if tension appears."
+        ],
+        durationMinutes: 7,
+        tempo: "",
+        passCriteria: "Develop automatic movement.",
+        definitionOfDone: "Develop automatic movement.",
+        commonMistakes: [
+          "Rushing the harder pair",
+          "Only practising the easy direction",
+          "Letting the hand fly too far away from the strings"
+        ],
+        chordNames: ["C", "Full F major", "G", "Bm", "Am", "A"]
+      },
+      {
+        id: "exercise-barre-accelerator-7-am-to-f",
+        title: "Rhythm First",
+        purpose: "Maintain rhythm above all else.",
+        objective: "Keep steady downstrokes through a progression containing Full F.",
+        instructionSteps: [
+          "Use steady downstrokes.",
+          "Play C.",
+          "Play Full F.",
+          "Play Am.",
+          "Play G.",
+          "Continue for five minutes.",
+          "Do not stop.",
+          "If a chord is missed, recover on the next one."
+        ],
+        durationMinutes: 8,
+        tempo: "",
+        passCriteria: "Maintain rhythm above all else.",
+        definitionOfDone: "Maintain rhythm above all else.",
+        commonMistakes: [
+          "Stopping to correct Full F",
+          "Letting accuracy interrupt rhythm",
+          "Restarting instead of recovering"
+        ],
+        coachTip: "Professional musicians don’t avoid mistakes. They recover so smoothly the audience often doesn’t notice.",
+        chordNames: ["C", "Full F major", "Am", "G"]
+      },
+      {
+        id: "exercise-barre-accelerator-7-g-to-f",
+        title: "Mixed Progressions",
+        purpose: "Finish every progression without stopping.",
+        objective: "Play three mixed open-and-barre progressions with a consistent tempo.",
+        instructionSteps: [
+          "Play Progression 1 five times: C, Full F, Am, G.",
+          "Play Progression 2 five times: G, Bm, A, G.",
+          "Play Progression 3 five times: Am, Full F, C, G.",
+          "Maintain a consistent tempo.",
+          "Finish every progression without stopping."
+        ],
+        durationMinutes: 10,
+        tempo: "",
+        passCriteria: "Finish every progression without stopping.",
+        definitionOfDone: "Finish every progression without stopping.",
+        commonMistakes: [
+          "Pausing before the barre chord",
+          "Changing tempo between progressions",
+          "Avoiding the transition that needs the most work"
+        ],
+        chordNames: ["C", "Full F major", "Am", "G", "Bm", "A"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-barre-accelerator-7",
+      title: "Making Barre Chords Automatic",
+      purpose: "Confirm that open-to-barre changes are becoming part of normal playing.",
+      requirements: [
+        "You can warm up Mini F, Full F and Bm",
+        "You can practise C to F, G to Bm, Am to F, and A to Bm",
+        "You can keep rhythm through C, F, Am and G",
+        "You can finish the mixed progressions without stopping",
+        "You know which chord change needs the most work tomorrow"
+      ],
+      passRule: "Pass if rhythm keeps moving through open-to-barre changes and recovery feels natural.",
+      completed: false
+    }
+  }
+];
+
+barreAcceleratorLessonsFiveToSeven.forEach(({ lesson, exercises, checkpoint }) => {
+  upsertAcademyItem("lessons", {
+    ...lesson,
+    exercises: exercises.map((exercise) => exercise.id)
+  });
+  exercises.forEach((exercise) => {
+    upsertAcademyItem("exercises", {
+      ...exercise,
+      lessonId: lesson.id,
+      instructions: exercise.instructionSteps.join(" "),
+      coachTip: exercise.coachTip || "",
+      skillIds: lesson.skillIds,
+      mediaLinks: [],
+      completed: false
+    });
+  });
+  upsertAcademyItem("checkpoints", {
+    ...checkpoint,
+    lessonId: lesson.id
+  });
+});
+
+const barreAcceleratorLessonsEightAndNine = [
+  {
+    lesson: {
+      id: "lesson-barre-accelerator-8",
+      missionId: "mission-barre-chord-accelerator",
+      lessonNumber: 8,
+      title: "Playing Through Mistakes",
+      description: "Learn to keep playing even when a chord isn’t perfect. The objective is no longer perfect chords. The objective is keeping the music moving.",
+      objectiveHeading: "What you'll learn",
+      objective: "Learn to keep playing even when a chord isn’t perfect. The objective is no longer perfect chords. The objective is keeping the music moving.",
+      whyThisLesson: "When learning barre chords, stopping every time something buzzes creates hesitation and breaks your rhythm. Good players recover quickly. Today’s lesson teaches that skill.",
+      coachNotes: "If you stop every time something goes wrong, you’ll train yourself to hesitate. Recover instead.",
+      estimatedMinutes: 30,
+      skillIds: ["skill-chord-changes", "skill-rhythm"],
+      connectedSongs: [],
+      recommendedSongs: [],
+      checkpoint: "checkpoint-barre-accelerator-8",
+      practiceJournal: [
+        "During today’s lesson, what caused you to stop most often: changing into F, changing into Bm, rhythm, or looking at the fretboard?",
+        "What should I spend two extra minutes on tomorrow?"
+      ],
+      reflectionPrompts: [
+        "During today’s lesson, what caused you to stop most often: changing into F, changing into Bm, rhythm, or looking at the fretboard?",
+        "What should I spend two extra minutes on tomorrow?"
+      ],
+      ongoingPractice: {
+        duration: "Daily (5 minutes)",
+        items: [
+          "Full F",
+          "Bm",
+          "Random chord changes",
+          "One progression played continuously without stopping"
+        ]
+      },
+      completionMessage: "Music doesn’t require perfection. It requires momentum.",
+      completed: false
+    },
+    exercises: [
+      {
+        id: "exercise-barre-accelerator-8-learn-shape",
+        title: "Warm-up",
+        purpose: "Loosen the hands before playing.",
+        objective: "Play the main barre shapes with relaxed movement rather than perfect sound.",
+        instructionSteps: [
+          "Play Mini F for one minute.",
+          "Play Full F for one minute.",
+          "Play Bm for one minute.",
+          "Focus on relaxed movement rather than perfect sound."
+        ],
+        durationMinutes: 3,
+        tempo: "",
+        passCriteria: "Loosen the hands before playing.",
+        definitionOfDone: "Loosen the hands before playing.",
+        commonMistakes: [
+          "Turning the warm-up into a perfection test",
+          "Holding tension between shapes",
+          "Listening only for mistakes"
+        ],
+        chordNames: ["Mini F", "Full F major", "Bm"]
+      },
+      {
+        id: "exercise-barre-accelerator-8-string-check",
+        title: "Keep Strumming",
+        purpose: "Maintain uninterrupted rhythm.",
+        objective: "Keep the progression moving even if Full F buzzes.",
+        instructionSteps: [
+          "Play C.",
+          "Play Full F.",
+          "Play Am.",
+          "Play G.",
+          "Continue with steady downstrokes.",
+          "If F buzzes, do not stop.",
+          "Continue to G.",
+          "Fix it next time around.",
+          "Repeat for five minutes."
+        ],
+        durationMinutes: 8,
+        tempo: "",
+        passCriteria: "Maintain uninterrupted rhythm.",
+        definitionOfDone: "Maintain uninterrupted rhythm.",
+        commonMistakes: [
+          "Stopping when Full F buzzes",
+          "Trying to fix the chord during the beat",
+          "Letting one rough chord break the progression"
+        ],
+        coachTip: "If you stop every time something goes wrong, you’ll train yourself to hesitate. Recover instead.",
+        chordNames: ["C", "Full F major", "Am", "G"]
+      },
+      {
+        id: "exercise-barre-accelerator-8-f-to-bm-comparison",
+        title: "Down-Up Rhythm",
+        purpose: "Keep both rhythm and chord changes flowing.",
+        objective: "Use a simple down-up strumming pattern without letting tiny mistakes stop the music.",
+        instructionSteps: [
+          "Play C.",
+          "Play Full F.",
+          "Play Am.",
+          "Play G.",
+          "Use a simple down-up strumming pattern.",
+          "Start slowly.",
+          "Maintain even timing.",
+          "Ignore tiny mistakes."
+        ],
+        durationMinutes: 8,
+        tempo: "",
+        passCriteria: "Keep both rhythm and chord changes flowing.",
+        definitionOfDone: "Keep both rhythm and chord changes flowing.",
+        commonMistakes: [
+          "Stopping the strumming hand during Full F",
+          "Speeding up the upstrokes",
+          "Letting the chord hand control the rhythm hand"
+        ],
+        chordNames: ["C", "Full F major", "Am", "G"]
+      },
+      {
+        id: "exercise-barre-accelerator-8-am-to-bm",
+        title: "Mixed Barre Progressions",
+        purpose: "Complete every progression without stopping.",
+        objective: "Move through several open-and-barre progressions while preserving rhythm.",
+        instructionSteps: [
+          "Play Progression 1 five times: G, Bm, A, G.",
+          "Play Progression 2 five times: Am, Full F, C, G.",
+          "Play Progression 3 five times: C, Full F, G, Am.",
+          "Keep the rhythm moving.",
+          "Do not restart after mistakes."
+        ],
+        durationMinutes: 8,
+        tempo: "",
+        passCriteria: "Complete every progression without stopping.",
+        definitionOfDone: "Complete every progression without stopping.",
+        commonMistakes: [
+          "Pausing before Bm",
+          "Pausing before Full F",
+          "Letting each progression feel like a separate drill"
+        ],
+        chordNames: ["G", "Bm", "A", "Am", "Full F major", "C"]
+      },
+      {
+        id: "exercise-barre-accelerator-8-g-to-bm",
+        title: "Play For Enjoyment",
+        purpose: "Finish the lesson feeling musical rather than frustrated.",
+        objective: "Choose a progression and play without analysing every mistake.",
+        instructionSteps: [
+          "Choose your favourite progression from today’s lesson.",
+          "Play continuously for three minutes.",
+          "Do not analyse mistakes.",
+          "Simply enjoy playing."
+        ],
+        durationMinutes: 3,
+        tempo: "",
+        passCriteria: "Finish the lesson feeling musical rather than frustrated.",
+        definitionOfDone: "Finish the lesson feeling musical rather than frustrated.",
+        commonMistakes: [
+          "Judging every buzz",
+          "Forgetting to enjoy the sound",
+          "Stopping before the three minutes are finished"
+        ],
+        chordNames: ["Full F major", "Bm", "C", "G", "A", "Am"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-barre-accelerator-8",
+      title: "Playing Through Mistakes",
+      purpose: "Confirm that you can keep the music moving even when barre chords are imperfect.",
+      requirements: [
+        "You can warm up Mini F, Full F and Bm with relaxed movement",
+        "You can keep strumming when Full F buzzes",
+        "You can use down-up rhythm without stopping",
+        "You can complete mixed barre progressions without restarting",
+        "You know what caused you to stop most often"
+      ],
+      passRule: "Pass if the rhythm keeps moving and mistakes no longer automatically stop the progression.",
+      completed: false
+    }
+  },
+  {
+    lesson: {
+      id: "lesson-barre-accelerator-9",
+      missionId: "mission-barre-chord-accelerator",
+      lessonNumber: 9,
+      title: "Graduation – Using Barre Chords Naturally",
+      description: "Use Full F and Bm naturally inside musical progressions without thinking about every movement. Today’s lesson is about confidence rather than learning something new.",
+      objectiveHeading: "What you'll learn",
+      objective: "Use Full F and Bm naturally inside musical progressions without thinking about every movement. Today’s lesson is about confidence rather than learning something new.",
+      whyThisLesson: "Barre chords stop feeling difficult when they become part of your normal playing. Today’s lesson ties everything together.",
+      coachNotes: "Experienced players don’t think about every finger. They recognise the shape and trust their muscle memory. That is what you’re beginning to develop.",
+      estimatedMinutes: 30,
+      skillIds: ["skill-chord-changes", "skill-rhythm", "skill-song-performance"],
+      connectedSongs: [],
+      recommendedSongs: [],
+      checkpoint: "checkpoint-barre-accelerator-9",
+      practiceJournal: [
+        "I feel most confident with: Mini F, Full F, Bm, chord changes, or rhythm.",
+        "I still want to improve:"
+      ],
+      reflectionPrompts: [
+        "I feel most confident with: Mini F, Full F, Bm, chord changes, or rhythm.",
+        "I still want to improve:"
+      ],
+      ongoingPractice: {
+        duration: "Continue using these five-minute drills whenever you warm up",
+        items: [
+          "Full F",
+          "Bm",
+          "Random chord changes",
+          "One favourite progression",
+          "Barre chords improve through regular short practice rather than occasional long practice."
+        ]
+      },
+      completionMessage: "Barre Chord Accelerator Complete",
+      completed: false
+    },
+    exercises: [
+      {
+        id: "exercise-barre-accelerator-9-warm-up",
+        title: "Warm-up",
+        purpose: "Prepare both hands for continuous playing.",
+        objective: "Move between Mini F, Full F and Bm slowly without rushing.",
+        instructionSteps: [
+          "Play Mini F.",
+          "Play Full F.",
+          "Play Bm.",
+          "Repeat slowly.",
+          "Do not rush."
+        ],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Prepare both hands for continuous playing.",
+        definitionOfDone: "Prepare both hands for continuous playing.",
+        commonMistakes: [
+          "Trying to prove the chords are perfect",
+          "Rushing between shapes",
+          "Skipping the release between repetitions"
+        ],
+        chordNames: ["Mini F", "Full F major", "Bm"]
+      },
+      {
+        id: "exercise-barre-accelerator-9-four-chord-progression",
+        title: "Favourite Progressions",
+        purpose: "Play naturally rather than mechanically.",
+        objective: "Run the familiar progressions with rhythm and confidence.",
+        instructionSteps: [
+          "Play Progression 1 five times: C, Full F, Am, G.",
+          "Play Progression 2 five times: G, Bm, A, G.",
+          "Play Progression 3 five times: Am, Full F, C, G.",
+          "Maintain rhythm.",
+          "Do not stop."
+        ],
+        durationMinutes: 10,
+        tempo: "",
+        passCriteria: "Play naturally rather than mechanically.",
+        definitionOfDone: "Play naturally rather than mechanically.",
+        commonMistakes: [
+          "Thinking about every finger",
+          "Pausing before the barre chords",
+          "Restarting instead of recovering"
+        ],
+        chordNames: ["C", "Full F major", "Am", "G", "Bm", "A"]
+      },
+      {
+        id: "exercise-barre-accelerator-9-b-minor-progression",
+        title: "Barre Chord Challenge",
+        purpose: "Increase confidence locating the shape.",
+        objective: "Gradually rely more on feel than sight while moving into Full F.",
+        instructionSteps: [
+          "Without looking at your fretting hand, attempt Full F.",
+          "Move to C.",
+          "Move back to Full F.",
+          "Move to Am.",
+          "Repeat ten times.",
+          "Looking occasionally is fine.",
+          "The objective is gradually relying more on feel than sight."
+        ],
+        durationMinutes: 5,
+        tempo: "",
+        passCriteria: "Increase confidence locating the shape.",
+        definitionOfDone: "Increase confidence locating the shape.",
+        commonMistakes: [
+          "Refusing to glance when needed",
+          "Panicking if the first attempt misses",
+          "Moving the whole hand farther than necessary"
+        ],
+        coachTip: "Experienced players don’t think about every finger. They recognise the shape and trust their muscle memory. That is what you’re beginning to develop.",
+        chordNames: ["Full F major", "C", "Am"]
+      },
+      {
+        id: "exercise-barre-accelerator-9-mixed-progression",
+        title: "Play Like You’re Playing a Song",
+        purpose: "Play continuously for seven minutes.",
+        objective: "Choose any progression from Lessons 2–9 and treat it like music.",
+        instructionSteps: [
+          "Choose any progression from Lessons 2–9.",
+          "Imagine you’re accompanying a singer.",
+          "Focus on steady rhythm.",
+          "Focus on relaxed movement.",
+          "Focus on enjoying the music.",
+          "Ignore small mistakes.",
+          "Play continuously for seven minutes."
+        ],
+        durationMinutes: 7,
+        tempo: "",
+        passCriteria: "Play continuously for seven minutes.",
+        definitionOfDone: "Play continuously for seven minutes.",
+        commonMistakes: [
+          "Turning the performance back into a technical drill",
+          "Stopping after a rough barre chord",
+          "Forgetting to listen to the music"
+        ],
+        chordNames: ["Full F major", "Mini F", "Bm", "C", "G", "A", "Am"]
+      },
+      {
+        id: "exercise-barre-accelerator-9-recovery-practice",
+        title: "Graduation Recording",
+        purpose: "Complete your first recorded performance using both barre chords.",
+        objective: "Record two short progressions and listen for improvement, not only mistakes.",
+        instructionSteps: [
+          "Record yourself playing C, Full F, Am, G.",
+          "Record yourself playing G, Bm, A, G.",
+          "Listen back.",
+          "Notice what has improved since Lesson 1.",
+          "Do not focus only on mistakes."
+        ],
+        durationMinutes: 3,
+        tempo: "",
+        passCriteria: "Complete your first recorded performance using both barre chords.",
+        definitionOfDone: "Complete your first recorded performance using both barre chords.",
+        commonMistakes: [
+          "Avoiding recording because it feels exposed",
+          "Listening only for flaws",
+          "Missing the progress in your rhythm and recovery"
+        ],
+        chordNames: ["C", "Full F major", "Am", "G", "Bm", "A"]
+      }
+    ],
+    checkpoint: {
+      id: "checkpoint-barre-accelerator-9",
+      title: "Graduation – Using Barre Chords Naturally",
+      purpose: "Confirm that Full F and Bm are becoming part of your normal playing.",
+      requirements: [
+        "You can warm up Mini F, Full F and Bm",
+        "You can play favourite progressions without stopping",
+        "You can attempt Full F by feel more confidently",
+        "You can play like you are accompanying a song",
+        "You completed a short recording using both Full F and Bm"
+      ],
+      passRule: "Pass if Full F and Bm can be used naturally in progressions while rhythm and confidence remain the priority.",
+      moduleSummary: {
+        title: "🎉 Barre Chord Accelerator Complete",
+        message: "Congratulations. You can now confidently use Mini F, Full F and B minor. More importantly, you’ve learned how to practise barre chords efficiently. Continue using the daily five-minute routine as part of your normal guitar practice.",
+        continuingPractice: "Continue using Full F, Bm, random chord changes and one favourite progression as short regular warm-ups.",
+        skillsDeveloped: ["Mini F", "Full F", "B minor", "Efficient barre practice", "Minimum pressure", "Recovery", "Rhythm through mistakes"],
+        rewards: ["Completion badge", "100% progress", "Skill Builder marked complete"],
+        featuredSongsCompleted: []
+      },
+      completed: false
+    }
+  }
+];
+
+barreAcceleratorLessonsEightAndNine.forEach(({ lesson, exercises, checkpoint }) => {
+  upsertAcademyItem("lessons", {
+    ...lesson,
+    exercises: exercises.map((exercise) => exercise.id)
+  });
+  exercises.forEach((exercise) => {
+    upsertAcademyItem("exercises", {
+      ...exercise,
+      lessonId: lesson.id,
+      instructions: exercise.instructionSteps.join(" "),
+      coachTip: exercise.coachTip || "",
+      skillIds: lesson.skillIds,
+      mediaLinks: [],
+      completed: false
+    });
+  });
+  upsertAcademyItem("checkpoints", {
+    ...checkpoint,
+    lessonId: lesson.id
   });
 });
 

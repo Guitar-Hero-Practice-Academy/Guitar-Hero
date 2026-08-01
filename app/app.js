@@ -16,7 +16,8 @@ const state = {
   selectedId: null,
   selectedArtist: null,
   sidebarsCollapsed: localStorage.getItem("guitar-room-sidebars-collapsed") === "true",
-  setupCollapsed: localStorage.getItem("guitar-room-setup-collapsed") === "true",
+  toneCollapsed: localStorage.getItem("guitar-room-tone-collapsed") === "true" || localStorage.getItem("guitar-room-setup-collapsed") === "true",
+  chordsCollapsed: localStorage.getItem("guitar-room-chords-collapsed") === "true" || localStorage.getItem("guitar-room-setup-collapsed") === "true",
   editing: false,
   view: initialRoute.view,
   selectedMissionId: initialRoute.ids.missionId || getActiveMission() || null,
@@ -110,6 +111,9 @@ const els = {
   lessonExerciseProgress: document.getElementById("lessonExerciseProgress"),
   lessonExerciseProgressBar: document.getElementById("lessonExerciseProgressBar"),
   lessonExercises: document.getElementById("lessonExercises"),
+  lessonOngoingPracticeCard: document.getElementById("lessonOngoingPracticeCard"),
+  lessonOngoingPracticeIntro: document.getElementById("lessonOngoingPracticeIntro"),
+  lessonOngoingPracticeList: document.getElementById("lessonOngoingPracticeList"),
   reflectionWork: document.getElementById("reflectionWork"),
   reflectionNotice: document.getElementById("reflectionNotice"),
   reflectionFocus: document.getElementById("reflectionFocus"),
@@ -190,7 +194,8 @@ const els = {
   strumDisplay: document.getElementById("strumDisplay"),
   videoLink: document.getElementById("videoLink"),
   sidebarToggle: document.getElementById("sidebarToggle"),
-  setupToggle: document.getElementById("setupToggle"),
+  toneToggle: document.getElementById("toneToggle"),
+  chordsToggle: document.getElementById("chordsToggle"),
   editButton: document.getElementById("editButton"),
   saveButton: document.getElementById("saveButton"),
   cancelButton: document.getElementById("cancelButton"),
@@ -207,7 +212,8 @@ state.selectedId = sortedSongsForArtist(state.selectedArtist)[0]?.id || null;
 ensureAcademySelection();
 document.documentElement.style.setProperty("--chart-size", `${state.chartSize}px`);
 document.body.classList.toggle("sidebars-collapsed", state.sidebarsCollapsed);
-document.body.classList.toggle("setup-collapsed", state.setupCollapsed);
+document.body.classList.toggle("tone-collapsed", state.toneCollapsed);
+document.body.classList.toggle("chords-collapsed", state.chordsCollapsed);
 applyView();
 render();
 initializeAcademyProgress();
@@ -260,6 +266,10 @@ els.moduleLessonList.addEventListener("click", (event) => {
 els.moduleConnectedSongs.addEventListener("click", openRecommendedSong);
 els.syncNowButton.addEventListener("click", syncPendingProgress);
 els.lessonLessonsButton.addEventListener("click", () => setView("module-lessons", currentMissionForLesson()?.id));
+els.finishLessonButton.addEventListener("click", () => {
+  const lesson = currentLesson();
+  if (lesson?.checkpoint && !els.finishLessonButton.disabled) setView("checkpoint", lesson.checkpoint);
+});
 els.lessonExercises.addEventListener("click", (event) => {
   const button = event.target.closest("[data-exercise-id]");
   if (!button) return;
@@ -337,7 +347,8 @@ window.addEventListener("online", handleOnline);
 window.addEventListener("offline", handleOffline);
 els.songSearch.addEventListener("input", renderSongList);
 els.sidebarToggle.addEventListener("click", toggleSidebars);
-els.setupToggle.addEventListener("click", toggleSetup);
+els.toneToggle.addEventListener("click", toggleToneSetup);
+els.chordsToggle.addEventListener("click", toggleChords);
 els.editButton?.addEventListener("click", startEditing);
 els.cancelButton?.addEventListener("click", stopEditing);
 els.saveButton?.addEventListener("click", saveChart);
@@ -1620,7 +1631,27 @@ function renderLesson() {
   els.lessonExercises.innerHTML = exercises
     .map((exercise) => renderExerciseCard(exercise))
     .join("");
+  const allExercisesComplete = exercises.length > 0 && completedCount === exercises.length;
+  els.finishLessonButton.disabled = !allExercisesComplete;
+  els.finishLessonButton.title = allExercisesComplete
+    ? "Open the checkpoint"
+    : "Complete every exercise before finishing the lesson";
+  renderLessonOngoingPractice(lesson);
   renderLessonReflection(lesson);
+}
+
+function renderLessonOngoingPractice(lesson) {
+  if (!els.lessonOngoingPracticeCard) return;
+  const ongoing = lesson.ongoingPractice;
+  const items = Array.isArray(ongoing?.items)
+    ? ongoing.items
+    : Array.isArray(ongoing)
+      ? ongoing
+      : [];
+  const intro = ongoing?.duration || ongoing?.intro || "";
+  els.lessonOngoingPracticeCard.classList.toggle("hidden", !items.length && !intro);
+  els.lessonOngoingPracticeIntro.textContent = intro;
+  els.lessonOngoingPracticeList.innerHTML = renderListItems(items);
 }
 
 function openRecommendedSong(event) {
@@ -1906,8 +1937,7 @@ function continueToNextLesson() {
     return;
   }
   if (mission?.isSkillBuilder) {
-    state.selectedMissionId = getActiveMission() || missionOrder()[0]?.id || null;
-    setView("module-lessons", state.selectedMissionId);
+    setView("skill-builders");
     return;
   }
   const nextMission = nextMissionAfter(mission);
@@ -2169,7 +2199,7 @@ function renderCheckpoint() {
   els.checkpointSuccessMessage.textContent = assessment === "passed"
     ? moduleSummary
       ? `${moduleSummary.title}. ${moduleSummary.message}`
-      : "Lesson complete. Summary is ready below."
+      : lesson.completionMessage || "Lesson complete. Summary is ready below."
     : assessment === "not-yet"
       ? moduleSummary
         ? "Needs more practice. Review exercises marked Needs More Practice, then return to this assessment."
@@ -2189,6 +2219,7 @@ function renderCheckpoint() {
       ${displayedSummary.featuredSongsTotal ? `<div><span>Featured Songs Completed</span><strong>${displayedSummary.featuredSongsCompleted} / ${displayedSummary.featuredSongsTotal}</strong></div>` : ""}
       <div><span>Skills Developed</span><strong>${moduleSummary.skillsDeveloped.length}</strong></div>
       <div class="wide-stat"><span>Skills</span><strong>${moduleSummary.skillsDeveloped.map(escapeHtml).join(", ")}</strong></div>
+      ${moduleSummary.rewards?.length ? `<div class="wide-stat"><span>Completion</span><strong>${moduleSummary.rewards.map(escapeHtml).join(", ")}</strong></div>` : ""}
       <div class="wide-stat"><span>${isSkillBuilderSummary ? "Continuing Practice" : `Preparing for ${escapeHtml(nextMission ? moduleLabel(nextMission) : "what comes next")}`}</span><strong>${escapeHtml(moduleSummary.continuingPractice || moduleSummary.preparingForNextModule)}</strong></div>
     ` : ""}
   `;
@@ -2196,7 +2227,7 @@ function renderCheckpoint() {
   els.summaryRecommendedSongsSection.classList.toggle("hidden", !summarySongs.length);
   els.recommendedSongs.innerHTML = summarySongs.length ? renderRecommendedSongs(summarySongs) : "";
   els.continueNextLessonButton.textContent = isSkillBuilderSummary
-    ? "Continue Learning"
+    ? "Return to Skill Builders"
     : moduleSummary && nextMission
     ? `Continue to ${moduleLabel(nextMission)}`
     : moduleSummary
@@ -2509,17 +2540,29 @@ function toggleSidebars() {
 }
 
 function renderSetupToggle() {
-  const collapsed = state.setupCollapsed;
-  els.setupToggle.textContent = collapsed ? "Show setup" : "Hide setup";
-  els.setupToggle.title = collapsed ? "Show amp setup and chords" : "Hide amp setup and chords";
-  els.setupToggle.setAttribute("aria-label", collapsed ? "Show amp setup and chords" : "Hide amp setup and chords");
-  els.setupToggle.setAttribute("aria-expanded", String(!collapsed));
+  const toneCollapsed = state.toneCollapsed;
+  const chordsCollapsed = state.chordsCollapsed;
+  els.toneToggle.textContent = toneCollapsed ? "Show tone" : "Hide tone";
+  els.toneToggle.title = toneCollapsed ? "Show tone setup" : "Hide tone setup";
+  els.toneToggle.setAttribute("aria-label", toneCollapsed ? "Show tone setup" : "Hide tone setup");
+  els.toneToggle.setAttribute("aria-expanded", String(!toneCollapsed));
+  els.chordsToggle.textContent = chordsCollapsed ? "Show chords" : "Hide chords";
+  els.chordsToggle.title = chordsCollapsed ? "Show chord diagrams" : "Hide chord diagrams";
+  els.chordsToggle.setAttribute("aria-label", chordsCollapsed ? "Show chord diagrams" : "Hide chord diagrams");
+  els.chordsToggle.setAttribute("aria-expanded", String(!chordsCollapsed));
 }
 
-function toggleSetup() {
-  state.setupCollapsed = !state.setupCollapsed;
-  localStorage.setItem("guitar-room-setup-collapsed", String(state.setupCollapsed));
-  document.body.classList.toggle("setup-collapsed", state.setupCollapsed);
+function toggleToneSetup() {
+  state.toneCollapsed = !state.toneCollapsed;
+  localStorage.setItem("guitar-room-tone-collapsed", String(state.toneCollapsed));
+  document.body.classList.toggle("tone-collapsed", state.toneCollapsed);
+  renderSetupToggle();
+}
+
+function toggleChords() {
+  state.chordsCollapsed = !state.chordsCollapsed;
+  localStorage.setItem("guitar-room-chords-collapsed", String(state.chordsCollapsed));
+  document.body.classList.toggle("chords-collapsed", state.chordsCollapsed);
   renderSetupToggle();
 }
 
