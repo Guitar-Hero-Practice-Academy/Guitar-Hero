@@ -508,6 +508,19 @@ function createAcademyProgressService({ supabase, userId, isOnline }) {
   const exerciseNotesKey = "__exercise_notes";
   const lessonReflectionsKey = "__lesson_reflections";
   const completedLessonIdsKey = "__completed_lesson_ids";
+  const exerciseIdMigrations = new Map([
+    ["exercise-barre-accelerator-1-no-guitar-hand-check", "exercise-barre-accelerator-1-barre-setup"],
+    ["exercise-barre-accelerator-1-thumb-position-check", "exercise-barre-accelerator-1-barre-setup"],
+    ["exercise-barre-accelerator-1-two-string-contact", "exercise-barre-accelerator-1-barre-setup"],
+    ["exercise-barre-accelerator-1-pressure-test", "exercise-barre-accelerator-1-learn-mini-f"],
+    ["exercise-barre-accelerator-1-release-and-reset", "exercise-barre-accelerator-1-daily-practice"],
+    ["exercise-barre-accelerator-1-learn-the-shape", "exercise-barre-accelerator-1-learn-mini-f"],
+    ["exercise-barre-accelerator-1-learn-mini-f", "exercise-barre-accelerator-1-learn-mini-f"],
+    ["exercise-barre-accelerator-1-string-check", "exercise-barre-accelerator-1-mini-f-string-check"],
+    ["exercise-barre-accelerator-1-mini-f-to-g", "exercise-barre-accelerator-1-mini-f-progression"],
+    ["exercise-barre-accelerator-1-continuous-playing", "exercise-barre-accelerator-1-mini-f-progression"],
+    ["exercise-barre-accelerator-1-performance", "exercise-barre-accelerator-1-mini-f-progression"]
+  ]);
   const progress = emptyProgress();
   let pendingChanges = false;
 
@@ -526,6 +539,69 @@ function createAcademyProgressService({ supabase, userId, isOnline }) {
     };
   }
 
+  function migratedExerciseId(exerciseId) {
+    return exerciseIdMigrations.get(exerciseId) || exerciseId;
+  }
+
+  function mergeText(existing, incoming) {
+    const current = String(existing || "").trim();
+    const next = String(incoming || "").trim();
+    if (!current) return next;
+    if (!next || current.includes(next)) return current;
+    return `${current}\n\n${next}`;
+  }
+
+  function migrateExerciseSet(set) {
+    let changed = false;
+    const migrated = new Set();
+    set.forEach((exerciseId) => {
+      const nextId = migratedExerciseId(exerciseId);
+      if (nextId !== exerciseId) changed = true;
+      migrated.add(nextId);
+    });
+    return { value: migrated, changed };
+  }
+
+  function migrateExerciseMap(map) {
+    let changed = false;
+    const migrated = new Map();
+    map.forEach((value, exerciseId) => {
+      const nextId = migratedExerciseId(exerciseId);
+      if (nextId !== exerciseId) changed = true;
+      migrated.set(nextId, mergeText(migrated.get(nextId), value));
+    });
+    return { value: migrated, changed };
+  }
+
+  function migrateCurrentLocation(location) {
+    if (!location?.exerciseId) return { value: location || null, changed: false };
+    const nextExerciseId = migratedExerciseId(location.exerciseId);
+    if (nextExerciseId === location.exerciseId) return { value: { ...location }, changed: false };
+    return { value: { ...location, exerciseId: nextExerciseId }, changed: true };
+  }
+
+  function migrateProgressIds() {
+    let changed = false;
+    const completed = migrateExerciseSet(progress.completedExerciseIds);
+    progress.completedExerciseIds = completed.value;
+    changed = changed || completed.changed;
+
+    const review = migrateExerciseSet(progress.reviewExerciseIds);
+    progress.reviewExerciseIds = review.value;
+    changed = changed || review.changed;
+
+    const notes = migrateExerciseMap(progress.exerciseNotes);
+    progress.exerciseNotes = notes.value;
+    changed = changed || notes.changed;
+
+    const location = migrateCurrentLocation(progress.currentLocation);
+    progress.currentLocation = location.value;
+    changed = changed || location.changed;
+
+    progress.completedExerciseIds.forEach((exerciseId) => progress.reviewExerciseIds.delete(exerciseId));
+    return changed;
+  }
+
   function applyRow(row) {
     const checkpointResults = row?.checkpoint_results || {};
     progress.activeMissionId = row?.active_mission_id || null;
@@ -540,6 +616,7 @@ function createAcademyProgressService({ supabase, userId, isOnline }) {
     const entries = Object.entries(checkpointResults).filter(([key]) => !internalKeys.includes(key));
     progress.checkpointResults = new Map(entries);
     progress.updatedAt = row?.updated_at || null;
+    return migrateProgressIds();
   }
 
   function checkpointResultsPayload() {
@@ -564,6 +641,32 @@ function createAcademyProgressService({ supabase, userId, isOnline }) {
     progress.completedLessonIds = new Set(importedProgress.completedLessonIds || []);
     progress.currentLocation = importedProgress.currentLocation ? { ...importedProgress.currentLocation } : null;
     progress.updatedAt = new Date().toISOString();
+    migrateProgressIds();
+  }
+
+  function mergeSnapshotIntoProgress(localProgress) {
+    if (localProgress.activeMissionId) progress.activeMissionId = localProgress.activeMissionId;
+    localProgress.completedExerciseIds.forEach((exerciseId) => progress.completedExerciseIds.add(migratedExerciseId(exerciseId)));
+    localProgress.reviewExerciseIds.forEach((exerciseId) => {
+      const nextId = migratedExerciseId(exerciseId);
+      if (!progress.completedExerciseIds.has(nextId)) progress.reviewExerciseIds.add(nextId);
+    });
+    localProgress.checkpointResults.forEach((value, key) => progress.checkpointResults.set(key, value));
+    localProgress.journalData.forEach((value, key) => progress.journalData.set(key, value));
+    localProgress.exerciseNotes.forEach((value, key) => {
+      const nextId = migratedExerciseId(key);
+      progress.exerciseNotes.set(nextId, mergeText(progress.exerciseNotes.get(nextId), value));
+    });
+    localProgress.lessonReflections.forEach((value, key) => progress.lessonReflections.set(key, value));
+    localProgress.completedLessonIds.forEach((lessonId) => progress.completedLessonIds.add(lessonId));
+    if (localProgress.currentLocation) progress.currentLocation = migrateCurrentLocation(localProgress.currentLocation).value;
+    progress.completedExerciseIds.forEach((exerciseId) => progress.reviewExerciseIds.delete(exerciseId));
+    migrateProgressIds();
+  }
+
+  async function fetchProgressRow() {
+    const rows = await supabase.request(`academy_progress?user_id=eq.${encodeURIComponent(userId)}&select=*&limit=1`);
+    return Array.isArray(rows) ? rows[0] : null;
   }
 
   async function load() {
@@ -573,16 +676,23 @@ function createAcademyProgressService({ supabase, userId, isOnline }) {
     if (!isOnline()) {
       return { configured: true, progress: snapshot(), error: "" };
     }
-    const rows = await supabase.request(`academy_progress?user_id=eq.${encodeURIComponent(userId)}&select=*&limit=1`);
-    const row = Array.isArray(rows) ? rows[0] : null;
-    if (row) applyRow(row);
-    if (!row) await save();
+    const row = await fetchProgressRow();
+    const migrated = row ? applyRow(row) : false;
+    if (!row || migrated) await save({ mergeRemote: false });
     pendingChanges = false;
     return { configured: true, progress: snapshot(), error: "" };
   }
 
-  async function save() {
+  async function save(options = {}) {
     if (!supabase.configured) throw new Error(supabase.setupMessage);
+    if (options.mergeRemote !== false) {
+      const localProgress = snapshot();
+      const row = await fetchProgressRow();
+      if (row) {
+        applyRow(row);
+        mergeSnapshotIntoProgress(localProgress);
+      }
+    }
     const rows = await supabase.request("academy_progress?on_conflict=user_id", {
       method: "POST",
       headers: { Prefer: "resolution=merge-duplicates,return=representation" },
@@ -599,14 +709,14 @@ function createAcademyProgressService({ supabase, userId, isOnline }) {
     pendingChanges = false;
   }
 
-  async function persistOrQueue() {
+  async function persistOrQueue(options = {}) {
     if (!supabase.configured) throw new Error(supabase.setupMessage);
     if (!isOnline()) {
       pendingChanges = true;
       return snapshot();
     }
     try {
-      await save();
+      await save(options);
       return snapshot();
     } catch (error) {
       pendingChanges = true;
@@ -694,7 +804,7 @@ function createAcademyProgressService({ supabase, userId, isOnline }) {
       progress.lessonReflections.clear();
       progress.completedLessonIds.clear();
       progress.currentLocation = null;
-      return persistOrQueue();
+      return persistOrQueue({ mergeRemote: false });
     },
     async importProgress(importedProgress) {
       applyImportedProgress(importedProgress);
