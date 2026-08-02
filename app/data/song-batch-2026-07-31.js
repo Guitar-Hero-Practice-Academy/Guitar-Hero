@@ -29,11 +29,6 @@ window.initialSongs.push({
       note: "Driving acoustic-rock motion; keep the Em to Dsus2 movement tight."
     }
   ],
-  sourceImages: [
-    { src: "assets/morning-glory-1.png", caption: "Original PDF page 1" },
-    { src: "assets/morning-glory-2.png", caption: "Original PDF page 2" },
-    { src: "assets/morning-glory-3.png", caption: "Original PDF page 3" }
-  ],
   chart: `[Intro]
 Em
 Em
@@ -187,18 +182,17 @@ window.initialSongs.push({
   strumming: [
     { name: "Whole song", bpm: 92, beats: ["D", "", "D", "U", "", "U", "D", "U"], accents: [0, 4], chordRun: "C  G  F", note: "Soft, steady acoustic strum; let the capo brighten the open shapes." }
   ],
-  sourceImages: [
-    { src: "assets/do-you-remember-1.png", caption: "Original PDF page 1" },
-    { src: "assets/do-you-remember-2.png", caption: "Original PDF page 2" }
-  ],
   chart: `[Verse 1]
 C
 Do you remember when we first met?
 G          F
 I sure do. It was sometime in early September.
 
-[Verse / Chorus]
-Use the original PDF pages above for the exact chord-over-word positions.`
+[Verse 1 continued]
+G
+Well, you were lazy about it; you made me wait around.
+C                                      G
+I was so crazy about you, I didn't mind.`
 });
 
 window.initialSongs.push({
@@ -230,11 +224,6 @@ window.initialSongs.push({
   strumming: [
     { name: "Main movement", bpm: "", beats: ["D", "", "D", "U", "", "U", "D", "U"], accents: [0, 4], chordRun: "Em  G  Dsus2  Asus4", note: "Keep the big open-string movement steady under the vocal." }
   ],
-  sourceImages: [
-    { src: "assets/dyou-know-what-i-mean-1.png", caption: "Original PDF page 1" },
-    { src: "assets/dyou-know-what-i-mean-2.png", caption: "Original PDF page 2" },
-    { src: "assets/dyou-know-what-i-mean-3.png", caption: "Original PDF page 3" }
-  ],
   chart: `[Intro]
 | Em | play over helicopter noise until drums enter |
 | Em | G | Dsus2 | Asus4 |
@@ -242,8 +231,17 @@ window.initialSongs.push({
 | Em | G | Dsus2 | Asus4 |
 | Cadd9 | Dsus2 | Asus4 | Asus4 |
 
-[Verse / Chorus / Solo]
-Use the original PDF pages above for the exact chord-over-word positions.`
+[Verse 1]
+Em7                  G              Dsus2        Asus4
+Step off the train all alone at dawn, back into the hole where I was born
+Em7              G             Dsus2       Asus4
+The sun in the sky never raised an eye to me
+
+[Chorus]
+Em      G      Dsus2   A
+All my people right here right now
+Em      G      Dsus2   A
+D'you know what I mean? Yeah, yeah.`
 });
 
 window.initialSongs.push({
@@ -276,12 +274,6 @@ window.initialSongs.push({
   strumming: [
     { name: "Chorus movement", bpm: "", beats: ["D", "", "D", "U", "", "U", "D", "U"], accents: [0, 4], chordRun: "B  F#m  A  G#m", note: "Let the open top strings ring through the movement." }
   ],
-  sourceImages: [
-    { src: "assets/shiver-1.png", caption: "Original PDF page 1" },
-    { src: "assets/shiver-2.png", caption: "Original PDF page 2" },
-    { src: "assets/shiver-3.png", caption: "Original PDF page 3" },
-    { src: "assets/shiver-4.png", caption: "Original PDF page 4" }
-  ],
   chart: `[Intro]
 | E | E | E/F# |
 | E | E | E/F# |
@@ -290,8 +282,25 @@ B  F#m  A  G#m
 B  F#m  A  G#m
 A  G#m
 
-[Verse / Chorus]
-Use the original PDF pages above for the exact chord-over-word positions.`
+[Verse A1]
+E
+So I look in your direction
+B
+But you pay me no attention, do you?
+E
+I know you don't listen to me
+E
+'Cause you say you see straight through me
+
+[Chorus]
+B  F#m  A  G#m
+Don't you shiver
+B  F#m  A  G#m
+Shiver
+B  F#m  A  G#m
+Sing it loud and clear
+A        G#m
+I'll always be waiting for you.`
 });
 
 window.initialSongs.push({
@@ -325,14 +334,20 @@ window.initialSongs.push({
     { name: "Intro / verse", bpm: 105, beats: ["D", "", "D", "U", "", "U", "D", "U"], accents: [0, 4], chordRun: "Am  Am7  G  G7  F  F7  C  C7", note: "Barre walk-down feel; keep the changes clipped and even." },
     { name: "Chorus", bpm: 105, beats: ["D", "", "D", "U", "", "U", "D", "U"], accents: [0, 4], chordRun: "E  E7  Am*  Am7*", note: "Use the open Am shapes shown with asterisks in the PDF." }
   ],
-  sourceImages: [
-    { src: "assets/sitting-waiting-wishing-1.png", caption: "Original PDF page 1" },
-    { src: "assets/sitting-waiting-wishing-2.png", caption: "Original PDF page 2" },
-    { src: "assets/sitting-waiting-wishing-3.png", caption: "Original PDF page 3" }
-  ],
   chart: `[Intro]
 Am  Am7  G  G7  F  F7  C  C7
 
-[Verse / Chorus]
-Use the original PDF pages above for the exact chord-over-word positions.`
+[Verse 1]
+Am        Am7
+Well I was sittin', waitin', wishin'
+G          G7
+You believed in superstitions
+F          F7          C          C7
+Then maybe you'd see the signs
+
+[Chorus]
+E        E7        Am*        Am7*
+Must I always be waiting, waiting on you
+E        E7        Am*        Am7*
+Must I always be playing, playing your fool.`
 });
