@@ -157,7 +157,7 @@ Em  Dsus2`
 
 window.initialSongs.push({
   id: "jack-johnson-do-you-remember",
-  contentRevision: 1,
+  contentRevision: 2,
   title: "Do You Remember",
   artist: "Jack Johnson",
   album: "In Between Dreams",
@@ -185,19 +185,69 @@ window.initialSongs.push({
   chart: `[Verse 1]
 C
 Do you remember when we first met?
-G          F
-I sure do. It was sometime in early September.
-
-[Verse 1 continued]
+G                 F
+I sure do, it was sometime in early September
 G
-Well, you were lazy about it; you made me wait around.
+Well, you were lazy about it, you made me wait around
 C                                      G
-I was so crazy about you, I didn't mind.`
+I was so crazy about you, I didn't mind
+G
+So I was late for class, I locked my bike to yours
+F
+It wasn't hard to find, you painted flowers on it
+G
+Guess that I was afraid that if you rolled away
+G
+You might not roll back my direction real soon
+
+[Chorus]
+G
+Well, I was crazy 'bout you then
+G
+And now, but the craziest thing of all
+Fmaj7        C/E        Dm
+Over ten years have gone by
+Dm
+And you're still mine, we're locked in time
+Dm        Em
+Let's rewind
+
+[Verse 2]
+C
+Do you remember when we first moved in together?
+G                 F
+The piano took up the living room
+G
+You'd play me boogie-woogie, I'd play you love songs
+C                                      G
+You'd say we're playing house, now you still say we are
+G
+We built our getaway up in a tree we found
+F                 C
+We felt so far away, but we were still in town
+G
+Now, I remember watching that old tree burn down
+G
+I took a picture that I don't like to look at
+
+[Chorus]
+G
+Well, all these times, they come and go
+G
+And alone don't seem so long
+Fmaj7        C/E        Dm
+Over ten years have gone by
+D
+We can't rewind, we're locked in time
+Dm        Em
+But you're still mine
+Dm
+Do you remember`
 });
 
 window.initialSongs.push({
   id: "oasis-dyou-know-what-i-mean",
-  contentRevision: 1,
+  contentRevision: 2,
   title: "D'You Know What I Mean?",
   artist: "Oasis",
   album: "Be Here Now",
@@ -236,17 +286,130 @@ Em7                  G              Dsus2        Asus4
 Step off the train all alone at dawn, back into the hole where I was born
 Em7              G             Dsus2       Asus4
 The sun in the sky never raised an eye to me
+Em7                    G                  Dsus2            Asus4
+There's blood on the tracks and it must be mine, the fool on the hill and I feel fine
+Em7              G             Dsus2       Asus4
+Don't look back 'cause you know what you might see
+
+[Link]
+| Em7 | G | Dsus2 | Asus4 | Em7 | G | Dsus2 | Asus4 |
+
+[Verse 2]
+Em7              G              Dsus2        Asus4
+Look into the wall of my mind's eye, I think I know but I don't know why
+Em7              G             Dsus2       Asus4
+The questions are the answers you might need
+Em7                 G              Dsus2        Asus4
+Coming in a mess, going out in style, I ain't good-looking but I'm someone's child
+Em7              G             Dsus2       Asus4
+No one can give me the air that's mine to breathe
+
+[Bridge 1]
+Esus4 E             Dsus2
+I met my maker, I made him cry
+Esus4 E                 Dsus2
+And on my shoulder he asked me why
+Esus4 E              Dsus2
+His people won't fly through the storm
+Cmaj7                 Dsus2
+I said listen up man, they don't even know you're born
 
 [Chorus]
 Em      G      Dsus2   A
 All my people right here right now
 Em      G      Dsus2   A
-D'you know what I mean? Yeah, yeah.`
+D'you know what I mean? Yeah, yeah
+Em      G      Dsus2   A
+All my people right here right now
+Em      G      Dsus2   A
+D'you know what I mean? Yeah, yeah
+Em      G      Dsus2   A
+All my people right here right now
+Em      G      Dsus2   A
+D'you know what I mean? Yeah, yeah
+Em G Dsus2 A
+Yeah, yeah
+Em G Dsus2 A
+Yeah, yeah
+
+[Verse 3]
+Em7              G              Dsus2        Asus4
+I don't really care for what you believe, so open up your fist or you won't receive
+Em7              G             Dsus2       Asus4
+The thoughts and the words of every man you'll need
+Em7              G              Dsus2        Asus4
+So get up off the floor and believe in life, no one's ever gonna ever ask you twice
+Em7              G             Dsus2       Asus4
+Get on the bus and bring it on home to me
+
+[Bridge 2]
+Esus4 E             Dsus2
+I met my maker, I made him cry
+Esus4 E                 Dsus2
+And on my shoulder he asked me why
+Esus4 E              Dsus2
+His people won't fly through the storm
+Cmaj7                 Dsus2
+I said listen up man, they don't even know you're born
+
+[Chorus]
+Em      G      Dsus2   A
+All my people right here right now
+Em      G      Dsus2   A
+D'you know what I mean? Yeah, yeah
+Em      G      Dsus2   A
+All my people right here right now
+Em      G      Dsus2   A
+D'you know what I mean? Yeah, yeah
+Em      G      Dsus2   A
+All my people right here right now
+Em      G      Dsus2   A
+D'you know what I mean? Yeah, yeah
+Em G Dsus2 A
+Yeah, yeah
+Em G Dsus2 A
+Yeah, yeah
+Em G Dsus2 A
+Yeah, yeah
+Em G Dsus2 A
+Yeah, yeah
+
+[Middle]
+| Cmaj7 | Dsus2 | Cmaj7 | Dsus2 | Cmaj7 | Dsus2 |
+| Asus4 | Asus4 | Asus4 | Asus4 |
+
+[Solo]
+| Em | G | Dsus2 | Asus4 | Em | G | Dsus2 | Asus4 | x2
+
+[Final Chorus]
+Em      G      Dsus2   A
+All my people right here right now
+Em      G      Dsus2   A
+D'you know what I mean? Yeah, yeah
+Em      G      Dsus2   A
+All my people right here right now
+Em      G      Dsus2   A
+D'you know what I mean? Yeah, yeah
+Em      G      Dsus2   A
+All my people right here right now
+Em      G      Dsus2   A
+D'you know what I mean? Yeah, yeah
+Em G Dsus2 A
+Yeah, yeah
+Em G Dsus2 A
+Yeah, yeah
+Em G Dsus2 A
+Yeah, yeah
+Em G Dsus2 A
+Yeah, yeah
+
+[Outro]
+| Cmaj7 | Dsus2 | Cmaj7 | Dsus2 | Cmaj7 | Dsus2 | Em |`
 });
 
 window.initialSongs.push({
   id: "coldplay-shiver",
-  contentRevision: 1,
+  contentRevision: 2,
   title: "Shiver",
   artist: "Coldplay",
   album: "Parachutes",
@@ -290,7 +453,29 @@ But you pay me no attention, do you?
 E
 I know you don't listen to me
 E
-'Cause you say you see straight through me
+'Cause you say you see straight through me, don't you?
+
+[Verse B1]
+C#m
+But on and on, from the moment I wake
+F#
+To the moment I sleep
+F#7
+I'll be there by your side
+C#m
+Just you try and stop me
+B7
+I'll be waiting in line just to see if you care, oh-oh
+
+[Pre-Chorus]
+G#m        G#mmaj7        G#m7
+Oh-oh, did you want me to change?
+G#mmaj7
+Well, I'd change for good
+G#m        G#mmaj7        C#m
+And I want you to know that you'll always get your way
+G#mmaj7   G#m7   Emaj7
+And I wanted to say
 
 [Chorus]
 B  F#m  A  G#m
@@ -300,12 +485,85 @@ Shiver
 B  F#m  A  G#m
 Sing it loud and clear
 A        G#m
-I'll always be waiting for you.`
+I'll always be waiting for you
+
+[Verse A2]
+E
+So you know how much I need you
+B
+But you never even see me, do you?
+E
+And is this my final chance of getting you?
+
+[Verse B2]
+C#m
+But on and on, from the moment I wake
+F#
+To the moment I sleep
+F#7
+I'll be there by your side
+C#m
+Just you try and stop me
+B7
+I'll be waiting in line just to see if you can, if you can, oh-oh
+
+[Pre-Chorus]
+G#m        G#mmaj7        G#m7
+Oh-oh, did you want me to change?
+G#mmaj7
+Well, I'd change for good
+G#m        G#mmaj7        C#m
+And I want you to know that you'll always get your way
+G#mmaj7   G#m7   Emaj7
+And I wanted to say
+
+[Chorus]
+B  F#m  A  G#m
+Don't you shiver
+B  F#m  A  G#m
+Don't you shiver
+B  F#m  A  G#m
+Sing it loud and clear
+A        G#m
+I'll always be waiting for you
+
+[Bridge]
+| E | E | E |
+A        E
+Yeah, I'll always be waiting for you
+B        A
+Yeah, I'll always be waiting for you
+A        E
+Yeah, I'll always be waiting for you
+E
+For you, I will always be waiting
+
+[Outro]
+F#m
+And it's you I see
+G#m
+But you don't see me
+F#m
+And it's you I hear
+G#m
+So loud and so clear
+B  F#m  A  G#m
+I sing it loud and clear
+A        G#m
+And I'll always be waiting for you
+E
+So I look in your direction
+E
+But you pay me no attention
+E
+And you know how much I need you
+E
+But you never even see me`
 });
 
 window.initialSongs.push({
   id: "jack-johnson-sitting-waiting-wishing",
-  contentRevision: 1,
+  contentRevision: 2,
   title: "Sitting Waiting Wishing",
   artist: "Jack Johnson",
   album: "In Between Dreams",
@@ -344,10 +602,76 @@ G          G7
 You believed in superstitions
 F          F7          C          C7
 Then maybe you'd see the signs
+Am        Am7
+The Lord knows that this world is cruel
+G          G7
+And I ain't the Lord, no I'm just a fool
+F          F7          C          C7
+Learning lovin' somebody don't make them love you
 
 [Chorus]
 E        E7        Am*        Am7*
 Must I always be waiting, waiting on you
 E        E7        Am*        Am7*
-Must I always be playing, playing your fool.`
+Must I always be playing, playing your fool
+
+[Verse 2]
+Am        Am7
+I sang your songs, I danced your dance
+G          G7
+I gave your friends all a chance
+F          F7          C          C7
+But putting up with them wasn't worth never having you
+Am        Am7
+Aw, maybe you've been through this before
+G          G7
+But it's my first time so please ignore
+F          F7          C          C7
+The next few lines cause they're directed at you
+
+[Chorus]
+E        E7        Am*        Am7*
+I can't always be waiting, waiting on you
+E        E7        Am*        Am7*
+I can't always be playing, playing your fool
+
+[Bridge]
+C                 E
+I keep playing your part but it's not my scene
+F                 G
+Want this plot to twist, I've had enough mystery
+C                 E
+You keep building it up then shootin' me down
+F                 G
+But I'm already down, just wait a minute
+Am        Am7
+Just sittin', waitin'
+G        G7
+Just wait a minute
+F        F7        C        C7
+Just sittin', waitin'
+
+[Verse 3]
+Am        Am7
+Well, if I was in your position
+G          G7
+I'd put down all my ammunition
+F          F7          C          C7
+I'd wonder why it'd taken me so long
+Am        Am7
+But Lord knows that I'm not you
+G          G7
+And if I was, I wouldn't be so cruel
+F          F7          C          C7
+Cause waitin' on love ain't so easy to do
+
+[Chorus]
+E        E7        Am*        Am7*
+Must I always be waiting, waiting on you
+E        E7        Am*        Am7*
+Must I always be playing, playing your fool
+Am*      Am7*      Am*      Am7*
+No, I can't always be waiting, waiting on you
+Am*      Am7*      E
+I can't always be playing, playing your fool`
 });

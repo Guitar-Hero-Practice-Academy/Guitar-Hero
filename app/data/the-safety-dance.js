@@ -141,8 +141,12 @@ B F#                    C# G#
 
 B F#                    C# G#
        Well it's safe to dance    Well it's safe to dance
+B F#                    C# G#
        Yes it's safe to dance     Well it's safe to dance
+B F#                    C# G#
        Well it's safe to dance    It's a Safety Dance
+B F#                    C# G#
        Well it's a Safety Dance   Oh it's a Safety Dance
+B F#                    C# G#
        Oh it's a Safety Dance     Well it's a Safety Dance`
 });

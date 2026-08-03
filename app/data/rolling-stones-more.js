@@ -1,7 +1,7 @@
 window.initialSongs.push(
   {
     id: "rolling-stones-gimme-shelter",
-    contentRevision: 1,
+    contentRevision: 2,
     title: "Gimme Shelter",
     artist: "The Rolling Stones",
     album: "Let It Bleed",
@@ -28,53 +28,55 @@ window.initialSongs.push(
 C#  B  A
 E A E   A E   A E B
 
-[Verse 1]
+[Verse]
 C#
 Ooh, a storm is threatening my very life today
 C#
-If I do not get some shelter, oh yeah, I am gonna fade away
+If I don't get some shelter, oh yeah I'm gonna fade away
 
 [Chorus]
-C#        B        A
-War, children, it is just a shot away, it is just a shot away
-E A E        A E        A E B
-War, children, it is just a shot away, it is just a shot away
+C#        B        A        E A E   A E   A E B
+War, children, it's just a shot away, it's just a shot away
+C#        B        A        E A E   A E   A E B
+War, children, it's just a shot away, it's just a shot away
 
-[Verse 2]
+[Verse]
 C#
-Ooh, see the fire is sweeping our very streets today
+Ooh, see the fire is sweepin', our very streets today
 C#
 Burns like a red coal carpet, mad bull lost its way
 
 [Chorus]
-C#        B        A
-War, children, it is just a shot away, it is just a shot away
-E A E        A E        A E B
-War, children, it is just a shot away, it is just a shot away
-C#        B        A
-Rape, murder, it is just a shot away, it is just a shot away
-E A E        A E        A E B
-Rape, murder, it is just a shot away, it is just a shot away
+C#        B        A        E A E   A E   A E B
+War, children, it's just a shot away, it's just a shot away
+C#        B        A        E A E   A E   A E B
+War, children, it's just a shot away, it's just a shot away
+C#        B        A        E A E   A E   A E B
+Rape, murder, it's just a shot away, it's just a shot away
+C#        B        A        E A E   A E   A E B
+Rape, murder, it's just a shot away, it's just a shot away
+E A E   A E   A E B
+Rape, murder, it's just a shot away, it's just a shot away, yeah
 
-[Verse 3]
+[Verse]
 C#
-Mmm, the flood is threatening my very life today
+Mmm, the flood is threatening, my very life today
 C#
-Gimme, gimme shelter, or I am gonna fade away
+Gimme, gimme shelter, or I'm gonna fade away
 
 [Chorus / Outro]
+C#        B        A        E A E   A E   A E B
+War, children, it's just a shot away, it's just a shot away
+E A E   A E   A E B
+It's just a shot away, it's just a thought away, it's just a shot away
 C#        B        A
-War, children, it is just a shot away, it is just a shot away
-E A E        A E        A E B
-It is just a shot away, it is just a thought away, it is just a shot away
-C#        B        A
-I said love, sister, it is just a kiss away, it is just a kiss away
-E A E        A E        A E B
-It is just a kiss away, kiss away, kiss away, yeah`
+I said, love, sister, it's just a kiss away, it's just a kiss away
+E A E   A E   A E B
+It's just a kiss away, it's just a kiss away, kiss away, kiss away, yeah`
   },
   {
     id: "rolling-stones-sympathy-for-the-devil",
-    contentRevision: 1,
+    contentRevision: 2,
     title: "Sympathy for the Devil",
     artist: "The Rolling Stones",
     album: "Beggars Banquet",
@@ -98,13 +100,13 @@ It is just a kiss away, kiss away, kiss away, yeah`
 E                         D
 Please allow me to introduce myself
 A                   E
-I am a man of wealth and taste
+I'm a man of wealth and taste
 E                       D
-I have been around for a long, long year
+I've been around for a long, long year
 A                            E
 Stole many a man's soul and faith
 E                    D
-And I was around when Jesus Christ
+And I was 'round when Jesus Christ
 A                         E
 Had his moment of doubt and pain
 E                      D
@@ -118,7 +120,7 @@ Pleased to meet you
 E
 Hope you guess my name
 B
-But what is puzzling you
+But what's puzzling you
 E
 Is the nature of my game
 
@@ -132,7 +134,7 @@ Killed the Czar and his ministers
 A                       E
 Anastasia screamed in vain
 E                       D
-I rode a tank, held a general rank
+I rode a tank, held a general's rank
 A                       E
 When the Blitzkrieg raged and the bodies stank
 
@@ -142,7 +144,7 @@ Pleased to meet you
 E
 Hope you guess my name
 B
-But what is puzzling you
+But what's puzzling you
 E
 Is the nature of my game
 
@@ -158,7 +160,34 @@ When after all, it was you and me
 E                       D
 Let me please introduce myself
 A                       E
-I am a man of wealth and taste
+I'm a man of wealth and taste
+E                       D
+And I laid traps for troubadours
+A                       E
+Who get killed before they reached Bombay
+
+[Chorus]
+B
+Pleased to meet you
+E
+Hope you guess my name
+B
+But what's puzzling you
+E
+Is the nature of my game
+
+[Solo]
+E  D  A  E
+
+[Chorus]
+B
+Pleased to meet you
+E
+Hope you guess my name
+B
+But what's puzzling you
+E
+Is the nature of my game
 
 [Verse 4]
 E                       D
@@ -166,17 +195,26 @@ Just as every cop is a criminal
 A                       E
 And all the sinners saints
 E                       D
-Just call me Lucifer
+As heads is tails, just call me Lucifer
 A                       E
-Cause I am in need of some restraint
+'Cause I'm in need of some restraint
+[Verse 5]
+E                       D
+So if you meet me, have some courtesy
+A                       E
+Have some sympathy, and some taste
+E                       D
+Use all your well-learned politesse
+A                       E
+Or I'll lay your soul to waste, um yeah
 
-[Final Chorus]
+[Chorus]
 B
 Pleased to meet you
 E
 Hope you guess my name
 B
-But what is puzzling you
+But what's puzzling you
 E
 Is the nature of my game
 
