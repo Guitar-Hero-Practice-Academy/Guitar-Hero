@@ -24,7 +24,7 @@ window.initialSongs.push(
       { name: "Whole song", bpm: "", beats: ["D", "", "D", "U", "", "U", "D", "U"], accents: [0, 4], chordRun: "Em  C  C/B  C/A  G", note: "Keep the C walk-down relaxed; the C before D is held a little longer in the instrumental movement." }
     ],
     chart: `[Intro]
-N.C.
+                 N.C.
 And there is nothing
 I want to do
 There is nothing
@@ -43,7 +43,7 @@ G
 'Cause when you live in the desert that's what pretty girls do
 
 [Chorus]
-Em        C        G
+   Em            C                             G
 I'm throwin' caution, what's it gonna be?
 D        Em        C        G
 Tonight the winds of change are blowing wild and free
@@ -51,9 +51,9 @@ G        Em        C        G
 If I don't get out, out of this town
 G
 I just might be the one who finally burns it down
-C        G
+            C          G
 I'm throwin' caution
-D        G
+            D          G
 I'm throwin' caution
 C D G C
 G D G C C D G C
@@ -77,23 +77,23 @@ G        Em        C        G
 If I don't get out, out of this town
 G
 I just might be the one who finally burns it down
-C        G
+            C          G
 I'm throwin' caution
-D        G
+            D          G
 I'm throwin' caution
 G        D        G C
 I'm throwin' caution
-D        G
+            D          G
 I'm throwin' caution
 
 [Bridge]
-N.C.
+ N.C.
 'Cause it's some kind of sin
-N.C.
+ N.C.
 To live your whole life
-N.C.
+ N.C.
 On a might've been
-N.C.
+ N.C.
 I'm ready now
 
 [Solo]
@@ -137,7 +137,7 @@ C        G        F
 I've been on the trail for a little while
 F        C        G
 But that was the night that she broke down and held my hand
-Am
+          Am
 Teenage rush
 Dm
 She said
@@ -187,11 +187,11 @@ G
 Let's take a chance, baby we can't lose
 
 [Post-Chorus]
-C G F
+                    C G F
 Ain't we all just runaways?
 F
 I knew it when I met you
-C G F
+                    C G F
 I'm not gonna let you runaway
 F
 I knew it when I held you
@@ -229,11 +229,11 @@ G
 I turn the engine over and my body just comes alive
 
 [Post-Chorus]
-C G F
+                    C G F
 Ain't we all just runaways?
 F
 I knew it when I met you
-C G F
+                    C G F
 I'm not gonna let you runaway
 F
 I knew it when I held you

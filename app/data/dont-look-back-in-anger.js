@@ -46,7 +46,7 @@ Don't you know you might find
 A better place to play
 C                         G                 Am
 You said that you'd never been
-              E7                  F       G
+             E7                  F    G
 But all the things that you've seen
                   C    Am G
 Slowly fade away
@@ -58,7 +58,7 @@ So I start a revolution from my bed
 'Cos you said the brains I had went to my head
 F                    Fm6              C
 Step outside, summertime's in bloom
-G
+ G
 Stand up beside the fireplace
 E7/G#
 Take that look from off your face
@@ -135,9 +135,9 @@ So Sally can wait, she knows it's too late
 as she's walking on by
     C       G          Am
 My soul slides away
-                          F
+                F
 But don't look back in anger
-              Fm6
+            Fm6
 Don't look back in anger
                C     G    Am    E7    F    Fm6                 C
 I heard you say                                      At least not today`

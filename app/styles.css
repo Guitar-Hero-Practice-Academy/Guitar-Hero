@@ -1968,7 +1968,7 @@ h3 {
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
   font-size: var(--chart-size);
   line-height: 1.48;
-  white-space: pre-wrap;
+  white-space: pre;
 }
 
 .chart-display .section-label {

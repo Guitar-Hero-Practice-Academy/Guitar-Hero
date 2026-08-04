@@ -43,21 +43,21 @@ Eb Ab Db Gb Bb Eb
 | D | D | C | C | G | G | D | D |
 
 [Verse 1]
-D
+ D
 She's got a smile that it seems to me
     C
 Reminds me of childhood memories
-      G
+        G
 Where everything
-                                 D
+                                  D
 Was as fresh as a bright blue sky
-D
+ D
 Now and then when I see her face
     C
 She takes me away to that special place
           G
 And if I stared too long
-                              D
+                                D
 I'd probably break down and cry
 
 [Chorus]
@@ -144,5 +144,5 @@ Gb|---------------------|
 Db|-9--7----------------|
 Ab|-7--5--9--8--7--5---|
 Eb|-------7--6--5--3---|
-    \\    3   /\\   3   /`
+    \    3   /\   3   /`
 });

@@ -33,7 +33,7 @@ E A  E A  x4
 [Verse 1]
 E       D             A
 If you wake up and don't want to smile
-E     D             A
+ E     D             A
 If it takes just a little while
 E         D             A
 Open your eyes and look at the day
@@ -47,7 +47,7 @@ E      D       A
 Don't stop, it'll soon be here
 E         D     A
 It'll be here better than before
-B7
+ B7
 Yesterday's gone, yesterday's gone
 
 [Link]
@@ -71,7 +71,7 @@ E      D       A
 Don't stop, it'll soon be here
 E         D     A
 It'll be here better than before
-B7
+ B7
 Yesterday's gone, yesterday's gone      [hold chord 2 more bars]
 
 [Lead break]
@@ -97,7 +97,7 @@ E      D       A   N.C.
 Don't stop, it'll soon be here
 E         D     A
 It'll be here better than before
-B7
+ B7
 Yesterday's gone, yesterday's gone
 
 E      D      A
@@ -106,7 +106,7 @@ E      D       A
 Don't stop, it'll soon be here
 E         D     A
 It'll be here better than before
-B7
+ B7
 Yesterday's gone, yesterday's gone
 
 [Outro]

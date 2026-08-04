@@ -39,13 +39,13 @@ Em  Dsus2
 Em  Dsus2
 
 [Verse 1]
-Em             Dsus2
+ Em                  Dsus2
 All your dreams are made
-Em                         Dsus2
+             Em                            Dsus2
 When you're chained to the mirror and the razor blade
-Em                  Dsus2            A7sus4  Cadd9
+ Em                   Dsus2               A7sus4 Cadd9
 Today's the day that all the world will see
-Em            Dsus2
+ Em                 Dsus2
 Another sunny afternoon
 Em                         Dsus2
 Walking to the sound of my favorite tune
@@ -53,11 +53,11 @@ Em                    Dsus2               A7sus4      Cadd9
 Tomorrow never knows what it doesn't know too soon
 
 [Pre-Chorus]
-Dsus2             Cadd9
+ Dsus2                 Cadd9
 Need a little time to wake up
-Dsus2             Cadd9
+ Dsus2                 Cadd9
 Need a little time to wake up wake up
-Dsus2             Cadd9
+ Dsus2                 Cadd9
 Need a little time to wake up
 D5
 Need a little time to rest your mind
@@ -65,19 +65,19 @@ Em        Dsus2
 You know you should so I guess you might as well
 
 [Chorus]
-Asus4        Cadd9
+ Asus4            Cadd9
 What's the story morning glory?
 Em       Dsus2
 Well...
-Asus4          Cadd9
+ Asus4                 Cadd9
 You need a little time to wake up wake up
 Em       Dsus2
 Well...
-Asus4        Cadd9
+ Asus4            Cadd9
 What's the story morning glory?
 Em       Dsus2
 Well...
-Asus4        Cadd9
+ Asus4                 Cadd9
 Need a little time to wake up wake up
 
 [Instrumental]
@@ -105,11 +105,11 @@ Em                    Dsus2               A7sus4      Cadd9
 Tomorrow never knows what it doesn't know too soon
 
 [Pre-Chorus]
-Dsus2             Cadd9
+ Dsus2                 Cadd9
 Need a little time to wake up
-Dsus2             Cadd9
+ Dsus2                 Cadd9
 Need a little time to wake up wake up
-Dsus2             Cadd9
+ Dsus2                 Cadd9
 Need a little time to wake up
 D5
 Need a little time to rest your mind
@@ -117,35 +117,35 @@ Em        Dsus2
 You know you should so I guess you might as well
 
 [Chorus]
-Asus4        Cadd9
+ Asus4            Cadd9
 What's the story morning glory?
 Em       Dsus2
 Well...
-Asus4          Cadd9
+ Asus4                 Cadd9
 You need a little time to wake up wake up
 Em       Dsus2
 Well...
-Asus4        Cadd9
+ Asus4            Cadd9
 What's the story morning glory?
 Em       Dsus2
 Well...
-Asus4        Cadd9
+ Asus4                 Cadd9
 Need a little time to wake up wake up
 
 [Chorus]
-Asus4        Cadd9
+ Asus4            Cadd9
 What's the story morning glory?
 Em       Dsus2
 Well...
-Asus4          Cadd9
+ Asus4                 Cadd9
 You need a little time to wake up wake up
 Em       Dsus2
 Well...
-Asus4        Cadd9
+ Asus4            Cadd9
 What's the story morning glory?
 Em       Dsus2
 Well...
-Asus4        Cadd9
+ Asus4                 Cadd9
 Need a little time to wake up wake up
 
 [Outro]
@@ -183,65 +183,65 @@ window.initialSongs.push({
     { name: "Whole song", bpm: 92, beats: ["D", "", "D", "U", "", "U", "D", "U"], accents: [0, 4], chordRun: "C  G  F", note: "Soft, steady acoustic strum; let the capo brighten the open shapes." }
   ],
   chart: `[Verse 1]
-C
+          C
 Do you remember when we first met?
-G                 F
+G                         F                  C
 I sure do, it was sometime in early September
-G
+G                 C                         G
 Well, you were lazy about it, you made me wait around
-C                                      G
+           F                                  C
 I was so crazy about you, I didn't mind
-G
+G         C                              G
 So I was late for class, I locked my bike to yours
-F
+            F                            C         G
 It wasn't hard to find, you painted flowers on it
-G
+               C                         G
 Guess that I was afraid that if you rolled away
-G
+              F                              C         G
 You might not roll back my direction real soon
 
 [Chorus]
-G
+                      G
 Well, I was crazy 'bout you then
-G
+                     G
 And now, but the craziest thing of all
-Fmaj7        C/E        Dm
+        Fmaj7       C/E          Dm
 Over ten years have gone by
 Dm
 And you're still mine, we're locked in time
-Dm        Em
+Dm       G       F       Em
 Let's rewind
 
 [Verse 2]
-C
+Dm        C     G
 Do you remember when we first moved in together?
-G                 F
+         F                         C
 The piano took up the living room
-G
+G                 C                       G
 You'd play me boogie-woogie, I'd play you love songs
-C                                      G
+                  F                           C
 You'd say we're playing house, now you still say we are
-G
+G                C                   G
 We built our getaway up in a tree we found
-F                 C
+             F                         C
 We felt so far away, but we were still in town
-G
+G           C                          G
 Now, I remember watching that old tree burn down
-G
+          F                            C          G
 I took a picture that I don't like to look at
 
 [Chorus]
-G
+                G
 Well, all these times, they come and go
-G
+                 G
 And alone don't seem so long
-Fmaj7        C/E        Dm
+        Fmaj7       C/E                    Dm
 Over ten years have gone by
 D
 We can't rewind, we're locked in time
-Dm        Em
+Dm                        G                 F Em
 But you're still mine
-Dm
+Dm              C
 Do you remember`
 });
 
@@ -309,21 +309,21 @@ Esus4 E             Dsus2
 I met my maker, I made him cry
 Esus4 E                 Dsus2
 And on my shoulder he asked me why
-Esus4 E              Dsus2
+             Esus4 E          Dsus2
 His people won't fly through the storm
-Cmaj7                 Dsus2
+                 Cmaj7               Dsus2
 I said listen up man, they don't even know you're born
 
 [Chorus]
-Em      G      Dsus2   A
+                                          Em                           G           Dsus2 A
 All my people right here right now
 Em      G      Dsus2   A
 D'you know what I mean? Yeah, yeah
-Em      G      Dsus2   A
+                                          Em                           G           Dsus2 A
 All my people right here right now
 Em      G      Dsus2   A
 D'you know what I mean? Yeah, yeah
-Em      G      Dsus2   A
+                                          Em                           G           Dsus2 A
 All my people right here right now
 Em      G      Dsus2   A
 D'you know what I mean? Yeah, yeah
@@ -353,15 +353,15 @@ Cmaj7                 Dsus2
 I said listen up man, they don't even know you're born
 
 [Chorus]
-Em      G      Dsus2   A
+                                          Em                           G           Dsus2 A
 All my people right here right now
 Em      G      Dsus2   A
 D'you know what I mean? Yeah, yeah
-Em      G      Dsus2   A
+                                          Em                           G           Dsus2 A
 All my people right here right now
 Em      G      Dsus2   A
 D'you know what I mean? Yeah, yeah
-Em      G      Dsus2   A
+                                          Em                           G           Dsus2 A
 All my people right here right now
 Em      G      Dsus2   A
 D'you know what I mean? Yeah, yeah
@@ -382,15 +382,15 @@ Yeah, yeah
 | Em | G | Dsus2 | Asus4 | Em | G | Dsus2 | Asus4 | x2
 
 [Final Chorus]
-Em      G      Dsus2   A
+                                          Em                           G           Dsus2 A
 All my people right here right now
 Em      G      Dsus2   A
 D'you know what I mean? Yeah, yeah
-Em      G      Dsus2   A
+                                          Em                           G           Dsus2 A
 All my people right here right now
 Em      G      Dsus2   A
 D'you know what I mean? Yeah, yeah
-Em      G      Dsus2   A
+                                          Em                           G           Dsus2 A
 All my people right here right now
 Em      G      Dsus2   A
 D'you know what I mean? Yeah, yeah
@@ -446,7 +446,7 @@ B  F#m  A  G#m
 A  G#m
 
 [Verse A1]
-E
+      E
 So I look in your direction
 B
 But you pay me no attention, do you?
@@ -596,17 +596,17 @@ window.initialSongs.push({
 Am  Am7  G  G7  F  F7  C  C7
 
 [Verse 1]
-Am        Am7
+     Am              Am7
 Well I was sittin', waitin', wishin'
 G          G7
 You believed in superstitions
 F          F7          C          C7
 Then maybe you'd see the signs
-Am        Am7
+     Am                   Am7
 The Lord knows that this world is cruel
-G          G7
+       G                       G7
 And I ain't the Lord, no I'm just a fool
-F          F7          C          C7
+          F                F7              C         C7
 Learning lovin' somebody don't make them love you
 
 [Chorus]

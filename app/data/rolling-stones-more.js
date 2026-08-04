@@ -29,9 +29,9 @@ C#  B  A
 E A E   A E   A E B
 
 [Verse]
-C#
+ C#
 Ooh, a storm is threatening my very life today
-C#
+ C#
 If I don't get some shelter, oh yeah I'm gonna fade away
 
 [Chorus]
@@ -43,7 +43,7 @@ War, children, it's just a shot away, it's just a shot away
 [Verse]
 C#
 Ooh, see the fire is sweepin', our very streets today
-C#
+ C#
 Burns like a red coal carpet, mad bull lost its way
 
 [Chorus]
@@ -99,7 +99,7 @@ It's just a kiss away, it's just a kiss away, kiss away, kiss away, yeah`
     chart: `[Verse 1]
 E                 D
 Please allow me to introduce myself
-        A                  E
+       A                  E
 I'm a man of wealth and taste
 E                         D
 I've been around for a long, long year

@@ -88,13 +88,13 @@ D                              G
 We're doing it from pole to pole's
 E              A
 We can dance, we can dance
-D                          G
+ D                       G
 Everybody look at your hands
 E              A
 We can dance, we can dance
 D                              G
 Everybody takin' the cha-A-A-ance
-B F#                    C# G#
+ B F#                    C# G#
        It's safe to dance,    Oh well it's safe to dance,
 B F#                    C# G#
        Yes it's safe to dance
@@ -134,7 +134,7 @@ E              A
 We can dance, we can dance
 D                              G
 Everybody takin' the cha-A-A-ance
-B F#                    C# G#
+ B F#                    C# G#
        It's safe to dance,    Oh well it's safe to dance,
 B F#                    C# G#
        Yes it's safe to dance
