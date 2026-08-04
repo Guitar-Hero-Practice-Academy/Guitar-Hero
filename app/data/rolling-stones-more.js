@@ -76,7 +76,7 @@ It's just a kiss away, it's just a kiss away, kiss away, kiss away, yeah`
   },
   {
     id: "rolling-stones-sympathy-for-the-devil",
-    contentRevision: 2,
+    contentRevision: 3,
     title: "Sympathy for the Devil",
     artist: "The Rolling Stones",
     album: "Beggars Banquet",
@@ -97,129 +97,168 @@ It's just a kiss away, it's just a kiss away, kiss away, kiss away, yeah`
       { name: "Whole song", bpm: "", beats: ["D", "", "D", "U", "", "U", "D", "U"], accents: [0, 4], chordRun: "E  D  A  E", note: "Keep the groove loose and even; ignore the alternate capo versions." }
     ],
     chart: `[Verse 1]
-E                         D
+E                 D
 Please allow me to introduce myself
-A                   E
+        A                  E
 I'm a man of wealth and taste
-E                       D
+E                         D
 I've been around for a long, long year
-A                            E
+A                              E
 Stole many a man's soul and faith
-E                    D
+
+E                   D
 And I was 'round when Jesus Christ
-A                         E
+        A                  E
 Had his moment of doubt and pain
-E                      D
+                       D
 Made damn sure that Pilate
-A                         E
+             A                  E
 Washed his hands and sealed his fate
 
-[Chorus]
 B
-Pleased to meet you
-E
+  Pleased to meet you
+                  E
 Hope you guess my name
-B
+             B
 But what's puzzling you
-E
+                E
 Is the nature of my game
 
-[Verse 2]
-E                       D
+E              D
 I stuck around St. Petersburg
-A                       E
+     A                          E
 When I saw it was a time for a change
-E                       D
+                         D
 Killed the Czar and his ministers
-A                       E
+     A              E
 Anastasia screamed in vain
-E                       D
-I rode a tank, held a general's rank
-A                       E
-When the Blitzkrieg raged and the bodies stank
 
-[Chorus]
+    E
+I rode a tank
+      D
+Held a general's rank
+      A
+When the Blitzkrieg raged
+       E
+And the bodies stank
+
 B
-Pleased to meet you
-E
+  Pleased to meet you
+                  E
 Hope you guess my name
-B
+             B
 But what's puzzling you
-E
+                E
 Is the nature of my game
 
-[Verse 3]
-E                       D
-I watched with glee while your kings and queens
-A                       E
-Fought for ten decades for the gods they made
-E                       D
-I shouted out, who killed the Kennedys?
-A                       E
-When after all, it was you and me
-E                       D
+    E
+I watched with glee
+             D
+While your kings and queens
+             A
+Fought for ten decades
+      E
+For the Gods they made
+
+    E
+I shouted out
+                 D
+"Who killed the Kennedys?"
+      A
+When after all
+     E
+It was you and me
+
+E                 D
 Let me please introduce myself
-A                       E
+        A                  E
 I'm a man of wealth and taste
-E                       D
+                       D
 And I laid traps for troubadours
-A                       E
+       A                                  E
 Who get killed before they reached Bombay
 
-[Chorus]
 B
-Pleased to meet you
-E
+  Pleased to meet you
+                  E
 Hope you guess my name
-B
+             B
 But what's puzzling you
-E
+                E
 Is the nature of my game
+oh yeah, get down, baby
 
 [Solo]
 E  D  A  E
 
-[Chorus]
 B
-Pleased to meet you
-E
+  Pleased to meet you
+                  E
 Hope you guess my name
-B
+             B
 But what's puzzling you
-E
+                E
 Is the nature of my game
 
-[Verse 4]
-E                       D
+        E              D
 Just as every cop is a criminal
-A                       E
+      A             E
 And all the sinners saints
-E                       D
-As heads is tails, just call me Lucifer
-A                       E
+
+As heads is tails
+               D
+Just call me Lucifer
+                A             E
 'Cause I'm in need of some restraint
-[Verse 5]
-E                       D
-So if you meet me, have some courtesy
-A                       E
+
+E
+So if you meet me
+             D
+Have some courtesy
+             A                 E
 Have some sympathy, and some taste
-E                       D
+                         D
 Use all your well-learned politesse
-A                       E
+       A                 E
 Or I'll lay your soul to waste, um yeah
 
-[Chorus]
 B
-Pleased to meet you
-E
+  Pleased to meet you
+                  E
 Hope you guess my name
-B
+             B
 But what's puzzling you
-E
+                E
 Is the nature of my game
+um baby, get down
 
-[Outro]
-E  D  A  E
-Repeat and fade over the vocal ad-libs.`
+[Outro ad-libs]
+Woo, who
+Oh yeah, get on down
+Oh yeah
+Oh yeah!
+Tell me baby, what's my name
+Tell me honey, baby guess my name
+Tell me baby, what's my name
+I tell you one time, you're to blame
+Ooo, who
+Ooo, who
+Ooo, who
+Ooo, who, who
+Ooo, who, who
+Ooo, who, who
+Ooo, who, who
+Oh, yeah
+What's my name
+Tell me, baby, what's my name
+Tell me, sweetie, what's my name
+Ooo, who, who
+Ooo, who, who
+Ooo, who, who
+Ooo, who, who
+Ooo, who, who
+Ooo, who, who
+Ooo, who, who
+Oh, yeah`
   }
 );
