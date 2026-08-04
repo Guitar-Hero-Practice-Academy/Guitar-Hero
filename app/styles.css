@@ -1511,6 +1511,10 @@ textarea,
   font-weight: 900;
 }
 
+.sidebar-reopen {
+  display: none;
+}
+
 .sidebars-collapsed .sidebar-toggle {
   position: fixed;
   top: 0.9rem;
@@ -1518,6 +1522,10 @@ textarea,
   right: auto;
   border-radius: 0 6px 6px 0;
   box-shadow: 3px 4px 12px rgba(45, 35, 22, 0.12);
+}
+
+.sidebars-collapsed .sidebar-reopen {
+  display: block;
 }
 
 .sidebars-collapsed .app-shell {

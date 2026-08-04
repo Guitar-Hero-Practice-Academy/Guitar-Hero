@@ -194,6 +194,7 @@ const els = {
   strumDisplay: document.getElementById("strumDisplay"),
   videoLink: document.getElementById("videoLink"),
   sidebarToggle: document.getElementById("sidebarToggle"),
+  sidebarReopen: document.getElementById("sidebarReopen"),
   toneToggle: document.getElementById("toneToggle"),
   chordsToggle: document.getElementById("chordsToggle"),
   editButton: document.getElementById("editButton"),
@@ -347,6 +348,7 @@ window.addEventListener("online", handleOnline);
 window.addEventListener("offline", handleOffline);
 els.songSearch.addEventListener("input", renderSongList);
 els.sidebarToggle.addEventListener("click", toggleSidebars);
+els.sidebarReopen.addEventListener("click", toggleSidebars);
 els.toneToggle.addEventListener("click", toggleToneSetup);
 els.chordsToggle.addEventListener("click", toggleChords);
 els.editButton?.addEventListener("click", startEditing);
@@ -2640,6 +2642,7 @@ function renderSidebarToggle() {
   els.sidebarToggle.title = collapsed ? "Show sidebars" : "Hide sidebars";
   els.sidebarToggle.setAttribute("aria-label", collapsed ? "Show sidebars" : "Hide sidebars");
   els.sidebarToggle.setAttribute("aria-expanded", String(!collapsed));
+  els.sidebarReopen.setAttribute("aria-expanded", String(!collapsed));
 }
 
 function toggleSidebars() {
