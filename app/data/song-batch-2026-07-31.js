@@ -1,6 +1,6 @@
 window.initialSongs.push({
   id: "oasis-morning-glory",
-  contentRevision: 1,
+  contentRevision: 2,
   title: "Morning Glory",
   artist: "Oasis",
   album: "(What's the Story) Morning Glory?",
@@ -89,6 +89,9 @@ Em  Dsus2
 Em  Dsus2
 Em  Dsus2
 Em  Dsus2
+
+[Solo]
+[[image:assets/morning-glory-solo.png|Morning Glory solo tab]]
 
 [Verse 2]
 Em             Dsus2

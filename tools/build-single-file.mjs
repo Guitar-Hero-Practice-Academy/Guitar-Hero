@@ -41,6 +41,7 @@ const scriptFiles = [
   "data/keep-on-movin.js",
   "data/song-batch-2026-07-31.js",
   "data/pdf-song-additions.js",
+  "data/cleopatra-acoustic-layout.js",
   "data/tone-settings.js",
   "data/library-metadata.js",
   "data/academy-data.js",
