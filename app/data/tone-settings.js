@@ -29,6 +29,12 @@ const toneProfiles = {
     sd1: { on: true, level: "2:00", tone: "12:00", drive: "10:00" },
     note: "Keep bass controlled; use the SD-1 as a tight mid-forward boost."
   },
+  morningGlory: {
+    channel: "Drive", bright: "Off", drive: "3.5",
+    treble: "4", middle: "7", bass: "4", reverb: "2", presence: "3.5",
+    sd1: { on: true, level: "12:00", tone: "11:00", drive: "7:30–8:00" },
+    note: "Bridge pickup fully selected. Keep the SD-1 drive barely open for a touch of grit; the reduced treble and presence tame sharp twang and fizzy crackle while the pushed mids supply the warm British roar."
+  },
   darkClean: {
     channel: "Normal", bright: "On", volume: "2.5",
     treble: "7", middle: "5", bass: "4", reverb: "2", presence: "6.5",
@@ -38,6 +44,7 @@ const toneProfiles = {
 };
 
 const songTones = {
+  "oasis-morning-glory": ["morningGlory", "Bridge pickup fully selected. Keep the SD-1 drive barely open for a touch of grit; the reduced treble and presence tame sharp twang and fizzy crackle while the pushed mids supply the warm British roar."],
   "oasis-acquiesce": ["rock", "Big rhythm tone; engage SD-1 for choruses and interludes."],
   "oasis-cigarettes-and-alcohol": ["heavyRock", "Bridge pickup and tight palm control for the main riff."],
   "oasis-cast-no-shadow": ["cleanWarm", "Neck or middle pickup; keep the high strings chiming."],
@@ -56,6 +63,15 @@ const songTones = {
 };
 
 const guitarProfiles = {
+  morningGlory: {
+    label: "Les Paul Standard",
+    pickup: "Bridge",
+    allControls: true,
+    neckVolume: "10",
+    bridgeVolume: "10",
+    neckTone: "10",
+    bridgeTone: "10"
+  },
   cleanJangle: {
     pickup: "Middle",
     neckVolume: "7.5",

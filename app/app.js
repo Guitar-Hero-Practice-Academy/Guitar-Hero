@@ -2816,7 +2816,9 @@ function renderAcousticToneRow(acousticTone, song) {
 function renderElectricToneGroups(tone) {
   const ampValues = tone.channel === "Normal"
     ? `Volume ${tone.volume} · Bright ${tone.bright}`
-    : `Drive ${tone.drive} · Master ${tone.master} · Bright ${tone.bright}`;
+    : [`Drive ${tone.drive}`, tone.master ? `Master ${tone.master}` : "", `Bright ${tone.bright}`]
+        .filter(Boolean)
+        .join(" · ");
   const sd1Values = tone.sd1.on
     ? `On · Level ${tone.sd1.level} · Tone ${tone.sd1.tone} · Drive ${tone.sd1.drive}`
     : "Off";
@@ -2828,14 +2830,16 @@ function renderElectricToneGroups(tone) {
     bridgeTone: "8"
   };
   const pickup = guitar.pickup.toLowerCase();
-  const guitarValues = pickup === "bridge"
+  const guitarValues = guitar.allControls
+    ? `${guitar.pickup} pickup · Neck V ${guitar.neckVolume} / T ${guitar.neckTone} · Bridge V ${guitar.bridgeVolume} / T ${guitar.bridgeTone}`
+    : pickup === "bridge"
     ? `Bridge pickup · Volume ${guitar.bridgeVolume} · Tone ${guitar.bridgeTone}`
     : pickup === "neck"
       ? `Neck pickup · Volume ${guitar.neckVolume} · Tone ${guitar.neckTone}`
       : `Middle position · Neck V ${guitar.neckVolume} / T ${guitar.neckTone} · Bridge V ${guitar.bridgeVolume} / T ${guitar.bridgeTone}`;
 
   return `
-    <div class="tone-group guitar"><strong>Les Paul</strong><span>${escapeHtml(guitarValues)}</span></div>
+    <div class="tone-group guitar"><strong>${escapeHtml(guitar.label || "Les Paul")}</strong><span>${escapeHtml(guitarValues)}</span></div>
     <div class="tone-group"><strong>Amp</strong><span>${escapeHtml(tone.channel)} channel · ${escapeHtml(ampValues)}</span></div>
     <div class="tone-group"><strong>EQ / Space</strong><span>T ${escapeHtml(tone.treble)} · M ${escapeHtml(tone.middle)} · B ${escapeHtml(tone.bass)} · Rev ${escapeHtml(tone.reverb)} · Pres ${escapeHtml(tone.presence)}</span></div>
     <div class="tone-group sd1"><strong>SD-1</strong><span>${escapeHtml(sd1Values)}</span></div>
