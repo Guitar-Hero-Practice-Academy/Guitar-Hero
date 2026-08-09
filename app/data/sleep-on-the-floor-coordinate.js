@@ -1,7 +1,7 @@
 const sleepOnTheFloorCoordinate = window.initialSongs.find((song) => song.id === "lumineers-sleep-on-the-floor");
 
 if (sleepOnTheFloorCoordinate) {
-  sleepOnTheFloorCoordinate.contentRevision = 3;
+  sleepOnTheFloorCoordinate.contentRevision = 4;
   sleepOnTheFloorCoordinate.chart = `[Intro]
 C
 F C
@@ -10,39 +10,39 @@ F C`;
   sleepOnTheFloorCoordinate.chart += `
 
 [Verse 1]
-                    C
+                C
 Pack yourself a toothbrush dear
                 F       C
 Pack yourself a favorite blouse
-              C
+           C
 Take a withdrawal slip
-                F       C
+                 F      C
 Take all of your savings out
-                  Am        G
+                  Am         G
 'Cause if we don't leave this town
-                F          C
+               F      C
 We might never make it out
-             Am     G
+              Am     G
 And I was not born to drown
-                F C
+        C        F C
 Baby c'mon`;
   sleepOnTheFloorCoordinate.chart += `
 
 [Verse 2]
-                    C
+                  C
 Forget what father Brennan said
-           F          C
+            F      C
 We were not born in sin
-                 C
+             C
 Leave a note on your bed`;
   sleepOnTheFloorCoordinate.chart += `
-                F               C
+                F          C
 Let your mother know you're safe
-          Am      G
+           Am      G
 And by the time she wakes
-                F                 C
+                 F          C
 We'll have driven through the state
-                Am                G
+                 Am         G
 We'll have driven through the night
         C
 Baby c'mon`;
@@ -55,7 +55,7 @@ If the sun don't shine on me today
 And if the subways flood and bridges break
 C*
 Will you lay yourself down and dig your grave
-           F    Am             G       C
+           F    Am              G      C
 Or will you rail against your dying day`;
   sleepOnTheFloorCoordinate.chart += `
 
@@ -64,43 +64,43 @@ C                                       F       C
 And when we looked outside, couldn't even see the sky
                                    F  C
 How do you pay the rent, is it your parents
-      Am              G      F              C
+      Am        G    F           C
 Or is hard work dear, holding the atmosphere
-             Am        G
+              Am       G
 I don't wanna live like that`;
   sleepOnTheFloorCoordinate.chart += `
 
 [Chorus 2]
-      C                  F
+       C                 F
 If the sun don't shine on me today
            Am               G
 And if the subways flood and bridges break
 
 [Bridge]
-Am G/B C       F    Am G C
+Am G/B  C       F    Am   G  C
 Jesus Christ, can't save me tonight
-   Am G/B C      F Am G            C
+    Am G/B  C      F  Am   G         C
 Put on your dress, yes wear something nice
-Am    G/B C  F   Am      G C
+Am     G/B  C   F  Am     G  C
 Decide on me, yea decide on us
-Am G/B C F      Am G       C
+Am  G/B C   F    Am  G     C
 Oh, oh, oh, Illinois, Illinois
 
 F C`;
   sleepOnTheFloorCoordinate.chart += `
 
 [End Verse]
-                    C
+                C
 Pack yourself a toothbrush dear
-                    F           C
+                 F      C
 Pack yourself a favorite blouse
-              C
+           C
 Take a withdrawal slip
-               F C
+               F      C
 Take all of your savings out
-                  Am   G
+                  Am         G
 'Cause if we don't leave this town
-              F       C
+               F      C
 We might never make it out
 
 [C riff]
