@@ -21,3 +21,4 @@ These rules apply every time a song is added, transcribed, imported, or correcte
 - Preserve existing song data exactly unless the user specifically asks to change it or the supplied source proves a correction is required.
 - Keep unrelated working-tree changes intact.
 - Run syntax validation, the production build, `git diff --check`, and complete chart-placement verification after song-data changes.
+- Follow `tools/SONG_CHART_WORKFLOW.md`. Every `*-coordinate.js` chart must have a passing manifest, and manifests may be updated only after the complete source and browser checks pass.

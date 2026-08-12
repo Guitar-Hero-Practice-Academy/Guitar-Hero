@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "songId": "artist-song",
+  "source": {
+    "fileName": "song chords.pdf",
+    "sha256": "sha256-of-supplied-pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092402,
+      "cellWidth": 0.010267
+    }
+  ],
+  "sections": [
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            { "chord": "C", "sourceX": 0.092402 },
+            { "chord": "G", "sourceX": 0.297742 }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            { "text": "Exact source line goes here", "sourceX": 0.092402 }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "songId": "johnny-cash-hurt",
+  "source": { "fileName": "hurt chords.pdf" },
+  "pages": [
+    { "page": 1, "originX": 0.092402, "cellWidth": 0.010267 },
+    { "page": 2, "originX": 0.092402, "cellWidth": 0.010267 }
+  ],
+  "sections": [
+    {
+      "name": "Performance Notes",
+      "rows": [
+        { "type": "note", "text": "Note: to play the chorus correctly and simulate the piano playing, keep the G on the" },
+        { "type": "note", "text": "third fret of the" },
+        { "type": "note", "text": "high e string fretted with your pinky. This makes the chords G major, Am7, Fadd9, and C" },
+        { "type": "note", "text": " major. I also" },
+        { "type": "note", "text": "suggest playing a Hendrix Fadd9, so wrap your thumb and play 1st fret low E string:" },
+        { "type": "note", "text": "Am7   x-0-2-2-1-3" },
+        { "type": "note", "text": "Fadd9 1-x-3-2-1-3" },
+        { "type": "note", "text": "C     x-3-2-0-1-3" },
+        { "type": "note", "text": "G     3-x-0-0-0-3" },
+        { "type": "note", "text": "" },
+        { "type": "note", "text": "The strum pattern for Intro/Verse/Transition is picked for the downs and strummed for" },
+        { "type": "note", "text": "the ups." },
+        { "type": "note", "text": "I suggest picking the A and D strings, and then up strum." }
+      ]
+    },
+    {
+      "name": "Intro",
+      "rows": [
+        { "type": "chords", "page": 1, "expectedChordCount": 6, "anchors": [
+          { "chord": "Am", "sourceX": 0.095123 }, { "chord": "C", "sourceX": 0.154373 }, { "chord": "D", "sourceX": 0.184200 },
+          { "chord": "Am", "sourceX": 0.212817 }, { "chord": "C", "sourceX": 0.272471 }, { "chord": "D", "sourceX": 0.302297 }
+        ] }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        { "type": "chords", "page": 1, "expectedChordCount": 7, "anchors": [
+          { "chord": "Am", "sourceX": 0.095123 }, { "chord": "C", "sourceX": 0.144700 }, { "chord": "D", "sourceX": 0.223700 },
+          { "chord": "Am", "sourceX": 0.282144 }, { "chord": "C", "sourceX": 0.370818 }, { "chord": "D", "sourceX": 0.439742 }, { "chord": "Am", "sourceX": 0.517533 }
+        ] },
+        { "type": "lyrics", "page": 1, "fragments": [
+          { "text": "I hurt myself today", "sourceX": 0.119097 }, { "text": "to see if I still feel", "sourceX": 0.326489 }
+        ] },
+        { "type": "chords", "page": 1, "expectedChordCount": 6, "anchors": [
+          { "chord": "C", "sourceX": 0.115276 }, { "chord": "D", "sourceX": 0.164450 }, { "chord": "Am", "sourceX": 0.252318 },
+          { "chord": "C", "sourceX": 0.350665 }, { "chord": "D", "sourceX": 0.419992 }, { "chord": "Am", "sourceX": 0.527610 }
+        ] },
+        { "type": "lyrics", "page": 1, "fragments": [{ "text": "I focus on the pain   the only thing that's real", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 2, "expectedChordCount": 6, "anchors": [
+          { "chord": "C", "sourceX": 0.134623 }, { "chord": "D", "sourceX": 0.203950 }, { "chord": "Am", "sourceX": 0.281741 },
+          { "chord": "C", "sourceX": 0.390165 }, { "chord": "D", "sourceX": 0.459492 }, { "chord": "Am", "sourceX": 0.537283 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [
+          { "text": "The needle tears a hole", "sourceX": 0.092402 }, { "text": "the old familiar sting", "sourceX": 0.340862 }
+        ] },
+        { "type": "chords", "page": 2, "expectedChordCount": 6, "anchors": [
+          { "chord": "C", "sourceX": 0.164047 }, { "chord": "D", "sourceX": 0.233374 }, { "chord": "Am", "sourceX": 0.301491 },
+          { "chord": "C", "sourceX": 0.429665 }, { "chord": "D", "sourceX": 0.498589 }, { "chord": "G", "sourceX": 0.567110 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [
+          { "text": "Try to kill it all away", "sourceX": 0.092402 }, { "text": "but I remember everything", "sourceX": 0.334870 }
+        ] }
+      ]
+    },
+    {
+      "name": "Chorus 1",
+      "rows": [
+        { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [
+          { "chord": "Am", "sourceX": 0.095123 }, { "chord": "F", "sourceX": 0.253124 }, { "chord": "C", "sourceX": 0.311568 }, { "chord": "G", "sourceX": 0.469166 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "What have I become?      My sweetest friend", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [
+          { "chord": "Am", "sourceX": 0.095123 }, { "chord": "F", "sourceX": 0.214027 }, { "chord": "C", "sourceX": 0.350665 }, { "chord": "G", "sourceX": 0.439339 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "Everyone I know   goes away in the end", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [
+          { "chord": "Am", "sourceX": 0.134623 }, { "chord": "F", "sourceX": 0.322048 }, { "chord": "G", "sourceX": 0.370818 }, { "chord": "G", "sourceX": 0.528013 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "And you could have it all   My empire of dirt", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [
+          { "chord": "Am", "sourceX": 0.095123 }, { "chord": "F", "sourceX": 0.253124 }, { "chord": "G", "sourceX": 0.321644 }, { "chord": "Am", "sourceX": 0.488110 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "I will let you down   I will make you hurt", "sourceX": 0.092402 }] }
+      ]
+    },
+    {
+      "name": "Transition",
+      "rows": [
+        { "type": "chords", "page": 2, "expectedChordCount": 6, "anchors": [
+          { "chord": "(Am)", "sourceX": 0.097541 }, { "chord": "C", "sourceX": 0.164047 }, { "chord": "D", "sourceX": 0.193873 },
+          { "chord": "Am", "sourceX": 0.222894 }, { "chord": "C", "sourceX": 0.282144 }, { "chord": "D", "sourceX": 0.312374 }
+        ] }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        { "type": "chords", "page": 2, "expectedChordCount": 7, "anchors": [
+          { "chord": "Am", "sourceX": 0.095123 }, { "chord": "C", "sourceX": 0.144700 }, { "chord": "D", "sourceX": 0.243047 },
+          { "chord": "Am", "sourceX": 0.330915 }, { "chord": "C", "sourceX": 0.429665 }, { "chord": "D", "sourceX": 0.498589 }, { "chord": "Am", "sourceX": 0.576784 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "I wear this crown of thorns   upon my liar's chair", "sourceX": 0.112936 }] },
+        { "type": "chords", "page": 2, "expectedChordCount": 6, "anchors": [
+          { "chord": "C", "sourceX": 0.095526 }, { "chord": "D", "sourceX": 0.174123 }, { "chord": "Am", "sourceX": 0.261991 },
+          { "chord": "C", "sourceX": 0.350665 }, { "chord": "D", "sourceX": 0.410318 }, { "chord": "Am", "sourceX": 0.458686 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "Full of broken thoughts   I cannot repair", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 2, "expectedChordCount": 6, "anchors": [
+          { "chord": "C", "sourceX": 0.115276 }, { "chord": "D", "sourceX": 0.223700 }, { "chord": "Am", "sourceX": 0.311165 },
+          { "chord": "C", "sourceX": 0.419992 }, { "chord": "D", "sourceX": 0.498589 }, { "chord": "Am", "sourceX": 0.576784 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "Beneath the stains of time   the feelings disappear", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 2, "expectedChordCount": 6, "anchors": [
+          { "chord": "C", "sourceX": 0.095526 }, { "chord": "D", "sourceX": 0.193873 }, { "chord": "Am", "sourceX": 0.261991 },
+          { "chord": "C", "sourceX": 0.321644 }, { "chord": "D", "sourceX": 0.380895 }, { "chord": "G", "sourceX": 0.498186 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "You are someone else   I am still right here", "sourceX": 0.092402 }] }
+      ]
+    },
+    {
+      "name": "Chorus 2",
+      "rows": [
+        { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [
+          { "chord": "Am", "sourceX": 0.095123 }, { "chord": "F", "sourceX": 0.253124 }, { "chord": "C", "sourceX": 0.311568 }, { "chord": "G", "sourceX": 0.469166 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "What have I become?      My sweetest friend", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [
+          { "chord": "Am", "sourceX": 0.095123 }, { "chord": "F", "sourceX": 0.214027 }, { "chord": "C", "sourceX": 0.350665 }, { "chord": "G", "sourceX": 0.439339 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "Everyone I know   goes away in the end", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [
+          { "chord": "Am", "sourceX": 0.134623 }, { "chord": "F", "sourceX": 0.322048 }, { "chord": "G", "sourceX": 0.370818 }, { "chord": "G", "sourceX": 0.498186 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "And you could have it all   My empire of dirt", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [
+          { "chord": "Am", "sourceX": 0.095123 }, { "chord": "F", "sourceX": 0.253124 }, { "chord": "G", "sourceX": 0.311568 }, { "chord": "G", "sourceX": 0.469166 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "I will let you down   I will make you hurt", "sourceX": 0.092402 }] }
+      ]
+    },
+    {
+      "name": "Outro",
+      "rows": [
+        { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [
+          { "chord": "Am", "sourceX": 0.124547 }, { "chord": "F", "sourceX": 0.292624 }, { "chord": "G", "sourceX": 0.351068 }, { "chord": "G", "sourceX": 0.498186 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "If I could start again   a million miles away", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 2, "expectedChordCount": 3, "anchors": [
+          { "chord": "Am", "sourceX": 0.095123 }, { "chord": "F", "sourceX": 0.253124 }, { "chord": "G", "sourceX": 0.301894 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "I would keep myself   I would find a way", "sourceX": 0.092402 }] },
+        { "type": "note", "text": "             (single strum)" }
+      ]
+    }
+  ]
+}

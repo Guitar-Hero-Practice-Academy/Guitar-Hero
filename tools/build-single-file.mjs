@@ -1,12 +1,14 @@
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
+import { validateSongChartManifests } from "./validate-song-charts.mjs";
 
 const root = process.cwd();
 const appDir = path.join(root, "app");
 const outputPath = path.join(root, "Guitar-Hero.html");
 const outputDir = path.join(root, "docs");
 const pagesIndexPath = path.join(outputDir, "index.html");
+validateSongChartManifests(root);
 const scriptFiles = [
   "config.js",
   "data/songs.js",
@@ -46,6 +48,8 @@ const scriptFiles = [
   "data/missing-piece-coordinate.js",
   "data/some-might-say.js",
   "data/some-might-say-coordinate.js",
+  "data/hurt.js",
+  "data/hurt-coordinate.js",
   "data/pdf-song-additions.js",
   "data/cleopatra-acoustic-layout.js",
   "data/tone-settings.js",
