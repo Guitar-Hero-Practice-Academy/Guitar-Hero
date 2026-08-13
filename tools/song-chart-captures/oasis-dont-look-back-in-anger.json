@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "songId": "oasis-dont-look-back-in-anger",
+  "source": { "fileName": "dont look back in anger chords.pdf" },
+  "pages": [
+    { "page": 1, "originX": 0.092402, "cellWidth": 0.010267 },
+    { "page": 2, "originX": 0.092402, "cellWidth": 0.010267 },
+    { "page": 3, "originX": 0.092402, "cellWidth": 0.010267 }
+  ],
+  "sections": [
+    { "name": "Note", "rows": [
+      { "type": "note", "text": "Tune your guitar to 455 Hz to match the original pitch of the song." }
+    ] },
+    { "name": "Intro", "rows": [
+      { "type": "chords", "page": 1, "expectedChordCount": 5, "anchors": [
+        { "chord": "| C", "sourceX": 0.092402 }, { "chord": "| F", "sourceX": 0.160164 },
+        { "chord": "| C", "sourceX": 0.227926 }, { "chord": "| F", "sourceX": 0.297741 },
+        { "chord": "|", "sourceX": 0.365503 }
+      ] }
+    ] },
+    { "name": "Verse 1", "rows": [
+      { "type": "chords", "page": 1, "expectedChordCount": 3, "anchors": [{ "chord": "C", "sourceX": 0.094477 }, { "chord": "G", "sourceX": 0.251453 }, { "chord": "Am", "sourceX": 0.375000 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "Slip inside the eye of your mind", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 3, "anchors": [{ "chord": "E7", "sourceX": 0.193314 }, { "chord": "F", "sourceX": 0.338663 }, { "chord": "G", "sourceX": 0.383721 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "Don't you know you might find", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 3, "anchors": [{ "chord": "C", "sourceX": 0.266941 }, { "chord": "Am", "sourceX": 0.320329 }, { "chord": "G", "sourceX": 0.358834 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "A better place to play", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 3, "anchors": [{ "chord": "C", "sourceX": 0.092402 }, { "chord": "G", "sourceX": 0.223819 }, { "chord": "Am", "sourceX": 0.347023 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "You said that you'd never been", "sourceX": 0.090349 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 3, "anchors": [{ "chord": "E7", "sourceX": 0.207392 }, { "chord": "F", "sourceX": 0.398357 }, { "chord": "G", "sourceX": 0.439425 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "But all the things that you've seen", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 3, "anchors": [{ "chord": "C", "sourceX": 0.220930 }, { "chord": "Am", "sourceX": 0.270349 }, { "chord": "G", "sourceX": 0.298852 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "Slowly fade away", "sourceX": 0.092402 }] }
+    ] },
+    { "name": "Pre-Chorus", "rows": [
+      { "type": "chords", "page": 1, "expectedChordCount": 3, "anchors": [{ "chord": "F", "sourceX": 0.094456 }, { "chord": "Fm6", "sourceX": 0.264887 }, { "chord": "C", "sourceX": 0.421213 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "So I start a revolution from my bed", "sourceX": 0.102669 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 3, "anchors": [{ "chord": "F", "sourceX": 0.182752 }, { "chord": "Fm6", "sourceX": 0.357290 }, { "chord": "C", "sourceX": 0.503082 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "'Cos you said the brains I had went to my head", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 3, "anchors": [{ "chord": "F", "sourceX": 0.092402 }, { "chord": "Fm6", "sourceX": 0.227926 }, { "chord": "C", "sourceX": 0.385073 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "Step outside, summertime's in bloom", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 1, "anchors": [{ "chord": "G", "sourceX": 0.092402 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "Stand up beside the fireplace", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 1, "anchors": [{ "chord": "E7/G#", "sourceX": 0.092356 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Take that look from off your face", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "Am", "sourceX": 0.092402 }, { "chord": "G", "sourceX": 0.238193 }, { "chord": "F", "sourceX": 0.375770 }, { "chord": "G", "sourceX": 0.455852 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "You ain't ever gonna burn my heart out", "sourceX": 0.092402 }] }
+    ] },
+    { "name": "Chorus", "rows": [
+      { "type": "chords", "page": 2, "expectedChordCount": 5, "anchors": [{ "chord": "C", "sourceX": 0.125257 }, { "chord": "G", "sourceX": 0.156977 }, { "chord": "Am", "sourceX": 0.260174 }, { "chord": "E7", "sourceX": 0.359012 }, { "chord": "F", "sourceX": 0.398357 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "And so Sally can wait, she knows it's too late", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "G", "sourceX": 0.205077 }, { "chord": "C", "sourceX": 0.266940 }, { "chord": "Am", "sourceX": 0.329942 }, { "chord": "G", "sourceX": 0.358179 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "as we're walking on by", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.125257 }, { "chord": "G", "sourceX": 0.172485 }, { "chord": "Am", "sourceX": 0.261628 }, { "chord": "E7", "sourceX": 0.309593 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Her soul slides away,", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "F", "sourceX": 0.232033 }, { "chord": "G", "sourceX": 0.379877 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "but don't look back in anger", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 9, "anchors": [{ "chord": "C", "sourceX": 0.207392 }, { "chord": "G", "sourceX": 0.248791 }, { "chord": "Am", "sourceX": 0.283368 }, { "chord": "E7", "sourceX": 0.338809 }, { "chord": "F", "sourceX": 0.388090 }, { "chord": "G", "sourceX": 0.418891 }, { "chord": "C", "sourceX": 0.468172 }, { "chord": "Am", "sourceX": 0.507147 }, { "chord": "G", "sourceX": 0.535349 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "I heard you say", "sourceX": 0.092402 }] }
+    ] },
+    { "name": "Verse 2", "rows": [
+      { "type": "chords", "page": 2, "expectedChordCount": 3, "anchors": [{ "chord": "C", "sourceX": 0.092402 }, { "chord": "G", "sourceX": 0.240246 }, { "chord": "Am", "sourceX": 0.390144 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Take me to the place where you go", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 6, "anchors": [{ "chord": "E7", "sourceX": 0.152616 }, { "chord": "F", "sourceX": 0.220930 }, { "chord": "G", "sourceX": 0.289244 }, { "chord": "C", "sourceX": 0.457849 }, { "chord": "Am", "sourceX": 0.507267 }, { "chord": "G", "sourceX": 0.535959 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Where nobody knows, if it's night or day", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 3, "anchors": [{ "chord": "C", "sourceX": 0.092402 }, { "chord": "G", "sourceX": 0.310062 }, { "chord": "Am", "sourceX": 0.425051 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Please don't put your life in the hands", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 6, "anchors": [{ "chord": "E7", "sourceX": 0.142442 }, { "chord": "F", "sourceX": 0.279070 }, { "chord": "G", "sourceX": 0.338663 }, { "chord": "C", "sourceX": 0.545058 }, { "chord": "Am", "sourceX": 0.594477 }, { "chord": "G", "sourceX": 0.624899 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "of a rock and roll band, who'll throw it all away", "sourceX": 0.092402 }] }
+    ] },
+    { "name": "Pre-Chorus", "rows": [
+      { "type": "chords", "page": 2, "expectedChordCount": 3, "anchors": [{ "chord": "F", "sourceX": 0.094456 }, { "chord": "Fm6", "sourceX": 0.316222 }, { "chord": "C", "sourceX": 0.397915 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "I'm gonna start a revolution from my bed", "sourceX": 0.102669 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 3, "anchors": [{ "chord": "F", "sourceX": 0.248942 }, { "chord": "Fm6", "sourceX": 0.357290 }, { "chord": "C", "sourceX": 0.503223 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "'Cos you said the brains I had went to my head", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 3, "anchors": [{ "chord": "F", "sourceX": 0.094456 }, { "chord": "Fm6", "sourceX": 0.268994 }, { "chord": "C", "sourceX": 0.425051 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Step outside, the summertime's in bloom", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 1, "anchors": [{ "chord": "G", "sourceX": 0.090349 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Stand up beside the fireplace", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 1, "anchors": [{ "chord": "E7/G#", "sourceX": 0.092269 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Take that look from off your face", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "Am", "sourceX": 0.133470 }, { "chord": "G", "sourceX": 0.390144 }, { "chord": "F", "sourceX": 0.572573 }, { "chord": "G", "sourceX": 0.646496 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "'Cos you ain't ever gonna burn my heart out", "sourceX": 0.092402 }] }
+    ] },
+    { "name": "Chorus", "rows": [
+      { "type": "chords", "page": 2, "expectedChordCount": 5, "anchors": [{ "chord": "C", "sourceX": 0.093023 }, { "chord": "G", "sourceX": 0.122093 }, { "chord": "Am", "sourceX": 0.219477 }, { "chord": "E7", "sourceX": 0.319767 }, { "chord": "F", "sourceX": 0.503223 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "So Sally can wait, she knows it's too late", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "G", "sourceX": 0.248416 }, { "chord": "C", "sourceX": 0.279016 }, { "chord": "Am", "sourceX": 0.329942 }, { "chord": "G", "sourceX": 0.357927 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "as she's walking on by", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.129363 }, { "chord": "G", "sourceX": 0.168378 }, { "chord": "Am", "sourceX": 0.251453 }, { "chord": "E7", "sourceX": 0.299419 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "My soul slides away,", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "F", "sourceX": 0.241279 }, { "chord": "G", "sourceX": 0.379877 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "but don't look back in anger", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 3, "anchors": [{ "chord": "C", "sourceX": 0.283368 }, { "chord": "Am", "sourceX": 0.338809 }, { "chord": "G", "sourceX": 0.379877 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "I heard you say", "sourceX": 0.092402 }] }
+    ] },
+    { "name": "Solo", "rows": [
+      { "type": "chords", "page": 3, "expectedChordCount": 4, "anchors": [{ "chord": "| F", "sourceX": 0.092402 }, { "chord": "Fm6", "sourceX": 0.140915 }, { "chord": "| C", "sourceX": 0.182615 }, { "chord": "| x3", "sourceX": 0.258727 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 3, "anchors": [{ "chord": "| G", "sourceX": 0.094456 }, { "chord": "| E7/G#", "sourceX": 0.182524 }, { "chord": "|", "sourceX": 0.260573 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 5, "anchors": [{ "chord": "| Am G", "sourceX": 0.094456 }, { "chord": "| F", "sourceX": 0.181003 }, { "chord": "| G", "sourceX": 0.256674 }, { "chord": "| G N.C.", "sourceX": 0.340807 }, { "chord": "|", "sourceX": 0.427431 }] }
+    ] },
+    { "name": "Chorus", "rows": [
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "So Sally can wait, she knows it's too late", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 3, "anchors": [{ "chord": "C", "sourceX": 0.279016 }, { "chord": "Am", "sourceX": 0.329942 }, { "chord": "G", "sourceX": 0.356105 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "as we're walking on by", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.132267 }, { "chord": "G", "sourceX": 0.181686 }, { "chord": "Am", "sourceX": 0.261628 }, { "chord": "E7", "sourceX": 0.308140 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "Her soul slides away,", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 2, "anchors": [{ "chord": "F", "sourceX": 0.236140 }, { "chord": "G", "sourceX": 0.377823 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "but don't look back in anger", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 3, "anchors": [{ "chord": "C", "sourceX": 0.210756 }, { "chord": "Am", "sourceX": 0.261539 }, { "chord": "G", "sourceX": 0.290545 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "I heard you say", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 5, "anchors": [{ "chord": "C", "sourceX": 0.092402 }, { "chord": "G", "sourceX": 0.116279 }, { "chord": "Am", "sourceX": 0.222384 }, { "chord": "E7", "sourceX": 0.319767 }, { "chord": "F", "sourceX": 0.465116 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "So Sally can wait, she knows it's too late", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 4, "anchors": [{ "chord": "G", "sourceX": 0.178645 }, { "chord": "C", "sourceX": 0.279016 }, { "chord": "Am", "sourceX": 0.329942 }, { "chord": "G", "sourceX": 0.358985 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "as she's walking on by", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 3, "anchors": [{ "chord": "C", "sourceX": 0.129363 }, { "chord": "G", "sourceX": 0.164271 }, { "chord": "Am", "sourceX": 0.251453 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "My soul slides away", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 1, "anchors": [{ "chord": "F", "sourceX": 0.241279 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "But don't look back in anger", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 1, "anchors": [{ "chord": "Fm6", "sourceX": 0.202035 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "Don't look back in anger", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 7, "anchors": [{ "chord": "C", "sourceX": 0.203285 }, { "chord": "G", "sourceX": 0.254620 }, { "chord": "Am", "sourceX": 0.289384 }, { "chord": "E7", "sourceX": 0.340116 }, { "chord": "F", "sourceX": 0.388081 }, { "chord": "Fm6", "sourceX": 0.427326 }, { "chord": "C", "sourceX": 0.594477 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "I heard you say", "sourceX": 0.092402 }, { "text": "At least not today", "sourceX": 0.443532 }] }
+    ] }
+  ]
+}

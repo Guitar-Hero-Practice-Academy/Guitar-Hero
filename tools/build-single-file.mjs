@@ -35,6 +35,7 @@ const scriptFiles = [
   "data/the-middle.js",
   "data/turn-the-beat-around.js",
   "data/dont-look-back-in-anger.js",
+  "data/dont-look-back-in-anger-coordinate.js",
   "data/dont-stop.js",
   "data/the-safety-dance.js",
   "data/sweet-child-o-mine.js",
