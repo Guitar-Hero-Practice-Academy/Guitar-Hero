@@ -1,0 +1,1388 @@
+{
+  "schemaVersion": 1,
+  "songId": "oasis-little-by-little",
+  "source": {
+    "fileName": "little by little chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 3,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.121
+            },
+            {
+              "chord": "C/B",
+              "sourceX": 0.149
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.2
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Emadd9",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.178
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "x2"
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.366
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "We the people fight for our existence",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.121
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.476
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "We don't claim to be perfect but we're free",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.121
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.429
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "We dream our dreams alone with no resistance",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.417
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Fading like the stars we wish to be",
+              "sourceX": 0.09
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pre-chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.269
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You know I didn't mean",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D/F#",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.207
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.255
+            },
+            {
+              "chord": "G/F#",
+              "sourceX": 0.289
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "What I just said",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.162
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But my God woke up",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.341
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "on the wrong side of his bed",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.335
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "and it just don't matter now",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.259
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "'Cause little by little",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.124547
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.361145
+            },
+            {
+              "chord": "Em7/F#",
+              "sourceX": 0.409512
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.498186
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "We gave you everything you ever dreamed of",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.191
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Little by little",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.134623
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.410318
+            },
+            {
+              "chord": "Em7/F#",
+              "sourceX": 0.478436
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.557437
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "The wheels of your life they're slowly falling off",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.191
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Little by little",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.134623
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.292624
+            },
+            {
+              "chord": "Em7/F#",
+              "sourceX": 0.380492
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.469166
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You have to give it all with all your life",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.213624
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.340992
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.449012
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And all the time, I just ask myself why",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.23
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You're really here",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.366
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "True perfection has to be imperfect",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.119
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.474
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I know that that sounds foolish but it's true",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.115
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.429
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "The day has come and now you'll have to accept",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.415
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "The life inside your head we give to you",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pre-chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.269
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You know I didn't mean",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D/F#",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.207
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.254
+            },
+            {
+              "chord": "G/F#",
+              "sourceX": 0.287
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "What I just said",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.16
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But my God woke up",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.339
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "on the wrong side of his bed",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.337
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "and it just don't matter now",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.259
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "'Cause little by little",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.124547
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.361145
+            },
+            {
+              "chord": "Em7/F#",
+              "sourceX": 0.409512
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.498186
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "We gave you everything you ever dreamed of",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.191
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Little by little",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.134623
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.410318
+            },
+            {
+              "chord": "Em7/F#",
+              "sourceX": 0.478436
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.557437
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "The wheels of your life they're slowly falling off",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.191
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Little by little",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.134623
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.292624
+            },
+            {
+              "chord": "Em7/F#",
+              "sourceX": 0.380492
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.469166
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You have to give it all with all your life",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.213624
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.340992
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.449012
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "And all the time, I just ask myself why",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.232
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You're really here",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solo",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.135
+            },
+            {
+              "chord": "G/F#",
+              "sourceX": 0.169
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "x2"
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "hey!",
+              "sourceX": 0.131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.136
+            },
+            {
+              "chord": "C/B",
+              "sourceX": 0.169
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.236
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.283
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.378
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.261
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "'Cause little by little",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.124547
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.361145
+            },
+            {
+              "chord": "Em7/F#",
+              "sourceX": 0.409512
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.498186
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "We gave you everything you ever dreamed of",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.191
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Little by little",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.134623
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.410318
+            },
+            {
+              "chord": "Em7/F#",
+              "sourceX": 0.478436
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.557437
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "The wheels of your life they're slowly falling off",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.187
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Little by little",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.134623
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.292624
+            },
+            {
+              "chord": "Em7/F#",
+              "sourceX": 0.380492
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.469166
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You have to give it all with all your life",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.207
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.337
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.441
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "And all the time, I just ask myself why",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em7/F#",
+              "sourceX": 0.164047
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.232971
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You're really here",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 7,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.138
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.19
+            },
+            {
+              "chord": "Em7/F#",
+              "sourceX": 0.238
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.345
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.388
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.439
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.127
+            },
+            {
+              "chord": "Em7/F#",
+              "sourceX": 0.181
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.25
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.296
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.347
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Why am I really here?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.131
+            },
+            {
+              "chord": "Em7/F#",
+              "sourceX": 0.18
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.249
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.283
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.339
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.376
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Why am I really here?",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "outro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.141
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "(Repeat to fade)"
+        }
+      ]
+    }
+  ]
+}

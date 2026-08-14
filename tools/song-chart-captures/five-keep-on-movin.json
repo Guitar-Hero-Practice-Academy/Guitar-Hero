@@ -1,0 +1,1176 @@
+{
+  "schemaVersion": 1,
+  "songId": "five-keep-on-movin",
+  "source": {
+    "fileName": "keep on movin chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 3,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Notes",
+      "rows": [
+        {
+          "type": "note",
+          "text": "ATTENTION: you could play Em7 (020000 or 022033) for Em and Cadd9 ((0)3233 for each C"
+        },
+        {
+          "type": "note",
+          "text": "Key of D"
+        }
+      ]
+    },
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.115276
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.292624
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.468763
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.645707
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.115276
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.292624
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.468763
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.645707
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.115276
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.361145
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I woke up today with this feeling",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.1447
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.419992
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "That better things are coming my way.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.135429
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.351471
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "And if the sunshine has a meaning,",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.203547
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.478839
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Telling me not to let things get in my way",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pre-Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.420395
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "When the rainy days are dying,    gotta keep on, keep on trying",
+              "sourceX": 0.113
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.449012
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "All the bees and birds are flying Ahhhh...",
+              "sourceX": 0.113
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.420395
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Never let go gotta hold on and    Non stop 'til the break of dawn and",
+              "sourceX": 0.115
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.459089
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Keep on moving, don't stop rocking Ahhhh...",
+              "sourceX": 0.115
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.16445
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.311971
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Get on up when you're down, baby,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.272471
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Take a good look around.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.253124
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.410318
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I know it's not much, but it's okay.",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.232971
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.360742
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "We'll keep on movin' on anyway",
+              "sourceX": 0.094
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Interlude",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "(D)",
+              "sourceX": 0.113
+            },
+            {
+              "chord": "(D)",
+              "sourceX": 0.289
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.371221
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Feels like I have should be screaming,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.370818
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Trying to get through to my friends.",
+              "sourceX": 0.088
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.135429
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.449416
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "sometimes it feels that life has no meaning,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.154373
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.498186
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But I know things will be alright in the end.",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pre-Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.420395
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "When the rainy days are dying,    gotta keep on, keep on trying",
+              "sourceX": 0.113
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.449012
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "All the bees and birds are flying Ahhhh...",
+              "sourceX": 0.113
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.420395
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Never let go gotta hold on and    Non stop 'til the break of dawn and",
+              "sourceX": 0.111
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.459089
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Keep on moving, don't stop rocking Ahhhh...",
+              "sourceX": 0.111
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.164
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.31
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Get on up when you're down, baby,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.271
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Take a good look around.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.248
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.405
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I know it's not much, but it's okay.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.23
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.359
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "We'll keep on movin' on anyway",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Interlude",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "(D)",
+              "sourceX": 0.113
+            },
+            {
+              "chord": "(D)",
+              "sourceX": 0.289
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pre-Chorus",
+      "rows": [
+        {
+          "type": "note",
+          "text": "(in RINGS, strum each chord 1 time)"
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.420395
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "When the rainy days are dying,    gotta keep on, keep on trying",
+              "sourceX": 0.111
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.449012
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "All the bees and birds are flying Ahhhh...",
+              "sourceX": 0.113
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.420395
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Never let go gotta hold on and    Non stop 'til the break of dawn and",
+              "sourceX": 0.113
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.459089
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Keep on moving, don't stop rocking Ahhhh...",
+              "sourceX": 0.113
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pre-Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.420395
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "When the rainy days are dying,    gotta keep on, keep on trying",
+              "sourceX": 0.115
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.449012
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "All the bees and birds are flying Ahhhh...",
+              "sourceX": 0.115
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.420395
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Never let go gotta hold on and    Non stop 'til the break of dawn and",
+              "sourceX": 0.115
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.459089
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Keep on moving, don't stop rocking Ahhhh...",
+              "sourceX": 0.115
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "note",
+          "text": "(a capella = NO CHORDS)"
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "N.C.",
+              "sourceX": 0.164
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Get on up when you're down, baby,",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "N.C.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Take a good look around.",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "N.C.",
+              "sourceX": 0.251
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I know it's not much, but it's okay.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "N.C.",
+              "sourceX": 0.23
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "We'll keep on movin' on anyway",
+              "sourceX": 0.094
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "End-Chorus",
+      "rows": [
+        {
+          "type": "note",
+          "text": "(Repeat and Fade Out)"
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.16445
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.311971
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Get on up when you're down, baby,",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.272471
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Take a good look around.",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.253124
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.410318
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I know it's not much, but it's okay.",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.232971
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.360742
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "We'll keep on movin' on anyway",
+              "sourceX": 0.094
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

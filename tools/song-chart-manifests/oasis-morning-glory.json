@@ -1,0 +1,1081 @@
+{
+  "schemaVersion": 1,
+  "songId": "oasis-morning-glory",
+  "contentRevision": 11,
+  "source": {
+    "fileName": "morning glory chords.pdf",
+    "sha256": "9353ff587d07a7a87c97592f335b57d03de3e024f3ac901aff6458d8c11972b4"
+  },
+  "verification": {
+    "sourceChecked": true,
+    "browserChecked": true,
+    "checkedAt": "2026-08-14"
+  },
+  "chartHash": "d603f8b187b5ad0b6492bf8dfb0860ac55cd4a97414661341c90e62be9b163dd",
+  "sections": [
+    {
+      "name": "Intro",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "ed24ff0cba8ee5a8e69f5cd04678a3c35a9f16f055ef98fa284ab4c530e88281",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Em",
+              "column": 4
+            },
+            {
+              "chord": "Em",
+              "column": 11
+            },
+            {
+              "chord": "Em",
+              "column": 16
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "ed24ff0cba8ee5a8e69f5cd04678a3c35a9f16f055ef98fa284ab4c530e88281",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Em",
+              "column": 4
+            },
+            {
+              "chord": "Em",
+              "column": 11
+            },
+            {
+              "chord": "Em",
+              "column": 16
+            }
+          ]
+        },
+        {
+          "lineOffset": 2,
+          "hash": "d4913fa97883085bc83aa11beb67de836ac6e08ea591217173e716e773eab6c2",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Dsus2",
+              "column": 4
+            },
+            {
+              "chord": "Em",
+              "column": 11
+            },
+            {
+              "chord": "Dsus2",
+              "column": 15
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "d4913fa97883085bc83aa11beb67de836ac6e08ea591217173e716e773eab6c2",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Dsus2",
+              "column": 4
+            },
+            {
+              "chord": "Em",
+              "column": 11
+            },
+            {
+              "chord": "Dsus2",
+              "column": 15
+            }
+          ]
+        },
+        {
+          "lineOffset": 4,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "b47bb368169fa2b8d4ca995602c99a9720374014f16a82da2e4adde22a2d69c5",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Dsus2",
+              "column": 20
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "f65bbe94ec183e56bc156303cfb266bcb8debc6f17e6098f4531834756535110"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "231296f69085b6613eee670bc2be0fb585f39ecd0960891bd72c18f37c9c42c4",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 12
+            },
+            {
+              "chord": "Dsus2",
+              "column": 42
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "ff5f4798a7efb3bf4ebfe6935d12c4d08e66cfe3dca4fb8f617c965198ce021a"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "0c016b93bbc2de7683d36469035a5cae9ccbfe57cc5e7bf79709545f4b155626"
+        },
+        {
+          "lineOffset": 5,
+          "hash": "15d35040341d0a6a8c7d90933899dc3f2c6b03c15fba4c4c58adaa7d66613bda"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "1a9b4f97ca5158f0475e4e9002eb2e8998f4071bad48f81f4f3f0c15b79c9a96",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Dsus2",
+              "column": 19
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "745955f2a6bebf6db6b59603f0bbbfe56dc68e1d79d36073185f9c25110eaea7"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "98a1e224fa1abd9fbc1c032ca228699417029b6ba30c76c041ab98777cc3a0f3",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Dsus2",
+              "column": 27
+            }
+          ]
+        },
+        {
+          "lineOffset": 9,
+          "hash": "ffe0ac2eb54c94ab7c503d4e4a43d3737516885fcdebbf56b74878c10e7ce75d"
+        },
+        {
+          "lineOffset": 10,
+          "hash": "098be9c0832295e54346d355ad9b6b8da491c9e744847167ddb4698a2ad40d05"
+        },
+        {
+          "lineOffset": 11,
+          "hash": "36ce9294d474a7041cbb1fc803f8ea296dcb62b1025bb52788e64451b4d2a408"
+        },
+        {
+          "lineOffset": 12,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Pre Chorus",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "4ef0717a038a9606f70aad02b9701093424e19df7e884d6ad29313734ad426f3",
+          "anchors": [
+            {
+              "chord": "Dsus2",
+              "column": 0
+            },
+            {
+              "chord": "Cadd9",
+              "column": 22
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "4d3b3749e6ecf77d3a5362c8f552e759b75facf7695c7968de21cb015acde526"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "4ef0717a038a9606f70aad02b9701093424e19df7e884d6ad29313734ad426f3",
+          "anchors": [
+            {
+              "chord": "Dsus2",
+              "column": 0
+            },
+            {
+              "chord": "Cadd9",
+              "column": 22
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "f588f0bf47437b3e1e311f6881f2172164f3a604d9f824f533cb474aa3120034"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "4ef0717a038a9606f70aad02b9701093424e19df7e884d6ad29313734ad426f3",
+          "anchors": [
+            {
+              "chord": "Dsus2",
+              "column": 0
+            },
+            {
+              "chord": "Cadd9",
+              "column": 22
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "4d3b3749e6ecf77d3a5362c8f552e759b75facf7695c7968de21cb015acde526"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "12a750139ca2e4c14287bb6ed9ece9ee75b556a911f19f91c2f0d59ef40e7597",
+          "anchors": [
+            {
+              "chord": "D5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "2773bff447d67b8125a89cdbc12f6c955c13324bfcfe797edd741674ae1cba87"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "928d907537993e044239a6388f245d2203d19a8c180063e776e3be3b2172a636",
+          "anchors": [
+            {
+              "chord": "B",
+              "column": 4
+            },
+            {
+              "chord": "Em",
+              "column": 44
+            },
+            {
+              "chord": "Dsus2",
+              "column": 49
+            }
+          ]
+        },
+        {
+          "lineOffset": 9,
+          "hash": "2163a7f94c41ca5b8a45cc391994f26cabd753b574156ab287945256e221236b"
+        },
+        {
+          "lineOffset": 10,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "037686015e0ea401ee6fcc5146e1d65789852ba8b3b74fedd70b0d117f30e497",
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "column": 0
+            },
+            {
+              "chord": "Cadd9",
+              "column": 17
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "73d7ab0c455cf1e8863ddc4dac870ba53f748b8261d541ac6ab4a5744e5fa760"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "4269bf49dc77743fe4552cd995f048444a1bbb4fee0af4810a35c115da1548c1",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Dsus2",
+              "column": 6
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "7ff4f813c799c2a41d28e4d012f4a69651b9df9279755a0572a5971766e9e232"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "a002382094b89b3be30e6fc53ed2bfe1aa94d0c77eb46adb1f7682f5b043a0fe",
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "column": 4
+            },
+            {
+              "chord": "Cadd9",
+              "column": 26
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "d9be9c671e7249123e6479adf038942936987cf595b7f0ac01bb8e0b3101a5bf"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "4269bf49dc77743fe4552cd995f048444a1bbb4fee0af4810a35c115da1548c1",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Dsus2",
+              "column": 6
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "7ff4f813c799c2a41d28e4d012f4a69651b9df9279755a0572a5971766e9e232"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "037686015e0ea401ee6fcc5146e1d65789852ba8b3b74fedd70b0d117f30e497",
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "column": 0
+            },
+            {
+              "chord": "Cadd9",
+              "column": 17
+            }
+          ]
+        },
+        {
+          "lineOffset": 9,
+          "hash": "73d7ab0c455cf1e8863ddc4dac870ba53f748b8261d541ac6ab4a5744e5fa760"
+        },
+        {
+          "lineOffset": 10,
+          "hash": "4269bf49dc77743fe4552cd995f048444a1bbb4fee0af4810a35c115da1548c1",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Dsus2",
+              "column": 6
+            }
+          ]
+        },
+        {
+          "lineOffset": 11,
+          "hash": "7ff4f813c799c2a41d28e4d012f4a69651b9df9279755a0572a5971766e9e232"
+        },
+        {
+          "lineOffset": 12,
+          "hash": "37fb20a87d7d0e082e3a5cb02cb9d889a3ddd28d3a32702ee08d819109df0d05",
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "column": 0
+            },
+            {
+              "chord": "Cadd9",
+              "column": 22
+            }
+          ]
+        },
+        {
+          "lineOffset": 13,
+          "hash": "f588f0bf47437b3e1e311f6881f2172164f3a604d9f824f533cb474aa3120034"
+        },
+        {
+          "lineOffset": 14,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Instrumental",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "ed24ff0cba8ee5a8e69f5cd04678a3c35a9f16f055ef98fa284ab4c530e88281",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Em",
+              "column": 4
+            },
+            {
+              "chord": "Em",
+              "column": 11
+            },
+            {
+              "chord": "Em",
+              "column": 16
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "ed24ff0cba8ee5a8e69f5cd04678a3c35a9f16f055ef98fa284ab4c530e88281",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Em",
+              "column": 4
+            },
+            {
+              "chord": "Em",
+              "column": 11
+            },
+            {
+              "chord": "Em",
+              "column": 16
+            }
+          ]
+        },
+        {
+          "lineOffset": 2,
+          "hash": "d4913fa97883085bc83aa11beb67de836ac6e08ea591217173e716e773eab6c2",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Dsus2",
+              "column": 4
+            },
+            {
+              "chord": "Em",
+              "column": 11
+            },
+            {
+              "chord": "Dsus2",
+              "column": 15
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "d4913fa97883085bc83aa11beb67de836ac6e08ea591217173e716e773eab6c2",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Dsus2",
+              "column": 4
+            },
+            {
+              "chord": "Em",
+              "column": 11
+            },
+            {
+              "chord": "Dsus2",
+              "column": 15
+            }
+          ]
+        },
+        {
+          "lineOffset": 4,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Solo",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "7cea46a547131f46f1eb3fbea998dba23d9b12a2a6096d8c62e90da058fce3a7"
+        },
+        {
+          "lineOffset": 1,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "b47bb368169fa2b8d4ca995602c99a9720374014f16a82da2e4adde22a2d69c5",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Dsus2",
+              "column": 20
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "f65bbe94ec183e56bc156303cfb266bcb8debc6f17e6098f4531834756535110"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "231296f69085b6613eee670bc2be0fb585f39ecd0960891bd72c18f37c9c42c4",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 12
+            },
+            {
+              "chord": "Dsus2",
+              "column": 42
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "ff5f4798a7efb3bf4ebfe6935d12c4d08e66cfe3dca4fb8f617c965198ce021a"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "0c016b93bbc2de7683d36469035a5cae9ccbfe57cc5e7bf79709545f4b155626"
+        },
+        {
+          "lineOffset": 5,
+          "hash": "15d35040341d0a6a8c7d90933899dc3f2c6b03c15fba4c4c58adaa7d66613bda"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "1a9b4f97ca5158f0475e4e9002eb2e8998f4071bad48f81f4f3f0c15b79c9a96",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Dsus2",
+              "column": 19
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "745955f2a6bebf6db6b59603f0bbbfe56dc68e1d79d36073185f9c25110eaea7"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "98a1e224fa1abd9fbc1c032ca228699417029b6ba30c76c041ab98777cc3a0f3",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Dsus2",
+              "column": 27
+            }
+          ]
+        },
+        {
+          "lineOffset": 9,
+          "hash": "ffe0ac2eb54c94ab7c503d4e4a43d3737516885fcdebbf56b74878c10e7ce75d"
+        },
+        {
+          "lineOffset": 10,
+          "hash": "098be9c0832295e54346d355ad9b6b8da491c9e744847167ddb4698a2ad40d05"
+        },
+        {
+          "lineOffset": 11,
+          "hash": "36ce9294d474a7041cbb1fc803f8ea296dcb62b1025bb52788e64451b4d2a408"
+        },
+        {
+          "lineOffset": 12,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Pre Chorus",
+      "occurrence": 2,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "4ef0717a038a9606f70aad02b9701093424e19df7e884d6ad29313734ad426f3",
+          "anchors": [
+            {
+              "chord": "Dsus2",
+              "column": 0
+            },
+            {
+              "chord": "Cadd9",
+              "column": 22
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "4d3b3749e6ecf77d3a5362c8f552e759b75facf7695c7968de21cb015acde526"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "4ef0717a038a9606f70aad02b9701093424e19df7e884d6ad29313734ad426f3",
+          "anchors": [
+            {
+              "chord": "Dsus2",
+              "column": 0
+            },
+            {
+              "chord": "Cadd9",
+              "column": 22
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "f588f0bf47437b3e1e311f6881f2172164f3a604d9f824f533cb474aa3120034"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "4ef0717a038a9606f70aad02b9701093424e19df7e884d6ad29313734ad426f3",
+          "anchors": [
+            {
+              "chord": "Dsus2",
+              "column": 0
+            },
+            {
+              "chord": "Cadd9",
+              "column": 22
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "4d3b3749e6ecf77d3a5362c8f552e759b75facf7695c7968de21cb015acde526"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "12a750139ca2e4c14287bb6ed9ece9ee75b556a911f19f91c2f0d59ef40e7597",
+          "anchors": [
+            {
+              "chord": "D5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "2773bff447d67b8125a89cdbc12f6c955c13324bfcfe797edd741674ae1cba87"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "928d907537993e044239a6388f245d2203d19a8c180063e776e3be3b2172a636",
+          "anchors": [
+            {
+              "chord": "B",
+              "column": 4
+            },
+            {
+              "chord": "Em",
+              "column": 44
+            },
+            {
+              "chord": "Dsus2",
+              "column": 49
+            }
+          ]
+        },
+        {
+          "lineOffset": 9,
+          "hash": "2163a7f94c41ca5b8a45cc391994f26cabd753b574156ab287945256e221236b"
+        },
+        {
+          "lineOffset": 10,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "occurrence": 2,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "037686015e0ea401ee6fcc5146e1d65789852ba8b3b74fedd70b0d117f30e497",
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "column": 0
+            },
+            {
+              "chord": "Cadd9",
+              "column": 17
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "73d7ab0c455cf1e8863ddc4dac870ba53f748b8261d541ac6ab4a5744e5fa760"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "4269bf49dc77743fe4552cd995f048444a1bbb4fee0af4810a35c115da1548c1",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Dsus2",
+              "column": 6
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "7ff4f813c799c2a41d28e4d012f4a69651b9df9279755a0572a5971766e9e232"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "a002382094b89b3be30e6fc53ed2bfe1aa94d0c77eb46adb1f7682f5b043a0fe",
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "column": 4
+            },
+            {
+              "chord": "Cadd9",
+              "column": 26
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "d9be9c671e7249123e6479adf038942936987cf595b7f0ac01bb8e0b3101a5bf"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "4269bf49dc77743fe4552cd995f048444a1bbb4fee0af4810a35c115da1548c1",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Dsus2",
+              "column": 6
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "7ff4f813c799c2a41d28e4d012f4a69651b9df9279755a0572a5971766e9e232"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "037686015e0ea401ee6fcc5146e1d65789852ba8b3b74fedd70b0d117f30e497",
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "column": 0
+            },
+            {
+              "chord": "Cadd9",
+              "column": 17
+            }
+          ]
+        },
+        {
+          "lineOffset": 9,
+          "hash": "73d7ab0c455cf1e8863ddc4dac870ba53f748b8261d541ac6ab4a5744e5fa760"
+        },
+        {
+          "lineOffset": 10,
+          "hash": "4269bf49dc77743fe4552cd995f048444a1bbb4fee0af4810a35c115da1548c1",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Dsus2",
+              "column": 6
+            }
+          ]
+        },
+        {
+          "lineOffset": 11,
+          "hash": "7ff4f813c799c2a41d28e4d012f4a69651b9df9279755a0572a5971766e9e232"
+        },
+        {
+          "lineOffset": 12,
+          "hash": "37fb20a87d7d0e082e3a5cb02cb9d889a3ddd28d3a32702ee08d819109df0d05",
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "column": 0
+            },
+            {
+              "chord": "Cadd9",
+              "column": 22
+            }
+          ]
+        },
+        {
+          "lineOffset": 13,
+          "hash": "f588f0bf47437b3e1e311f6881f2172164f3a604d9f824f533cb474aa3120034"
+        },
+        {
+          "lineOffset": 14,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "occurrence": 3,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "037686015e0ea401ee6fcc5146e1d65789852ba8b3b74fedd70b0d117f30e497",
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "column": 0
+            },
+            {
+              "chord": "Cadd9",
+              "column": 17
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "73d7ab0c455cf1e8863ddc4dac870ba53f748b8261d541ac6ab4a5744e5fa760"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "4269bf49dc77743fe4552cd995f048444a1bbb4fee0af4810a35c115da1548c1",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Dsus2",
+              "column": 6
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "7ff4f813c799c2a41d28e4d012f4a69651b9df9279755a0572a5971766e9e232"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "a002382094b89b3be30e6fc53ed2bfe1aa94d0c77eb46adb1f7682f5b043a0fe",
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "column": 4
+            },
+            {
+              "chord": "Cadd9",
+              "column": 26
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "d9be9c671e7249123e6479adf038942936987cf595b7f0ac01bb8e0b3101a5bf"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "4269bf49dc77743fe4552cd995f048444a1bbb4fee0af4810a35c115da1548c1",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Dsus2",
+              "column": 6
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "7ff4f813c799c2a41d28e4d012f4a69651b9df9279755a0572a5971766e9e232"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "037686015e0ea401ee6fcc5146e1d65789852ba8b3b74fedd70b0d117f30e497",
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "column": 0
+            },
+            {
+              "chord": "Cadd9",
+              "column": 17
+            }
+          ]
+        },
+        {
+          "lineOffset": 9,
+          "hash": "73d7ab0c455cf1e8863ddc4dac870ba53f748b8261d541ac6ab4a5744e5fa760"
+        },
+        {
+          "lineOffset": 10,
+          "hash": "4269bf49dc77743fe4552cd995f048444a1bbb4fee0af4810a35c115da1548c1",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Dsus2",
+              "column": 6
+            }
+          ]
+        },
+        {
+          "lineOffset": 11,
+          "hash": "7ff4f813c799c2a41d28e4d012f4a69651b9df9279755a0572a5971766e9e232"
+        },
+        {
+          "lineOffset": 12,
+          "hash": "37fb20a87d7d0e082e3a5cb02cb9d889a3ddd28d3a32702ee08d819109df0d05",
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "column": 0
+            },
+            {
+              "chord": "Cadd9",
+              "column": 22
+            }
+          ]
+        },
+        {
+          "lineOffset": 13,
+          "hash": "f588f0bf47437b3e1e311f6881f2172164f3a604d9f824f533cb474aa3120034"
+        },
+        {
+          "lineOffset": 14,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "outro",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "44c5ff0cf676b8c45965cace92804e48f5e126ed48bb346965e4a7abbf1f250f",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Dsus2",
+              "column": 5
+            },
+            {
+              "chord": "Em",
+              "column": 13
+            },
+            {
+              "chord": "Dsus2",
+              "column": 18
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "44c5ff0cf676b8c45965cace92804e48f5e126ed48bb346965e4a7abbf1f250f",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "Dsus2",
+              "column": 5
+            },
+            {
+              "chord": "Em",
+              "column": 13
+            },
+            {
+              "chord": "Dsus2",
+              "column": 18
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

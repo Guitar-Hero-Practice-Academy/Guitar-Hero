@@ -1,0 +1,752 @@
+{
+  "schemaVersion": 1,
+  "songId": "jack-johnson-do-you-remember",
+  "source": {
+    "fileName": "do you remember chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.203547
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Do you remember when we first met?",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.311971
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.478436
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I sure do. It was sometime in early September.",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.243047
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.478839
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Well, you were lazy about it; you made me wait around.",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.184603
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.488513
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I was so crazy about you, I didn't mind.",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.183797
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.459089
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "So I was late for class; I locked my bike to yours.",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.194277
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.449012
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.557437
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "It wasn't hard to find; you painted flowers on it.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.203547
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.449012
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Guess that I was afraid that if you rolled away",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.233777
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.50786
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.60661
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "You might not roll back my direction real soon.",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.292221
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Well, I was crazy 'bout you then",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.282144
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "And now, but the craziest thing of all,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.14
+            },
+            {
+              "chord": "C/E",
+              "sourceX": 0.234
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.368
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Over ten years have gone by",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "And you're still mine. We're locked in time",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.177
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.259
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.339
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Let's re-wind.",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.193873
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.459089
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Do you remember when we first moved in together?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.164853
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.390165
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "The piano took up the living room.",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.282144
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.498186
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You'd play me boogiewoogie; I'd play you love songs.",
+              "sourceX": 0.123
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.282547
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.488513
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You'd say we're playing house; now you still say we are.",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.272471
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.439339
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "We built our getaway up in a tree we found.",
+              "sourceX": 0.131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.214027
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.429665
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "We felt so far away, but we were still in town.",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.232971
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.469166
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Now, I remember watching that old tree burn down.",
+              "sourceX": 0.131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.184603
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.468763
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.60661
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I took a picture that I don't like to look at.",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.242
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Well, all these times, they come and go,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.251
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And alone don't seem so long.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.17
+            },
+            {
+              "chord": "C/E",
+              "sourceX": 0.277
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.495
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Over ten years have gone by.",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "We can't rewind. We're locked in time.",
+              "sourceX": 0.121
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.340992
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.508666
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.636437
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But you're still mine.",
+              "sourceX": 0.131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.261
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Do you remember.",
+              "sourceX": 0.131
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

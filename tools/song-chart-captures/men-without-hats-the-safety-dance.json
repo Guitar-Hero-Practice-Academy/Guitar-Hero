@@ -1,0 +1,1297 @@
+{
+  "schemaVersion": 1,
+  "songId": "men-without-hats-the-safety-dance",
+  "source": {
+    "fileName": "the safety dance chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 3,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro riff - capo 1",
+      "rows": [
+        {
+          "type": "note",
+          "text": "e|--------------------|"
+        },
+        {
+          "type": "note",
+          "text": "B|--------------------|"
+        },
+        {
+          "type": "note",
+          "text": "G|--------------------|"
+        },
+        {
+          "type": "note",
+          "text": "D|--------------------|"
+        },
+        {
+          "type": "note",
+          "text": "A|-5-5--5------5--5-|"
+        },
+        {
+          "type": "note",
+          "text": "E|-------8-7-8------|"
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.095929
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "We can dance if we want to",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.163644
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.351471
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "We can leave your friends behind",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.203144
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Cause your friends don't dance and if they don't dance",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.223297
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.360742
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Well they're no friends of mine",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.145103
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I say, we can go where we want to",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.232971
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.390971
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "A place where they will never find",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.203144
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "And we can act like we come from out of this world",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.194277
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.321644
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Leave the real one far behind",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.20395
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.311165
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.351068
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.380492
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "(x2)"
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "And we can dance  (Dansez!)",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.095929
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "We can go when we want to",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.222894
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.380895
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "The night is young and so am I",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.203144
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "And we can dress real neat from our hats to our feet",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.16445
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.429262
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And surprise 'em with the victory cry",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.145103
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Say, we can act if want to",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.15397
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.282547
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "If we don't nobody will",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.212817
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And you can act real rude and totally removed",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.194277
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.350665
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And I can act like an imbecile",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.164853
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.301491
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I say, we can dance, we can dance",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.331318
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Everything's out of control",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.232971
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "We can dance, we can dance",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.370818
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "We're doing it from pole to pole's",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.232971
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "We can dance, we can dance",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.321644
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Everybody look at your hands",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.232971
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "We can dance, we can dance",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.301894
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Everybody takin' the cha-A-A-ance",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.114873
+            },
+            {
+              "chord": "C#",
+              "sourceX": 0.320838
+            },
+            {
+              "chord": "G#",
+              "sourceX": 0.350262
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "It's safe to dance,",
+              "sourceX": 0.131
+            },
+            {
+              "text": "Oh well it's safe to dance,",
+              "sourceX": 0.355
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.114873
+            },
+            {
+              "chord": "C#",
+              "sourceX": 0.350262
+            },
+            {
+              "chord": "G#",
+              "sourceX": 0.379686
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Yes it's safe to dance",
+              "sourceX": 0.131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.095929
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "We can dance if we want to",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.19347
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.371221
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "We've got all your life and mine",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.134623
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "As long as we abuse it, never gonna lose it",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.321644
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Everything'll work out right",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.145103
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I say, we can dance if we want to",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.163644
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.371221
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "We can leave your friends behind",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.212817
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "'Cause your friends don't dance and if they don't dance",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.223297
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.360742
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Well they're no friends of mine",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.164853
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.301491
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I say, we can dance, we can dance",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.331318
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Everything's out of control",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.232971
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "We can dance, we can dance",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.370818
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "We're doing it from pole to pole",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.232971
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "We can dance, we can dance",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.321644
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Everybody look at your hands",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.232971
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "We can dance, we can dance",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.301894
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Everybody takin' the cha-A-A-ance",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.114873
+            },
+            {
+              "chord": "C#",
+              "sourceX": 0.320838
+            },
+            {
+              "chord": "G#",
+              "sourceX": 0.350262
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "It's safe to dance,",
+              "sourceX": 0.125
+            },
+            {
+              "text": "Oh well it's safe to dance,",
+              "sourceX": 0.349
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.114873
+            },
+            {
+              "chord": "C#",
+              "sourceX": 0.350262
+            },
+            {
+              "chord": "G#",
+              "sourceX": 0.379686
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Yes it's safe to dance",
+              "sourceX": 0.129
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.114873
+            },
+            {
+              "chord": "C#",
+              "sourceX": 0.359936
+            },
+            {
+              "chord": "G#",
+              "sourceX": 0.389762
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Well it's safe to dance",
+              "sourceX": 0.131
+            },
+            {
+              "text": "Well it's safe to dance",
+              "sourceX": 0.405
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Yes it's safe to dance",
+              "sourceX": 0.131
+            },
+            {
+              "text": "Well it's safe to dance",
+              "sourceX": 0.4
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Well it's safe to dance",
+              "sourceX": 0.131
+            },
+            {
+              "text": "It's a Safety Dance",
+              "sourceX": 0.398
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Well it's a Safety Dance",
+              "sourceX": 0.131
+            },
+            {
+              "text": "Oh it's a Safety Dance",
+              "sourceX": 0.402
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Oh it's a Safety Dance",
+              "sourceX": 0.129
+            },
+            {
+              "text": "Well it's a Safety Dance",
+              "sourceX": 0.405
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1418 @@
+{
+  "schemaVersion": 1,
+  "songId": "the-killers-when-you-were-young",
+  "source": {
+    "fileName": "when you were young chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 3,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Notes",
+      "rows": [
+        {
+          "type": "note",
+          "text": "Different key from previous version with some changes and additions"
+        }
+      ]
+    },
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E*",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.112
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.179
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.211
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.269
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.337
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.112
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.179
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.211
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.269
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.337
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.306
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.359
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "You sit there in your heartache",
+              "sourceX": 0.101
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.269
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Waiting on some beautiful boy to",
+              "sourceX": 0.111
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.269
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.347
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "To save you from your old ways",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "You play forgiveness",
+              "sourceX": 0.103
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.115
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Watch it now, here he comes",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.123
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.376
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.407
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "He doesn't look a thing like Je-sus",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.15
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But he talks like a gentleman",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Like you imagined",
+              "sourceX": 0.101
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.15
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.222
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.261
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.296
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.357
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "When you were young",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Can we climb this mountain",
+              "sourceX": 0.101
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F#",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.187
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I don't know",
+              "sourceX": 0.111
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.269
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Higher now than e-ver before",
+              "sourceX": 0.103
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.105
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.361
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.446
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I know we can make it if we take it slow",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Let's take it easy",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.113
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Easy now, watch it go",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.15
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.396
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.435
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "We're burning down the highway sky-line",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.15
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "On the back of a hurricane",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "That started turning",
+              "sourceX": 0.103
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.148
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.222
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.259
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.307
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.357
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "When you were young",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.15
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.228
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.258
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.307
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.357
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "When you were young",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 3",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.144
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.382
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And sometimes you close your eyes",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G#m",
+              "sourceX": 0.123
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.233
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.454
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And see the place where you used to live",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.152
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.251
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "When you were young",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instrumental",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.112
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.18
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.21
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.268
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.337
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.112
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.179
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.211
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.269
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.337
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 9,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.112
+            },
+            {
+              "chord": "D#m",
+              "sourceX": 0.14
+            },
+            {
+              "chord": "C#m",
+              "sourceX": 0.188
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.25
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.28
+            },
+            {
+              "chord": "A#m",
+              "sourceX": 0.3
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.338
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.397
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.458
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C#m",
+              "sourceX": 0.203
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "The say the devil's water, it ain't so sweet",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.129
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.386
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You don't have to drink right now",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D#m",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.329
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But you can dip your feet",
+              "sourceX": 0.117
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "F#",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.448
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.497
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.536
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.584
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.633
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Every once in a... little while",
+              "sourceX": 0.115
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instrumental",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.112
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.179
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.209
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.269
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.337
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "x2"
+        }
+      ]
+    },
+    {
+      "name": "Verse 4",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.306
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.357
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You sit there in your heartache",
+              "sourceX": 0.101
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.259
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Waiting on some beautiful boy to",
+              "sourceX": 0.101
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.273
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.349
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "To save you from your old ways",
+              "sourceX": 0.101
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You play forgiveness",
+              "sourceX": 0.101
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.111
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Watch it now, here he comes",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F#",
+              "sourceX": 0.121
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "He doesn't look a thing like Jesus",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.15
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "But he talks like a gentleman",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G#m",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Like you imagined",
+              "sourceX": 0.101
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.15
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.222
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.259
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "When you were young",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "(talks like a gentleman)",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "(like you imagined)",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.15
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.22
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.259
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.296
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.357
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "When you were young",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.258
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.306
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.345
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.393
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.442
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I said he doesn't look a thing like Jesus",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.119
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.376
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.405
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.454
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.503
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "He doesn't look a thing like Jesus",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 8,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.306
+            },
+            {
+              "chord": "D#m",
+              "sourceX": 0.365
+            },
+            {
+              "chord": "C#m",
+              "sourceX": 0.424
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.473
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.499
+            },
+            {
+              "chord": "A#m",
+              "sourceX": 0.525
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.565
+            },
+            {
+              "chord": "F#",
+              "sourceX": 0.622
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "But more than you'll ever know",
+              "sourceX": 0.094
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

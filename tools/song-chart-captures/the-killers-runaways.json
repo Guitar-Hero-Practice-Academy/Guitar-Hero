@@ -1,0 +1,1370 @@
+{
+  "schemaVersion": 1,
+  "songId": "the-killers-runaways",
+  "source": {
+    "fileName": "runaways chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092402,
+      "cellWidth": 0.010267
+    },
+    {
+      "page": 2,
+      "originX": 0.092402,
+      "cellWidth": 0.010267
+    },
+    {
+      "page": 3,
+      "originX": 0.092402,
+      "cellWidth": 0.010267
+    },
+    {
+      "page": 4,
+      "originX": 0.092402,
+      "cellWidth": 0.010267
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.113
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.132
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.171
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.21
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "x2"
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.099
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.218
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.368
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Blonde hair blowing in the summer wind",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.267
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Blue eyed girl playing in the sand",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.267
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.396
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I've been on the trail for a little while",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.515
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.603
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "But that was the night that she broke down and held my hand",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.177
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Teenage rush",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.179
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "She said",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.275
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Ain't we all just runaways?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.172
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.355
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "We got time and that ain't much",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.193
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.318
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "We can't wait 'till tomorrow",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.199
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.376
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "You gotta know that this is real",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.162
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Baby, why you wanna fight it?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.177
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.39
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "It's the one thing you can't choose",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.121
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.141
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.171
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Oh!",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.187
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.298
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "We got engaged on a friday night",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I swore on the head of our unborn child",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.144
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.275
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.396
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "That I could take care of the three of us",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.133
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.388
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.634
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But I've got the tendency to slip when the nights get wild",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.209
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "It's in my blood",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.366
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You said she might just runaway",
+              "sourceX": 0.111
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.201
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.343
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Somewhere else, someplace good",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.31
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "We can't wait 'till tomorrow",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.199
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.376
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You gotta know that this is real",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.162
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Baby, why you wanna fight it?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.181
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.39
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "It's the one thing you can't choose",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.228
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Let's take a chance, baby we can't lose",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Post-Chorus 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.265
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.308
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.355
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Ain't we all just runaways?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I knew it when I met you",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.242
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.32
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.357
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.398
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'm not gonna let you runaway",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.269
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I knew it when I held you",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.123
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.253
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I wasn't letting go",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 3",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.45
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "We used to look at the stars and confess our dreams",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.201
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Hold each other 'till the morning light",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.349
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "We used to laugh, now we only fight",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.101
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.31
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Baby are you lonesome now?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "At night I come home after they go to sleep",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Like a stumbling ghost I haunt this hall",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "There's a picture of us on our wedding day",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.172
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.585
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I recognize the girl but I can't settle in these walls",
+              "sourceX": 0.09
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus 3",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.298
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "We can't wait 'till tomorrow",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.203
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.366
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "No we're caught up in the appeal",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.16
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Baby, why you wanna hide it?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.189
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.359
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "It's the last thing on my mind (Why you wanna hide it?)",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.121
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I turn the engine over and my body just comes alive",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Post-Chorus 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.269
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.309
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.349
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Ain't we all just runaways?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.251
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I knew it when I met you",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.31
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.33
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.35
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I'm not gonna let you runaway",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.269
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I knew it when I held you",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.255
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I wasn't letting go",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.269
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.289
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.309
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Ain't we all just runaways?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.112
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.132
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.152
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.172
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.192
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Yeeeaah, runaways (Ain't we all just runaways?)",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.121
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.141
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Yeeeaah",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ending",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.114
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.142
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

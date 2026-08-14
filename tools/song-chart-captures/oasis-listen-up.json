@@ -1,0 +1,769 @@
+{
+  "schemaVersion": 1,
+  "songId": "oasis-listen-up",
+  "source": {
+    "fileName": "listen up acoustic chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.095806,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.095806,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.164853
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.311568
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.409915
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.576784
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.675131
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Listen up, what's the time? Said today I'm gonna speak my mind",
+              "sourceX": 0.095806
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.164853
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.282144
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.380895
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.517936
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.60661
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Take me up to the top of the world, I wanna see my crime",
+              "sourceX": 0.095806
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.164853
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.311568
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.380895
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.557437
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.64611
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Day by day there's a man in a suit who's gonna make you pay",
+              "sourceX": 0.095806
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.214027
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.360742
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.479242
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.645304
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.744055
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "For the thoughts that you think and the words they won't let you say",
+              "sourceX": 0.095806
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Emmaj7",
+              "sourceX": 0.20395
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.321644
+            },
+            {
+              "chord": "A7",
+              "sourceX": 0.468763
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "  One fine day, gonna leave you all behind",
+              "sourceX": 0.095806
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095123
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.301491
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.479242
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "  It wouldn't be so bad if I had more time",
+              "sourceX": 0.095806
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.115276
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.282144
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.341395
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Sailing down a river alone",
+              "sourceX": 0.095806
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.193873
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.380492
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.469569
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I've been trying to find my way back home",
+              "sourceX": 0.095806
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.154373
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.331318
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.390165
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.508263
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But I don't believe in magic, life is automatic",
+              "sourceX": 0.095806
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "A7",
+              "sourceX": 0.144297
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.232971
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.390165
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But I don't mind being on my own",
+              "sourceX": 0.095806
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "A7",
+              "sourceX": 0.144297
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.223297
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.390165
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "No, I don't mind being on my own",
+              "sourceX": 0.095806
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.164853
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.311568
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.409915
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.576784
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.675131
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Listen up, what's the time? Said today I'm gonna speak my mind",
+              "sourceX": 0.095806
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.164853
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.282144
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.380895
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.517936
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.60661
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Take me up to the top of the world, I wanna see my crime",
+              "sourceX": 0.095806
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.164853
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.311568
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.380895
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.557437
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.64611
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Day by day there's a man in a suit who's gonna make you pay",
+              "sourceX": 0.095806
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.214027
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.360742
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.479242
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.645304
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.744055
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "For the thoughts that you think and the words they won't let you say",
+              "sourceX": 0.095806
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Emmaj7",
+              "sourceX": 0.20395
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.321644
+            },
+            {
+              "chord": "A7",
+              "sourceX": 0.46836
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "  One fine day, gonna leave you all behind",
+              "sourceX": 0.095806
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095123
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.301491
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.479242
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "  It wouldn't be so bad if I had more time",
+              "sourceX": 0.095806
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.262394
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.322048
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Sailing down a river alone",
+              "sourceX": 0.095806
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.193873
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.380492
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.469569
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I've been trying to find my way back home",
+              "sourceX": 0.095806
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.1447
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.331318
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.390165
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.517936
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But I don't believe in magic, life is automatic",
+              "sourceX": 0.095806
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "A7",
+              "sourceX": 0.144297
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.223297
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.390165
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But I don't mind being on my own",
+              "sourceX": 0.095806
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "A7",
+              "sourceX": 0.144297
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.21322
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.390165
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "No, I don't mind being on my own",
+              "sourceX": 0.095806
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

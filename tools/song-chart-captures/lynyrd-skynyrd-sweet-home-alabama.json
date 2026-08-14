@@ -1,0 +1,1446 @@
+{
+  "schemaVersion": 1,
+  "songId": "lynyrd-skynyrd-sweet-home-alabama",
+  "source": {
+    "fileName": "sweet home alabama chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 3,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Spoken",
+      "rows": [
+        {
+          "type": "note",
+          "text": "\"one, two, three\""
+        }
+      ]
+    },
+    {
+      "name": "Opening",
+      "rows": [
+        {
+          "type": "note",
+          "text": "Form a D chord, then pick the single strings D D B\\G"
+        },
+        {
+          "type": "note",
+          "text": "Form a C chord, then pick the single strings A A B\\G"
+        },
+        {
+          "type": "note",
+          "text": "Form a G chord, then pick the single strings E E G (or end on G chord)"
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.12
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.15
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "x4"
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.14
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.287
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Big wheels keep on turning",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.339
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Carry me home to see my kin.",
+              "sourceX": 0.099
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.232
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.339
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Singing songs about the southland",
+              "sourceX": 0.103
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.232
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.341
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I miss'ole' 'bamy once again (and I think it's a sin)",
+              "sourceX": 0.103
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Opening Instrumental",
+      "rows": [
+        {
+          "type": "note",
+          "text": "x2"
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.122
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.15
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.307
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.427
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Well, I heard Mister Young sing about her",
+              "sourceX": 0.099
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.278
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.405
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Well, I heard ole Neil put her down.",
+              "sourceX": 0.098
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.279
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.407
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Well, I hope Neil Young will remember,",
+              "sourceX": 0.101
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.248
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.397
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "A southern man don't need him around anyhow",
+              "sourceX": 0.103
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.164
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.234
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Sweet home Alabama,",
+              "sourceX": 0.099
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.199
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.331
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Where the skies are so blue,",
+              "sourceX": 0.1
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.164
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.236
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Sweet home Alabama,",
+              "sourceX": 0.096
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.199
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.351
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.388
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.408
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Lord, I'm coming home to you.",
+              "sourceX": 0.101
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Opening Instrumental",
+      "rows": [
+        {
+          "type": "note",
+          "text": "x2"
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.12
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.203547
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.380492
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.479242
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.52761
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.577187
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "In Birmingham they love the Gov'nor Boo hoo hoo !",
+              "sourceX": 0.103
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.203547
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.386
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Now we all did what we could do.",
+              "sourceX": 0.101
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.229
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.398
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Now Watergate does not bother me.",
+              "sourceX": 0.101
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.199
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.38
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Does your conscience bother you? ",
+              "sourceX": 0.103
+            },
+            {
+              "text": "(tell the truth)",
+              "sourceX": 0.437
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.162
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.236
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Sweet home Alabama,",
+              "sourceX": 0.103
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.199
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.331
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Where the skies are so blue,",
+              "sourceX": 0.105
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.164
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.242
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Sweet home Alabama,",
+              "sourceX": 0.101
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.199
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.351
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.388
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.408
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Lord, I'm coming home to you.",
+              "sourceX": 0.099
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Opening Instrumental",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.12
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.15
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.12
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.15
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Ah Ah Ah Alabama",
+              "sourceX": 0.092
+            },
+            {
+              "text": "x4",
+              "sourceX": 0.288
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.12
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.15
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "x2"
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.203
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.425
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Now Muscle Shoals has got the Swampers",
+              "sourceX": 0.101
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.273
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.425
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And they've been known to pick a tune or two",
+              "sourceX": 0.099
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.2
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.357
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Lord they get me off so much",
+              "sourceX": 0.101
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.232
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.425
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "They pick me up when I'm feeling blue",
+              "sourceX": 0.105
+            },
+            {
+              "text": "(Now how about you?)",
+              "sourceX": 0.477
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.164
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.242
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Sweet home Alabama,",
+              "sourceX": 0.097
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.199
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.331
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Where the skies are so blue,",
+              "sourceX": 0.103
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.164
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.242
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Sweet home Alabama,",
+              "sourceX": 0.105
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.199
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.351
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Lord, I'm coming home to you.",
+              "sourceX": 0.103
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.164
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.242
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Sweet home Alabama,",
+              "sourceX": 0.105
+            },
+            {
+              "text": "(oh sweet home)",
+              "sourceX": 0.299
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.199
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.331
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Where the skies are so blue,",
+              "sourceX": 0.101
+            },
+            {
+              "text": "(and it's true)",
+              "sourceX": 0.387
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.164
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.234
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Sweet home Alabama,",
+              "sourceX": 0.097
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.199
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.347
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Lord, I'm coming home to you.",
+              "sourceX": 0.099
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.121
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.161
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.182
+            },
+            {
+              "chord": "Gsus4",
+              "sourceX": 0.202
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.26
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "* Some folks prefer Cadd9 rather then C"
+        },
+        {
+          "type": "note",
+          "text": "**"
+        },
+        {
+          "type": "note",
+          "text": "D"
+        },
+        {
+          "type": "note",
+          "text": "e|--------|"
+        },
+        {
+          "type": "note",
+          "text": "B|-----0--|"
+        },
+        {
+          "type": "note",
+          "text": "G|------0-|"
+        },
+        {
+          "type": "note",
+          "text": "D|-0-0----|"
+        },
+        {
+          "type": "note",
+          "text": "A|--------|"
+        },
+        {
+          "type": "note",
+          "text": "E|--------|"
+        },
+        {
+          "type": "note",
+          "text": "C"
+        },
+        {
+          "type": "note",
+          "text": "e|--------|"
+        },
+        {
+          "type": "note",
+          "text": "B|-----0--|"
+        },
+        {
+          "type": "note",
+          "text": "G|------0-|"
+        },
+        {
+          "type": "note",
+          "text": "D|--------|"
+        },
+        {
+          "type": "note",
+          "text": "A|-0-0----|"
+        },
+        {
+          "type": "note",
+          "text": "E|--------|"
+        },
+        {
+          "type": "note",
+          "text": "G"
+        },
+        {
+          "type": "note",
+          "text": "e|--------|"
+        },
+        {
+          "type": "note",
+          "text": "B|--------|"
+        },
+        {
+          "type": "note",
+          "text": "G|-----0--|"
+        },
+        {
+          "type": "note",
+          "text": "D|--------|"
+        },
+        {
+          "type": "note",
+          "text": "A|--------|"
+        },
+        {
+          "type": "note",
+          "text": "E|-0-0----| or end on G chord"
+        }
+      ]
+    },
+    {
+      "name": "Alternates",
+      "rows": [
+        {
+          "type": "note",
+          "text": "Capo II"
+        },
+        {
+          "type": "note",
+          "text": "D = C"
+        },
+        {
+          "type": "note",
+          "text": "C = Bb"
+        },
+        {
+          "type": "note",
+          "text": "G = F"
+        },
+        {
+          "type": "note",
+          "text": "F = Eb"
+        },
+        {
+          "type": "note",
+          "text": "Capo III"
+        },
+        {
+          "type": "note",
+          "text": "D = B"
+        },
+        {
+          "type": "note",
+          "text": "C = A"
+        },
+        {
+          "type": "note",
+          "text": "G = E"
+        },
+        {
+          "type": "note",
+          "text": "F = D"
+        },
+        {
+          "type": "note",
+          "text": "Capo V"
+        },
+        {
+          "type": "note",
+          "text": "D = A"
+        },
+        {
+          "type": "note",
+          "text": "C = G"
+        },
+        {
+          "type": "note",
+          "text": "G = D"
+        },
+        {
+          "type": "note",
+          "text": "F = C"
+        },
+        {
+          "type": "note",
+          "text": "Open (These chords are not in the original key)"
+        },
+        {
+          "type": "note",
+          "text": "D = E"
+        },
+        {
+          "type": "note",
+          "text": "C = D"
+        },
+        {
+          "type": "note",
+          "text": "G = A"
+        },
+        {
+          "type": "note",
+          "text": "F = G"
+        },
+        {
+          "type": "note",
+          "text": "D = G"
+        },
+        {
+          "type": "note",
+          "text": "C = F"
+        },
+        {
+          "type": "note",
+          "text": "G = C"
+        },
+        {
+          "type": "note",
+          "text": "F = Bb"
+        },
+        {
+          "type": "note",
+          "text": "Set8"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,967 @@
+{
+  "schemaVersion": 1,
+  "songId": "oasis-acquiesce",
+  "source": {
+    "fileName": "acquiesce chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 3,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Noel plays the Am in the 5th fret and then slides the hand to the top of the neck."
+        },
+        {
+          "type": "note",
+          "text": "e|--5-----5-------|"
+        },
+        {
+          "type": "note",
+          "text": "B|--5-----5---7^--|"
+        },
+        {
+          "type": "note",
+          "text": "G|--5-----5---7^--|"
+        },
+        {
+          "type": "note",
+          "text": "D|--7-----7-------|"
+        },
+        {
+          "type": "note",
+          "text": "A|--7-----7-------|"
+        },
+        {
+          "type": "note",
+          "text": "E|--5-----5-------| (x2)"
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.122
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.181
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.111
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.462
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.534
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I don't know what it is that makes me feel alive",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.111
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.491
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.575
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I don't know how to wake the things that sleep inside",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.113
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.406
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.495
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.573
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.624
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.692
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I only wanna see the light that shines behind your eyes",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.113
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.427
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.516
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I hope that I can say the things I wish I'd said",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.121
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.45
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.538
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "To sing my soul to sleep and take me back to bed",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.131
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.427
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.495
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "who wants to be alone when we can feel alive instead",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Interlude",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.12
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.14
+            },
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.16
+            },
+            {
+              "chord": "E7",
+              "sourceX": 0.219
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.199
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.257
+            },
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.415
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.476
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Because we need each other we believe in one another",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.199
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.257
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.316
+            },
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.729
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.789
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.809
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And I know we're going to uncover what's sleepin' in our soul",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.199
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.257
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.316
+            },
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.413
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.475
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.583
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "because we need each other we believe in one another",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.197
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.268
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.372
+            },
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.729
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.79
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.81
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And I know we're going to uncover what's sleepin' in our soul",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.318
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.347
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.368
+            },
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.388
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.446
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "what's sleepin' in our soul...",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.443
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.526
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "there are many things that i would like to know",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.441
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.526
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "and there are many places that i wish to go",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.439
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.524
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "but everything's depending on the way the wind may blow",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.437
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.52
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I dont know what it is that makes me feel alive",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.439
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.526
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "i dont know how to wake the things that sleep inside",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.441
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.528
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "i only wanna see the light that shines behind your eyes...",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Interlude",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.121
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.141
+            },
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.162
+            },
+            {
+              "chord": "E7",
+              "sourceX": 0.221
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.197
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.257
+            },
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.413
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.474
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Because we need each other we believe in one another",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.201
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.268
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.316
+            },
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.729
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.789
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.809
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "And I know we're going to uncover what's sleepin' in our soul",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.197
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.257
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.316
+            },
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.415
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.474
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.583
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "because we need each other we believe in one another",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.193
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.269
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.316
+            },
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.731
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.79
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.81
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "And I know we're going to uncover what's sleepin' in our soul",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.224
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.289
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.309
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "sleeping in our soul...",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.209
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.267
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.287
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "cause we believe...",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ending",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.15
+            },
+            {
+              "chord": "D#7",
+              "sourceX": 0.171
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.21
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.231
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

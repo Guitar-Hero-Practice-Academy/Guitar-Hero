@@ -1,0 +1,735 @@
+{
+  "schemaVersion": 1,
+  "songId": "ram-jam-black-betty",
+  "source": {
+    "fileName": "black betty chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A5",
+              "sourceX": 0.09
+            },
+            {
+              "chord": "B5",
+              "sourceX": 0.121
+            },
+            {
+              "chord": "B5",
+              "sourceX": 0.269
+            },
+            {
+              "chord": "D5",
+              "sourceX": 0.305
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "A5",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "B5",
+              "sourceX": 0.12
+            },
+            {
+              "chord": "D5",
+              "sourceX": 0.187
+            },
+            {
+              "chord": "E5",
+              "sourceX": 0.231
+            },
+            {
+              "chord": "D5",
+              "sourceX": 0.261
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "x4"
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "A5",
+              "sourceX": 0.09
+            },
+            {
+              "chord": "B5",
+              "sourceX": 0.122
+            },
+            {
+              "chord": "B5",
+              "sourceX": 0.189
+            },
+            {
+              "chord": "B5",
+              "sourceX": 0.228
+            },
+            {
+              "chord": "E5",
+              "sourceX": 0.268
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "A5",
+              "sourceX": 0.09
+            },
+            {
+              "chord": "B5",
+              "sourceX": 0.122
+            },
+            {
+              "chord": "B5",
+              "sourceX": 0.189
+            },
+            {
+              "chord": "B5",
+              "sourceX": 0.216
+            },
+            {
+              "chord": "D5",
+              "sourceX": 0.263
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "A5",
+              "sourceX": 0.09
+            },
+            {
+              "chord": "B5",
+              "sourceX": 0.12
+            },
+            {
+              "chord": "B5",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "B5",
+              "sourceX": 0.22
+            },
+            {
+              "chord": "E5",
+              "sourceX": 0.261
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D5",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "B5",
+              "sourceX": 0.265
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Whoa, Black Betty, bamalam,",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "whoa, Black Betty, bamalam.",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Black Betty had a child, bamalam,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "the damn thing gone wild, bamalam.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "She said, \"I'm worring outta my mind\", bamalam,",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "the damn thing gone blind, bamalam.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I said, whoa, Black Betty bamalam,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D5",
+              "sourceX": 0.376
+            },
+            {
+              "chord": "A5",
+              "sourceX": 0.405
+            },
+            {
+              "chord": "B5",
+              "sourceX": 0.435
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "whoa, Black Betty, bamalam.",
+              "sourceX": 0.09
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Whoa, Black Betty, bamalam,",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "whoa, Black Betty, bamalam.",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "She really gets me high, bamalam,",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "you know that's no lie, bamalam.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "She's so rock steady, bamalam,",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "she's always ready, bamalam.",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Whoa, Black Betty bamalam,",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D5",
+              "sourceX": 0.376
+            },
+            {
+              "chord": "A5",
+              "sourceX": 0.406
+            },
+            {
+              "chord": "B5",
+              "sourceX": 0.436
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "whoa, Black Betty bamalam.",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 3",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Whoa, Black Betty, bamalam,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "whoa, Black Betty, bamalam.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "She's from Birmingham, bamalam,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "way down in Alabam', bamalam.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Well, she's shakin' that thing, bamalam,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Boy, she makes me sing, bamalam,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Whoa, Black Betty, bamalam,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "B5",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D5",
+              "sourceX": 0.396
+            },
+            {
+              "chord": "A5",
+              "sourceX": 0.427
+            },
+            {
+              "chord": "B5",
+              "sourceX": 0.456
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Whoa, Black Betty, BAM-A-LAM",
+              "sourceX": 0.094
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

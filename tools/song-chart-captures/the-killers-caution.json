@@ -1,0 +1,980 @@
+{
+  "schemaVersion": 1,
+  "songId": "the-killers-caution",
+  "source": {
+    "fileName": "caution chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 3,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "N.C.",
+              "sourceX": 0.246
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "And there is nothing",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I want to do",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "There is nothing",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I want to give",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "There is nothing",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Come my way",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.129
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.265
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.38
+            },
+            {
+              "chord": "C/B",
+              "sourceX": 0.42
+            },
+            {
+              "chord": "C/A",
+              "sourceX": 0.507
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.575
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Let me introduce you to the featherweight queen",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.637
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "She got Hollywood eyes, but she can't shoot what she see",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.109
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.251
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.487
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.682
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Momma was a dancer, and that's all that she knew",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.109
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.251
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.487
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.682
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "'Cause when you live in the desert that's what pretty girls do",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.113
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.248
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.409
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.532
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'm throwin' caution, what's it gonna be?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.113
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.248
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.409
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.532
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Tonight the winds of change are blowing wild and free",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.113
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.248
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.409
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.532
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "If I don't get out, out of this town",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.142
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.24
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.409
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.535
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I just might be the one who finally burns it down",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.396
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.436
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'm throwin' caution",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.283
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.495
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "(snyth comes in)"
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'm throwin' caution",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.122
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.152
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.182
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 8,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.122
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.152
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.182
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.212
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.242
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.272
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.302
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.109
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.244
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.409
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.534
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Never had a diamond on the sole of her shoes",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.109
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.244
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.409
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.534
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Just blacktop white trash straight out of the news",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.109
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.244
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.409
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.534
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Doesn't like birthdays, they remind her of why",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.228
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.534
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "She can go straight from zero to the Fourth of July",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.111
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.248
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.409
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.536
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'm throwin' caution, what's it gonna be?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.111
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.244
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.409
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.536
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Tonight the winds of change are coming over",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.111
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.251
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.409
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.536
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "If I don't get out, out of this town",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.111
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.251
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.409
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.524
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I just might be the one who finally burns it down",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.111
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.396
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.436
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'm throwin' caution",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.232
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.298
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'm throwin' caution",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.115
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.205
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.251
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.28
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'm throwin' caution",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.115
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.197
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.302
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'm throwin' caution",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "rows": [
+        {
+          "type": "note",
+          "text": "I stop playing on the bridge, hard to make out if there's anything but the drums going here."
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "N.C.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "'Cause it's some kind of sin",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "N.C.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "To live your whole life",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "N.C.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "On a might've been",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "N.C.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I'm ready now",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solo",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/caution-solo-1.png|Solo tab part 1]]"
+        },
+        {
+          "type": "note",
+          "text": "[[image:assets/caution-solo-2.png|Solo tab part 2]]"
+        },
+        {
+          "type": "note",
+          "text": "[[image:assets/caution-solo-3.png|Solo tab part 3]]"
+        }
+      ]
+    }
+  ]
+}

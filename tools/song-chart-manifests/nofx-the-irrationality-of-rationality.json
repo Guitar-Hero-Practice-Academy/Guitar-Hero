@@ -1,0 +1,809 @@
+{
+  "schemaVersion": 1,
+  "songId": "nofx-the-irrationality-of-rationality",
+  "contentRevision": 2,
+  "source": {
+    "fileName": "the irrationality of rationality chords.pdf",
+    "sha256": "cac76f07393481d5b678a77b3a2342ada39a689fc41317a8352bd5b859b7eaea"
+  },
+  "verification": {
+    "sourceChecked": true,
+    "browserChecked": true,
+    "checkedAt": "2026-08-14"
+  },
+  "chartHash": "60c294461c0a408f7cfd8cb3f1be4fac3338856ea8ee504ed6c6a2cc56bb4944",
+  "sections": [
+    {
+      "name": "Simplified Am riff",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "eb37df6741d42626ef2049b6f33fc81cbff41a5f708d21ecccd7579f05ad23af"
+        },
+        {
+          "lineOffset": 1,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Intro",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "e7e4859df1c714be8aca9730741e364236264e9ba85b4124e960a787c37f477d",
+          "anchors": [
+            {
+              "chord": "Am",
+              "column": 0
+            },
+            {
+              "chord": "G",
+              "column": 5
+            },
+            {
+              "chord": "F",
+              "column": 7
+            },
+            {
+              "chord": "G",
+              "column": 9
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "29f2394eb92d0ded9247b8d7188ebddae3e13c71ebcf939302619b29604486b0"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "deda5e22551ad1601b99d9a73b4c7d03303724844fcdd83638884f6be9a4637e",
+          "anchors": [
+            {
+              "chord": "Am",
+              "column": 0
+            },
+            {
+              "chord": "C",
+              "column": 7
+            },
+            {
+              "chord": "F",
+              "column": 18
+            },
+            {
+              "chord": "F",
+              "column": 26
+            },
+            {
+              "chord": "Am",
+              "column": 40
+            },
+            {
+              "chord": "G",
+              "column": 45
+            },
+            {
+              "chord": "F",
+              "column": 47
+            },
+            {
+              "chord": "G",
+              "column": 49
+            },
+            {
+              "chord": "Am",
+              "column": 52
+            },
+            {
+              "chord": "G",
+              "column": 57
+            },
+            {
+              "chord": "F",
+              "column": 59
+            },
+            {
+              "chord": "G",
+              "column": 61
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "4537ddd8693c0b7f2197ef9f7b8ef78c48b724477932450852cdd2464984a897"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "bb90a9c16241673a326dc59e194086a87fa0ed71f643ae211aca57a846df597d",
+          "anchors": [
+            {
+              "chord": "Am",
+              "column": 4
+            },
+            {
+              "chord": "C",
+              "column": 22
+            },
+            {
+              "chord": "F",
+              "column": 30
+            },
+            {
+              "chord": "F",
+              "column": 39
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "404630389a02a9045b42fa04bb5b7bec5ee165f160db9468140f15c8afe57e9f"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "c5098fe159b5e06a84483e533f08366d6f7594b6aade91193455907370005e99",
+          "anchors": [
+            {
+              "chord": "C",
+              "column": 0
+            },
+            {
+              "chord": "Am",
+              "column": 10
+            },
+            {
+              "chord": "F",
+              "column": 23
+            },
+            {
+              "chord": "C",
+              "column": 39
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "6b8c49e56d74f64f0be9eb0590831ae8c0eec5f28c4e828a17dd9e6f933004f9"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "0c033d64df03d426ec5f0832feaeaf2f44b498e8d2adc4d56ebe4f5db277356b",
+          "anchors": [
+            {
+              "chord": "C",
+              "column": 0
+            },
+            {
+              "chord": "Am",
+              "column": 16
+            },
+            {
+              "chord": "F",
+              "column": 36
+            },
+            {
+              "chord": "C",
+              "column": 55
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "61544e22b243989c87dd6ebdeaf32dc56ee67f5921ea8af32d7c44978e1c17b9"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "05baa091be90b55f3260430e95f91306b155337bb63c4d390ef594e16254298d",
+          "anchors": [
+            {
+              "chord": "C",
+              "column": 5
+            },
+            {
+              "chord": "G",
+              "column": 18
+            },
+            {
+              "chord": "F",
+              "column": 30
+            },
+            {
+              "chord": "C",
+              "column": 47
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "b59091709c3908f41c78327dd6d3826b1e93d1e8e29cad4446731f4f4868935a"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "6cd6673150bfeabbdb4bb8c7b8aafebd1d6cc70ba636cdd8d2875192dd47ed8f",
+          "anchors": [
+            {
+              "chord": "C",
+              "column": 5
+            },
+            {
+              "chord": "G",
+              "column": 25
+            },
+            {
+              "chord": "Am",
+              "column": 38
+            },
+            {
+              "chord": "G",
+              "column": 43
+            },
+            {
+              "chord": "F",
+              "column": 45
+            },
+            {
+              "chord": "G",
+              "column": 47
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "7258f5e8661c3ff80d966f06e771c3854f381c751aafc304101a52a96f1b65c5"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "e7e4859df1c714be8aca9730741e364236264e9ba85b4124e960a787c37f477d",
+          "anchors": [
+            {
+              "chord": "Am",
+              "column": 0
+            },
+            {
+              "chord": "G",
+              "column": 5
+            },
+            {
+              "chord": "F",
+              "column": 7
+            },
+            {
+              "chord": "G",
+              "column": 9
+            }
+          ]
+        },
+        {
+          "lineOffset": 9,
+          "hash": "844b69c4d54cc264bc2dadb6bb70f53bc123beafc0f58d81ed8cd4a07c24a5a7"
+        },
+        {
+          "lineOffset": 10,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "occurrence": 2,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "af23525ded35b69cee0e135d5ce5daa8044f97d2fb71b72c1125bd97f8a09dee",
+          "anchors": [
+            {
+              "chord": "Am",
+              "column": 0
+            },
+            {
+              "chord": "C",
+              "column": 11
+            },
+            {
+              "chord": "F",
+              "column": 19
+            },
+            {
+              "chord": "F",
+              "column": 31
+            },
+            {
+              "chord": "Am",
+              "column": 44
+            },
+            {
+              "chord": "G",
+              "column": 49
+            },
+            {
+              "chord": "F",
+              "column": 51
+            },
+            {
+              "chord": "G",
+              "column": 53
+            },
+            {
+              "chord": "Am",
+              "column": 56
+            },
+            {
+              "chord": "G",
+              "column": 61
+            },
+            {
+              "chord": "F",
+              "column": 63
+            },
+            {
+              "chord": "G",
+              "column": 65
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "b97ea1f53e4777fba18e85ea129e002b4d2cc594b182cd9acd84c2a3b8ef1ca1"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "04e8f9fb3f496ed681f7263bf5ecf3903185cc08387103973789630ee4640459",
+          "anchors": [
+            {
+              "chord": "Am",
+              "column": 6
+            },
+            {
+              "chord": "C",
+              "column": 18
+            },
+            {
+              "chord": "F",
+              "column": 26
+            },
+            {
+              "chord": "F",
+              "column": 33
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "f69d01ee1ce3f6c1ced90de438a86e2f71c7312aeb1c6b139cd11348c5e673c6"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "occurrence": 2,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "06fae97306750a9080fdfb816f65e39b20755001039660c238d144d20c6eae5a",
+          "anchors": [
+            {
+              "chord": "C",
+              "column": 0
+            },
+            {
+              "chord": "Am",
+              "column": 8
+            },
+            {
+              "chord": "F",
+              "column": 12
+            },
+            {
+              "chord": "C",
+              "column": 23
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "e75b60473505fffe3d56d650f78f23523f2caf87b7fbcd0f53c8158ae6354485"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "b1a2efaf9e77cd18fc9d2d0687178d5223df15706586c1fffd6992b4ad0fbbef",
+          "anchors": [
+            {
+              "chord": "C",
+              "column": 4
+            },
+            {
+              "chord": "Am",
+              "column": 17
+            },
+            {
+              "chord": "F",
+              "column": 36
+            },
+            {
+              "chord": "C",
+              "column": 50
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "93ef6a12fabe8122c7ba524b679338dd80d5d8efd5393b666c5a9e81b54fc0d7"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "b25aecaf727b64696f46cdf6e95990fa1528f4051debc5db55b9485bf82495e9",
+          "anchors": [
+            {
+              "chord": "C",
+              "column": 7
+            },
+            {
+              "chord": "G",
+              "column": 19
+            },
+            {
+              "chord": "F",
+              "column": 35
+            },
+            {
+              "chord": "C",
+              "column": 50
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "7679eff4dfc87e44351a534a7541ac6d609b1ffd94bd878b3858495aea74e4c4"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "55f4312f9f54b7af3efc2f9e97557c014ebfca772438a05a13ac5557a51b1d69",
+          "anchors": [
+            {
+              "chord": "C",
+              "column": 0
+            },
+            {
+              "chord": "G",
+              "column": 22
+            },
+            {
+              "chord": "Am",
+              "column": 45
+            },
+            {
+              "chord": "G",
+              "column": 50
+            },
+            {
+              "chord": "F",
+              "column": 52
+            },
+            {
+              "chord": "G",
+              "column": 54
+            },
+            {
+              "chord": "Am",
+              "column": 57
+            },
+            {
+              "chord": "G",
+              "column": 60
+            },
+            {
+              "chord": "G",
+              "column": 62
+            },
+            {
+              "chord": "C",
+              "column": 64
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "2809dc5dbb224ba05a2fbd8ab56c8a2bb17e6ae4d05bd29527c893e14356bde6"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "c610982cad6f64fd5b19881e909e0c8807a7e723491737cb7a02f689c7ae4abb",
+          "anchors": [
+            {
+              "chord": "Am",
+              "column": 0
+            },
+            {
+              "chord": "C",
+              "column": 3
+            },
+            {
+              "chord": "F",
+              "column": 5
+            },
+            {
+              "chord": "F",
+              "column": 7
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "occurrence": 3,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "636013aabc794bd1475d78a0ae5664b8fe145072860f7446b4c43994d5d04872",
+          "anchors": [
+            {
+              "chord": "Am",
+              "column": 0
+            },
+            {
+              "chord": "C",
+              "column": 10
+            },
+            {
+              "chord": "F",
+              "column": 25
+            },
+            {
+              "chord": "F",
+              "column": 32
+            },
+            {
+              "chord": "Am",
+              "column": 47
+            },
+            {
+              "chord": "G",
+              "column": 52
+            },
+            {
+              "chord": "F",
+              "column": 54
+            },
+            {
+              "chord": "G",
+              "column": 56
+            },
+            {
+              "chord": "Am",
+              "column": 59
+            },
+            {
+              "chord": "G",
+              "column": 64
+            },
+            {
+              "chord": "F",
+              "column": 66
+            },
+            {
+              "chord": "G",
+              "column": 68
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "8296658ebe35db9ae6717f5143481fec4b11ebc60923df609037e41cf6d8820f"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "df903f0b9f70a41660bde533c985770ce8c4c03ef2d6126994ad71109d61fa9a",
+          "anchors": [
+            {
+              "chord": "Am",
+              "column": 0
+            },
+            {
+              "chord": "C",
+              "column": 18
+            },
+            {
+              "chord": "F",
+              "column": 36
+            },
+            {
+              "chord": "F",
+              "column": 53
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "58c360ddb1eb740bd5e9281602ae7ebbabb150c624814bb0a5f71814d49564c7"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "occurrence": 3,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "c2d7ca5760c0f7bc7e3c27c026a9aa825d5d8cc0965ae54be621199fb19c7ce7",
+          "anchors": [
+            {
+              "chord": "C",
+              "column": 0
+            },
+            {
+              "chord": "Am",
+              "column": 13
+            },
+            {
+              "chord": "F",
+              "column": 37
+            },
+            {
+              "chord": "C",
+              "column": 45
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "578e3e313f1fc14de0c1a22dae156825a1e809e065bfb655c9335d12cbecf7d3"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "92d2a914048264ed4189cbb8d23bd05eec0c043c6931b67289009a961f11b2f1",
+          "anchors": [
+            {
+              "chord": "C",
+              "column": 0
+            },
+            {
+              "chord": "Am",
+              "column": 18
+            },
+            {
+              "chord": "F",
+              "column": 36
+            },
+            {
+              "chord": "C",
+              "column": 53
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "151573f7c52434c94172c3da7619471a1ffacfcd2bafd86b2e4b1eeee2eb5b81"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "d45e202e98e1c75ef5a43fe7461ee1612a2ce7cd8836479b53740400bfd9a8f8",
+          "anchors": [
+            {
+              "chord": "C",
+              "column": 4
+            },
+            {
+              "chord": "G",
+              "column": 19
+            },
+            {
+              "chord": "F",
+              "column": 33
+            },
+            {
+              "chord": "C",
+              "column": 51
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "b6e1bf25bb110d53cca95bc6ed411004fa12fa002392893038b4dfb8cff2a4ca"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "3bffff32224780bb2b37c482651987f69712762764580c19cce120cc38a290bf",
+          "anchors": [
+            {
+              "chord": "C",
+              "column": 4
+            },
+            {
+              "chord": "G",
+              "column": 19
+            },
+            {
+              "chord": "F",
+              "column": 33
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "1bf186294d114002fd28820cf69a5c59e2c5de57f346b083b0abb831759593fa"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Outro",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "409a6414335e67598b6b786a4102c7b594f95ffc2ae48bdd8e018c43cb75e0f7",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 0
+            },
+            {
+              "chord": "F",
+              "column": 2
+            },
+            {
+              "chord": "G",
+              "column": 4
+            },
+            {
+              "chord": "Am",
+              "column": 8
+            },
+            {
+              "chord": "Am",
+              "column": 11
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

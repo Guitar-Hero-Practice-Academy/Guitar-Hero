@@ -1,0 +1,1422 @@
+{
+  "schemaVersion": 1,
+  "songId": "oasis-morning-glory",
+  "source": {
+    "fileName": "morning glory chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 3,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.135429
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.20395
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.253124
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.135429
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.20395
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.253124
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.135429
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.20395
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.243047
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.135429
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.20395
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.243047
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.292221
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "All your dreams are made",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.214027
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.508263
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "When you're chained to the mirror and the razor blade",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.302297
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.48811
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.56711
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Today's the day that all the world will see",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.282547
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Another sunny afternoon",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.360742
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Walking to the sound of my favorite tune",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.380895
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.546957
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.625957
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Tomorrow never knows what it doesn't know too soon",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pre Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.311568
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Need a little time to wake up",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.311568
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Need a little time to wake up wake up",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.311568
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Need a little time to wake up",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D5",
+              "sourceX": 0.095929
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Need a little time to rest your mind",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.135429
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.528416
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.577187
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You know you should so I guess you might as well",
+              "sourceX": 0.09
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "sourceX": 0.095123
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.262394
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "What's the story morning glory?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.154776
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Well.......",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "sourceX": 0.134623
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.350665
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You need a little time to wake up wake up",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.154776
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Well.......",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "sourceX": 0.095123
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.262394
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "What's the story morning glory?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.154776
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Well.......",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "sourceX": 0.095123
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.311568
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Need a little time to wake up wake up",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instrumental",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.135429
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.20395
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.253124
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.135429
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.20395
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.253124
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.135429
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.20395
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.243047
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.135429
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.20395
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.243047
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solo",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/morning-glory-solo.png|Morning Glory solo tab]]"
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.292221
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "All your dreams are made",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.214027
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.508263
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "When you're chained to the mirror and the razor blade",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.302297
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.48811
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.56711
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Today's the day that all the world will see",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.282547
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Another sunny afternoon",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.360742
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Walking to the sound of my favorite tune",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.380895
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.546957
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.625957
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Tomorrow never knows what it doesn't know too soon",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pre Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.311568
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Need a little time to wake up",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.311568
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Need a little time to wake up wake up",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.311568
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Need a little time to wake up",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D5",
+              "sourceX": 0.095929
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Need a little time to rest your mind",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.135429
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.528416
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.577187
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You know you should so I guess you might as well",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "sourceX": 0.095123
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.262394
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "What's the story morning glory?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.154776
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Well.......",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "sourceX": 0.134623
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.350665
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You need a little time to wake up wake up",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.154776
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Well.......",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "sourceX": 0.095123
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.262394
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "What's the story morning glory?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.154776
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Well.......",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "sourceX": 0.095123
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.311568
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Need a little time to wake up wake up",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "sourceX": 0.095123
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.262394
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "What's the story morning glory?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.154776
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Well.......",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "sourceX": 0.134623
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.350665
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You need a little time to wake up wake up",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.154776
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Well.......",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "sourceX": 0.095123
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.262394
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "What's the story morning glory?",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.154776
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Well.......",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "sourceX": 0.095123
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.311568
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Need a little time to wake up wake up",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "outro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.224103
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.272874
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.224103
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.272874
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

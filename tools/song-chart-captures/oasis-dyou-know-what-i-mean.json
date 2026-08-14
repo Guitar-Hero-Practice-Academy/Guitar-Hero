@@ -1,0 +1,1836 @@
+{
+  "schemaVersion": 1,
+  "songId": "oasis-dyou-know-what-i-mean",
+  "source": {
+    "fileName": "dyou know what i mean chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092402,
+      "cellWidth": 0.010267
+    },
+    {
+      "page": 2,
+      "originX": 0.092402,
+      "cellWidth": 0.010267
+    },
+    {
+      "page": 3,
+      "originX": 0.092402,
+      "cellWidth": 0.010267
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "|",
+              "sourceX": 0.171
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.19
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.261
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "(play over helicopter noise, etc, until the drum kicks in)"
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 9,
+          "anchors": [
+            {
+              "chord": "|",
+              "sourceX": 0.172
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.261
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.279
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.349
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.367
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.437
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.455
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.515
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 9,
+          "anchors": [
+            {
+              "chord": "|",
+              "sourceX": 0.17
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.261
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.279
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.349
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.367
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.437
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.455
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.524
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 9,
+          "anchors": [
+            {
+              "chord": "|",
+              "sourceX": 0.172
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.259
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.279
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.349
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.367
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.437
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.455
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.524
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "                  (ah)              (hey, hey, yey)"
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 9,
+          "anchors": [
+            {
+              "chord": "|",
+              "sourceX": 0.17
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.19
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.261
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.279
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.349
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.367
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.437
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.455
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.524
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "        (yey)"
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.17
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.542
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.789
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "step off the train all alone at dawn, back into the hole where i was born",
+              "sourceX": 0.166
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.211
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.417
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.591
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.671
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "the sun in the sky never raised an eye to me",
+              "sourceX": 0.17
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.17
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.671
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.875
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "there's blood on the trax and it must be mine, the fool on the hill and i feel fine",
+              "sourceX": 0.17
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.17
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.62
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.701
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "don't look back 'cuz you know what you might see",
+              "sourceX": 0.17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Link",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 17,
+          "anchors": [
+            {
+              "chord": "|",
+              "sourceX": 0.17
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.259
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.279
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.347
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.367
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.438
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.456
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.526
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.544
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.614
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.634
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.702
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.72
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.79
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.808
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.878
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.17
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.464
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.628
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.876
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "look into the wall of my minds eye, i think i know but i don't know why",
+              "sourceX": 0.164
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.211
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.464
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.688
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.781
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "the questions are the answers you might need",
+              "sourceX": 0.172
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.17
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.488
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.643
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.768
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "coming in a mess, going out in style, i ain't good looking but i'm someones child",
+              "sourceX": 0.17
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.17
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.477
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.601
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.673
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "no-one can give me the air that's mine to breathe",
+              "sourceX": 0.17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "Esus4",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.259
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.341
+            },
+            {
+              "chord": "Esus4",
+              "sourceX": 0.517
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.583
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.696
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "i met my maker, i made him cry, and on my shoulder he asked me why",
+              "sourceX": 0.17
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Esus4",
+              "sourceX": 0.205
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.278
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.37
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "his people won't fly through the storm",
+              "sourceX": 0.17
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Cmaj7",
+              "sourceX": 0.242
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.535
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.675
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "i said \"listen up man, they don't even know you're born!\"",
+              "sourceX": 0.172
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 8,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.166
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.37
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.489
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.562
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.756
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.801
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.86
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.937
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "all my people right here right now,      d'you know what i mean? yeah, yeah",
+              "sourceX": 0.166
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 8,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.17
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.37
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.493
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.563
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.76
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.799
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.864
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.935
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "all my people right here right now,      d'you know what i mean? yeah, yeah",
+              "sourceX": 0.168
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 8,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.17
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.37
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.493
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.563
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.76
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.799
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.867
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.938
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "all my people right here right now,      d'you know what i mean? yeah, yeah",
+              "sourceX": 0.17
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 8,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.246
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.289
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.31
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.385
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.456
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.492
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.521
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.591
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "yeah, yeah,        yeah, yeah",
+              "sourceX": 0.17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 3",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.17
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.488
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.701
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.868
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "i don't really care for what you believe, so open up your fists or you won't receive",
+              "sourceX": 0.164
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.253
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.303
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.636
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.713
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "the thoughts and the words of every man you'll need",
+              "sourceX": 0.172
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.193
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.559
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.612
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.856
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "so get up off the floor and believe in life, no-one's ever gonna ever ask you twice",
+              "sourceX": 0.17
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.17
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.43
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.561
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.642
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "get on the bus and bring it on home to me",
+              "sourceX": 0.17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "Esus4",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.258
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.347
+            },
+            {
+              "chord": "Esus4",
+              "sourceX": 0.519
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.582
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.7
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "i met my maker, i made him cry, and on my shoulder he asked me why",
+              "sourceX": 0.17
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Esus4",
+              "sourceX": 0.207
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.278
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.368
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "his people won't fly through the storm",
+              "sourceX": 0.17
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Cmaj7",
+              "sourceX": 0.242
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.446
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.805
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "i said \"listen up man, they don't even know you're born!\"",
+              "sourceX": 0.172
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 8,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.17
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.37
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.491
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.564
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.76
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.8
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.864
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.936
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "all my people right here right now,      they know what i mean? yeah, yeah",
+              "sourceX": 0.166
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 8,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.17
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.37
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.491
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.565
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.758
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.799
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.864
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.938
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "all my people right here right now,      they know what i mean? yeah, yeah",
+              "sourceX": 0.17
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 8,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.172
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.37
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.493
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.564
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.76
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.8
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.866
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.937
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "all my people right here right now,      they know what i mean? yeah, yeah",
+              "sourceX": 0.17
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 8,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.246
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.289
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.317
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.386
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.454
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.493
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.522
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.593
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "yeah, yeah,        yeah, yeah",
+              "sourceX": 0.17
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 8,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.246
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.273
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.313
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.386
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.448
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.493
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.524
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.592
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "yeah, yeah,        yeah, yeah        yeah.",
+              "sourceX": 0.17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Middle",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 13,
+          "anchors": [
+            {
+              "chord": "|",
+              "sourceX": 0.166
+            },
+            {
+              "chord": "Cmaj7",
+              "sourceX": 0.189
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.26
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.277
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.347
+            },
+            {
+              "chord": "Cmaj7",
+              "sourceX": 0.367
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.435
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.455
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.526
+            },
+            {
+              "chord": "Cmaj7",
+              "sourceX": 0.543
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.613
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.63
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.701
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 9,
+          "anchors": [
+            {
+              "chord": "|",
+              "sourceX": 0.17
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.26
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.279
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.348
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.366
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.436
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.456
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.523
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solo",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 17,
+          "anchors": [
+            {
+              "chord": "|",
+              "sourceX": 0.168
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.192
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.259
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.279
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.347
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.368
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.436
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.455
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.526
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.544
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.612
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.632
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.702
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.721
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.791
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.807
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.88
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "(x2)"
+        }
+      ]
+    },
+    {
+      "name": "Chorus 3",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 8,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.168
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.37
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.487
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.562
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.755
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.801
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.86
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.936
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "all my people right here right now,      d'you know what i mean? yeah, yeah",
+              "sourceX": 0.164
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 8,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.17
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.37
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.493
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.563
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.76
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.799
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.864
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.935
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "all my people right here right now,      d'you know what i mean? yeah, yeah",
+              "sourceX": 0.17
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 8,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.172
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.37
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.495
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.563
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.76
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.8
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.867
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.938
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "all my people right here right now,      d'you know what i mean? yeah, yeah",
+              "sourceX": 0.17
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 8,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.278
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.348
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.442
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.524
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.618
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.688
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.782
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.864
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "yeah, yeah,   yeah, yeah,   yeah, yeah,   yeah, yeah.",
+              "sourceX": 0.172
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 15,
+          "anchors": [
+            {
+              "chord": "|",
+              "sourceX": 0.171
+            },
+            {
+              "chord": "Cmaj7",
+              "sourceX": 0.189
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.259
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.277
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.349
+            },
+            {
+              "chord": "Cmaj7",
+              "sourceX": 0.367
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.436
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.457
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.524
+            },
+            {
+              "chord": "Cmaj7",
+              "sourceX": 0.544
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.613
+            },
+            {
+              "chord": "Dsus2",
+              "sourceX": 0.632
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.701
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.722
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.78
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

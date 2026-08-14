@@ -1,0 +1,85 @@
+const cleopatraCoordinateSong = window.initialSongs.find((song) => song.id === "lumineers-cleopatra-acoustic");
+
+if (cleopatraCoordinateSong) {
+  cleopatraCoordinateSong.contentRevision = 3;
+  cleopatraCoordinateSong.chart = `[Intro]
+G
+
+[Verse]
+G
+I was Cleopatra, I was young and an actress
+                                     D
+when you knelt by my mattress, and asked for my hand
+G
+But I was sad you asked it, as I laid in a black dress
+                                     D
+With my father in a casket, I had no plans
+
+[Break]
+G
+
+[Pre-chorus]
+G                                  C              G
+And I left the footprints, the mud stained on the carpet
+                                                   D
+And it hardened like my heart did when you left town
+      G                           C                G
+But I must admit it, that I would marry you in an instant
+                                                   D
+Dan your wire, I'd be your mistress just to have you around
+
+[Chorus]
+          G                       D                       C    G
+But I was late for this, Late for that, late for the love of my life
+           G  D              C  G                       G
+And when I die alone, when I die alone, when I die I'll be on time
+
+[Break]
+G
+
+[Pre-chorus II]
+          G                       C                       G
+While the church discouraged, any lust that burned within me
+                                             D
+Yes my flesh, it was my currency, but I held true
+     G                     C         G
+So I drive a taxi, and the traffic distracts me
+         C               G                        D
+From the strangers in my backseat, they remind me of you
+
+[Chorus]
+          G                       D                       C    G
+But I was late for this, late for that, late for the love of my life
+           G  D              C  G                       G
+And when I die alone, when I die alone, when I die I'll be on time
+
+[Bridge]
+        Em                 G           D     Em    C
+And the only gifts from my Lord were a birth and a divorce
+         G                        Em            C        D      G
+But I've read this script and the costume fits, so I'll play my part
+
+[Break]
+G
+
+[Pre-chorus II]
+      G                C               G
+I was Cleopatra, I was taller than the rafters
+                                       D
+But that's all in the past now, gone with the wind
+      G                    C                   G
+Now a nurse in white shoes leads me back to my guestroom
+       C         G
+It's a bed and a bathroom
+                    D
+And a place for the end
+
+[Chorus]
+           G   D             C   G             C        G     D
+I won't be late for this, late for that, late for the love of my life
+           G   D             C   G             C        G     D
+And when I die alone, when I die alone, when I die I'll be on time
+
+[Ending]
+D G`;
+}

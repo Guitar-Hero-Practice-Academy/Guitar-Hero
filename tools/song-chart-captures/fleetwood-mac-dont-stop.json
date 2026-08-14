@@ -1,0 +1,1133 @@
+{
+  "schemaVersion": 1,
+  "songId": "fleetwood-mac-dont-stop",
+  "source": {
+    "fileName": "dont stop chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092402,
+      "cellWidth": 0.010267
+    },
+    {
+      "page": 2,
+      "originX": 0.092402,
+      "cellWidth": 0.010267
+    },
+    {
+      "page": 3,
+      "originX": 0.092402,
+      "cellWidth": 0.010267
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.113
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.141
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.162
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "x4"
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.154
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.279
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "If you wake up and don't want to smile",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.15
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.279
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "If it takes just a little while",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.19
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.337
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Open your eyes and look at the day",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B7",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "You'll see things in a different way",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.154
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.211
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Don't stop thinking about tomorrow",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.154
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.211
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Don't stop, it'll soon be here",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.181
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.228
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "It'll be here better than before",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B7",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Yesterday's gone, yesterday's gone",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Link",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.129
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.179
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.129
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.172
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Why not think about times to come",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.179
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And not about the things that you've done",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.22
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.331
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "If your life was bad to you",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B7",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Just think what tomorrow will do",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.146
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.187
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Don't stop thinking about tomorrow",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.146
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.209
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Don't stop, it'll soon be here",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.183
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.232
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "It'll be here better than before",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B7",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Yesterday's gone, yesterday's gone      [hold chord 2 more bars]",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lead break",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.132
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.166
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.203
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.129
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.168
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.205
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.125
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.209
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B7",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 3",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.144
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.261
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "All I want is to see you smile",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.144
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.279
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "If it takes just a little while",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.195
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.273
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I know you don't believe that it's true",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B7",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I never meant any harm to you",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus 3",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.097
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.154
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.203
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Don't stop thinking about tomorrow",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.15
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.214
+            },
+            {
+              "chord": "N.C.",
+              "sourceX": 0.248
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Don't stop, it'll soon be here",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.183
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.228
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "It'll be here better than before",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B7",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Yesterday's gone, yesterday's gone",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.154
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.199
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Don't stop thinking about tomorrow",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.154
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.214
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Don't stop, it'll soon be here",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.183
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.232
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "It'll be here better than before",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B7",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Yesterday's gone, yesterday's gone",
+              "sourceX": 0.094
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.114
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.134
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.331
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.372
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.418
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Oooh,          Don't you look back",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.097
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.121
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.154
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.322
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.378
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.417
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Oooh,          Don't you look back",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.122
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.154
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.326
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.376
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.419
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Oooh,          Don't you look back",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.097
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.122
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.154
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.331
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.372
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.418
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Oooh,          Don't you look back",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

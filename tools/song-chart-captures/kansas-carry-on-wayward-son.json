@@ -1,0 +1,1099 @@
+{
+  "schemaVersion": 1,
+  "songId": "kansas-carry-on-wayward-son",
+  "source": {
+    "fileName": "carry on wayward son intro text tab.pdf"
+  },
+  "pages": [
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 3,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 4,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Opening vocal - N.C.",
+      "rows": [
+        {
+          "type": "note",
+          "text": "Carry on my wayward son"
+        },
+        {
+          "type": "note",
+          "text": "There'll be peace when you are done"
+        },
+        {
+          "type": "note",
+          "text": "Lay your weary head to rest"
+        },
+        {
+          "type": "note",
+          "text": "Don't you cry no more"
+        },
+        {
+          "type": "note",
+          "text": "[[image:assets/carry-on-wayward-son-riff-1.png|Riff 1 - intro, play twice]]"
+        },
+        {
+          "type": "note",
+          "text": "[[image:assets/carry-on-wayward-son-riff-2.png|Riff 2 - play twice]]"
+        }
+      ]
+    },
+    {
+      "name": "Solo 1",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/carry-on-wayward-son-solo-1.png|Solo 1 from supplied chart]]"
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.09
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.156
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.306
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.4
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Once I rose above the noise and confusion",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.09
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.156
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.306
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.4
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Just to get a glimpse beyond this illusion",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.201
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.366
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.401
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.419
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I was soaring ever higher",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.154
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.242
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But I flew too high",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.185
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.394
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.529
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Though my eyes could see I still was a blind man",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.185
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.394
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.532
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Though my mind could think I still was a mad man",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.201
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.357
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.474
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.493
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I hear the voices when I'm dreaming",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.152
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.306
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I can hear them say",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.15
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.201
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.283
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Carry on my wayward son",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.179
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.32
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "There'll be peace when you are done",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.179
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.24
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Lay your weary head to rest",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "(N.C.)"
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Don't you cry no more",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "[[image:assets/carry-on-wayward-son-riff-2.png|Riff 2 turnaround]]"
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.09
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.148
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.306
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.37
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Masquerading as a man with a reason",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.142
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.306
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.394
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "My charade is the event of the season",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.179
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.316
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.433
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.451
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "And if I claim to be a wise man",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.38
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "It surely means that I don't know",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.141
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.394
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.439
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "On a stormy sea of moving emotion",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.141
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.394
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.439
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Tossed about I'm like a ship on the ocean",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.146
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.421
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.439
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I set sail for winds of fortune",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.154
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.306
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "But I hear the voices say",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.144
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.209
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.283
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Carry on my wayward son",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.207
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.314
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "There'll be peace when you are done",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.09
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.179
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.24
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Lay your weary head to rest",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "(N.C.)"
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Don't you cry no more",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "[[image:assets/carry-on-wayward-son-riff-2.png|Riff 2 into Solo 1]]"
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "(mute)"
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Carry on",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.164
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.35
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You will always remember",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "(mute)"
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Carry on",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.164
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.35
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Nothing equals the splendor",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.09
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.158
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.35
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Now your life's no longer empty",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.158
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.326
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Surely Heaven waits for you",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Final Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.154
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.214
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.292
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Carry on my wayward son",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.211
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.32
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "There'll be peace when you are done",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.185
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.24
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "Lay your weary head to rest",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "(N.C.)"
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "Don't you cry (vocal echo: Don't you cry) no more",
+              "sourceX": 0.094
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,731 @@
+{
+  "schemaVersion": 1,
+  "songId": "jimmy-eat-world-the-middle",
+  "source": {
+    "fileName": "the middle chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro tab",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/the-middle-intro-tab.png|Intro tab from the PDF]]"
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.399839
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Hey, don't write yourself off yet.",
+              "sourceX": 0.093
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.487
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.706
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "It's only in your head you feel left out or looked down on.",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.232
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.464
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Just try your best, try everything you can.",
+              "sourceX": 0.097
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.396
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.706
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "And don't you worry what they tell themselves",
+              "sourceX": 0.094
+            },
+            {
+              "text": "when you're away.",
+              "sourceX": 0.604
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "N.C.",
+              "sourceX": 0.174123
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.233374
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.674728
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "It just takes some time, little girl, you're in the middle of the ride, everything,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.252721
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.665861
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Everything will be just fine, everything, everything will be alright (alright)",
+              "sourceX": 0.094
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.399839
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Hey, you know they're all the same.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.380492
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.636034
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You know you're doing better on your own, so don't buy in.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.213624
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.497783
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Live right now.",
+              "sourceX": 0.092
+            },
+            {
+              "text": "Yeah, just be yourself.",
+              "sourceX": 0.308
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.370818
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.616687
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "It doesn't matter if it's good enough",
+              "sourceX": 0.092
+            },
+            {
+              "text": "for someone else.",
+              "sourceX": 0.522
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "N.C.",
+              "sourceX": 0.174123
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.233374
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.674728
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "It just takes some time, little girl, you're in the middle of the ride, everything,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.252721
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.665861
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Everything will be just fine, everything, everything will be alright (alright)",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "N.C.",
+              "sourceX": 0.174123
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.233374
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.674728
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "It just takes some time, little girl, you're in the middle of the ride, everything,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.252721
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.665861
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Everything will be just fine, everything, everything will be alright (alright)",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solo",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.095123
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.145103
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.095123
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.145103
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.145103
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.095526
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.399839
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Hey, don't write yourself off yet.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.370818
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.675534
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "It's only in your head you feel left out",
+              "sourceX": 0.092
+            },
+            {
+              "text": "or looked down on.",
+              "sourceX": 0.544
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.233374
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.46836
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Just do your best, do everything you can.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.390165
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.64611
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And don't you worry what the bitter hearts",
+              "sourceX": 0.092
+            },
+            {
+              "text": "are gonna say.",
+              "sourceX": 0.546
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "N.C.",
+              "sourceX": 0.174123
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.233374
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.674728
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "It just takes some time, little girl, you're in the middle of the ride, everything,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.252721
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.665861
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Everything will be just fine, everything, everything will be alright (alright)",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "N.C.",
+              "sourceX": 0.174123
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.233374
+            },
+            {
+              "chord": "N.C.",
+              "sourceX": 0.665457
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.714228
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "It just takes some time, little girl, you're in the middle of",
+              "sourceX": 0.092
+            },
+            {
+              "text": "the ride, everything,",
+              "sourceX": 0.718
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "N.C.",
+              "sourceX": 0.252318
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.301894
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.685208
+            },
+            {
+              "chord": "N.C.",
+              "sourceX": 0.783555
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Everything will be",
+              "sourceX": 0.092
+            },
+            {
+              "text": "just fine, everything, everything will be alright",
+              "sourceX": 0.296
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

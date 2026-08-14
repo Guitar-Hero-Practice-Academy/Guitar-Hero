@@ -1,0 +1,921 @@
+{
+  "schemaVersion": 1,
+  "songId": "rolling-stones-gimme-shelter",
+  "source": {
+    "fileName": "gimme shelter chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Rhythm Guitar Intro",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/gimme-shelter-rhythm-intro.png|Rhythm guitar intro]]"
+        }
+      ]
+    },
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 11,
+          "anchors": [
+            {
+              "chord": "C#",
+              "sourceX": 0.09472
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.135429
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.17372
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.233374
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.252318
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.272874
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.321241
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.341798
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.389762
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.410721
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.439742
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C#",
+              "sourceX": 0.09472
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Ooh, a storm is threatening my very life today",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C#",
+              "sourceX": 0.09472
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "If I don't get some shelter, oh yeah I'm gonna fade away",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 11,
+          "anchors": [
+            {
+              "chord": "C#",
+              "sourceX": 0.09472
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.242644
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.479242
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.497783
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.518742
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.566707
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.587263
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.635228
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.656187
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.685611
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "War, children, it's just a shot away, it's just a shot away",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 12,
+          "anchors": [
+            {
+              "chord": "C#",
+              "sourceX": 0.09472
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.242644
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.479242
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.497783
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.518742
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.566707
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.587263
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.635228
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.656187
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.685611
+            },
+            {
+              "chord": "C#",
+              "sourceX": 0.723499
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "War, children, it's just a shot away, it's just a shot away",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C#",
+              "sourceX": 0.09472
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Ooh, see the fire is sweepin, our very streets today",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C#",
+              "sourceX": 0.09472
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Burns like a red coal carpet, mad bull lost its way",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 11,
+          "anchors": [
+            {
+              "chord": "C#",
+              "sourceX": 0.09472
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.242644
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.479242
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.497783
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.518742
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.566707
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.587263
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.635228
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.656187
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.685611
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "War, children, it's just a shot away, it's just a shot away",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 12,
+          "anchors": [
+            {
+              "chord": "C#",
+              "sourceX": 0.09472
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.242644
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.479242
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.497783
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.518742
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.566707
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.587263
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.635228
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.656187
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.685611
+            },
+            {
+              "chord": "C#",
+              "sourceX": 0.723499
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "War, children, it's just a shot away, it's just a shot away",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 11,
+          "anchors": [
+            {
+              "chord": "C#",
+              "sourceX": 0.09472
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.154776
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.242644
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.469569
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.48811
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.508666
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.557033
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.57759
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.625554
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.646514
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.675534
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Rape, murder, it's just a shot away, it's just a shot away",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 11,
+          "anchors": [
+            {
+              "chord": "C#",
+              "sourceX": 0.09472
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.242644
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.479242
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.497783
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.518742
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.566707
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.587263
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.635228
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.656187
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.685611
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Rape, murder, it's just a shot away, it's just a shot away",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 11,
+          "anchors": [
+            {
+              "chord": "C#",
+              "sourceX": 0.09472
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.242644
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.479242
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.497783
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.518742
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.566707
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.587263
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.635228
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.656187
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.685611
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Rape, murder, it's just a shot away, it's just a shot away, yeah",
+              "sourceX": 0.094
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C#",
+              "sourceX": 0.09472
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Mmm, the flood is threatening, my very life today",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C#",
+              "sourceX": 0.09472
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Gimme, gimme shelter, or I'm gonna fade away",
+              "sourceX": 0.094
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 11,
+          "anchors": [
+            {
+              "chord": "C#",
+              "sourceX": 0.09472
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.242644
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.479242
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.497783
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.518742
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.566707
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.587263
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.635631
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.656187
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.685611
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "War, children, it's just a shot away, it's just a shot away",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 11,
+          "anchors": [
+            {
+              "chord": "C#",
+              "sourceX": 0.09472
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.242644
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.479242
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.497783
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.518742
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.566707
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.587263
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.635631
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.656187
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.685611
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "It's just a shot away, it's just a thought away, it's just a shot away",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 11,
+          "anchors": [
+            {
+              "chord": "C#",
+              "sourceX": 0.09472
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.242644
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.479242
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.497783
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.518742
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.566707
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.587263
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.635631
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.656187
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.685611
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I said, love, sister, it's just a kiss away, it's just a kiss away",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 11,
+          "anchors": [
+            {
+              "chord": "C#",
+              "sourceX": 0.09472
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.242644
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.479242
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.497783
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.518742
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.566707
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.587263
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.635631
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.656187
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.685611
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "It's just a kiss away, it's just a kiss away, kiss away, kiss away, yeah",
+              "sourceX": 0.094
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

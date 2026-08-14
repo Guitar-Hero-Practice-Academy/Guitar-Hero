@@ -1,0 +1,1140 @@
+{
+  "schemaVersion": 1,
+  "songId": "vicki-sue-robinson-turn-the-beat-around",
+  "source": {
+    "fileName": "turn the beat around chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Fm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.181
+            },
+            {
+              "chord": "Db",
+              "sourceX": 0.245
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Turn the beat around",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Db",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.162
+            },
+            {
+              "chord": "Fm",
+              "sourceX": 0.253
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Love to hear the percussion",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Fm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "Db",
+              "sourceX": 0.245
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Turn it upside down",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Db",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.262
+            },
+            {
+              "chord": "Fm",
+              "sourceX": 0.312
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Love to hear the percussion",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Db",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.222
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Love to hear it",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Fm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.342
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Blow horns you sure sound pretty",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Fm",
+              "sourceX": 0.272
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.468
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Your violins keep movin' to the nitty gritty",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Fm",
+              "sourceX": 0.282
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.478
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "When you hear the scratch of the guitars scratchin'",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Fm",
+              "sourceX": 0.332
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.557
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Then you'll know that rhythm carries all the action, so",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Woah yeah",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Fm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.202
+            },
+            {
+              "chord": "Db",
+              "sourceX": 0.282
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Turn the beat around",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Db",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.181
+            },
+            {
+              "chord": "Fm",
+              "sourceX": 0.253
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Love to hear the percussion",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Fm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "Db",
+              "sourceX": 0.245
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Turn it upside down",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Db",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.172
+            },
+            {
+              "chord": "Fm",
+              "sourceX": 0.253
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Love to hear the percussion",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Love to hear it",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Fm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.181
+            },
+            {
+              "chord": "Db",
+              "sourceX": 0.253
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Turn the beat around",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Db",
+              "sourceX": 0.112
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.252
+            },
+            {
+              "chord": "Fm",
+              "sourceX": 0.312
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Love to hear the percussion",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Fm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.181
+            },
+            {
+              "chord": "Db",
+              "sourceX": 0.253
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Turn it upside down",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Db",
+              "sourceX": 0.102
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.181
+            },
+            {
+              "chord": "Fm",
+              "sourceX": 0.263
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "love to hear the percussion",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Love to hear it",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Fm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.302
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Flute player play your flute 'cause",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Fm",
+              "sourceX": 0.282
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.438
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I know that you want to get your thing off",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Fm",
+              "sourceX": 0.263
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.449
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But you see I've made up my mind about it",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Fm",
+              "sourceX": 0.273
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.468
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "It's got to be the rhythm, no doubt about it, woah woah",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Fm",
+              "sourceX": 0.273
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "'Cause when the guitar player start playing",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Eb",
+              "sourceX": 0.273
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "With the syncopated rhythm, with the scratch, scratch, scratch",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Fm",
+              "sourceX": 0.102
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.371
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Makes me wanna move my body yeah, yeah, yeah",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Fm",
+              "sourceX": 0.132
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And when the drummer starts beating that beat",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Eb",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "He nails that beat with the syncopated rhythm",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "FM",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.342
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "With the rat, tat, tat, tat, tat, tat on the drums, hey",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Fm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.181
+            },
+            {
+              "chord": "Db",
+              "sourceX": 0.253
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Turn the beat around",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Db",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.162
+            },
+            {
+              "chord": "Fm",
+              "sourceX": 0.283
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Love to hear the percussion",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Fm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.181
+            },
+            {
+              "chord": "Db",
+              "sourceX": 0.253
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Turn it upside down",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Db",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.202
+            },
+            {
+              "chord": "Fm",
+              "sourceX": 0.293
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Love to hear the percussion",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Db",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.222
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Love to hear it",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Db",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.222
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Love to hear it",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Db",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.222
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Love to hear it",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Db",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.222
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Love to hear it",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Fm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.181
+            },
+            {
+              "chord": "Db",
+              "sourceX": 0.253
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Turn the beat around",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Db",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.162
+            },
+            {
+              "chord": "Fm",
+              "sourceX": 0.283
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Love to hear the percussion",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Fm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.181
+            },
+            {
+              "chord": "Db",
+              "sourceX": 0.253
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Turn it upside down",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "DB",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.222
+            },
+            {
+              "chord": "Db",
+              "sourceX": 0.273
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Love to hear the percussion",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Db",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Eb",
+              "sourceX": 0.222
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Love to hear it",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1492 @@
+{
+  "schemaVersion": 1,
+  "songId": "coldplay-shiver",
+  "source": {
+    "fileName": "shiver chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092402,
+      "cellWidth": 0.010267
+    },
+    {
+      "page": 2,
+      "originX": 0.092402,
+      "cellWidth": 0.010267
+    },
+    {
+      "page": 3,
+      "originX": 0.092402,
+      "cellWidth": 0.010267
+    },
+    {
+      "page": 4,
+      "originX": 0.092402,
+      "cellWidth": 0.010267
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "|",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.112
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.211
+            },
+            {
+              "chord": "E/F#",
+              "sourceX": 0.247
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.301
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "|",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.114
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.211
+            },
+            {
+              "chord": "E/F#",
+              "sourceX": 0.242
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.3
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.121
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.169
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.198
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.109
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.156
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.198
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.12
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.162
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.182
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse A1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.142
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "So I look in your direction",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.415
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "But you pay me no attention, do you?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.111
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I know you don't listen to me",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.15
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "'Cause you say you see straight through me",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Don't you?",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse B1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C#m",
+              "sourceX": 0.207
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "But on and on",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "From the moment I wake",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F#",
+              "sourceX": 0.259
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "To the moment I sleep",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F#7",
+              "sourceX": 0.314
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'll be there by your side",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C#m",
+              "sourceX": 0.302
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Just you try and stop me",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'll be waiting in line",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B7",
+              "sourceX": 0.384
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Just to see if you care, oh-oh",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pre-Chorus 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G#m",
+              "sourceX": 0.121
+            },
+            {
+              "chord": "G#mmaj7",
+              "sourceX": 0.236
+            },
+            {
+              "chord": "G#m7",
+              "sourceX": 0.361
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Oh-oh, did you want me to change?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G#mmaj7",
+              "sourceX": 0.187
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Well, I'd change for good",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G#m",
+              "sourceX": 0.121
+            },
+            {
+              "chord": "G#mmaj7",
+              "sourceX": 0.236
+            },
+            {
+              "chord": "C#m",
+              "sourceX": 0.433
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And I want you to know that you'll always get your way",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G#mmaj7",
+              "sourceX": 0.144
+            },
+            {
+              "chord": "G#m7",
+              "sourceX": 0.248
+            },
+            {
+              "chord": "Emaj7",
+              "sourceX": 0.314
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And I wanted to say",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.224
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.258
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.308
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.337
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Don't you shiver",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.127
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.158
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.21
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.238
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Shiver",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.17
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.198
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.24
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.297
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Sing it loud and clear",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.14
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.353
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'll always be waiting for you",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse A2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.16
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "So you know how much I need you",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.394
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But you never even see me, do you?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And is this my final chance of getting you?",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse B2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C#m",
+              "sourceX": 0.203
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But on and on",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "From the moment I wake",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F#",
+              "sourceX": 0.259
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "To the moment I sleep",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F#7",
+              "sourceX": 0.316
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'll be there by your side",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C#m",
+              "sourceX": 0.3
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Just you try and stop me",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I'll be waiting in line",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.292
+            },
+            {
+              "chord": "B7",
+              "sourceX": 0.474
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Just to see if you can, if you can, oh-oh",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pre-Chorus 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G#m",
+              "sourceX": 0.121
+            },
+            {
+              "chord": "G#mmaj7",
+              "sourceX": 0.236
+            },
+            {
+              "chord": "G#m7",
+              "sourceX": 0.359
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Oh-oh, did you want me to change?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G#mmaj7",
+              "sourceX": 0.187
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.312
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Well, I'd change for good",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G#m",
+              "sourceX": 0.121
+            },
+            {
+              "chord": "G#mmaj7",
+              "sourceX": 0.236
+            },
+            {
+              "chord": "C#m",
+              "sourceX": 0.433
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "And I want you to know that you'll always get your way",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G#mmaj7",
+              "sourceX": 0.15
+            },
+            {
+              "chord": "G#m7",
+              "sourceX": 0.247
+            },
+            {
+              "chord": "Emaj7",
+              "sourceX": 0.314
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "And I wanted to say",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.222
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.256
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.307
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.337
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Don't you shiver",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.22
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.257
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.308
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.338
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Don't you shiver",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.164
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.199
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.263
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.297
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "sing it loud and clear",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.142
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.355
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I'll always be waiting for you",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 7,
+          "anchors": [
+            {
+              "chord": "|",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.114
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.16
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.18
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.23
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.25
+            },
+            {
+              "chord": "|",
+              "sourceX": 0.3
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.201
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.32
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.421
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Yeah, I'll always be waiting for you",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.201
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.318
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.421
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Yeah, I'll always be waiting for you",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.316
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.421
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Yeah, I'll always be waiting for you",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.318
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "For you, I will always be waiting",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.179
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.23
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "And it's you I see",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.168
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.271
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "But you don't see me",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.175
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.228
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "And it's you I hear",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.117
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.248
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "So loud and so clear",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.187
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.218
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.283
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.317
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I sing it loud and clear",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.181
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.394
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "And I'll always be waiting for you",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.142
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "So I look in your direction",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "But you pay me no attention",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.166
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "And you know how much I need you",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "But you never even see me",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

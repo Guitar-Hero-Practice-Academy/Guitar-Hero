@@ -1,0 +1,1011 @@
+{
+  "schemaVersion": 1,
+  "songId": "rolling-stones-paint-it-black",
+  "source": {
+    "fileName": "paint it black chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 3,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "N.C.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.096
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.171
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.357
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I see a red door and I want it painted black",
+              "sourceX": 0.123
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.357
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "No colours anymore, I want them to turn black",
+              "sourceX": 0.119
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.1447
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.224103
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.340992
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.439742
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I see the girls walk by dressed in their summer clothes",
+              "sourceX": 0.121
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.1447
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.224103
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.311568
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.380492
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.537283
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I have to turn my head until my darkness goes",
+              "sourceX": 0.121
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.38
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I see a line of cars and they're all painted black",
+              "sourceX": 0.115
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.427
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "With flowers and my love both never to come back",
+              "sourceX": 0.121
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.1447
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.253124
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.370818
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.469166
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I see people turn their heads and quickly look away",
+              "sourceX": 0.123
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.193873
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.282547
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.340992
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.419992
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.557033
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Like a new born baby it just happens every day",
+              "sourceX": 0.121
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 3",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.37
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I look inside myself and see my heart is black",
+              "sourceX": 0.121
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.378
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I see my red door, I must have it painted black",
+              "sourceX": 0.121
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus 3",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.183797
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.282547
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.350665
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.430069
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Maybe then I'll fade away and not have to face the facts",
+              "sourceX": 0.121
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.21322
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.272874
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.340992
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.409915
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.615881
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "It's not easy facing up when your whole world is black",
+              "sourceX": 0.121
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 4",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.407
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "No more will my green sea go turn a deeper blue",
+              "sourceX": 0.115
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.425
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I could not foresee this thing happening to you",
+              "sourceX": 0.119
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus 4",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.154373
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.224103
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.292221
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.361145
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "If I look hard enough into the setting sun",
+              "sourceX": 0.121
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.154373
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.253124
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.370818
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.409915
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.586457
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "My love will laugh with me before the morning comes",
+              "sourceX": 0.121
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 5",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.357
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I see a red door and I want it painted black",
+              "sourceX": 0.121
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.357
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "No colours anymore, I want them to turn black",
+              "sourceX": 0.119
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus 5",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.1447
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.224103
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.340992
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.439742
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I see the girls walk by dressed in their summer clothes",
+              "sourceX": 0.121
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.1447
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.224103
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.311568
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.380492
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.537283
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I have to turn my head until my darkness goes",
+              "sourceX": 0.121
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.466
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm-mm",
+              "sourceX": 0.123
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.468
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm-mm",
+              "sourceX": 0.123
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.468
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm-mm",
+              "sourceX": 0.161
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.468
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm",
+              "sourceX": 0.123
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.24
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I wanna see it painted, painted black",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Black as night, black as coal",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.24
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I wanna see the sun, blotted out from the sky",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.24
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I wanna see it painted, painted, painted",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.175
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Painted black, yeah!",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.464
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm-mm",
+              "sourceX": 0.121
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.468
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm, hmm-mm",
+              "sourceX": 0.121
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "(Repeat to fade)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+const champagneCoordinateSong = window.initialSongs.find((song) => song.id === "oasis-champagne-supernova");
+
+if (champagneCoordinateSong) {
+  champagneCoordinateSong.contentRevision = 2;
+  champagneCoordinateSong.chart = `[Intro / verse pattern]
+    Asus2          Asus2/G        Asus2/F#       Asus2/E
+e|----0-0---0-0-0----0-0---0-0-0----0-0---0-0-0----0-0---0-0-0--|
+B|----0-0---0-0-0----0-0---0-0-0----0-0---0-0-0----0-0---0-0-0--|
+G|----2-2---2-2-2----2-2---2-2-2----2-2---2-2-2----2-2---2-2-2--|
+D|----2-2---2-2-2----2-2---2-2-2----2-2---2-2-2----2-2---2-2-2--|
+A|--0-----0-----------------------------------------------------|
+E|-----------------3-----3--------2-----2--------0-----0--------|
+Use this rhythm and chord progression when playing all verses and
+the first chorus
+
+[Verse]
+Asus2
+How many special people change
+Asus2/G
+How many lives are living strange
+Asus2/F#                              Asus2/E
+Where were you while we were getting high
+Asus2
+  Slowly walking down the hall
+Asus2/G
+Faster than a cannonball
+Asus2/F#                              Asus2/E
+Where were you while we were getting high
+
+[Chorus]
+                 Asus2
+Someday you will find me
+                   Asus2/G
+caught beneath the landslide
+     Asus2/F#                   Asus2/E
+in a champagne supernova in the sky
+                 Asus2
+Someday you will find me
+                   Asus2/G
+caught beneath the landslide
+     Asus2/F#               Asus2/E
+In a champagne supernova, a champagne supernova
+          Asus2/G     Asus2/F#     Asus2/E
+sky
+
+[Verse]
+Asus2
+Wake up at dawn and ask her why
+Asus2/G
+A dreamer dreams, she never dies
+Asus2/F#                             Asus2/E
+Wipe that tear away now from your eye
+Asus2
+  Slowly walking down the hall
+Asus2/G
+Faster than a cannonball
+Asus2/F#                              Asus2/E
+Where were you while we were getting high
+
+[Chorus]
+                 A
+Someday you will find me
+                   G
+caught beneath the landslide
+     D/F#                       E
+in a champagne supernova in the sky
+                 A
+Someday you will find me
+                   G
+Caught beneath the landslide
+     D/F#                   E
+In a champagne supernova, a champagne supernova
+
+[Bridge]
+       G*                                                 A*
+'Cause people believe that they're gonna get away for the summer
+   G*                                              D
+But you and I, we live and die, the world's still spinning round
+              E
+We don't know why............why, why, why, why
+
+[Interlude]
+Asus2   Asus2/G   Asus2/F#   Asus2/E
+
+[Solo]
+Asus2  Asus2/G    Asus2/F#  Asus2/E
+
+[Verse]
+Asus2
+How many special people change
+Asus2/G
+How many lives are living strange
+Asus2/F#                              Asus2/E
+Where were you while we were getting high
+Asus2
+  Slowly walking down the hall
+Asus2/G
+Faster than a cannonball
+Asus2/F#                              Asus2/E
+Where were you while we were getting high
+
+[Chorus]
+                 A
+Someday you will find me
+                   G
+caught beneath the landslide
+     D/F#                       E
+in a champagne supernova in the sky
+                 A
+Someday you will find me
+                   G
+Caught beneath the landslide
+     D/F#                   E
+In a champagne supernova, a champagne supernova
+
+[Bridge]
+       G*                                                 A*
+'Cause people believe that they're gonna get away for the summer
+   G*                               D
+But you and I, we live and die, the world's still spinning round
+              E
+We don't know why...........why, why, why, why
+
+[Interlude]
+A     G     D/F#    F  G*
+A     G     D/F#    F  G*
+A     G     D/F#    F  G*
+
+[Solo]
+A     G    D/F#     F  G* F    G*  F  G*
+Asus2  Asus2/G   Asus2/F#   Asus2/E
+Asus2  Asus2/G   Asus2/F#    Asus2/E
+
+[Verse]
+Asus2
+How many special people change
+Asus2/G
+How many lives are living strange
+Asus2/F#                             E
+Where were you while we were getting high
+                Asus2
+We were getting high
+                Asus2/G
+We were getting high
+                Asus2/F#
+We were getting high
+                Asus2/E
+We were getting high
+                Asus2
+We were getting high
+                Asus2/G
+We were getting high
+               Asus2/F#
+We were getting high
+               Asus2/E
+We were getting high
+
+[outro]
+Asus2   Asus2/G  Asus2/F#      G*    Asus2
+F G*    Asus2`;
+}

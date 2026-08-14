@@ -91,7 +91,10 @@ It's just a kiss away, it's just a kiss away, kiss away, kiss away, yeah`
       { name: "E", frets: "022100", fingers: "231" },
       { name: "D", frets: "xx0232", fingers: "132" },
       { name: "A", frets: "x02220", fingers: "123" },
-      { name: "B", frets: "x24442", fingers: "234111" }
+      { name: "B", frets: "x24442", fingers: "234111" },
+      { name: "C", frets: "x32010", fingers: "32 1" },
+      { name: "G", frets: "320003", fingers: "21 3" },
+      { name: "F", frets: "133211", fingers: "134211" }
     ],
     strumming: [
       { name: "Whole song", bpm: "", beats: ["D", "", "D", "U", "", "U", "D", "U"], accents: [0, 4], chordRun: "E  D  A  E", note: "Keep the groove loose and even; ignore the alternate capo versions." }

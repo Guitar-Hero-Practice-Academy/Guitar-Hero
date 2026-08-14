@@ -1,0 +1,1388 @@
+{
+  "schemaVersion": 1,
+  "songId": "oasis-wonderwall",
+  "source": {
+    "fileName": "wonderwall chords-2.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 3,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.154
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.261
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "x4"
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.181
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Today is gonna be the day",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.215
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.445
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "That they're gonna throw it back to you,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.24
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "By now you should've somehow",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.117
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.328
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Realised what you gotta do.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.298
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.369
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.534
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I don't believe that anybody feels the way I do",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.189
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.249
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "About you now.",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.24
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Back beat, the word is on the street",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.179
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.396
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "That the fire in your heart is out,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.253
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'm sure you've heard it all before,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.166
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.355
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But you never really had a doubt.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.298
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.369
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.534
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I don't believe that anybody feels the way I do",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.23
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.263
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.329
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "About you now.",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.123
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.296
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.462
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And all the roads we have to walk are winding,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.123
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.326
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.501
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And all the lights that lead us there are blinding,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.236
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.429
+            },
+            {
+              "chord": "G/F#",
+              "sourceX": 0.513
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.583
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "There are many things that I would like to say to you",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.152
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.259
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But I don't know how.",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.164
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.241
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.288
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Because maybe,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.154
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.372
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.456
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.505
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You're gonna be the one that saves me,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.127
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.189
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.258
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.307
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And after all,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.242
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.319
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.365
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.396
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You're my wonderwall.",
+              "sourceX": 0.09
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 3",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.191
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Today was gonna be the day,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.201
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.435
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But they'll never throw it back to you,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.193
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "By now you should have somehow",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.117
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.365
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Realised what you're not to do.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.298
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.369
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.534
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I don't believe that anybody feels the way I do",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.239
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.298
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.357
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "About you now.",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.125
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.312
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.5
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And all the roads that lead you there are winding,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.127
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.322
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.504
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And all the lights that light the way are blinding,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.238
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.429
+            },
+            {
+              "chord": "G/F#",
+              "sourceX": 0.513
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.583
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "There are many things that I would like to say to you",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.154
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.259
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But I don't know how.",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.164
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.239
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.288
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I said maybe,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.158
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.372
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.456
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.505
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You're gonna be the one that saves me,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.127
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.189
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.258
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.307
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "And after all,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.247
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.318
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.366
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.397
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You're my wonderwall.",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.166
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.241
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.287
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I said maybe,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.158
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.372
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.456
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.505
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You're gonna be the one that saves me,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.129
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.188
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.258
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.308
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "And after all,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.247
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.317
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.366
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.396
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You're my wonderwall.",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.166
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.238
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.287
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I said maybe,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.16
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.376
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.456
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.505
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You're gonna be the one that saves me,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.16
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.371
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.456
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.505
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You're gonna be the one that saves me,",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.158
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.372
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.446
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.505
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.534
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You're gonna be the one that saves me,",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instrumental",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.16
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.208
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.239
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "x4"
+        }
+      ]
+    }
+  ]
+}

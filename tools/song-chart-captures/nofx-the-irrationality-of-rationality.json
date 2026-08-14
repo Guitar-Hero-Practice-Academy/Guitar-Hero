@@ -1,0 +1,897 @@
+{
+  "schemaVersion": 1,
+  "songId": "nofx-the-irrationality-of-rationality",
+  "source": {
+    "fileName": "the irrationality of rationality chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Simplified Am riff",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/the-irrationality-am-riff.png|Simplified Am riff used for the Am G F G figure]]"
+        }
+      ]
+    },
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095123
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.1447
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.164853
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.183797
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "x5"
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 12,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095123
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.164047
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.272874
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.351471
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.48811
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.537686
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.55784
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.576784
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.606207
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.655784
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.675534
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.694881
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Frank, the new CEO had to answer to the board.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.134623
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.311568
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.390971
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.479242
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "The board was getting anxious, and the shareholders were",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.19347
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.322048
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.478436
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "On a bed, legs in air, ass-cheeks open wide",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.252318
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.449416
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.635631
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "They were about to get fucked like it was their first time.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.1447
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.272471
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.390971
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.557437
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "When one makes 20 million, ten thousand people lose.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.1447
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.340992
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.468763
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.517936
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.538089
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.557437
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "What keeps that one from swallowing a shotgun?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095123
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.1447
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.164853
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.183797
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "x3"
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 12,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095123
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.203547
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.282547
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.400645
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.52761
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.576784
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.59734
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.616284
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.645304
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.694881
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.715034
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.734381
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Dan, the company man, felt loyalty to the corp.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.15397
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.272471
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.351471
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.420395
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "After 16 years of service, and a family to support",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.17372
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.214027
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.321644
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "He actually started to believe",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.134623
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.262394
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.449416
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.58686
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "The weaponry and chemicals were for national defense.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.164047
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.282144
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.439742
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.58686
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "'Cause Danny had a mortgage, and a boss to answer to.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 10,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.311568
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.537283
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.58686
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.607013
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.625957
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.655381
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.684805
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.704958
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.724305
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "The guilty don't feel guilty, they learn not to.",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095123
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.124547
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.164853
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 12,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095123
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.193873
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.341798
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.410318
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.557033
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.60661
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.62636
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.64611
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.675131
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.724305
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.744861
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.763805
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Helen is living in her car, trying to feed her kids.",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.272068
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.449416
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.616284
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "She got laid off at work, and her house was repossessed.",
+              "sourceX": 0.09
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.222894
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.459492
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.537686
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "It's hard to think clearly when it's 38 degrees.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.272068
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.449416
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.616284
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Desperate people have been known to render desperate deeds.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.134623
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.282144
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.420395
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.591
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But when she shot that family and moved into their home,",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.134623
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.282144
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.420395
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "The paper read she suffered from dementia.",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.115679
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.135026
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.17372
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.203144
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,758 @@
+{
+  "schemaVersion": 1,
+  "songId": "oasis-cigarettes-and-alcohol",
+  "source": {
+    "fileName": "cigarettes and alcohol chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro/Main riff",
+      "rows": [
+        {
+          "type": "note",
+          "text": "(See supplied riff notation.)"
+        },
+        {
+          "type": "note",
+          "text": "I play the riff, then on to F# A then straight in to the E doing a little riff at the"
+        },
+        {
+          "type": "note",
+          "text": "end of each E -3-2-0"
+        },
+        {
+          "type": "note",
+          "text": "On the second part of the E hammer on to the G string with my pinky, listen to the song"
+        },
+        {
+          "type": "note",
+          "text": "for the timing."
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Is it my imagination",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "F#",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.347
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.624
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "-3-2-0 then hammer on G"
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Or have I finally found something worth living for?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I was looking for some action",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "F#",
+              "sourceX": 0.131
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.341
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.497
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "But all I found was cigarettes and alcohol",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.302
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "You could wait for a lifetime",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.347
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "To spend your days in the sunshine",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.341
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "You might as well do the white line",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.209
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.302
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Cos when it comes on top . . .",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.292
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.38
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.558
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.646
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You gotta make it happen You gotta make it happen",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "X2"
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.187
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.142
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.187
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "REPEAT INTRO",
+      "rows": []
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Is it worth the aggravation",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "F#",
+              "sourceX": 0.121
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.449
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.497
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "To find yourself a job when there's nothing worth working for?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "It's a crazy situation",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "F#",
+              "sourceX": 0.121
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.281
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.497
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But all I need are cigarettes and alcohol!",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.3
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You could wait for a lifetime",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.351
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "To spend your days in the sunshine",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.341
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You might as well do the white line",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.211
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.302
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Cos when it comes on top . . .",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.292
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.38
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.558
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.646
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You gotta make it happen You gotta make it happen",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "X2"
+        }
+      ]
+    },
+    {
+      "name": "Solo",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.144
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "X4",
+              "sourceX": 0.218
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.292
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.409
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You gotta, you gotta, you gotta make it",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.292
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.409
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You gotta, you gotta, you gotta fake it",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.292
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.409
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You gotta, you gotta, you gotta make it",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.292
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.409
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You gotta, you gotta, you gotta fake it",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.131
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.168
+            },
+            {
+              "chord": "X8",
+              "sourceX": 0.199
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "FINISH WITH ONE STRUM ON E"
+        }
+      ]
+    }
+  ]
+}

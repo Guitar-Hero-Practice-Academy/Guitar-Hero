@@ -1,0 +1,1145 @@
+{
+  "schemaVersion": 1,
+  "songId": "oasis-rock-n-roll-star",
+  "source": {
+    "fileName": "rock n roll star chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 3,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 4,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/rock-n-roll-star-intro-source.png|Intro lick from the supplied chart]]"
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.172
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.172
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Bm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.172
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.172
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.388
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I live my life in the city",
+              "sourceX": 0.109
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.388
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "And there's no easy way out",
+              "sourceX": 0.111
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Bm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.292
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.507
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.532
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "The day's moving just too fast for me",
+              "sourceX": 0.121
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.357
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I Need some time in the sunshee--ine",
+              "sourceX": 0.113
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.357
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Gotta slow it right down",
+              "sourceX": 0.113
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Bm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.292
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.507
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.522
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "The day's moving just too fast for me",
+              "sourceX": 0.121
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F#m",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.32
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I live my life for the stars that shine",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "People say it's just a waste of time",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F#m",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.331
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Then they said I should feed my head",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "That to me was just a day in bed",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F#m",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.322
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'll take my car and drive real far",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "They're not concerned about the way we are",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "In my mind my dreams are real",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Now you concerned about the way I feel",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.271
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.575
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.612
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Toniiiiiiiiiiiiiiiiight I'm a rock n' roll star",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.271
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.575
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.612
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Toniiiiiiiiiiiiiiiiight I'm a rock n' roll star",
+              "sourceX": 0.094
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.386
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I live my life in the city",
+              "sourceX": 0.111
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.388
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And there's no easy way out",
+              "sourceX": 0.113
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Bm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.292
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.507
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.532
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "The day's moving just too fast for me",
+              "sourceX": 0.121
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.464
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I Need some time in the sunshee--ine",
+              "sourceX": 0.113
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.359
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Gotta slow it right down",
+              "sourceX": 0.111
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Bm",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.292
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.507
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.532
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "The day's moving just too fast for me",
+              "sourceX": 0.117
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F#m",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.32
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I live my life for the stars that shine",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "People say it's just a waste of time",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F#m",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.331
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Then they said I should feed my head",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "That to me was just a day in bed",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F#m",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.329
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'll take my car and drive real far",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "They're not concerned about the way we are",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "In my mind my dreams are real",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Now you concerned about the way I feel",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.271
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.575
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.612
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Toniiiiiiiiiiiiiiiiight I'm a rock n' roll star",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.271
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.575
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.608
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Toniiiiiiiiiiiiiiiiight I'm a rock n' roll star",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.271
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.575
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.614
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Toniiiiiiiiiiiiiiiiight I'm a rock n' roll star",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You're not down with who I am",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Look at you now, you're all in my hands Tonight",
+              "sourceX": 0.094
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solo",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/rock-n-roll-star-solo-source-1.png|Solo notation, supplied chart page 3]]"
+        },
+        {
+          "type": "note",
+          "text": "[[image:assets/rock-n-roll-star-solo-source-2.png|Solo notation continuation, supplied chart page 4]]"
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.271
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.573
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.614
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "Toniiiiiiiiiiiiiiiiight I'm a rock n' roll star",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.271
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.575
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.614
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "Toniiiiiiiiiiiiiiiiight I'm a rock n' roll star",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.271
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.573
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.614
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "Toniiiiiiiiiiiiiiiiight I'm a rock n' roll star",
+              "sourceX": 0.094
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outro",
+      "rows": [
+        {
+          "type": "note",
+          "text": "Alternate between E and D"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1205 @@
+{
+  "schemaVersion": 1,
+  "songId": "oasis-round-are-way",
+  "source": {
+    "fileName": "round are way acoustic chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 3,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.189
+            },
+            {
+              "chord": "Dmadd11",
+              "sourceX": 0.289
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.426
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "x7"
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.179
+            },
+            {
+              "chord": "Dmadd11",
+              "sourceX": 0.394
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.495
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "The paperboy is working before he goes,",
+              "sourceX": 0.14
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.179
+            },
+            {
+              "chord": "Dmadd11",
+              "sourceX": 0.374
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.475
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Lying to the teacher he knows he knows,",
+              "sourceX": 0.14
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.179
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "He didn't and he should've brought his",
+              "sourceX": 0.14
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Dmadd11",
+              "sourceX": 0.142
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.242
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.318
+            },
+            {
+              "chord": "Dmadd11",
+              "sourceX": 0.365
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.465
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "lines in yes-ter-day.",
+              "sourceX": 0.142
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.142
+            },
+            {
+              "chord": "Dmadd11",
+              "sourceX": 0.429
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.534
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Ernie bangs the sound and the day begins,",
+              "sourceX": 0.141
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.179
+            },
+            {
+              "chord": "Dmadd11",
+              "sourceX": 0.454
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.564
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "The letter box is open and your cash falls in,",
+              "sourceX": 0.142
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.189
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I'll meet you at the office",
+              "sourceX": 0.142
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "Dmadd11",
+              "sourceX": 0.207
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.308
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.425
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.453
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.523
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.553
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "(quickly)"
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Just before the staff clock in.",
+              "sourceX": 0.142
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.142
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.417
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.515
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.583
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Round are way the birds are singing,",
+              "sourceX": 0.14
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.142
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.435
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.515
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.583
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Round are way, the sun shines bright,",
+              "sourceX": 0.14
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.142
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.431
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Round are way the birds sing for yer,",
+              "sourceX": 0.14
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G/B",
+              "sourceX": 0.333
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "'Cause they already know yer,",
+              "sourceX": 0.142
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Gm/Bb",
+              "sourceX": 0.318
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.427
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.515
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "(hit once)"
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Yeah they already know yer____________",
+              "sourceX": 0.142
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instrumental 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.269
+            },
+            {
+              "chord": "Dmadd11",
+              "sourceX": 0.345
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.466
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "x2"
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.179
+            },
+            {
+              "chord": "Dmadd11",
+              "sourceX": 0.419
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.526
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "The game is kicking off in around the park,",
+              "sourceX": 0.142
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.179
+            },
+            {
+              "chord": "Dmadd11",
+              "sourceX": 0.415
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.526
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Its twenty-five aside and before it's dark,",
+              "sourceX": 0.142
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.179
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "There's gonna be a loser and you",
+              "sourceX": 0.142
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Dmadd11",
+              "sourceX": 0.142
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.23
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.318
+            },
+            {
+              "chord": "Dmadd11",
+              "sourceX": 0.396
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.501
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Know the next goal wins.",
+              "sourceX": 0.142
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.179
+            },
+            {
+              "chord": "Dmadd11",
+              "sourceX": 0.417
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.522
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Cab it to the front as it's called a draw,",
+              "sourceX": 0.14
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.179
+            },
+            {
+              "chord": "Dmadd11",
+              "sourceX": 0.376
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.495
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Everybody's knockin' at yours once more,",
+              "sourceX": 0.142
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.179
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Ernie bangs the sound but no-one's",
+              "sourceX": 0.142
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Dmadd11",
+              "sourceX": 0.142
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.269
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.366
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "spoken since half past four,",
+              "sourceX": 0.142
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.168
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.269
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.298
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "La la la la la la",
+              "sourceX": 0.142
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.142
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.417
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.517
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.581
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Round are way the birds are singing,",
+              "sourceX": 0.14
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.142
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.433
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.515
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.585
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Round are way, the sun shines bright,",
+              "sourceX": 0.142
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.142
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.435
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Round are way the birds sing for yer,",
+              "sourceX": 0.142
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G/B",
+              "sourceX": 0.333
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "'Cause they already know yer,",
+              "sourceX": 0.142
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Gm/Bb",
+              "sourceX": 0.318
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.427
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.513
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "(hit once)"
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Yeah they already know yer____________",
+              "sourceX": 0.142
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instumental 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.263
+            },
+            {
+              "chord": "Dmadd11",
+              "sourceX": 0.357
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.445
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "x7"
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.263
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.318
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.445
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.495
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "La la la la la,",
+              "sourceX": 0.32
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 3",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.14
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.419
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.505
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.573
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Round are way the birds are singing,",
+              "sourceX": 0.138
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.14
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.419
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.505
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.575
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Round are way the sun shines bright,",
+              "sourceX": 0.14
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.14
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.419
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.503
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.573
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Round are way the birds are minging,",
+              "sourceX": 0.14
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.14
+            },
+            {
+              "chord": "G/B",
+              "sourceX": 0.337
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.505
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.573
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Round are way it's alright",
+              "sourceX": 0.14
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.14
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.483
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Round are way yeah the birds sing for yer,",
+              "sourceX": 0.14
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G/B",
+              "sourceX": 0.335
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "'Cause they already know yer,",
+              "sourceX": 0.143
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Gm/Bb",
+              "sourceX": 0.271
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.396
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.515
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "They already know yer__.",
+              "sourceX": 0.142
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "outro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.212
+            },
+            {
+              "chord": "Fmaj7/C",
+              "sourceX": 0.368
+            },
+            {
+              "chord": "Fmaj7/C",
+              "sourceX": 0.484
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.193
+            },
+            {
+              "chord": "Dmadd11",
+              "sourceX": 0.299
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.407
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "then end on G (hit once)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,871 @@
+{
+  "schemaVersion": 1,
+  "songId": "lumineers-cleopatra-acoustic",
+  "source": {
+    "fileName": "cleopatra acoustic chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 3,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I was Cleopatra, I was young and an actress",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.459089
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "when you knelt by my mattress, and asked for my hand",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "But I was sad you asked it, as I laid in a black dress",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.458
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "With my father in a casket, I had no plans",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Break",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pre-chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.439339
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.58686
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And I left the footprints, the mud stained on the carpet",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.596534
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And it hardened like my heart did when you left town",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.154373
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.429665
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.596534
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But I must admit it, that I would marry you in an instant",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.596534
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Dan your wire, I'd be your mistress just to have you around",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.193873
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.429665
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.665457
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.714
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But I was late for this, Late for that, late for the love of my life",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.203
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.232
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.38
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.411
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.645
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And when I die alone, when I die alone, when I die I'll be on time",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Break",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pre-chorus II",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.193873
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.429665
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.665457
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "While the church discouraged, any lust that burned within me",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.537686
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Yes my flesh, it was my currency, but I held true",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.1447
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.360742
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.459089
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "So I drive a taxi, and the traffic distracts me",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.183797
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.340992
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.58686
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "From the strangers in my backseat, they remind me of you",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.193873
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.429665
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.665457
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.714
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But I was late for this, late for that, late for the love of my life",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.203
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.232
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.38
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.411
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.645
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And when I die alone, when I die alone, when I die I'll be on time",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.174526
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.360742
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.478436
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.537686
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.596937
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And the only gifts from my Lord were a birth and a divorce",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.183797
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.430069
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.56711
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.656187
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.724305
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But I've read this script and the costume fits, so I'll play my part",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Break",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pre-chorus II",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.154373
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.321644
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.478839
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I was Cleopatra, I was taller than the rafters",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.478839
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But that's all in the past now, gone with the wind",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.154373
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.360742
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.557437
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Now a nurse in white shoes leads me back to my guestroom",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.164047
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.262394
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "It's a bed and a bathroom",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.29
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "And a place for the end",
+              "sourceX": 0.094
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 7,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.203547
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.243047
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.380492
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.419992
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.557437
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.64611
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.704958
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I won't be late for this, late for that, late for the love of my life",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 7,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.203547
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.243047
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.380492
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.419992
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.557437
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.64611
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.704958
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "And when I die alone, when I die alone, when I die I'll be on time",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ending",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.112
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

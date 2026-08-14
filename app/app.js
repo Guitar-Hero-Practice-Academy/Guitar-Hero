@@ -47,7 +47,7 @@ const state = {
   metronomePulseOn: false,
   checkpointCriteria: new Map(),
   notesLessonFilter: null,
-  chartSize: Number(localStorage.getItem("guitar-room-chart-size")) || 17
+  chartSize: Number(localStorage.getItem("guitar-room-chart-size")) || 15
 };
 
 const els = {

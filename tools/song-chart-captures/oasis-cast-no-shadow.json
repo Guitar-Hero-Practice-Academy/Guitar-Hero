@@ -1,0 +1,979 @@
+{
+  "schemaVersion": 1,
+  "songId": "oasis-cast-no-shadow",
+  "source": {
+    "fileName": "cast no shadow acoustic chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 3,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.131
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.169
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.239
+            },
+            {
+              "chord": "N.C.",
+              "sourceX": 0.267
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.238
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.337
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Here's a thought for every man who tries to understand",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.238
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "What is in his hands (what's in his hands)",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.121
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "He walks along the open road of love and life",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.238
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Surviving if he can (only if he can)",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pre-Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.277
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.448
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.632
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Bound with all the weight of all the words he tried to say",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.271
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.419
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.583
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Chained to all the places that he never wished to stay",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.273
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.448
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.628
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Bound with all the weight of all the words he tried to say",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.246
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.317
+            },
+            {
+              "chord": "N.C.",
+              "sourceX": 0.376
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "As he faced the sun he cast no shadow",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.269
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "As they took his soul they stole his pride (pride)",
+              "sourceX": 0.101
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.567
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.603
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "As they took his soul they stole his pride (pride)",
+              "sourceX": 0.101
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.464
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.565
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.604
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "As they took his soul they stole his pride (pride)",
+              "sourceX": 0.101
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.246
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.318
+            },
+            {
+              "chord": "N.C.",
+              "sourceX": 0.378
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.454
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "As he faced the sun he cast no shadow",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Interlude",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.187
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.238
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.337
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Here's a thought for every man who tries to understand",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.238
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "What is in his hands (what's in his hands)",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.123
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "He walks along the open road of love and life",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.238
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Surviving if he can (only if he can)",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pre-Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.277
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.448
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Bound with all the weight of all the words he tried to say",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.275
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.423
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.583
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Chained to all the places that he never wished to stay",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.279
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.45
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.628
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Bound with all the weight of all the words he tried to say",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.248
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.319
+            },
+            {
+              "chord": "N.C.",
+              "sourceX": 0.378
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.464
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "As he faced the sun he cast no shadow",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.267
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.464
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.567
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.604
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "As they took his soul they stole his pride (pride)",
+              "sourceX": 0.103
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.269
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.466
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.565
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.603
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "As they took his soul they stole his pride (pride)",
+              "sourceX": 0.103
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.267
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.462
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.565
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.603
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "As they took his soul they stole his pride (pride)",
+              "sourceX": 0.103
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.269
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.46
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.565
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.604
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "As they took his soul they stole his pride (pride)",
+              "sourceX": 0.101
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.248
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.318
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "As he faced the sun he cast no shadow",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.246
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.317
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "As he faced the sun he cast no shadow",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.251
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.317
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "As he faced the sun he cast no shadow",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.248
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.318
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "As he faced the sun he cast no shadow",
+              "sourceX": 0.094
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "outro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.203
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

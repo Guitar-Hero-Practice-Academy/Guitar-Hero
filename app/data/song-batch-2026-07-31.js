@@ -17,6 +17,7 @@ window.initialSongs.push({
     { name: "D5", frets: "xx023x", fingers: "12" },
     { name: "A7sus4", frets: "x02030", fingers: "12" },
     { name: "Cadd9", frets: "x32030", fingers: "213" },
+    { name: "B", frets: "x2444x", fingers: "234" },
     { name: "Asus4", frets: "x02230", fingers: "123" }
   ],
   strumming: [

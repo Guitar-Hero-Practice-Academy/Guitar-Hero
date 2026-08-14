@@ -1,0 +1,837 @@
+{
+  "schemaVersion": 1,
+  "songId": "don-henley-the-boys-of-summer",
+  "source": {
+    "fileName": "the boys of summer chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro riff",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/the-boys-of-summer-riff.png|Guitar 1 and Guitar 2 intro/riff. Guitar 2 repeats through the song.]]"
+        }
+      ]
+    },
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.154373
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.20395
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.252721
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Nobody on the road, nobody on the beach.",
+              "sourceX": 0.121
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I feel it in the air, the summer's out of reach.",
+              "sourceX": 0.107
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Empty lake, empty streets, the sun goes down alone.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I'm driving by your house, though I know you're not home.",
+              "sourceX": 0.109
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.272874
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "But I can see you, your brown skin shining in the sun.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.458686
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "You got your hair combed back and your sunglasses on, baby.",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.282547
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I can tell you, my love for you will still be strong",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.272471
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "After the boys of summer have gone.",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.154373
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.20395
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.252721
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I never will forget those nights, I wonder if it was a dream.",
+              "sourceX": 0.125
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Remember how you made me crazy, remember how I made you scream.",
+              "sourceX": 0.111
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Now I don't understand what happened to our love.",
+              "sourceX": 0.113
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But babe, I'm gonna get you back, I'm gonna show you what I'm made of.",
+              "sourceX": 0.09
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.233374
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I can see you, your brown skin shining in the sun.",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.399839
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I see you walkin' real slow and smiling to everyone.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.282547
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I can tell you, my love for you will still be strong",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.272471
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "After the boys of summer have gone.",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 11,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.124547
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.1447
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.16445
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.183797
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.203547
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.2237
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.242644
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.272471
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.292221
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.311568
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.154373
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.20395
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.252721
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 3",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.095929
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Out on the road today I saw a Deadhead Sticker on a Cadillac.",
+              "sourceX": 0.119
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "A little voice inside my head said: \"Don't look back, you can never look back.\"",
+              "sourceX": 0.111
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095929
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I thought I knew what love was. What did I know?",
+              "sourceX": 0.111
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Those days are gone forever, I should just let 'em go, but",
+              "sourceX": 0.115
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.233374
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I can see you, your brown skin shining in the sun.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.399839
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You got the top pulled down and radio on, baby.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.282547
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I can tell you, my love for you will still be strong",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.272471
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "After the boys of summer have gone.",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.233374
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I can see you, your brown skin shining in the sun.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.490931
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You got your hair slicked back and those Wayfarers on, baby.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.282547
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I can tell you, my love for you will still be strong",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.272471
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "After the boys of summer have gone.",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.20395
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.272471
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "(fade)"
+        }
+      ]
+    }
+  ]
+}

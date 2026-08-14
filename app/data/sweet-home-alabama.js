@@ -17,7 +17,13 @@ window.initialSongs.push({
     { name: "F", frets: "133211", fingers: "342" },
     { name: "Gsus4", frets: "330013", fingers: "23 14" },
     { name: "Csus2", frets: "x30033", fingers: "34" },
-    { name: "Cadd2", frets: "x32033", fingers: "21 34" }
+    { name: "Cadd2", frets: "x32033", fingers: "21 34" },
+    { name: "Cadd9", frets: "x32033", fingers: "21 34" },
+    { name: "Bb", frets: "x13331", fingers: "234" },
+    { name: "Eb", frets: "xx1343", fingers: "1243" },
+    { name: "B", frets: "x24442", fingers: "234" },
+    { name: "A", frets: "x02220", fingers: "123" },
+    { name: "E", frets: "022100", fingers: "231" }
   ],
   strumming: [
     {
@@ -26,7 +32,7 @@ window.initialSongs.push({
       beats: ["D", "", "D", "U", "", "U", "D", "U"],
       accents: [0, 4],
       chordRun: "D  C  G",
-      note: "Use the tab image for the picked version; this is the fallback strum."
+      note: "Use the tab lines for the picked version; this is the fallback strum."
     },
     {
       name: "Chorus",

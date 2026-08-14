@@ -1,0 +1,573 @@
+{
+  "schemaVersion": 1,
+  "songId": "ram-jam-black-betty",
+  "contentRevision": 11,
+  "source": {
+    "fileName": "black betty chords.pdf",
+    "sha256": "aaa86b6f33dd21e80f2c4f4fe86174f5031183ffcc0161549d41d16e25974d3c"
+  },
+  "verification": {
+    "sourceChecked": true,
+    "browserChecked": true,
+    "checkedAt": "2026-08-14"
+  },
+  "chartHash": "c3e64c25d8c358840950e45034815ae5c9d15315e0fb1d8250d89dc3e77257a3",
+  "sections": [
+    {
+      "name": "Intro",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "9887cce84ed4e076a574dff8d3ae033a4dd5ad7f45b712f9c42f8e71a1dc782b",
+          "anchors": [
+            {
+              "chord": "A5",
+              "column": 0
+            },
+            {
+              "chord": "B5",
+              "column": 3
+            },
+            {
+              "chord": "B5",
+              "column": 18
+            },
+            {
+              "chord": "D5",
+              "column": 22
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "e997b832bf48087106583be44a811be3dcaf0f7d9f4439d017729b9cdfbb8710",
+          "anchors": [
+            {
+              "chord": "A5",
+              "column": 0
+            },
+            {
+              "chord": "B5",
+              "column": 3
+            },
+            {
+              "chord": "D5",
+              "column": 10
+            },
+            {
+              "chord": "E5",
+              "column": 14
+            },
+            {
+              "chord": "D5",
+              "column": 17
+            }
+          ]
+        },
+        {
+          "lineOffset": 2,
+          "hash": "7985b0c8b858e77f57c6d403b315ade04d2485d6ec2d09694256eadd20db6f27"
+        },
+        {
+          "lineOffset": 3,
+          "hash": "510f035d8c331b00d791a602794509a644cd42161d2e91c8d5c927bab2506799",
+          "anchors": [
+            {
+              "chord": "A5",
+              "column": 0
+            },
+            {
+              "chord": "B5",
+              "column": 3
+            },
+            {
+              "chord": "B5",
+              "column": 10
+            },
+            {
+              "chord": "B5",
+              "column": 14
+            },
+            {
+              "chord": "E5",
+              "column": 18
+            }
+          ]
+        },
+        {
+          "lineOffset": 4,
+          "hash": "c9f5b1a141d6e93ca90376286669896811d348aa40c1fb2853029d80f20855b7",
+          "anchors": [
+            {
+              "chord": "A5",
+              "column": 0
+            },
+            {
+              "chord": "B5",
+              "column": 3
+            },
+            {
+              "chord": "B5",
+              "column": 10
+            },
+            {
+              "chord": "B5",
+              "column": 13
+            },
+            {
+              "chord": "D5",
+              "column": 17
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "8e9e976187f4e5c8ad648029b7f81c1f81d629bf7d188f0208c648af4f719b94",
+          "anchors": [
+            {
+              "chord": "A5",
+              "column": 0
+            },
+            {
+              "chord": "B5",
+              "column": 3
+            },
+            {
+              "chord": "B5",
+              "column": 10
+            },
+            {
+              "chord": "B5",
+              "column": 13
+            },
+            {
+              "chord": "E5",
+              "column": 17
+            }
+          ]
+        },
+        {
+          "lineOffset": 6,
+          "hash": "d5b7ff656d90d443927c900b9e11389f1c20979329b33f95df762be5fc05b336",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            },
+            {
+              "chord": "D5",
+              "column": 10
+            },
+            {
+              "chord": "B5",
+              "column": 18
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "0ccd7079ed96d2ee98217c0be60d04c3a85b00b23da123edcf3ad361f2c4656c"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "df99e7628e4bd0179ae5ae10af6d39a6c4b891dcd5ec4f8e7006ad27077c9233"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "a3370f9089a12b00d897d45b75c055ab25095cec22ac5f0bdab3c7329fd7b89a"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "30cd79b7bece74b50bb99e3b3610fb50468ea85ca97e9ab73d37e3bcd86cb673"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 9,
+          "hash": "183ad98f6146a4408111a3e5aaaee054736b34443dbecdce249c1849caa364a6"
+        },
+        {
+          "lineOffset": 10,
+          "hash": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 11,
+          "hash": "e0b28d53ffebb2b310e8d70bdc9470c15a0dc246ca580f9e595e0193cfa7c1d2"
+        },
+        {
+          "lineOffset": 12,
+          "hash": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 13,
+          "hash": "1bc144e4aa105d7e3b735d109e9949437c3f1005e85c75ad35ee8b6c498202f0"
+        },
+        {
+          "lineOffset": 14,
+          "hash": "de6e7d4c6f1042547d7df3e2576331b5eec26222022b8cc738553450c3f49d3a",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            },
+            {
+              "chord": "D5",
+              "column": 29
+            },
+            {
+              "chord": "A5",
+              "column": 32
+            },
+            {
+              "chord": "B5",
+              "column": 35
+            }
+          ]
+        },
+        {
+          "lineOffset": 15,
+          "hash": "df99e7628e4bd0179ae5ae10af6d39a6c4b891dcd5ec4f8e7006ad27077c9233"
+        },
+        {
+          "lineOffset": 16,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "0ccd7079ed96d2ee98217c0be60d04c3a85b00b23da123edcf3ad361f2c4656c"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "df99e7628e4bd0179ae5ae10af6d39a6c4b891dcd5ec4f8e7006ad27077c9233"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "7ae7b2a2bdeb7d2cdac9d63e22c04042c9f701d458217b9c9f16c46bff96c39e"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "5116f7b1c482211c33f131c7240aaa5e0a686114f4f95152f044fb375d2e2359"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 9,
+          "hash": "29da9e254113577c98c152d0c510ded32f29ee531144167964c1e11025c7b55a"
+        },
+        {
+          "lineOffset": 10,
+          "hash": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 11,
+          "hash": "55d462c0c80f3e3f2b7d7592062dbc471c8e23246bb6991cd844ea9c439f8c07"
+        },
+        {
+          "lineOffset": 12,
+          "hash": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 13,
+          "hash": "24b6ee7deb915dd8379838e00ef5c732b0dd0b1dd5d77860c638d974c7c9a4d0"
+        },
+        {
+          "lineOffset": 14,
+          "hash": "de6e7d4c6f1042547d7df3e2576331b5eec26222022b8cc738553450c3f49d3a",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            },
+            {
+              "chord": "D5",
+              "column": 29
+            },
+            {
+              "chord": "A5",
+              "column": 32
+            },
+            {
+              "chord": "B5",
+              "column": 35
+            }
+          ]
+        },
+        {
+          "lineOffset": 15,
+          "hash": "1ce6a595591400fabec3afe45b18ee47a47f50c634d4d530ba1f6e1dc6a3d2a4"
+        },
+        {
+          "lineOffset": 16,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Verse 3",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "0ccd7079ed96d2ee98217c0be60d04c3a85b00b23da123edcf3ad361f2c4656c"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "df99e7628e4bd0179ae5ae10af6d39a6c4b891dcd5ec4f8e7006ad27077c9233"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "46b0dd259055cbae2a9ce925182032109c906ff440447fcde9b51735fefe76d0"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "3f390a02bcf7962943f9ae580d9162161ac5c5045f6a41b10b8cc4db6a55e41f"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 9,
+          "hash": "95bd0034d6716ce32c130b44670cada595e797bcf0815c0c29a21c384419dbd8"
+        },
+        {
+          "lineOffset": 10,
+          "hash": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 11,
+          "hash": "e7447b438773a623dc2c21578c725eb130ab5b08a229f25c5e79f70bc0d110f3"
+        },
+        {
+          "lineOffset": 12,
+          "hash": "5ba2c833c5d65e649e4b4fa4d426223f3300650f874e32c4451d9346ce6469e2",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 13,
+          "hash": "0ccd7079ed96d2ee98217c0be60d04c3a85b00b23da123edcf3ad361f2c4656c"
+        },
+        {
+          "lineOffset": 14,
+          "hash": "a5a0b095528c3102fe6b9f1222b2a9907edd90e2018a2e88ceecb26d187c0790",
+          "anchors": [
+            {
+              "chord": "B5",
+              "column": 0
+            },
+            {
+              "chord": "D5",
+              "column": 31
+            },
+            {
+              "chord": "A5",
+              "column": 34
+            },
+            {
+              "chord": "B5",
+              "column": 37
+            }
+          ]
+        },
+        {
+          "lineOffset": 15,
+          "hash": "bc15b0b272e470e94ac7944336f53a8c0afaff7c8f936e02106e2eb2c5d80b59"
+        }
+      ]
+    }
+  ]
+}

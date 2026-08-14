@@ -1,0 +1,818 @@
+{
+  "schemaVersion": 1,
+  "songId": "stone-roses-waterfall",
+  "source": {
+    "fileName": "waterfall chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro guitar",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/waterfall-intro-riff.png|Intro - measures 1-2]]"
+        }
+      ]
+    },
+    {
+      "name": "Verse guitar",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/waterfall-verse-riff.png|Verse guitar pattern - measures 5-20]]"
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Chimes sing sunday morn",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Todays the day shes sworn",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.119
+            },
+            {
+              "chord": "Dadd11",
+              "sourceX": 0.269
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.37
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "To steal what she never could own",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.129
+            },
+            {
+              "chord": "Dadd11",
+              "sourceX": 0.277
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.419
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.495
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.515
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.535
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "And race from this hole she calls home",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Now youre at the wheel",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Tell me how, how does it feel?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.121
+            },
+            {
+              "chord": "Dadd11",
+              "sourceX": 0.244
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.327
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "So good to have equalised",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 7,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.121
+            },
+            {
+              "chord": "Dadd11",
+              "sourceX": 0.238
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.368
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.429
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.449
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.469
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.489
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "To lift up the lids of your eyes",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.156
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "As the mile they disappear",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "See land begin to clear",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dadd11",
+              "sourceX": 0.228
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.37
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Free from the filth and the scum",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 7,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.142
+            },
+            {
+              "chord": "Dadd11",
+              "sourceX": 0.222
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.32
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.396
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.416
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.436
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.456
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "This american satelites won",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus guitar",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/waterfall-chorus-riff.png|Chorus and transition - measures 20-29]]"
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dadd11",
+              "sourceX": 0.207
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.343
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Shell carry on through it all",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.207
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Shes a waterfall",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dadd11",
+              "sourceX": 0.203
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.341
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Shell carry on through it all",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.207
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Shes a waterfall",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse guitar",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/waterfall-verse-riff.png|Verse guitar pattern repeats]]"
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "See the steeple pine",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "The hills as old as time",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dadd11",
+              "sourceX": 0.193
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.3
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Soon to be put to the test",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 7,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.152
+            },
+            {
+              "chord": "Dadd11",
+              "sourceX": 0.296
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.419
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.507
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.527
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.547
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.567
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "To be whipped by the winds of the west",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Stands on shifting sands",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "The scales held in her hands",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.127
+            },
+            {
+              "chord": "Dadd11",
+              "sourceX": 0.252
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.359
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "The wind it just whips her away",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.129
+            },
+            {
+              "chord": "Dadd11",
+              "sourceX": 0.259
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.361
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And fills up her brigantine sails",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus guitar",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/waterfall-chorus-riff.png|Chorus and transition repeat]]"
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dadd11",
+              "sourceX": 0.209
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.343
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Shell carry on through it all",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.201
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Shes a waterfall",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Dadd11",
+              "sourceX": 0.209
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.349
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Shell carry on through it all",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.211
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Shes a waterfall",
+              "sourceX": 0.094
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/waterfall-bridge-riff.png|Bridge - measures 47-49]]"
+        }
+      ]
+    },
+    {
+      "name": "Solo",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/waterfall-solo.png|Solo - measures 50-73]]"
+        }
+      ]
+    },
+    {
+      "name": "Extended outro",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/waterfall-outro-riff.png|Extended outro - measures 74-95]]"
+        }
+      ]
+    }
+  ]
+}

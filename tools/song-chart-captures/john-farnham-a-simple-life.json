@@ -1,0 +1,1402 @@
+{
+  "schemaVersion": 1,
+  "songId": "john-farnham-a-simple-life",
+  "source": {
+    "fileName": "a simple life chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 3,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 7,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.133
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.207
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.288
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.343
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.387
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.407
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.205
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Show me the magic",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.191
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I must've lost it somewhere",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.15
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.232
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.312
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "In my dreams, so far away",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.191
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.263
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.386
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I turned around, everything's changing but me",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Where is the soul in my song?",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.24
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.298
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.368
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Once there was heaven in my eyes",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.172
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.265
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.349
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Whatever happened to those skies?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Bm",
+              "sourceX": 0.172
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Somebody show me how to",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Bm/A",
+              "sourceX": 0.115
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.178
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.244
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.312
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Get back to the simple life",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Interlude 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 7,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.129
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.211
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.286
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.347
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.38
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.421
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.193
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Out of the blue",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.224
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Temptation's all around me",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.25
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.365
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.445
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "The train came along and I got on board",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.115
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.285
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I danced with the darkness",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.136
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.281
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "The skies were the limit",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.094
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "It's such a long way to fall",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.123
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.3
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.368
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Once there was heaven in my eyes",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.178
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.261
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.357
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Whatever happened to those skies?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Bm",
+              "sourceX": 0.181
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Somebody show me how to",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Bm/A",
+              "sourceX": 0.117
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.18
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.244
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.32
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Get back to the simple life",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.156
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.29
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.349
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.417
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "'cause I've done my time in paradise",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.226
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.31
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.398
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I've tried it all maybe once or twice",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Bm",
+              "sourceX": 0.177
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Somebody show me how to",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Bm/A",
+              "sourceX": 0.119
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.179
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.248
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.32
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Get back to the simple life",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C#m",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D/B",
+              "sourceX": 0.222
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Stars keep me going",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.172
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And the moon is there to light my way",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C#m",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.308
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I need to go where my heart is free",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Looking for the way back, hoping for the way back",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus 3",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 8,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.123
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.162
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.247
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.286
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.365
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.425
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.464
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "(Instrumental lead-in over chorus chords)"
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Bm",
+              "sourceX": 0.172
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Somebody show me how to",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Bm/A",
+              "sourceX": 0.117
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.18
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.246
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.318
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Get back to the simple life",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.16
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.29
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.351
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.416
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "'cause I've done my time in paradise",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.224
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.308
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.4
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I've tried it all maybe once or twice",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Bm",
+              "sourceX": 0.207
+            },
+            {
+              "chord": "Bm/A",
+              "sourceX": 0.41
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Somehow the grass was always greener",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.154
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.222
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "On the other side",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.24
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.306
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.368
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Once there was heaven in my eyes",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.179
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.263
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.349
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Whatever happened to those skies?",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Bm",
+              "sourceX": 0.181
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Somebody show me how to",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Bm/A",
+              "sourceX": 0.117
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.179
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.244
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.32
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Get back to the simple life",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "sourceX": 0.094
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.23
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.326
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.4
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I've tried it all maybe once or twice",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Bm",
+              "sourceX": 0.175
+            },
+            {
+              "chord": "Bm/A",
+              "sourceX": 0.302
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.357
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Somebody show me show show show me",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.111
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.183
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "A simple life",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.24
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.304
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.368
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Once there was heaven in my eyes",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Asus4",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.368
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Once there was heaven in my eyes",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.22
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.337
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.417
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.505
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.575
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Somebody show me, show me... (Fade out)",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

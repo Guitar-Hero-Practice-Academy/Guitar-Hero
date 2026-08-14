@@ -1,0 +1,743 @@
+{
+  "schemaVersion": 1,
+  "songId": "lumineers-cleopatra-acoustic",
+  "contentRevision": 3,
+  "source": {
+    "fileName": "cleopatra acoustic chords.pdf",
+    "sha256": "f6dd1e8dc0fcbb0024ba4a532c48cec0efcbdcaafbfa2f37914e7cc454a80ee4"
+  },
+  "verification": {
+    "sourceChecked": true,
+    "browserChecked": true,
+    "checkedAt": "2026-08-14"
+  },
+  "chartHash": "c3bf258c3bf27497235470a5fcc2589662e6604baa171444227cefd61f938910",
+  "sections": [
+    {
+      "name": "Intro",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "333e0a1e27815d0ceee55c473fe3dc93d56c63e3bee2b3b4aee8eed6d70191a3",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "333e0a1e27815d0ceee55c473fe3dc93d56c63e3bee2b3b4aee8eed6d70191a3",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "70b8459928e054b0b75e4d656d16f44b12a9600df02f41847df8d5ea70854786"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "7ff353464a6d5fd952f015e9bbe4bc460e98fba8470768767f0a2e79ac43d628",
+          "anchors": [
+            {
+              "chord": "D",
+              "column": 37
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "06c295cf120a4bb9fcff683b748841586057451f49a16f83b89d27a87281cf32"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "333e0a1e27815d0ceee55c473fe3dc93d56c63e3bee2b3b4aee8eed6d70191a3",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "220b9d6b15e26637bb853216c741ae2803beebce39ca763211cd1acde32c6595"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "7ff353464a6d5fd952f015e9bbe4bc460e98fba8470768767f0a2e79ac43d628",
+          "anchors": [
+            {
+              "chord": "D",
+              "column": 37
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "27ba66b6c5ce80bb4fe255c37ce7665947cbb5b00361dd74595838b13f6ba61f"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Break",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "333e0a1e27815d0ceee55c473fe3dc93d56c63e3bee2b3b4aee8eed6d70191a3",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Pre-chorus",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "2a8b55cda4af346437e810a632ca3caf0ee730e672b6a2dc4d0db535e73fc6d9",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 0
+            },
+            {
+              "chord": "C",
+              "column": 35
+            },
+            {
+              "chord": "G",
+              "column": 50
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "4a579ec56b895a7711a4ee6654b78459509179e6bf75c6c7f51dae41bf120669"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "6973c78c5c02b5eaa7262710db29690a55e3b0c5abb1460fad73131b20c2f212",
+          "anchors": [
+            {
+              "chord": "D",
+              "column": 51
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "36227bb491ca20c502ffbc39bb2458b2ad632c6ff8a9b1cf25e89be059167ee4"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "04f510885fa61824cd9b3e1eecffbbb7d7c48375693f48ce076ad0462215bf5c",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 6
+            },
+            {
+              "chord": "C",
+              "column": 34
+            },
+            {
+              "chord": "G",
+              "column": 51
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "74e3603025893896fd421de6e5a5f2e388aefdea403949df8dec022e50dcdac3"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "6973c78c5c02b5eaa7262710db29690a55e3b0c5abb1460fad73131b20c2f212",
+          "anchors": [
+            {
+              "chord": "D",
+              "column": 51
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "2d95ed91b5a633e592a43641ef581452354957f5482174be42938ff486b3d9b6"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "88ac2b43efc4e3a6002e5577bd768ac8671afc9af0770bef658c48c1586adfa8",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 10
+            },
+            {
+              "chord": "D",
+              "column": 34
+            },
+            {
+              "chord": "C",
+              "column": 58
+            },
+            {
+              "chord": "G",
+              "column": 63
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "7b026a9f0fe1529b250c118a0964cf163114141ea5f854927a4912504877aa0f"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "efb83de10e6d4f68500b93036c7924b13b3ce00718ef9ba8145bbcbbf2b445f1",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 11
+            },
+            {
+              "chord": "D",
+              "column": 14
+            },
+            {
+              "chord": "C",
+              "column": 29
+            },
+            {
+              "chord": "G",
+              "column": 32
+            },
+            {
+              "chord": "G",
+              "column": 56
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "dd14f2e86e6f43ec5fef6f25f3678224ab81923e08343ee8cc9d16dc37c3246b"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Break",
+      "occurrence": 2,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "333e0a1e27815d0ceee55c473fe3dc93d56c63e3bee2b3b4aee8eed6d70191a3",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Pre-chorus II",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "521553d633b16e691ef22fede459e2a9ec0bebc10c4ddb1d35f47dc662bdaa35",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 10
+            },
+            {
+              "chord": "C",
+              "column": 34
+            },
+            {
+              "chord": "G",
+              "column": 58
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "22a2871331b746892fa906ac08b348ec30087c1f341e1be376cd3e87911a5070"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "11a0b6d65500a122bd7a47c9b44b52fdb82034b14e5786ba0c77d0c185bf8427",
+          "anchors": [
+            {
+              "chord": "D",
+              "column": 45
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "56c3f52a5f8c83d59cf5cd1545425113d4484355ffddaea93a1e44a0fecb86c4"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "efc2a142de4b6c5ec64503bb5754e1099b34d0917cb3380654a883f92ae5d1b2",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 5
+            },
+            {
+              "chord": "C",
+              "column": 27
+            },
+            {
+              "chord": "G",
+              "column": 37
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "4081817bd7991249fca67cf4e1e9473c3e30c2c07242f3ce6f17d318d844d6de"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "da36b2d8b8fa698e8b60eeaa2a1f7adc8f487cfb373f52239c86a2f24f5b48d7",
+          "anchors": [
+            {
+              "chord": "C",
+              "column": 9
+            },
+            {
+              "chord": "G",
+              "column": 25
+            },
+            {
+              "chord": "D",
+              "column": 50
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "913a8d64727b4754bf7f8b08f090ae5377fec6a1ff0a57ea9d96dc0c602d137b"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "occurrence": 2,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "88ac2b43efc4e3a6002e5577bd768ac8671afc9af0770bef658c48c1586adfa8",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 10
+            },
+            {
+              "chord": "D",
+              "column": 34
+            },
+            {
+              "chord": "C",
+              "column": 58
+            },
+            {
+              "chord": "G",
+              "column": 63
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "3b9cc01372d705675817e44cb896a0e8d14b2c10d2f2733c689a913a7fe666ae"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "efb83de10e6d4f68500b93036c7924b13b3ce00718ef9ba8145bbcbbf2b445f1",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 11
+            },
+            {
+              "chord": "D",
+              "column": 14
+            },
+            {
+              "chord": "C",
+              "column": 29
+            },
+            {
+              "chord": "G",
+              "column": 32
+            },
+            {
+              "chord": "G",
+              "column": 56
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "dd14f2e86e6f43ec5fef6f25f3678224ab81923e08343ee8cc9d16dc37c3246b"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "db73d8a13781e72fe2330b7def6defc92e3f71b0954712b13b5c5f26b8b4784d",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 8
+            },
+            {
+              "chord": "G",
+              "column": 27
+            },
+            {
+              "chord": "D",
+              "column": 39
+            },
+            {
+              "chord": "Em",
+              "column": 45
+            },
+            {
+              "chord": "C",
+              "column": 51
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "f4ee46a1f0d27985944bd05e4ca956ef1524b335dd99feb1d991159173347013"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "a87a5637ce8b76bc7974661bc195e369175a378ccec012749251d546f34b0f5d",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 9
+            },
+            {
+              "chord": "Em",
+              "column": 34
+            },
+            {
+              "chord": "C",
+              "column": 48
+            },
+            {
+              "chord": "D",
+              "column": 57
+            },
+            {
+              "chord": "G",
+              "column": 64
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "31f2a320399bbb9b78c6bd7e99d7bf53feec7897b17fe806ddf19b7a0bfd9183"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Break",
+      "occurrence": 3,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "333e0a1e27815d0ceee55c473fe3dc93d56c63e3bee2b3b4aee8eed6d70191a3",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 0
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Pre-chorus II",
+      "occurrence": 2,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "a66f18f9b1c7def5be0a34e1cbe61bf9d232ed144da714f090c4a04c21731e91",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 6
+            },
+            {
+              "chord": "C",
+              "column": 23
+            },
+            {
+              "chord": "G",
+              "column": 39
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "916d9f9843e0c6df96d02dde004474ce0430abcb0ef87e970a78ba629ef23d56"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "6ad94387c72ec285e28abc27cfddfe67341d6c498a732fdab2c7d2c339db7416",
+          "anchors": [
+            {
+              "chord": "D",
+              "column": 39
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "15b6e068a905f3d85c3e11d845c0bb1d189a05d577ab9e01d6f4102caf0d9ede"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "e5fa109e4b111dfd95462669990883b5b6bd3ff4ab0147a614aaeab543c191bb",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 6
+            },
+            {
+              "chord": "C",
+              "column": 27
+            },
+            {
+              "chord": "G",
+              "column": 47
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "62fb6cf457e70b81a16946b8795d0113402f59fe702e161ebdf43c8f08f30dc6"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "e6cb5e448f08d404292fd52f93a3e71bef40f530d8e14deb39c1c8f4c58fbd0d",
+          "anchors": [
+            {
+              "chord": "C",
+              "column": 7
+            },
+            {
+              "chord": "G",
+              "column": 17
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "65c05fa3e400c362c135447412805cf4fa4812097ae759b9c15a92bea96570dd"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "6a4a327167be310edbd4c39c2e431c0509bb18fc4d0a05bc49d0559962be39ea",
+          "anchors": [
+            {
+              "chord": "D",
+              "column": 20
+            }
+          ]
+        },
+        {
+          "lineOffset": 9,
+          "hash": "73c592de3576bcc6ea3fbebf1e05edf203c97b603d7858b3ea3d98bd93bba92b"
+        },
+        {
+          "lineOffset": 10,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "occurrence": 3,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "6c84d882ebc04a8d0c80be6a55ccc58ce8e96470af172ce9cfc75e3748f7c2c2",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 11
+            },
+            {
+              "chord": "D",
+              "column": 15
+            },
+            {
+              "chord": "C",
+              "column": 29
+            },
+            {
+              "chord": "G",
+              "column": 33
+            },
+            {
+              "chord": "C",
+              "column": 47
+            },
+            {
+              "chord": "G",
+              "column": 56
+            },
+            {
+              "chord": "D",
+              "column": 62
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "8663a65527fd365c8bd3feb6b63c90c720f41715abe31a2b6e5a764760ca176a"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "6c84d882ebc04a8d0c80be6a55ccc58ce8e96470af172ce9cfc75e3748f7c2c2",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 11
+            },
+            {
+              "chord": "D",
+              "column": 15
+            },
+            {
+              "chord": "C",
+              "column": 29
+            },
+            {
+              "chord": "G",
+              "column": 33
+            },
+            {
+              "chord": "C",
+              "column": 47
+            },
+            {
+              "chord": "G",
+              "column": 56
+            },
+            {
+              "chord": "D",
+              "column": 62
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "dd14f2e86e6f43ec5fef6f25f3678224ab81923e08343ee8cc9d16dc37c3246b"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Ending",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "a00c27811bd19eaab5f1206fa7cd0ccf1411d28e05ac5e1853b70ec4de2c1124",
+          "anchors": [
+            {
+              "chord": "D",
+              "column": 0
+            },
+            {
+              "chord": "G",
+              "column": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

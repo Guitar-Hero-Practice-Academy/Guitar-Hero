@@ -9,7 +9,7 @@
   --accent-dark: #164f44;
   --warn: #8f4b16;
   --shadow: 0 18px 50px rgba(45, 35, 22, 0.13);
-  --chart-size: 17px;
+  --chart-size: 15px;
   --sidebar-width: clamp(250px, 17vw, 330px);
 }
 

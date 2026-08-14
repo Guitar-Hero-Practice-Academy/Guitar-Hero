@@ -1,0 +1,1638 @@
+{
+  "schemaVersion": 1,
+  "songId": "oasis-champagne-supernova",
+  "source": {
+    "fileName": "champagne supernova chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 3,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 4,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 5,
+      "originX": 0.092,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro / verse pattern",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Asus2",
+              "sourceX": 0.133
+            },
+            {
+              "chord": "Asus2/G",
+              "sourceX": 0.279
+            },
+            {
+              "chord": "Asus2/F#",
+              "sourceX": 0.427
+            },
+            {
+              "chord": "Asus2/E",
+              "sourceX": 0.573
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "e|----0-0---0-0-0----0-0---0-0-0----0-0---0-0-0----0-0---0-0-0--|"
+        },
+        {
+          "type": "note",
+          "text": "B|----0-0---0-0-0----0-0---0-0-0----0-0---0-0-0----0-0---0-0-0--|"
+        },
+        {
+          "type": "note",
+          "text": "G|----2-2---2-2-2----2-2---2-2-2----2-2---2-2-2----2-2---2-2-2--|"
+        },
+        {
+          "type": "note",
+          "text": "D|----2-2---2-2-2----2-2---2-2-2----2-2---2-2-2----2-2---2-2-2--|"
+        },
+        {
+          "type": "note",
+          "text": "A|--0-----0-----------------------------------------------------|"
+        },
+        {
+          "type": "note",
+          "text": "E|-----------------3-----3--------2-----2--------0-----0--------|"
+        },
+        {
+          "type": "note",
+          "text": "Use this rhythm and chord progression when playing all verses and"
+        },
+        {
+          "type": "note",
+          "text": "the first chorus"
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "How many special people change",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2/G",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "How many lives are living strange",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Asus2/F#",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Asus2/E",
+              "sourceX": 0.462
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Where were you while we were getting high",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Slowly walking down the hall",
+              "sourceX": 0.115
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2/G",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Faster than a cannonball",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Asus2/F#",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Asus2/E",
+              "sourceX": 0.462
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Where were you while we were getting high",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2",
+              "sourceX": 0.259
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Someday you will find me",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2/G",
+              "sourceX": 0.277
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "caught beneath the landslide",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Asus2/F#",
+              "sourceX": 0.142
+            },
+            {
+              "chord": "Asus2/E",
+              "sourceX": 0.406
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "in a champagne supernova in the sky",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2",
+              "sourceX": 0.255
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Someday you will find me",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2/G",
+              "sourceX": 0.279
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "caught beneath the landslide",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Asus2/F#",
+              "sourceX": 0.142
+            },
+            {
+              "chord": "Asus2/E",
+              "sourceX": 0.367
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "In a champagne supernova, a champagne supernova",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Asus2/G",
+              "sourceX": 0.189
+            },
+            {
+              "chord": "Asus2/F#",
+              "sourceX": 0.308
+            },
+            {
+              "chord": "Asus2/E",
+              "sourceX": 0.435
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "sky",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Wake up at dawn and ask her why",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2/G",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "A dreamer dreams, she never dies",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Asus2/F#",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Asus2/E",
+              "sourceX": 0.458
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Wipe that tear away now from your eye",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Slowly walking down the hall",
+              "sourceX": 0.111
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2/G",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Faster than a cannonball",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Asus2/F#",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Asus2/E",
+              "sourceX": 0.462
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Where were you while we were getting high",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.259
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Someday you will find me",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.275
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "caught beneath the landslide",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D/F#",
+              "sourceX": 0.14
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.409
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "in a champagne supernova in the sky",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.259
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Someday you will find me",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.277
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Caught beneath the landslide",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D/F#",
+              "sourceX": 0.14
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.368
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "In a champagne supernova, a champagne supernova",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G*",
+              "sourceX": 0.156
+            },
+            {
+              "chord": "A*",
+              "sourceX": 0.661
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "'Cause people believe that they're gonna get away for the summer",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G*",
+              "sourceX": 0.125
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.598
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "But you and I, we live and die, the world's still spinning round",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.23
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "We don't know why............why, why, why, why",
+              "sourceX": 0.09
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Interlude",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Asus2",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Asus2/G",
+              "sourceX": 0.169
+            },
+            {
+              "chord": "Asus2/F#",
+              "sourceX": 0.268
+            },
+            {
+              "chord": "Asus2/E",
+              "sourceX": 0.375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solo",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Asus2",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Asus2/G",
+              "sourceX": 0.158
+            },
+            {
+              "chord": "Asus2/F#",
+              "sourceX": 0.268
+            },
+            {
+              "chord": "Asus2/E",
+              "sourceX": 0.365
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "How many special people change",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2/G",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "How many lives are living strange",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Asus2/F#",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Asus2/E",
+              "sourceX": 0.462
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Where were you while we were getting high",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Slowly walking down the hall",
+              "sourceX": 0.115
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2/G",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Faster than a cannonball",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Asus2/F#",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Asus2/E",
+              "sourceX": 0.462
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Where were you while we were getting high",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.259
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Someday you will find me",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.275
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "caught beneath the landslide",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D/F#",
+              "sourceX": 0.138
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.409
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "in a champagne supernova in the sky",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.261
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "Someday you will find me",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.275
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "Caught beneath the landslide",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D/F#",
+              "sourceX": 0.14
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.368
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "In a champagne supernova, a champagne supernova",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G*",
+              "sourceX": 0.156
+            },
+            {
+              "chord": "A*",
+              "sourceX": 0.661
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "'Cause people believe that they're gonna get away for the summer",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G*",
+              "sourceX": 0.125
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.448
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "But you and I, we live and die, the world's still spinning round",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "E",
+              "sourceX": 0.228
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "We don't know why...........why, why, why, why",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Interlude",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.15
+            },
+            {
+              "chord": "D/F#",
+              "sourceX": 0.209
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.287
+            },
+            {
+              "chord": "G*",
+              "sourceX": 0.318
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.15
+            },
+            {
+              "chord": "D/F#",
+              "sourceX": 0.209
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.287
+            },
+            {
+              "chord": "G*",
+              "sourceX": 0.318
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.15
+            },
+            {
+              "chord": "D/F#",
+              "sourceX": 0.207
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.287
+            },
+            {
+              "chord": "G*",
+              "sourceX": 0.318
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solo",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 9,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.15
+            },
+            {
+              "chord": "D/F#",
+              "sourceX": 0.201
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.285
+            },
+            {
+              "chord": "G*",
+              "sourceX": 0.318
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.347
+            },
+            {
+              "chord": "G*",
+              "sourceX": 0.396
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.434
+            },
+            {
+              "chord": "G*",
+              "sourceX": 0.465
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Asus2",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Asus2/G",
+              "sourceX": 0.162
+            },
+            {
+              "chord": "Asus2/F#",
+              "sourceX": 0.259
+            },
+            {
+              "chord": "Asus2/E",
+              "sourceX": 0.37
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Asus2",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Asus2/G",
+              "sourceX": 0.164
+            },
+            {
+              "chord": "Asus2/F#",
+              "sourceX": 0.261
+            },
+            {
+              "chord": "Asus2/E",
+              "sourceX": 0.376
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "How many special people change",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2/G",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "How many lives are living strange",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Asus2/F#",
+              "sourceX": 0.09
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.458
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "Where were you while we were getting high",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2",
+              "sourceX": 0.251
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "We were getting high",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2/G",
+              "sourceX": 0.248
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "We were getting high",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2/F#",
+              "sourceX": 0.248
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "We were getting high",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2/E",
+              "sourceX": 0.248
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "We were getting high",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2",
+              "sourceX": 0.248
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "We were getting high",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 5,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2/G",
+              "sourceX": 0.248
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 5,
+          "fragments": [
+            {
+              "text": "We were getting high",
+              "sourceX": 0.09
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 5,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2/F#",
+              "sourceX": 0.242
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 5,
+          "fragments": [
+            {
+              "text": "We were getting high",
+              "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 5,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Asus2/E",
+              "sourceX": 0.242
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 5,
+          "fragments": [
+            {
+              "text": "We were getting high",
+              "sourceX": 0.092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "outro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 5,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Asus2",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "Asus2/G",
+              "sourceX": 0.169
+            },
+            {
+              "chord": "Asus2/F#",
+              "sourceX": 0.263
+            },
+            {
+              "chord": "G*",
+              "sourceX": 0.396
+            },
+            {
+              "chord": "Asus2",
+              "sourceX": 0.454
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 5,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "G*",
+              "sourceX": 0.112
+            },
+            {
+              "chord": "Asus2",
+              "sourceX": 0.172
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
