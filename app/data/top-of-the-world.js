@@ -1,0 +1,30 @@
+window.initialSongs.push({
+  id: "carpenters-top-of-the-world",
+  contentRevision: 1,
+  title: "Top Of The World",
+  artist: "Carpenters",
+  album: "",
+  albumYear: 0,
+  albumOrder: 0,
+  difficulty: "Intermediate",
+  tuning: "E A D G B E",
+  capo: "8th fret",
+  key: "D",
+  bpm: 0,
+  videoUrl: "",
+  chords: [
+    { name: "D", frets: "xx0232", fingers: "132" },
+    { name: "G", frets: "320003", fingers: "21 3" },
+    { name: "A", frets: "x02220", fingers: "123" },
+    { name: "F#m", frets: "244222", fingers: "34" },
+    { name: "Em", frets: "022000", fingers: "12" },
+    { name: "A7", frets: "x02020", fingers: "1 2" },
+    { name: "B7", frets: "x21202", fingers: "213 4" },
+    { name: "Em7", frets: "020000", fingers: "1" },
+    { name: "Em7-5", frets: "x1xx3x", fingers: "1 3" },
+    { name: "A7sus4", frets: "x02030", fingers: "1 2" },
+    { name: "D7", frets: "xx0212", fingers: "213" }
+  ],
+  strumming: [],
+  chart: ""
+});

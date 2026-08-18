@@ -1,0 +1,1148 @@
+{
+  "schemaVersion": 1,
+  "songId": "white-stripes-seven-nation-army",
+  "source": {
+    "fileName": "seven nation army chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 2,
+      "originX": 0.096131,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 3,
+      "originX": 0.096131,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Verse Riff",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/seven-nation-army-verse-riff.png|Verse riff - play 10 times]]"
+        }
+      ]
+    },
+    {
+      "name": "Pre/Post-Chorus Riff",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/seven-nation-army-pre-post-chorus-riff.png|Pre/Post-Chorus riff]]"
+        }
+      ]
+    },
+    {
+      "name": "Chorus Riff",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/seven-nation-army-chorus-riff-1.png|Chorus riff - first figure]]"
+        },
+        {
+          "type": "note",
+          "text": "[[image:assets/seven-nation-army-chorus-riff-2.png|Chorus riff - continuation]]"
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.194075
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.331318
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.370617
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.409915
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'm gonna fight 'em off",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.243652
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.38029
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.458888
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.508464
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "A seven nation army couldn't hold me back",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.233374
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.340992
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.38029
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.420193
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "They're gonna rip it off",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.2237
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.350665
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.429262
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.478839
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Taking their time right behind my back",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.174123
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.301693
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.38029
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And I'm talking to myself at night",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.194075
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.28295
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.331318
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.370617
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.41052
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Because I can't forget",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.096131
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.243047
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.350665
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Back and forth through my mind",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.184401
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.2237
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.282346
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.321644
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.361548
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Behind a cigarette",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.154172
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.38029
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And a message coming from my eyes says leave it alone",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instrumental Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.096131
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.124547
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.144498
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.16445
+            },
+            {
+              "chord": "x4",
+              "sourceX": 0.184401
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.134825
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Interlude",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.096131
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.124547
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.144498
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.16445
+            },
+            {
+              "chord": "x4",
+              "sourceX": 0.184401
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.214027
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.350665
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.390568
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.429867
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Don't wanna hear about it",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.243652
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.38029
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.458888
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.498791
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Every single one's got a story to tell",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.194075
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.331318
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.370617
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.409915
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Everyone knows about it",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.243652
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.38029
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.458888
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.508464
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "From the Queen of England to the hounds of Hell",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.194075
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.331318
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.360943
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.390568
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And if I catch it coming back my way",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.243652
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.350665
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.390568
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.429867
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'm gonna serve it to you",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.194075
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.331318
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.360943
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.390568
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "And that ain't what you want to hear",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.243652
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.331318
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.370617
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.409915
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "But that's what I'll do",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.154172
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.38029
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "And a feeling coming from my bones says find a home",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solo",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.096131
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.124547
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.144498
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.16445
+            },
+            {
+              "chord": "x8",
+              "sourceX": 0.184401
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.134825
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Interlude",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.096131
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.124547
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.144498
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.16445
+            },
+            {
+              "chord": "x4",
+              "sourceX": 0.184401
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 3",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.2237
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.301693
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.340992
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.380895
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I'm goin' to Wichita",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.233374
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.331318
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.390568
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.429867
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Far from this opera, forever more",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.194075
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.340992
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.38029
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.420193
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I'm gonna work the straw",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.243652
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.360943
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.439541
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.478839
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Make the sweat drip out of every pore",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.174123
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.340992
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.50786
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "And I'm bleeding and I'm bleeding and I'm bleeding",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.174123
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.273277
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.321644
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.360943
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.400242
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Right before the Lord",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.174123
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.331318
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.458888
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "All the words are gonna bleed from me",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "B",
+              "sourceX": 0.203748
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.292624
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.340992
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.38029
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.420193
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "And I will sing no more",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.174123
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.389964
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "And the stains coming from my blood tell me go back home",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instrumental Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.096131
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.124547
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.144498
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.16445
+            },
+            {
+              "chord": "x4",
+              "sourceX": 0.184401
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Legend",
+      "rows": [
+        {
+          "type": "note",
+          "text": "| /  slide up"
+        },
+        {
+          "type": "note",
+          "text": "| \\  slide down"
+        }
+      ]
+    }
+  ]
+}

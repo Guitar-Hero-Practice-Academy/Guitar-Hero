@@ -1,0 +1,1216 @@
+{
+  "schemaVersion": 1,
+  "songId": "derek-and-the-dominos-layla",
+  "source": {
+    "fileName": "layla chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.094921,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.094921,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "About",
+      "rows": [
+        {
+          "type": "note",
+          "text": "Layla: Derek And The Dominos"
+        },
+        {
+          "type": "note",
+          "text": "Number 27 on Rolling Stone's list"
+        },
+        {
+          "type": "note",
+          "text": "of \"The 500 Greatest Songs of All Time\","
+        },
+        {
+          "type": "note",
+          "text": "Album - Layla and Other Assorted Love Songs -"
+        },
+        {
+          "type": "note",
+          "text": "on ATCO Records in 1971."
+        },
+        {
+          "type": "note",
+          "text": "***(Acoustic version)***"
+        }
+      ]
+    },
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 9,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.096131
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.125621
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.155111
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.174771
+            },
+            {
+              "chord": "(x5)",
+              "sourceX": 0.204261
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.253411
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.282901
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.312391
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.332051
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "[[image:assets/layla-riff-1.png|Riff 1]]"
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C#m7",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.370012
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "What'll you do when you get lonely,",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C#m7",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.2237
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.302297
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.380895
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "and nobody's waiting by your side?",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "F#m",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.213422
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.331923
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.487908
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "You've been running and hiding much too long.",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "F#m",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.331923
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.41052
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "You know it's just your foolish pride.",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.184401
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.252721
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.380895
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Lay..la, you've got me on my knees.",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.184401
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.2237
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.390568
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Lay..la, I'm begging, darling please.",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 7,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.174123
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.203748
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.380895
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.538089
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.586457
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.606409
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Lay..la....darling won't you ease my worried mind.",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solo 1",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/layla-solo-1.png|Solo 1]]"
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C#m7",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.32104
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I tried to give you consolation,",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C#m7",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.232769
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.311971
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.390568
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "when your old man had let you down.",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "F#m",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.16445
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.243652
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.419589
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Like a fool, I fell in love with you,",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "F#m",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.194075
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.380895
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "turned my whole world upside down.",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": []
+    },
+    {
+      "name": "Solo 2",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/layla-solo-2-part-1.png|Solo 2 - part 1]]"
+        },
+        {
+          "type": "note",
+          "text": "[[image:assets/layla-solo-2-part-2.png|Solo 2 - part 2]]"
+        },
+        {
+          "type": "note",
+          "text": "[[image:assets/layla-solo-2-part-3.png|Solo 2 - ending]]"
+        }
+      ]
+    },
+    {
+      "name": "Verse 3",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C#m7",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "G#m",
+              "sourceX": 0.360339
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Let's make the best of the situation,",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C#m7",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.183797
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.262394
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.311971
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "before I finally go insane.",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "F#m",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.2237
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.322249
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.448609
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Please don't say we'll never find a way,",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "F#m",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "B",
+              "sourceX": 0.213422
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.380895
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "and tell me all my love's in vain",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.184401
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.252721
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.380895
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Lay..la, you've got me on my knees.",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.184401
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.2237
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.390568
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Lay..la, I'm begging, darling please.",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.174123
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.203144
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.380895
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.538089
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.586457
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Lay..la....darling won't you ease my worried mind.",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.184401
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.252721
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.380895
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Lay..la, you've got me on my knees.",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.184401
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.2237
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.390568
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Lay..la, I'm begging, darling please.",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.174123
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.203144
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.380895
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.538089
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.587062
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Lay..la....darling won't you ease my worried mind.",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Interlude",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.125151
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.154172
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.174728
+            },
+            {
+              "chord": "(x8)",
+              "sourceX": 0.204958
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.184401
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.252721
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.380895
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Lay..la, you've got me on my knees.",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.184401
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.2237
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.390568
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Lay..la, I'm begging, darling please.",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.174123
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.203144
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.380895
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.538089
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.586457
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Lay..la....darling won't you ease my worried mind.",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.184401
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.252721
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.380895
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Lay..la, you've got me on my knees.",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.184401
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.2237
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.390568
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Lay..la, I'm begging, darling please.",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.174123
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.203144
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.380895
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.538089
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.586457
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Lay..la....darling won't you ease my worried mind.",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.184401
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.252721
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.380895
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Lay..la, you've got me on my knees.",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.184401
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.2237
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.390568
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Lay..la, I'm begging, darling please.",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.145103
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.174123
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.203144
+            },
+            {
+              "chord": "Dm",
+              "sourceX": 0.538089
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Lay..la....darling won't you ease my worried mind.",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

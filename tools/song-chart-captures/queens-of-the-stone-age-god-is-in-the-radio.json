@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 1,
+  "songId": "queens-of-the-stone-age-god-is-in-the-radio",
+  "source": {
+    "fileName": "god is in the radio chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.094921,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.094921,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Setup",
+      "rows": [
+        {
+          "type": "note",
+          "text": "Standard Tuning EADGBe"
+        }
+      ]
+    },
+    {
+      "name": "Intro/main riff",
+      "rows": [
+        {
+          "type": "note",
+          "text": "[[image:assets/god-is-in-the-radio-main-riff.png|Intro/main riff]]"
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.420193
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.448609
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I thought I saw him on the video",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.380895
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.409311
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "A trance is keeping him under",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.400242
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.429262
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I know that god is in the radio",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.302297
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.331318
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Checkin' the station",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.449819
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.478235
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I'm glad I caught it from me to you",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.341596
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.370617
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Just a call in the medium",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.420193
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.448609
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I know you hear it, I hear it too",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.341596
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.370012
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "It's everywhere that I go",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.183797
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.243047
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.32104
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.380895
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "You come back another day......and do no wrong",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.183797
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.243047
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.32104
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.380895
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "You come back another day......and do no wrong",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.183797
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.243047
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.32104
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.380895
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You come back another day......and do no wrong",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.183797
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.243047
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.32104
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.380895
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You come back another day......and do no wrong",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.380895
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.409311
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "The say the devil is paranoid",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.331923
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.360339
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Always signin' the cover",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.459492
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.487908
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But god is leakin' through the stereo",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.390568
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.419589
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Between the station to station",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.390568
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.419589
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You believe it, I know you do",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.380895
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.409311
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You won't admit it or say so",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.41052
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.438936
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I know that god is in the radio",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.331923
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.360339
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Just repeating a slogan",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.183797
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.243047
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.32104
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.380895
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You come back another day......and do no wrong",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.183797
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.243047
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.32104
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.380895
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You come back another day......and do no wrong",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.183797
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.243047
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.32104
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.380895
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You come back another day......and do no wrong",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "A",
+              "sourceX": 0.183797
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.243047
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.32104
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.380895
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You come back another day......and do no wrong",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Interlude/Outro",
+      "rows": [
+        {
+          "type": "note",
+          "text": "Main riff fades out and then back in."
+        },
+        {
+          "type": "note",
+          "text": "(end)"
+        }
+      ]
+    },
+    {
+      "name": "Post-chorus riff",
+      "rows": [
+        {
+          "type": "note",
+          "text": "Also note, there is another riff which is played after the chorus:"
+        },
+        {
+          "type": "note",
+          "text": "[[image:assets/god-is-in-the-radio-post-chorus-riff.png|Riff played after the chorus]]"
+        }
+      ]
+    }
+  ]
+}

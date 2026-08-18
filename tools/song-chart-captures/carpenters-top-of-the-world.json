@@ -1,0 +1,1082 @@
+{
+  "schemaVersion": 1,
+  "songId": "carpenters-top-of-the-world",
+  "source": {
+    "fileName": "top of the world chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.095526,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.095526,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.144498
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.194075
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.232769
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.272672
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 8,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.124547
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.154776
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.183797
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.213422
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.243047
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.272672
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.301693
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 8,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.26179
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.331318
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.380895
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.508464
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.655985
+            },
+            {
+              "chord": "A7",
+              "sourceX": 0.714027
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.793833
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Such a feeling's coming over me, there is wonder in most every thing I see",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.154172
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.281741
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.409915
+            },
+            {
+              "chord": "B7",
+              "sourceX": 0.508464
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Not a cloud in the sky, got the sun in my eyes",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.154776
+            },
+            {
+              "chord": "Em7-5",
+              "sourceX": 0.370617
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.438936
+            },
+            {
+              "chord": "A7",
+              "sourceX": 0.517533
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "And I won't be surprised if it's a dream",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 8,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.223096
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.311366
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.400242
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.508464
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.62636
+            },
+            {
+              "chord": "A7",
+              "sourceX": 0.714027
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.783555
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Everything I want the world to be, is now coming true especial ly for me",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.174123
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.272068
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.389964
+            },
+            {
+              "chord": "B7",
+              "sourceX": 0.547763
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "And the reason is clear, it's because you are here",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.203748
+            },
+            {
+              "chord": "Em7-5",
+              "sourceX": 0.370617
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.537485
+            },
+            {
+              "chord": "A7",
+              "sourceX": 0.616082
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "You're the nearest thing to heaven that I've seen",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.16445
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.409915
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I'm on top of the world looking down on creation",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.174123
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.28295
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.350665
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.409915
+            },
+            {
+              "chord": "D7",
+              "sourceX": 0.469166
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "And the only expla nation I can find",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.16445
+            },
+            {
+              "chord": "A7",
+              "sourceX": 0.311366
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.429867
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.62636
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Is the love that I've found, ever since you've been a round",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.213422
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.35127
+            },
+            {
+              "chord": "A7",
+              "sourceX": 0.389964
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.459492
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Your love's put me at the top of the world",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Interlude",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 8,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.124547
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.154776
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.183797
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.213422
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.243047
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.272672
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.301693
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.26179
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.350665
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.459492
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Something in the wind has learned my name",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "F#m",
+              "sourceX": 0.183797
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.341596
+            },
+            {
+              "chord": "A7",
+              "sourceX": 0.448609
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.528416
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And it's telling me that things are not the same",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.16445
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.301693
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.439541
+            },
+            {
+              "chord": "B7",
+              "sourceX": 0.567715
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "In the leaves on the trees and the touch of the breeze",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.194075
+            },
+            {
+              "chord": "Em7-5",
+              "sourceX": 0.370617
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.50786
+            },
+            {
+              "chord": "A7",
+              "sourceX": 0.586457
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "There's a pleasing sense of happiness for me",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.232769
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.321644
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.380895
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "There is only one wish on my mind",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "F#m",
+              "sourceX": 0.19347
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.360943
+            },
+            {
+              "chord": "A7",
+              "sourceX": 0.458283
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.528416
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "When this day is through I hope that I will find",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.16445
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.281741
+            },
+            {
+              "chord": "F#m",
+              "sourceX": 0.399637
+            },
+            {
+              "chord": "B7",
+              "sourceX": 0.567715
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "That tomorrow will be just the same for you and me",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em7",
+              "sourceX": 0.154776
+            },
+            {
+              "chord": "Em7-5",
+              "sourceX": 0.282346
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.438936
+            },
+            {
+              "chord": "A7",
+              "sourceX": 0.517533
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "All I need will be mine if you are here",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.203748
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.449214
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'm on top of the world looking down on creation",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.174123
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.28295
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.350665
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.409915
+            },
+            {
+              "chord": "D7",
+              "sourceX": 0.469166
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And the only expla nation I can find",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.16445
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.311366
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.429867
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.62636
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Is the love that I've found, ever since you've been a round",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.213422
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.35127
+            },
+            {
+              "chord": "A7",
+              "sourceX": 0.389964
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.459492
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Your love's put me at the top of the world",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.203748
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.449214
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'm on top of the world looking down on creation",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.174123
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.28295
+            },
+            {
+              "chord": "A7",
+              "sourceX": 0.350665
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.41052
+            },
+            {
+              "chord": "D7",
+              "sourceX": 0.469166
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And the only expla nation I can find",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.16445
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.311366
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.429867
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.62636
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Is the love that I've found, ever since you've been a round",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.213422
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.35127
+            },
+            {
+              "chord": "A7",
+              "sourceX": 0.389964
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.459492
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Your love's put me at the top of the world",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 9,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.124547
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.154776
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.183797
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.213422
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.243047
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.272672
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.291415
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.311971
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
