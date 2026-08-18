@@ -1,0 +1,1633 @@
+{
+  "schemaVersion": 1,
+  "songId": "foo-fighters-long-road-to-ruin",
+  "source": {
+    "fileName": "long road to ruin chords.pdf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.094921,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.094921,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 3,
+      "originX": 0.094921,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 4,
+      "originX": 0.094921,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Chord voicings",
+      "rows": [
+        {
+          "type": "note",
+          "text": "C/G = 332010"
+        },
+        {
+          "type": "note",
+          "text": "F = 133211"
+        },
+        {
+          "type": "note",
+          "text": "Am = x02210"
+        },
+        {
+          "type": "note",
+          "text": "G6/B = x20030"
+        },
+        {
+          "type": "note",
+          "text": "D = xx0232"
+        },
+        {
+          "type": "note",
+          "text": "Gsus4/B = x20013"
+        },
+        {
+          "type": "note",
+          "text": "Am7 = x02013"
+        },
+        {
+          "type": "note",
+          "text": "C * = x32013"
+        },
+        {
+          "type": "note",
+          "text": "Am7 * = x02010"
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C/G",
+              "sourceX": 0.094921
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Hey now don't make a sound",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C/G",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.429867
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Say hey have you heard the news today",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.2237
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "One flag was taken down",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.184401
+            },
+            {
+              "chord": "C/G",
+              "sourceX": 0.35006
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "To raise another in its place",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C/G",
+              "sourceX": 0.094921
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "A heavy cross you bear",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C/G",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.371221
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "A stubborn heart remains unchanged",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "No harm, no life, no love",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "No stranger singing in your name",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "G6/B",
+              "sourceX": 0.19347
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Maybe the season",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C/G",
+              "sourceX": 0.13422
+            },
+            {
+              "chord": "G6/B",
+              "sourceX": 0.340387
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "The colors change in the valley skies",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "G6/B",
+              "sourceX": 0.232769
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Dear God I've sealed my fate",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C/G",
+              "sourceX": 0.094921
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Running through hell",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095526
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Heaven can wait",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Long road to ruin",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C/G",
+              "sourceX": 0.094921
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "There in your eyes",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.096131
+            },
+            {
+              "chord": "C/G",
+              "sourceX": 0.310762
+            },
+            {
+              "chord": "C/G",
+              "sourceX": 0.360339
+            },
+            {
+              "chord": "G6/B",
+              "sourceX": 0.409311
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Under the cold streetlights",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.094921
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "No tomorrow",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.243652
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "No dead end in sight",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C/G",
+              "sourceX": 0.094921
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Let's say we take this town",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C/G",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.331923
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "No king or queen of any state",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.273277
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Get up to shut it down",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C/G",
+              "sourceX": 0.399033
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Open the streets and raise the gates",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I know a wall to scale",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C/G",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.341596
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I know a field without a name",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Head on without a care",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Before it's way too late",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "G6/B",
+              "sourceX": 0.19347
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Maybe the season",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C/G",
+              "sourceX": 0.13422
+            },
+            {
+              "chord": "G6/B",
+              "sourceX": 0.340387
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "The colors change in the valley skies",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "G6/B",
+              "sourceX": 0.232769
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Oh God I've sealed my fate",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C/G",
+              "sourceX": 0.094921
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Running through hell",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095526
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Heaven can wait",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Long road to ruin",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C/G",
+              "sourceX": 0.094921
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "There in your eyes",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.096131
+            },
+            {
+              "chord": "C/G",
+              "sourceX": 0.310762
+            },
+            {
+              "chord": "C/G",
+              "sourceX": 0.360339
+            },
+            {
+              "chord": "G6/B",
+              "sourceX": 0.409311
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Under the cold streetlights",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095526
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "No tomorrow",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095526
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "No dead ends",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Long road to ruin",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C/G",
+              "sourceX": 0.094921
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "There in your eyes",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.096131
+            },
+            {
+              "chord": "C/G",
+              "sourceX": 0.310762
+            },
+            {
+              "chord": "C/G",
+              "sourceX": 0.360339
+            },
+            {
+              "chord": "G6/B",
+              "sourceX": 0.409311
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Under the cold streetlights",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.094921
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "No tomorrow",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.243652
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "No dead end in sight",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Interlude",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "Gsus4/B",
+              "sourceX": 0.114268
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.194075
+            },
+            {
+              "chord": "Gsus4/B",
+              "sourceX": 0.212817
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "C *",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "Gsus4/B",
+              "sourceX": 0.242443
+            },
+            {
+              "chord": "C *",
+              "sourceX": 0.409915
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "For every piece to fall in place",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Gsus4/B",
+              "sourceX": 0.173519
+            },
+            {
+              "chord": "C *",
+              "sourceX": 0.331318
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Forever gone without a trace",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Gsus4/B",
+              "sourceX": 0.173519
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Your horizon takes its shape",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am7",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "Gsus4/B",
+              "sourceX": 0.32104
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "No turning back, don't turn that page",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am7 *",
+              "sourceX": 0.094921
+            },
+            {
+              "chord": "G6/B",
+              "sourceX": 0.232769
+            },
+            {
+              "chord": "C/G",
+              "sourceX": 0.360339
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Come now, I'm leaving here tonight",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G6/B",
+              "sourceX": 0.232769
+            },
+            {
+              "chord": "Am7 *",
+              "sourceX": 0.360339
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Come now, let's leave it all behind",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G6/B",
+              "sourceX": 0.222491
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Is that the price you pay",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C/G",
+              "sourceX": 0.094921
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Running through hell",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095526
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Heaven can wait",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solo",
+      "rows": []
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Long road to ruin",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C/G",
+              "sourceX": 0.094921
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "There in your eyes",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.096131
+            },
+            {
+              "chord": "C/G",
+              "sourceX": 0.310762
+            },
+            {
+              "chord": "C/G",
+              "sourceX": 0.360339
+            },
+            {
+              "chord": "G6/B",
+              "sourceX": 0.409311
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Under the cold streetlights",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.094921
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "No tomorrow",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095526
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "No dead ends",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Long road to ruin",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C/G",
+              "sourceX": 0.094921
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "There in your eyes",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.096131
+            },
+            {
+              "chord": "C/G",
+              "sourceX": 0.310762
+            },
+            {
+              "chord": "C/G",
+              "sourceX": 0.360339
+            },
+            {
+              "chord": "G6/B",
+              "sourceX": 0.409311
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "Under the cold streetlights",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.094921
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "No tomorrow",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095526
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "No dead ends",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "Long road to ruin",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C/G",
+              "sourceX": 0.094921
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "There in your eyes",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.096131
+            },
+            {
+              "chord": "C/G",
+              "sourceX": 0.310762
+            },
+            {
+              "chord": "C/G",
+              "sourceX": 0.360339
+            },
+            {
+              "chord": "G6/B",
+              "sourceX": 0.409311
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "Under the cold streetlights",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.094921
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "No tomorrow",
+              "sourceX": 0.096131
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.095526
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.243652
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "No dead end in sight",
+              "sourceX": 0.096131
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

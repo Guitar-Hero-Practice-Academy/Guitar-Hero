@@ -93,6 +93,8 @@ const scriptFiles = [
   "data/top-of-the-world-coordinate.js",
   "data/layla.js",
   "data/layla-coordinate.js",
+  "data/long-road-to-ruin.js",
+  "data/long-road-to-ruin-coordinate.js",
   "data/pdf-song-additions.js",
   "data/the-irrationality-of-rationality-coordinate.js",
   "data/cleopatra-acoustic-layout.js",
