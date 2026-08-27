@@ -191,7 +191,6 @@ const els = {
   chordGrid: document.getElementById("chordGrid"),
   chartDisplay: document.getElementById("chartDisplay"),
   chartEditor: document.getElementById("chartEditor"),
-  strumDisplay: document.getElementById("strumDisplay"),
   videoLink: document.getElementById("videoLink"),
   sidebarToggle: document.getElementById("sidebarToggle"),
   sidebarReopen: document.getElementById("sidebarReopen"),
@@ -208,8 +207,6 @@ const els = {
   fontUp: document.getElementById("fontUp")
 };
 
-state.selectedArtist = sortedArtists()[0] || null;
-state.selectedId = sortedSongsForArtist(state.selectedArtist)[0]?.id || null;
 ensureAcademySelection();
 document.documentElement.style.setProperty("--chart-size", `${state.chartSize}px`);
 document.body.classList.toggle("sidebars-collapsed", state.sidebarsCollapsed);
@@ -230,9 +227,9 @@ els.navNotesButton.addEventListener("click", () => {
 els.navChordLibraryButton.addEventListener("click", () => setView("chords"));
 els.navSettingsButton.addEventListener("click", () => setView("settings"));
 els.academyContinue.addEventListener("click", () => setView("academy"));
-els.libraryOpen.addEventListener("click", () => setView("library"));
+els.libraryOpen.addEventListener("click", openBlankLibrary);
 els.academyHomeButton?.addEventListener("click", () => setView("academy"));
-els.academyLibraryButton?.addEventListener("click", () => setView("library"));
+els.academyLibraryButton?.addEventListener("click", openBlankLibrary);
 els.continueMissionButton.addEventListener("click", continueMission);
 els.resumeLearningButton?.addEventListener("click", resumeLearning);
 els.resetAcademyProgressButton.addEventListener("click", resetAcademyProgress);
@@ -334,6 +331,7 @@ els.recommendedSongs?.addEventListener("click", (event) => {
   const button = event.target.closest("[data-song-id]");
   if (!button) return;
   state.selectedId = button.dataset.songId;
+  state.selectedArtist = currentSong()?.artist || null;
   setView("library");
 });
 window.addEventListener("hashchange", () => {
@@ -376,6 +374,17 @@ function setView(view, id = null) {
   location.hash = routeHashForView(view, id);
   applyView();
   render();
+}
+
+function openBlankLibrary() {
+  state.selectedArtist = null;
+  state.selectedId = null;
+  state.editing = false;
+  state.sidebarsCollapsed = false;
+  localStorage.setItem("guitar-room-sidebars-collapsed", "false");
+  document.body.classList.remove("sidebars-collapsed");
+  els.songSearch.value = "";
+  setView("library");
 }
 
 function openAcademyDashboard() {
@@ -1135,7 +1144,7 @@ function showProgressTransferMessage(message, isError) {
 }
 
 function currentSong() {
-  return state.songs.find((song) => song.id === state.selectedId) || state.songs[0];
+  return state.songs.find((song) => song.id === state.selectedId) || null;
 }
 
 function render() {
@@ -1770,6 +1779,7 @@ function openRecommendedSong(event) {
   const button = event.target.closest("[data-song-id]");
   if (!button) return;
   state.selectedId = button.dataset.songId;
+  state.selectedArtist = currentSong()?.artist || null;
   setView("library");
 }
 
@@ -2650,6 +2660,8 @@ function toggleSidebars() {
   localStorage.setItem("guitar-room-sidebars-collapsed", String(state.sidebarsCollapsed));
   document.body.classList.toggle("sidebars-collapsed", state.sidebarsCollapsed);
   renderSidebarToggle();
+  const song = currentSong();
+  if (song) renderChart(song);
 }
 
 function renderSetupToggle() {
@@ -2703,7 +2715,7 @@ function renderArtistList() {
     button.textContent = artist;
     button.addEventListener("click", () => {
       state.selectedArtist = artist;
-      state.selectedId = sortedSongsForArtist(artist)[0]?.id || null;
+      state.selectedId = null;
       state.editing = false;
       els.songSearch.value = "";
       render();
@@ -2715,7 +2727,10 @@ function renderArtistList() {
 function renderSongList() {
   const query = els.songSearch.value.trim().toLowerCase();
   els.songList.innerHTML = "";
-  els.libraryArtist.textContent = state.selectedArtist || "Songs";
+  els.libraryArtist.textContent = state.selectedArtist || "";
+  els.songSearch.closest(".search")?.classList.toggle("hidden", !state.selectedArtist);
+
+  if (!state.selectedArtist) return;
 
   const songs = sortedSongsForArtist(state.selectedArtist)
     .filter((song) => `${song.title} ${song.album || ""}`.toLowerCase().includes(query));
@@ -2753,7 +2768,17 @@ function renderSongList() {
 
 function renderSong() {
   const song = currentSong();
-  if (!song) return;
+  document.body.classList.toggle("song-selected", Boolean(song));
+  if (!song) {
+    els.artistName.textContent = "";
+    els.songTitle.textContent = "";
+    els.songMeta.innerHTML = "";
+    els.toneSettings.innerHTML = "";
+    els.chordGrid.innerHTML = "";
+    els.chartDisplay.innerHTML = "";
+    if (els.chartEditor) els.chartEditor.value = "";
+    return;
+  }
 
   els.artistName.textContent = song.artist;
   els.songTitle.textContent = song.title;
@@ -2774,7 +2799,6 @@ function renderSong() {
   renderToneSettings(song);
   renderChords(song);
   renderChart(song);
-  renderStrumming(song);
 }
 
 function renderToneSettings(song) {
@@ -2905,13 +2929,39 @@ function drawChord(chord) {
 }
 
 function renderChart(song) {
-  els.chartDisplay.innerHTML = `${renderChartImage(song)}${renderSourceImages(song)}${formatChart(song.chart || "")}`;
+  const chart = song.chart || "";
+  const images = `${renderChartImage(song)}${renderSourceImages(song)}`;
+  if (state.sidebarsCollapsed) {
+    const [left, right] = splitChartForColumns(chart);
+    els.chartDisplay.innerHTML = `
+      <div class="chart-column">${images}${formatChart(left)}</div>
+      <div class="chart-column">${formatChart(right)}</div>
+    `;
+  } else {
+    els.chartDisplay.innerHTML = `${images}${formatChart(chart)}`;
+  }
   if (els.chartEditor) els.chartEditor.value = song.chart || "";
   els.chartDisplay.classList.toggle("hidden", state.editing);
   els.chartEditor?.classList.toggle("hidden", !state.editing);
   els.editButton?.classList.toggle("hidden", state.editing);
   els.saveButton?.classList.toggle("hidden", !state.editing);
   els.cancelButton?.classList.toggle("hidden", !state.editing);
+}
+
+function splitChartForColumns(chart) {
+  const lines = String(chart).split("\n");
+  const boundaries = lines
+    .map((line, index) => (/^\[.+\]$/.test(line.trim()) && index > 0 ? index : null))
+    .filter((index) => index !== null);
+  if (!boundaries.length) {
+    const middle = Math.ceil(lines.length / 2);
+    return [lines.slice(0, middle).join("\n"), lines.slice(middle).join("\n")];
+  }
+  const halfway = lines.length / 2;
+  const splitAt = boundaries.reduce((best, index) =>
+    Math.abs(index - halfway) < Math.abs(best - halfway) ? index : best
+  );
+  return [lines.slice(0, splitAt).join("\n").trimEnd(), lines.slice(splitAt).join("\n").trimStart()];
 }
 
 function renderChartImage(song) {
@@ -2947,34 +2997,6 @@ function formatChart(chart) {
     })
     .join("\n")
     .replace(/^\[(.+?)\]$/gm, '<span class="section-label">[$1]</span>');
-}
-
-function renderStrumming(song) {
-  els.strumDisplay.innerHTML = "";
-  (song.strumming || []).forEach((pattern) => {
-    const card = document.createElement("section");
-    card.className = "strum-card";
-    card.innerHTML = `
-      <div class="strum-title">${escapeHtml(pattern.name)}<span>${escapeHtml(String(pattern.bpm || song.bpm || ""))} bpm</span></div>
-      <div class="beat-grid">${renderBeats(pattern)}</div>
-      ${pattern.chordRun ? `<div class="chord-run">${escapeHtml(pattern.chordRun)}</div>` : ""}
-      ${pattern.note ? `<p class="strum-note">${escapeHtml(pattern.note)}</p>` : ""}
-    `;
-    els.strumDisplay.append(card);
-  });
-}
-
-function renderBeats(pattern) {
-  const counts = pattern.beats.length === 8
-    ? ["1", "&", "2", "&", "3", "&", "4", "&"]
-    : ["1", "&", "2", "&", "3", "&", "4", "&", "5", "&", "6", "&", "7", "&", "8", "&"];
-  const accents = new Set(pattern.accents || []);
-  return pattern.beats
-    .map((beat, index) => {
-      const symbol = beat === "D" ? "↓" : beat === "U" ? "↑" : "";
-      return `<div class="beat"><div class="stroke ${accents.has(index) ? "accent" : ""}">${symbol}</div><div class="count">${counts[index] || ""}</div></div>`;
-    })
-    .join("");
 }
 
 function startEditing() {
