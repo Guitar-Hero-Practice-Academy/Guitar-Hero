@@ -98,6 +98,8 @@ const scriptFiles = [
   "data/pdf-song-additions.js",
   "data/stubborn-love.js",
   "data/stubborn-love-coordinate.js",
+  "data/everybodys-on-the-run.js",
+  "data/everybodys-on-the-run-coordinate.js",
   "data/the-irrationality-of-rationality-coordinate.js",
   "data/cleopatra-acoustic-layout.js",
   "data/cleopatra-coordinate.js",

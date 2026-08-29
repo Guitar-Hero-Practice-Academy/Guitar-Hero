@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "songId": "noel-gallaghers-high-flying-birds-everybodys-on-the-run",
+  "source": { "fileName": "everybodys on the run chords.pdf" },
+  "pages": [
+    { "page": 1, "originX": 0.092402, "cellWidth": 0.010267 },
+    { "page": 2, "originX": 0.092402, "cellWidth": 0.010267 },
+    { "page": 3, "originX": 0.092402, "cellWidth": 0.010267 }
+  ],
+  "sections": [
+    { "name": "Notes", "rows": [
+      { "type": "note", "text": "(Standard Tuning) (Capo 3)" }
+    ] },
+    { "name": "Intro", "rows": [
+      { "type": "chords", "page": 1, "expectedChordCount": 11, "anchors": [
+        { "chord": "Asus2", "sourceX": 0.092402 }, { "chord": "|", "sourceX": 0.154004 },
+        { "chord": "Am7", "sourceX": 0.174538 }, { "chord": "|", "sourceX": 0.215606 },
+        { "chord": "G", "sourceX": 0.236140 }, { "chord": "|", "sourceX": 0.256674 },
+        { "chord": "Dsus2", "sourceX": 0.277208 }, { "chord": "x2,", "sourceX": 0.338810 },
+        { "chord": "hammer", "sourceX": 0.379878 }, { "chord": "on", "sourceX": 0.451747 },
+        { "chord": "D", "sourceX": 0.482548 }
+      ] },
+      { "type": "chords", "page": 1, "expectedChordCount": 7, "anchors": [
+        { "chord": "Fmaj7", "sourceX": 0.092402 }, { "chord": "|", "sourceX": 0.154004 },
+        { "chord": "G", "sourceX": 0.174538 }, { "chord": "|", "sourceX": 0.195072 },
+        { "chord": "Asus2", "sourceX": 0.215606 }, { "chord": "x2", "sourceX": 0.277208 },
+        { "chord": "Asus2", "sourceX": 0.318276 }
+      ] }
+    ] },
+    { "name": "Verse 1", "rows": [
+      { "type": "chords", "page": 1, "expectedChordCount": 2, "anchors": [{ "chord": "Asus2", "sourceX": 0.094423 }, { "chord": "Am7", "sourceX": 0.287474 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "You can't fight the feeling,", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 2, "anchors": [{ "chord": "G", "sourceX": 0.092402 }, { "chord": "Dsus2", "sourceX": 0.332485 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "And all is the same, the pouring rain, you know, you know.", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 1, "anchors": [{ "chord": "Asus2", "sourceX": 0.092402 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "Is coming out of the ceiling,", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 1, "anchors": [{ "chord": "G", "sourceX": 0.092402 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "Falling from above,", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 1, "anchors": [{ "chord": "Dsus2", "sourceX": 0.161937 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "Falling in and out of love.", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 2, "anchors": [{ "chord": "Asus2", "sourceX": 0.110883 }, { "chord": "Am7", "sourceX": 0.326489 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "A broken heart is still beating,", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 1, "anchors": [{ "chord": "G", "sourceX": 0.092402 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "In and out of time,", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 1, "anchors": [{ "chord": "Dsus2", "sourceX": 0.193018 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "Hold your body next to mine, you know, you know.", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 2, "anchors": [{ "chord": "Asus2", "sourceX": 0.125134 }, { "chord": "Am7", "sourceX": 0.318275 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "But you can't stop the bleeding,", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 2, "anchors": [{ "chord": "G", "sourceX": 0.092402 }, { "chord": "Dsus2", "sourceX": 0.342916 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "Sing to yourself and hold on.", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 2, "anchors": [{ "chord": "Asus2", "sourceX": 0.151803 }, { "chord": "Asus2", "sourceX": 0.349076 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "Cause everybody's on the run (everybody's on the run) ...", "sourceX": 0.094456 }] }
+    ] },
+    { "name": "Chorus", "rows": [
+      { "type": "chords", "page": 1, "expectedChordCount": 2, "anchors": [{ "chord": "C", "sourceX": 0.092402 }, { "chord": "G", "sourceX": 0.229979 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "Hang in there love,", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 2, "anchors": [{ "chord": "D", "sourceX": 0.193018 }, { "chord": "D7", "sourceX": 0.238193 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "You gotta hold on..", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 2, "anchors": [{ "chord": "C", "sourceX": 0.092402 }, { "chord": "G", "sourceX": 0.229979 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "Hang in there love,", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 1, "anchors": [{ "chord": "D", "sourceX": 0.193018 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "You gotta hold on ...", "sourceX": 0.094456 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "Asus2", "sourceX": 0.151760 }, { "chord": "Asus2", "sourceX": 0.349076 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Cause everybody's on the run (everybody's on the run)", "sourceX": 0.094456 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "Asus2", "sourceX": 0.151951 }, { "chord": "Asus2", "sourceX": 0.349076 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Cause everybody's on the run (everybody's on the run)", "sourceX": 0.094456 }] }
+    ] },
+    { "name": "Verse 2", "rows": [
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "Asus2", "sourceX": 0.094456 }, { "chord": "Am7", "sourceX": 0.338809 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "You've been drifting and stealing,", "sourceX": 0.094456 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 1, "anchors": [{ "chord": "G", "sourceX": 0.094456 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Trying to walk in my shoes,", "sourceX": 0.094456 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 1, "anchors": [{ "chord": "Dsus2", "sourceX": 0.180698 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "But they don't belong to you..", "sourceX": 0.094456 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "You know, you know they don't.", "sourceX": 0.094456 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "Asus2", "sourceX": 0.092402 }, { "chord": "Am7", "sourceX": 0.316222 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "But you can't find the meaning,", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 1, "anchors": [{ "chord": "Dsus2", "sourceX": 0.254485 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Sing to yourself and hold on.", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "Asus2", "sourceX": 0.149865 }, { "chord": "Asus2", "sourceX": 0.355147 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Cause everybody's on the run (everybody's on the run)", "sourceX": 0.092402 }] }
+    ] },
+    { "name": "Chorus", "rows": [
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "C", "sourceX": 0.092402 }, { "chord": "G", "sourceX": 0.223819 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Hang in there love,", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "D", "sourceX": 0.193018 }, { "chord": "D7", "sourceX": 0.234086 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "You gotta hold on.", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "C", "sourceX": 0.092402 }, { "chord": "G", "sourceX": 0.223819 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Hang in there love,", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 1, "anchors": [{ "chord": "D", "sourceX": 0.188912 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "You gotta hold on.", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 1, "anchors": [{ "chord": "Asus2", "sourceX": 0.147767 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Cause everybody's on the run...", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "C", "sourceX": 0.094456 }, { "chord": "G", "sourceX": 0.248460 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Hang in there love,", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "D", "sourceX": 0.193018 }, { "chord": "D7", "sourceX": 0.234086 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "You gotta hold on.", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "C", "sourceX": 0.094456 }, { "chord": "G", "sourceX": 0.252567 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Hang in there love,", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 1, "anchors": [{ "chord": "D", "sourceX": 0.193018 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "You gotta hold on.", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "Asus2", "sourceX": 0.145673 }, { "chord": "Asus2", "sourceX": 0.347023 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Cause everybody's on the run (everybody's on the run)", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "Asus2", "sourceX": 0.092345 }, { "chord": "Asus2", "sourceX": 0.289500 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "everybody's on the run (everybody's on the run)", "sourceX": 0.096509 }] }
+    ] },
+    { "name": "Instrumental", "rows": [
+      { "type": "chords", "page": 2, "expectedChordCount": 8, "anchors": [
+        { "chord": "Fmaj7", "sourceX": 0.094456 }, { "chord": "|", "sourceX": 0.156058 },
+        { "chord": "G", "sourceX": 0.176592 }, { "chord": "|", "sourceX": 0.197126 },
+        { "chord": "Am", "sourceX": 0.215606 }, { "chord": "|", "sourceX": 0.236140 },
+        { "chord": "Em", "sourceX": 0.256674 }, { "chord": "x7", "sourceX": 0.287475 }
+      ] }
+    ] },
+    { "name": "Chorus", "rows": [
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "Fmaj7", "sourceX": 0.092402 }, { "chord": "G", "sourceX": 0.229979 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Hang in there love,", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 2, "anchors": [{ "chord": "Am", "sourceX": 0.186858 }, { "chord": "Em", "sourceX": 0.252567 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "You gotta hold on.", "sourceX": 0.090349 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 3, "anchors": [{ "chord": "Fmaj7", "sourceX": 0.092402 }, { "chord": "G", "sourceX": 0.252567 }, { "chord": "Am", "sourceX": 0.386037 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "You gotta be strong enough for love", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 1, "anchors": [{ "chord": "Em", "sourceX": 0.092402 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "You know, you know. (x3)", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 2, "anchors": [{ "chord": "Fmaj7", "sourceX": 0.092110 }, { "chord": "G", "sourceX": 0.232033 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "Hang in there love,", "sourceX": 0.092084 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 2, "anchors": [{ "chord": "Am", "sourceX": 0.190965 }, { "chord": "Em", "sourceX": 0.250513 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "You gotta hold on.", "sourceX": 0.092402 }] }
+    ] },
+    { "name": "Outro", "rows": [
+      { "type": "chords", "page": 3, "expectedChordCount": 2, "anchors": [{ "chord": "Asus2", "sourceX": 0.151803 }, { "chord": "Asus2", "sourceX": 0.349076 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "Cause everybody's on the run (everybody's on the run)", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 2, "anchors": [{ "chord": "Asus2", "sourceX": 0.151803 }, { "chord": "Asus2", "sourceX": 0.349076 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "Cause everybody's on the run (everybody's on the run) ...", "sourceX": 0.094456 }] }
+    ] }
+  ]
+}
