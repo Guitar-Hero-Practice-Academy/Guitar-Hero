@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "songId": "lumineers-stubborn-love",
+  "source": { "fileName": "stubborn love chords.pdf" },
+  "pages": [
+    { "page": 1, "originX": 0.095791, "cellWidth": 0.009821 },
+    { "page": 2, "originX": 0.095791, "cellWidth": 0.009821 },
+    { "page": 3, "originX": 0.095791, "cellWidth": 0.009821 }
+  ],
+  "sections": [
+    { "name": "Intro", "rows": [
+      { "type": "chords", "page": 1, "expectedChordCount": 9, "anchors": [
+        { "chord": "C", "sourceX": 0.095791 }, { "chord": "Em", "sourceX": 0.115627 },
+        { "chord": "C", "sourceX": 0.174165 }, { "chord": "G", "sourceX": 0.194001 },
+        { "chord": "C", "sourceX": 0.242864 }, { "chord": "Em", "sourceX": 0.263183 },
+        { "chord": "D", "sourceX": 0.292211 }, { "chord": "G", "sourceX": 0.311563 },
+        { "chord": "x2", "sourceX": 0.361393 }
+      ] }
+    ] },
+    { "name": "Verse 1", "rows": [
+      { "type": "chords", "page": 1, "expectedChordCount": 2, "anchors": [{ "chord": "C", "sourceX": 0.164006 }, { "chord": "Em", "sourceX": 0.341558 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "She'll lie and steal and cheat", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 2, "anchors": [{ "chord": "C", "sourceX": 0.134494 }, { "chord": "G", "sourceX": 0.311563 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "And beg you from her knees;", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.095791 }, { "chord": "Em", "sourceX": 0.282535 }, { "chord": "D", "sourceX": 0.341558 }, { "chord": "G", "sourceX": 0.419932 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "Make you think she means it this time.", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 2, "anchors": [{ "chord": "C", "sourceX": 0.164006 }, { "chord": "Em", "sourceX": 0.312046 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "She'll tear a hole in you,", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 2, "anchors": [{ "chord": "C", "sourceX": 0.134978 }, { "chord": "G", "sourceX": 0.292211 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "The one you can't repair,", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.134494 }, { "chord": "Em", "sourceX": 0.312046 }, { "chord": "D", "sourceX": 0.390421 }, { "chord": "G", "sourceX": 0.468795 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "But I still love her, I don't really care.", "sourceX": 0.095791 }] }
+    ] },
+    { "name": "Pre-chorus", "rows": [
+      { "type": "chords", "page": 1, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.095791 }, { "chord": "G", "sourceX": 0.223512 }, { "chord": "Em", "sourceX": 0.292695 }, { "chord": "D", "sourceX": 0.341558 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "When we were young, oooh we did enough.", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.095791 }, { "chord": "G", "sourceX": 0.213353 }, { "chord": "Em", "sourceX": 0.272859 }, { "chord": "D", "sourceX": 0.360910 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "When it got cold, oooooooo we bundled up.", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 5, "anchors": [{ "chord": "C", "sourceX": 0.095791 }, { "chord": "G", "sourceX": 0.203677 }, { "chord": "Em", "sourceX": 0.262700 }, { "chord": "D", "sourceX": 0.360910 }, { "chord": "G", "sourceX": 0.527818 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "I can't be told, aaaaaaaah it can't be done.", "sourceX": 0.095791 }] }
+    ] },
+    { "name": "Verse 2", "rows": [
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "C", "sourceX": 0.144654 }, { "chord": "Em", "sourceX": 0.272859 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "It's better to feel pain", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "C", "sourceX": 0.144654 }, { "chord": "G", "sourceX": 0.262216 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Than nothing at all;", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.134978 }, { "chord": "Em", "sourceX": 0.253024 }, { "chord": "D", "sourceX": 0.351234 }, { "chord": "G", "sourceX": 0.400097 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "The opposite of love's indifference.", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "C", "sourceX": 0.124819 }, { "chord": "Em", "sourceX": 0.262700 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "So pay attention now,", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "C", "sourceX": 0.134978 }, { "chord": "G", "sourceX": 0.301887 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "I'm standing on your porch screamin' out,", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.134978 }, { "chord": "Em", "sourceX": 0.292695 }, { "chord": "D", "sourceX": 0.380745 }, { "chord": "G", "sourceX": 0.459119 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "And I won't leave until you come downstairs.", "sourceX": 0.095791 }] }
+    ] },
+    { "name": "Chorus", "rows": [
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.223029 }, { "chord": "G", "sourceX": 0.272375 }, { "chord": "D", "sourceX": 0.409773 }, { "chord": "Em", "sourceX": 0.439768 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "So keep your head up, keep your love.", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.194001 }, { "chord": "G", "sourceX": 0.242864 }, { "chord": "D", "sourceX": 0.311563 }, { "chord": "Em", "sourceX": 0.341558 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Keep your head up, my love.", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.194001 }, { "chord": "G", "sourceX": 0.242864 }, { "chord": "D", "sourceX": 0.282535 }, { "chord": "Em", "sourceX": 0.312046 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Keep your head up, love.", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.194001 }, { "chord": "G", "sourceX": 0.242864 }, { "chord": "D", "sourceX": 0.380745 }, { "chord": "Em", "sourceX": 0.410256 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Keep your head up, keep your love.", "sourceX": 0.095791 }] }
+    ] },
+    { "name": "Verse 3", "rows": [
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "C", "sourceX": 0.134494 }, { "chord": "Em", "sourceX": 0.312046 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "And I don't blame you dear,", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "C", "sourceX": 0.134978 }, { "chord": "G", "sourceX": 0.301887 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "For running like you did all these years,", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.095791 }, { "chord": "Em", "sourceX": 0.243348 }, { "chord": "D", "sourceX": 0.341558 }, { "chord": "G", "sourceX": 0.419932 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "I would do the same you best believe.", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "C", "sourceX": 0.173682 }, { "chord": "Em", "sourceX": 0.410256 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "And the highway signs say we're close,", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "C", "sourceX": 0.134494 }, { "chord": "G", "sourceX": 0.301887 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "But I don't read those things anymore;", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.115143 }, { "chord": "Em", "sourceX": 0.253024 }, { "chord": "D", "sourceX": 0.301887 }, { "chord": "G", "sourceX": 0.370585 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "I never trusted my own eyes.", "sourceX": 0.095791 }] }
+    ] },
+    { "name": "Pre-chorus", "rows": [
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.095791 }, { "chord": "G", "sourceX": 0.223512 }, { "chord": "Em", "sourceX": 0.292695 }, { "chord": "D", "sourceX": 0.341558 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "When we were young, oooh we did enough.", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.095791 }, { "chord": "G", "sourceX": 0.213353 }, { "chord": "Em", "sourceX": 0.272859 }, { "chord": "D", "sourceX": 0.360910 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "When it got cold, oooooooo we bundled up.", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 5, "anchors": [{ "chord": "C", "sourceX": 0.095791 }, { "chord": "G", "sourceX": 0.203677 }, { "chord": "Em", "sourceX": 0.262700 }, { "chord": "D", "sourceX": 0.360910 }, { "chord": "G", "sourceX": 0.527818 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "I can't be told, aaaaaaaah it can't be done.", "sourceX": 0.095791 }] }
+    ] },
+    { "name": "Chorus", "rows": [
+      { "type": "chords", "page": 3, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.223029 }, { "chord": "G", "sourceX": 0.272375 }, { "chord": "D", "sourceX": 0.409773 }, { "chord": "Em", "sourceX": 0.439768 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "So keep your head up, keep your love.", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.194001 }, { "chord": "G", "sourceX": 0.242864 }, { "chord": "D", "sourceX": 0.311563 }, { "chord": "Em", "sourceX": 0.341558 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "Keep your head up, my love.", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.194001 }, { "chord": "G", "sourceX": 0.242864 }, { "chord": "D", "sourceX": 0.311563 }, { "chord": "Em", "sourceX": 0.341558 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "Keep your head up, my love.", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.194001 }, { "chord": "G", "sourceX": 0.242864 }, { "chord": "D", "sourceX": 0.380745 }, { "chord": "Em", "sourceX": 0.410256 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "Keep your head up, keep your love.", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.095791 }, { "chord": "G", "sourceX": 0.144654 }, { "chord": "D", "sourceX": 0.184325 }, { "chord": "Em", "sourceX": 0.213836 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "Head up, love", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.095791 }, { "chord": "G", "sourceX": 0.144654 }, { "chord": "D", "sourceX": 0.184325 }, { "chord": "Em", "sourceX": 0.213836 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "Head up, love", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.095791 }, { "chord": "G", "sourceX": 0.144654 }, { "chord": "D", "sourceX": 0.184325 }, { "chord": "Em", "sourceX": 0.213836 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "Head up, love", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 4, "anchors": [{ "chord": "C", "sourceX": 0.095791 }, { "chord": "G", "sourceX": 0.144654 }, { "chord": "D", "sourceX": 0.184325 }, { "chord": "Em", "sourceX": 0.213836 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "Head up, love", "sourceX": 0.095791 }] }
+    ] },
+    { "name": "Outro", "rows": [
+      { "type": "chords", "page": 3, "expectedChordCount": 5, "anchors": [{ "chord": "C", "sourceX": 0.095791 }, { "chord": "G", "sourceX": 0.124819 }, { "chord": "D", "sourceX": 0.154814 }, { "chord": "Em", "sourceX": 0.184325 }, { "chord": "x2", "sourceX": 0.223512 }] }
+    ] }
+  ]
+}
