@@ -100,6 +100,8 @@ const scriptFiles = [
   "data/stubborn-love-coordinate.js",
   "data/everybodys-on-the-run.js",
   "data/everybodys-on-the-run-coordinate.js",
+  "data/open-the-door-see-what-you-find.js",
+  "data/open-the-door-see-what-you-find-coordinate.js",
   "data/the-irrationality-of-rationality-coordinate.js",
   "data/cleopatra-acoustic-layout.js",
   "data/cleopatra-coordinate.js",

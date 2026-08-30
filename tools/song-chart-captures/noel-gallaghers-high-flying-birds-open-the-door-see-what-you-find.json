@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "songId": "noel-gallaghers-high-flying-birds-open-the-door-see-what-you-find",
+  "source": { "fileName": "open the door see what you find chords.pdf" },
+  "pages": [
+    { "page": 1, "originX": 0.095791, "cellWidth": 0.009821 },
+    { "page": 2, "originX": 0.095791, "cellWidth": 0.009821 },
+    { "page": 3, "originX": 0.095791, "cellWidth": 0.009821 }
+  ],
+  "sections": [
+    { "name": "Notes", "rows": [
+      { "type": "note", "text": "Description: Chords for NG's new tune." },
+      { "type": "note", "text": "MAIN PATTERN 108 bpm: ↓ - ↓ ↓ ↓ ↓ ↓ ↓" },
+      { "type": "note", "text": "BRIDGE 108 bpm: ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓" },
+      { "type": "note", "text": "* - Strum once" }
+    ] },
+    { "name": "Intro", "rows": [
+      { "type": "chords", "page": 1, "expectedChordCount": 4, "anchors": [{ "chord": "D", "sourceX": 0.095791 }, { "chord": "A", "sourceX": 0.114659 }, { "chord": "C", "sourceX": 0.134978 }, { "chord": "G", "sourceX": 0.154330 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 4, "anchors": [{ "chord": "D", "sourceX": 0.095791 }, { "chord": "A", "sourceX": 0.114659 }, { "chord": "C", "sourceX": 0.134978 }, { "chord": "G", "sourceX": 0.154330 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 4, "anchors": [{ "chord": "D", "sourceX": 0.095791 }, { "chord": "A", "sourceX": 0.114659 }, { "chord": "C", "sourceX": 0.134978 }, { "chord": "G", "sourceX": 0.154330 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 4, "anchors": [{ "chord": "D", "sourceX": 0.095791 }, { "chord": "A", "sourceX": 0.114659 }, { "chord": "C", "sourceX": 0.134978 }, { "chord": "G", "sourceX": 0.154330 }] }
+    ] },
+    { "name": "Verse 1", "rows": [
+      { "type": "chords", "page": 1, "expectedChordCount": 8, "anchors": [{ "chord": "D", "sourceX": 0.095791 }, { "chord": "A", "sourceX": 0.134494 }, { "chord": "C", "sourceX": 0.164006 }, { "chord": "G", "sourceX": 0.252540 }, { "chord": "D", "sourceX": 0.380745 }, { "chord": "A", "sourceX": 0.448960 }, { "chord": "C", "sourceX": 0.468795 }, { "chord": "G", "sourceX": 0.488631 }] },
+      { "type": "lyrics", "page": 1, "fragments": [{ "text": "Sunrise, in the palm of your hand", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 8, "anchors": [{ "chord": "D", "sourceX": 0.095791 }, { "chord": "A", "sourceX": 0.193517 }, { "chord": "C", "sourceX": 0.252540 }, { "chord": "G", "sourceX": 0.409773 }, { "chord": "D", "sourceX": 0.528302 }, { "chord": "A", "sourceX": 0.596033 }, { "chord": "C", "sourceX": 0.616352 }, { "chord": "G", "sourceX": 0.635704 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "I'd think twice, don't put your head in the sand", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "D", "sourceX": 0.095791 }, { "chord": "A", "sourceX": 0.154330 }, { "chord": "C", "sourceX": 0.183841 }, { "chord": "G", "sourceX": 0.341074 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Alright, dream it if you wanna", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "D", "sourceX": 0.095791 }, { "chord": "A", "sourceX": 0.134494 }, { "chord": "C", "sourceX": 0.203193 }, { "chord": "G", "sourceX": 0.321722 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "All night, down on the corner", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 8, "anchors": [{ "chord": "D", "sourceX": 0.095791 }, { "chord": "A", "sourceX": 0.134494 }, { "chord": "C", "sourceX": 0.164006 }, { "chord": "G", "sourceX": 0.252540 }, { "chord": "D", "sourceX": 0.380745 }, { "chord": "A", "sourceX": 0.448960 }, { "chord": "C", "sourceX": 0.468795 }, { "chord": "G", "sourceX": 0.488631 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Sunrise, in the palm of your hand", "sourceX": 0.095791 }] }
+    ] },
+    { "name": "Bridge", "rows": [
+      { "type": "chords", "page": 2, "expectedChordCount": 1, "anchors": [{ "chord": "A", "sourceX": 0.095307 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Open the door, see what you find", "sourceX": 0.095791 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Don't look away", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 1, "anchors": [{ "chord": "A", "sourceX": 0.095307 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Open the door, see what you find", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 3, "anchors": [{ "chord": "A", "sourceX": 0.095307 }, { "chord": "G", "sourceX": 0.233188 }, { "chord": "D", "sourceX": 0.253024 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Don't look away", "sourceX": 0.095791 }] }
+    ] },
+    { "name": "Chorus", "rows": [
+      { "type": "chords", "page": 2, "expectedChordCount": 3, "anchors": [{ "chord": "A", "sourceX": 0.094823 }, { "chord": "G", "sourceX": 0.311563 }, { "chord": "D", "sourceX": 0.390421 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "I see all that I will ever know", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 3, "anchors": [{ "chord": "A", "sourceX": 0.095307 }, { "chord": "G", "sourceX": 0.311563 }, { "chord": "D", "sourceX": 0.390421 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "I see all that I will ever be", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 3, "anchors": [{ "chord": "A", "sourceX": 0.095307 }, { "chord": "G", "sourceX": 0.252540 }, { "chord": "D", "sourceX": 0.311563 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "And its warm outside", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 1, "anchors": [{ "chord": "A", "sourceX": 0.095307 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Open the door, see what you find", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "A", "sourceX": 0.095307 }, { "chord": "N.C.", "sourceX": 0.233188 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Don't look away", "sourceX": 0.095791 }] }
+    ] },
+    { "name": "Instrumental", "rows": [
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "D", "sourceX": 0.095791 }, { "chord": "A", "sourceX": 0.114659 }, { "chord": "C", "sourceX": 0.134978 }, { "chord": "G", "sourceX": 0.154330 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "D", "sourceX": 0.095791 }, { "chord": "A", "sourceX": 0.114659 }, { "chord": "C", "sourceX": 0.134978 }, { "chord": "G", "sourceX": 0.154330 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "D", "sourceX": 0.095791 }, { "chord": "A", "sourceX": 0.114659 }, { "chord": "C", "sourceX": 0.134494 }, { "chord": "G", "sourceX": 0.154330 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "D", "sourceX": 0.095791 }, { "chord": "A", "sourceX": 0.114659 }, { "chord": "C", "sourceX": 0.134978 }, { "chord": "G", "sourceX": 0.154330 }] }
+    ] },
+    { "name": "Verse 2", "rows": [
+      { "type": "chords", "page": 2, "expectedChordCount": 8, "anchors": [{ "chord": "D*", "sourceX": 0.095791 }, { "chord": "A*", "sourceX": 0.154330 }, { "chord": "C*", "sourceX": 0.203193 }, { "chord": "G*", "sourceX": 0.292211 }, { "chord": "D", "sourceX": 0.419932 }, { "chord": "A", "sourceX": 0.488147 }, { "chord": "C", "sourceX": 0.507983 }, { "chord": "G", "sourceX": 0.527818 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "White light, in the palm of your hand", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 8, "anchors": [{ "chord": "D", "sourceX": 0.095791 }, { "chord": "A", "sourceX": 0.193517 }, { "chord": "C", "sourceX": 0.252540 }, { "chord": "G", "sourceX": 0.409773 }, { "chord": "D", "sourceX": 0.528302 }, { "chord": "A", "sourceX": 0.596033 }, { "chord": "C", "sourceX": 0.616352 }, { "chord": "G", "sourceX": 0.635704 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "I'd think twice, don't put your head in the sand", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "D", "sourceX": 0.095791 }, { "chord": "A", "sourceX": 0.153846 }, { "chord": "C", "sourceX": 0.183841 }, { "chord": "G", "sourceX": 0.341074 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Alright, dream it if you wanna", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{ "chord": "D", "sourceX": 0.095791 }, { "chord": "A", "sourceX": 0.134494 }, { "chord": "C", "sourceX": 0.203193 }, { "chord": "G", "sourceX": 0.321722 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "All night, down by the river", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 8, "anchors": [{ "chord": "D", "sourceX": 0.095791 }, { "chord": "A", "sourceX": 0.153846 }, { "chord": "C", "sourceX": 0.213353 }, { "chord": "G", "sourceX": 0.370585 }, { "chord": "D", "sourceX": 0.488631 }, { "chord": "A", "sourceX": 0.556846 }, { "chord": "C", "sourceX": 0.576681 }, { "chord": "G", "sourceX": 0.597000 }] },
+      { "type": "lyrics", "page": 2, "fragments": [{ "text": "Think twice, don't put your head in the sand", "sourceX": 0.095791 }] }
+    ] },
+    { "name": "Bridge", "rows": [
+      { "type": "chords", "page": 3, "expectedChordCount": 1, "anchors": [{ "chord": "A", "sourceX": 0.095307 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "Open the door, see what you find", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 1, "anchors": [{ "chord": "A", "sourceX": 0.094823 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "Don't look away", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 1, "anchors": [{ "chord": "A", "sourceX": 0.094823 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "Open the door, see what you find", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 3, "anchors": [{ "chord": "A", "sourceX": 0.094823 }, { "chord": "G", "sourceX": 0.233188 }, { "chord": "D", "sourceX": 0.253024 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "Don't look away", "sourceX": 0.095791 }] }
+    ] },
+    { "name": "Chorus", "rows": [
+      { "type": "chords", "page": 3, "expectedChordCount": 3, "anchors": [{ "chord": "A", "sourceX": 0.094823 }, { "chord": "G", "sourceX": 0.311563 }, { "chord": "D", "sourceX": 0.390421 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "I see all that I will ever know", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 3, "anchors": [{ "chord": "A", "sourceX": 0.094823 }, { "chord": "G", "sourceX": 0.311563 }, { "chord": "D", "sourceX": 0.390421 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "I see all that I will ever be", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 3, "anchors": [{ "chord": "A", "sourceX": 0.094823 }, { "chord": "G", "sourceX": 0.252540 }, { "chord": "D", "sourceX": 0.311563 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "And its warm outside", "sourceX": 0.095791 }] }
+    ] },
+    { "name": "Guitar Solo", "rows": [
+      { "type": "chords", "page": 3, "expectedChordCount": 8, "anchors": [{ "chord": "G", "sourceX": 0.095791 }, { "chord": "D", "sourceX": 0.115143 }, { "chord": "A", "sourceX": 0.134494 }, { "chord": "A", "sourceX": 0.153846 }, { "chord": "G", "sourceX": 0.174165 }, { "chord": "D", "sourceX": 0.194001 }, { "chord": "A", "sourceX": 0.213353 }, { "chord": "A", "sourceX": 0.232704 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 8, "anchors": [{ "chord": "G", "sourceX": 0.095791 }, { "chord": "D", "sourceX": 0.115143 }, { "chord": "A", "sourceX": 0.134494 }, { "chord": "A", "sourceX": 0.153846 }, { "chord": "G", "sourceX": 0.174165 }, { "chord": "D", "sourceX": 0.194001 }, { "chord": "A", "sourceX": 0.213353 }, { "chord": "A", "sourceX": 0.232704 }] }
+    ] },
+    { "name": "Outro", "rows": [
+      { "type": "chords", "page": 3, "expectedChordCount": 1, "anchors": [{ "chord": "A", "sourceX": 0.094823 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "Open the door, see what you find", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 1, "anchors": [{ "chord": "A", "sourceX": 0.095307 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "Don't look away", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 1, "anchors": [{ "chord": "A", "sourceX": 0.095307 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "Open the door, see what you find", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 1, "anchors": [{ "chord": "A", "sourceX": 0.095307 }] },
+      { "type": "lyrics", "page": 3, "fragments": [{ "text": "Don't look away", "sourceX": 0.095791 }] },
+      { "type": "chords", "page": 3, "expectedChordCount": 2, "anchors": [{ "chord": "A", "sourceX": 0.095307 }, { "chord": "A", "sourceX": 0.114659 }] }
+    ] }
+  ]
+}
