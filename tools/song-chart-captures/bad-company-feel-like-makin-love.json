@@ -1,0 +1,1590 @@
+{
+  "schemaVersion": 1,
+  "songId": "bad-company-feel-like-makin-love",
+  "source": {
+    "fileName": "feel like makin love chords.pdf",
+    "introImage": "codex-clipboard-ec6d48de-0fc4-4d5d-8686-48a79c4d9bfb.png",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Feel_Like_Makin%27_Love_(Bad_Company_song)"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.09579100145137881,
+      "cellWidth": 0.009820996613449444
+    },
+    {
+      "page": 2,
+      "originX": 0.09579100145137881,
+      "cellWidth": 0.009820996613449444
+    },
+    {
+      "page": 3,
+      "originX": 0.09579100145137881,
+      "cellWidth": 0.009820996613449444
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro tab",
+      "rows": [
+        {
+          "type": "image",
+          "text": "[[image:assets/feel-like-makin-love-intro.png|Intro tablature - 84 BPM, 4/4]]"
+        }
+      ]
+    },
+    {
+      "name": "Notes",
+      "rows": [
+        {
+          "type": "note",
+          "text": "Feel Like Making Love chords"
+        },
+        {
+          "type": "note",
+          "text": "Bad Company  1975 (Straight Shooter) *"
+        }
+      ]
+    },
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 1106,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.11514271891630382
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.14465408805031446
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.1644895984518626
+            },
+            {
+              "chord": "2x",
+              "sourceX": 0.18384131591678762
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 1201,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.29221093372036766
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 1246,
+          "fragments": [
+            {
+              "text": "Baby, when I think about you,",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 1296,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.23367198838896952
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.2622157716497339
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 1342,
+          "fragments": [
+            {
+              "text": "I think about love.",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 1391,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.3604257377842284
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 1437,
+          "fragments": [
+            {
+              "text": "Darling, couldn't live without you,",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 1486,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.18432510885341075
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.21335268505079827
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 1532,
+          "fragments": [
+            {
+              "text": "and your love.",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 1628,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.14465408805031446
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.3115626511852927
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.4494436381228834
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.5084663763909046
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 1673,
+          "fragments": [
+            {
+              "text": "If I had those golden dreams, of my yesterday",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 1723,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.1741654571843251
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 1769,
+          "fragments": [
+            {
+              "text": "I would wrap you,",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 1818,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.16400580551523947
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 1864,
+          "fragments": [
+            {
+              "text": "In the heavens,",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 1913,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.21335268505079827
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.48863086598935657
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 1958,
+          "fragments": [
+            {
+              "text": "And feel it dying (dying, dying) on the way",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 2056,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.11514271891630382
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.2825350749879052
+            },
+            {
+              "chord": "3x",
+              "sourceX": 0.3018867924528302
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 2102,
+          "fragments": [
+            {
+              "text": "I feel like making",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 2151,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.3018867924528302
+            },
+            {
+              "chord": "3x",
+              "sourceX": 0.3217223028543783
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 2197,
+          "fragments": [
+            {
+              "text": "Feel like making love",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 2246,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.3018867924528302
+            },
+            {
+              "chord": "3x",
+              "sourceX": 0.3217223028543783
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 2292,
+          "fragments": [
+            {
+              "text": "Feel like making love",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 2341,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.3018867924528302
+            },
+            {
+              "chord": "3x",
+              "sourceX": 0.3217223028543783
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 2387,
+          "fragments": [
+            {
+              "text": "Feel like making love",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 2437,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.1935171746492501
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.2622157716497339
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.3415578132559265
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 2482,
+          "fragments": [
+            {
+              "text": "Feel like making love to you",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 2579,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.29221093372036766
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 2624,
+          "fragments": [
+            {
+              "text": "Baby, when I think about you,",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 2674,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.23367198838896952
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.2622157716497339
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 2719,
+          "fragments": [
+            {
+              "text": "I think about love.",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 142,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.3604257377842284
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 188,
+          "fragments": [
+            {
+              "text": "Darling, couldn't live without you,",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 237,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.18432510885341075
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.21335268505079827
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 283,
+          "fragments": [
+            {
+              "text": "and your love.",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 380,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.18432510885341075
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.35074987905176586
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 426,
+          "fragments": [
+            {
+              "text": "And if I had,  the sun and moon,",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 475,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.23367198838896952
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.28205128205128205
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 521,
+          "fragments": [
+            {
+              "text": "and they were shining",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 571,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.1741654571843251
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.40977261731978715
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 616,
+          "fragments": [
+            {
+              "text": "I would give you both night and day,",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 666,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.19400096758587324
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.22351233671988388
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 711,
+          "fragments": [
+            {
+              "text": "love satisfying",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 807,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.11514271891630382
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.2825350749879052
+            },
+            {
+              "chord": "3x",
+              "sourceX": 0.3018867924528302
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 853,
+          "fragments": [
+            {
+              "text": "I feel like making",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 902,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.3018867924528302
+            },
+            {
+              "chord": "3x",
+              "sourceX": 0.3217223028543783
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 948,
+          "fragments": [
+            {
+              "text": "Feel like making love",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 997,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.3018867924528302
+            },
+            {
+              "chord": "3x",
+              "sourceX": 0.3217223028543783
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 1043,
+          "fragments": [
+            {
+              "text": "Feel like making love",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 1092,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.3018867924528302
+            },
+            {
+              "chord": "3x",
+              "sourceX": 0.3217223028543783
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 1138,
+          "fragments": [
+            {
+              "text": "Feel like making love",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 1188,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.1935171746492501
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.2622157716497339
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.3415578132559265
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 1233,
+          "fragments": [
+            {
+              "text": "Feel like making love to you",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instrumental",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 1330,
+          "expectedChordCount": 8,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.12481857764876633
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.1548137397194001
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.18384131591678762
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.22351233671988388
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.2525399129172714
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.2825350749879052
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.3115626511852927
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge 3",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 1425,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.18432510885341075
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.35074987905176586
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.48863086598935657
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.5573294629898403
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 1470,
+          "fragments": [
+            {
+              "text": "And if I had those golden dreams, of my yesterday",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 1520,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.1741654571843251
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 1566,
+          "fragments": [
+            {
+              "text": "I would wrap you,",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 1615,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.16400580551523947
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 1661,
+          "fragments": [
+            {
+              "text": "In the heavens,",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 1710,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.21335268505079827
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.48863086598935657
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 1755,
+          "fragments": [
+            {
+              "text": "And feel it dying (dying, dying) on the way",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 1852,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.11514271891630382
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.2825350749879052
+            },
+            {
+              "chord": "3x",
+              "sourceX": 0.3018867924528302
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 1898,
+          "fragments": [
+            {
+              "text": "I feel like making",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 1947,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.3018867924528302
+            },
+            {
+              "chord": "3x",
+              "sourceX": 0.3217223028543783
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 1993,
+          "fragments": [
+            {
+              "text": "Feel like making love",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 2042,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.3018867924528302
+            },
+            {
+              "chord": "3x",
+              "sourceX": 0.3217223028543783
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 2088,
+          "fragments": [
+            {
+              "text": "Feel like making love",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 2137,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.3018867924528302
+            },
+            {
+              "chord": "3x",
+              "sourceX": 0.3217223028543783
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 2183,
+          "fragments": [
+            {
+              "text": "Feel like making love",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 2232,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.1935171746492501
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.2622157716497339
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.3415578132559265
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 2277,
+          "fragments": [
+            {
+              "text": "Feel like making love to you",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 2374,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.09627479438800193
+            },
+            {
+              "chord": "3x",
+              "sourceX": 0.11514271891630382
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 2469,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.11514271891630382
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.2825350749879052
+            },
+            {
+              "chord": "3x",
+              "sourceX": 0.3018867924528302
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 2515,
+          "fragments": [
+            {
+              "text": "I feel like making",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 2564,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.3018867924528302
+            },
+            {
+              "chord": "3x",
+              "sourceX": 0.3217223028543783
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 2610,
+          "fragments": [
+            {
+              "text": "Feel like making love",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 2659,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.3018867924528302
+            },
+            {
+              "chord": "3x",
+              "sourceX": 0.3217223028543783
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 2705,
+          "fragments": [
+            {
+              "text": "Feel like making love",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 142,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.3018867924528302
+            },
+            {
+              "chord": "3x",
+              "sourceX": 0.3217223028543783
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 188,
+          "fragments": [
+            {
+              "text": "Feel like making love",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 237,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.1935171746492501
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.2622157716497339
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.3415578132559265
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 283,
+          "fragments": [
+            {
+              "text": "Feel like making love to you  2x",
+              "sourceX": 0.09627479438800193
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alternates",
+      "rows": [
+        {
+          "type": "note",
+          "text": "* Alternates:"
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "note",
+          "text": "Capo II"
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 569,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "=",
+              "sourceX": 0.11562651185292695
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.13497822931785197
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 617,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "=",
+              "sourceX": 0.11562651185292695
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.1354620222544751
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 664,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "=",
+              "sourceX": 0.11562651185292695
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.1354620222544751
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "note",
+          "text": "Open (These chords are not in the original key)"
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 854,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "=",
+              "sourceX": 0.11562651185292695
+            },
+            {
+              "chord": "E",
+              "sourceX": 0.1354620222544751
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 903,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "=",
+              "sourceX": 0.11562651185292695
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.13449443638122882
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 950,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.09530720851475569
+            },
+            {
+              "chord": "=",
+              "sourceX": 0.11562651185292695
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.13497822931785197
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 1045,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "=",
+              "sourceX": 0.11562651185292695
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.13449443638122882
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 1093,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09579100145137881
+            },
+            {
+              "chord": "=",
+              "sourceX": 0.11562651185292695
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.13497822931785197
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 1140,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.09530720851475569
+            },
+            {
+              "chord": "=",
+              "sourceX": 0.11562651185292695
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.13497822931785197
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "note",
+          "text": "Set8"
+        }
+      ]
+    }
+  ]
+}
