@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "songId": "oasis-live-forever",
-  "contentRevision": 2,
+  "contentRevision": 3,
   "source": {
     "fileName": "live forever chords.pdf",
     "sha256": "4bd747fdd607aaf9f1327e2014e04b71a1065ae306284da2850a111514ea7c3c"
@@ -9,17 +9,47 @@
   "verification": {
     "sourceChecked": true,
     "browserChecked": true,
-    "checkedAt": "2026-08-14"
+    "checkedAt": "2026-09-19"
   },
-  "chartHash": "57ae5e9ed9b9dccb92e93a8e8b05df7e66c94b6e7c160472dae129b095d9db93",
+  "chartHash": "55c7c778e9c25e638ab86d66ee43560567b2e69d88c69fce230a18354791b6eb",
   "sections": [
+    {
+      "name": "Source notes",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "8b6be83d39194d73cdf6b0b567aad6afa027344d6181574c2029633664c1e908"
+        },
+        {
+          "lineOffset": 1,
+          "hash": "17763468a65e1baa6da930206bd8a6cf94aa1bfa123c0bd3100467d33b4e44bd"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "7435073c69c6a828d457d5be05acd233eccba0e1c263f67453e9423da97ccb4d"
+        },
+        {
+          "lineOffset": 3,
+          "hash": "b99e74d10e2bf40ade697545adf6ab9d634a29006ead9036ec4fce5e6b7f00ce"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "69b5d2857869d8bcbaaafa2da7905400a07bb1e7cfac18e5af4f21390f2f8a65"
+        },
+        {
+          "lineOffset": 5,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
     {
       "name": "Verse 1",
       "occurrence": 1,
       "lines": [
         {
           "lineOffset": 0,
-          "hash": "8f27f8072ebeb546bf5c59b7337b128136f8e0adf48ed62a4e6cb89afe15d1b5",
+          "hash": "867ea21df3c8f4f20031eace8e5c5a5f97aa713d5ec05d6223530edc0f84582a",
           "anchors": [
             {
               "chord": "G",
@@ -27,7 +57,7 @@
             },
             {
               "chord": "D",
-              "column": 16
+              "column": 15
             }
           ]
         },
@@ -51,11 +81,15 @@
         },
         {
           "lineOffset": 4,
-          "hash": "9c6484bed709e9a952ae440fd845ba020efbd6ede8d6913991ad0c0c81ac23ba",
+          "hash": "e9c718650a554af4dea10ccf3bcc1dc174b5b288f5f105142a6b3d52a07949ef",
           "anchors": [
             {
+              "chord": "C",
+              "column": 2
+            },
+            {
               "chord": "D",
-              "column": 16
+              "column": 15
             }
           ]
         },
@@ -65,7 +99,7 @@
         },
         {
           "lineOffset": 6,
-          "hash": "8f27f8072ebeb546bf5c59b7337b128136f8e0adf48ed62a4e6cb89afe15d1b5",
+          "hash": "867ea21df3c8f4f20031eace8e5c5a5f97aa713d5ec05d6223530edc0f84582a",
           "anchors": [
             {
               "chord": "G",
@@ -73,7 +107,7 @@
             },
             {
               "chord": "D",
-              "column": 16
+              "column": 15
             }
           ]
         },
@@ -83,11 +117,11 @@
         },
         {
           "lineOffset": 8,
-          "hash": "882597975d3b8cbeac74e39d38b284a7fdf8c00ce9c9d24d976f40fdbc174128",
+          "hash": "f288645eba7c0a856b71d898110af682d695916b0305e94ee6d512d6d116a0e4",
           "anchors": [
             {
               "chord": "Am",
-              "column": 9
+              "column": 8
             }
           ]
         },
@@ -97,11 +131,15 @@
         },
         {
           "lineOffset": 10,
-          "hash": "f9c9020a26303be09c51a28cfcf72b8921edec80caff0a5a3df6b83580c17120",
+          "hash": "11eb76f30b2587a726469a3108cc4d2296328ab22963449b812296b20af8b602",
           "anchors": [
             {
+              "chord": "C",
+              "column": 2
+            },
+            {
               "chord": "D",
-              "column": 23
+              "column": 22
             }
           ]
         },
@@ -121,7 +159,7 @@
       "lines": [
         {
           "lineOffset": 0,
-          "hash": "3aa7ee24bce9d8f63295c4fda97b7f107b009be2e679e3d47e9bddce150d7b52",
+          "hash": "59e5ef55c6a9b5c04277e5c98de8c6b71abe38155a36e1c97ce2c86d50b9716b",
           "anchors": [
             {
               "chord": "Em",
@@ -129,7 +167,7 @@
             },
             {
               "chord": "D",
-              "column": 21
+              "column": 20
             }
           ]
         },
@@ -139,15 +177,11 @@
         },
         {
           "lineOffset": 2,
-          "hash": "a24ffb481da741e4330e1e05026d896c4ada7e24cba51e78bd15910e060204c5",
+          "hash": "feb1a7f14ec6d2cef73f8ff773f5aabbe03e46eb8d0967d4f7700bdcb45af94d",
           "anchors": [
             {
-              "chord": "D",
-              "column": 6
-            },
-            {
               "chord": "Am",
-              "column": 27
+              "column": 26
             }
           ]
         },
@@ -157,15 +191,11 @@
         },
         {
           "lineOffset": 4,
-          "hash": "72f9061db7bcd4dd91edf63bb5ea526c1783cb82b5779463e109d772c10af160",
+          "hash": "4bbbebeaf56b51b678f79650ae51974f602353fea60057e8767568891217a1c6",
           "anchors": [
             {
-              "chord": "D",
-              "column": 6
-            },
-            {
-              "chord": "Em",
-              "column": 19
+              "chord": "C",
+              "column": 20
             }
           ]
         },
@@ -175,7 +205,7 @@
         },
         {
           "lineOffset": 6,
-          "hash": "72f9061db7bcd4dd91edf63bb5ea526c1783cb82b5779463e109d772c10af160",
+          "hash": "30fc0350b915ebf7f24948587ce6c01b098febf06b72185e850b5c3c21f23a5b",
           "anchors": [
             {
               "chord": "D",
@@ -183,7 +213,7 @@
             },
             {
               "chord": "Em",
-              "column": 19
+              "column": 18
             }
           ]
         },
@@ -193,11 +223,11 @@
         },
         {
           "lineOffset": 8,
-          "hash": "f9c9020a26303be09c51a28cfcf72b8921edec80caff0a5a3df6b83580c17120",
+          "hash": "6fa3bf7b90d4bbde4f87f6eb9ca76c5e6d9af62553427cad4d54adecb779f49b",
           "anchors": [
             {
               "chord": "D",
-              "column": 23
+              "column": 22
             }
           ]
         },
@@ -207,11 +237,11 @@
         },
         {
           "lineOffset": 10,
-          "hash": "9ef5458908e73fc887a74be654ea28e1d4be46a3af27e65fb11ca910023e7c6c",
+          "hash": "feb1a7f14ec6d2cef73f8ff773f5aabbe03e46eb8d0967d4f7700bdcb45af94d",
           "anchors": [
             {
               "chord": "Am",
-              "column": 27
+              "column": 26
             }
           ]
         },
@@ -221,15 +251,11 @@
         },
         {
           "lineOffset": 12,
-          "hash": "243c65aff866f7ddf9f23533f48f3bca12f3876bc3f6877313a2de9b7bb7c554",
+          "hash": "67cb96fdb71de7e9c2ab637c999b7e100dad79f62aada7fa7d41193a39e0abcf",
           "anchors": [
             {
               "chord": "Fadd9",
-              "column": 27
-            },
-            {
-              "chord": "Am",
-              "column": 39
+              "column": 26
             }
           ]
         },
@@ -249,11 +275,11 @@
       "lines": [
         {
           "lineOffset": 0,
-          "hash": "646ff8a76c085c0285535db50185cdb08902be9215eadd735fa7d28e60404f54",
+          "hash": "058db1ab1a8582ab9486e9fabfad34da01fb301a7220a7e550c08f10730c2b02",
           "anchors": [
             {
               "chord": "G",
-              "column": 8
+              "column": 7
             },
             {
               "chord": "D",
@@ -267,11 +293,11 @@
         },
         {
           "lineOffset": 2,
-          "hash": "049b10af15816f7d6feeee3399829efd042a7fc4a8876e93aeef00d69a06dbc7",
+          "hash": "bd35feea6f4304120181b47e823778507f635fbafbf423193524e12f466f83a0",
           "anchors": [
             {
               "chord": "Am",
-              "column": 16
+              "column": 15
             }
           ]
         },
@@ -281,11 +307,15 @@
         },
         {
           "lineOffset": 4,
-          "hash": "9c6484bed709e9a952ae440fd845ba020efbd6ede8d6913991ad0c0c81ac23ba",
+          "hash": "0eddbd469f061c9f87d339f7ca322e77e2273dab6c96df2165f0bf1c5385c0fc",
           "anchors": [
             {
+              "chord": "C",
+              "column": 6
+            },
+            {
               "chord": "D",
-              "column": 16
+              "column": 20
             }
           ]
         },
@@ -295,7 +325,7 @@
         },
         {
           "lineOffset": 6,
-          "hash": "0f7ec09f95e95045e256ac5eae9832630bb20dabe7c99fbb979cbf4141089959",
+          "hash": "367082149a125b93cbbd954a36219e4512896c7cd615a048b58bd89ca92603f9",
           "anchors": [
             {
               "chord": "G",
@@ -303,7 +333,7 @@
             },
             {
               "chord": "D",
-              "column": 21
+              "column": 20
             }
           ]
         },
@@ -313,11 +343,11 @@
         },
         {
           "lineOffset": 8,
-          "hash": "049b10af15816f7d6feeee3399829efd042a7fc4a8876e93aeef00d69a06dbc7",
+          "hash": "bd35feea6f4304120181b47e823778507f635fbafbf423193524e12f466f83a0",
           "anchors": [
             {
               "chord": "Am",
-              "column": 16
+              "column": 15
             }
           ]
         },
@@ -327,11 +357,15 @@
         },
         {
           "lineOffset": 10,
-          "hash": "153fc28a73209b7d1047a32aca728464882be247091f35e1742922b08115c2ae",
+          "hash": "ee3c24c038736c3d1f6d83c2cfc201261c9e752065d01f1583f055a769ba4d5b",
           "anchors": [
             {
+              "chord": "C",
+              "column": 5
+            },
+            {
               "chord": "D",
-              "column": 21
+              "column": 20
             }
           ]
         },
@@ -351,7 +385,7 @@
       "lines": [
         {
           "lineOffset": 0,
-          "hash": "85a5ea35c4ab9fa4c2e8a4c535a99239213b259fa6d63a8463513e5d26efdc70",
+          "hash": "c212e4a13ebd90a6d0927a29fa129e4b706053cc34e1a31a2bf0916cd5d32018",
           "anchors": [
             {
               "chord": "Em",
@@ -359,7 +393,7 @@
             },
             {
               "chord": "D",
-              "column": 19
+              "column": 18
             }
           ]
         },
@@ -369,74 +403,6 @@
         },
         {
           "lineOffset": 2,
-          "hash": "925b703740b984b3f305324118f6c407639172c00a76b5d12de2e204591ff641",
-          "anchors": [
-            {
-              "chord": "D",
-              "column": 6
-            },
-            {
-              "chord": "Am",
-              "column": 26
-            }
-          ]
-        },
-        {
-          "lineOffset": 3,
-          "hash": "1dccbdbc15e6d07630559ff90246f97c50ba8c2400a02dba6a46193cbb1e5aef"
-        },
-        {
-          "lineOffset": 4,
-          "hash": "6f10766ffd0ddd3cd7a9accecbc92f92fcc003deff067b6721cf5ad469ac7cc8",
-          "anchors": [
-            {
-              "chord": "D",
-              "column": 10
-            },
-            {
-              "chord": "Em",
-              "column": 26
-            }
-          ]
-        },
-        {
-          "lineOffset": 5,
-          "hash": "4dadc39a2c5449b86df8f786dd594264018de066f55ba8ecb73cda563e574f44"
-        },
-        {
-          "lineOffset": 6,
-          "hash": "6f10766ffd0ddd3cd7a9accecbc92f92fcc003deff067b6721cf5ad469ac7cc8",
-          "anchors": [
-            {
-              "chord": "D",
-              "column": 10
-            },
-            {
-              "chord": "Em",
-              "column": 26
-            }
-          ]
-        },
-        {
-          "lineOffset": 7,
-          "hash": "7dad7cf1d97bdceb0b4d66dd3d81f5c9c0fbe790815bd68868e2255ac379d49b"
-        },
-        {
-          "lineOffset": 8,
-          "hash": "56e46c6393e403303509c9399f680f9b7308e6913d0dd739e4dd0e27347b3c0b",
-          "anchors": [
-            {
-              "chord": "D",
-              "column": 26
-            }
-          ]
-        },
-        {
-          "lineOffset": 9,
-          "hash": "eb4dd887352e2b0415162b83a526d5817c8346a7c7d0528dc851968a2869e6d7"
-        },
-        {
-          "lineOffset": 10,
           "hash": "f001584d48700fe3396564710fa2b3ff6b5fd35bddae9262a07300ee10c16b6d",
           "anchors": [
             {
@@ -446,20 +412,76 @@
           ]
         },
         {
+          "lineOffset": 3,
+          "hash": "1dccbdbc15e6d07630559ff90246f97c50ba8c2400a02dba6a46193cbb1e5aef"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "ba88855801fbdb0472e2ba8fa609068b1e0cf706a2e04108bf9e95b6e2edfe06",
+          "anchors": [
+            {
+              "chord": "C",
+              "column": 22
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "4dadc39a2c5449b86df8f786dd594264018de066f55ba8ecb73cda563e574f44"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "7d7c709353149782badb39319de2586b0e79aa87663628966f4dfcadb0265026",
+          "anchors": [
+            {
+              "chord": "D",
+              "column": 10
+            },
+            {
+              "chord": "Em",
+              "column": 24
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "7dad7cf1d97bdceb0b4d66dd3d81f5c9c0fbe790815bd68868e2255ac379d49b"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "d7f6d18005719bae156634d6b86a8a8a31d66d82d4c10898fd56c5c47b675b8d",
+          "anchors": [
+            {
+              "chord": "D",
+              "column": 25
+            }
+          ]
+        },
+        {
+          "lineOffset": 9,
+          "hash": "eb4dd887352e2b0415162b83a526d5817c8346a7c7d0528dc851968a2869e6d7"
+        },
+        {
+          "lineOffset": 10,
+          "hash": "46e6d1700a88a5abf91f5cf2c81b22e86a9c13f4a51a47f281fa004dccdb98a4",
+          "anchors": [
+            {
+              "chord": "Am",
+              "column": 24
+            }
+          ]
+        },
+        {
           "lineOffset": 11,
           "hash": "ed5a9aca01bade1295afd1272a162564be44ef30700c13c16d8b9b4f60c8f0b0"
         },
         {
           "lineOffset": 12,
-          "hash": "790d051fa2c70303b7a0f489751d8b2a397caad189990204ef854f9a003bc0a9",
+          "hash": "b616d6787c5f009d7b56c115df0d0e458ee3bb53d2f09228b4992ec81f70f749",
           "anchors": [
             {
               "chord": "Fadd9",
-              "column": 26
-            },
-            {
-              "chord": "Am",
-              "column": 39
+              "column": 24
             }
           ]
         },
@@ -585,11 +607,11 @@
         },
         {
           "lineOffset": 2,
-          "hash": "882597975d3b8cbeac74e39d38b284a7fdf8c00ce9c9d24d976f40fdbc174128",
+          "hash": "f288645eba7c0a856b71d898110af682d695916b0305e94ee6d512d6d116a0e4",
           "anchors": [
             {
               "chord": "Am",
-              "column": 9
+              "column": 8
             }
           ]
         },
@@ -599,11 +621,15 @@
         },
         {
           "lineOffset": 4,
-          "hash": "9c6484bed709e9a952ae440fd845ba020efbd6ede8d6913991ad0c0c81ac23ba",
+          "hash": "e9c718650a554af4dea10ccf3bcc1dc174b5b288f5f105142a6b3d52a07949ef",
           "anchors": [
             {
+              "chord": "C",
+              "column": 2
+            },
+            {
               "chord": "D",
-              "column": 16
+              "column": 15
             }
           ]
         },
@@ -613,7 +639,7 @@
         },
         {
           "lineOffset": 6,
-          "hash": "8f27f8072ebeb546bf5c59b7337b128136f8e0adf48ed62a4e6cb89afe15d1b5",
+          "hash": "867ea21df3c8f4f20031eace8e5c5a5f97aa713d5ec05d6223530edc0f84582a",
           "anchors": [
             {
               "chord": "G",
@@ -621,7 +647,7 @@
             },
             {
               "chord": "D",
-              "column": 16
+              "column": 15
             }
           ]
         },
@@ -631,11 +657,11 @@
         },
         {
           "lineOffset": 8,
-          "hash": "882597975d3b8cbeac74e39d38b284a7fdf8c00ce9c9d24d976f40fdbc174128",
+          "hash": "f288645eba7c0a856b71d898110af682d695916b0305e94ee6d512d6d116a0e4",
           "anchors": [
             {
               "chord": "Am",
-              "column": 9
+              "column": 8
             }
           ]
         },
@@ -645,11 +671,15 @@
         },
         {
           "lineOffset": 10,
-          "hash": "f9c9020a26303be09c51a28cfcf72b8921edec80caff0a5a3df6b83580c17120",
+          "hash": "11eb76f30b2587a726469a3108cc4d2296328ab22963449b812296b20af8b602",
           "anchors": [
             {
+              "chord": "C",
+              "column": 2
+            },
+            {
               "chord": "D",
-              "column": 23
+              "column": 22
             }
           ]
         },
@@ -669,7 +699,7 @@
       "lines": [
         {
           "lineOffset": 0,
-          "hash": "3aa7ee24bce9d8f63295c4fda97b7f107b009be2e679e3d47e9bddce150d7b52",
+          "hash": "59e5ef55c6a9b5c04277e5c98de8c6b71abe38155a36e1c97ce2c86d50b9716b",
           "anchors": [
             {
               "chord": "Em",
@@ -677,7 +707,7 @@
             },
             {
               "chord": "D",
-              "column": 21
+              "column": 20
             }
           ]
         },
@@ -687,74 +717,6 @@
         },
         {
           "lineOffset": 2,
-          "hash": "a24ffb481da741e4330e1e05026d896c4ada7e24cba51e78bd15910e060204c5",
-          "anchors": [
-            {
-              "chord": "D",
-              "column": 6
-            },
-            {
-              "chord": "Am",
-              "column": 27
-            }
-          ]
-        },
-        {
-          "lineOffset": 3,
-          "hash": "b142f2eecd617abf3a4d1e67fd5d40f62cef6f1dca9e63ffa461660f728e2270"
-        },
-        {
-          "lineOffset": 4,
-          "hash": "72f9061db7bcd4dd91edf63bb5ea526c1783cb82b5779463e109d772c10af160",
-          "anchors": [
-            {
-              "chord": "D",
-              "column": 6
-            },
-            {
-              "chord": "Em",
-              "column": 19
-            }
-          ]
-        },
-        {
-          "lineOffset": 5,
-          "hash": "cf5d3fd5ef7cb0e1d54b26dc463c6650984852936ed4a6de9858790b02a90b2c"
-        },
-        {
-          "lineOffset": 6,
-          "hash": "72f9061db7bcd4dd91edf63bb5ea526c1783cb82b5779463e109d772c10af160",
-          "anchors": [
-            {
-              "chord": "D",
-              "column": 6
-            },
-            {
-              "chord": "Em",
-              "column": 19
-            }
-          ]
-        },
-        {
-          "lineOffset": 7,
-          "hash": "f5b09c043a2dcea5f8c0c1bbfe6d0dc22235db1c829eb127edc4e767feff1f7f"
-        },
-        {
-          "lineOffset": 8,
-          "hash": "f9c9020a26303be09c51a28cfcf72b8921edec80caff0a5a3df6b83580c17120",
-          "anchors": [
-            {
-              "chord": "D",
-              "column": 23
-            }
-          ]
-        },
-        {
-          "lineOffset": 9,
-          "hash": "f7e4f2c5b87bc581828427abbf60aa3f8399dcd32581c9a81efc7f1f7249d0e9"
-        },
-        {
-          "lineOffset": 10,
           "hash": "feb1a7f14ec6d2cef73f8ff773f5aabbe03e46eb8d0967d4f7700bdcb45af94d",
           "anchors": [
             {
@@ -764,12 +726,72 @@
           ]
         },
         {
+          "lineOffset": 3,
+          "hash": "b142f2eecd617abf3a4d1e67fd5d40f62cef6f1dca9e63ffa461660f728e2270"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "4bbbebeaf56b51b678f79650ae51974f602353fea60057e8767568891217a1c6",
+          "anchors": [
+            {
+              "chord": "C",
+              "column": 20
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "cf5d3fd5ef7cb0e1d54b26dc463c6650984852936ed4a6de9858790b02a90b2c"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "30fc0350b915ebf7f24948587ce6c01b098febf06b72185e850b5c3c21f23a5b",
+          "anchors": [
+            {
+              "chord": "D",
+              "column": 6
+            },
+            {
+              "chord": "Em",
+              "column": 18
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "f5b09c043a2dcea5f8c0c1bbfe6d0dc22235db1c829eb127edc4e767feff1f7f"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "6fa3bf7b90d4bbde4f87f6eb9ca76c5e6d9af62553427cad4d54adecb779f49b",
+          "anchors": [
+            {
+              "chord": "D",
+              "column": 22
+            }
+          ]
+        },
+        {
+          "lineOffset": 9,
+          "hash": "f7e4f2c5b87bc581828427abbf60aa3f8399dcd32581c9a81efc7f1f7249d0e9"
+        },
+        {
+          "lineOffset": 10,
+          "hash": "f001584d48700fe3396564710fa2b3ff6b5fd35bddae9262a07300ee10c16b6d",
+          "anchors": [
+            {
+              "chord": "Am",
+              "column": 25
+            }
+          ]
+        },
+        {
           "lineOffset": 11,
           "hash": "ed5a9aca01bade1295afd1272a162564be44ef30700c13c16d8b9b4f60c8f0b0"
         },
         {
           "lineOffset": 12,
-          "hash": "bc49177d100f68f89833db4fc2b3f69b43da153963d03182d70900ea7e4d9958"
+          "hash": "5c1eb13b7aad64d73a72a9c35d02e51cb41b4fd6f3c60be0048c6c24e735fb42"
         },
         {
           "lineOffset": 13,
@@ -787,7 +809,7 @@
       "lines": [
         {
           "lineOffset": 0,
-          "hash": "6f4d40d0073084a9b6a0010e5140d41611adb625594f6e3af0ebfbb95863b032"
+          "hash": "8bde54208a8e1ab49a31dd4bfcbaa600681931f3a95d020b5fa235499c6753bb"
         },
         {
           "lineOffset": 1,
@@ -795,7 +817,7 @@
         },
         {
           "lineOffset": 2,
-          "hash": "06bd6d328cdc619891b4550efc5a174f93b127f93974f929c681e26e6e836513"
+          "hash": "8bde54208a8e1ab49a31dd4bfcbaa600681931f3a95d020b5fa235499c6753bb"
         },
         {
           "lineOffset": 3,
@@ -803,7 +825,7 @@
         },
         {
           "lineOffset": 4,
-          "hash": "6f4d40d0073084a9b6a0010e5140d41611adb625594f6e3af0ebfbb95863b032"
+          "hash": "8bde54208a8e1ab49a31dd4bfcbaa600681931f3a95d020b5fa235499c6753bb"
         },
         {
           "lineOffset": 5,
@@ -811,7 +833,7 @@
         },
         {
           "lineOffset": 6,
-          "hash": "06bd6d328cdc619891b4550efc5a174f93b127f93974f929c681e26e6e836513"
+          "hash": "8bde54208a8e1ab49a31dd4bfcbaa600681931f3a95d020b5fa235499c6753bb"
         },
         {
           "lineOffset": 7,
@@ -819,7 +841,7 @@
         },
         {
           "lineOffset": 8,
-          "hash": "06bd6d328cdc619891b4550efc5a174f93b127f93974f929c681e26e6e836513"
+          "hash": "8bde54208a8e1ab49a31dd4bfcbaa600681931f3a95d020b5fa235499c6753bb"
         },
         {
           "lineOffset": 9,
@@ -827,7 +849,7 @@
         },
         {
           "lineOffset": 10,
-          "hash": "06bd6d328cdc619891b4550efc5a174f93b127f93974f929c681e26e6e836513"
+          "hash": "8bde54208a8e1ab49a31dd4bfcbaa600681931f3a95d020b5fa235499c6753bb"
         },
         {
           "lineOffset": 11,
@@ -845,8 +867,12 @@
       "lines": [
         {
           "lineOffset": 0,
-          "hash": "0f5ab2163ab30c3af240479b3f2838450e4d8749aecd73f38464ac35ebe8469b",
+          "hash": "960f87835e6679ce4536fc9ea7400170b5c182488eebcbab58cb06b090ef654e",
           "anchors": [
+            {
+              "chord": "Am",
+              "column": 0
+            },
             {
               "chord": "F",
               "column": 5

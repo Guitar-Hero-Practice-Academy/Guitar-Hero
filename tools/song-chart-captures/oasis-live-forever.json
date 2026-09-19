@@ -2,31 +2,57 @@
   "schemaVersion": 1,
   "songId": "oasis-live-forever",
   "source": {
-    "fileName": "live forever chords.pdf"
+    "fileName": "live forever chords.pdf",
+    "sha256": "4bd747fdd607aaf9f1327e2014e04b71a1065ae306284da2850a111514ea7c3c"
   },
   "pages": [
     {
       "page": 1,
-      "originX": 0.092,
-      "cellWidth": 0.00983
+      "originX": 0.092402,
+      "cellWidth": 0.010266
     },
     {
       "page": 2,
-      "originX": 0.092,
-      "cellWidth": 0.00983
+      "originX": 0.092402,
+      "cellWidth": 0.010266
     },
     {
       "page": 3,
-      "originX": 0.092,
-      "cellWidth": 0.00983
+      "originX": 0.092402,
+      "cellWidth": 0.010266
     },
     {
       "page": 4,
-      "originX": 0.092,
-      "cellWidth": 0.00983
+      "originX": 0.092402,
+      "cellWidth": 0.010266
     }
   ],
   "sections": [
+    {
+      "name": "Source notes",
+      "rows": [
+        {
+          "type": "note",
+          "text": "I've put both Am and Am7 as I'm not sure exactly which is the original chord. I"
+        },
+        {
+          "type": "note",
+          "text": "prefer Am7 when I'm playing with a capo. But it's really down to the individual"
+        },
+        {
+          "type": "note",
+          "text": "and how you hear it."
+        },
+        {
+          "type": "note",
+          "text": "To make this a bit more interesting, try hammering on the e when playing the D and"
+        },
+        {
+          "type": "note",
+          "text": "Am chords. Listen to the song for the timing."
+        }
+      ]
+    },
     {
       "name": "Verse 1",
       "rows": [
@@ -37,23 +63,18 @@
           "anchors": [
             {
               "chord": "G",
-              "sourceX": 0.092
+              "sourceX": 0.092402
             },
             {
               "chord": "D",
-              "sourceX": 0.248
+              "sourceX": 0.24846
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 1,
-          "fragments": [
-            {
-              "text": "Maybe I don't really want to know",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "Maybe I don't really want to know"
         },
         {
           "type": "chords",
@@ -62,40 +83,34 @@
           "anchors": [
             {
               "chord": "Am",
-              "sourceX": 0.181
+              "sourceX": 0.180698
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 1,
-          "fragments": [
-            {
-              "text": "How your garden grows",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "How your garden grows"
         },
         {
           "type": "chords",
           "page": 1,
-          "expectedChordCount": 1,
+          "expectedChordCount": 2,
           "anchors": [
             {
+              "chord": "C",
+              "sourceX": 0.110883
+            },
+            {
               "chord": "D",
-              "sourceX": 0.248
+              "sourceX": 0.24846
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 1,
-          "fragments": [
-            {
-              "text": "As I just want to fly",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "As I just want to fly"
         },
         {
           "type": "chords",
@@ -104,23 +119,18 @@
           "anchors": [
             {
               "chord": "G",
-              "sourceX": 0.092
+              "sourceX": 0.092402
             },
             {
               "chord": "D",
-              "sourceX": 0.248
+              "sourceX": 0.24846
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 1,
-          "fragments": [
-            {
-              "text": "Lately did you ever feel the pain",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "Lately did you ever feel the pain"
         },
         {
           "type": "chords",
@@ -129,40 +139,34 @@
           "anchors": [
             {
               "chord": "Am",
-              "sourceX": 0.177
+              "sourceX": 0.176591
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 1,
-          "fragments": [
-            {
-              "text": "In the morning rain",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "In the morning rain"
         },
         {
           "type": "chords",
           "page": 1,
-          "expectedChordCount": 1,
+          "expectedChordCount": 2,
           "anchors": [
             {
+              "chord": "C",
+              "sourceX": 0.110883
+            },
+            {
               "chord": "D",
-              "sourceX": 0.318
+              "sourceX": 0.318275
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 1,
-          "fragments": [
-            {
-              "text": "As it soaks you to the bone",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "As it soaks you to the bone"
         }
       ]
     },
@@ -176,119 +180,18 @@
           "anchors": [
             {
               "chord": "Em",
-              "sourceX": 0.092
+              "sourceX": 0.092402
             },
             {
               "chord": "D",
-              "sourceX": 0.298
+              "sourceX": 0.297741
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 2,
-          "fragments": [
-            {
-              "text": "Maybe I just want to fly",
-              "sourceX": 0.092
-            }
-          ]
-        },
-        {
-          "type": "chords",
-          "page": 2,
-          "expectedChordCount": 2,
-          "anchors": [
-            {
-              "chord": "D",
-              "sourceX": 0.154
-            },
-            {
-              "chord": "Am",
-              "sourceX": 0.357
-            }
-          ]
-        },
-        {
-          "type": "lyrics",
-          "page": 2,
-          "fragments": [
-            {
-              "text": "Wanna live, I don't want to die",
-              "sourceX": 0.092
-            }
-          ]
-        },
-        {
-          "type": "chords",
-          "page": 2,
-          "expectedChordCount": 2,
-          "anchors": [
-            {
-              "chord": "D",
-              "sourceX": 0.154
-            },
-            {
-              "chord": "Em",
-              "sourceX": 0.279
-            }
-          ]
-        },
-        {
-          "type": "lyrics",
-          "page": 2,
-          "fragments": [
-            {
-              "text": "Maybe I just want to breathe",
-              "sourceX": 0.094
-            }
-          ]
-        },
-        {
-          "type": "chords",
-          "page": 2,
-          "expectedChordCount": 2,
-          "anchors": [
-            {
-              "chord": "D",
-              "sourceX": 0.154
-            },
-            {
-              "chord": "Em",
-              "sourceX": 0.279
-            }
-          ]
-        },
-        {
-          "type": "lyrics",
-          "page": 2,
-          "fragments": [
-            {
-              "text": "Maybe I just don't believe",
-              "sourceX": 0.092
-            }
-          ]
-        },
-        {
-          "type": "chords",
-          "page": 2,
-          "expectedChordCount": 1,
-          "anchors": [
-            {
-              "chord": "D",
-              "sourceX": 0.316
-            }
-          ]
-        },
-        {
-          "type": "lyrics",
-          "page": 2,
-          "fragments": [
-            {
-              "text": "Maybe you're the same as me",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "Maybe I just want to fly"
         },
         {
           "type": "chords",
@@ -297,44 +200,98 @@
           "anchors": [
             {
               "chord": "Am",
-              "sourceX": 0.355
+              "sourceX": 0.35729
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 2,
-          "fragments": [
+          "text": "Wanna live, I don't want to die"
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
             {
-              "text": "We see things they'll never see",
-              "sourceX": 0.092
+              "chord": "C",
+              "sourceX": 0.297741
             }
           ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "text": "Maybe I just want to breathe"
         },
         {
           "type": "chords",
           "page": 2,
           "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.154004
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.279261
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "text": "Maybe I just don't believe"
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.316222
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "text": "Maybe you're the same as me"
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.355236
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "text": "We see things they'll never see"
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
           "anchors": [
             {
               "chord": "Fadd9",
-              "sourceX": 0.355
-            },
-            {
-              "chord": "Am",
-              "sourceX": 0.474
+              "sourceX": 0.355236
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 2,
-          "fragments": [
-            {
-              "text": "You and I, we're gonna live forever",
-              "sourceX": 0.09
-            }
-          ]
+          "text": "You and I, we're gonna live forever"
         }
       ]
     },
@@ -348,23 +305,18 @@
           "anchors": [
             {
               "chord": "G",
-              "sourceX": 0.168
+              "sourceX": 0.168378
             },
             {
               "chord": "D",
-              "sourceX": 0.296
+              "sourceX": 0.303901
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 2,
-          "fragments": [
-            {
-              "text": "I said maybe I don't really wanna know",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "I said maybe I don't really wanna know"
         },
         {
           "type": "chords",
@@ -373,40 +325,34 @@
           "anchors": [
             {
               "chord": "Am",
-              "sourceX": 0.248
+              "sourceX": 0.24846
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 2,
-          "fragments": [
-            {
-              "text": "How your garden grows",
-              "sourceX": 0.09
-            }
-          ]
+          "text": "How your garden grows"
         },
         {
           "type": "chords",
           "page": 2,
-          "expectedChordCount": 1,
+          "expectedChordCount": 2,
           "anchors": [
             {
+              "chord": "C",
+              "sourceX": 0.1499
+            },
+            {
               "chord": "D",
-              "sourceX": 0.248
+              "sourceX": 0.297741
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 2,
-          "fragments": [
-            {
-              "text": "Cause I just want to fly",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "Cause I just want to fly"
         },
         {
           "type": "chords",
@@ -415,23 +361,18 @@
           "anchors": [
             {
               "chord": "G",
-              "sourceX": 0.092
+              "sourceX": 0.092402
             },
             {
               "chord": "D",
-              "sourceX": 0.296
+              "sourceX": 0.295688
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 2,
-          "fragments": [
-            {
-              "text": "Lately did you ever feel the pain",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "Lately did you ever feel the pain"
         },
         {
           "type": "chords",
@@ -440,40 +381,34 @@
           "anchors": [
             {
               "chord": "Am",
-              "sourceX": 0.248
+              "sourceX": 0.24846
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 2,
-          "fragments": [
-            {
-              "text": "In the morning rain",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "In the morning rain"
         },
         {
           "type": "chords",
           "page": 2,
-          "expectedChordCount": 1,
+          "expectedChordCount": 2,
           "anchors": [
             {
+              "chord": "C",
+              "sourceX": 0.1396
+            },
+            {
               "chord": "D",
-              "sourceX": 0.3
+              "sourceX": 0.297741
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 2,
-          "fragments": [
-            {
-              "text": "As it soaks you to the bone",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "As it soaks you to the bone"
         }
       ]
     },
@@ -487,119 +422,18 @@
           "anchors": [
             {
               "chord": "Em",
-              "sourceX": 0.092
+              "sourceX": 0.092402
             },
             {
               "chord": "D",
-              "sourceX": 0.275
+              "sourceX": 0.277207
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 2,
-          "fragments": [
-            {
-              "text": "Maybe I will never be",
-              "sourceX": 0.092
-            }
-          ]
-        },
-        {
-          "type": "chords",
-          "page": 2,
-          "expectedChordCount": 2,
-          "anchors": [
-            {
-              "chord": "D",
-              "sourceX": 0.154
-            },
-            {
-              "chord": "Am",
-              "sourceX": 0.345
-            }
-          ]
-        },
-        {
-          "type": "lyrics",
-          "page": 2,
-          "fragments": [
-            {
-              "text": "All the things that I wanna be",
-              "sourceX": 0.092
-            }
-          ]
-        },
-        {
-          "type": "chords",
-          "page": 2,
-          "expectedChordCount": 2,
-          "anchors": [
-            {
-              "chord": "D",
-              "sourceX": 0.191
-            },
-            {
-              "chord": "Em",
-              "sourceX": 0.345
-            }
-          ]
-        },
-        {
-          "type": "lyrics",
-          "page": 2,
-          "fragments": [
-            {
-              "text": "Now is not the time to cry",
-              "sourceX": 0.092
-            }
-          ]
-        },
-        {
-          "type": "chords",
-          "page": 2,
-          "expectedChordCount": 2,
-          "anchors": [
-            {
-              "chord": "D",
-              "sourceX": 0.191
-            },
-            {
-              "chord": "Em",
-              "sourceX": 0.345
-            }
-          ]
-        },
-        {
-          "type": "lyrics",
-          "page": 2,
-          "fragments": [
-            {
-              "text": "Now's the time to find out why",
-              "sourceX": 0.092
-            }
-          ]
-        },
-        {
-          "type": "chords",
-          "page": 2,
-          "expectedChordCount": 1,
-          "anchors": [
-            {
-              "chord": "D",
-              "sourceX": 0.347
-            }
-          ]
-        },
-        {
-          "type": "lyrics",
-          "page": 2,
-          "fragments": [
-            {
-              "text": "I think you're the same as me",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "Maybe I will never be"
         },
         {
           "type": "chords",
@@ -608,44 +442,98 @@
           "anchors": [
             {
               "chord": "Am",
-              "sourceX": 0.341
+              "sourceX": 0.344969
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 2,
-          "fragments": [
+          "text": "All the things that I wanna be"
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
             {
-              "text": "We see things they'll never see",
-              "sourceX": 0.092
+              "chord": "C",
+              "sourceX": 0.317
             }
           ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "text": "Now is not the time to cry"
         },
         {
           "type": "chords",
           "page": 2,
           "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.190965
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.342916
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "text": "Now's the time to find out why"
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.349076
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "text": "I think you're the same as me"
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.340862
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "text": "We see things they'll never see"
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
           "anchors": [
             {
               "chord": "Fadd9",
-              "sourceX": 0.343
-            },
-            {
-              "chord": "Am",
-              "sourceX": 0.474
+              "sourceX": 0.342916
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 2,
-          "fragments": [
-            {
-              "text": "You and I are gonna live forever",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "You and I are gonna live forever"
         }
       ]
     },
@@ -659,23 +547,23 @@
           "anchors": [
             {
               "chord": "G",
-              "sourceX": 0.09
+              "sourceX": 0.092402
             },
             {
               "chord": "D",
-              "sourceX": 0.111
+              "sourceX": 0.112934
             },
             {
               "chord": "Am",
-              "sourceX": 0.131
+              "sourceX": 0.133466
             },
             {
               "chord": "C",
-              "sourceX": 0.16
+              "sourceX": 0.164264
             },
             {
               "chord": "D",
-              "sourceX": 0.18
+              "sourceX": 0.184796
             }
           ]
         },
@@ -690,23 +578,23 @@
           "anchors": [
             {
               "chord": "Em",
-              "sourceX": 0.092
+              "sourceX": 0.092402
             },
             {
               "chord": "D",
-              "sourceX": 0.123
+              "sourceX": 0.1232
             },
             {
               "chord": "Am",
-              "sourceX": 0.143
+              "sourceX": 0.143732
             },
             {
               "chord": "C",
-              "sourceX": 0.17
+              "sourceX": 0.17453
             },
             {
               "chord": "D",
-              "sourceX": 0.191
+              "sourceX": 0.195062
             }
           ]
         },
@@ -717,19 +605,19 @@
           "anchors": [
             {
               "chord": "Em",
-              "sourceX": 0.092
+              "sourceX": 0.092402
             },
             {
               "chord": "D",
-              "sourceX": 0.122
+              "sourceX": 0.1232
             },
             {
               "chord": "Am",
-              "sourceX": 0.143
+              "sourceX": 0.143732
             },
             {
               "chord": "Fadd9",
-              "sourceX": 0.171
+              "sourceX": 0.17453
             }
           ]
         }
@@ -745,23 +633,18 @@
           "anchors": [
             {
               "chord": "G",
-              "sourceX": 0.092
+              "sourceX": 0.092402
             },
             {
               "chord": "D",
-              "sourceX": 0.242
+              "sourceX": 0.2423
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 3,
-          "fragments": [
-            {
-              "text": "Maybe I don't really want to know",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "Maybe I don't really want to know"
         },
         {
           "type": "chords",
@@ -770,40 +653,34 @@
           "anchors": [
             {
               "chord": "Am",
-              "sourceX": 0.179
+              "sourceX": 0.178645
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 3,
-          "fragments": [
-            {
-              "text": "How your garden grows",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "How your garden grows"
         },
         {
           "type": "chords",
           "page": 3,
-          "expectedChordCount": 1,
+          "expectedChordCount": 2,
           "anchors": [
             {
+              "chord": "C",
+              "sourceX": 0.110883
+            },
+            {
               "chord": "D",
-              "sourceX": 0.248
+              "sourceX": 0.24846
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 3,
-          "fragments": [
-            {
-              "text": "As I just want to fly",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "As I just want to fly"
         },
         {
           "type": "chords",
@@ -812,23 +689,18 @@
           "anchors": [
             {
               "chord": "G",
-              "sourceX": 0.092
+              "sourceX": 0.092402
             },
             {
               "chord": "D",
-              "sourceX": 0.248
+              "sourceX": 0.24846
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 3,
-          "fragments": [
-            {
-              "text": "Lately did you ever feel the pain",
-              "sourceX": 0.09
-            }
-          ]
+          "text": "Lately did you ever feel the pain"
         },
         {
           "type": "chords",
@@ -837,40 +709,34 @@
           "anchors": [
             {
               "chord": "Am",
-              "sourceX": 0.179
+              "sourceX": 0.178645
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 3,
-          "fragments": [
-            {
-              "text": "In the morning rain",
-              "sourceX": 0.09
-            }
-          ]
+          "text": "In the morning rain"
         },
         {
           "type": "chords",
           "page": 3,
-          "expectedChordCount": 1,
+          "expectedChordCount": 2,
           "anchors": [
             {
+              "chord": "C",
+              "sourceX": 0.110883
+            },
+            {
               "chord": "D",
-              "sourceX": 0.316
+              "sourceX": 0.316222
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 3,
-          "fragments": [
-            {
-              "text": "As it soaks you to the bone",
-              "sourceX": 0.09
-            }
-          ]
+          "text": "As it soaks you to the bone"
         }
       ]
     },
@@ -884,119 +750,18 @@
           "anchors": [
             {
               "chord": "Em",
-              "sourceX": 0.09
+              "sourceX": 0.092402
             },
             {
               "chord": "D",
-              "sourceX": 0.298
+              "sourceX": 0.297741
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 3,
-          "fragments": [
-            {
-              "text": "Maybe I just want to fly",
-              "sourceX": 0.092
-            }
-          ]
-        },
-        {
-          "type": "chords",
-          "page": 3,
-          "expectedChordCount": 2,
-          "anchors": [
-            {
-              "chord": "D",
-              "sourceX": 0.152
-            },
-            {
-              "chord": "Am",
-              "sourceX": 0.355
-            }
-          ]
-        },
-        {
-          "type": "lyrics",
-          "page": 3,
-          "fragments": [
-            {
-              "text": "Wanna live, I don't want to die",
-              "sourceX": 0.09
-            }
-          ]
-        },
-        {
-          "type": "chords",
-          "page": 3,
-          "expectedChordCount": 2,
-          "anchors": [
-            {
-              "chord": "D",
-              "sourceX": 0.152
-            },
-            {
-              "chord": "Em",
-              "sourceX": 0.277
-            }
-          ]
-        },
-        {
-          "type": "lyrics",
-          "page": 3,
-          "fragments": [
-            {
-              "text": "Maybe I just wanna to breathe",
-              "sourceX": 0.09
-            }
-          ]
-        },
-        {
-          "type": "chords",
-          "page": 3,
-          "expectedChordCount": 2,
-          "anchors": [
-            {
-              "chord": "D",
-              "sourceX": 0.152
-            },
-            {
-              "chord": "Em",
-              "sourceX": 0.277
-            }
-          ]
-        },
-        {
-          "type": "lyrics",
-          "page": 3,
-          "fragments": [
-            {
-              "text": "Maybe I just don't believe",
-              "sourceX": 0.092
-            }
-          ]
-        },
-        {
-          "type": "chords",
-          "page": 3,
-          "expectedChordCount": 1,
-          "anchors": [
-            {
-              "chord": "D",
-              "sourceX": 0.32
-            }
-          ]
-        },
-        {
-          "type": "lyrics",
-          "page": 3,
-          "fragments": [
-            {
-              "text": "Maybe you're the same as me",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "Maybe I just want to fly"
         },
         {
           "type": "chords",
@@ -1005,19 +770,82 @@
           "anchors": [
             {
               "chord": "Am",
-              "sourceX": 0.349
+              "sourceX": 0.35729
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 3,
-          "fragments": [
+          "text": "Wanna live, I don't want to die"
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
             {
-              "text": "We see things they'll never see",
-              "sourceX": 0.092
+              "chord": "C",
+              "sourceX": 0.297741
             }
           ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "text": "Maybe I just wanna to breathe"
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.151951
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.279261
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "text": "Maybe I just don't believe"
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.320329
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "text": "Maybe you're the same as me"
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.349076
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "text": "We see things they'll never see"
         },
         {
           "type": "chords",
@@ -1026,23 +854,18 @@
           "anchors": [
             {
               "chord": "FM7",
-              "sourceX": 0.355
+              "sourceX": 0.355236
             },
             {
               "chord": "Am",
-              "sourceX": 0.474
+              "sourceX": 0.474333
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 3,
-          "fragments": [
-            {
-              "text": "You and I, we're gonna live forever",
-              "sourceX": 0.09
-            }
-          ]
+          "text": "You and I, we're gonna live forever"
         }
       ]
     },
@@ -1056,23 +879,18 @@
           "anchors": [
             {
               "chord": "FM7",
-              "sourceX": 0.193
+              "sourceX": 0.193018
             },
             {
               "chord": "Am",
-              "sourceX": 0.337
+              "sourceX": 0.336756
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 3,
-          "fragments": [
-            {
-              "text": "Gonna live forever",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "Gonna live forever"
         },
         {
           "type": "chords",
@@ -1081,23 +899,18 @@
           "anchors": [
             {
               "chord": "FM7",
-              "sourceX": 0.199
+              "sourceX": 0.199179
             },
             {
               "chord": "Am",
-              "sourceX": 0.337
+              "sourceX": 0.336756
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 3,
-          "fragments": [
-            {
-              "text": "Gonna live forever",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "Gonna live forever"
         },
         {
           "type": "chords",
@@ -1106,23 +919,18 @@
           "anchors": [
             {
               "chord": "FM7",
-              "sourceX": 0.193
+              "sourceX": 0.193018
             },
             {
               "chord": "Am",
-              "sourceX": 0.337
+              "sourceX": 0.336756
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 3,
-          "fragments": [
-            {
-              "text": "We're gonna live forever",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "We're gonna live forever"
         },
         {
           "type": "chords",
@@ -1131,23 +939,18 @@
           "anchors": [
             {
               "chord": "FM7",
-              "sourceX": 0.199
+              "sourceX": 0.199179
             },
             {
               "chord": "Am",
-              "sourceX": 0.339
+              "sourceX": 0.338809
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 3,
-          "fragments": [
-            {
-              "text": "Gonna live forever",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "Gonna live forever"
         },
         {
           "type": "chords",
@@ -1156,23 +959,18 @@
           "anchors": [
             {
               "chord": "FM7",
-              "sourceX": 0.199
+              "sourceX": 0.199179
             },
             {
               "chord": "Am",
-              "sourceX": 0.337
+              "sourceX": 0.336756
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 3,
-          "fragments": [
-            {
-              "text": "Gonna live forever",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "Gonna live forever"
         },
         {
           "type": "chords",
@@ -1181,23 +979,18 @@
           "anchors": [
             {
               "chord": "FM7",
-              "sourceX": 0.199
+              "sourceX": 0.199179
             },
             {
               "chord": "Am",
-              "sourceX": 0.335
+              "sourceX": 0.336756
             }
           ]
         },
         {
           "type": "lyrics",
           "page": 3,
-          "fragments": [
-            {
-              "text": "Gonna live forever",
-              "sourceX": 0.092
-            }
-          ]
+          "text": "Gonna live forever"
         }
       ]
     },
@@ -1207,11 +1000,15 @@
         {
           "type": "chords",
           "page": 4,
-          "expectedChordCount": 1,
+          "expectedChordCount": 2,
           "anchors": [
             {
+              "chord": "Am",
+              "sourceX": 0.092402
+            },
+            {
               "chord": "F",
-              "sourceX": 0.144
+              "sourceX": 0.143737
             }
           ]
         },
