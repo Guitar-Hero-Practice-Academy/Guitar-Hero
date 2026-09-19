@@ -202,7 +202,6 @@ const els = {
   newSongButton: document.getElementById("newSongButton"),
   exportButton: document.getElementById("exportButton"),
   importInput: document.getElementById("importInput"),
-  fullscreenButton: document.getElementById("fullscreenButton"),
   fontDown: document.getElementById("fontDown"),
   fontUp: document.getElementById("fontUp")
 };
@@ -355,7 +354,6 @@ els.saveButton?.addEventListener("click", saveChart);
 els.newSongButton?.addEventListener("click", addSong);
 els.exportButton?.addEventListener("click", exportSongs);
 els.importInput?.addEventListener("change", importSongs);
-els.fullscreenButton.addEventListener("click", toggleFullscreen);
 els.fontDown.addEventListener("click", () => changeChartSize(-1));
 els.fontUp.addEventListener("click", () => changeChartSize(1));
 
@@ -2714,11 +2712,14 @@ function renderArtistList() {
     button.className = `artist-card${artist === state.selectedArtist ? " active" : ""}`;
     button.textContent = artist;
     button.addEventListener("click", () => {
+      const artistScrollTop = els.artistList.scrollTop;
       state.selectedArtist = artist;
       state.selectedId = null;
       state.editing = false;
       els.songSearch.value = "";
       render();
+      els.artistList.scrollTop = artistScrollTop;
+      els.songList.scrollTop = 0;
     });
     els.artistList.append(button);
   });
@@ -3065,14 +3066,6 @@ async function importSongs(event) {
   persistSongs();
   render();
   event.target.value = "";
-}
-
-async function toggleFullscreen() {
-  if (document.fullscreenElement) {
-    await document.exitFullscreen();
-  } else {
-    await document.documentElement.requestFullscreen();
-  }
 }
 
 function changeChartSize(delta) {

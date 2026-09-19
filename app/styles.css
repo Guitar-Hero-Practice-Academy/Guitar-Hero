@@ -1498,7 +1498,9 @@ textarea,
 .app-shell {
   display: grid;
   grid-template-columns: repeat(2, var(--sidebar-width)) minmax(0, 1fr);
-  min-height: 100vh;
+  height: 100vh;
+  min-height: 0;
+  overflow: hidden;
 }
 
 .sidebar-toggle {
@@ -1566,6 +1568,9 @@ textarea,
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  height: 100vh;
+  min-height: 0;
+  overflow: hidden;
   padding: 1rem;
   border-right: 1px solid var(--line);
   background: #ebe5da;
@@ -1594,7 +1599,11 @@ textarea,
 
 .artist-list {
   display: grid;
+  flex: 1 1 auto;
   gap: 0.4rem;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
 
 .artist-card {
@@ -1677,9 +1686,12 @@ h3 {
 
 .song-list {
   display: grid;
+  flex: 1 1 auto;
   align-content: start;
   gap: 1rem;
+  min-height: 0;
   overflow: auto;
+  overscroll-behavior: contain;
 }
 
 .album-group {
@@ -2142,6 +2154,9 @@ body:not(.song-selected) .practice-view > * {
 
   .app-shell {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    height: auto;
+    min-height: 100vh;
+    overflow: visible;
   }
 
   .sidebars-collapsed .sidebar-toggle {
@@ -2167,6 +2182,7 @@ body:not(.song-selected) .practice-view > * {
 
   .artist-library,
   .library {
+    height: 38vh;
     min-height: 260px;
     max-height: 38vh;
   }
@@ -2213,8 +2229,10 @@ body:not(.song-selected) .practice-view > * {
 
   .artist-library,
   .library {
+    height: auto;
     min-height: auto;
     max-height: none;
+    overflow: visible;
   }
 
   .artist-list {

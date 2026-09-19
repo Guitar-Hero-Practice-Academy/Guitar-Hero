@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "songId": "neil-young-my-my-hey-hey-out-of-the-blue",
+  "source": { "fileName": "my my hey hey out of the blue chords.pdf", "sha256": "36f8663662124766e97fb9a481a15e5cbf6930f7470e9918a9804ddab9c584dd" },
+  "pages": [
+    { "page": 1, "originX": 0.17044, "cellWidth": 0.010266 },
+    { "page": 2, "originX": 0.17044, "cellWidth": 0.010266 },
+    { "page": 3, "originX": 0.17044, "cellWidth": 0.010266 },
+    { "page": 4, "originX": 0.17044, "cellWidth": 0.010266 }
+  ],
+  "sections": [
+    { "name": "Source notes", "rows": [
+      {"type":"note","text":"Tabbed by: aaronob"},
+      {"type":"note","text":"Email: aaronober@yahoo.com"},
+      {"type":"note","text":"Tuning: DGCFAD"}
+    ] },
+    { "name": "Strumming", "rows": [
+      {"type":"note","text":"VERSES (WITH A LOT OF VARIATION) 64 bpm"},
+      {"type":"image","text":"[[image:assets/my-my-hey-hey-strumming.png|Verse strumming notation at 64 BPM]]"}
+    ] },
+    { "name": "Intro riff", "rows": [
+      {"type":"image","text":"[[image:assets/my-my-hey-hey-intro-tab.png|Intro riff tablature]]"}
+    ] },
+    { "name": "Verse", "rows": [
+      {"type":"chords","page":1,"expectedChordCount":3,"anchors":[{"chord":"Am7","sourceX":0.17044},{"chord":"G","sourceX":0.211504},{"chord":"Fmaj7","sourceX":0.283366}]},
+      {"type":"lyrics","page":1,"text":"My  My, hey hey"},
+      {"type":"chords","page":1,"expectedChordCount":3,"anchors":[{"chord":"Am7","sourceX":0.17044},{"chord":"G","sourceX":0.262834},{"chord":"Fmaj7","sourceX":0.416824}]},
+      {"type":"lyrics","page":1,"text":"Rock and roll is here to stay"},
+      {"type":"chords","page":1,"expectedChordCount":3,"anchors":[{"chord":"C","sourceX":0.17044},{"chord":"Em","sourceX":0.32443},{"chord":"Em7","sourceX":0.416824}]},
+      {"type":"lyrics","page":1,"text":"It's better to burn out"},
+      {"type":"chords","page":1,"expectedChordCount":2,"anchors":[{"chord":"Am","sourceX":0.17044},{"chord":"F","sourceX":0.314164}]},
+      {"type":"lyrics","page":1,"text":"Than to fade away"},
+      {"type":"chords","page":2,"expectedChordCount":3,"anchors":[{"chord":"Am7","sourceX":0.17044},{"chord":"G","sourceX":0.211504},{"chord":"Fmaj7","sourceX":0.283366}]},
+      {"type":"lyrics","page":2,"text":"My  My, hey hey"}
+    ] },
+    { "name": "Interlude", "rows": [
+      {"type":"image","text":"[[image:assets/my-my-hey-hey-interlude-tab.png|Interlude tablature]]"}
+    ] },
+    { "name": "Verse", "rows": [
+      {"type":"chords","page":2,"expectedChordCount":3,"anchors":[{"chord":"Am7","sourceX":0.17044},{"chord":"G","sourceX":0.334696},{"chord":"Fmaj7","sourceX":0.498952}]},
+      {"type":"lyrics","page":2,"text":"It's out of the blue and into the black"},
+      {"type":"chords","page":2,"expectedChordCount":3,"anchors":[{"chord":"Am7","sourceX":0.17044},{"chord":"G","sourceX":0.314164},{"chord":"Fmaj7","sourceX":0.509218}]},
+      {"type":"lyrics","page":2,"text":"They give you this but you pay for that"},
+      {"type":"chords","page":2,"expectedChordCount":5,"anchors":[{"chord":"C","sourceX":0.17044},{"chord":"Em","sourceX":0.334696},{"chord":"Em7","sourceX":0.37576},{"chord":"Am","sourceX":0.457888},{"chord":"F","sourceX":0.601612}]},
+      {"type":"lyrics","page":2,"text":"And once you're gone you can never come back"},
+      {"type":"chords","page":2,"expectedChordCount":2,"anchors":[{"chord":"Am7","sourceX":0.17044},{"chord":"G","sourceX":0.406558}]},
+      {"type":"lyrics","page":2,"text":"When you're out of the blue"},
+      {"type":"chords","page":2,"expectedChordCount":1,"anchors":[{"chord":"Fmaj7","sourceX":0.211504}]},
+      {"type":"lyrics","page":2,"text":"And into the black"}
+    ] },
+    { "name": "Interlude", "rows": [
+      {"type":"image","text":"[[image:assets/my-my-hey-hey-interlude-tab.png|Interlude tablature]]"}
+    ] },
+    { "name": "Verse", "rows": [
+      {"type":"chords","page":3,"expectedChordCount":3,"anchors":[{"chord":"Am7","sourceX":0.17044},{"chord":"G","sourceX":0.293632},{"chord":"Fmaj7","sourceX":0.47842}]},
+      {"type":"lyrics","page":3,"text":"The king is gone but he's not forgotten"},
+      {"type":"chords","page":3,"expectedChordCount":3,"anchors":[{"chord":"Am7","sourceX":0.17044},{"chord":"G","sourceX":0.293632},{"chord":"Fmaj7","sourceX":0.468154}]},
+      {"type":"lyrics","page":3,"text":"This is the story of a Johnny Rotten"},
+      {"type":"chords","page":3,"expectedChordCount":5,"anchors":[{"chord":"C","sourceX":0.17044},{"chord":"Em","sourceX":0.32443},{"chord":"Em7","sourceX":0.37576},{"chord":"Am","sourceX":0.416824},{"chord":"F","sourceX":0.560548}]},
+      {"type":"lyrics","page":3,"text":"It's better to burn out than it is to rust"},
+      {"type":"chords","page":3,"expectedChordCount":3,"anchors":[{"chord":"Am7","sourceX":0.17044},{"chord":"G","sourceX":0.293632},{"chord":"Fmaj7","sourceX":0.47842}]},
+      {"type":"lyrics","page":3,"text":"The king is gone but he's not forgotten"}
+    ] },
+    { "name": "Interlude", "rows": [
+      {"type":"image","text":"[[image:assets/my-my-hey-hey-interlude-tab-2.png|Interlude tablature]]"}
+    ] },
+    { "name": "Verse", "rows": [
+      {"type":"chords","page":3,"expectedChordCount":3,"anchors":[{"chord":"Am7","sourceX":0.17044},{"chord":"G","sourceX":0.211504},{"chord":"Fmaj7","sourceX":0.283366}]},
+      {"type":"lyrics","page":3,"text":"Hey Hey, my my"},
+      {"type":"chords","page":3,"expectedChordCount":3,"anchors":[{"chord":"Am7","sourceX":0.17044},{"chord":"G","sourceX":0.262834},{"chord":"Fmaj7","sourceX":0.406558}]},
+      {"type":"lyrics","page":3,"text":"Rock and roll can never die"},
+      {"type":"chords","page":3,"expectedChordCount":3,"anchors":[{"chord":"C","sourceX":0.17044},{"chord":"Em","sourceX":0.37576},{"chord":"Em7","sourceX":0.437356}]},
+      {"type":"lyrics","page":3,"text":"There's more to the picture"},
+      {"type":"chords","page":3,"expectedChordCount":2,"anchors":[{"chord":"Am","sourceX":0.17044},{"chord":"F","sourceX":0.32443}]},
+      {"type":"lyrics","page":3,"text":"Than meets the eye"},
+      {"type":"chords","page":3,"expectedChordCount":3,"anchors":[{"chord":"Am7","sourceX":0.17044},{"chord":"G","sourceX":0.211504},{"chord":"Fmaj7","sourceX":0.283366}]},
+      {"type":"lyrics","page":3,"text":"Hey Hey, my my"}
+    ] },
+    { "name": "Tab legend", "rows": [
+      {"type":"note","text":"| /  slide up"}, {"type":"note","text":"| \\  slide down"},
+      {"type":"note","text":"| h  hammer-on"}, {"type":"note","text":"| p  pull-off"},
+      {"type":"note","text":"| ~  vibrato"}, {"type":"note","text":"| +  harmonic"},
+      {"type":"note","text":"| x  Mute note"}
+    ] }
+  ]
+}

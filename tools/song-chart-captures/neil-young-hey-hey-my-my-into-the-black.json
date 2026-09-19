@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "songId": "neil-young-hey-hey-my-my-into-the-black",
+  "source": { "fileName": "hey hey my my into the black chords.pdf", "sha256": "1b11926d40d6e394b5d660fa735da37b06db91c6d740def05dda8d256ba9f3e6" },
+  "pages": [
+    { "page": 1, "originX": 0.092404, "cellWidth": 0.010266 },
+    { "page": 2, "originX": 0.092404, "cellWidth": 0.010266 }
+  ],
+  "sections": [
+    { "name": "Intro", "rows": [
+      { "type": "chords", "page": 1, "expectedChordCount": 3, "anchors": [{"chord":"Am","sourceX":0.092404},{"chord":"G","sourceX":0.123202},{"chord":"F/A","sourceX":0.143734}] },
+      { "type": "chords", "page": 1, "expectedChordCount": 3, "anchors": [{"chord":"Am","sourceX":0.092404},{"chord":"G","sourceX":0.123202},{"chord":"F/A","sourceX":0.143734}] },
+      { "type": "chords", "page": 1, "expectedChordCount": 2, "anchors": [{"chord":"C","sourceX":0.092404},{"chord":"G6","sourceX":0.112936}] },
+      { "type": "chords", "page": 1, "expectedChordCount": 2, "anchors": [{"chord":"Am","sourceX":0.092404},{"chord":"F","sourceX":0.123202}] },
+      { "type": "chords", "page": 1, "expectedChordCount": 3, "anchors": [{"chord":"Am","sourceX":0.092404},{"chord":"G","sourceX":0.123202},{"chord":"F/A","sourceX":0.143734}] }
+    ] },
+    { "name": "Verse 1", "rows": [
+      { "type": "chords", "page": 1, "expectedChordCount": 3, "anchors": [{"chord":"Am","sourceX":0.092404},{"chord":"G","sourceX":0.133468},{"chord":"F/A","sourceX":0.205330}] },
+      { "type": "lyrics", "page": 1, "text": "Hey hey, my my" },
+      { "type": "chords", "page": 1, "expectedChordCount": 3, "anchors": [{"chord":"Am","sourceX":0.092404},{"chord":"G","sourceX":0.174532},{"chord":"F/A","sourceX":0.328522}] },
+      { "type": "lyrics", "page": 1, "text": "Rock and roll will never die" },
+      { "type": "chords", "page": 1, "expectedChordCount": 2, "anchors": [{"chord":"C","sourceX":0.164266},{"chord":"G6","sourceX":0.287458}] },
+      { "type": "lyrics", "page": 1, "text": "There's more to the picture" },
+      { "type": "chords", "page": 1, "expectedChordCount": 2, "anchors": [{"chord":"Am","sourceX":0.092404},{"chord":"F","sourceX":0.246394}] },
+      { "type": "lyrics", "page": 1, "fragments": [{"text":"Than meets the eye","sourceX":0.102670}] },
+      { "type": "chords", "page": 1, "expectedChordCount": 3, "anchors": [{"chord":"Am","sourceX":0.092404},{"chord":"G","sourceX":0.133468},{"chord":"F/A","sourceX":0.215596}] },
+      { "type": "lyrics", "page": 1, "fragments": [{"text":"Hey hey, my my","sourceX":0.102670}] }
+    ] },
+    { "name": "Verse 2", "rows": [
+      { "type": "chords", "page": 1, "expectedChordCount": 3, "anchors": [{"chord":"Am","sourceX":0.092404},{"chord":"G","sourceX":0.205330},{"chord":"F/A","sourceX":0.379852}] },
+      { "type": "lyrics", "page": 1, "text": "Out of the blue and into the black" },
+      { "type": "chords", "page": 2, "expectedChordCount": 3, "anchors": [{"chord":"Am","sourceX":0.092404},{"chord":"G","sourceX":0.225862},{"chord":"F/A","sourceX":0.431182}] },
+      { "type": "lyrics", "page": 2, "text": "You pay for this and they give you that" },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{"chord":"C","sourceX":0.092404},{"chord":"G6","sourceX":0.205330},{"chord":"Am","sourceX":0.266926},{"chord":"F","sourceX":0.441448}] },
+      { "type": "lyrics", "page": 2, "text": "Once you're gone, you can't come back" },
+      { "type": "chords", "page": 2, "expectedChordCount": 3, "anchors": [{"chord":"Am","sourceX":0.092404},{"chord":"G","sourceX":0.318256},{"chord":"F/A","sourceX":0.513310}] },
+      { "type": "lyrics", "page": 2, "text": "When you're out of the blue and into the black" }
+    ] },
+    { "name": "Verse 3", "rows": [
+      { "type": "chords", "page": 2, "expectedChordCount": 3, "anchors": [{"chord":"Am","sourceX":0.092404},{"chord":"G","sourceX":0.225862},{"chord":"F/A","sourceX":0.390118}] },
+      { "type": "lyrics", "page": 2, "text": "The king is gone but he's not forgotten" },
+      { "type": "chords", "page": 2, "expectedChordCount": 3, "anchors": [{"chord":"Am","sourceX":0.092404},{"chord":"G","sourceX":0.174532},{"chord":"F/A","sourceX":0.256660}] },
+      { "type": "lyrics", "page": 2, "text": "Is the story of Johnny Rotten?" },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{"chord":"C","sourceX":0.092404},{"chord":"G6","sourceX":0.236128},{"chord":"Am","sourceX":0.318256},{"chord":"F","sourceX":0.503044}] },
+      { "type": "lyrics", "page": 2, "text": "It's better to burn out 'cause rust never sleeps" },
+      { "type": "chords", "page": 2, "expectedChordCount": 3, "anchors": [{"chord":"Am","sourceX":0.102670},{"chord":"G","sourceX":0.236128},{"chord":"F/A","sourceX":0.390118}] },
+      { "type": "lyrics", "page": 2, "text": "The king is gone but he's not forgotten" }
+    ] },
+    { "name": "Verse 4", "rows": [
+      { "type": "chords", "page": 2, "expectedChordCount": 3, "anchors": [{"chord":"Am","sourceX":0.092404},{"chord":"G","sourceX":0.123202},{"chord":"F/A","sourceX":0.195064}] },
+      { "type": "lyrics", "page": 2, "text": "Hey hey, my my" },
+      { "type": "chords", "page": 2, "expectedChordCount": 3, "anchors": [{"chord":"Am","sourceX":0.092404},{"chord":"G","sourceX":0.205330},{"chord":"F/A","sourceX":0.338788}] },
+      { "type": "lyrics", "page": 2, "text": "Rock and roll will never die" },
+      { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [{"chord":"C","sourceX":0.102670},{"chord":"G6","sourceX":0.287458},{"chord":"Am","sourceX":0.390118},{"chord":"F","sourceX":0.544108}] },
+      { "type": "lyrics", "page": 2, "text": "There's more to the picture  Than meets the eye" },
+      { "type": "chords", "page": 2, "expectedChordCount": 3, "anchors": [{"chord":"Am","sourceX":0.102670},{"chord":"G","sourceX":0.133468},{"chord":"F/A","sourceX":0.215596}] },
+      { "type": "lyrics", "page": 2, "text": "Hey hey, my my" }
+    ] },
+    { "name": "Outro", "rows": [
+      { "type": "chords", "page": 2, "expectedChordCount": 3, "anchors": [{"chord":"Am","sourceX":0.092404},{"chord":"G","sourceX":0.123202},{"chord":"F/A","sourceX":0.143734}] }
+    ] }
+  ]
+}
