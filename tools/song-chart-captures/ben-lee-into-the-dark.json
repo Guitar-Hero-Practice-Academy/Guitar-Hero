@@ -1,0 +1,1672 @@
+{
+  "schemaVersion": 1,
+  "songId": "ben-lee-into-the-dark",
+  "source": {
+    "fileName": "into the dark chords.pdf",
+    "sha256": "9b6c94048d5cb0b2c0a888d2da99cdd866a0cd7def0cb98e699b04d30210e3cf"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.096038,
+      "cellWidth": 0.009872
+    },
+    {
+      "page": 2,
+      "originX": 0.096038,
+      "cellWidth": 0.009872
+    },
+    {
+      "page": 3,
+      "originX": 0.096038,
+      "cellWidth": 0.009872
+    }
+  ],
+  "sections": [
+    {
+      "name": "Source notes",
+      "rows": [
+        {
+          "type": "note",
+          "text": "Difficulty: beginner"
+        },
+        {
+          "type": "note",
+          "text": "Tuning: E A D G B E"
+        },
+        {
+          "type": "note",
+          "text": "Capo: 7th fret"
+        }
+      ]
+    },
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.312,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.125588
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.154466
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.19409
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.33,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.125588
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.154466
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.184688
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.346,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.125588
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.154466
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.19409
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.362,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.125588
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.155138
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.19409
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.409,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.174614
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Feeling better",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.441,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.16454
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Since I surrendered",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.473,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.204164
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "You can't climb",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.507,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.19409
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.28274
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "'Til you're ready to fall",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.541,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.224312
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Your not a land mine",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.572,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.213566
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Your not a gold mine",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.603,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.145735
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.233714
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.302216
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "No you're not mine at all",
+              "sourceX": 0.096038
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.667,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.184688
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "So tell me baby",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.702,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.184688
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Can you hear me?",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.734,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.214238
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.31229
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.411014
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I sent a message out into the dark",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.766,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.204164
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "It's a mystery",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.799,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.213566
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "When your near me",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.831,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.214238
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.302888
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.361316
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I've gotta find my way to your heart",
+              "sourceX": 0.096038
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intro Chords",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.895,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.125588
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.154466
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.19409
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.911,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.125588
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.154466
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.19409
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.08,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.174614
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I learned my lesson",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.113,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.16454
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "First impressions",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.145,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.145735
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.233714
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.302216
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "More often right than wrong",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.178,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.204164
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "It's not a slow dance",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.21,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.204164
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "This modern romance",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.241,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.224312
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.31229
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.380792
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Feels like we've already waited to long",
+              "sourceX": 0.096038
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.304,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.184688
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Don't worry baby",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.34,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.184688
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "That how is should be",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.372,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.214238
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.31229
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.411014
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I sent a message out into the dark",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.404,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.204164
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'd rather talk to you",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.436,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.213566
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "About how it could be",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.469,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.214238
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.302888
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.361316
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I've gotta find my way to your heart",
+              "sourceX": 0.096038
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intro Chords",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.535,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.125588
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.154466
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.19409
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.549,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.125588
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.154466
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.184688
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.567,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.125588
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.154466
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.19409
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.582,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.125588
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.155138
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.19409
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 3",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.632,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.194762
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I was one of those",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.664,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.204164
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Breathing tornadoes",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.696,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.224312
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.31229
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.380792
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But now i live at the eye of the storm",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.729,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.194762
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And it's all faded",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.76,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.204164
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Then since the separation",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.793,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.224312
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.31229
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.380792
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Since I let your love keep me warm",
+              "sourceX": 0.096038
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.873,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.184688
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You tell me baby",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.905,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.19409
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "That you can feel me",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.048,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.214238
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.31229
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.411014
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I sent a message out into the dark",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.081,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.204164
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "When I kiss you",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.113,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.204164
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "That's the real me",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.145,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.214238
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.302888
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.361316
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I've gotta find my way to your heart",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.178,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.184688
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "So tell me baby",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.21,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.19409
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Can you hear me",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.241,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.214238
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.31229
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.411014
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I sent a message out into the dark",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.275,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.204164
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "It's a mystery",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.308,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095366
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.19409
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "When your near me",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.341,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.214238
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.302888
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.361316
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I've gotta find my way to your heart",
+              "sourceX": 0.096038
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.42,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.125588
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.154466
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.19409
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.437,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.224312
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.292814
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.351242
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I've gotta find my way to your heart",
+              "sourceX": 0.096038
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.469,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.125588
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.154466
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.19409
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.485,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.096038
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.224312
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.302888
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.380792
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I've gotta find my way to your heart",
+              "sourceX": 0.096038
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

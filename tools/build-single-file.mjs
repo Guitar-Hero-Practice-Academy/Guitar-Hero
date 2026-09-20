@@ -111,6 +111,8 @@ const scriptFiles = [
   "data/oasis-hey-hey-my-my-into-the-black.js",
   "data/oasis-hey-hey-my-my-into-the-black-coordinate.js",
   "data/oasis-fuckin-in-the-bushes.js",
+  "data/ben-lee-into-the-dark.js",
+  "data/ben-lee-into-the-dark-coordinate.js",
   "data/the-irrationality-of-rationality-coordinate.js",
   "data/cleopatra-acoustic-layout.js",
   "data/cleopatra-coordinate.js",
