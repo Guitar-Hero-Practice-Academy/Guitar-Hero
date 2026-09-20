@@ -1,0 +1,1715 @@
+{
+  "schemaVersion": 1,
+  "songId": "george-ezra-green-green-grass",
+  "source": {
+    "fileName": "green green grass chords.pdf",
+    "sha256": "9903999532833a0cf025c0b91d96b5e6fec85c9439317690a0ff7426416668c4"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.095994,
+      "cellWidth": 0.009826
+    },
+    {
+      "page": 2,
+      "originX": 0.095994,
+      "cellWidth": 0.009826
+    },
+    {
+      "page": 3,
+      "originX": 0.095994,
+      "cellWidth": 0.009826
+    },
+    {
+      "page": 4,
+      "originX": 0.095994,
+      "cellWidth": 0.009826
+    }
+  ],
+  "sections": [
+    {
+      "name": "Source notes",
+      "rows": [
+        {
+          "type": "note",
+          "text": "Difficulty: beginner"
+        },
+        {
+          "type": "note",
+          "text": "Tuning: E A D G B E"
+        },
+        {
+          "type": "note",
+          "text": "Capo: 1st fret"
+        },
+        {
+          "type": "note",
+          "text": "Key: Ab"
+        }
+      ]
+    },
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "note",
+          "text": "| G | Em G | C G | Dsus4 |"
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.3966,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.302343
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Well she moves like lightning",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.4286,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.263794
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.331822
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "And she counts to three",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.4613,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.184429
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.351474
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "And she turns out all the lights",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.4939,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.253212
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.351474
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "And says she's coming for me",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.5265,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.23356
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.421013
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.479214
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Now put your hands up, this is a heist",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.5585,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.222978
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.371126
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "And there's no one in here living",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.5911,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.165533
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.272865
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Gonna make it out alive",
+              "sourceX": 0.095994
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pre-Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.6718,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.10582
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.391534
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Loading up when the sun goes down",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.7044,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.10582
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Getaway car for two young lovers",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.737,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.10582
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.421013
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Me and the girl straight out of town",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.7691,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Over the hills and undercover",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.8017,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Undercover, undercover",
+              "sourceX": 0.095994
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.8824,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "N.C.",
+              "sourceX": 0.115646
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "She said",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.915,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.115646
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Green, green grass",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.0492,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.116402
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.213908
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Blue, blue sky",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.0818,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.145125
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.292517
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.411187
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.518519
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You better throw a party on the day that I die",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.1138,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.115646
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Green, green grass",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.1464,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.116402
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.213908
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Blue, blue sky",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.179,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.145125
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.292517
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.421013
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.528345
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You better throw a party on the day that I die",
+              "sourceX": 0.095994
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.2598,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.184429
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.342404
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.390779
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "We go together, Adam and Eve",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.2918,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.184429
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.282691
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.47997
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.61678
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But the girl is so much more than just another apple thief",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.3244,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.23356
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.449735
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.547997
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Yeah she's a genius (genius), watch and learn",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.357,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.173847
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.341648
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "As she sets the world on fire",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.3896,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.174603
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.341648
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Just to watch the sucker burn",
+              "sourceX": 0.095994
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pre-Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.4703,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.10582
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.391534
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Loading up when the sun goes down",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.5029,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.10582
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Getaway car for two young lovers",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.535,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.10582
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.421013
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Me and the girl straight out of town",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.5676,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Over the hills and undercover",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.6002,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Undercover, undercover",
+              "sourceX": 0.095994
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.6809,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "N.C.",
+              "sourceX": 0.115646
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "She said",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.7135,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.115646
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Green, green grass",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.7461,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.116402
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.223734
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Blue, blue sky",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.7782,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.145125
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.292517
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.411187
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.518519
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You better throw a party on the day that I die",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.8103,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.115646
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Green, green grass",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.8429,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.116402
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.223734
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Blue, blue sky",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.8755,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.145125
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.292517
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.421013
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.528345
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You better throw a party on the day that I die",
+              "sourceX": 0.095994
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.0492,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.185185
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Throw a party (hey)",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.0818,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.185185
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.243386
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Throw a party, yeah",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.1138,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.184429
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.243386
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Throw a party (woo)",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.1464,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.174603
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.282691
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "On the day that I die",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.179,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.184429
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Throw a party (hey)",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.2111,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.185185
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.243386
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Throw a party, babe",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.2432,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.184429
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.23356
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Throw a party",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.2758,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.174603
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.282691
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "On the day that I die",
+              "sourceX": 0.095994
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pre-Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.357,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.115646
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.390779
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Loading up when the sun goes down",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.3896,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.10582
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Getaway car for two young lovers",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.4217,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.10582
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.410431
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Me and the girl straight out of town",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.4543,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.09675
+            },
+            {
+              "chord": "G/B",
+              "sourceX": 0.282691
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Over the hills and undercover",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.4864,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Undercover, undercover",
+              "sourceX": 0.095994
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.5676,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "N.C.",
+              "sourceX": 0.115646
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "She said",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.6002,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.115646
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Green, green grass",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.6323,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.116402
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.223734
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Blue, blue sky",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.6649,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.145125
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.292517
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.411187
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.518519
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You better throw a party on the day that I die",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.6975,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.115646
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Green, green grass",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.7301,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.116402
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.213908
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Blue, blue sky",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.7622,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.145125
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.292517
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.411187
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.518519
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You better throw a party on the day that I die",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.7942,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.115646
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Green, green grass",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.8268,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.116402
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.223734
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Blue, blue sky",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.8594,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.145125
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.292517
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.411187
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.518519
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You better throw a party on the day that I die",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.8915,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.115646
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Green, green grass",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.9241,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.116402
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.223734
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Blue, blue sky",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 4,
+          "sourceY": 0.0492,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.145125
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.292517
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.411187
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.518519
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 4,
+          "fragments": [
+            {
+              "text": "You better throw a party on the day that I die",
+              "sourceX": 0.095994
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

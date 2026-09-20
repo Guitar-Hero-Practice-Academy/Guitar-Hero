@@ -1,0 +1,1231 @@
+{
+  "schemaVersion": 1,
+  "songId": "jelly-roll-heart-of-stone",
+  "source": {
+    "fileName": "heart of stone chords.pdf",
+    "sha256": "973b27a5b825fd66a880213f11481ba1501bc73c46ad91e1d7ce04838ab02d4f"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.095994,
+      "cellWidth": 0.009826
+    },
+    {
+      "page": 2,
+      "originX": 0.095994,
+      "cellWidth": 0.009826
+    },
+    {
+      "page": 3,
+      "originX": 0.095994,
+      "cellWidth": 0.009826
+    }
+  ],
+  "sections": [
+    {
+      "name": "Source notes",
+      "rows": [
+        {
+          "type": "note",
+          "text": "From the album \"Beautifully Broken\" (2024)"
+        },
+        {
+          "type": "note",
+          "text": "Capo on 2nd fret. If you want to play without capo,"
+        },
+        {
+          "type": "note",
+          "text": "just set the \"Transpose\" button on +2."
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.4789,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.144369
+            },
+            {
+              "chord": "Fsus2",
+              "sourceX": 0.421013
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Dear Lord, can you help me? I've fallen out of graves",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.5115,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.135299
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.469388
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I'm crawlin' back to Heaven from this hell on earth I made",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.5441,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.124717
+            },
+            {
+              "chord": "Fsus2",
+              "sourceX": 0.440665
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "My blood has gotten heavy, there's metal in my veins",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.5762,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.145125
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.498866
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "It's runnin' like the river, filled with all of my mistakes",
+              "sourceX": 0.095994
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pre-Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.6574,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095994
+            },
+            {
+              "chord": "Fsus2",
+              "sourceX": 0.351474
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "On my knees, I'm lookin' up",
+              "sourceX": 0.10582
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.69,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095994
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.371126
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I need a different kind of drug",
+              "sourceX": 0.10582
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.7707,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.32124
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I'm wide awake and I'm dreaming",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.8033,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.09675
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.420257
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Wonderin' where and when I fell apart",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.8354,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.213908
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Oh, I fell apart",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.8685,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.282691
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "I had enough of my demons",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.9006,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.09675
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.400605
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Angels only meet you where you are",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.0492,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.243386
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And I'm in the dark",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.0818,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095238
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.449735
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Least for now, Lord, I ain't losin' hope",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.1138,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.145125
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.459562
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "That somehow you can make a heart of gold",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.1464,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "N.C.",
+              "sourceX": 0.195011
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.292517
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.381708
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "From this heart of stone (Oh)",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.179,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.243386
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.321995
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "This heart of stone, oh",
+              "sourceX": 0.095994
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.2598,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.144369
+            },
+            {
+              "chord": "Fsus2",
+              "sourceX": 0.411187
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Dear Lord, can you hear me? I'm shackled in these chains",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.2918,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.135299
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.420257
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'm haunted by the lies of every time I said I'd change",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.3244,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.144369
+            },
+            {
+              "chord": "Fsus2",
+              "sourceX": 0.470144
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'm slippin' through the shadows, I'm swingin' on my soul",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.357,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.135299
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.48904
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "The lights are shinin' on me, but there ain't nobody home",
+              "sourceX": 0.095994
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pre-Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.4383,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095994
+            },
+            {
+              "chord": "Fsus2",
+              "sourceX": 0.351474
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "On my knees, I'm lookin' up",
+              "sourceX": 0.10582
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.4703,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.095994
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.371126
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I need a different kind of drug",
+              "sourceX": 0.10582
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.551,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.32124
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'm wide awake and I'm dreamin'",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.5836,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.09675
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.420257
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Wonderin' where and when I fell apart",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.6162,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.213908
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Oh, I fell apart",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.6494,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.282691
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I had enough of my demons",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.6809,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.09675
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.400605
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Angels only meet you where you are",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.7135,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.243386
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And I'm in the dark",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.7461,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095994
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.449735
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Least for now, Lord, I ain't losin' hope",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.7782,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.145125
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.459562
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "That somehow you can make a heart of gold",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.8103,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.291761
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.342404
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "From this heart of stone",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.8429,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.243386
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.282691
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "This heart of stone",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.8755,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.24263
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.283447
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.312169
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.341648
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "This heart of stone",
+              "sourceX": 0.095994
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.0497,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.390023
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "'Cause I'm wide awake and I'm dreamin'",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.0818,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Fsus2",
+              "sourceX": 0.09675
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.420257
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Wonderin' where and when I fell apart",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.1138,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.213908
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Oh, I fell apart",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.147,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.282691
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I had enough of my demons (Ooh-ooh-ooh)",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.179,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Fsus2",
+              "sourceX": 0.136054
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.439909
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "But angels only meet you where you are",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.2111,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.244142
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "And I'm in the dark",
+              "sourceX": 0.095994
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.2918,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.124717
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.47997
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "At least for now, Lord, I ain't losin' hope",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.3244,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.145125
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.459562
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "That somehow you can make a heart of gold",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.357,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "N.C.",
+              "sourceX": 0.195011
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.291761
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.381708
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "From this heart of stone",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.3896,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.243386
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.282691
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "This heart of stone",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.4217,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.243386
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.283447
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.312169
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.341648
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "This heart of stone",
+              "sourceX": 0.095994
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.5029,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "N.C.",
+              "sourceX": 0.391534
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "'Cause I'm wide awake and I'm dreamin'",
+              "sourceX": 0.095994
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

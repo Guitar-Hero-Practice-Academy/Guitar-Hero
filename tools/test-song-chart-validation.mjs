@@ -1,5 +1,11 @@
 import assert from "node:assert/strict";
-import { createChartManifest, renderCoordinateLine, validateManifest } from "./song-chart-core.mjs";
+import { chordAnchors, createChartManifest, renderCoordinateLine, validateManifest } from "./song-chart-core.mjs";
+
+assert.deepEqual(chordAnchors("C*** Em* D"), [
+  { chord: "C***", column: 0 },
+  { chord: "Em*", column: 5 },
+  { chord: "D", column: 9 }
+]);
 
 const verified = { sourceChecked: true, browserChecked: true, checkedAt: "2026-08-10" };
 const source = { fileName: "fixture.pdf", sha256: "fixture" };

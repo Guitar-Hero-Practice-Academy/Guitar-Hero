@@ -3,7 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
 
-const chordTokenPattern = /(?<![A-Za-z0-9#b/])([A-G](?:#|b)?(?:(?:maj|min|dim|aug|sus|add)?\d*|m\d*)?(?:\/[A-G](?:#|b)?)?\*?)(?![A-Za-z0-9#b/])/g;
+const chordTokenPattern = /(?<![A-Za-z0-9#b/])([A-G](?:#|b)?(?:(?:maj|min|dim|aug|sus|add)?\d*|m\d*)?(?:\/[A-G](?:#|b)?)?\*{0,3})(?![A-Za-z0-9#b/])/g;
 
 export function sha256(value) {
   return crypto.createHash("sha256").update(value).digest("hex");

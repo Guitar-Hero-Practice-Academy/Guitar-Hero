@@ -1,0 +1,969 @@
+{
+  "schemaVersion": 1,
+  "songId": "fanning-dempsey-national-park-disconnect",
+  "contentRevision": 1,
+  "source": {
+    "fileName": "disconnect chords.pdf",
+    "sha256": "6dbe7655cbd69c2abe2b7f1ebc8e05980420419816a7d172dd5c1bbb81e83bdc"
+  },
+  "verification": {
+    "sourceChecked": true,
+    "browserChecked": true,
+    "checkedAt": "2026-09-21"
+  },
+  "chartHash": "6754be7e768651db409678523e48626876f33e96650ba7b1c404817d2df34345",
+  "sections": [
+    {
+      "name": "Source notes",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "fbd864be8ca7765e7d91a9b3715d5c25e20afb84c2a1baad2bcad39d8d613d15"
+        },
+        {
+          "lineOffset": 1,
+          "hash": "fba19a0b6bfe6ebbc724d5e76ec0698d1ce2e84983ecc698da4ec341615f8947"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "805c512511d0c8b9877746df11f746a0e3b99fc9d6b295346bb83deff13608ef"
+        },
+        {
+          "lineOffset": 3,
+          "hash": "3ee1f6377b149627119f98a47bfad7c01cd97baff28401d843e25e020204de46"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "0d3a40368a8dbb630eef4142c21ea87c45781944d91a4a2ae216ac0ce911d0f5"
+        },
+        {
+          "lineOffset": 5,
+          "hash": "2216d1abc8aa4c1987439d4a5696538e0e8f226a0c64dc8e565526e5a3dbd864"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "d7f9d146ee8542a2bec8f424292ef5c7085cb383144b28c588748ce8700d830c"
+        },
+        {
+          "lineOffset": 7,
+          "hash": "dc8f5724e322100be2be8f71bbd789975e318301e4c3fbdb087432233fb22ec2"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Verse 1 (Bernard Fanning, then Paul Dempsey, then Bernard Fanning)",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "76c8008a49f9df94cf759dc5dbf611dbb793d02bc4fdda7bd3dcb81394e15002",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 4
+            },
+            {
+              "chord": "Am",
+              "column": 17
+            },
+            {
+              "chord": "Bm",
+              "column": 30
+            },
+            {
+              "chord": "C",
+              "column": 51
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "7c325439e262035f48072ff1d3aee962de5e297383990ba1f73151d189e5c3b0"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "8c6e38ec30443321ef2ba7c9c87dc243113b1d125a792f481806b994d40a3788",
+          "anchors": [
+            {
+              "chord": "D",
+              "column": 0
+            },
+            {
+              "chord": "D",
+              "column": 24
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "f9809cd0213f100b3edf948b68bf988870b18f09e565c8a5c1c1cb7a62823f9d"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "d8b9bb91da6058726cbe1ff4e779f5f036ddaf89072f3e19f9aa95545b7a06d1",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 2
+            },
+            {
+              "chord": "Am",
+              "column": 14
+            },
+            {
+              "chord": "Bm",
+              "column": 34
+            },
+            {
+              "chord": "C",
+              "column": 45
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "210be1d025836b3043e67cb3714e6993f891186e17899af44c2930de7a3358a0"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "231c9f0f3053f3cba8f16e74a2e2aebf3ad3066583fb225a520f7fdda6821e0a",
+          "anchors": [
+            {
+              "chord": "D",
+              "column": 3
+            },
+            {
+              "chord": "D",
+              "column": 28
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "b5369d511fdb094cb2f705d56f8db0b7c4f4a9ca78bcb72793b93334870ece54"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "65ea64ecd9dccb49b353e7884d15b48a6e32ef7df2db238c66bd982fd75dde42",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 2
+            },
+            {
+              "chord": "Am",
+              "column": 17
+            },
+            {
+              "chord": "Bm",
+              "column": 39
+            },
+            {
+              "chord": "C",
+              "column": 60
+            }
+          ]
+        },
+        {
+          "lineOffset": 9,
+          "hash": "5cc2259e1ffab449d0114bde565e3187458180e11b6d34e51e8fdee9cad32f84"
+        },
+        {
+          "lineOffset": 10,
+          "hash": "d30de114933e3b99595661f838bd7e41305467c3b50e4f2f2cd3cb11a2fe7ae5",
+          "anchors": [
+            {
+              "chord": "D",
+              "column": 3
+            },
+            {
+              "chord": "D",
+              "column": 30
+            }
+          ]
+        },
+        {
+          "lineOffset": 11,
+          "hash": "579e04004f98de3d152cbfe6c9aae2ddcb285f4b3257aec33d417d3f67d11d8c"
+        },
+        {
+          "lineOffset": 12,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Chorus 1 (Paul and Bernard)",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "cbb5ce4abca99a51e7e67276ea313319496043e6af2dcec5e8f5be4ea3c02c06",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "C",
+              "column": 16
+            },
+            {
+              "chord": "G",
+              "column": 34
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "412e87c43cd1bb3924b0fb75cf01b59886f8214afc15c335c9ff73147a190c95"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "3f4e0fab75044f95680011f56b70cba8f365c5f0f1a91a055a0286441dc6711e",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "C",
+              "column": 10
+            },
+            {
+              "chord": "G",
+              "column": 25
+            },
+            {
+              "chord": "D",
+              "column": 41
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "e68c35f44f0c4ffa9317526af407b9fbf153198d16bd4536c977dacc8e2d47b6"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "c492b05a8b33203fef6caed115877ac471cbfaa9b84a5f09a6e02b604f778e5e",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "C",
+              "column": 15
+            },
+            {
+              "chord": "G",
+              "column": 21
+            },
+            {
+              "chord": "D",
+              "column": 34
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "efb24f4d1cd3757549a6765fb6a4e0cfb619625541b03679979005e48b6cfa04"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Post-Chorus 1 (Bernard Fanning)",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "7ff6374964832e5298cc133500095b01e5c25b3ac5e2474ecd7c789fe569f46e",
+          "anchors": [
+            {
+              "chord": "C***",
+              "column": 0
+            },
+            {
+              "chord": "Em*",
+              "column": 5
+            },
+            {
+              "chord": "D",
+              "column": 9
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "24397f76a7aabff93280dd35a84b035795a1a65301c7e07038acb3bf3277c209"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "69e8aec8f397dd21b7974c2d8f65d6dde39fda536ac50b3037e90ac7c63eb411",
+          "anchors": [
+            {
+              "chord": "C***",
+              "column": 3
+            },
+            {
+              "chord": "Em*",
+              "column": 20
+            },
+            {
+              "chord": "D",
+              "column": 24
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "9a915b467fef6420f0afe18c9f2cc4f1e0db6f690a4392db77403894522b01d4"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "5f303c02d30eeb8d9adae607638762cf357cb2e82b56464b17e7e44fdc12f851",
+          "anchors": [
+            {
+              "chord": "C***",
+              "column": 19
+            },
+            {
+              "chord": "Em*",
+              "column": 40
+            },
+            {
+              "chord": "D",
+              "column": 44
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "a66b1fb82d62e79138ffc11273e443944c0e804e335b48e221c91e1b6fdc70f3"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Verse 2 (Bernard Fanning and then Paul Dempsey)",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "72b73ee46ff42de211391f886337eceda7e9f5df6893a18de7dc406cce0c054f",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 6
+            },
+            {
+              "chord": "Am",
+              "column": 24
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "134324805cc13739b7b1e5ee8b37625745070b3bfe08f0aff80995c2e896bb39"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "d258a44e9d741739ed09db6436328d3c6982c70bda11d43918cb6471c7c873f2",
+          "anchors": [
+            {
+              "chord": "Bm",
+              "column": 7
+            },
+            {
+              "chord": "C",
+              "column": 22
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "25c2a46dd078296866b4e4cc05cda0081f398374500f1f44065575814aed7a5f"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "db6b3cf4fdedfcd4a7ceadd919eaae6568ae1d37f820a28771796b943852b632",
+          "anchors": [
+            {
+              "chord": "D",
+              "column": 4
+            },
+            {
+              "chord": "D",
+              "column": 49
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "3a80e92b8f619938053fc1c64d77e7f400147b77ad5404c8b5e128686eee116d"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "3c7a098a3f117fe5422c07c64cb386a14722225e09343c71d4a14adaf6117881",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 35
+            },
+            {
+              "chord": "Am",
+              "column": 53
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "b0bfd2fd022c1db128e7d9697bb725751b246b1229d57e7790f939bf9a7a6be1"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "0c6b8b1a9dd8a6771f09075addf897fa638a32967f51e27f32210af147ddaa89",
+          "anchors": [
+            {
+              "chord": "Bm",
+              "column": 14
+            },
+            {
+              "chord": "C",
+              "column": 28
+            },
+            {
+              "chord": "D",
+              "column": 46
+            },
+            {
+              "chord": "D",
+              "column": 56
+            }
+          ]
+        },
+        {
+          "lineOffset": 9,
+          "hash": "9bdd617749447a8d083bcad10402c843bb1f947de3a8507e3a1dc71b8555c286"
+        },
+        {
+          "lineOffset": 10,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Chorus 2 (Bernard Fanning)",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "cbb5ce4abca99a51e7e67276ea313319496043e6af2dcec5e8f5be4ea3c02c06",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "C",
+              "column": 16
+            },
+            {
+              "chord": "G",
+              "column": 34
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "412e87c43cd1bb3924b0fb75cf01b59886f8214afc15c335c9ff73147a190c95"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "3f4e0fab75044f95680011f56b70cba8f365c5f0f1a91a055a0286441dc6711e",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "C",
+              "column": 10
+            },
+            {
+              "chord": "G",
+              "column": 25
+            },
+            {
+              "chord": "D",
+              "column": 41
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "e68c35f44f0c4ffa9317526af407b9fbf153198d16bd4536c977dacc8e2d47b6"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "c492b05a8b33203fef6caed115877ac471cbfaa9b84a5f09a6e02b604f778e5e",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 0
+            },
+            {
+              "chord": "C",
+              "column": 15
+            },
+            {
+              "chord": "G",
+              "column": 21
+            },
+            {
+              "chord": "D",
+              "column": 34
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "efb24f4d1cd3757549a6765fb6a4e0cfb619625541b03679979005e48b6cfa04"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Post-Chorus 2",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "7ff6374964832e5298cc133500095b01e5c25b3ac5e2474ecd7c789fe569f46e",
+          "anchors": [
+            {
+              "chord": "C***",
+              "column": 0
+            },
+            {
+              "chord": "Em*",
+              "column": 5
+            },
+            {
+              "chord": "D",
+              "column": 9
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "24397f76a7aabff93280dd35a84b035795a1a65301c7e07038acb3bf3277c209"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "69e8aec8f397dd21b7974c2d8f65d6dde39fda536ac50b3037e90ac7c63eb411",
+          "anchors": [
+            {
+              "chord": "C***",
+              "column": 3
+            },
+            {
+              "chord": "Em*",
+              "column": 20
+            },
+            {
+              "chord": "D",
+              "column": 24
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "9a915b467fef6420f0afe18c9f2cc4f1e0db6f690a4392db77403894522b01d4"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "5f303c02d30eeb8d9adae607638762cf357cb2e82b56464b17e7e44fdc12f851",
+          "anchors": [
+            {
+              "chord": "C***",
+              "column": 19
+            },
+            {
+              "chord": "Em*",
+              "column": 40
+            },
+            {
+              "chord": "D",
+              "column": 44
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "a66b1fb82d62e79138ffc11273e443944c0e804e335b48e221c91e1b6fdc70f3"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "1f01490d26f9d002557a96448cff1b395db4106c977da42ef799f2e1918ede9e",
+          "anchors": [
+            {
+              "chord": "C***",
+              "column": 28
+            },
+            {
+              "chord": "Em*",
+              "column": 43
+            },
+            {
+              "chord": "D",
+              "column": 47
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "e4637526819142f88cd77317311e1ef8aa6079639ccb62078b7c1975d77c3b54"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Interlude",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "c17ea06d4144b4ea9522c0d870226ea25278df6194480716600a40cac4bce7f4",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 2
+            },
+            {
+              "chord": "C",
+              "column": 6
+            },
+            {
+              "chord": "G",
+              "column": 12
+            },
+            {
+              "chord": "Em",
+              "column": 16
+            },
+            {
+              "chord": "C",
+              "column": 22
+            },
+            {
+              "chord": "G",
+              "column": 28
+            },
+            {
+              "chord": "D",
+              "column": 33
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Bridge (Bernard Fanning)",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "6a3c445557d7bbc0e83bd5109a4d58fcc08693930dc8a41694e5104e0eb51003",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 6
+            },
+            {
+              "chord": "C",
+              "column": 26
+            },
+            {
+              "chord": "G",
+              "column": 47
+            },
+            {
+              "chord": "D",
+              "column": 61
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "14d5d4fefd87dd9a8dda3b4162f050709a5566267c26ee4c0ab55f7cb024947d"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "9ef392a1d85b76fd0ac339c010a62a77137992a1866215b7c583328272c55038",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 13
+            },
+            {
+              "chord": "C",
+              "column": 31
+            },
+            {
+              "chord": "G",
+              "column": 46
+            },
+            {
+              "chord": "D",
+              "column": 67
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "341d7faf0a4e086ed739f62752793c79ea25ee3e1c027811696b8f0b7d7756f2"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "1284517a262992f941105c1651172a44abfcd18d8830fc3c99a0fd62939f7ef3",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 4
+            },
+            {
+              "chord": "C",
+              "column": 26
+            },
+            {
+              "chord": "G",
+              "column": 41
+            },
+            {
+              "chord": "D",
+              "column": 54
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "c1b88836e4f616727e77ffe4942e0988a98f6060b3d9616b440755b59f9620f3"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "48c8bb20709d9b218669dcabc6be2fa847088df19e19c7bd568fbf67ca903c33",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 7
+            },
+            {
+              "chord": "C",
+              "column": 31
+            },
+            {
+              "chord": "G",
+              "column": 42
+            },
+            {
+              "chord": "D",
+              "column": 56
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "a3b7f2d2dae5cf893273fea4d89509287a07b670cb4c44a237e9a09e489939ae"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Coda (Bernard Fanning)",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "85c446d5602a907f2e1dce3f90da313f30e5383370491097e4c3a50a742754d2",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 4
+            },
+            {
+              "chord": "C",
+              "column": 34
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "90dc4d56333413ab18a0bbc898502019d6da6c6e3815a5aa3545f2be5fa71a1e"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "1f2de740b8934003bcc3752cbc8bbf49067907da52acad2d7236de519ea9f88c",
+          "anchors": [
+            {
+              "chord": "G",
+              "column": 0
+            },
+            {
+              "chord": "D",
+              "column": 18
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "ff4260f41701cdf55da6f1d3666bbce1803fdbf861cc2702a5b1fabb61d95a28"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "04d111c9a038a689f3b11b6b8fae8802ba974cacb892276249229515e4419b81",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 14
+            },
+            {
+              "chord": "C",
+              "column": 22
+            },
+            {
+              "chord": "G",
+              "column": 29
+            },
+            {
+              "chord": "D",
+              "column": 36
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "e5bd4b1ec0a6de7cc0539fd6b6b4b5f3f77ab33ce7085583ec32fc50fa2acd26"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "04d111c9a038a689f3b11b6b8fae8802ba974cacb892276249229515e4419b81",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 14
+            },
+            {
+              "chord": "C",
+              "column": 22
+            },
+            {
+              "chord": "G",
+              "column": 29
+            },
+            {
+              "chord": "D",
+              "column": 36
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "e5bd4b1ec0a6de7cc0539fd6b6b4b5f3f77ab33ce7085583ec32fc50fa2acd26"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "daafc8b14932371058e723f38cf0fe2aef10fe215196c7637902eee9855d9871",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 18
+            },
+            {
+              "chord": "C",
+              "column": 26
+            },
+            {
+              "chord": "G",
+              "column": 33
+            },
+            {
+              "chord": "D",
+              "column": 40
+            }
+          ]
+        },
+        {
+          "lineOffset": 9,
+          "hash": "236b4db418f371c19d5f141541375a6b688af235d30c0d4ac338e30c8f83c191"
+        },
+        {
+          "lineOffset": 10,
+          "hash": "0de161e2eaf1432445a8180630ad623e2396c616e4b0283620aa17335bb02e60",
+          "anchors": [
+            {
+              "chord": "Em",
+              "column": 19
+            },
+            {
+              "chord": "C",
+              "column": 27
+            },
+            {
+              "chord": "G",
+              "column": 34
+            },
+            {
+              "chord": "D",
+              "column": 41
+            }
+          ]
+        },
+        {
+          "lineOffset": 11,
+          "hash": "9a168b0ef2b1f20112478ca1babc502499b4872e23c32a6d25f0c1301410c2a0"
+        },
+        {
+          "lineOffset": 12,
+          "hash": "d0ba009b65d74fd621dd76d0b319ef069f772d84bd9c4515cb7f64c7f992676a",
+          "anchors": [
+            {
+              "chord": "C*",
+              "column": 14
+            }
+          ]
+        },
+        {
+          "lineOffset": 13,
+          "hash": "e5bd4b1ec0a6de7cc0539fd6b6b4b5f3f77ab33ce7085583ec32fc50fa2acd26"
+        }
+      ]
+    }
+  ]
+}
