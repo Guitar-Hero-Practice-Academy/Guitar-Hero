@@ -47,7 +47,7 @@ const state = {
   metronomePulseOn: false,
   checkpointCriteria: new Map(),
   notesLessonFilter: null,
-  chartSize: Number(localStorage.getItem("guitar-room-chart-size")) || 15
+  chartSizeOffset: Number(localStorage.getItem("guitar-room-chart-size-offset") ?? (Number(localStorage.getItem("guitar-room-chart-size")) || 15) - 15) || 0
 };
 
 const els = {
@@ -207,7 +207,7 @@ const els = {
 };
 
 ensureAcademySelection();
-document.documentElement.style.setProperty("--chart-size", `${state.chartSize}px`);
+document.documentElement.style.setProperty("--chart-size", "15px");
 document.body.classList.toggle("sidebars-collapsed", state.sidebarsCollapsed);
 document.body.classList.toggle("tone-collapsed", state.toneCollapsed);
 document.body.classList.toggle("chords-collapsed", state.chordsCollapsed);
@@ -356,6 +356,9 @@ els.exportButton?.addEventListener("click", exportSongs);
 els.importInput?.addEventListener("change", importSongs);
 els.fontDown.addEventListener("click", () => changeChartSize(-1));
 els.fontUp.addEventListener("click", () => changeChartSize(1));
+window.addEventListener("resize", scheduleChartAutoSize);
+const chartSizeObserver = new ResizeObserver(scheduleChartAutoSize);
+chartSizeObserver.observe(document.querySelector(".chart-panel"));
 
 function setView(view, id = null) {
   if (state.view === "exercise" && view !== "exercise") {
@@ -2947,6 +2950,10 @@ function renderChart(song) {
   els.editButton?.classList.toggle("hidden", state.editing);
   els.saveButton?.classList.toggle("hidden", !state.editing);
   els.cancelButton?.classList.toggle("hidden", !state.editing);
+  els.chartDisplay.querySelectorAll("img").forEach((image) => {
+    if (!image.complete) image.addEventListener("load", scheduleChartAutoSize, { once: true });
+  });
+  scheduleChartAutoSize();
 }
 
 function splitChartForColumns(chart) {
@@ -3069,9 +3076,47 @@ async function importSongs(event) {
 }
 
 function changeChartSize(delta) {
-  state.chartSize = Math.max(13, Math.min(28, state.chartSize + delta));
-  localStorage.setItem("guitar-room-chart-size", String(state.chartSize));
-  document.documentElement.style.setProperty("--chart-size", `${state.chartSize}px`);
+  state.chartSizeOffset = Math.max(-8, Math.min(8, state.chartSizeOffset + delta));
+  localStorage.setItem("guitar-room-chart-size-offset", String(state.chartSizeOffset));
+  scheduleChartAutoSize();
+}
+
+let chartAutoSizePending = false;
+function scheduleChartAutoSize() {
+  if (chartAutoSizePending) return;
+  chartAutoSizePending = true;
+  requestAnimationFrame(() => {
+    chartAutoSizePending = false;
+    fitChartText();
+  });
+}
+
+function fitChartText() {
+  if (state.view !== "library" || !currentSong() || state.editing || els.chartDisplay.classList.contains("hidden")) return;
+  const area = els.chartDisplay;
+  if (!area.clientHeight || !area.clientWidth) return;
+  const fits = (size) => {
+    document.documentElement.style.setProperty("--chart-size", `${size}px`);
+    const regions = state.sidebarsCollapsed && getComputedStyle(area).display === "grid"
+      ? [...area.querySelectorAll(".chart-column")]
+      : [area];
+    return regions.every((region) =>
+      region.scrollHeight <= region.clientHeight + 1 && region.scrollWidth <= region.clientWidth + 1
+    );
+  };
+  let low = 11;
+  let high = 28;
+  let best = low;
+  while (low <= high) {
+    const middle = Math.floor((low + high) / 2);
+    if (fits(middle)) {
+      best = middle;
+      low = middle + 1;
+    } else {
+      high = middle - 1;
+    }
+  }
+  document.documentElement.style.setProperty("--chart-size", `${Math.max(10, Math.min(28, best + state.chartSizeOffset))}px`);
 }
 
 function escapeHtml(value) {

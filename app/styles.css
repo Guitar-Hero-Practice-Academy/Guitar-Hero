@@ -1777,7 +1777,7 @@ h3 {
 
 .practice-view {
   display: grid;
-  grid-template-rows: auto auto auto 1fr;
+  grid-template-rows: auto auto auto minmax(0, 1fr);
   gap: 0.75rem;
   min-width: 0;
   max-height: 100vh;
@@ -1980,7 +1980,7 @@ h3 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
   padding: 0.75rem 0.9rem 1.5rem;
-  font-size: max(11px, calc(var(--chart-size) * 0.75));
+  font-size: var(--chart-size);
   line-height: 1.34;
 }
 
@@ -2015,6 +2015,37 @@ body:not(.song-selected) .practice-view > * {
   font-size: var(--chart-size);
   line-height: 1.48;
   white-space: pre;
+}
+
+body.view-library.song-selected {
+  overflow: hidden;
+}
+
+.view-library .app-shell {
+  height: 100dvh;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.view-library .practice-view {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 100%;
+  min-height: 0;
+}
+
+.view-library .stage {
+  display: flex;
+  flex: 1;
+  height: auto;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.view-library .chart-panel {
+  flex: 1;
+  min-height: 0;
 }
 
 .chart-display .section-label {
@@ -2281,7 +2312,63 @@ body:not(.song-selected) .practice-view > * {
   }
 }
 
+@media (max-width: 980px) {
+  .view-library .app-shell {
+    grid-template-rows: minmax(0, 32vh) minmax(0, 1fr);
+  }
+
+  .view-library .artist-library,
+  .view-library .library {
+    height: 100%;
+    min-height: 0;
+    max-height: none;
+    overflow: hidden;
+  }
+
+  .view-library .practice-view {
+    grid-column: 1 / -1;
+  }
+
+  .view-library.sidebars-collapsed .app-shell {
+    grid-template-rows: minmax(0, 1fr);
+  }
+
+  .view-library.sidebars-collapsed .practice-view {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}
+
+@media (max-width: 620px) {
+  .view-library .app-shell {
+    grid-template-rows: minmax(0, 16vh) minmax(0, 29vh) minmax(0, 1fr);
+  }
+
+  .view-library.sidebars-collapsed .artist-library {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .sidebars-collapsed.song-selected .chart-display {
+    display: block;
+  }
+
+  .sidebars-collapsed.song-selected .chart-column + .chart-column {
+    border-left: 0;
+    padding-left: 0;
+  }
+}
+
 @media print {
+  .view-library .app-shell,
+  .view-library .practice-view,
+  .view-library .stage,
+  .view-library .chart-panel,
+  .view-library .chart-display {
+    height: auto;
+    max-height: none;
+    overflow: visible;
+  }
   .artist-library,
   .library,
   .header-actions,
