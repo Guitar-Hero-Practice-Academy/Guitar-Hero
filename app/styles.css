@@ -1984,6 +1984,20 @@ h3 {
   line-height: 1.34;
 }
 
+.sidebars-collapsed.song-selected .stage,
+.sidebars-collapsed.song-selected .chart-panel {
+  height: 100%;
+}
+
+.sidebars-collapsed.song-selected .stage {
+  display: flex;
+  overflow: hidden;
+}
+
+.sidebars-collapsed.song-selected .chart-panel {
+  flex: 1;
+}
+
 .sidebars-collapsed.song-selected .chart-column + .chart-column {
   border-left: 1px solid var(--line);
   padding-left: 1rem;

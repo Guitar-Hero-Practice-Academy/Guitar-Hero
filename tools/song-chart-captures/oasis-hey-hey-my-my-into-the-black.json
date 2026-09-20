@@ -1,0 +1,513 @@
+{
+  "schemaVersion": 1,
+  "songId": "oasis-hey-hey-my-my-into-the-black",
+  "source": {
+    "fileName": "hey hey my my tab.pdf",
+    "sha256": "e8f9c156fa71e3143edfaefdd2e38c1a8526f67dc8ff7763afbd6cf05a087cf7"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092402,
+      "cellWidth": 0.010266
+    },
+    {
+      "page": 2,
+      "originX": 0.092402,
+      "cellWidth": 0.010266
+    }
+  ],
+  "sections": [
+    {
+      "name": "Source notes",
+      "rows": [
+        {
+          "type": "note",
+          "text": "Submitted by Dotsey"
+        },
+        {
+          "type": "note",
+          "text": "OASIS"
+        },
+        {
+          "type": "note",
+          "text": "HEY HEY, MY MY (INTO THE BLACK)"
+        },
+        {
+          "type": "note",
+          "text": "music & lyrics by Neil Young"
+        },
+        {
+          "type": "note",
+          "text": "This is a classic Neil Young tune taken from the"
+        },
+        {
+          "type": "note",
+          "text": "\"Rust\" albums, tremendously covered by Oasis."
+        },
+        {
+          "type": "note",
+          "text": "It was played during the FTM 2000 World Tour."
+        },
+        {
+          "type": "note",
+          "text": "The RIFF is played throughout the song."
+        },
+        {
+          "type": "note",
+          "text": "Listen to the record for the proper timings."
+        }
+      ]
+    },
+    {
+      "name": "Riff",
+      "rows": [
+        {
+          "type": "image",
+          "text": "[[image:assets/oasis-hey-hey-my-my-riff.png|Oasis arrangement guitar riff tablature]]"
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092402
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.199179
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.37577
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Hey",
+              "sourceX": 0.110883
+            },
+            {
+              "text": "hey",
+              "sourceX": 0.199179
+            },
+            {
+              "text": "my",
+              "sourceX": 0.297741
+            },
+            {
+              "text": "my",
+              "sourceX": 0.36345
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092402
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.199179
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.37577
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Rock and roll will never die",
+              "sourceX": 0.110883
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.1705
+            },
+            {
+              "chord": "G6",
+              "sourceX": 0.308008
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.37577
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.523614
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "There's more to the picture, than meets the eye",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092402
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.195072
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.37577
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Hey",
+              "sourceX": 0.110883
+            },
+            {
+              "text": "hey",
+              "sourceX": 0.199179
+            },
+            {
+              "text": "my",
+              "sourceX": 0.297741
+            },
+            {
+              "text": "my",
+              "sourceX": 0.36345
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Riff",
+      "rows": [
+        {
+          "type": "image",
+          "text": "[[image:assets/oasis-hey-hey-my-my-riff.png|Oasis arrangement guitar riff tablature]]"
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092402
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.228
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.405
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Out of the blue and into the black",
+              "sourceX": 0.110883
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092402
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.238
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.455
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You pay for this but they give you that",
+              "sourceX": 0.110883
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.149
+            },
+            {
+              "chord": "G6",
+              "sourceX": 0.238
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.29
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.44
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "And when you die, you can't come back",
+              "sourceX": 0.112936
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092402
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.316
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.504
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "When yer out of the blue and into the black",
+              "sourceX": 0.110883
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Riff",
+      "rows": [
+        {
+          "type": "image",
+          "text": "[[image:assets/oasis-hey-hey-my-my-riff.png|Oasis arrangement guitar riff tablature]]"
+        }
+      ]
+    },
+    {
+      "name": "Verse 3",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092402
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.199179
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.37577
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Hey",
+              "sourceX": 0.110883
+            },
+            {
+              "text": "hey",
+              "sourceX": 0.199179
+            },
+            {
+              "text": "my",
+              "sourceX": 0.297741
+            },
+            {
+              "text": "my",
+              "sourceX": 0.36345
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092402
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.199179
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.37577
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Rock and roll can never die",
+              "sourceX": 0.110883
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.189
+            },
+            {
+              "chord": "G6",
+              "sourceX": 0.337
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.397
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.543
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "There's more to the picture, than meets the eye",
+              "sourceX": 0.104723
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.092402
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.199179
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.37577
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Hey",
+              "sourceX": 0.110883
+            },
+            {
+              "text": "hey",
+              "sourceX": 0.199179
+            },
+            {
+              "text": "my",
+              "sourceX": 0.297741
+            },
+            {
+              "text": "my",
+              "sourceX": 0.36345
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

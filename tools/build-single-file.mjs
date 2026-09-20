@@ -108,6 +108,8 @@ const scriptFiles = [
   "data/my-my-hey-hey-out-of-the-blue-coordinate.js",
   "data/hey-hey-my-my-into-the-black.js",
   "data/hey-hey-my-my-into-the-black-coordinate.js",
+  "data/oasis-hey-hey-my-my-into-the-black.js",
+  "data/oasis-hey-hey-my-my-into-the-black-coordinate.js",
   "data/the-irrationality-of-rationality-coordinate.js",
   "data/cleopatra-acoustic-layout.js",
   "data/cleopatra-coordinate.js",

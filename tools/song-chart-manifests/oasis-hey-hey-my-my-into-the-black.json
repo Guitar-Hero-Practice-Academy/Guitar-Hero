@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 1,
+  "songId": "oasis-hey-hey-my-my-into-the-black",
+  "contentRevision": 1,
+  "source": {
+    "fileName": "hey hey my my tab.pdf",
+    "sha256": "e8f9c156fa71e3143edfaefdd2e38c1a8526f67dc8ff7763afbd6cf05a087cf7"
+  },
+  "verification": {
+    "sourceChecked": true,
+    "browserChecked": true,
+    "checkedAt": "2026-09-20"
+  },
+  "chartHash": "38c29f0b1e9d884dd324220b357dbcbf099b064c75307be2856d2b8ff9d55014",
+  "sections": [
+    {
+      "name": "Source notes",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "c7d6dc849852991fb2b3256a64cf3fd8f14e8c554f2085943fdb67a7cdd44ef7"
+        },
+        {
+          "lineOffset": 1,
+          "hash": "5806d08834371746238aadf8e11e0017468e501b8dc1eb37c93f039ce2996c03"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "4891f8fd2c829f14aacc17a854117ad3269813bd92b0d609aae9f6430d64e9f2"
+        },
+        {
+          "lineOffset": 3,
+          "hash": "2ea5ec5d26dd0588e2b520d91e9caac6f6937ee939934d3d7df3c38cbcbf4ede"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "984d4fdaba24c557d9c110a2a045d730799e78c7614f9f136ebaa4008434d108"
+        },
+        {
+          "lineOffset": 5,
+          "hash": "9ab091b673ac2c2e85013f89859a792d5d6a9a00782e6fd12d768f635bac21e6"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "beae6cf0b2c2a8bebafa9f0d5e8691453395ee6a2bf17abe8beaf005047aa81a"
+        },
+        {
+          "lineOffset": 7,
+          "hash": "b0d5c1736d5e5d3037d2764b24e244610d1aeb237c14155ea3db03d846492e31"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "0f0a6ac62adf5b2f0be042aeedad46d6794db5ec1df4102fd9330390598226d6"
+        },
+        {
+          "lineOffset": 9,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Riff",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "552137bad3b462bcc88c86fa06da6caca49afaf156e1ced7bfc4917e1f86e8af"
+        },
+        {
+          "lineOffset": 1,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "1bab8abcf96af368b648600bd396ef858f8e311ecb8544f1d47299cb2aee2402",
+          "anchors": [
+            {
+              "chord": "Am",
+              "column": 0
+            },
+            {
+              "chord": "G",
+              "column": 10
+            },
+            {
+              "chord": "F",
+              "column": 28
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "14ae11745fbde373999c31b49336724d87de5be6ef276032d7fbf0994360b7af"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "1bab8abcf96af368b648600bd396ef858f8e311ecb8544f1d47299cb2aee2402",
+          "anchors": [
+            {
+              "chord": "Am",
+              "column": 0
+            },
+            {
+              "chord": "G",
+              "column": 10
+            },
+            {
+              "chord": "F",
+              "column": 28
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "37609a7a94200cf687a8ed72ba38e52a72f73f4f87caf349b2f454518755a425"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "496aa23baa8010c02c785efae12bb8cae5337b8a099bc08a3a7f367e409c9a82",
+          "anchors": [
+            {
+              "chord": "C",
+              "column": 8
+            },
+            {
+              "chord": "G6",
+              "column": 21
+            },
+            {
+              "chord": "Am",
+              "column": 28
+            },
+            {
+              "chord": "F",
+              "column": 42
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "bb2385338950a0ffc43f7c28eb1ce76d142417eccaf08364337d4d6ccbdc181e"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "1bab8abcf96af368b648600bd396ef858f8e311ecb8544f1d47299cb2aee2402",
+          "anchors": [
+            {
+              "chord": "Am",
+              "column": 0
+            },
+            {
+              "chord": "G",
+              "column": 10
+            },
+            {
+              "chord": "F",
+              "column": 28
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "14ae11745fbde373999c31b49336724d87de5be6ef276032d7fbf0994360b7af"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Riff",
+      "occurrence": 2,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "552137bad3b462bcc88c86fa06da6caca49afaf156e1ced7bfc4917e1f86e8af"
+        },
+        {
+          "lineOffset": 1,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "9883dd40dcc02eb514205f07b9d76daf4c283ba38321cc3f6bd68324d5b26be0",
+          "anchors": [
+            {
+              "chord": "Am",
+              "column": 0
+            },
+            {
+              "chord": "G",
+              "column": 13
+            },
+            {
+              "chord": "F",
+              "column": 30
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "90d39e883725bd7037386083ddd5c353dc520836ea250e0ddbef2014e949106d"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "df745c7e653d82ef5773052a935e8d88d1a6d4da551ba9e1aa43ff16066b4aaf",
+          "anchors": [
+            {
+              "chord": "Am",
+              "column": 0
+            },
+            {
+              "chord": "G",
+              "column": 14
+            },
+            {
+              "chord": "F",
+              "column": 35
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "f904623a0c9645da094dede53817d8fd4ff13d37c4d050cacc641425381ee437"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "f35e8002585a6d8f5f246e37140053aec0d0a357083620338a97e0b0a82ce402",
+          "anchors": [
+            {
+              "chord": "C",
+              "column": 6
+            },
+            {
+              "chord": "G6",
+              "column": 14
+            },
+            {
+              "chord": "Am",
+              "column": 19
+            },
+            {
+              "chord": "F",
+              "column": 34
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "07e2b330bd8f9bebaaff069bb3d0109962cd3e09aa6e9dc4864ebe0780c2ba4d"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "e6e36b148fbee0c8f76021f6e3983465572eb71486cc40033ad47548777b04a6",
+          "anchors": [
+            {
+              "chord": "Am",
+              "column": 0
+            },
+            {
+              "chord": "G",
+              "column": 22
+            },
+            {
+              "chord": "F",
+              "column": 40
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "2a8ed33fbf5bcea1c8f0e81a532ee2650bec4fb9b0cc9cfb1cfe88bdcf2239d9"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Riff",
+      "occurrence": 3,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "552137bad3b462bcc88c86fa06da6caca49afaf156e1ced7bfc4917e1f86e8af"
+        },
+        {
+          "lineOffset": 1,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "Verse 3",
+      "occurrence": 1,
+      "lines": [
+        {
+          "lineOffset": 0,
+          "hash": "1bab8abcf96af368b648600bd396ef858f8e311ecb8544f1d47299cb2aee2402",
+          "anchors": [
+            {
+              "chord": "Am",
+              "column": 0
+            },
+            {
+              "chord": "G",
+              "column": 10
+            },
+            {
+              "chord": "F",
+              "column": 28
+            }
+          ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "14ae11745fbde373999c31b49336724d87de5be6ef276032d7fbf0994360b7af"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "1bab8abcf96af368b648600bd396ef858f8e311ecb8544f1d47299cb2aee2402",
+          "anchors": [
+            {
+              "chord": "Am",
+              "column": 0
+            },
+            {
+              "chord": "G",
+              "column": 10
+            },
+            {
+              "chord": "F",
+              "column": 28
+            }
+          ]
+        },
+        {
+          "lineOffset": 3,
+          "hash": "76c3a059ad1ae98119893bf1ee6ff077922718d5ff5c08d823c9b4b51115ed92"
+        },
+        {
+          "lineOffset": 4,
+          "hash": "a234361df4370505ad1cba4bab7d696e79cb47ba5b00950b4df9abae04d662bd",
+          "anchors": [
+            {
+              "chord": "C",
+              "column": 9
+            },
+            {
+              "chord": "G6",
+              "column": 24
+            },
+            {
+              "chord": "Am",
+              "column": 30
+            },
+            {
+              "chord": "F",
+              "column": 44
+            }
+          ]
+        },
+        {
+          "lineOffset": 5,
+          "hash": "7e09ad044017d25bc59e868de9c0600e3fd9ca37b62db4a212ec57c8ff316d7f"
+        },
+        {
+          "lineOffset": 6,
+          "hash": "1bab8abcf96af368b648600bd396ef858f8e311ecb8544f1d47299cb2aee2402",
+          "anchors": [
+            {
+              "chord": "Am",
+              "column": 0
+            },
+            {
+              "chord": "G",
+              "column": 10
+            },
+            {
+              "chord": "F",
+              "column": 28
+            }
+          ]
+        },
+        {
+          "lineOffset": 7,
+          "hash": "14ae11745fbde373999c31b49336724d87de5be6ef276032d7fbf0994360b7af"
+        }
+      ]
+    }
+  ]
+}
