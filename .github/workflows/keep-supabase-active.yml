@@ -1,0 +1,28 @@
+name: Keep Supabase Active
+
+on:
+  schedule:
+    # 12:17 PM Australia/Brisbane (02:17 UTC) every day.
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Query Academy progress
+        env:
+          SUPABASE_URL: https://mawvvfdnbajviwwjvvfp.supabase.co
+          SUPABASE_PUBLISHABLE_KEY: sb_publishable_2alOOVmVCDFC2gZ16o80XQ_mCCifPYh
+        run: |
+          curl --fail-with-body --silent --show-error \
+            --retry 3 \
+            --max-time 30 \
+            --output /dev/null \
+            --header "apikey: ${SUPABASE_PUBLISHABLE_KEY}" \
+            --header "Authorization: Bearer ${SUPABASE_PUBLISHABLE_KEY}" \
+            "${SUPABASE_URL}/rest/v1/academy_progress?select=user_id&limit=1"
