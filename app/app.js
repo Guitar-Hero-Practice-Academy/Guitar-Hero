@@ -1806,7 +1806,7 @@ function renderExerciseDetail() {
   const nextActionLabel = isLastExercise ? "Go to Checkpoint" : "Next Exercise";
   const commonMistakes = exercise.commonMistakes || [];
   const chordDiagrams = chordDiagramsForExercise(exercise);
-  const useHeaderChords = chordDiagrams.length === 1;
+  const useHeaderChords = chordDiagrams.length > 0 && chordDiagrams.length <= 4;
   const bpm = exerciseBpm(exercise);
 
   els.exerciseLessonName.textContent = `${mission.title} · ${lesson.title}`;
