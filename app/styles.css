@@ -835,10 +835,11 @@ button:hover,
 
 .header-chord-diagrams {
   flex: 0 1 auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(5.2rem, 5.2rem);
   justify-content: center;
   gap: 0.5rem;
-  max-width: min(100%, 34rem);
+  max-width: min(100%, 5.2rem);
 }
 
 .header-chord-diagrams.hidden {
@@ -959,6 +960,13 @@ textarea,
   font-weight: 900;
 }
 
+.save-practice-notes-button {
+  justify-self: start;
+  min-width: 9rem;
+  min-height: 2.65rem;
+  font-weight: 900;
+}
+
 .timer-display {
   display: grid;
   place-items: center;
@@ -1015,7 +1023,7 @@ textarea,
 
 .exercise-chord-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(112px, 128px));
+  grid-template-columns: minmax(112px, 128px);
   justify-content: center;
   gap: 0.75rem;
   width: 100%;
@@ -1938,7 +1946,8 @@ h3 {
 
 .chord-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(86px, 1fr));
+  grid-template-columns: minmax(86px, 110px);
+  justify-content: center;
   gap: 0.7rem;
 }
 

@@ -38,7 +38,6 @@ const state = {
   timerRunning: false,
   timerInterval: null,
   timerComplete: false,
-  exerciseNotesSaveTimer: null,
   metronomeExerciseId: null,
   metronomeBpm: null,
   metronomeRunning: false,
@@ -152,6 +151,7 @@ const els = {
   exercisePrimaryActionButton: document.getElementById("exercisePrimaryActionButton"),
   exerciseCompletionStatus: document.getElementById("exerciseCompletionStatus"),
   exerciseNotesInput: document.getElementById("exerciseNotesInput"),
+  saveExerciseNotesButton: document.getElementById("saveExerciseNotesButton"),
   exerciseNotesStatus: document.getElementById("exerciseNotesStatus"),
   checkpointAssessmentCard: document.getElementById("checkpointAssessmentCard"),
   checkpointTitle: document.getElementById("checkpointTitle"),
@@ -287,8 +287,8 @@ els.resetMetronomeButton.addEventListener("click", resetMetronome);
 els.nailedItButton.addEventListener("click", markCurrentExerciseNailed);
 els.needsPracticeButton.addEventListener("click", markCurrentExerciseNeedsPractice);
 els.exercisePrimaryActionButton.addEventListener("click", goToNextExercise);
-els.exerciseNotesInput.addEventListener("input", queueExerciseNotesAutosave);
-els.exerciseNotesInput.addEventListener("blur", saveCurrentExerciseNotes);
+els.exerciseNotesInput.addEventListener("input", markExerciseNotesUnsaved);
+els.saveExerciseNotesButton.addEventListener("click", saveCurrentExerciseNotes);
 document.querySelector(".assessment-options").addEventListener("click", async (event) => {
   const button = event.target.closest("[data-assessment]");
   if (!button) return;
@@ -361,9 +361,6 @@ const chartSizeObserver = new ResizeObserver(scheduleChartAutoSize);
 chartSizeObserver.observe(document.querySelector(".chart-panel"));
 
 function setView(view, id = null) {
-  if (state.view === "exercise" && view !== "exercise") {
-    saveCurrentExerciseNotes({ silent: true });
-  }
   if (view !== "exercise") {
     pauseExerciseTimer();
     pauseMetronome();
@@ -1809,7 +1806,7 @@ function renderExerciseDetail() {
   const nextActionLabel = isLastExercise ? "Go to Checkpoint" : "Next Exercise";
   const commonMistakes = exercise.commonMistakes || [];
   const chordDiagrams = chordDiagramsForExercise(exercise);
-  const useHeaderChords = chordDiagrams.length > 0 && chordDiagrams.length <= 4;
+  const useHeaderChords = chordDiagrams.length === 1;
   const bpm = exerciseBpm(exercise);
 
   els.exerciseLessonName.textContent = `${mission.title} · ${lesson.title}`;
@@ -1856,7 +1853,9 @@ function renderExerciseDetail() {
   const savedNote = getProgress().exerciseNotes.get(exercise.id) || "";
   els.exerciseNotesInput.value = savedNote;
   els.exerciseNotesStatus.textContent = state.exerciseNotesMessage;
-  els.exerciseNotesStatus.classList.toggle("complete", Boolean(state.exerciseNotesMessage));
+  els.exerciseNotesStatus.classList.toggle("complete", state.exerciseNotesMessage === "Saved");
+  els.exerciseNotesStatus.classList.toggle("error", state.exerciseNotesMessage === "Could not save");
+  els.saveExerciseNotesButton.disabled = !["Unsaved changes", "Could not save"].includes(state.exerciseNotesMessage);
   els.previousExerciseButton.classList.toggle("hidden", isFirstExercise);
   els.previousExerciseButton.disabled = isFirstExercise;
   els.nextExerciseButton.textContent = nextActionLabel;
@@ -1983,7 +1982,6 @@ function goToNextExercise() {
   const lesson = currentLesson();
   const exercise = currentExercise();
   if (!lesson?.exercises?.length || !exercise) return;
-  saveCurrentExerciseNotes({ silent: true });
   const index = lesson.exercises.indexOf(exercise.id);
   if (index >= lesson.exercises.length - 1) {
     setView("checkpoint", lesson.checkpoint);
@@ -2006,7 +2004,6 @@ function goToPreviousExercise() {
 async function markCurrentExerciseNailed() {
   const exercise = currentExercise();
   if (!exercise) return;
-  await saveCurrentExerciseNotes({ silent: true });
   await markExerciseComplete(exercise.id);
   render();
 }
@@ -2014,30 +2011,27 @@ async function markCurrentExerciseNailed() {
 async function markCurrentExerciseNeedsPractice() {
   const exercise = currentExercise();
   if (!exercise) return;
-  await saveCurrentExerciseNotes({ silent: true });
   await markExerciseForReview(exercise.id);
   render();
 }
 
-function queueExerciseNotesAutosave() {
-  if (state.exerciseNotesSaveTimer) window.clearTimeout(state.exerciseNotesSaveTimer);
-  state.exerciseNotesMessage = "Saving...";
+function markExerciseNotesUnsaved() {
+  state.exerciseNotesMessage = "Unsaved changes";
   els.exerciseNotesStatus.textContent = state.exerciseNotesMessage;
-  state.exerciseNotesSaveTimer = window.setTimeout(() => {
-    saveCurrentExerciseNotes();
-  }, 650);
+  els.exerciseNotesStatus.classList.remove("complete", "error");
+  els.saveExerciseNotesButton.disabled = false;
 }
 
-async function saveCurrentExerciseNotes(options = {}) {
+async function saveCurrentExerciseNotes() {
   const exercise = currentExercise();
   if (!exercise) return;
-  if (state.exerciseNotesSaveTimer) {
-    window.clearTimeout(state.exerciseNotesSaveTimer);
-    state.exerciseNotesSaveTimer = null;
-  }
-  await saveExerciseNote(exercise.id, els.exerciseNotesInput.value);
-  state.exerciseNotesMessage = "Saved";
-  if (!options.silent) render();
+  const note = els.exerciseNotesInput.value;
+  els.saveExerciseNotesButton.disabled = true;
+  state.exerciseNotesMessage = "Saving...";
+  els.exerciseNotesStatus.textContent = state.exerciseNotesMessage;
+  const result = await saveExerciseNote(exercise.id, note);
+  state.exerciseNotesMessage = result ? "Saved" : "Could not save";
+  render();
 }
 
 async function saveCurrentLessonReflection() {
