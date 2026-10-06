@@ -1061,7 +1061,7 @@ textarea,
   width: 104px;
   height: 142px;
   margin: -19px 19px;
-  transform: rotate(90deg);
+  transform: rotate(270deg);
   transform-origin: center;
 }
 
@@ -1968,7 +1968,7 @@ h3 {
   width: 78px;
   height: 96px;
   margin: 0 auto;
-  transform: rotate(90deg);
+  transform: rotate(270deg);
   transform-origin: center;
 }
 

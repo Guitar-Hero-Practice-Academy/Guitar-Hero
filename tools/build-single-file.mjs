@@ -119,6 +119,8 @@ const scriptFiles = [
   "data/george-ezra-green-green-grass-coordinate.js",
   "data/fanning-dempsey-national-park-disconnect.js",
   "data/fanning-dempsey-national-park-disconnect-coordinate.js",
+  "data/coldplay-dont-panic.js",
+  "data/coldplay-dont-panic-coordinate.js",
   "data/the-irrationality-of-rationality-coordinate.js",
   "data/cleopatra-acoustic-layout.js",
   "data/cleopatra-coordinate.js",

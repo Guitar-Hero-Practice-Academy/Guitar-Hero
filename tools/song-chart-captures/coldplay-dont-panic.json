@@ -1,0 +1,636 @@
+{
+  "schemaVersion": 1,
+  "songId": "coldplay-dont-panic",
+  "source": {
+    "fileName": "dont panic chords.pdf",
+    "sha256": "e589f4469bfb10cf32c261b588b3e6b66cb7d317bb3bba029f1255cb10465321"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.095994,
+      "cellWidth": 0.009826
+    },
+    {
+      "page": 2,
+      "originX": 0.095994,
+      "cellWidth": 0.009826
+    }
+  ],
+  "sections": [
+    {
+      "name": "Source notes",
+      "rows": [
+        {
+          "type": "note",
+          "text": "Difficulty: intermediate"
+        },
+        {
+          "type": "note",
+          "text": "Tuning: E A D G B E"
+        },
+        {
+          "type": "note",
+          "text": "Key: F"
+        },
+        {
+          "type": "note",
+          "text": "Main pattern: 122 bpm"
+        },
+        {
+          "type": "note",
+          "text": "Extended pattern: 122 bpm"
+        },
+        {
+          "type": "note",
+          "text": "Tabbed By: Liran Matatof"
+        }
+      ]
+    },
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.7541,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.09675
+            },
+            {
+              "chord": "Fmaj9",
+              "sourceX": 0.154951
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.8028,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095238
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.292517
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Bones, sinking like stones",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.8354,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.223734
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "All that we fought for",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.868,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095238
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.292517
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "Homes, places we've grown",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.9001,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.223734
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "All of us are done for",
+              "sourceX": 0.095994
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.0652,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.09675
+            },
+            {
+              "chord": "Dm6",
+              "sourceX": 0.283447
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.458806
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "  And we live in a beautiful world",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.0978,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.136054
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "      Yeah we do, yeah we do",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.1304,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.09675
+            },
+            {
+              "chord": "Dm6",
+              "sourceX": 0.283447
+            },
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.411187
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "  We live in a beautiful world",
+              "sourceX": 0.095994
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.1951,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095994
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.292517
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Bones, sinking like stones",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.2272,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.223734
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "All that we fought for",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.2598,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095238
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.292517
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Homes, places we've grown",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.2918,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.223734
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "All of us are done for",
+              "sourceX": 0.095994
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.357,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.09675
+            },
+            {
+              "chord": "Dm6",
+              "sourceX": 0.283447
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.458806
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "  And we live in a beautiful world",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.3896,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.136054
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "      Yeah we do, yeah we do",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.4217,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.09675
+            },
+            {
+              "chord": "Dm6",
+              "sourceX": 0.283447
+            },
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.411187
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "  We live in a beautiful world",
+              "sourceX": 0.095994
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Interlude",
+      "rows": [
+        {
+          "type": "note",
+          "text": "| Am | C | Fmaj7 | Fmaj7 | x2"
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.535,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.09675
+            },
+            {
+              "chord": "Dm6",
+              "sourceX": 0.283447
+            },
+            {
+              "chord": "Am",
+              "sourceX": 0.458806
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "  And we live in a beautiful world",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.5676,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.136054
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "      Yeah we do, yeah we do",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.6002,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Dm",
+              "sourceX": 0.09675
+            },
+            {
+              "chord": "Dm6",
+              "sourceX": 0.283447
+            },
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.411187
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "  We live in a beautiful world",
+              "sourceX": 0.095994
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Interlude",
+      "rows": [
+        {
+          "type": "note",
+          "text": "| Am | C | Fmaj7 | Fmaj7 | x2"
+        }
+      ]
+    },
+    {
+      "name": "Outro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.7135,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.095994
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.243386
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Oh, all that I know",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.7461,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.332577
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "There's nothing here to run from",
+              "sourceX": 0.095994
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.7782,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Am",
+              "sourceX": 0.11489
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.292517
+            },
+            {
+              "chord": "Fmaj7",
+              "sourceX": 0.498866
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Cos yeah, everybody here got somebody to lean on",
+              "sourceX": 0.095994
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
