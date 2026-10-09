@@ -33,37 +33,41 @@
         {
           "type": "chords",
           "page": 1,
-          "expectedChordCount": 6,
+          "expectedChordCount": 8,
           "anchors": [
             {
               "chord": "C",
-              "sourceX": 0.092
+              "sourceX": 0.092402
             },
             {
               "chord": "G",
-              "sourceX": 0.113
+              "sourceX": 0.112936
             },
             {
               "chord": "F",
-              "sourceX": 0.132
+              "sourceX": 0.13347
+            },
+            {
+              "chord": "-",
+              "sourceX": 0.154004
             },
             {
               "chord": "F",
-              "sourceX": 0.171
+              "sourceX": 0.174538
             },
             {
               "chord": "C",
-              "sourceX": 0.191
+              "sourceX": 0.195072
             },
             {
               "chord": "G",
-              "sourceX": 0.21
+              "sourceX": 0.215606
+            },
+            {
+              "chord": "x2",
+              "sourceX": 0.23614
             }
           ]
-        },
-        {
-          "type": "note",
-          "text": "x2"
         }
       ]
     },
@@ -102,15 +106,19 @@
         {
           "type": "chords",
           "page": 1,
-          "expectedChordCount": 2,
+          "expectedChordCount": 3,
           "anchors": [
             {
               "chord": "F",
-              "sourceX": 0.092
+              "sourceX": 0.102669
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.205339
             },
             {
               "chord": "G",
-              "sourceX": 0.267
+              "sourceX": 0.328543
             }
           ]
         },
@@ -131,15 +139,15 @@
           "anchors": [
             {
               "chord": "C",
-              "sourceX": 0.092
+              "sourceX": 0.154004
             },
             {
               "chord": "G",
-              "sourceX": 0.267
+              "sourceX": 0.277208
             },
             {
               "chord": "F",
-              "sourceX": 0.396
+              "sourceX": 0.410679
             }
           ]
         },
@@ -156,19 +164,23 @@
         {
           "type": "chords",
           "page": 1,
-          "expectedChordCount": 3,
+          "expectedChordCount": 4,
           "anchors": [
             {
               "chord": "F",
-              "sourceX": 0.092
+              "sourceX": 0.143737
             },
             {
               "chord": "C",
-              "sourceX": 0.515
+              "sourceX": 0.277208
             },
             {
               "chord": "G",
-              "sourceX": 0.603
+              "sourceX": 0.431213
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.667354
             }
           ]
         },
@@ -349,15 +361,19 @@
         {
           "type": "chords",
           "page": 2,
-          "expectedChordCount": 2,
+          "expectedChordCount": 3,
           "anchors": [
             {
               "chord": "Am",
               "sourceX": 0.177
             },
             {
+              "chord": "C",
+              "sourceX": 0.297742
+            },
+            {
               "chord": "F",
-              "sourceX": 0.39
+              "sourceX": 0.400412
             }
           ]
         },
@@ -416,11 +432,11 @@
             },
             {
               "chord": "G",
-              "sourceX": 0.187
+              "sourceX": 0.195072
             },
             {
               "chord": "F",
-              "sourceX": 0.298
+              "sourceX": 0.308009
             }
           ]
         },
@@ -437,11 +453,19 @@
         {
           "type": "chords",
           "page": 2,
-          "expectedChordCount": 1,
+          "expectedChordCount": 3,
           "anchors": [
             {
               "chord": "F",
-              "sourceX": 0.092
+              "sourceX": 0.123203
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.256674
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.379878
             }
           ]
         },
@@ -466,11 +490,11 @@
             },
             {
               "chord": "G",
-              "sourceX": 0.275
+              "sourceX": 0.287475
             },
             {
               "chord": "F",
-              "sourceX": 0.396
+              "sourceX": 0.410679
             }
           ]
         },
@@ -487,19 +511,23 @@
         {
           "type": "chords",
           "page": 2,
-          "expectedChordCount": 3,
+          "expectedChordCount": 4,
           "anchors": [
             {
               "chord": "F",
-              "sourceX": 0.133
+              "sourceX": 0.13347
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.287475
             },
             {
               "chord": "G",
-              "sourceX": 0.388
+              "sourceX": 0.400412
             },
             {
               "chord": "F",
-              "sourceX": 0.634
+              "sourceX": 0.657087
             }
           ]
         },
@@ -718,15 +746,15 @@
           "anchors": [
             {
               "chord": "C",
-              "sourceX": 0.265
+              "sourceX": 0.277208
             },
             {
               "chord": "G",
-              "sourceX": 0.308
+              "sourceX": 0.318276
             },
             {
               "chord": "F",
-              "sourceX": 0.355
+              "sourceX": 0.369611
             }
           ]
         },
@@ -747,7 +775,7 @@
           "anchors": [
             {
               "chord": "F",
-              "sourceX": 0.092
+              "sourceX": 0.277208
             }
           ]
         },
@@ -764,23 +792,27 @@
         {
           "type": "chords",
           "page": 2,
-          "expectedChordCount": 4,
+          "expectedChordCount": 5,
           "anchors": [
             {
+              "chord": "C",
+              "sourceX": 0.092402
+            },
+            {
               "chord": "G",
-              "sourceX": 0.242
+              "sourceX": 0.246407
             },
             {
               "chord": "C",
-              "sourceX": 0.32
+              "sourceX": 0.328543
             },
             {
               "chord": "G",
-              "sourceX": 0.357
+              "sourceX": 0.369611
             },
             {
               "chord": "F",
-              "sourceX": 0.398
+              "sourceX": 0.410679
             }
           ]
         },
@@ -801,7 +833,7 @@
           "anchors": [
             {
               "chord": "F",
-              "sourceX": 0.269
+              "sourceX": 0.277208
             }
           ]
         },
@@ -826,7 +858,7 @@
             },
             {
               "chord": "G",
-              "sourceX": 0.253
+              "sourceX": 0.266941
             }
           ]
         },
@@ -848,11 +880,15 @@
         {
           "type": "chords",
           "page": 3,
-          "expectedChordCount": 1,
+          "expectedChordCount": 2,
           "anchors": [
             {
+              "chord": "Em",
+              "sourceX": 0.215606
+            },
+            {
               "chord": "Am",
-              "sourceX": 0.45
+              "sourceX": 0.472281
             }
           ]
         },
@@ -890,11 +926,15 @@
         {
           "type": "chords",
           "page": 3,
-          "expectedChordCount": 1,
+          "expectedChordCount": 2,
           "anchors": [
             {
+              "chord": "C",
+              "sourceX": 0.13347
+            },
+            {
               "chord": "Am",
-              "sourceX": 0.349
+              "sourceX": 0.359344
             }
           ]
         },
@@ -919,7 +959,7 @@
             },
             {
               "chord": "F",
-              "sourceX": 0.31
+              "sourceX": 0.318276
             }
           ]
         },
@@ -934,6 +974,25 @@
           ]
         },
         {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.215606
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.318276
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.420946
+            }
+          ]
+        },
+        {
           "type": "lyrics",
           "page": 3,
           "fragments": [
@@ -944,12 +1003,50 @@
           ]
         },
         {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.184805
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.287475
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.369611
+            }
+          ]
+        },
+        {
           "type": "lyrics",
           "page": 3,
           "fragments": [
             {
               "text": "Like a stumbling ghost I haunt this hall",
               "sourceX": 0.092
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.215606
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.308009
+            },
+            {
+              "chord": "F",
+              "sourceX": 0.431213
             }
           ]
         },
@@ -966,15 +1063,23 @@
         {
           "type": "chords",
           "page": 3,
-          "expectedChordCount": 2,
+          "expectedChordCount": 4,
           "anchors": [
             {
               "chord": "F",
-              "sourceX": 0.172
+              "sourceX": 0.174538
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.266941
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.379878
             },
             {
               "chord": "F",
-              "sourceX": 0.585
+              "sourceX": 0.605752
             }
           ]
         },
@@ -1004,7 +1109,7 @@
             },
             {
               "chord": "F",
-              "sourceX": 0.298
+              "sourceX": 0.308009
             }
           ]
         },
@@ -1067,15 +1172,19 @@
         {
           "type": "chords",
           "page": 3,
-          "expectedChordCount": 2,
+          "expectedChordCount": 3,
           "anchors": [
             {
               "chord": "Am",
               "sourceX": 0.189
             },
             {
+              "chord": "C",
+              "sourceX": 0.297742
+            },
+            {
               "chord": "F",
-              "sourceX": 0.359
+              "sourceX": 0.369611
             }
           ]
         },
@@ -1122,15 +1231,15 @@
           "anchors": [
             {
               "chord": "C",
-              "sourceX": 0.269
+              "sourceX": 0.277208
             },
             {
               "chord": "G",
-              "sourceX": 0.309
+              "sourceX": 0.318276
             },
             {
               "chord": "F",
-              "sourceX": 0.349
+              "sourceX": 0.369611
             }
           ]
         },
@@ -1151,7 +1260,7 @@
           "anchors": [
             {
               "chord": "F",
-              "sourceX": 0.251
+              "sourceX": 0.266941
             }
           ]
         },
@@ -1168,19 +1277,27 @@
         {
           "type": "chords",
           "page": 3,
-          "expectedChordCount": 3,
+          "expectedChordCount": 5,
           "anchors": [
             {
               "chord": "C",
-              "sourceX": 0.31
+              "sourceX": 0.092402
             },
             {
               "chord": "G",
-              "sourceX": 0.33
+              "sourceX": 0.246407
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.328543
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.359344
             },
             {
               "chord": "F",
-              "sourceX": 0.35
+              "sourceX": 0.400412
             }
           ]
         },
@@ -1201,7 +1318,7 @@
           "anchors": [
             {
               "chord": "F",
-              "sourceX": 0.269
+              "sourceX": 0.277208
             }
           ]
         },
@@ -1218,11 +1335,15 @@
         {
           "type": "chords",
           "page": 3,
-          "expectedChordCount": 1,
+          "expectedChordCount": 2,
           "anchors": [
             {
+              "chord": "C",
+              "sourceX": 0.123203
+            },
+            {
               "chord": "G",
-              "sourceX": 0.255
+              "sourceX": 0.266941
             }
           ]
         },
@@ -1248,15 +1369,15 @@
           "anchors": [
             {
               "chord": "C",
-              "sourceX": 0.269
+              "sourceX": 0.277208
             },
             {
               "chord": "G",
-              "sourceX": 0.289
+              "sourceX": 0.318276
             },
             {
               "chord": "F",
-              "sourceX": 0.309
+              "sourceX": 0.369611
             }
           ]
         },
@@ -1281,23 +1402,23 @@
             },
             {
               "chord": "C",
-              "sourceX": 0.112
+              "sourceX": 0.123203
             },
             {
               "chord": "G",
-              "sourceX": 0.132
+              "sourceX": 0.143737
             },
             {
               "chord": "C",
-              "sourceX": 0.152
+              "sourceX": 0.184805
             },
             {
               "chord": "G",
-              "sourceX": 0.172
+              "sourceX": 0.225873
             },
             {
               "chord": "F",
-              "sourceX": 0.192
+              "sourceX": 0.266941
             }
           ]
         },

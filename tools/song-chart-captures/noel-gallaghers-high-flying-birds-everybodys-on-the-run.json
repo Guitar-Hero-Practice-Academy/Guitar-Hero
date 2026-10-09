@@ -32,7 +32,7 @@
       { "type": "lyrics", "page": 1, "fragments": [{ "text": "You can't fight the feeling,", "sourceX": 0.092402 }] },
       { "type": "chords", "page": 1, "expectedChordCount": 2, "anchors": [{ "chord": "G", "sourceX": 0.092402 }, { "chord": "Dsus2", "sourceX": 0.332485 }] },
       { "type": "lyrics", "page": 1, "fragments": [{ "text": "And all is the same, the pouring rain, you know, you know.", "sourceX": 0.092402 }] },
-      { "type": "chords", "page": 1, "expectedChordCount": 1, "anchors": [{ "chord": "Asus2", "sourceX": 0.092402 }] },
+      { "type": "chords", "page": 1, "expectedChordCount": 2, "anchors": [{ "chord": "Asus2", "sourceX": 0.092402 }, { "chord": "Am7", "sourceX": 0.318275 }] },
       { "type": "lyrics", "page": 1, "fragments": [{ "text": "Is coming out of the ceiling,", "sourceX": 0.092402 }] },
       { "type": "chords", "page": 1, "expectedChordCount": 1, "anchors": [{ "chord": "G", "sourceX": 0.092402 }] },
       { "type": "lyrics", "page": 1, "fragments": [{ "text": "Falling from above,", "sourceX": 0.092402 }] },
@@ -75,7 +75,7 @@
       { "type": "lyrics", "page": 2, "fragments": [{ "text": "You know, you know they don't.", "sourceX": 0.094456 }] },
       { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "Asus2", "sourceX": 0.092402 }, { "chord": "Am7", "sourceX": 0.316222 }] },
       { "type": "lyrics", "page": 2, "fragments": [{ "text": "But you can't find the meaning,", "sourceX": 0.092402 }] },
-      { "type": "chords", "page": 2, "expectedChordCount": 1, "anchors": [{ "chord": "Dsus2", "sourceX": 0.254485 }] },
+      { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "G", "sourceX": 0.094456 }, { "chord": "Dsus2", "sourceX": 0.254485 }] },
       { "type": "lyrics", "page": 2, "fragments": [{ "text": "Sing to yourself and hold on.", "sourceX": 0.092402 }] },
       { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [{ "chord": "Asus2", "sourceX": 0.149865 }, { "chord": "Asus2", "sourceX": 0.355147 }] },
       { "type": "lyrics", "page": 2, "fragments": [{ "text": "Cause everybody's on the run (everybody's on the run)", "sourceX": 0.092402 }] }

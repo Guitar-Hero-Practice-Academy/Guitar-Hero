@@ -120,7 +120,8 @@ I'm ready now
       { name: "G", frets: "320003", fingers: "21 3" },
       { name: "F", frets: "133211", fingers: "342111" },
       { name: "Am", frets: "x02210", fingers: "231" },
-      { name: "Dm", frets: "xx0231", fingers: "231" }
+      { name: "Dm", frets: "xx0231", fingers: "231" },
+      { name: "Em", frets: "022000", fingers: "12" }
     ],
     strumming: [
       { name: "Whole song", bpm: "", beats: ["D", "", "D", "U", "", "U", "D", "U"], accents: [0, 4], chordRun: "C  G  F", note: "Capo 1st fret. Keep the chorus driving and the verses broad." }

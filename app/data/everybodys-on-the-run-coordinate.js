@@ -3,7 +3,7 @@ const everybodysOnTheRunCoordinateSong = window.initialSongs.find(
 );
 
 if (everybodysOnTheRunCoordinateSong) {
-  everybodysOnTheRunCoordinateSong.contentRevision = 1;
+  everybodysOnTheRunCoordinateSong.contentRevision = 2;
   everybodysOnTheRunCoordinateSong.chart = `[Notes]
 (Standard Tuning) (Capo 3)
 
@@ -16,7 +16,7 @@ Asus2              Am7
 You can't fight the feeling,
 G                      Dsus2
 And all is the same, the pouring rain, you know, you know.
-Asus2
+Asus2                 Am7
 Is coming out of the ceiling,
 G
 Falling from above,
@@ -59,7 +59,7 @@ But they don't belong to you..
 You know, you know they don't.
 Asus2                 Am7
 But you can't find the meaning,
-                Dsus2
+G               Dsus2
 Sing to yourself and hold on.
       Asus2               Asus2
 Cause everybody's on the run (everybody's on the run)

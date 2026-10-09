@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "songId": "noel-gallaghers-high-flying-birds-everybodys-on-the-run",
-  "contentRevision": 1,
+  "contentRevision": 2,
   "source": {
     "fileName": "everybodys on the run chords.pdf",
     "sha256": "f2fc37fd57ca9772da08afeee9ba5adb0fbcf52c1a638dcb47a53dc4a3a5dc48"
@@ -9,9 +9,9 @@
   "verification": {
     "sourceChecked": true,
     "browserChecked": true,
-    "checkedAt": "2026-08-29"
+    "checkedAt": "2026-10-09"
   },
-  "chartHash": "f1ae598b036500c62a8696d1fabd10e5ed23058e3f33cd9d41f12b911de07bbc",
+  "chartHash": "fa452ef1c50214bae21bdf408a777ebf8fceed6a2db3c1a39ddc7270b9439721",
   "sections": [
     {
       "name": "Notes",
@@ -105,11 +105,15 @@
         },
         {
           "lineOffset": 4,
-          "hash": "5eccd58c27cc204e6c6e67681a1db25479975a89e0a7cd09cd5065cfe9d50689",
+          "hash": "68552b8725d018bcb707dea519f8aef735fe7a6c1b2bb2b16d8a7fadd10aa930",
           "anchors": [
             {
               "chord": "Asus2",
               "column": 0
+            },
+            {
+              "chord": "Am7",
+              "column": 22
             }
           ]
         },
@@ -439,8 +443,12 @@
         },
         {
           "lineOffset": 9,
-          "hash": "23329454eefd9b577537faaa4dd6861dc686c008364391ebd63f2e7894ea9e60",
+          "hash": "3db81e6ed61ef5cd8d980cb2d50476a99a83a1c1f47fb54da0e6c80897574302",
           "anchors": [
+            {
+              "chord": "G",
+              "column": 0
+            },
             {
               "chord": "Dsus2",
               "column": 16
