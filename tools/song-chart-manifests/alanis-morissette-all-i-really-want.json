@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "songId": "alanis-morissette-all-i-really-want",
-  "contentRevision": 1,
+  "contentRevision": 3,
   "source": {
     "fileName": "all i really want chords.pdf",
     "sha256": "a43e5329288fca147f74d37f321722bd779441e6588476fc45bf2f75341caa7b"
@@ -9,9 +9,9 @@
   "verification": {
     "sourceChecked": true,
     "browserChecked": true,
-    "checkedAt": "2026-08-14"
+    "checkedAt": "2026-10-10"
   },
-  "chartHash": "50eadf55dd921fa06e53d5e72be54556632edfb9357359ad9e5f701c427b1719",
+  "chartHash": "9b7eacca722b93592787a8f871aa3a3b939d5be5efc1527260191788ed6878e9",
   "sections": [
     {
       "name": "Intro",
@@ -19,13 +19,17 @@
       "lines": [
         {
           "lineOffset": 0,
-          "hash": "ea644b359f0b0abde72ab7dbdc03c7d630537bdd0fd7ca1bbb99d41e7f446eea",
+          "hash": "a4a1fa892e50e270b3484ab80e65054d290deb3a52ad14dba35e177d28097684",
           "anchors": [
             {
               "chord": "A5",
-              "column": 0
+              "column": 2
             }
           ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
         }
       ]
     },
@@ -35,21 +39,25 @@
       "lines": [
         {
           "lineOffset": 0,
-          "hash": "0c6c2e0a22a0d53cad68b87b15a38a0d420bfcd878e71c27fa74cf650f43b351",
+          "hash": "52ac88d1cf95241b1eedcb7da16146509e978842d775df2dec5c1a050c29fb7f",
           "anchors": [
             {
               "chord": "A5",
-              "column": 0
+              "column": 3
             },
             {
               "chord": "G5",
-              "column": 4
+              "column": 8
             },
             {
               "chord": "D5",
-              "column": 7
+              "column": 13
             }
           ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
         }
       ]
     },
@@ -59,25 +67,17 @@
       "lines": [
         {
           "lineOffset": 0,
-          "hash": "96fedc56eaa18846ba31a9e579ba65f5757d22200e03c69ff3771da88bb15b2d"
-        },
-        {
-          "lineOffset": 1,
-          "hash": "0c6c2e0a22a0d53cad68b87b15a38a0d420bfcd878e71c27fa74cf650f43b351",
+          "hash": "e3c5aefb4b0988b2ed9f74873c1437d8fb83bc910092919426eb2a1aaa6b0953",
           "anchors": [
             {
               "chord": "A5",
-              "column": 0
-            },
-            {
-              "chord": "G5",
-              "column": 4
-            },
-            {
-              "chord": "D5",
-              "column": 7
+              "column": 5
             }
           ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "96fedc56eaa18846ba31a9e579ba65f5757d22200e03c69ff3771da88bb15b2d"
         },
         {
           "lineOffset": 2,
@@ -85,15 +85,15 @@
         },
         {
           "lineOffset": 3,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
+          "hash": "9ed8492ef0f3748007f29ab1d16e5fe1168a2ed56bf45a0a12c828035e3816af",
           "anchors": [
             {
               "chord": "G5",
-              "column": 0
+              "column": 33
             },
             {
               "chord": "D5",
-              "column": 3
+              "column": 37
             }
           ]
         },
@@ -103,11 +103,11 @@
         },
         {
           "lineOffset": 5,
-          "hash": "ea644b359f0b0abde72ab7dbdc03c7d630537bdd0fd7ca1bbb99d41e7f446eea",
+          "hash": "e3c5aefb4b0988b2ed9f74873c1437d8fb83bc910092919426eb2a1aaa6b0953",
           "anchors": [
             {
               "chord": "A5",
-              "column": 0
+              "column": 5
             }
           ]
         },
@@ -117,35 +117,29 @@
         },
         {
           "lineOffset": 7,
-          "hash": "ea644b359f0b0abde72ab7dbdc03c7d630537bdd0fd7ca1bbb99d41e7f446eea",
-          "anchors": [
-            {
-              "chord": "A5",
-              "column": 0
-            }
-          ]
-        },
-        {
-          "lineOffset": 8,
           "hash": "10515b7e2c417dc24647b44b343c39c00619833f32f6952c84b168713dad1031"
         },
         {
-          "lineOffset": 9,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
+          "lineOffset": 8,
+          "hash": "ca20adb11e1939cfa58195c3bc40f3862c70dfe1f23fbe0d829e88f81abb755c",
           "anchors": [
             {
               "chord": "G5",
-              "column": 0
+              "column": 15
             },
             {
               "chord": "D5",
-              "column": 3
+              "column": 19
             }
           ]
         },
         {
-          "lineOffset": 10,
+          "lineOffset": 9,
           "hash": "2989cdf23ed160fe10b10b2b043c7cf23a37a5bd9d488501052c87a5389adc49"
+        },
+        {
+          "lineOffset": 10,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
         }
       ]
     },
@@ -155,11 +149,11 @@
       "lines": [
         {
           "lineOffset": 0,
-          "hash": "ea644b359f0b0abde72ab7dbdc03c7d630537bdd0fd7ca1bbb99d41e7f446eea",
+          "hash": "7e66eccd471519763687761b4ce957dc554cf81048f492b5dd40b927973920ff",
           "anchors": [
             {
               "chord": "A5",
-              "column": 0
+              "column": 4
             }
           ]
         },
@@ -169,61 +163,57 @@
         },
         {
           "lineOffset": 2,
-          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          "hash": "9ed8492ef0f3748007f29ab1d16e5fe1168a2ed56bf45a0a12c828035e3816af",
+          "anchors": [
+            {
+              "chord": "G5",
+              "column": 33
+            },
+            {
+              "chord": "D5",
+              "column": 37
+            }
+          ]
         },
         {
           "lineOffset": 3,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
-          "anchors": [
-            {
-              "chord": "G5",
-              "column": 0
-            },
-            {
-              "chord": "D5",
-              "column": 3
-            }
-          ]
-        },
-        {
-          "lineOffset": 4,
           "hash": "a286eb84c636a1937150d1cdd99fa230396aa389a32b67bfb1be126611407063"
         },
         {
-          "lineOffset": 5,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
+          "lineOffset": 4,
+          "hash": "7e66eccd471519763687761b4ce957dc554cf81048f492b5dd40b927973920ff",
           "anchors": [
             {
-              "chord": "G5",
-              "column": 0
-            },
-            {
-              "chord": "D5",
-              "column": 3
+              "chord": "A5",
+              "column": 4
             }
           ]
         },
         {
-          "lineOffset": 6,
+          "lineOffset": 5,
           "hash": "6d95df9b6d61b30552e4edceae4715c3a9cfccf512cee64978eca2214556d62d"
         },
         {
-          "lineOffset": 7,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
+          "lineOffset": 6,
+          "hash": "9e33270159eadbadb0858eb1ad78543d40d6be11a7c3191fe49abc734e8279c0",
           "anchors": [
             {
               "chord": "G5",
-              "column": 0
+              "column": 31
             },
             {
               "chord": "D5",
-              "column": 3
+              "column": 35
             }
           ]
         },
         {
-          "lineOffset": 8,
+          "lineOffset": 7,
           "hash": "9c84e51b28eafd66364b9bb3188a08e8b5ac1b720dcf106584d17d5b92c785e3"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
         }
       ]
     },
@@ -233,11 +223,11 @@
       "lines": [
         {
           "lineOffset": 0,
-          "hash": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
+          "hash": "141815554fe3ac5a1f16c77c1e6bbfd34ccd9dc3ee3ee7ada927f1d444e3366b",
           "anchors": [
             {
               "chord": "A",
-              "column": 0
+              "column": 10
             }
           ]
         },
@@ -247,15 +237,15 @@
         },
         {
           "lineOffset": 2,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
+          "hash": "d273ab0045c79a1ce4e082ce2e7559a95efce365b8cc821eb23ed674ed14adf6",
           "anchors": [
             {
               "chord": "G5",
-              "column": 0
+              "column": 28
             },
             {
               "chord": "D5",
-              "column": 3
+              "column": 31
             }
           ]
         },
@@ -265,15 +255,11 @@
         },
         {
           "lineOffset": 4,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
+          "hash": "141815554fe3ac5a1f16c77c1e6bbfd34ccd9dc3ee3ee7ada927f1d444e3366b",
           "anchors": [
             {
-              "chord": "G5",
-              "column": 0
-            },
-            {
-              "chord": "D5",
-              "column": 3
+              "chord": "A",
+              "column": 10
             }
           ]
         },
@@ -283,21 +269,25 @@
         },
         {
           "lineOffset": 6,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
+          "hash": "ed12ac1ca0ae42980d60dde0f700a2d0d0266215c1750ddd9720489004cb04f1",
           "anchors": [
             {
               "chord": "G5",
-              "column": 0
+              "column": 26
             },
             {
               "chord": "D5",
-              "column": 3
+              "column": 30
             }
           ]
         },
         {
           "lineOffset": 7,
           "hash": "e1e25a5b4ba58d0c849448d77cfd7caf528e3b1a0ab90aad3d0479cb52ee8f41"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
         }
       ]
     },
@@ -307,11 +297,11 @@
       "lines": [
         {
           "lineOffset": 0,
-          "hash": "ea644b359f0b0abde72ab7dbdc03c7d630537bdd0fd7ca1bbb99d41e7f446eea",
+          "hash": "7e66eccd471519763687761b4ce957dc554cf81048f492b5dd40b927973920ff",
           "anchors": [
             {
               "chord": "A5",
-              "column": 0
+              "column": 4
             }
           ]
         },
@@ -321,81 +311,65 @@
         },
         {
           "lineOffset": 2,
-          "hash": "ea644b359f0b0abde72ab7dbdc03c7d630537bdd0fd7ca1bbb99d41e7f446eea",
-          "anchors": [
-            {
-              "chord": "A5",
-              "column": 0
-            }
-          ]
-        },
-        {
-          "lineOffset": 3,
           "hash": "e79db741f2fdcfed69dfbaa95f3d7f28e5d2cc44583fc32d6c162a98d39c3607"
         },
         {
-          "lineOffset": 4,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
+          "lineOffset": 3,
+          "hash": "9ed8492ef0f3748007f29ab1d16e5fe1168a2ed56bf45a0a12c828035e3816af",
           "anchors": [
             {
               "chord": "G5",
-              "column": 0
+              "column": 33
             },
             {
               "chord": "D5",
-              "column": 3
+              "column": 37
             }
           ]
         },
         {
-          "lineOffset": 5,
+          "lineOffset": 4,
           "hash": "c5497bd8d13ac49347df1490d7aefbe99f23a7946be4c22a54de542fc92d1a29"
         },
         {
-          "lineOffset": 6,
-          "hash": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
+          "lineOffset": 5,
+          "hash": "503f08d2923ceb54ba68894e2236dc50cfad4d276e78886968e0c73fb962ab08",
           "anchors": [
             {
               "chord": "A",
-              "column": 0
+              "column": 9
             }
           ]
         },
         {
-          "lineOffset": 7,
+          "lineOffset": 6,
           "hash": "fb78b15200544886f7f1717fcbcfd74ef793d37d002262275e304c522a43bab2"
         },
         {
+          "lineOffset": 7,
+          "hash": "018664c82a1d7353a650222263fa1fadc4f4c7aae11695a8964f3175c44fb9fd"
+        },
+        {
           "lineOffset": 8,
-          "hash": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
+          "hash": "9ed8492ef0f3748007f29ab1d16e5fe1168a2ed56bf45a0a12c828035e3816af",
           "anchors": [
             {
-              "chord": "A",
-              "column": 0
+              "chord": "G5",
+              "column": 33
+            },
+            {
+              "chord": "D5",
+              "column": 37
             }
           ]
         },
         {
           "lineOffset": 9,
-          "hash": "018664c82a1d7353a650222263fa1fadc4f4c7aae11695a8964f3175c44fb9fd"
+          "hash": "c83eb483d45c17c76aa59a001efa59406081241cf2b110676a50925a3f15f165"
         },
         {
           "lineOffset": 10,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
-          "anchors": [
-            {
-              "chord": "G5",
-              "column": 0
-            },
-            {
-              "chord": "D5",
-              "column": 3
-            }
-          ]
-        },
-        {
-          "lineOffset": 11,
-          "hash": "c83eb483d45c17c76aa59a001efa59406081241cf2b110676a50925a3f15f165"
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
         }
       ]
     },
@@ -405,11 +379,11 @@
       "lines": [
         {
           "lineOffset": 0,
-          "hash": "ea644b359f0b0abde72ab7dbdc03c7d630537bdd0fd7ca1bbb99d41e7f446eea",
+          "hash": "e3c5aefb4b0988b2ed9f74873c1437d8fb83bc910092919426eb2a1aaa6b0953",
           "anchors": [
             {
               "chord": "A5",
-              "column": 0
+              "column": 5
             }
           ]
         },
@@ -419,15 +393,15 @@
         },
         {
           "lineOffset": 2,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
+          "hash": "60bfc82392672eceefb07ed9652567a06d61c915655e7aa845f7b6ccb813a6a9",
           "anchors": [
             {
               "chord": "G5",
-              "column": 0
+              "column": 30
             },
             {
               "chord": "D5",
-              "column": 3
+              "column": 34
             }
           ]
         },
@@ -437,11 +411,11 @@
         },
         {
           "lineOffset": 4,
-          "hash": "ea644b359f0b0abde72ab7dbdc03c7d630537bdd0fd7ca1bbb99d41e7f446eea",
+          "hash": "e3c5aefb4b0988b2ed9f74873c1437d8fb83bc910092919426eb2a1aaa6b0953",
           "anchors": [
             {
               "chord": "A5",
-              "column": 0
+              "column": 5
             }
           ]
         },
@@ -451,21 +425,25 @@
         },
         {
           "lineOffset": 6,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
+          "hash": "9ed8492ef0f3748007f29ab1d16e5fe1168a2ed56bf45a0a12c828035e3816af",
           "anchors": [
             {
               "chord": "G5",
-              "column": 0
+              "column": 33
             },
             {
               "chord": "D5",
-              "column": 3
+              "column": 37
             }
           ]
         },
         {
           "lineOffset": 7,
           "hash": "96dcc3a548cab55fd9929a85ca7c0df3780c2fcdb2f795a2efc5d69c72475ace"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
         }
       ]
     },
@@ -475,11 +453,11 @@
       "lines": [
         {
           "lineOffset": 0,
-          "hash": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
+          "hash": "82c8abc7ef90c19f0e6dddcf4ddac98b660578a9e84b54e6029df354fb1779f9",
           "anchors": [
             {
               "chord": "A",
-              "column": 0
+              "column": 11
             }
           ]
         },
@@ -489,15 +467,15 @@
         },
         {
           "lineOffset": 2,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
+          "hash": "a4174d556862424cb503f5add85d256550d5a078582e0503def6576b42cd0c21",
           "anchors": [
             {
               "chord": "G5",
-              "column": 0
+              "column": 32
             },
             {
               "chord": "D5",
-              "column": 3
+              "column": 36
             }
           ]
         },
@@ -507,11 +485,11 @@
         },
         {
           "lineOffset": 4,
-          "hash": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
+          "hash": "82c8abc7ef90c19f0e6dddcf4ddac98b660578a9e84b54e6029df354fb1779f9",
           "anchors": [
             {
               "chord": "A",
-              "column": 0
+              "column": 11
             }
           ]
         },
@@ -521,21 +499,25 @@
         },
         {
           "lineOffset": 6,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
+          "hash": "bfb06c75442db53720e5c2f507ace26f555dbe7c69861cbb07955bb3d0f572c0",
           "anchors": [
             {
               "chord": "G5",
-              "column": 0
+              "column": 25
             },
             {
               "chord": "D5",
-              "column": 3
+              "column": 30
             }
           ]
         },
         {
           "lineOffset": 7,
           "hash": "e1e25a5b4ba58d0c849448d77cfd7caf528e3b1a0ab90aad3d0479cb52ee8f41"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
         }
       ]
     },
@@ -545,21 +527,29 @@
       "lines": [
         {
           "lineOffset": 0,
-          "hash": "ae3909b5d43d874998ce2d4e6fa2d4fafe9e01a6c4d4e25ab34111fc565e95ec",
+          "hash": "2e1eaf7e84047a761ccbecd250a4aff908af3c1300c72718c6b621fd42225311",
           "anchors": [
             {
               "chord": "A",
-              "column": 0
+              "column": 3
             },
             {
               "chord": "G5",
-              "column": 4
+              "column": 8
             },
             {
               "chord": "D5",
-              "column": 8
+              "column": 13
             }
           ]
+        },
+        {
+          "lineOffset": 1,
+          "hash": "844b69c4d54cc264bc2dadb6bb70f53bc123beafc0f58d81ed8cd4a07c24a5a7"
+        },
+        {
+          "lineOffset": 2,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
         }
       ]
     },
@@ -569,63 +559,75 @@
       "lines": [
         {
           "lineOffset": 0,
-          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          "hash": "65502f150482503ff887bf5433732570d7a54e224e67b63c16db2a3237bbefa9",
+          "anchors": [
+            {
+              "chord": "C",
+              "column": 4
+            },
+            {
+              "chord": "D",
+              "column": 34
+            }
+          ]
         },
         {
           "lineOffset": 1,
-          "hash": "3f39d5c348e5b79d06e842c114e6cc571583bbf44e4b0ebfda1a01ec05745d43",
-          "anchors": [
-            {
-              "chord": "D",
-              "column": 0
-            }
-          ]
-        },
-        {
-          "lineOffset": 2,
           "hash": "bb1b82d2a96dc61bd92ece2cc4c0b05f0a1df74f507425745ab88d6dcaee833d"
         },
         {
-          "lineOffset": 3,
-          "hash": "3f39d5c348e5b79d06e842c114e6cc571583bbf44e4b0ebfda1a01ec05745d43",
+          "lineOffset": 2,
+          "hash": "65502f150482503ff887bf5433732570d7a54e224e67b63c16db2a3237bbefa9",
           "anchors": [
             {
+              "chord": "C",
+              "column": 4
+            },
+            {
               "chord": "D",
-              "column": 0
+              "column": 34
             }
           ]
         },
         {
-          "lineOffset": 4,
+          "lineOffset": 3,
           "hash": "55d35e2d9af8aecdb09951502b72c949b2306b2c9cd11766caef40d4fe8edb01"
         },
         {
-          "lineOffset": 5,
-          "hash": "3f39d5c348e5b79d06e842c114e6cc571583bbf44e4b0ebfda1a01ec05745d43",
+          "lineOffset": 4,
+          "hash": "4843747d6ce33c8e422881348d6ff61867f1d4f2fb656445bec88a628099c78a",
           "anchors": [
             {
+              "chord": "C",
+              "column": 10
+            },
+            {
               "chord": "D",
-              "column": 0
+              "column": 39
             }
           ]
         },
         {
-          "lineOffset": 6,
+          "lineOffset": 5,
           "hash": "32570c692b52d6b65e0c05c9fe66b6a6daae5960311400d4d98b10a036cfdaf9"
         },
         {
-          "lineOffset": 7,
-          "hash": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
+          "lineOffset": 6,
+          "hash": "141815554fe3ac5a1f16c77c1e6bbfd34ccd9dc3ee3ee7ada927f1d444e3366b",
           "anchors": [
             {
               "chord": "A",
-              "column": 0
+              "column": 10
             }
           ]
         },
         {
-          "lineOffset": 8,
+          "lineOffset": 7,
           "hash": "cea23e795a8101851b4943b3a50deeddd4ad8593048f31785c4a7b90a3822b90"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
         }
       ]
     },
@@ -649,7 +651,7 @@
         },
         {
           "lineOffset": 2,
-          "hash": "cf03e6f703787b29690d3db09cc586e49ea30bc97295389d1d193111f8a1e651"
+          "hash": "022697bfbf63e79681b31df8e958e022f20614d31bcd3c6941506f1fc9cbaf10"
         },
         {
           "lineOffset": 3,
@@ -657,11 +659,11 @@
         },
         {
           "lineOffset": 4,
-          "hash": "ea644b359f0b0abde72ab7dbdc03c7d630537bdd0fd7ca1bbb99d41e7f446eea",
+          "hash": "2711720bc893e7b8f8b8c0d8de930d02b34b75481065f3c339e4633f8b04e923",
           "anchors": [
             {
               "chord": "A5",
-              "column": 0
+              "column": 25
             }
           ]
         },
@@ -671,35 +673,29 @@
         },
         {
           "lineOffset": 6,
-          "hash": "ea644b359f0b0abde72ab7dbdc03c7d630537bdd0fd7ca1bbb99d41e7f446eea",
-          "anchors": [
-            {
-              "chord": "A5",
-              "column": 0
-            }
-          ]
-        },
-        {
-          "lineOffset": 7,
           "hash": "a2fb17b080d5443fc3cb4c3b6cf157b14dacb4f98be12c818cfdd32dca852757"
         },
         {
-          "lineOffset": 8,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
+          "lineOffset": 7,
+          "hash": "b3f18db9c9e9c22b1658af0dc9d8b2688ef047b9ce3e7e975bf30d9652869a69",
           "anchors": [
             {
               "chord": "G5",
-              "column": 0
+              "column": 36
             },
             {
               "chord": "D5",
-              "column": 3
+              "column": 40
             }
           ]
         },
         {
-          "lineOffset": 9,
+          "lineOffset": 8,
           "hash": "39975790f1b6a9499da2a57270a70a1bbc5939771dfe8c37f7fe1a72c9ca77ef"
+        },
+        {
+          "lineOffset": 9,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
         }
       ]
     },
@@ -709,11 +705,11 @@
       "lines": [
         {
           "lineOffset": 0,
-          "hash": "ea644b359f0b0abde72ab7dbdc03c7d630537bdd0fd7ca1bbb99d41e7f446eea",
+          "hash": "7e66eccd471519763687761b4ce957dc554cf81048f492b5dd40b927973920ff",
           "anchors": [
             {
               "chord": "A5",
-              "column": 0
+              "column": 4
             }
           ]
         },
@@ -723,15 +719,15 @@
         },
         {
           "lineOffset": 2,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
+          "hash": "2a9050b75fccbe12403eca1ca17f5345499ca111792fd3fee3b9a22d65ba493f",
           "anchors": [
             {
               "chord": "G5",
-              "column": 0
+              "column": 33
             },
             {
               "chord": "D5",
-              "column": 3
+              "column": 38
             }
           ]
         },
@@ -741,15 +737,11 @@
         },
         {
           "lineOffset": 4,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
+          "hash": "7e66eccd471519763687761b4ce957dc554cf81048f492b5dd40b927973920ff",
           "anchors": [
             {
-              "chord": "G5",
-              "column": 0
-            },
-            {
-              "chord": "D5",
-              "column": 3
+              "chord": "A5",
+              "column": 4
             }
           ]
         },
@@ -759,21 +751,25 @@
         },
         {
           "lineOffset": 6,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
+          "hash": "9e33270159eadbadb0858eb1ad78543d40d6be11a7c3191fe49abc734e8279c0",
           "anchors": [
             {
               "chord": "G5",
-              "column": 0
+              "column": 31
             },
             {
               "chord": "D5",
-              "column": 3
+              "column": 35
             }
           ]
         },
         {
           "lineOffset": 7,
           "hash": "6fa90c940d5db83938dfca6902ae5d9f1f26bb32e3870c94b76cd397f15565a8"
+        },
+        {
+          "lineOffset": 8,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
         }
       ]
     },
@@ -783,11 +779,11 @@
       "lines": [
         {
           "lineOffset": 0,
-          "hash": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
+          "hash": "141815554fe3ac5a1f16c77c1e6bbfd34ccd9dc3ee3ee7ada927f1d444e3366b",
           "anchors": [
             {
               "chord": "A",
-              "column": 0
+              "column": 10
             }
           ]
         },
@@ -797,15 +793,15 @@
         },
         {
           "lineOffset": 2,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
+          "hash": "9e33270159eadbadb0858eb1ad78543d40d6be11a7c3191fe49abc734e8279c0",
           "anchors": [
             {
               "chord": "G5",
-              "column": 0
+              "column": 31
             },
             {
               "chord": "D5",
-              "column": 3
+              "column": 35
             }
           ]
         },
@@ -815,15 +811,11 @@
         },
         {
           "lineOffset": 4,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
+          "hash": "141815554fe3ac5a1f16c77c1e6bbfd34ccd9dc3ee3ee7ada927f1d444e3366b",
           "anchors": [
             {
-              "chord": "G5",
-              "column": 0
-            },
-            {
-              "chord": "D5",
-              "column": 3
+              "chord": "A",
+              "column": 10
             }
           ]
         },
@@ -833,15 +825,15 @@
         },
         {
           "lineOffset": 6,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
+          "hash": "ed12ac1ca0ae42980d60dde0f700a2d0d0266215c1750ddd9720489004cb04f1",
           "anchors": [
             {
               "chord": "G5",
-              "column": 0
+              "column": 26
             },
             {
               "chord": "D5",
-              "column": 3
+              "column": 30
             }
           ]
         },
@@ -851,11 +843,11 @@
         },
         {
           "lineOffset": 8,
-          "hash": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
+          "hash": "141815554fe3ac5a1f16c77c1e6bbfd34ccd9dc3ee3ee7ada927f1d444e3366b",
           "anchors": [
             {
               "chord": "A",
-              "column": 0
+              "column": 10
             }
           ]
         },
@@ -865,15 +857,15 @@
         },
         {
           "lineOffset": 10,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
+          "hash": "b7e02e89dca8d1a973854fe88479a05d203417b24dbbbef3727ebaeec53016b2",
           "anchors": [
             {
               "chord": "G5",
-              "column": 0
+              "column": 28
             },
             {
               "chord": "D5",
-              "column": 3
+              "column": 32
             }
           ]
         },
@@ -883,11 +875,11 @@
         },
         {
           "lineOffset": 12,
-          "hash": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
+          "hash": "141815554fe3ac5a1f16c77c1e6bbfd34ccd9dc3ee3ee7ada927f1d444e3366b",
           "anchors": [
             {
               "chord": "A",
-              "column": 0
+              "column": 10
             }
           ]
         },
@@ -897,21 +889,25 @@
         },
         {
           "lineOffset": 14,
-          "hash": "5734cf3d872f1d4f7d187361ca8465c9e0e998d752ca12dc0d962a5bd00ec9ae",
+          "hash": "ed12ac1ca0ae42980d60dde0f700a2d0d0266215c1750ddd9720489004cb04f1",
           "anchors": [
             {
               "chord": "G5",
-              "column": 0
+              "column": 26
             },
             {
               "chord": "D5",
-              "column": 3
+              "column": 30
             }
           ]
         },
         {
           "lineOffset": 15,
           "hash": "e1e25a5b4ba58d0c849448d77cfd7caf528e3b1a0ab90aad3d0479cb52ee8f41"
+        },
+        {
+          "lineOffset": 16,
+          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
         }
       ]
     },
@@ -921,11 +917,11 @@
       "lines": [
         {
           "lineOffset": 0,
-          "hash": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
+          "hash": "82c8abc7ef90c19f0e6dddcf4ddac98b660578a9e84b54e6029df354fb1779f9",
           "anchors": [
             {
               "chord": "A",
-              "column": 0
+              "column": 11
             }
           ]
         },
@@ -935,84 +931,46 @@
         },
         {
           "lineOffset": 2,
-          "hash": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
-          "anchors": [
-            {
-              "chord": "A",
-              "column": 0
-            }
-          ]
-        },
-        {
-          "lineOffset": 3,
           "hash": "95778a3c81d15b768de44c4138d38dd578ea5aa6a9d71e7c56223c39464162ca"
         },
         {
+          "lineOffset": 3,
+          "hash": "a9fad95b579e532bcc5439b222301bc796012ef32449b653bfed234cd8fba8f5"
+        },
+        {
           "lineOffset": 4,
-          "hash": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
+          "hash": "48e986cf898f9188fb3d2f8ee3720b05ad742b5dd6dfac205c230f151d5b2bf9",
           "anchors": [
             {
-              "chord": "A",
-              "column": 0
+              "chord": "G5",
+              "column": 14
+            },
+            {
+              "chord": "D5",
+              "column": 23
             }
           ]
         },
         {
           "lineOffset": 5,
-          "hash": "a9fad95b579e532bcc5439b222301bc796012ef32449b653bfed234cd8fba8f5"
+          "hash": "857dd4502b2f49168bc90e52321f51c7eb28c1825a9d43c6466b56de8bf0b914"
         },
         {
           "lineOffset": 6,
-          "hash": "300098b39a2309484fa313239d5a88b853531368b11518e4b97504a99e2a3e2d",
+          "hash": "82c8abc7ef90c19f0e6dddcf4ddac98b660578a9e84b54e6029df354fb1779f9",
           "anchors": [
             {
-              "chord": "G5",
-              "column": 0
-            },
-            {
-              "chord": "D5",
-              "column": 8
+              "chord": "A",
+              "column": 11
             }
           ]
         },
         {
           "lineOffset": 7,
-          "hash": "857dd4502b2f49168bc90e52321f51c7eb28c1825a9d43c6466b56de8bf0b914"
-        },
-        {
-          "lineOffset": 8,
-          "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-        },
-        {
-          "lineOffset": 9,
-          "hash": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
-          "anchors": [
-            {
-              "chord": "A",
-              "column": 0
-            }
-          ]
-        },
-        {
-          "lineOffset": 10,
           "hash": "56773422f985c2146f0888a50eaeb74f76f3775a73c367afafb5c8ab03237322"
         },
         {
-          "lineOffset": 11,
-          "hash": "300098b39a2309484fa313239d5a88b853531368b11518e4b97504a99e2a3e2d",
-          "anchors": [
-            {
-              "chord": "G5",
-              "column": 0
-            },
-            {
-              "chord": "D5",
-              "column": 8
-            }
-          ]
-        },
-        {
-          "lineOffset": 12,
+          "lineOffset": 8,
           "hash": "784fc31f7055158a9f957cd58d58782bb8058e996ef84cb7da45f14fa3314035"
         }
       ]

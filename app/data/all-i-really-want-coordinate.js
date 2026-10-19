@@ -1,7 +1,7 @@
 const allIReallyWantCoordinateSong = window.initialSongs.find((song) => song.id === "alanis-morissette-all-i-really-want");
 
 if (allIReallyWantCoordinateSong) {
-  allIReallyWantCoordinateSong.contentRevision = 2;
+  allIReallyWantCoordinateSong.contentRevision = 3;
   allIReallyWantCoordinateSong.chart = `[Intro]
   A5
 
@@ -9,15 +9,13 @@ if (allIReallyWantCoordinateSong) {
    A5   G5   D5
 
 [Verse]
-A5
+     A5
 Do I stress you out?
-A5
 My sweater is on backwards and inside out
-               G5  D5
+                                 G5  D5
 And you say, "How appropriate!"
      A5
 I don't wanna dissect everything today
-     A5
 I don't mean to pick you apart, you see
                G5  D5
 But I can't help it
@@ -45,13 +43,11 @@ Ah, aao, aao, aao, aa, aah
 [Verse 2]
     A5
 Do I wear you out?
-    A5
 You must wonder why I'm relentless and all strung out
                                  G5  D5
 I'm consumed by the chill of solitary
          A
 I'm like Estella
-         A
 I like to reel it in and then spit it out
                                  G5  D5
 I'm frustrated by your apathy
@@ -81,11 +77,11 @@ Ah, aao, aao, aao, aa, aah
 x3
 
 [Bridge]
-                                  D
+    C                             D
 Enough about me, let's talk about you for a minute
-                                  D
+    C                             D
 Enough about you, let's talk about life for a while
-                                  D
+          C                            D
 The conflicts, the craziness and the sound of pretenses falling
           A
 All around, all around
@@ -97,7 +93,6 @@ Why are you so petrified of silence?
 Here, can you handle this?
                          A5
 Did you think about your bills, your ex, your deadlines
-                         A5
 Or when you think you're gonna die?
                                     G5  D5
 Or did you long for the next distraction?
@@ -133,13 +128,11 @@ Ah, aao, aao, aao, aa, aah
 [Outro]
            A
 It's all I really want, some patience
-           A
 A way to calm me down
-           A
 And all I really want is deliverance
-               G5      D5
+              G5       D5
 A place to find a common ground
            A
- And all I really want is some justice
+And all I really want is some justice
 (fade out)`;
 }

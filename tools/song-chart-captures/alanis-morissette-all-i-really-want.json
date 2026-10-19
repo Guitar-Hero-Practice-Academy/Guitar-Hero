@@ -77,7 +77,7 @@
           "anchors": [
             {
               "chord": "A5",
-              "sourceX": 0.094
+              "sourceX": 0.141684
             }
           ]
         },
@@ -87,17 +87,6 @@
           "fragments": [
             {
               "text": "Do I stress you out?",
-              "sourceX": 0.094
-            }
-          ]
-        },
-        {
-          "type": "chords",
-          "page": 1,
-          "expectedChordCount": 1,
-          "anchors": [
-            {
-              "chord": "A5",
               "sourceX": 0.094
             }
           ]
@@ -119,11 +108,11 @@
           "anchors": [
             {
               "chord": "G5",
-              "sourceX": 0.24
+              "sourceX": 0.416791
             },
             {
               "chord": "D5",
-              "sourceX": 0.278
+              "sourceX": 0.457859
             }
           ]
         },
@@ -144,7 +133,7 @@
           "anchors": [
             {
               "chord": "A5",
-              "sourceX": 0.142
+              "sourceX": 0.141684
             }
           ]
         },
@@ -155,17 +144,6 @@
             {
               "text": "I don't wanna dissect everything today",
               "sourceX": 0.094
-            }
-          ]
-        },
-        {
-          "type": "chords",
-          "page": 1,
-          "expectedChordCount": 1,
-          "anchors": [
-            {
-              "chord": "A5",
-              "sourceX": 0.142
             }
           ]
         },
@@ -186,11 +164,11 @@
           "anchors": [
             {
               "chord": "G5",
-              "sourceX": 0.24
+              "sourceX": 0.238146
             },
             {
               "chord": "D5",
-              "sourceX": 0.278
+              "sourceX": 0.281314
             }
           ]
         },
@@ -410,7 +388,7 @@
           "anchors": [
             {
               "chord": "A5",
-              "sourceX": 0.133
+              "sourceX": 0.135524
             }
           ]
         },
@@ -421,17 +399,6 @@
             {
               "text": "Do I wear you out?",
               "sourceX": 0.092
-            }
-          ]
-        },
-        {
-          "type": "chords",
-          "page": 2,
-          "expectedChordCount": 1,
-          "anchors": [
-            {
-              "chord": "A5",
-              "sourceX": 0.133
             }
           ]
         },
@@ -452,11 +419,11 @@
           "anchors": [
             {
               "chord": "G5",
-              "sourceX": 0.415
+              "sourceX": 0.414784
             },
             {
               "chord": "D5",
-              "sourceX": 0.456
+              "sourceX": 0.457906
             }
           ]
         },
@@ -477,7 +444,7 @@
           "anchors": [
             {
               "chord": "A",
-              "sourceX": 0.183
+              "sourceX": 0.180698
             }
           ]
         },
@@ -488,17 +455,6 @@
             {
               "text": "I'm like Estella",
               "sourceX": 0.092
-            }
-          ]
-        },
-        {
-          "type": "chords",
-          "page": 2,
-          "expectedChordCount": 1,
-          "anchors": [
-            {
-              "chord": "A",
-              "sourceX": 0.183
             }
           ]
         },
@@ -519,11 +475,11 @@
           "anchors": [
             {
               "chord": "G5",
-              "sourceX": 0.415
+              "sourceX": 0.414748
             },
             {
               "chord": "D5",
-              "sourceX": 0.456
+              "sourceX": 0.457869
             }
           ]
         },
@@ -767,11 +723,15 @@
         {
           "type": "chords",
           "page": 3,
-          "expectedChordCount": 1,
+          "expectedChordCount": 2,
           "anchors": [
             {
+              "chord": "C",
+              "sourceX": 0.13347
+            },
+            {
               "chord": "D",
-              "sourceX": 0.429
+              "sourceX": 0.429158
             }
           ]
         },
@@ -788,11 +748,15 @@
         {
           "type": "chords",
           "page": 3,
-          "expectedChordCount": 1,
+          "expectedChordCount": 2,
           "anchors": [
             {
+              "chord": "C",
+              "sourceX": 0.13347
+            },
+            {
               "chord": "D",
-              "sourceX": 0.429
+              "sourceX": 0.429158
             }
           ]
         },
@@ -809,11 +773,15 @@
         {
           "type": "chords",
           "page": 3,
-          "expectedChordCount": 1,
+          "expectedChordCount": 2,
           "anchors": [
             {
+              "chord": "C",
+              "sourceX": 0.186858
+            },
+            {
               "chord": "D",
-              "sourceX": 0.429
+              "sourceX": 0.474333
             }
           ]
         },
@@ -834,7 +802,7 @@
           "anchors": [
             {
               "chord": "A",
-              "sourceX": 0.193
+              "sourceX": 0.193018
             }
           ]
         },
@@ -860,7 +828,7 @@
           "anchors": [
             {
               "chord": "A5",
-              "sourceX": 0.092
+              "sourceX": 0.092402
             }
           ]
         },
@@ -881,7 +849,7 @@
           "anchors": [
             {
               "chord": "N.C.",
-              "sourceX": 0.347
+              "sourceX": 0.347023
             }
           ]
         },
@@ -902,7 +870,7 @@
           "anchors": [
             {
               "chord": "A5",
-              "sourceX": 0.339
+              "sourceX": 0.338809
             }
           ]
         },
@@ -913,17 +881,6 @@
             {
               "text": "Did you think about your bills, your ex, your deadlines",
               "sourceX": 0.092
-            }
-          ]
-        },
-        {
-          "type": "chords",
-          "page": 3,
-          "expectedChordCount": 1,
-          "anchors": [
-            {
-              "chord": "A5",
-              "sourceX": 0.339
             }
           ]
         },
@@ -944,11 +901,11 @@
           "anchors": [
             {
               "chord": "G5",
-              "sourceX": 0.446
+              "sourceX": 0.445416
             },
             {
               "chord": "D5",
-              "sourceX": 0.484
+              "sourceX": 0.486484
             }
           ]
         },
@@ -1260,7 +1217,7 @@
           "anchors": [
             {
               "chord": "A",
-              "sourceX": 0.203
+              "sourceX": 0.203285
             }
           ]
         },
@@ -1275,34 +1232,12 @@
           ]
         },
         {
-          "type": "chords",
-          "page": 3,
-          "expectedChordCount": 1,
-          "anchors": [
-            {
-              "chord": "A",
-              "sourceX": 0.203
-            }
-          ]
-        },
-        {
           "type": "lyrics",
           "page": 3,
           "fragments": [
             {
               "text": "A way to calm me down",
               "sourceX": 0.092
-            }
-          ]
-        },
-        {
-          "type": "chords",
-          "page": 3,
-          "expectedChordCount": 1,
-          "anchors": [
-            {
-              "chord": "A",
-              "sourceX": 0.203
             }
           ]
         },
@@ -1323,11 +1258,11 @@
           "anchors": [
             {
               "chord": "G5",
-              "sourceX": 0.236
+              "sourceX": 0.234086
             },
             {
               "chord": "D5",
-              "sourceX": 0.32
+              "sourceX": 0.320329
             }
           ]
         },
@@ -1348,7 +1283,7 @@
           "anchors": [
             {
               "chord": "A",
-              "sourceX": 0.203
+              "sourceX": 0.203285
             }
           ]
         },
@@ -1358,7 +1293,7 @@
           "fragments": [
             {
               "text": "And all I really want is some justice",
-              "sourceX": 0.097
+              "sourceX": 0.096509
             }
           ]
         },

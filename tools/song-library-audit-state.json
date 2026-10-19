@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "policy": "Legacy manifests do not count as full-library audit approval. A song is approved here only after a fresh complete source check and browser check.",
+  "approved": {
+    "alanis-morissette-all-i-really-want": {
+      "sourceFile": "all i really want chords.pdf",
+      "sourceChecked": true,
+      "browserChecked": true,
+      "checkedAt": "2026-10-10"
+    },
+    "bad-company-feel-like-makin-love": {
+      "sourceFile": "feel like makin love chords.pdf",
+      "sourceChecked": true,
+      "browserChecked": true,
+      "checkedAt": "2026-10-10"
+    },
+    "ben-lee-into-the-dark": {
+      "sourceFile": "into the dark chords.pdf",
+      "sourceChecked": true,
+      "browserChecked": true,
+      "checkedAt": "2026-10-10"
+    },
+    "carpenters-top-of-the-world": {
+      "sourceFile": "top of the world chords.pdf",
+      "sourceChecked": true,
+      "browserChecked": true,
+      "checkedAt": "2026-10-10"
+    },
+    "coldplay-dont-panic": {
+      "sourceFile": "dont panic chords.pdf",
+      "sourceChecked": true,
+      "browserChecked": true,
+      "checkedAt": "2026-10-10"
+    }
+  },
+  "pendingAdditions": [
+    {
+      "id": "the-killers-mr-brightside",
+      "sourceFile": "mr brightside chords.pdf",
+      "status": "awaiting-import"
+    },
+    {
+      "id": "the-killers-all-these-things-that-ive-done",
+      "sourceFile": "all these things that ive done chords.pdf",
+      "status": "awaiting-import"
+    },
+    {
+      "id": "the-killers-a-dustland-fairytale-acoustic",
+      "sourceFile": "a dustland fairytale acoustic chords.pdf",
+      "status": "awaiting-import"
+    },
+    {
+      "id": "noel-gallaghers-high-flying-birds-ballad-of-the-mighty-i",
+      "sourceFile": "ballad of the mighty i chords.pdf",
+      "status": "awaiting-import"
+    }
+  ]
+}
