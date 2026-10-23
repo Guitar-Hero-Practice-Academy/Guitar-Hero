@@ -2007,6 +2007,11 @@ h3 {
   line-height: 1.34;
 }
 
+.sidebars-collapsed.song-selected .chart-display[data-column-count="3"] {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  line-height: 1.2;
+}
+
 .sidebars-collapsed.song-selected .stage,
 .sidebars-collapsed.song-selected .chart-panel {
   height: 100%;
@@ -2970,7 +2975,7 @@ window.initialSongs = [
       { name: "C", frets: "x32010", fingers: "32 1" },
       { name: "D", frets: "xx0232", fingers: "132" },
       { name: "E7", frets: "020100", fingers: "2 1" },
-      { name: "D#7", frets: "x6868x", fingers: "1 23" },
+      { name: "D#7", frets: "xx1323", fingers: "1324" },
       { name: "A", frets: "x02220", fingers: "123" },
       { name: "E", frets: "022100", fingers: "231" }
     ],
@@ -6751,7 +6756,7 @@ Oh, yeah`
 const sympathyCoordinateSong = window.initialSongs.find((song) => song.id === "rolling-stones-sympathy-for-the-devil");
 
 if (sympathyCoordinateSong) {
-  sympathyCoordinateSong.contentRevision = 4;
+  sympathyCoordinateSong.contentRevision = 5;
   sympathyCoordinateSong.chart = `[Verse 1]
 E                       D
 Please allow me to introduce myself
@@ -6767,7 +6772,7 @@ And I was 'round when Jesus Christ
 Had his moment of doubt and pain
                     D
 Made damn sure that Pilate
-           A                   E
+           A                    E
 Washed his hands and sealed his fate
 B
  Pleased to meet you
@@ -6807,19 +6812,19 @@ I watched with glee
 While your kings and queens
            A
 Fought for ten decades
-          E
+        E
 For the Gods they made
   E
 I shouted out
                 D
   "Who killed the Kennedys?"
-       A
+     A
 When after all
        E
 It was you and me
 E                  D
 Let me please introduce myself
-      A E
+      A                 E
 I'm a man of wealth and taste
                      D
 And I laid traps for troubadours
@@ -6853,15 +6858,15 @@ And all the sinners saints
 As heads is tails
              D
 Just call me Lucifer
-              A               E
+              A              E
 'Cause I'm in need of some restraint
 E
 So if you meet me
           D
 Have some courtesy
-          A                   E
+          A                  E
 Have some sympathy, and some taste
-                              D
+                             D
 Use all your well-learned politesse
         A                E
 Or I'll lay your soul to waste, um yeah
@@ -14589,6 +14594,138 @@ And when I die alone, when I die alone, when I die I'll be on time
 
 [Ending]
 D G`;
+}
+
+
+/* data/the-verve-lucky-man.js */
+window.initialSongs.push({
+  id: "the-verve-lucky-man",
+  contentRevision: 1,
+  title: "Lucky Man",
+  artist: "The Verve",
+  album: "",
+  albumYear: 0,
+  albumOrder: 0,
+  difficulty: "Beginner",
+  tuning: "E A D G B E",
+  capo: "",
+  key: "",
+  bpm: 76,
+  videoUrl: "",
+  chords: [
+    { name: "G", frets: "320003", fingers: "21 3" },
+    { name: "D", frets: "xx0232", fingers: "132" },
+    { name: "Dsus2", frets: "xx0230", fingers: "12" },
+    { name: "Asus2", frets: "x02200", fingers: "12" },
+    { name: "Em", frets: "022000", fingers: "12" }
+  ],
+  strumming: [],
+  chart: ""
+});
+
+
+/* data/the-verve-lucky-man-coordinate.js */
+const luckyManCoordinateSong = window.initialSongs.find((song) => song.id === "the-verve-lucky-man");
+
+if (luckyManCoordinateSong) {
+  luckyManCoordinateSong.chart = `[Strumming Pattern]
+[[image:data:image/png;base64,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|76 BPM strumming pattern from the supplied chart]]
+
+[Intro]
+G         D  Dsus2        Asus2  x 8
+
+[Verse 1]
+G        D   Dsus2        Asus2
+Happiness more or less
+                                               G
+it's just a change in me something in my liberty
+   D  Dsus2   Asus2
+o-o-h  m-y m-y..
+
+[Verse 2]
+G         D Dsus2              Asus2
+happiness coming and going
+                                                G
+I watch you look at me watch my fever growing, I know
+    D Dsus2  Asus2
+just where I a-m
+
+[Bridge]
+      Em
+well, how many corners do I have to turn
+G
+how many times do I have to learn
+D                            Asus2
+all the love I have is in my mind.
+
+[Chorus]
+          G      D  Dsus2 Asus2
+But I'm A lucky m-a-a-a-n
+          G      D  Dsus2 Asus2
+with fire in my h-a-a-a-nds
+
+[Verse 3]
+G        D   Dsus2                Asus2
+happiness something in my own place
+                                          G
+I'm stood here naked smiling I feel no disgrace
+     D Dsus2   Asus2
+with who I a-m
+
+[Verse 4]
+G        D  Dsus2          Asus2
+happiness coming and going
+                                                  G
+I watch you look at me watch my fever growing, I know
+  D  Dsus2  Asus2
+just who I a-m
+
+[Bridge]
+      Em
+well, how many corners do I have to turn
+G
+how many times do I have to learn
+D                            Asus2
+all the love I have is in my mind.
+          G     D Dsus2 Asus2
+I hope you underst-A-A-nd
+          G   D   Dsus2 Asus2
+I hope you underst-a-a-nd
+
+[Pre-verse]
+   G    D Dsus2  Asus2
+o-o-o-o-o-h-h-h-h
+no no no no no no no no
+      G               D Dsus2  Asus2
+Gotta love that never d-i-e-s
+
+[Verse 5]
+G        D  Dsus2       Asus2
+Happiness more or less
+                                              G
+it's just a change in me something in my liberty
+
+[Verse 6]
+G        D  Dsus2        Asus2
+happiness coming and going
+                                                 G
+I watch you look at me watch my fever growing, I know
+G D Dsus2  Asus2
+o-o-h, my my - X 4
+
+[Pre-verse]
+      G              D Dsus2  Asus2
+Gotta love that never d-i-e-s  X 3
+                                              G
+it's just a change in me something in my liberty  X 3
+
+[Fade out]
+G D Dsus2   Asus2
+o-o-h, my my - X 2
+                                              G
+it's just a change in me something in my liberty
+G D Dsus2  Asus2
+o-o-h, my my - X 2`;
 }
 
 
@@ -26192,12 +26329,9 @@ function renderChart(song) {
   const chart = song.chart || "";
   const images = `${renderChartImage(song)}${renderSourceImages(song)}`;
   if (state.sidebarsCollapsed) {
-    const [left, right] = splitChartForColumns(chart);
-    els.chartDisplay.innerHTML = `
-      <div class="chart-column">${images}${formatChart(left)}</div>
-      <div class="chart-column">${formatChart(right)}</div>
-    `;
+    renderChartColumns(song, 2, images);
   } else {
+    delete els.chartDisplay.dataset.columnCount;
     els.chartDisplay.innerHTML = `${images}${formatChart(chart)}`;
   }
   if (els.chartEditor) els.chartEditor.value = song.chart || "";
@@ -26212,20 +26346,42 @@ function renderChart(song) {
   scheduleChartAutoSize();
 }
 
-function splitChartForColumns(chart) {
+function renderChartColumns(song, columnCount, images = `${renderChartImage(song)}${renderSourceImages(song)}`) {
+  const columns = splitChartForColumns(song.chart || "", columnCount);
+  els.chartDisplay.dataset.columnCount = String(columnCount);
+  els.chartDisplay.innerHTML = columns
+    .map((column, index) => `<div class="chart-column">${index === 0 ? images : ""}${formatChart(column)}</div>`)
+    .join("");
+}
+
+function splitChartForColumns(chart, columnCount = 2) {
   const lines = String(chart).split("\n");
   const boundaries = lines
     .map((line, index) => (/^\[.+\]$/.test(line.trim()) && index > 0 ? index : null))
     .filter((index) => index !== null);
-  if (!boundaries.length) {
-    const middle = Math.ceil(lines.length / 2);
-    return [lines.slice(0, middle).join("\n"), lines.slice(middle).join("\n")];
+  const splits = [];
+  let previous = 0;
+  const targetSpan = lines.length / columnCount;
+  const isChordLine = (line) => {
+    const tokens = line.trim().split(/\s+/).filter(Boolean);
+    return tokens.length > 0 && tokens.every((token) => /^[A-G](?:#|b)?(?:m|maj|min|sus|dim|aug|add)?\d*(?:\/[A-G](?:#|b)?)?$/.test(token));
+  };
+  for (let column = 1; column < columnCount; column += 1) {
+    const target = Math.round((lines.length * column) / columnCount);
+    const candidates = boundaries.filter((index) => index > previous && !splits.includes(index));
+    const nearestBoundary = candidates.length
+      ? candidates.reduce((best, index) => Math.abs(index - target) < Math.abs(best - target) ? index : best)
+      : null;
+    let splitAt = nearestBoundary !== null && Math.abs(nearestBoundary - target) <= targetSpan / 10
+      ? nearestBoundary
+      : target;
+    if (splitAt > previous + 1 && isChordLine(lines[splitAt - 1]) && !isChordLine(lines[splitAt])) splitAt -= 1;
+    splits.push(splitAt);
+    previous = splitAt;
   }
-  const halfway = lines.length / 2;
-  const splitAt = boundaries.reduce((best, index) =>
-    Math.abs(index - halfway) < Math.abs(best - halfway) ? index : best
+  return [0, ...splits].map((start, index, starts) =>
+    lines.slice(start, starts[index + 1] ?? lines.length).join("\n")[index ? "trimStart" : "trimEnd"]()
   );
-  return [lines.slice(0, splitAt).join("\n").trimEnd(), lines.slice(splitAt).join("\n").trimStart()];
 }
 
 function renderChartImage(song) {
@@ -26351,16 +26507,27 @@ function fitChartText() {
   if (state.view !== "library" || !currentSong() || state.editing || els.chartDisplay.classList.contains("hidden")) return;
   const area = els.chartDisplay;
   if (!area.clientHeight || !area.clientWidth) return;
+  const gridMode = state.sidebarsCollapsed && getComputedStyle(area).display === "grid";
+  const song = currentSong();
+  if (gridMode) {
+    renderChartColumns(song, 2);
+    document.documentElement.style.setProperty("--chart-size", "11px");
+    const twoColumnsFit = [...area.querySelectorAll(".chart-column")].every((region) =>
+      region.scrollHeight <= region.clientHeight + 1 && region.scrollWidth <= region.clientWidth + 1
+    );
+    if (!twoColumnsFit) renderChartColumns(song, 3);
+  }
   const fits = (size) => {
     document.documentElement.style.setProperty("--chart-size", `${size}px`);
-    const regions = state.sidebarsCollapsed && getComputedStyle(area).display === "grid"
+    const regions = gridMode
       ? [...area.querySelectorAll(".chart-column")]
       : [area];
     return regions.every((region) =>
       region.scrollHeight <= region.clientHeight + 1 && region.scrollWidth <= region.clientWidth + 1
     );
   };
-  let low = 11;
+  const minimumSize = gridMode && area.dataset.columnCount === "3" ? 7 : 11;
+  let low = minimumSize;
   let high = 28;
   let best = low;
   while (low <= high) {
@@ -26372,7 +26539,7 @@ function fitChartText() {
       high = middle - 1;
     }
   }
-  document.documentElement.style.setProperty("--chart-size", `${Math.max(10, Math.min(28, best + state.chartSizeOffset))}px`);
+  document.documentElement.style.setProperty("--chart-size", `${Math.max(minimumSize, Math.min(28, best + state.chartSizeOffset))}px`);
 }
 
 function escapeHtml(value) {

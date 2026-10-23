@@ -207,7 +207,7 @@
             },
             {
               "chord": "E",
-              "sourceX": 0.392
+              "sourceX": 0.406
             }
           ]
         },
@@ -639,7 +639,7 @@
           "anchors": [
             {
               "chord": "E",
-              "sourceX": 0.192
+              "sourceX": 0.17064
             }
           ]
         },
@@ -702,7 +702,7 @@
           "anchors": [
             {
               "chord": "A",
-              "sourceX": 0.162
+              "sourceX": 0.14115
             }
           ]
         },
@@ -773,7 +773,7 @@
             },
             {
               "chord": "E",
-              "sourceX": 0.172
+              "sourceX": 0.330595
             }
           ]
         },
@@ -1106,7 +1106,7 @@
             },
             {
               "chord": "E",
-              "sourceX": 0.382
+              "sourceX": 0.373717
             }
           ]
         },
@@ -1173,7 +1173,7 @@
             },
             {
               "chord": "E",
-              "sourceX": 0.382
+              "sourceX": 0.379877
             }
           ]
         },
@@ -1194,7 +1194,7 @@
           "anchors": [
             {
               "chord": "D",
-              "sourceX": 0.382
+              "sourceX": 0.37577
             }
           ]
         },

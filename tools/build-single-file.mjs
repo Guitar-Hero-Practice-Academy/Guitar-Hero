@@ -124,6 +124,8 @@ const scriptFiles = [
   "data/the-irrationality-of-rationality-coordinate.js",
   "data/cleopatra-acoustic-layout.js",
   "data/cleopatra-coordinate.js",
+  "data/the-verve-lucky-man.js",
+  "data/the-verve-lucky-man-coordinate.js",
   "data/tone-settings.js",
   "data/library-metadata.js",
   "data/academy-data.js",

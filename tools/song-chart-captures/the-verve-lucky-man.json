@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "songId": "the-verve-lucky-man",
+  "source": {
+    "fileName": "lucky man chords.pdf",
+    "sha256": "519e4d782eb398a03fbfd1e712fe958bedb7f72437e97c327d2c2c79e56ba83c"
+  },
+  "pages": [
+    { "page": 1, "originX": 0.092402, "cellWidth": 0.0098 },
+    { "page": 2, "originX": 0.092402, "cellWidth": 0.0098 },
+    { "page": 3, "originX": 0.092402, "cellWidth": 0.0098 }
+  ],
+  "sections": [
+    {
+      "name": "Strumming Pattern",
+      "rows": [
+        { "type": "image", "text": "[[image:assets/lucky-man-strumming.png|76 BPM strumming pattern from the supplied chart]]" }
+      ]
+    },
+    {
+      "name": "Intro",
+      "rows": [
+        { "type": "chords", "page": 1, "expectedChordCount": 5, "anchors": [
+          { "chord": "G", "sourceX": 0.092402 },
+          { "chord": "D", "sourceX": 0.190829 },
+          { "chord": "Dsus2", "sourceX": 0.218503 },
+          { "chord": "Asus2", "sourceX": 0.344891 },
+          { "chord": "x 8", "sourceX": 0.415340 }
+        ] }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        { "type": "chords", "page": 1, "expectedChordCount": 4, "anchors": [
+          { "chord": "G", "sourceX": 0.094456 }, { "chord": "D", "sourceX": 0.182641 },
+          { "chord": "Dsus2", "sourceX": 0.220279 }, { "chord": "Asus2", "sourceX": 0.347023 }
+        ] },
+        { "type": "lyrics", "page": 1, "fragments": [{ "text": "Happiness more or less", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 1, "expectedChordCount": 1, "anchors": [{ "chord": "G", "sourceX": 0.556468 }] },
+        { "type": "lyrics", "page": 1, "fragments": [{ "text": "it's just a change in me something in my liberty", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 1, "expectedChordCount": 3, "anchors": [
+          { "chord": "D", "sourceX": 0.125257 }, { "chord": "Dsus2", "sourceX": 0.151771 }, { "chord": "Asus2", "sourceX": 0.227657 }
+        ] },
+        { "type": "lyrics", "page": 1, "fragments": [{ "text": "o-o-h  m-y m-y..", "sourceX": 0.092402 }] }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        { "type": "chords", "page": 1, "expectedChordCount": 4, "anchors": [
+          { "chord": "G", "sourceX": 0.092402 }, { "chord": "D", "sourceX": 0.190893 },
+          { "chord": "Dsus2", "sourceX": 0.210820 }, { "chord": "Asus2", "sourceX": 0.396074 }
+        ] },
+        { "type": "lyrics", "page": 1, "fragments": [{ "text": "happiness coming and going", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 1, "expectedChordCount": 1, "anchors": [{ "chord": "G", "sourceX": 0.564684 }] },
+        { "type": "lyrics", "page": 1, "fragments": [{ "text": "I watch you look at me watch my fever growing, I know", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 1, "expectedChordCount": 3, "anchors": [
+          { "chord": "D", "sourceX": 0.127255 }, { "chord": "Dsus2", "sourceX": 0.149899 }, { "chord": "Asus2", "sourceX": 0.221766 }
+        ] },
+        { "type": "lyrics", "page": 1, "fragments": [{ "text": "just where I a-m", "sourceX": 0.092402 }] }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "rows": [
+        { "type": "chords", "page": 1, "expectedChordCount": 1, "anchors": [{ "chord": "Em", "sourceX": 0.149897 }] },
+        { "type": "lyrics", "page": 1, "fragments": [{ "text": "well, how many corners do I have to turn", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 1, "expectedChordCount": 1, "anchors": [{ "chord": "G", "sourceX": 0.092402 }] },
+        { "type": "lyrics", "page": 1, "fragments": [{ "text": "how many times do I have to learn", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 1, "expectedChordCount": 2, "anchors": [
+          { "chord": "D", "sourceX": 0.094456 }, { "chord": "Asus2", "sourceX": 0.377823 }
+        ] },
+        { "type": "lyrics", "page": 1, "fragments": [{ "text": "all the love I have is in my mind.", "sourceX": 0.092402 }] }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [
+          { "chord": "G", "sourceX": 0.193018 }, { "chord": "D", "sourceX": 0.262834 },
+          { "chord": "Dsus2", "sourceX": 0.288647 }, { "chord": "Asus2", "sourceX": 0.348833 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "But I'm A lucky m-a-a-a-n", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [
+          { "chord": "G", "sourceX": 0.193018 }, { "chord": "D", "sourceX": 0.262834 },
+          { "chord": "Dsus2", "sourceX": 0.288647 }, { "chord": "Asus2", "sourceX": 0.348833 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "with fire in my h-a-a-a-nds", "sourceX": 0.092402 }] }
+      ]
+    },
+    {
+      "name": "Verse 3",
+      "rows": [
+        { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [
+          { "chord": "G", "sourceX": 0.092402 }, { "chord": "D", "sourceX": 0.182512 },
+          { "chord": "Dsus2", "sourceX": 0.219138 }, { "chord": "Asus2", "sourceX": 0.429099 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "happiness something in my own place", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 2, "expectedChordCount": 1, "anchors": [{ "chord": "G", "sourceX": 0.507187 }] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "I'm stood here naked smiling I feel no disgrace", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 2, "expectedChordCount": 3, "anchors": [
+          { "chord": "D", "sourceX": 0.137577 }, { "chord": "Dsus2", "sourceX": 0.160326 }, { "chord": "Asus2", "sourceX": 0.238325 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "with who I a-m", "sourceX": 0.092402 }] }
+      ]
+    },
+    {
+      "name": "Verse 4",
+      "rows": [
+        { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [
+          { "chord": "G", "sourceX": 0.092402 }, { "chord": "D", "sourceX": 0.184771 },
+          { "chord": "Dsus2", "sourceX": 0.209932 }, { "chord": "Asus2", "sourceX": 0.357218 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "happiness coming and going", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 2, "expectedChordCount": 1, "anchors": [{ "chord": "G", "sourceX": 0.587269 }] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "I watch you look at me watch my fever growing, I know", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 2, "expectedChordCount": 3, "anchors": [
+          { "chord": "D", "sourceX": 0.114824 }, { "chord": "Dsus2", "sourceX": 0.139981 }, { "chord": "Asus2", "sourceX": 0.211447 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "just who I a-m", "sourceX": 0.092402 }] }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "rows": [
+        { "type": "chords", "page": 2, "expectedChordCount": 1, "anchors": [{ "chord": "Em", "sourceX": 0.149897 }] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "well, how many corners do I have to turn", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 2, "expectedChordCount": 1, "anchors": [{ "chord": "G", "sourceX": 0.092402 }] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "how many times do I have to learn", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 2, "expectedChordCount": 2, "anchors": [
+          { "chord": "D", "sourceX": 0.094456 }, { "chord": "Asus2", "sourceX": 0.377775 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "all the love I have is in my mind.", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [
+          { "chord": "G", "sourceX": 0.193018 }, { "chord": "D", "sourceX": 0.248591 },
+          { "chord": "Dsus2", "sourceX": 0.268720 }, { "chord": "Asus2", "sourceX": 0.329106 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "I hope you underst-A-A-nd", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [
+          { "chord": "G", "sourceX": 0.193018 }, { "chord": "D", "sourceX": 0.229979 },
+          { "chord": "Dsus2", "sourceX": 0.269726 }, { "chord": "Asus2", "sourceX": 0.328905 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "I hope you underst-a-a-nd", "sourceX": 0.092402 }] }
+      ]
+    },
+    {
+      "name": "Pre-verse",
+      "rows": [
+        { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [
+          { "chord": "G", "sourceX": 0.123203 }, { "chord": "D", "sourceX": 0.170290 },
+          { "chord": "Dsus2", "sourceX": 0.191224 }, { "chord": "Asus2", "sourceX": 0.259259 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "o-o-o-o-o-h-h-h-h", "sourceX": 0.092402 }] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "no no no no no no no no", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 2, "expectedChordCount": 4, "anchors": [
+          { "chord": "G", "sourceX": 0.149897 }, { "chord": "D", "sourceX": 0.305955 },
+          { "chord": "Dsus2", "sourceX": 0.327798 }, { "chord": "Asus2", "sourceX": 0.396437 }
+        ] },
+        { "type": "lyrics", "page": 2, "fragments": [{ "text": "Gotta love that never d-i-e-s", "sourceX": 0.092402 }] }
+      ]
+    },
+    {
+      "name": "Verse 5",
+      "rows": [
+        { "type": "chords", "page": 3, "expectedChordCount": 4, "anchors": [
+          { "chord": "G", "sourceX": 0.092402 }, { "chord": "D", "sourceX": 0.182708 },
+          { "chord": "Dsus2", "sourceX": 0.210385 }, { "chord": "Asus2", "sourceX": 0.328512 }
+        ] },
+        { "type": "lyrics", "page": 3, "fragments": [{ "text": "Happiness more or less", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 3, "expectedChordCount": 1, "anchors": [{ "chord": "G", "sourceX": 0.546201 }] },
+        { "type": "lyrics", "page": 3, "fragments": [{ "text": "it's just a change in me something in my liberty", "sourceX": 0.092402 }] }
+      ]
+    },
+    {
+      "name": "Verse 6",
+      "rows": [
+        { "type": "chords", "page": 3, "expectedChordCount": 4, "anchors": [
+          { "chord": "G", "sourceX": 0.092402 }, { "chord": "D", "sourceX": 0.182647 },
+          { "chord": "Dsus2", "sourceX": 0.210322 }, { "chord": "Asus2", "sourceX": 0.340862 }
+        ] },
+        { "type": "lyrics", "page": 3, "fragments": [{ "text": "happiness coming and going", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 3, "expectedChordCount": 1, "anchors": [{ "chord": "G", "sourceX": 0.577002 }] },
+        { "type": "lyrics", "page": 3, "fragments": [{ "text": "I watch you look at me watch my fever growing, I know", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 3, "expectedChordCount": 4, "anchors": [
+          { "chord": "G", "sourceX": 0.092402 }, { "chord": "D", "sourceX": 0.110910 },
+          { "chord": "Dsus2", "sourceX": 0.131844 }, { "chord": "Asus2", "sourceX": 0.199879 }
+        ] },
+        { "type": "lyrics", "page": 3, "fragments": [{ "text": "o-o-h, my my - X 4", "sourceX": 0.092402 }] }
+      ]
+    },
+    {
+      "name": "Pre-verse",
+      "rows": [
+        { "type": "chords", "page": 3, "expectedChordCount": 4, "anchors": [
+          { "chord": "G", "sourceX": 0.151951 }, { "chord": "D", "sourceX": 0.293635 },
+          { "chord": "Dsus2", "sourceX": 0.319344 }, { "chord": "Asus2", "sourceX": 0.386473 }
+        ] },
+        { "type": "lyrics", "page": 3, "fragments": [{ "text": "Gotta love that never d-i-e-s  X 3", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 3, "expectedChordCount": 1, "anchors": [{ "chord": "G", "sourceX": 0.546201 }] },
+        { "type": "lyrics", "page": 3, "fragments": [{ "text": "it's just a change in me something in my liberty  X 3", "sourceX": 0.092402 }] }
+      ]
+    },
+    {
+      "name": "Fade out",
+      "rows": [
+        { "type": "chords", "page": 3, "expectedChordCount": 4, "anchors": [
+          { "chord": "G", "sourceX": 0.092358 }, { "chord": "D", "sourceX": 0.112289 },
+          { "chord": "Dsus2", "sourceX": 0.132212 }, { "chord": "Asus2", "sourceX": 0.207333 }
+        ] },
+        { "type": "lyrics", "page": 3, "fragments": [{ "text": "o-o-h, my my - X 2", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 3, "expectedChordCount": 1, "anchors": [{ "chord": "G", "sourceX": 0.546201 }] },
+        { "type": "lyrics", "page": 3, "fragments": [{ "text": "it's just a change in me something in my liberty", "sourceX": 0.092402 }] },
+        { "type": "chords", "page": 3, "expectedChordCount": 4, "anchors": [
+          { "chord": "G", "sourceX": 0.092402 }, { "chord": "D", "sourceX": 0.111111 },
+          { "chord": "Dsus2", "sourceX": 0.131944 }, { "chord": "Asus2", "sourceX": 0.199074 }
+        ] },
+        { "type": "lyrics", "page": 3, "fragments": [{ "text": "o-o-h, my my - X 2", "sourceX": 0.092402 }] }
+      ]
+    }
+  ]
+}

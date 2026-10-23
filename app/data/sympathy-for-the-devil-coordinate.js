@@ -1,7 +1,7 @@
 const sympathyCoordinateSong = window.initialSongs.find((song) => song.id === "rolling-stones-sympathy-for-the-devil");
 
 if (sympathyCoordinateSong) {
-  sympathyCoordinateSong.contentRevision = 4;
+  sympathyCoordinateSong.contentRevision = 5;
   sympathyCoordinateSong.chart = `[Verse 1]
 E                       D
 Please allow me to introduce myself
@@ -17,7 +17,7 @@ And I was 'round when Jesus Christ
 Had his moment of doubt and pain
                     D
 Made damn sure that Pilate
-           A                   E
+           A                    E
 Washed his hands and sealed his fate
 B
  Pleased to meet you
@@ -57,19 +57,19 @@ I watched with glee
 While your kings and queens
            A
 Fought for ten decades
-          E
+        E
 For the Gods they made
   E
 I shouted out
                 D
   "Who killed the Kennedys?"
-       A
+     A
 When after all
        E
 It was you and me
 E                  D
 Let me please introduce myself
-      A E
+      A                 E
 I'm a man of wealth and taste
                      D
 And I laid traps for troubadours
@@ -103,15 +103,15 @@ And all the sinners saints
 As heads is tails
              D
 Just call me Lucifer
-              A               E
+              A              E
 'Cause I'm in need of some restraint
 E
 So if you meet me
           D
 Have some courtesy
-          A                   E
+          A                  E
 Have some sympathy, and some taste
-                              D
+                             D
 Use all your well-learned politesse
         A                E
 Or I'll lay your soul to waste, um yeah

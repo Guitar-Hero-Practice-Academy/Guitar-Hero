@@ -16,7 +16,7 @@ window.initialSongs = [
       { name: "C", frets: "x32010", fingers: "32 1" },
       { name: "D", frets: "xx0232", fingers: "132" },
       { name: "E7", frets: "020100", fingers: "2 1" },
-      { name: "D#7", frets: "x6868x", fingers: "1 23" },
+      { name: "D#7", frets: "xx1323", fingers: "1324" },
       { name: "A", frets: "x02220", fingers: "123" },
       { name: "E", frets: "022100", fingers: "231" }
     ],

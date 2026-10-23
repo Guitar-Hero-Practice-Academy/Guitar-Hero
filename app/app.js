@@ -2930,12 +2930,9 @@ function renderChart(song) {
   const chart = song.chart || "";
   const images = `${renderChartImage(song)}${renderSourceImages(song)}`;
   if (state.sidebarsCollapsed) {
-    const [left, right] = splitChartForColumns(chart);
-    els.chartDisplay.innerHTML = `
-      <div class="chart-column">${images}${formatChart(left)}</div>
-      <div class="chart-column">${formatChart(right)}</div>
-    `;
+    renderChartColumns(song, 2, images);
   } else {
+    delete els.chartDisplay.dataset.columnCount;
     els.chartDisplay.innerHTML = `${images}${formatChart(chart)}`;
   }
   if (els.chartEditor) els.chartEditor.value = song.chart || "";
@@ -2950,20 +2947,42 @@ function renderChart(song) {
   scheduleChartAutoSize();
 }
 
-function splitChartForColumns(chart) {
+function renderChartColumns(song, columnCount, images = `${renderChartImage(song)}${renderSourceImages(song)}`) {
+  const columns = splitChartForColumns(song.chart || "", columnCount);
+  els.chartDisplay.dataset.columnCount = String(columnCount);
+  els.chartDisplay.innerHTML = columns
+    .map((column, index) => `<div class="chart-column">${index === 0 ? images : ""}${formatChart(column)}</div>`)
+    .join("");
+}
+
+function splitChartForColumns(chart, columnCount = 2) {
   const lines = String(chart).split("\n");
   const boundaries = lines
     .map((line, index) => (/^\[.+\]$/.test(line.trim()) && index > 0 ? index : null))
     .filter((index) => index !== null);
-  if (!boundaries.length) {
-    const middle = Math.ceil(lines.length / 2);
-    return [lines.slice(0, middle).join("\n"), lines.slice(middle).join("\n")];
+  const splits = [];
+  let previous = 0;
+  const targetSpan = lines.length / columnCount;
+  const isChordLine = (line) => {
+    const tokens = line.trim().split(/\s+/).filter(Boolean);
+    return tokens.length > 0 && tokens.every((token) => /^[A-G](?:#|b)?(?:m|maj|min|sus|dim|aug|add)?\d*(?:\/[A-G](?:#|b)?)?$/.test(token));
+  };
+  for (let column = 1; column < columnCount; column += 1) {
+    const target = Math.round((lines.length * column) / columnCount);
+    const candidates = boundaries.filter((index) => index > previous && !splits.includes(index));
+    const nearestBoundary = candidates.length
+      ? candidates.reduce((best, index) => Math.abs(index - target) < Math.abs(best - target) ? index : best)
+      : null;
+    let splitAt = nearestBoundary !== null && Math.abs(nearestBoundary - target) <= targetSpan / 10
+      ? nearestBoundary
+      : target;
+    if (splitAt > previous + 1 && isChordLine(lines[splitAt - 1]) && !isChordLine(lines[splitAt])) splitAt -= 1;
+    splits.push(splitAt);
+    previous = splitAt;
   }
-  const halfway = lines.length / 2;
-  const splitAt = boundaries.reduce((best, index) =>
-    Math.abs(index - halfway) < Math.abs(best - halfway) ? index : best
+  return [0, ...splits].map((start, index, starts) =>
+    lines.slice(start, starts[index + 1] ?? lines.length).join("\n")[index ? "trimStart" : "trimEnd"]()
   );
-  return [lines.slice(0, splitAt).join("\n").trimEnd(), lines.slice(splitAt).join("\n").trimStart()];
 }
 
 function renderChartImage(song) {
@@ -3089,16 +3108,27 @@ function fitChartText() {
   if (state.view !== "library" || !currentSong() || state.editing || els.chartDisplay.classList.contains("hidden")) return;
   const area = els.chartDisplay;
   if (!area.clientHeight || !area.clientWidth) return;
+  const gridMode = state.sidebarsCollapsed && getComputedStyle(area).display === "grid";
+  const song = currentSong();
+  if (gridMode) {
+    renderChartColumns(song, 2);
+    document.documentElement.style.setProperty("--chart-size", "11px");
+    const twoColumnsFit = [...area.querySelectorAll(".chart-column")].every((region) =>
+      region.scrollHeight <= region.clientHeight + 1 && region.scrollWidth <= region.clientWidth + 1
+    );
+    if (!twoColumnsFit) renderChartColumns(song, 3);
+  }
   const fits = (size) => {
     document.documentElement.style.setProperty("--chart-size", `${size}px`);
-    const regions = state.sidebarsCollapsed && getComputedStyle(area).display === "grid"
+    const regions = gridMode
       ? [...area.querySelectorAll(".chart-column")]
       : [area];
     return regions.every((region) =>
       region.scrollHeight <= region.clientHeight + 1 && region.scrollWidth <= region.clientWidth + 1
     );
   };
-  let low = 11;
+  const minimumSize = gridMode && area.dataset.columnCount === "3" ? 7 : 11;
+  let low = minimumSize;
   let high = 28;
   let best = low;
   while (low <= high) {
@@ -3110,7 +3140,7 @@ function fitChartText() {
       high = middle - 1;
     }
   }
-  document.documentElement.style.setProperty("--chart-size", `${Math.max(10, Math.min(28, best + state.chartSizeOffset))}px`);
+  document.documentElement.style.setProperty("--chart-size", `${Math.max(minimumSize, Math.min(28, best + state.chartSizeOffset))}px`);
 }
 
 function escapeHtml(value) {

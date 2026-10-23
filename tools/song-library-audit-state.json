@@ -2,6 +2,12 @@
   "schemaVersion": 1,
   "policy": "Legacy manifests do not count as full-library audit approval. A song is approved here only after a fresh complete source check and browser check.",
   "approved": {
+    "the-verve-lucky-man": {
+      "sourceFile": "lucky man chords.pdf",
+      "sourceChecked": true,
+      "browserChecked": true,
+      "checkedAt": "2026-10-19"
+    },
     "alanis-morissette-all-i-really-want": {
       "sourceFile": "all i really want chords.pdf",
       "sourceChecked": true,
