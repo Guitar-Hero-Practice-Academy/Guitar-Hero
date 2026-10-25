@@ -1,4 +1,4 @@
-const CACHE_NAME = "guitar-hero-1c1024b3296a";
+const CACHE_NAME = "guitar-hero-b69245500f2f";
 const APP_SHELL = [
   "./",
   "./index.html",

@@ -309,7 +309,7 @@
         {
           "type": "chords",
           "page": 2,
-          "expectedChordCount": 2,
+          "expectedChordCount": 5,
           "anchors": [
             {
               "chord": "G",
@@ -318,27 +318,10 @@
             {
               "chord": "A7sus4",
               "sourceX": 0.269
-            }
-          ]
-        },
-        {
-          "type": "lyrics",
-          "page": 2,
-          "fragments": [
+            },
             {
-              "text": "As they took his soul they stole his pride (pride)",
-              "sourceX": 0.101
-            }
-          ]
-        },
-        {
-          "type": "chords",
-          "page": 2,
-          "expectedChordCount": 3,
-          "anchors": [
-            {
-              "chord": "G",
-              "sourceX": 0.092
+              "chord": "Cadd9",
+              "sourceX": 0.464
             },
             {
               "chord": "Em7",
@@ -363,11 +346,52 @@
         {
           "type": "chords",
           "page": 2,
-          "expectedChordCount": 4,
+          "expectedChordCount": 5,
           "anchors": [
             {
               "chord": "G",
               "sourceX": 0.092
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.269
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.464
+            },
+            {
+              "chord": "Em7",
+              "sourceX": 0.567
+            },
+            {
+              "chord": "Dsus4",
+              "sourceX": 0.603
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "As they took his soul they stole his pride (pride)",
+              "sourceX": 0.101
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092
+            },
+            {
+              "chord": "A7sus4",
+              "sourceX": 0.267
             },
             {
               "chord": "Cadd9",
@@ -555,7 +579,7 @@
         {
           "type": "chords",
           "page": 2,
-          "expectedChordCount": 3,
+          "expectedChordCount": 4,
           "anchors": [
             {
               "chord": "Em7",
@@ -568,6 +592,10 @@
             {
               "chord": "Cadd9",
               "sourceX": 0.448
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.632
             }
           ]
         },

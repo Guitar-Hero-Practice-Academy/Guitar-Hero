@@ -9,9 +9,9 @@
   "verification": {
     "sourceChecked": true,
     "browserChecked": true,
-    "checkedAt": "2026-08-14"
+    "checkedAt": "2026-10-25"
   },
-  "chartHash": "45be6900f4f007a8cafbbec10f48e7d3188a1a5ed74ecba64e370b4b24b66734",
+  "chartHash": "1f98352f8df7b166f16c6432978239e3df15b0776c4363a8d586aa75b055bed0",
   "sections": [
     {
       "name": "Intro",
@@ -187,7 +187,7 @@
       "lines": [
         {
           "lineOffset": 0,
-          "hash": "8b0ee648fdc193de2beef3a7404e8b9f2ec587d2b33e0a545d23464c276f8cd1"
+          "hash": "83d4d3c515d5b9673cc33c7028b55b5233c60fdf8472746da5ebd8dd848f05d2"
         },
         {
           "lineOffset": 1,
@@ -195,21 +195,7 @@
         },
         {
           "lineOffset": 2,
-          "hash": "809695c51092045b76af2372e6402d98b84ee07d7d2708f58c76ddec743b9ef4",
-          "anchors": [
-            {
-              "chord": "G",
-              "column": 0
-            },
-            {
-              "chord": "Em7",
-              "column": 48
-            },
-            {
-              "chord": "Dsus4",
-              "column": 52
-            }
-          ]
+          "hash": "83d4d3c515d5b9673cc33c7028b55b5233c60fdf8472746da5ebd8dd848f05d2"
         },
         {
           "lineOffset": 3,
@@ -217,25 +203,7 @@
         },
         {
           "lineOffset": 4,
-          "hash": "85f8346dc070a18f8e25f6199b85e30dec9c8cb3c234d257136a48017213176d",
-          "anchors": [
-            {
-              "chord": "G",
-              "column": 0
-            },
-            {
-              "chord": "Cadd9",
-              "column": 38
-            },
-            {
-              "chord": "Em7",
-              "column": 48
-            },
-            {
-              "chord": "Dsus4",
-              "column": 52
-            }
-          ]
+          "hash": "83d4d3c515d5b9673cc33c7028b55b5233c60fdf8472746da5ebd8dd848f05d2"
         },
         {
           "lineOffset": 5,
@@ -329,7 +297,7 @@
       "lines": [
         {
           "lineOffset": 0,
-          "hash": "0354222c7ccc7c317f672b6d830a5fdaa64bd243a8482b94aef1c90453e88e19",
+          "hash": "070e8853d01e87fe52470ca360ca5120207a820570ea9cb454a7140c72d34e73",
           "anchors": [
             {
               "chord": "Em7",
@@ -342,6 +310,10 @@
             {
               "chord": "Cadd9",
               "column": 36
+            },
+            {
+              "chord": "G",
+              "column": 55
             }
           ]
         },
