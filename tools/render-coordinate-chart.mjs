@@ -31,7 +31,7 @@ for (const section of capture.sections) {
     if (row.expectedChordCount !== row.anchors.length) {
       throw new Error(`${section.name} page ${row.page}: captured ${row.anchors.length} chords, expected ${row.expectedChordCount}`);
     }
-    output.push(renderCoordinateLine(row.anchors, calibration).line);
+    output.push(renderCoordinateLine(row.anchors, calibration, row.annotations).line);
   }
   output.push("");
 }

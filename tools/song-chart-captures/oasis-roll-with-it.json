@@ -1,0 +1,2461 @@
+{
+  "schemaVersion": 1,
+  "songId": "oasis-roll-with-it",
+  "source": {
+    "fileName": "roll with it chords.pdf",
+    "sha256": "c7f6366935072b7a0e8b88d00b14fe33080f563f3e726788b17d4005166e61a4"
+  },
+  "extraction": {
+    "method": "macOS Vision word boxes and rendered-page ink projection; source coordinates normalized to full PDF page",
+    "renderWidth": 1132,
+    "renderHeight": 1600,
+    "lyricRows": 40,
+    "chordRows": 37,
+    "anchorCount": 79
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.09540636042402827,
+      "cellWidth": 0.009815469179426776
+    },
+    {
+      "page": 2,
+      "originX": 0.09540636042402827,
+      "cellWidth": 0.009815469179426776
+    },
+    {
+      "page": 3,
+      "originX": 0.09540636042402827,
+      "cellWidth": 0.009815469179426776
+    }
+  ],
+  "sections": [
+    {
+      "name": "Chords",
+      "rows": [
+        {
+          "type": "note",
+          "text": "Chords:"
+        },
+        {
+          "type": "note",
+          "text": "A       x02220"
+        },
+        {
+          "type": "note",
+          "text": "A7sus4  x02233"
+        },
+        {
+          "type": "note",
+          "text": "Asus2   x02200"
+        },
+        {
+          "type": "note",
+          "text": "Asus4   x02230"
+        },
+        {
+          "type": "note",
+          "text": "C9      x32330"
+        },
+        {
+          "type": "note",
+          "text": "Cadd9   x32033"
+        },
+        {
+          "type": "note",
+          "text": "C       x32010"
+        },
+        {
+          "type": "note",
+          "text": "D7      xx0212"
+        },
+        {
+          "type": "note",
+          "text": "F       x33210 or 133211"
+        },
+        {
+          "type": "note",
+          "text": "G       320033"
+        },
+        {
+          "type": "note",
+          "text": "G/B     x20033"
+        }
+      ]
+    },
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.6375,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "D7",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "chord": "C9",
+              "sourceX": 0.1351590106007067
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.17491166077738515
+            }
+          ],
+          "annotations": [
+            {
+              "text": "x2",
+              "sourceX": 0.2040636042402827
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.653125,
+          "expectedChordCount": 9,
+          "anchors": [
+            {
+              "chord": "D7",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "chord": "C9",
+              "sourceX": 0.1351590106007067
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.17491166077738515
+            },
+            {
+              "chord": "Asus2",
+              "sourceX": 0.19434628975265017
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.25265017667844525
+            },
+            {
+              "chord": "Asus4",
+              "sourceX": 0.27296819787985865
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.33127208480565373
+            },
+            {
+              "chord": "Asus2",
+              "sourceX": 0.35159010600706714
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.4107773851590106
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.734375,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09628975265017668
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.75,
+          "fragments": [
+            {
+              "text": "You",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "text": "gotta",
+              "sourceX": 0.13604240282685512
+            },
+            {
+              "text": "roll",
+              "sourceX": 0.196113074204947
+            },
+            {
+              "text": "with",
+              "sourceX": 0.24293286219081273
+            },
+            {
+              "text": "it",
+              "sourceX": 0.29328621908127206
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.766875,
+          "fragments": [
+            {
+              "text": "You",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "text": "gotta",
+              "sourceX": 0.13604240282685512
+            },
+            {
+              "text": "take",
+              "sourceX": 0.19434628975265017
+            },
+            {
+              "text": "your",
+              "sourceX": 0.24381625441696114
+            },
+            {
+              "text": "time",
+              "sourceX": 0.29328621908127206
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.7825,
+          "fragments": [
+            {
+              "text": "You",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "text": "gotta",
+              "sourceX": 0.13604240282685512
+            },
+            {
+              "text": "say",
+              "sourceX": 0.19522968197879859
+            },
+            {
+              "text": "what",
+              "sourceX": 0.2332155477031802
+            },
+            {
+              "text": "you",
+              "sourceX": 0.2826855123674912
+            },
+            {
+              "text": "say",
+              "sourceX": 0.3224381625441696
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.79875,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.38074204946996465
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.815,
+          "fragments": [
+            {
+              "text": "Don't",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "let",
+              "sourceX": 0.15636042402826855
+            },
+            {
+              "text": "anybody",
+              "sourceX": 0.19522968197879859
+            },
+            {
+              "text": "get",
+              "sourceX": 0.27385159010600707
+            },
+            {
+              "text": "in",
+              "sourceX": 0.3127208480565371
+            },
+            {
+              "text": "your",
+              "sourceX": 0.3418727915194346
+            },
+            {
+              "text": "way",
+              "sourceX": 0.39045936395759717
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.83125,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G/B",
+              "sourceX": 0.21289752650176677
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.46996466431095407
+            }
+          ],
+          "annotations": [
+            {
+              "text": "A7sus4",
+              "sourceX": 0.3215547703180212
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.8475,
+          "fragments": [
+            {
+              "text": "'Cause",
+              "sourceX": 0.0989399293286219
+            },
+            {
+              "text": "it's",
+              "sourceX": 0.16607773851590105
+            },
+            {
+              "text": "all",
+              "sourceX": 0.2146643109540636
+            },
+            {
+              "text": "too",
+              "sourceX": 0.25353356890459366
+            },
+            {
+              "text": "much",
+              "sourceX": 0.2924028268551237
+            },
+            {
+              "text": "for",
+              "sourceX": 0.3418727915194346
+            },
+            {
+              "text": "me",
+              "sourceX": 0.38074204946996465
+            },
+            {
+              "text": "to",
+              "sourceX": 0.4107773851590106
+            },
+            {
+              "text": "take",
+              "sourceX": 0.43992932862190814
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.92875,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09628975265017668
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.944375,
+          "fragments": [
+            {
+              "text": "Don't",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "ever",
+              "sourceX": 0.15547703180212014
+            },
+            {
+              "text": "stand",
+              "sourceX": 0.2049469964664311
+            },
+            {
+              "text": "aside,",
+              "sourceX": 0.26325088339222613
+            },
+            {
+              "text": "Don't",
+              "sourceX": 0.3321554770318021
+            },
+            {
+              "text": "ever",
+              "sourceX": 0.3913427561837456
+            },
+            {
+              "text": "be",
+              "sourceX": 0.44081272084805656
+            },
+            {
+              "text": "denied",
+              "sourceX": 0.46996466431095407
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.04875,
+          "fragments": [
+            {
+              "text": "You",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "text": "wanna",
+              "sourceX": 0.1351590106007067
+            },
+            {
+              "text": "be",
+              "sourceX": 0.19522968197879859
+            },
+            {
+              "text": "who",
+              "sourceX": 0.2234982332155477
+            },
+            {
+              "text": "you'd",
+              "sourceX": 0.26325088339222613
+            },
+            {
+              "text": "be",
+              "sourceX": 0.3224381625441696
+            },
+            {
+              "text": "if",
+              "sourceX": 0.35247349823321555
+            },
+            {
+              "text": "you're",
+              "sourceX": 0.38074204946996465
+            },
+            {
+              "text": "coming",
+              "sourceX": 0.4496466431095406
+            },
+            {
+              "text": "with",
+              "sourceX": 0.5185512367491166
+            },
+            {
+              "text": "me",
+              "sourceX": 0.5680212014134276
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.065,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "chord": "G/B",
+              "sourceX": 0.2826855123674912
+            }
+          ],
+          "annotations": [
+            {
+              "text": "A7sus4",
+              "sourceX": 0.4196113074204947
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.08125,
+          "fragments": [
+            {
+              "text": "I",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "think",
+              "sourceX": 0.1157243816254417
+            },
+            {
+              "text": "I've",
+              "sourceX": 0.17491166077738515
+            },
+            {
+              "text": "got",
+              "sourceX": 0.22438162544169613
+            },
+            {
+              "text": "a",
+              "sourceX": 0.26325088339222613
+            },
+            {
+              "text": "feeling",
+              "sourceX": 0.2835689045936396
+            },
+            {
+              "text": "I've",
+              "sourceX": 0.3621908127208481
+            },
+            {
+              "text": "lost",
+              "sourceX": 0.411660777385159
+            },
+            {
+              "text": "inside",
+              "sourceX": 0.46024734982332155
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.0975,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "chord": "G/B",
+              "sourceX": 0.2826855123674912
+            }
+          ],
+          "annotations": [
+            {
+              "text": "A7sus4",
+              "sourceX": 0.4196113074204947
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.113125,
+          "fragments": [
+            {
+              "text": "I",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "think",
+              "sourceX": 0.1157243816254417
+            },
+            {
+              "text": "I'm",
+              "sourceX": 0.17491166077738515
+            },
+            {
+              "text": "gonna",
+              "sourceX": 0.2146643109540636
+            },
+            {
+              "text": "take",
+              "sourceX": 0.27385159010600707
+            },
+            {
+              "text": "me",
+              "sourceX": 0.3224381625441696
+            },
+            {
+              "text": "away",
+              "sourceX": 0.35247349823321555
+            },
+            {
+              "text": "and",
+              "sourceX": 0.4010600706713781
+            },
+            {
+              "text": "hide",
+              "sourceX": 0.44081272084805656
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.13,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "chord": "G/B",
+              "sourceX": 0.2826855123674912
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.3913427561837456
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.5185512367491166
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.145625,
+          "fragments": [
+            {
+              "text": "I'm",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "thinking",
+              "sourceX": 0.13604240282685512
+            },
+            {
+              "text": "of",
+              "sourceX": 0.22438162544169613
+            },
+            {
+              "text": "things",
+              "sourceX": 0.25353356890459366
+            },
+            {
+              "text": "that",
+              "sourceX": 0.3224381625441696
+            },
+            {
+              "text": "I",
+              "sourceX": 0.37190812720848054
+            },
+            {
+              "text": "just",
+              "sourceX": 0.392226148409894
+            },
+            {
+              "text": "can't",
+              "sourceX": 0.43992932862190814
+            },
+            {
+              "text": "abide",
+              "sourceX": 0.4991166077738516
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.17875,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.508833922261484
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.194375,
+          "fragments": [
+            {
+              "text": "I",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "know",
+              "sourceX": 0.1166077738515901
+            },
+            {
+              "text": "the",
+              "sourceX": 0.16519434628975266
+            },
+            {
+              "text": "roads",
+              "sourceX": 0.2058303886925795
+            },
+            {
+              "text": "down",
+              "sourceX": 0.26325088339222613
+            },
+            {
+              "text": "which",
+              "sourceX": 0.3118374558303887
+            },
+            {
+              "text": "your",
+              "sourceX": 0.3710247349823322
+            },
+            {
+              "text": "life",
+              "sourceX": 0.4213780918727915
+            },
+            {
+              "text": "will",
+              "sourceX": 0.46908127208480566
+            },
+            {
+              "text": "drive",
+              "sourceX": 0.519434628975265
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.21125,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.46996466431095407
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.226875,
+          "fragments": [
+            {
+              "text": "I",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "find",
+              "sourceX": 0.1166077738515901
+            },
+            {
+              "text": "the",
+              "sourceX": 0.16519434628975266
+            },
+            {
+              "text": "key",
+              "sourceX": 0.2049469964664311
+            },
+            {
+              "text": "that",
+              "sourceX": 0.24381625441696114
+            },
+            {
+              "text": "lets",
+              "sourceX": 0.29328621908127206
+            },
+            {
+              "text": "you",
+              "sourceX": 0.3418727915194346
+            },
+            {
+              "text": "slip",
+              "sourceX": 0.38162544169611307
+            },
+            {
+              "text": "inside",
+              "sourceX": 0.43109540636042404
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.243125,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.46996466431095407
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.259375,
+          "fragments": [
+            {
+              "text": "Kiss",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "the",
+              "sourceX": 0.14575971731448764
+            },
+            {
+              "text": "girl,",
+              "sourceX": 0.18462897526501768
+            },
+            {
+              "text": "she's",
+              "sourceX": 0.24381625441696114
+            },
+            {
+              "text": "not",
+              "sourceX": 0.3030035335689046
+            },
+            {
+              "text": "behind",
+              "sourceX": 0.34275618374558303
+            },
+            {
+              "text": "the",
+              "sourceX": 0.4107773851590106
+            },
+            {
+              "text": "door",
+              "sourceX": 0.4496466431095406
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.275625,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.09717314487632508
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.29125,
+          "fragments": [
+            {
+              "text": "But",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "you",
+              "sourceX": 0.1351590106007067
+            },
+            {
+              "text": "know",
+              "sourceX": 0.17491166077738515
+            },
+            {
+              "text": "I",
+              "sourceX": 0.22438162544169613
+            },
+            {
+              "text": "think",
+              "sourceX": 0.24381625441696114
+            },
+            {
+              "text": "I",
+              "sourceX": 0.3030035335689046
+            },
+            {
+              "text": "recognize",
+              "sourceX": 0.32420494699646646
+            },
+            {
+              "text": "your",
+              "sourceX": 0.4204946996466431
+            },
+            {
+              "text": "face",
+              "sourceX": 0.46996466431095407
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.308125,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.19434628975265017
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.3621908127208481
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.4107773851590106
+            },
+            {
+              "chord": "G/B",
+              "sourceX": 0.48851590106007065
+            }
+          ],
+          "annotations": [
+            {
+              "text": "A7sus4",
+              "sourceX": 0.5477031802120141
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.32375,
+          "fragments": [
+            {
+              "text": "But",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "I've",
+              "sourceX": 0.13604240282685512
+            },
+            {
+              "text": "never",
+              "sourceX": 0.1855123674911661
+            },
+            {
+              "text": "seen",
+              "sourceX": 0.24469964664310953
+            },
+            {
+              "text": "you",
+              "sourceX": 0.2924028268551237
+            },
+            {
+              "text": "before",
+              "sourceX": 0.3330388692579505
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.405625,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09628975265017668
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.42125,
+          "fragments": [
+            {
+              "text": "You",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "text": "gotta",
+              "sourceX": 0.13604240282685512
+            },
+            {
+              "text": "roll",
+              "sourceX": 0.196113074204947
+            },
+            {
+              "text": "with",
+              "sourceX": 0.24293286219081273
+            },
+            {
+              "text": "it",
+              "sourceX": 0.29328621908127206
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.438125,
+          "fragments": [
+            {
+              "text": "You",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "text": "gotta",
+              "sourceX": 0.13604240282685512
+            },
+            {
+              "text": "take",
+              "sourceX": 0.19434628975265017
+            },
+            {
+              "text": "your",
+              "sourceX": 0.24381625441696114
+            },
+            {
+              "text": "time",
+              "sourceX": 0.29328621908127206
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.45375,
+          "fragments": [
+            {
+              "text": "You",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "text": "gotta",
+              "sourceX": 0.13604240282685512
+            },
+            {
+              "text": "say",
+              "sourceX": 0.19522968197879859
+            },
+            {
+              "text": "what",
+              "sourceX": 0.2332155477031802
+            },
+            {
+              "text": "you",
+              "sourceX": 0.2826855123674912
+            },
+            {
+              "text": "say",
+              "sourceX": 0.3224381625441696
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.47,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.3710247349823322
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.48625,
+          "fragments": [
+            {
+              "text": "Don't",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "let",
+              "sourceX": 0.15636042402826855
+            },
+            {
+              "text": "anybody",
+              "sourceX": 0.19522968197879859
+            },
+            {
+              "text": "get",
+              "sourceX": 0.27385159010600707
+            },
+            {
+              "text": "in",
+              "sourceX": 0.3127208480565371
+            },
+            {
+              "text": "your",
+              "sourceX": 0.3418727915194346
+            },
+            {
+              "text": "way",
+              "sourceX": 0.39045936395759717
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.5025,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G/B",
+              "sourceX": 0.21289752650176677
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.45936395759717313
+            }
+          ],
+          "annotations": [
+            {
+              "text": "A7sus4",
+              "sourceX": 0.3118374558303887
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.51875,
+          "fragments": [
+            {
+              "text": "'Cause",
+              "sourceX": 0.0989399293286219
+            },
+            {
+              "text": "it's",
+              "sourceX": 0.16607773851590105
+            },
+            {
+              "text": "all",
+              "sourceX": 0.2146643109540636
+            },
+            {
+              "text": "too",
+              "sourceX": 0.25353356890459366
+            },
+            {
+              "text": "much",
+              "sourceX": 0.2924028268551237
+            },
+            {
+              "text": "for",
+              "sourceX": 0.34275618374558303
+            },
+            {
+              "text": "me",
+              "sourceX": 0.38074204946996465
+            },
+            {
+              "text": "to",
+              "sourceX": 0.4107773851590106
+            },
+            {
+              "text": "take",
+              "sourceX": 0.43992932862190814
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solo",
+      "rows": [
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.599375,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.1351590106007067
+            },
+            {
+              "chord": "G/B",
+              "sourceX": 0.19346289752650175
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.35159010600706714
+            }
+          ],
+          "annotations": [
+            {
+              "text": "(",
+              "sourceX": 0.127208480565371
+            },
+            {
+              "text": "A7sus4",
+              "sourceX": 0.2332155477031802
+            },
+            {
+              "text": "x3",
+              "sourceX": 0.30212014134275617
+            },
+            {
+              "text": ")",
+              "sourceX": 0.32332155477031804
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse",
+      "rows": [
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.680625,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.5282685512367491
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.696875,
+          "fragments": [
+            {
+              "text": "I",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "know",
+              "sourceX": 0.1166077738515901
+            },
+            {
+              "text": "the",
+              "sourceX": 0.16519434628975266
+            },
+            {
+              "text": "roads",
+              "sourceX": 0.2058303886925795
+            },
+            {
+              "text": "down",
+              "sourceX": 0.26325088339222613
+            },
+            {
+              "text": "which",
+              "sourceX": 0.3118374558303887
+            },
+            {
+              "text": "your",
+              "sourceX": 0.3710247349823322
+            },
+            {
+              "text": "life",
+              "sourceX": 0.4213780918727915
+            },
+            {
+              "text": "will",
+              "sourceX": 0.46908127208480566
+            },
+            {
+              "text": "drive",
+              "sourceX": 0.519434628975265
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.713125,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.45936395759717313
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.729375,
+          "fragments": [
+            {
+              "text": "I",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "find",
+              "sourceX": 0.1157243816254417
+            },
+            {
+              "text": "the",
+              "sourceX": 0.16519434628975266
+            },
+            {
+              "text": "key",
+              "sourceX": 0.2049469964664311
+            },
+            {
+              "text": "that",
+              "sourceX": 0.24381625441696114
+            },
+            {
+              "text": "lets",
+              "sourceX": 0.29328621908127206
+            },
+            {
+              "text": "you",
+              "sourceX": 0.3418727915194346
+            },
+            {
+              "text": "slip",
+              "sourceX": 0.38162544169611307
+            },
+            {
+              "text": "inside",
+              "sourceX": 0.43109540636042404
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.745625,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.45936395759717313
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.76125,
+          "fragments": [
+            {
+              "text": "Kiss",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "the",
+              "sourceX": 0.14575971731448764
+            },
+            {
+              "text": "girl,",
+              "sourceX": 0.18462897526501768
+            },
+            {
+              "text": "she's",
+              "sourceX": 0.24469964664310953
+            },
+            {
+              "text": "not",
+              "sourceX": 0.3030035335689046
+            },
+            {
+              "text": "behind",
+              "sourceX": 0.34275618374558303
+            },
+            {
+              "text": "the",
+              "sourceX": 0.4107773851590106
+            },
+            {
+              "text": "door",
+              "sourceX": 0.4496466431095406
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.77875,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "F",
+              "sourceX": 0.09717314487632508
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.79375,
+          "fragments": [
+            {
+              "text": "But",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "you",
+              "sourceX": 0.1351590106007067
+            },
+            {
+              "text": "know",
+              "sourceX": 0.17491166077738515
+            },
+            {
+              "text": "I",
+              "sourceX": 0.22438162544169613
+            },
+            {
+              "text": "think",
+              "sourceX": 0.24381625441696114
+            },
+            {
+              "text": "I",
+              "sourceX": 0.3030035335689046
+            },
+            {
+              "text": "recognize",
+              "sourceX": 0.32420494699646646
+            },
+            {
+              "text": "your",
+              "sourceX": 0.4204946996466431
+            },
+            {
+              "text": "face",
+              "sourceX": 0.46996466431095407
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.81,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.19434628975265017
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.35159010600706714
+            },
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.4107773851590106
+            },
+            {
+              "chord": "G/B",
+              "sourceX": 0.48851590106007065
+            }
+          ],
+          "annotations": [
+            {
+              "text": "A7sus4",
+              "sourceX": 0.5477031802120141
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.82625,
+          "fragments": [
+            {
+              "text": "But",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "I've",
+              "sourceX": 0.13604240282685512
+            },
+            {
+              "text": "never",
+              "sourceX": 0.1855123674911661
+            },
+            {
+              "text": "seen",
+              "sourceX": 0.24469964664310953
+            },
+            {
+              "text": "you",
+              "sourceX": 0.2924028268551237
+            },
+            {
+              "text": "before",
+              "sourceX": 0.3330388692579505
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.908125,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09628975265017668
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.92375,
+          "fragments": [
+            {
+              "text": "You",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "text": "gotta",
+              "sourceX": 0.13604240282685512
+            },
+            {
+              "text": "roll",
+              "sourceX": 0.196113074204947
+            },
+            {
+              "text": "with",
+              "sourceX": 0.24293286219081273
+            },
+            {
+              "text": "it",
+              "sourceX": 0.29328621908127206
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.94,
+          "fragments": [
+            {
+              "text": "You",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "text": "gotta",
+              "sourceX": 0.13604240282685512
+            },
+            {
+              "text": "take",
+              "sourceX": 0.19434628975265017
+            },
+            {
+              "text": "your",
+              "sourceX": 0.24381625441696114
+            },
+            {
+              "text": "time",
+              "sourceX": 0.29328621908127206
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.04875,
+          "fragments": [
+            {
+              "text": "You",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "text": "gotta",
+              "sourceX": 0.13604240282685512
+            },
+            {
+              "text": "say",
+              "sourceX": 0.19522968197879859
+            },
+            {
+              "text": "what",
+              "sourceX": 0.2332155477031802
+            },
+            {
+              "text": "you",
+              "sourceX": 0.2826855123674912
+            },
+            {
+              "text": "say",
+              "sourceX": 0.3224381625441696
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.065,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.3710247349823322
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.08125,
+          "fragments": [
+            {
+              "text": "Don't",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "let",
+              "sourceX": 0.15636042402826855
+            },
+            {
+              "text": "anybody",
+              "sourceX": 0.19522968197879859
+            },
+            {
+              "text": "get",
+              "sourceX": 0.27385159010600707
+            },
+            {
+              "text": "in",
+              "sourceX": 0.3127208480565371
+            },
+            {
+              "text": "your",
+              "sourceX": 0.3418727915194346
+            },
+            {
+              "text": "way",
+              "sourceX": 0.39045936395759717
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.0975,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G/B",
+              "sourceX": 0.21289752650176677
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.4496466431095406
+            }
+          ],
+          "annotations": [
+            {
+              "text": "A7sus4",
+              "sourceX": 0.2924028268551237
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.113125,
+          "fragments": [
+            {
+              "text": "'Cause",
+              "sourceX": 0.0989399293286219
+            },
+            {
+              "text": "it's",
+              "sourceX": 0.16607773851590105
+            },
+            {
+              "text": "all",
+              "sourceX": 0.2146643109540636
+            },
+            {
+              "text": "too",
+              "sourceX": 0.25353356890459366
+            },
+            {
+              "text": "much",
+              "sourceX": 0.2924028268551237
+            },
+            {
+              "text": "for",
+              "sourceX": 0.3418727915194346
+            },
+            {
+              "text": "me",
+              "sourceX": 0.38074204946996465
+            },
+            {
+              "text": "to",
+              "sourceX": 0.4107773851590106
+            },
+            {
+              "text": "take",
+              "sourceX": 0.43992932862190814
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.14625,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09628975265017668
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.161875,
+          "fragments": [
+            {
+              "text": "Don't",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "ever",
+              "sourceX": 0.15547703180212014
+            },
+            {
+              "text": "stand",
+              "sourceX": 0.2049469964664311
+            },
+            {
+              "text": "aside,",
+              "sourceX": 0.26325088339222613
+            },
+            {
+              "text": "don't",
+              "sourceX": 0.3321554770318021
+            },
+            {
+              "text": "ever",
+              "sourceX": 0.3913427561837456
+            },
+            {
+              "text": "be",
+              "sourceX": 0.44081272084805656
+            },
+            {
+              "text": "denied",
+              "sourceX": 0.46996466431095407
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.178125,
+          "fragments": [
+            {
+              "text": "You",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "text": "wanna",
+              "sourceX": 0.1351590106007067
+            },
+            {
+              "text": "be",
+              "sourceX": 0.19522968197879859
+            },
+            {
+              "text": "who",
+              "sourceX": 0.2234982332155477
+            },
+            {
+              "text": "you'd",
+              "sourceX": 0.26325088339222613
+            },
+            {
+              "text": "be",
+              "sourceX": 0.3224381625441696
+            },
+            {
+              "text": "if",
+              "sourceX": 0.35247349823321555
+            },
+            {
+              "text": "you're",
+              "sourceX": 0.38074204946996465
+            },
+            {
+              "text": "coming",
+              "sourceX": 0.4496466431095406
+            },
+            {
+              "text": "with",
+              "sourceX": 0.5185512367491166
+            },
+            {
+              "text": "me",
+              "sourceX": 0.5680212014134276
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "rows": [
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.259375,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "chord": "G/B",
+              "sourceX": 0.2924028268551237
+            }
+          ],
+          "annotations": [
+            {
+              "text": "A7sus4",
+              "sourceX": 0.4204946996466431
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.275625,
+          "fragments": [
+            {
+              "text": "I",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "think",
+              "sourceX": 0.1157243816254417
+            },
+            {
+              "text": "I've",
+              "sourceX": 0.17491166077738515
+            },
+            {
+              "text": "got",
+              "sourceX": 0.22438162544169613
+            },
+            {
+              "text": "a",
+              "sourceX": 0.26325088339222613
+            },
+            {
+              "text": "feeling",
+              "sourceX": 0.2835689045936396
+            },
+            {
+              "text": "I've",
+              "sourceX": 0.3621908127208481
+            },
+            {
+              "text": "lost",
+              "sourceX": 0.411660777385159
+            },
+            {
+              "text": "inside",
+              "sourceX": 0.46024734982332155
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.29125,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "chord": "G/B",
+              "sourceX": 0.2924028268551237
+            }
+          ],
+          "annotations": [
+            {
+              "text": "A7sus4",
+              "sourceX": 0.4204946996466431
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.3075,
+          "fragments": [
+            {
+              "text": "I",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "think",
+              "sourceX": 0.1157243816254417
+            },
+            {
+              "text": "I've",
+              "sourceX": 0.17491166077738515
+            },
+            {
+              "text": "got",
+              "sourceX": 0.22438162544169613
+            },
+            {
+              "text": "a",
+              "sourceX": 0.26325088339222613
+            },
+            {
+              "text": "feeling",
+              "sourceX": 0.2835689045936396
+            },
+            {
+              "text": "I've",
+              "sourceX": 0.3621908127208481
+            },
+            {
+              "text": "lost",
+              "sourceX": 0.411660777385159
+            },
+            {
+              "text": "inside",
+              "sourceX": 0.46024734982332155
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.32375,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "chord": "G/B",
+              "sourceX": 0.2924028268551237
+            }
+          ],
+          "annotations": [
+            {
+              "text": "A7sus4",
+              "sourceX": 0.4204946996466431
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.340625,
+          "fragments": [
+            {
+              "text": "I",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "think",
+              "sourceX": 0.1157243816254417
+            },
+            {
+              "text": "I've",
+              "sourceX": 0.17491166077738515
+            },
+            {
+              "text": "got",
+              "sourceX": 0.22438162544169613
+            },
+            {
+              "text": "a",
+              "sourceX": 0.26325088339222613
+            },
+            {
+              "text": "feeling",
+              "sourceX": 0.2835689045936396
+            },
+            {
+              "text": "I've",
+              "sourceX": 0.3621908127208481
+            },
+            {
+              "text": "lost",
+              "sourceX": 0.411660777385159
+            },
+            {
+              "text": "inside",
+              "sourceX": 0.46024734982332155
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.35625,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "chord": "G/B",
+              "sourceX": 0.2924028268551237
+            }
+          ],
+          "annotations": [
+            {
+              "text": "A7sus4",
+              "sourceX": 0.4204946996466431
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.3725,
+          "fragments": [
+            {
+              "text": "I",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "think",
+              "sourceX": 0.1157243816254417
+            },
+            {
+              "text": "I've",
+              "sourceX": 0.17491166077738515
+            },
+            {
+              "text": "got",
+              "sourceX": 0.22438162544169613
+            },
+            {
+              "text": "a",
+              "sourceX": 0.26325088339222613
+            },
+            {
+              "text": "feeling",
+              "sourceX": 0.2835689045936396
+            },
+            {
+              "text": "I've",
+              "sourceX": 0.3621908127208481
+            },
+            {
+              "text": "lost",
+              "sourceX": 0.411660777385159
+            },
+            {
+              "text": "inside",
+              "sourceX": 0.46024734982332155
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.389375,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "chord": "G/B",
+              "sourceX": 0.2924028268551237
+            }
+          ],
+          "annotations": [
+            {
+              "text": "A7sus4",
+              "sourceX": 0.4204946996466431
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.405,
+          "fragments": [
+            {
+              "text": "I",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "think",
+              "sourceX": 0.1157243816254417
+            },
+            {
+              "text": "I've",
+              "sourceX": 0.17491166077738515
+            },
+            {
+              "text": "got",
+              "sourceX": 0.22438162544169613
+            },
+            {
+              "text": "a",
+              "sourceX": 0.26325088339222613
+            },
+            {
+              "text": "feeling",
+              "sourceX": 0.2835689045936396
+            },
+            {
+              "text": "I've",
+              "sourceX": 0.3621908127208481
+            },
+            {
+              "text": "lost",
+              "sourceX": 0.411660777385159
+            },
+            {
+              "text": "inside",
+              "sourceX": 0.46024734982332155
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.42125,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "chord": "G/B",
+              "sourceX": 0.2924028268551237
+            }
+          ],
+          "annotations": [
+            {
+              "text": "A7sus4",
+              "sourceX": 0.4196113074204947
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.4375,
+          "fragments": [
+            {
+              "text": "I",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "think",
+              "sourceX": 0.1157243816254417
+            },
+            {
+              "text": "I've",
+              "sourceX": 0.17491166077738515
+            },
+            {
+              "text": "got",
+              "sourceX": 0.22438162544169613
+            },
+            {
+              "text": "a",
+              "sourceX": 0.26325088339222613
+            },
+            {
+              "text": "feeling",
+              "sourceX": 0.2835689045936396
+            },
+            {
+              "text": "I've",
+              "sourceX": 0.3621908127208481
+            },
+            {
+              "text": "lost",
+              "sourceX": 0.411660777385159
+            },
+            {
+              "text": "inside",
+              "sourceX": 0.46024734982332155
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.45375,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "chord": "G/B",
+              "sourceX": 0.2924028268551237
+            }
+          ],
+          "annotations": [
+            {
+              "text": "A7sus4",
+              "sourceX": 0.4196113074204947
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.47,
+          "fragments": [
+            {
+              "text": "I",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "think",
+              "sourceX": 0.1157243816254417
+            },
+            {
+              "text": "I've",
+              "sourceX": 0.17491166077738515
+            },
+            {
+              "text": "got",
+              "sourceX": 0.22438162544169613
+            },
+            {
+              "text": "a",
+              "sourceX": 0.26325088339222613
+            },
+            {
+              "text": "feeling",
+              "sourceX": 0.2835689045936396
+            },
+            {
+              "text": "I've",
+              "sourceX": 0.3621908127208481
+            },
+            {
+              "text": "lost",
+              "sourceX": 0.411660777385159
+            },
+            {
+              "text": "inside",
+              "sourceX": 0.46024734982332155
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.48625,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "chord": "G/B",
+              "sourceX": 0.2924028268551237
+            }
+          ],
+          "annotations": [
+            {
+              "text": "A7sus4",
+              "sourceX": 0.4196113074204947
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.5025,
+          "fragments": [
+            {
+              "text": "I",
+              "sourceX": 0.09717314487632508
+            },
+            {
+              "text": "think",
+              "sourceX": 0.1157243816254417
+            },
+            {
+              "text": "I've",
+              "sourceX": 0.17491166077738515
+            },
+            {
+              "text": "got",
+              "sourceX": 0.22438162544169613
+            },
+            {
+              "text": "a",
+              "sourceX": 0.26325088339222613
+            },
+            {
+              "text": "feeling",
+              "sourceX": 0.2835689045936396
+            },
+            {
+              "text": "I've",
+              "sourceX": 0.3621908127208481
+            },
+            {
+              "text": "lost",
+              "sourceX": 0.411660777385159
+            },
+            {
+              "text": "inside",
+              "sourceX": 0.46024734982332155
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outro",
+      "rows": [
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.583125,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Cadd9",
+              "sourceX": 0.09628975265017668
+            },
+            {
+              "chord": "G/B",
+              "sourceX": 0.17402826855123674
+            }
+          ],
+          "annotations": [
+            {
+              "text": "A7sus4",
+              "sourceX": 0.2332155477031802
+            },
+            {
+              "text": "x3",
+              "sourceX": 0.3127208480565371
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.6,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09628975265017668
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

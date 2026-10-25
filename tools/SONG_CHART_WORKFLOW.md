@@ -11,6 +11,7 @@ Every coordinate-based song chart has a verification manifest under `tools/song-
    `node tools/render-coordinate-chart.mjs coordinate-capture.json`
 
    Generation stops on a missing chord, duplicate column, negative column, overlap, or absent page calibration.
+   For inline repeat markers or parentheses, a chord row may include `annotations` with `text` and `sourceX` fields. These share the row's coordinate grid and must not overlap chord anchors.
 4. Copy the generated chart text into the song data without changing source wording.
 5. Verify every page and chord row against the PDF, then inspect the complete chart in the application.
 6. Only after both checks pass, update the protected manifest:

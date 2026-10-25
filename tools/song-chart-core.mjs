@@ -133,7 +133,7 @@ export function formatAnchors(anchors) {
   return anchors.map(({ chord, column }) => `${chord}@${column}`).join(", ") || "none";
 }
 
-export function renderCoordinateLine(anchors, calibration) {
+export function renderCoordinateLine(anchors, calibration, annotations = []) {
   if (!Array.isArray(anchors) || anchors.length === 0) throw new Error("a chord row must contain at least one anchor");
   const seen = new Set();
   const positioned = anchors.map(({ chord, sourceX }) => {
@@ -149,6 +149,12 @@ export function renderCoordinateLine(anchors, calibration) {
   for (const { chord, column } of positioned) {
     if (line.length > column) throw new Error(`${chord}@${column} overlaps the previous chord`);
     line = line.padEnd(column, " ") + chord;
+  }
+  if (annotations.length) {
+    line = renderCoordinateText([
+      ...anchors.map(({ chord, sourceX }) => ({ text: chord, sourceX })),
+      ...annotations
+    ], calibration);
   }
   return { line, anchors: positioned };
 }

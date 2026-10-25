@@ -126,6 +126,8 @@ const scriptFiles = [
   "data/cleopatra-coordinate.js",
   "data/the-verve-lucky-man.js",
   "data/the-verve-lucky-man-coordinate.js",
+  "data/roll-with-it.js",
+  "data/roll-with-it-coordinate.js",
   "data/tone-settings.js",
   "data/library-metadata.js",
   "data/academy-data.js",

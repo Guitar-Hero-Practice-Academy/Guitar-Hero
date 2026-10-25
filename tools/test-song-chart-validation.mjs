@@ -56,4 +56,17 @@ assert.throws(
   /multiple chords map to column/
 );
 
+const annotated = renderCoordinateLine(
+  [{ chord: "G", sourceX: 0.1 }, { chord: "Cadd9", sourceX: 0.16 }],
+  { originX: 0.1, cellWidth: 0.02 },
+  [{ text: "(", sourceX: 0.14 }, { text: "x3)", sourceX: 0.28 }]
+);
+assert.equal(annotated.line, "G (Cadd9 x3)");
+assert.deepEqual(chordAnchors(annotated.line), annotated.anchors);
+assert.throws(() => renderCoordinateLine(
+  [{ chord: "G", sourceX: 0.1 }],
+  { originX: 0.1, cellWidth: 0.02 },
+  [{ text: "x3", sourceX: 0.1 }]
+), /overlaps/);
+
 console.log("Song-chart guard tests passed.");
