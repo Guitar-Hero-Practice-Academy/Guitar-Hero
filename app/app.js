@@ -2957,23 +2957,35 @@ function renderChartColumns(song, columnCount, images = `${renderChartImage(song
 
 function splitChartForColumns(chart, columnCount = 2) {
   const lines = String(chart).split("\n");
+  const lineWeights = lines.map((line) => /^\[\[image:/.test(line.trim()) ? 18 : 1);
+  const cumulativeWeights = [0];
+  lineWeights.forEach((weight) => cumulativeWeights.push(cumulativeWeights.at(-1) + weight));
+  const totalWeight = cumulativeWeights.at(-1);
+  const weightedTargetIndex = (weightTarget) => {
+    let best = 1;
+    for (let index = 2; index < cumulativeWeights.length; index += 1) {
+      if (Math.abs(cumulativeWeights[index] - weightTarget) < Math.abs(cumulativeWeights[best] - weightTarget)) best = index;
+    }
+    return Math.min(lines.length - 1, best);
+  };
   const boundaries = lines
-    .map((line, index) => (/^\[.+\]$/.test(line.trim()) && index > 0 ? index : null))
+    .map((line, index) => (/^\[(?!\[image:).+\]$/.test(line.trim()) && index > 0 ? index : null))
     .filter((index) => index !== null);
   const splits = [];
   let previous = 0;
-  const targetSpan = lines.length / columnCount;
+  const targetSpan = totalWeight / columnCount;
   const isChordLine = (line) => {
     const tokens = line.trim().split(/\s+/).filter(Boolean);
     return tokens.length > 0 && tokens.every((token) => /^[A-G](?:#|b)?(?:m|maj|min|sus|dim|aug|add)?\d*(?:\/[A-G](?:#|b)?)?$/.test(token));
   };
   for (let column = 1; column < columnCount; column += 1) {
-    const target = Math.round((lines.length * column) / columnCount);
+    const targetWeight = (totalWeight * column) / columnCount;
+    const target = weightedTargetIndex(targetWeight);
     const candidates = boundaries.filter((index) => index > previous && !splits.includes(index));
     const nearestBoundary = candidates.length
-      ? candidates.reduce((best, index) => Math.abs(index - target) < Math.abs(best - target) ? index : best)
+      ? candidates.reduce((best, index) => Math.abs(cumulativeWeights[index] - targetWeight) < Math.abs(cumulativeWeights[best] - targetWeight) ? index : best)
       : null;
-    let splitAt = nearestBoundary !== null && Math.abs(nearestBoundary - target) <= targetSpan / 10
+    let splitAt = nearestBoundary !== null && Math.abs(cumulativeWeights[nearestBoundary] - targetWeight) <= targetSpan / 3
       ? nearestBoundary
       : target;
     if (splitAt > previous + 1 && isChordLine(lines[splitAt - 1]) && !isChordLine(lines[splitAt])) splitAt -= 1;

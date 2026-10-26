@@ -1,0 +1,1357 @@
+{
+  "schemaVersion": 1,
+  "songId": "oasis-supersonic",
+  "source": {
+    "fileName": "supersonic chords.pdf",
+    "supplementalImages": [
+      "supersonic-solo-1.png",
+      "supersonic-solo-2.png"
+    ]
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.092402,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 2,
+      "originX": 0.092402,
+      "cellWidth": 0.00983
+    },
+    {
+      "page": 3,
+      "originX": 0.092402,
+      "cellWidth": 0.00983
+    }
+  ],
+  "sections": [
+    {
+      "name": "Notes",
+      "rows": [
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "This is the simple acoustic version when using a capo.",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "The capo should be on the second fret.",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "With this method, there is no need for bar chords.",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "This was made by ear.",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "It should be easy for novices, as all chords are rather simple, apart from the B7,",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "fragments": [
+            {
+              "text": "which may take a little getting used to.",
+              "sourceX": 0.092402
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "note",
+          "text": "e|----------------|----------------|"
+        },
+        {
+          "type": "note",
+          "text": "B|------3---------|----------------|"
+        },
+        {
+          "type": "note",
+          "text": "G|----0---2-0-----|-0--------------| x4"
+        },
+        {
+          "type": "note",
+          "text": "D|--2---------2---|-0----5---------|"
+        },
+        {
+          "type": "note",
+          "text": "A|-2--------------|------4---------|"
+        },
+        {
+          "type": "note",
+          "text": "E|--------------3-|-3---3-5--------|"
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.210362
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.308662
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.328322
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I need to be myself",
+              "sourceX": 0.210362
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.220192
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.308662
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.328322
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I can't be no one else",
+              "sourceX": 0.210362
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.141552
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "I'm feeling supersonic",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092402
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.269342
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Give me gin and tonic",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.092402
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.338152
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.515092
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You can have it all but how much do you want it?",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.131722
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.279172
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.328322
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You make me laugh",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.220192
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.328322
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.377472
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Give me your autograph",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.15138200000000002
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.387302
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.436452
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "Can I ride with you in your B.M.W.?",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.171042
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.397132
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.534752
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You can sail with me in my yellow submarine",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.210362
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You need to find out",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.485602
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "'Cos no one's gonna tell you what I'm on about",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.210362
+            },
+            {
+              "chord": "B7",
+              "sourceX": 0.593732
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "You need to find a way for what you want to say",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "But before tomorrow",
+              "sourceX": 0.092402
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.141552
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.239852
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.328322
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.406962
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "'Cos my friend said he'd take you home",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.121892
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.220192
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.289002
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.328322
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "He sits in a corner all alone",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.121892
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.19070199999999998
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.259512
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.298832
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "He lives under a waterfall",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.092402
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.210362
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "No body can see him",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092402
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.220192
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.406962
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.446282
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "No body can ever hear him call",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092402
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.220192
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.406962
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.446282
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "fragments": [
+            {
+              "text": "No body can ever hear him call",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.102232
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.161212
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.102232
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.19070199999999998
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.269342
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.328322
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.102232
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.19070199999999998
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.269342
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.328322
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.102232
+            },
+            {
+              "chord": "B7",
+              "sourceX": 0.210362
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solo",
+      "rows": [
+        {
+          "type": "image",
+          "text": "[[image:assets/supersonic-solo-1.png|Solo 1 - measures 45 to 52]]"
+        },
+        {
+          "type": "image",
+          "text": "[[image:assets/supersonic-solo-2.png|Solo 1 - measures 53 to 56]]"
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.220192
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.338152
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.387302
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You need to be yourself",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.230022
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.347982
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.397132
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You can't be no one else",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.131722
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I know a girl called Elsa",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.141552
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.24968200000000002
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "She's into Alka Seltzer",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.131722
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.446282
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.554412
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "She sniffs it through a cane on a supersonic train",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.171042
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.328322
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.377472
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "And she makes me laugh",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.19070199999999998
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.308662
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.387302
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "I got her autograph",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.131722
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.377472
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.46594199999999997
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "She done it with a doctor on a helicopter",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.15138200000000002
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "She's sniffin in her tissue",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.092402
+            },
+            {
+              "chord": "A",
+              "sourceX": 0.24968200000000002
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "Sellin' the Big Issue",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.269342
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "When she needs to find out",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.485602
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "'Cos no one's gonna tell her what I'm on about",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.210362
+            },
+            {
+              "chord": "B7",
+              "sourceX": 0.574072
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "You need to find a way for what you want to say",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "But before tomorrow",
+              "sourceX": 0.092402
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.141552
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.239852
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.328322
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.406962
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "'Cos my friend said he'd take you home",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.121892
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.220192
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.289002
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.328322
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "He sits in a corner all alone",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.121892
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.19070199999999998
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.259512
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.298832
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "He lives under a waterfall",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.092402
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.210362
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "No body can see him",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092402
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.220192
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.35781199999999996
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.406962
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "No body can ever hear him call",
+              "sourceX": 0.092402
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.092402
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.220192
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.35781199999999996
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.406962
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "fragments": [
+            {
+              "text": "No body can ever hear him call",
+              "sourceX": 0.092402
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ending",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.092402
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.180872
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.259512
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.318492
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.092402
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.180872
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.259512
+            },
+            {
+              "chord": "Em",
+              "sourceX": 0.318492
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
