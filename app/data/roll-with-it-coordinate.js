@@ -1,7 +1,7 @@
 const rollWithItCoordinateSong = window.initialSongs.find((song) => song.id === "oasis-roll-with-it");
 
 if (rollWithItCoordinateSong) {
-  rollWithItCoordinateSong.contentRevision = 1;
+  rollWithItCoordinateSong.contentRevision = 2;
   rollWithItCoordinateSong.chart = `[Chords]
 Chords:
 A       x02220
