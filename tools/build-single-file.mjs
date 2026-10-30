@@ -130,6 +130,8 @@ const scriptFiles = [
   "data/roll-with-it-coordinate.js",
   "data/supersonic.js",
   "data/supersonic-coordinate.js",
+  "data/the-offspring-the-kids-arent-alright.js",
+  "data/the-offspring-the-kids-arent-alright-coordinate.js",
   "data/tone-settings.js",
   "data/library-metadata.js",
   "data/academy-data.js",

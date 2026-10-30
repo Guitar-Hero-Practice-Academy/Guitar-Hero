@@ -1,0 +1,908 @@
+{
+  "schemaVersion": 1,
+  "songId": "the-offspring-the-kids-arent-alright",
+  "source": {
+    "fileName": "the kids arent alright chords.pdf",
+    "sha256": "9d7d5adb966d771fc22cf0e78d12075f51463d28b4b61d24a369b579b166f652"
+  },
+  "extraction": {
+    "method": "macOS Vision line boxes and rendered-page ink projection; source coordinates normalized to full PDF page",
+    "renderWidth": 1191,
+    "renderHeight": 1684,
+    "lyricRows": 34,
+    "chordRows": 32,
+    "anchorCount": 44
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.09240246,
+      "cellWidth": 0.009815469
+    },
+    {
+      "page": 2,
+      "originX": 0.09240246,
+      "cellWidth": 0.009815469
+    },
+    {
+      "page": 3,
+      "originX": 0.09240246,
+      "cellWidth": 0.009815469
+    }
+  ],
+  "sections": [
+    {
+      "name": "Source",
+      "rows": [
+        {
+          "type": "note",
+          "text": "The Kids Aren't Alright - Offspring"
+        },
+        {
+          "type": "note",
+          "text": "Tabbed By: WarriorKlan"
+        },
+        {
+          "type": "note",
+          "text": "Email: BBall_legends@yahoo.com"
+        }
+      ]
+    },
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.54796512,
+          "expectedChordCount": 4,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.131664336
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.161110743
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.19055715
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.46511628,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.514467627
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.44767442,
+          "fragments": [
+            {
+              "text": "When we were young the future was so bright (Woah-oh!)",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.43459302,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.41631293700000005
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.41567696,
+          "fragments": [
+            {
+              "text": "The old neighborhood was so alive (Woah-oh!)",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.40261628,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.46539028200000004
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.38361045,
+          "fragments": [
+            {
+              "text": "And every kid on the whole damn street (Woah-oh!)",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.3502907,
+          "fragments": [
+            {
+              "text": "Was gonna make it big and not be beat",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.319,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.475205751
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.30225653,
+          "fragments": [
+            {
+              "text": "Now the neighborhood's cracked and torn (Woah-oh!)",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.28924419,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.543914034
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.27019002,
+          "fragments": [
+            {
+              "text": "The kids are grown up but their lives are worn (Woah-oh!)",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.25726744,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.337789185
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.23812352,
+          "fragments": [
+            {
+              "text": "How can one little street",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.20486936,
+          "fragments": [
+            {
+              "text": "Swallow so many lives",
+              "sourceX": 0.09240246
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.125,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.161110743
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.10901163,
+          "fragments": [
+            {
+              "text": "Chances thrown",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.09315992,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.19055715
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.07544473,
+          "fragments": [
+            {
+              "text": "Nothing's free",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.06104651,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.17092621200000002
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.337789185
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.04334917,
+          "fragments": [
+            {
+              "text": "Longing for what used to be",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.93895349,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.19055715
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.92151163,
+          "fragments": [
+            {
+              "text": "Still it's hard",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.905,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.17092621200000002
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.88943827,
+          "fragments": [
+            {
+              "text": "Hard to see",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.87645349,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.17092621200000002
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.337789185
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.85610465,
+          "fragments": [
+            {
+              "text": "Fragile lives, shattered dreams",
+              "sourceX": 0.09240246
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.77761628,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.75872093,
+          "fragments": [
+            {
+              "text": "Jamie had a chance, well she really did (Woah-oh!)",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.744,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.72674419,
+          "fragments": [
+            {
+              "text": "Instead she dropped out and had a couple of kids (Woah-oh!)",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.71366279,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.69476744,
+          "fragments": [
+            {
+              "text": "Mark still lives at home 'cause he's got no job",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.68023256,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.66270784,
+          "fragments": [
+            {
+              "text": "Just plays guitar and smokes a lot of pot",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.63081395,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.28871184
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.61460808,
+          "fragments": [
+            {
+              "text": "Jay committed suicide (Woah-oh!)",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.58284884,
+          "fragments": [
+            {
+              "text": "Brandon OD'd and died (Woah-oh!)",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.56831395,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.54928741,
+          "fragments": [
+            {
+              "text": "What the hell is going on",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.533,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.51598837,
+          "fragments": [
+            {
+              "text": "Cruelest dream, reality",
+              "sourceX": 0.09240246
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.4375,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.161110743
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.41983373,
+          "fragments": [
+            {
+              "text": "Chances thrown",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.405,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.19055715
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.37314336,
+          "fragments": [
+            {
+              "text": "Nothing's free",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.37354651,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.17092621200000002
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.337789185
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.35451306,
+          "fragments": [
+            {
+              "text": "Longing for what used to be",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.34011628,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.19055715
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.32412791,
+          "fragments": [
+            {
+              "text": "Still it's hard",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.306,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.17092621200000002
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.29053451,
+          "fragments": [
+            {
+              "text": "Hard to see",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.2747093,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.17092621200000002
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.337789185
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.2571262,
+          "fragments": [
+            {
+              "text": "Fragile lives, shattered dreams",
+              "sourceX": 0.09240246
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.17877907,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.161110743
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.16133721,
+          "fragments": [
+            {
+              "text": "Chances thrown",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.14680233,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.19055715
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.12767221,
+          "fragments": [
+            {
+              "text": "Nothing's free",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.11482558,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.17092621200000002
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.337789185
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.09593023,
+          "fragments": [
+            {
+              "text": "Longing for what used to be",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.08139535,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Em",
+              "sourceX": 0.19055715
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.06532067,
+          "fragments": [
+            {
+              "text": "Still it's hard",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.94040698,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.17092621200000002
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.92577197,
+          "fragments": [
+            {
+              "text": "Hard to see",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.90843023,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.17092621200000002
+            },
+            {
+              "chord": "D",
+              "sourceX": 0.337789185
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.88953488,
+          "fragments": [
+            {
+              "text": "Fragile lives, shattered dreams",
+              "sourceX": 0.09240246
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
