@@ -1,0 +1,1473 @@
+{
+  "schemaVersion": 1,
+  "songId": "savage-garden-i-want-you",
+  "source": {
+    "fileName": "i want you chords.pdf",
+    "sha256": "56c7932608284731a323e91104b761bc93f9b446604cd982c1321fd1f2f815c7"
+  },
+  "extraction": {
+    "method": "macOS Vision line boxes and rendered-page ink projection; source coordinates normalized to full PDF page",
+    "renderWidth": 1191,
+    "renderHeight": 1684,
+    "lyricRows": 51,
+    "chordRows": 43,
+    "anchorCount": 104
+  },
+  "pages": [
+    {
+      "page": 1,
+      "originX": 0.09240246,
+      "cellWidth": 0.009815469
+    },
+    {
+      "page": 2,
+      "originX": 0.09240246,
+      "cellWidth": 0.009815469
+    },
+    {
+      "page": 3,
+      "originX": 0.09240246,
+      "cellWidth": 0.009815469
+    }
+  ],
+  "sections": [
+    {
+      "name": "Intro",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.693,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Bb",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.131664336
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.161110743
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.67732558,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.161110743
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.6119186,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.59441805,
+          "fragments": [
+            {
+              "text": "Anytime I need to see your face, I just close my eyes,",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.56235154,
+          "fragments": [
+            {
+              "text": "and I am taken to a place where your crystal mind",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.545,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.52906977,
+          "fragments": [
+            {
+              "text": "and magenta feelings take up shelter in the",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.49703088,
+          "fragments": [
+            {
+              "text": "base of my spine, sweet like a chick of cherry cola.",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.48255814,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.46496437,
+          "fragments": [
+            {
+              "text": "I don't need to try to explain. I just hold on tight,",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.43289786,
+          "fragments": [
+            {
+              "text": "and if it happens again, I might move so slightly",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.415,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.40116279,
+          "fragments": [
+            {
+              "text": "to the arms and the lips and the face of the human",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.3675772,
+          "fragments": [
+            {
+              "text": "cannon-ball that I need to. I want to.",
+              "sourceX": 0.09240246
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pre-Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.30523256,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.40649746800000003
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.28488372,
+          "fragments": [
+            {
+              "text": "Come stand a little bit closer. Breathe in and get a bit higher",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.27,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.445759344
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.25415677,
+          "fragments": [
+            {
+              "text": "You'll never know what hit you when I get to you...",
+              "sourceX": 0.09240246
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.19040698,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Bb",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.180741681
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.347604654
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.17151163,
+          "fragments": [
+            {
+              "text": "Ooh,  I want you. I don't know if I need you, but",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.15843023,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Bb",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.180741681
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.327973716
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.13953488,
+          "fragments": [
+            {
+              "text": "ooh, I'd die to find out.",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.12645349,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Bb",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.180741681
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.347604654
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.10755814,
+          "fragments": [
+            {
+              "text": "Ooh,  I want you. I don't know if I need you, but",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 1,
+          "sourceY": 0.09302326,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Bb",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.22000355700000002
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.36723559200000006
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 1,
+          "sourceY": 0.07541568,
+          "fragments": [
+            {
+              "text": "ooh, I would die to find out.",
+              "sourceX": 0.09240246
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 2",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.92587209,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.9067696,
+          "fragments": [
+            {
+              "text": "I'm the kind of person who endorses a deep commitment.",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.87351544,
+          "fragments": [
+            {
+              "text": "Getting comfy, getting perfect is what I live for.",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.857,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.84144893,
+          "fragments": [
+            {
+              "text": "But a look and then the smell of perfume, it's like I'm",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.81104651,
+          "fragments": [
+            {
+              "text": "down on the floor and I don't know what I'm in for.",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.791,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.77530921,
+          "fragments": [
+            {
+              "text": "Conversation, there's a time and place in the interaction",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.74273256,
+          "fragments": [
+            {
+              "text": "of a lover, and I make it the time I'm talking,",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.726,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.71199525,
+          "fragments": [
+            {
+              "text": "using symbols, using words can be likened to a",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.68023256,
+          "fragments": [
+            {
+              "text": "deep sea diver who is swimming with a raincoat.",
+              "sourceX": 0.09240246
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pre-Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.61627907,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.40649746800000003
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.59738372,
+          "fragments": [
+            {
+              "text": "Come stand a little bit closer. Breathe in and get a bit higher",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.582,
+          "expectedChordCount": 2,
+          "anchors": [
+            {
+              "chord": "D",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.445759344
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.56532067,
+          "fragments": [
+            {
+              "text": "You'll never know what hit you when I get to you...",
+              "sourceX": 0.09240246
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.50290698,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Bb",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.180741681
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.347604654
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.48255814,
+          "fragments": [
+            {
+              "text": "Ooh,  I want you. I don't know if I need you, but",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.46947674,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Bb",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.180741681
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.327973716
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.4505814,
+          "fragments": [
+            {
+              "text": "ooh, I'd die to find out.",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.4375,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Bb",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.180741681
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.347604654
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.4067696,
+          "fragments": [
+            {
+              "text": "Ooh,  I want you. I don't know if I need you, but",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.404,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Bb",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.22000355700000002
+            },
+            {
+              "chord": "G5",
+              "sourceX": 0.36723559200000006
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.37209302,
+          "fragments": [
+            {
+              "text": "ooh, I would die to find out.",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.37209302,
+          "expectedChordCount": 5,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.121848867
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.22000355700000002
+            },
+            {
+              "chord": "Bb",
+              "sourceX": 0.24944996400000002
+            },
+            {
+              "chord": "G5",
+              "sourceX": 0.36723559200000006
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.35610465,
+          "fragments": [
+            {
+              "text": "Ooh ah...  ooh ah.",
+              "sourceX": 0.09240246
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verse 1",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.29360465,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.2747093,
+          "fragments": [
+            {
+              "text": "Anytime I need to see your face, I just close my eyes,",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.24273256,
+          "fragments": [
+            {
+              "text": "and I am taken to a place where your crystal mind",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.225,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.21075581,
+          "fragments": [
+            {
+              "text": "and magenta feelings take up shelter in the",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.17713648,
+          "fragments": [
+            {
+              "text": "base of my spine, sweet like a chick of cherry cola.",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.16133721,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.14534884,
+          "fragments": [
+            {
+              "text": "I don't need to try to explain. I just hold on tight,",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.11337209,
+          "fragments": [
+            {
+              "text": "and if it happens again, I might move so slightly",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 2,
+          "sourceY": 0.095,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "C",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.08135392,
+          "fragments": [
+            {
+              "text": "to the arms and the lips and the face of the human",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "lyrics",
+          "page": 2,
+          "sourceY": 0.04928741,
+          "fragments": [
+            {
+              "text": "cannon-ball that I need to. I want you.",
+              "sourceX": 0.09240246
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.89098837,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Bb",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.180741681
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.347604654
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.87054632,
+          "fragments": [
+            {
+              "text": "Ooh,  I want you. I don't know if I need you, but",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.857,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Bb",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.180741681
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.327973716
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.84011628,
+          "fragments": [
+            {
+              "text": "ooh, I'd die to find out.",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.8255814,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Bb",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.180741681
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.347604654
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.79505814,
+          "fragments": [
+            {
+              "text": "Ooh,  I want you. I don't know if I need you, but",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.792,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Bb",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.22000355700000002
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.36723559200000006
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.77416307,
+          "fragments": [
+            {
+              "text": "ooh, I would die to find out. So can't we find out?",
+              "sourceX": 0.09240246
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Middle 8",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.7122093,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "Bb5",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": ""
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.68023256,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "Bb5",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C5",
+              "sourceX": 0.22000355700000002
+            },
+            {
+              "chord": "G5",
+              "sourceX": 0.347604654
+            },
+            {
+              "chord": "Bb5",
+              "sourceX": 0.524283096
+            },
+            {
+              "chord": "C5",
+              "sourceX": 0.573360441
+            },
+            {
+              "chord": "G5",
+              "sourceX": 0.612622317
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.66133721,
+          "fragments": [
+            {
+              "text": "Softly as the animals fall so far ahead.",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.64825581,
+          "expectedChordCount": 6,
+          "anchors": [
+            {
+              "chord": "Bb5",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C5",
+              "sourceX": 0.22981902600000004
+            },
+            {
+              "chord": "G5",
+              "sourceX": 0.347604654
+            },
+            {
+              "chord": "Bb5",
+              "sourceX": 0.524283096
+            },
+            {
+              "chord": "C5",
+              "sourceX": 0.573360441
+            },
+            {
+              "chord": "G5",
+              "sourceX": 0.612622317
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.62936047,
+          "fragments": [
+            {
+              "text": "Softly as the animals fall so far ahead.",
+              "sourceX": 0.09240246
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chorus",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.56831395,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Bb",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.180741681
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.347604654
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.54631829,
+          "fragments": [
+            {
+              "text": "Ooh,  I want you. I don't know if I need you, but",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.53488372,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Bb",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.180741681
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.327973716
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.51598837,
+          "fragments": [
+            {
+              "text": "ooh, I'd die to find out.",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.50290698,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Bb",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.180741681
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.347604654
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.48255814,
+          "fragments": [
+            {
+              "text": "Ooh,  I want you. I don't know if I need you, but",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.46947674,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Bb",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.22000355700000002
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.36723559200000006
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.4505814,
+          "fragments": [
+            {
+              "text": "ooh, I would die to find out.",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.4375,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Bb",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.180741681
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.347604654
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.41860465,
+          "fragments": [
+            {
+              "text": "Ooh,  I want you. I don't know if I need you, but",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.40552326,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Bb",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.180741681
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.327973716
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.38657957,
+          "fragments": [
+            {
+              "text": "ooh, I'd die to find out.  (I gotta find out.)",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.37209302,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Bb",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.180741681
+            },
+            {
+              "chord": "G",
+              "sourceX": 0.347604654
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.35319767,
+          "fragments": [
+            {
+              "text": "Ooh,  I want you. I don't know if I need you, but  (So can't we find out?)",
+              "sourceX": 0.09240246
+            }
+          ]
+        },
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.34011628,
+          "expectedChordCount": 3,
+          "anchors": [
+            {
+              "chord": "Bb",
+              "sourceX": 0.09240246
+            },
+            {
+              "chord": "C",
+              "sourceX": 0.22000355700000002
+            },
+            {
+              "chord": "G5",
+              "sourceX": 0.36723559200000006
+            }
+          ]
+        },
+        {
+          "type": "lyrics",
+          "page": 3,
+          "sourceY": 0.32244656,
+          "fragments": [
+            {
+              "text": "ooh, I would die to find out.",
+              "sourceX": 0.09240246
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ending",
+      "rows": [
+        {
+          "type": "chords",
+          "page": 3,
+          "sourceY": 0.29360465,
+          "expectedChordCount": 1,
+          "anchors": [
+            {
+              "chord": "G",
+              "sourceX": 0.09240246
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Source",
+      "rows": [
+        {
+          "type": "note",
+          "text": "Sent in from Isak Bondesson  e-mail: BoneDee@hotmail.com"
+        }
+      ]
+    }
+  ]
+}
