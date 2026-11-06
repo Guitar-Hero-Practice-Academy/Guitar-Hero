@@ -1,7 +1,7 @@
 const sympathyCoordinateSong = window.initialSongs.find((song) => song.id === "rolling-stones-sympathy-for-the-devil");
 
 if (sympathyCoordinateSong) {
-  sympathyCoordinateSong.contentRevision = 5;
+  sympathyCoordinateSong.contentRevision = 6;
   sympathyCoordinateSong.chart = `[Verse 1]
 E                       D
 Please allow me to introduce myself
@@ -123,54 +123,5 @@ Hope you guess my name
 But what's puzzling you
                     E
 Is the nature of my game
-um baby, get down
-
-[Outro ad-libs]
-Woo, who
-Oh yeah, get on down
-Oh yeah
-Oh yeah!
-Tell me baby, what's my name
-Tell me honey, baby guess my name
-Tell me baby, what's my name
-I tell you one time, you're to blame
-Ooo, who
-Ooo, who
-Ooo, who
-Ooo, who, who
-Ooo, who, who
-Ooo, who, who
-Ooo, who, who
-Ooo, who, who
-Ooo, who, who
-Ooo, who, who
-Oh, yeah
-What's my name
-Tell me, baby, what's my name
-Tell me, sweetie, what's my name
-Ooo, who, who
-Ooo, who, who
-Ooo, who, who
-Ooo, who, who
-Ooo, who, who
-Ooo, who, who
-Ooo, who, who
-Oh, yeah
-
-[Alternates]
-Capo II
-E = D
-D = C
-A = G
-B = A
-Open (These chords are not in the original key)
-E = A
-D = G
-A = D
-B = E
-E = G
-D = F
-A = C
-B = D
-Set8`;
+um baby, get down`;
 }
